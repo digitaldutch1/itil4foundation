@@ -1,0 +1,491 @@
+{
+  "chapters": [
+    {
+      "chapter": "ITIL 4 test 3_3 (EN)",
+      "description": "ITIL 4 - Practice Test 3_3 (EN, questions 81-120)",
+      "questions": [
+        {
+          "number": 81,
+          "question": "Which practice would help a user gain access to an application that they need to use?",
+          "options": ["Service request management","Service level management","Change enablement / Change control","Service configuration management"],
+          "answer": "Service request management",
+          "explanation": {
+            "Service request management": "Correct: handles user-initiated requests such as access.",
+            "Service level management": "Incorrect: sets and manages performance targets.",
+            "Change enablement / Change control": "Incorrect: assesses and authorizes changes.",
+            "Service configuration management": "Incorrect: maintains accurate configuration information."
+          }
+        },
+        {
+          "number": 82,
+          "question": "Which practice involves the management of vulnerabilities that have been analyzed but not resolved?",
+          "options": ["Change control","Service request management","Problem management","Service level management"],
+          "answer": "Problem management",
+          "explanation": {
+            "Change control": "Incorrect: change risk assessment and authorization.",
+            "Service request management": "Incorrect: predefined user requests.",
+            "Problem management": "Correct: manages known errors and workarounds.",
+            "Service level management": "Incorrect: service performance targets."
+          }
+        },
+        {
+          "number": 83,
+          "question": "Which practice includes the use of approaches such as Lean, Agile and DevOps with the aim of facilitating a greater amount of change at a quicker rate?",
+          "options": ["Service level management","Service desk","Monitoring and event management","Continual improvement"],
+          "answer": "Continual improvement",
+          "explanation": {
+            "Service level management": "Incorrect.",
+            "Service desk": "Incorrect.",
+            "Monitoring and event management": "Incorrect.",
+            "Continual improvement": "Correct: adopts methods to improve faster and more often."
+          }
+        },
+        {
+          "number": 84,
+          "question": "Identify the missing word in the following sentence. The purpose of the 'supplier management' practice is to ensure that the organization's suppliers and their performances are [?] appropriately to support the seamless provision of quality products and services.",
+          "options": ["Measured","Managed","Defined","Rewarded"],
+          "answer": "Managed",
+          "explanation": {
+            "Measured": "Measurement is useful but not the core purpose worded in the definition.",
+            "Managed": "Correct: suppliers and their performance must be managed.",
+            "Defined": "Too vague.",
+            "Rewarded": "Not part of the core purpose."
+          }
+        },
+        {
+          "number": 85,
+          "question": "Which guiding principle recommends eliminating activities that do not contribute to the creation of value?",
+          "options": ["Keep it simple and practical","Optimize and automate","Collaborate and promote visibility","Start where you are"],
+          "answer": "Keep it simple and practical",
+          "explanation": {
+            "Keep it simple and practical": "Correct: remove non-value-adding steps.",
+            "Optimize and automate": "Optimize after simplifying.",
+            "Collaborate and promote visibility": "Focuses on communication.",
+            "Start where you are": "Focuses on leveraging current state."
+          }
+        },
+        {
+          "number": 86,
+          "question": "Which statement about the automation of service requests is CORRECT?",
+          "options": ["Service requests and their fulfilment should be automated as much as possible","Service requests that cannot be automated should be handled as incidents","Service requests and their fulfilment should be carried out by service desk staff without automation","Service requests that cannot be automated should be handled as problems"],
+          "answer": "Service requests and their fulfilment should be automated as much as possible",
+          "explanation": {
+            "Service requests and their fulfilment should be automated as much as possible": "Correct: standardize and automate to increase speed and consistency.",
+            "Service requests that cannot be automated should be handled as incidents": "Incorrect.",
+            "Service requests and their fulfilment should be carried out by service desk staff without automation": "Incorrect.",
+            "Service requests that cannot be automated should be handled as problems": "Incorrect."
+          }
+        },
+        {
+          "number": 87,
+          "question": "Which statement about outputs is CORRECT?",
+          "options": ["They capture customer demand for services","They consist of several outcomes","They contribute to the achievement of outcomes","They describe how the service performs"],
+          "answer": "They contribute to the achievement of outcomes",
+          "explanation": {
+            "They capture customer demand for services": "Incorrect.",
+            "They consist of several outcomes": "Incorrect: outcomes are enabled by outputs.",
+            "They contribute to the achievement of outcomes": "Correct.",
+            "They describe how the service performs": "Incorrect: relates to warranty."
+          }
+        },
+        {
+          "number": 88,
+          "question": "Which is an example of a business related measurement?",
+          "options": ["The average time to respond to change requests","The average resolution time for incidents","The number of passengers checked in","The number of problems resolved"],
+          "answer": "The number of passengers checked in",
+          "explanation": {
+            "The average time to respond to change requests": "Operational metric.",
+            "The average resolution time for incidents": "Operational metric.",
+            "The number of passengers checked in": "Correct: business outcome metric.",
+            "The number of problems resolved": "Operational metric."
+          }
+        },
+        {
+          "number": 89,
+          "question": "Which BEST describes the purpose of the 'improve' value chain activity?",
+          "options": ["To make new and improved services and features available for use","To ensure a shared understanding of the vision and improvement direction for all products and services","To organize a major improvement initiative into several smaller initiatives","To continually improve all products and services across all value chain activities"],
+          "answer": "To continually improve all products and services across all value chain activities",
+          "explanation": {
+            "To continually improve all products and services across all value chain activities": "Correct.",
+            "To make new and improved services and features available for use": "Release management.",
+            "To ensure a shared understanding of the vision and improvement direction for all products and services": "Plan activity.",
+            "To organize a major improvement initiative into several smaller initiatives": "An approach, not the Improve purpose."
+          }
+        },
+        {
+          "number": 90,
+          "question": "In service relationships, what is a benefit of identifying consumer roles?",
+          "options": ["It enables effective stakeholder management","It enables a common definition of value","It provides shared service expectations","It removes constraints from the customer"],
+          "answer": "It enables effective stakeholder management",
+          "explanation": {
+            "It enables effective stakeholder management": "Correct: clear roles improve communication and management.",
+            "It enables a common definition of value": "Helpful outcome, but not the main benefit listed.",
+            "It provides shared service expectations": "Related, but role clarity primarily supports stakeholder management.",
+            "It removes constraints from the customer": "Not necessarily."
+          }
+        },
+        {
+          "number": 91,
+          "question": "Which statement about standard changes is CORRECT?",
+          "options": ["The appropriate change authority should be assigned to each type of change","The change does not require additional authorization","A full assessment should be completed each time the change is implemented","The change can be implemented with less testing if necessary"],
+          "answer": "The change does not require additional authorization",
+          "explanation": {
+            "The appropriate change authority should be assigned to each type of change": "True generally, but standard changes are pre-authorized.",
+            "The change does not require additional authorization": "Correct: standard changes are pre-authorized.",
+            "A full assessment should be completed each time the change is implemented": "Incorrect for standard changes.",
+            "The change can be implemented with less testing if necessary": "Not the defining characteristic."
+          }
+        },
+        {
+          "number": 92,
+          "question": "Which is an activity of 'problem identification'?",
+          "options": ["Analyzing information from software developers","Establishing potential permanent solutions","Analyzing the cause of problems","Establishing problem workarounds"],
+          "answer": "Analyzing information from software developers",
+          "explanation": {
+            "Analyzing information from software developers": "Correct: input used to identify and log problems.",
+            "Establishing potential permanent solutions": "Error control.",
+            "Analyzing the cause of problems": "Problem control.",
+            "Establishing problem workarounds": "Problem control."
+          }
+        },
+        {
+          "number": 93,
+          "question": "Which is included in the purpose of the plan value chain activity?",
+          "options": ["Providing a good understanding of stakeholder needs","Maintaining good relationships with all stakeholders","Ensuring people understand the improvement direction for all services","Ensuring that services are continually improved"],
+          "answer": "Ensuring people understand the improvement direction for all services",
+          "explanation": {
+            "Ensuring people understand the improvement direction for all services": "Correct: part of Plan's purpose.",
+            "Providing a good understanding of stakeholder needs": "Engage activity.",
+            "Maintaining good relationships with all stakeholders": "Relationship management practice.",
+            "Ensuring that services are continually improved": "Improve activity."
+          }
+        },
+        {
+          "number": 94,
+          "question": "What actions does a service desk take for all issues, queries and requests that are reported to them?",
+          "options": ["Initiate, approve, fulfil","Diagnose, investigate, resolve","Acknowledge, classify, own","Schedule, assess, authorize"],
+          "answer": "Acknowledge, classify, own",
+          "explanation": {
+            "Acknowledge, classify, own": "Correct: standard service desk handling.",
+            "Initiate, approve, fulfil": "Not the service desk's generic triad.",
+            "Diagnose, investigate, resolve": "Typically for support groups.",
+            "Schedule, assess, authorize": "Change enablement flow."
+          }
+        },
+        {
+          "number": 95,
+          "question": "Which practice has a strong influence on the user experience and perception of the service provider?",
+          "options": ["Supplier management","Service level management","Change enablement","Service desk"],
+          "answer": "Service desk",
+          "explanation": {
+            "Service desk": "Correct: the main human touchpoint shaping perception.",
+            "Supplier management": "Indirect influence.",
+            "Service level management": "Targets and reviews; less direct.",
+            "Change enablement": "Back-stage governance."
+          }
+        },
+        {
+          "number": 96,
+          "question": "What can a service remove from the consumer and impose on the consumer?",
+          "options": ["Outcome","Asset","Cost","Utility"],
+          "answer": "Cost",
+          "explanation": {
+            "Outcome": "Incorrect.",
+            "Asset": "Incorrect.",
+            "Cost": "Correct: costs can be removed and also imposed.",
+            "Utility": "Incorrect."
+          }
+        },
+        {
+          "number": 97,
+          "question": "Which statement about costs is CORRECT?",
+          "options": ["Costs removed from the consumer are part of service consumption","Costs imposed on the consumer are costs of service utility","Costs imposed on the consumer are costs of service warranty","Costs removed from the consumer are part of the value proposition"],
+          "answer": "Costs removed from the consumer are part of the value proposition",
+          "explanation": {
+            "Costs removed from the consumer are part of service consumption": "Incorrect.",
+            "Costs imposed on the consumer are costs of service utility": "Incorrect.",
+            "Costs imposed on the consumer are costs of service warranty": "Incorrect.",
+            "Costs removed from the consumer are part of the value proposition": "Correct."
+          }
+        },
+        {
+          "number": 98,
+          "question": "Which skill is required by the 'service level management' practice?",
+          "options": ["Technical expertise","Supplier management","Problem management","Event monitoring"],
+          "answer": "Supplier management",
+          "explanation": {
+            "Technical expertise": "Not a core SLM skill.",
+            "Supplier management": "Correct: commercial and supplier management are core.",
+            "Problem management": "Different practice.",
+            "Event monitoring": "Different practice."
+          }
+        },
+        {
+          "number": 99,
+          "question": "Which is an activity of the 'incident management' practice?",
+          "options": ["Assessing and prioritizing improvement opportunities","Performing service reviews with customers","Automating service requests to the greatest degree possible","Providing good-quality updates when expected"],
+          "answer": "Providing good-quality updates when expected",
+          "explanation": {
+            "Providing good-quality updates when expected": "Correct: timely communication is key.",
+            "Assessing and prioritizing improvement opportunities": "Continual improvement.",
+            "Performing service reviews with customers": "Service level management.",
+            "Automating service requests to the greatest degree possible": "Service request management."
+          }
+        },
+        {
+          "number": 100,
+          "question": "How does information about problems and known errors contribute to 'incident management'?",
+          "options": ["It removes the need for collaboration during incident resolution","It removes the need for regular customer updates","It enables the reassessment of known error","It enables quick and efficient diagnosis of incidents"],
+          "answer": "It enables quick and efficient diagnosis of incidents",
+          "explanation": {
+            "It enables quick and efficient diagnosis of incidents": "Correct: linked knowledge accelerates restoration.",
+            "It removes the need for collaboration during incident resolution": "Incorrect.",
+            "It removes the need for regular customer updates": "Incorrect.",
+            "It enables the reassessment of known error": "Not the main contribution."
+          }
+        },
+        {
+          "number": 101,
+          "question": "What impact does automation have on a service desk?",
+          "options": ["Increased phone contact and a reduced ability to focus on user experience","Ability to work from multiple locations, geographically dispersed","Ability to work from a single centralized location","Less low level work and a greater ability to focus on user experience"],
+          "answer": "Less low level work and a greater ability to focus on user experience",
+          "explanation": {
+            "Less low level work and a greater ability to focus on user experience": "Correct: automation reduces repetitive effort.",
+            "Increased phone contact and a reduced ability to focus on user experience": "Incorrect.",
+            "Ability to work from multiple locations, geographically dispersed": "A virtual model; not the impact asked.",
+            "Ability to work from a single centralized location": "A structural choice; not about automation."
+          }
+        },
+        {
+          "number": 102,
+          "question": "Which guiding principle is PRIMARILY concerned with end-to-end service delivery?",
+          "options": ["Collaborate and promote visibility","Optimize and automate","Focus on value","Think and work holistically"],
+          "answer": "Think and work holistically",
+          "explanation": {
+            "Think and work holistically": "Correct: requires end-to-end integration and visibility.",
+            "Collaborate and promote visibility": "Engagement principle.",
+            "Optimize and automate": "Efficiency principle.",
+            "Focus on value": "Value-centric but not specifically end-to-end integration."
+          }
+        },
+        {
+          "number": 103,
+          "question": "Which practice uses technologies such as intelligent telephony systems, a knowledge base and monitoring tools?",
+          "options": ["Service desk","Deployment management","Problem management","Service configuration management"],
+          "answer": "Service desk",
+          "explanation": {
+            "Service desk": "Correct: leverages telephony, KB, remote tools and dashboards.",
+            "Deployment management": "Moves components.",
+            "Problem management": "Root cause analysis.",
+            "Service configuration management": "CMDB/CI information."
+          }
+        },
+        {
+          "number": 104,
+          "question": "Which role approves the cost of services?",
+          "options": ["Change authority","User","Customer","Sponsor"],
+          "answer": "Sponsor",
+          "explanation": {
+            "Change authority": "Approves changes, not service spend.",
+            "User": "Consumes services.",
+            "Customer": "Defines requirements and owns outcomes.",
+            "Sponsor": "Correct: authorizes budget for service consumption."
+          }
+        },
+        {
+          "number": 105,
+          "question": "Which dimension considers data security and privacy?",
+          "options": ["Partners and suppliers","Value streams and processes","Organizations and people","Information and technology"],
+          "answer": "Information and technology",
+          "explanation": {
+            "Partners and suppliers": "External relationships.",
+            "Value streams and processes": "Activities and workflows.",
+            "Organizations and people": "Roles, skills, culture.",
+            "Information and technology": "Correct: includes information security and compliance."
+          }
+        },
+        {
+          "number": 106,
+          "question": "Why should some service requests be fulfilled with no additional approvals?",
+          "options": ["To streamline the fulfilment workflow","To ensure that spending is properly accounted for","To ensure that information security requirements are met","To set user expectations for fulfilment times"],
+          "answer": "To streamline the fulfilment workflow",
+          "explanation": {
+            "To streamline the fulfilment workflow": "Correct: pre-approval speeds standard requests.",
+            "To ensure that spending is properly accounted for": "Not the primary reason.",
+            "To ensure that information security requirements are met": "Important, but separate.",
+            "To set user expectations for fulfilment times": "A benefit, not the reason."
+          }
+        },
+        {
+          "number": 107,
+          "question": "Which practice is MOST likely to benefit from the use of chatbots?",
+          "options": ["Service level management","Service desk","Change enablement","Continual improvement"],
+          "answer": "Service desk",
+          "explanation": {
+            "Service desk": "Correct: chatbots support self-service logging and resolution.",
+            "Service level management": "Less direct benefit.",
+            "Change enablement": "Not typical.",
+            "Continual improvement": "Method, not a front door."
+          }
+        },
+        {
+          "number": 108,
+          "question": "Which statement about a 'continual improvement register' is CORRECT",
+          "options": ["It should be managed at the senior level of the organization","It should be re-prioritized as ideas are documented","It should be used to capture user demand","There should only be one for the whole organization"],
+          "answer": "It should be re-prioritized as ideas are documented",
+          "explanation": {
+            "It should be managed at the senior level of the organization": "Not necessarily; ownership varies.",
+            "It should be re-prioritized as ideas are documented": "Correct: dynamic reprioritization.",
+            "It should be used to capture user demand": "Incorrect: CIR captures improvements, not demand.",
+            "There should only be one for the whole organization": "Not mandated."
+          }
+        },
+        {
+          "number": 109,
+          "question": "Which guiding principle recommends using the minimum number of steps necessary to achieve an objective?",
+          "options": ["Keep it simple and practical","Focus on value","Think and work holistically","Progress iteratively with feedback"],
+          "answer": "Keep it simple and practical",
+          "explanation": {
+            "Keep it simple and practical": "Correct.",
+            "Focus on value": "Value-centric.",
+            "Think and work holistically": "System view.",
+            "Progress iteratively with feedback": "Iteration and learning."
+          }
+        },
+        {
+          "number": 110,
+          "question": "Which statement about the service value chain is CORRECT?",
+          "options": ["The service value chain uses value streams to describe a combination of consumers and providers","Each value chain activity uses different combinations of practices to convert inputs into outputs","Each value chain activity identifies a requirement for resources from an external supplier","The service value chain converts value into demand."],
+          "answer": "Each value chain activity uses different combinations of practices to convert inputs into outputs",
+          "explanation": {
+            "Each value chain activity uses different combinations of practices to convert inputs into outputs": "Correct.",
+            "The service value chain uses value streams to describe a combination of consumers and providers": "Incorrect.",
+            "Each value chain activity identifies a requirement for resources from an external supplier": "Incorrect.",
+            "The service value chain converts value into demand.": "Incorrect."
+          }
+        },
+        {
+          "number": 111,
+          "question": "Which guiding principle considers which parts of an existing process should be kept by identifying how they contribute to value creation?",
+          "options": ["Collaborate and promote visibility","Think and work holistically","Keep it simple and practical","Progress iteratively with feedback"],
+          "answer": "Keep it simple and practical",
+          "explanation": {
+            "Collaborate and promote visibility": "About involvement and transparency.",
+            "Think and work holistically": "End-to-end view.",
+            "Keep it simple and practical": "Correct: keep only what adds value.",
+            "Progress iteratively with feedback": "Iteration and learning."
+          }
+        },
+        {
+          "number": 112,
+          "question": "Which ITIL practice recommends performing service reviews to ensure that services continue to meet the needs of the organization?",
+          "options": ["Service request management","Service desk","Service configuration management","Service level management"],
+          "answer": "Service level management",
+          "explanation": {
+            "Service request management": "Handles predefined requests.",
+            "Service desk": "Entry point and coordination.",
+            "Service configuration management": "Accurate configuration information.",
+            "Service level management": "Correct: conducts service reviews."
+          }
+        },
+        {
+          "number": 113,
+          "question": "Which guiding principle considers customer and user experience?",
+          "options": ["Keep it simple and practical","Focus on value","Collaborate and promote visibility","Start where you are"],
+          "answer": "Focus on value",
+          "explanation": {
+            "Keep it simple and practical": "Simplicity principle.",
+            "Focus on value": "Correct: CX/UX are core elements of value.",
+            "Collaborate and promote visibility": "Involvement and transparency.",
+            "Start where you are": "Use current state."
+          }
+        },
+        {
+          "number": 114,
+          "question": "What is an incident?",
+          "options": ["A possible future event that could cause harm","A service interruption resolved by the use of self-help tools","The planned removal of an item that might affect a service","A result enabled by one or more outputs"],
+          "answer": "A service interruption resolved by the use of self-help tools",
+          "explanation": {
+            "A possible future event that could cause harm": "Risk.",
+            "A service interruption resolved by the use of self-help tools": "Correct: incidents can be user-resolved via self-help.",
+            "The planned removal of an item that might affect a service": "Change.",
+            "A result enabled by one or more outputs": "Outcome."
+          }
+        },
+        {
+          "number": 115,
+          "question": "What is the definition of sponsor?",
+          "options": ["A person who authorizes budget for service consumption","A person or a group of people that has its own functions with authorities","A person or group who authorizes a change","A person who defines the requirements for a service"],
+          "answer": "A person who authorizes budget for service consumption",
+          "explanation": {
+            "A person who authorizes budget for service consumption": "Correct.",
+            "A person or a group of people that has its own functions with authorities": "Organization.",
+            "A person or group who authorizes a change": "Change authority.",
+            "A person who defines the requirements for a service": "Customer."
+          }
+        },
+        {
+          "number": 116,
+          "question": "Which practice has a purpose that includes observing a service to report selected changes of state identified as events?",
+          "options": ["Monitoring and event management","Information security management","Change control","Incident management"],
+          "answer": "Monitoring and event management",
+          "explanation": {
+            "Monitoring and event management": "Correct.",
+            "Information security management": "Protects information.",
+            "Change control": "Assesses and authorizes changes.",
+            "Incident management": "Restores service."
+          }
+        },
+        {
+          "number": 117,
+          "question": "Which is a recommendation of the guiding principle 'think and work holistically'?",
+          "options": ["Review service management practices and remove any unnecessary complexity","Use the four dimensions of service management to ensure coordination of all aspects of an improvement initiative","Conduct a review of existing service management practices and decide what to keep and what to discard","Review how an improvement initiative can be organized into smaller, manageable sections that can be completed in a timely manner"],
+          "answer": "Use the four dimensions of service management to ensure coordination of all aspects of an improvement initiative",
+          "explanation": {
+            "Use the four dimensions of service management to ensure coordination of all aspects of an improvement initiative": "Correct.",
+            "Review service management practices and remove any unnecessary complexity": "Simplicity principle.",
+            "Conduct a review of existing service management practices and decide what to keep and what to discard": "Simplicity principle.",
+            "Review how an improvement initiative can be organized into smaller, manageable sections that can be completed in a timely manner": "Iterative principle."
+          }
+        },
+        {
+          "number": 118,
+          "question": "An organization is notified by a supplier about a defect in a software product that they use. Which practice describes the activities needed to log and manage this?",
+          "options": ["Change control","Problem management","Incident management","Service desk"],
+          "answer": "Incident management",
+          "explanation": {
+            "Change control": "Not primarily for logging defects from suppliers.",
+            "Problem management": "May analyze root cause later.",
+            "Incident management": "Correct: logs and manages operational issues reported.",
+            "Service desk": "Captures demand; handling is within incident management."
+          }
+        },
+        {
+          "number": 119,
+          "question": "Which includes governance, management practices, and continual improvement?",
+          "options": ["The 'focus on value' guiding principle","The 'value stream and processes' dimension","The 'deliver and support' value chain activity","The service value system"],
+          "answer": "The service value system",
+          "explanation": {
+            "The service value system": "Correct: SVS comprises governance, service value chain, practices, guiding principles, continual improvement.",
+            "The 'focus on value' guiding principle": "Single principle.",
+            "The 'value stream and processes' dimension": "One dimension.",
+            "The 'deliver and support' value chain activity": "One activity."
+          }
+        },
+        {
+          "number": 120,
+          "question": "An SLA is a service level agreement. Which describes the 'watermelon SLA' effect?",
+          "options": ["The metrics in an SLA are focused on internal measures, so that reports show everything is good, while the customer is not satisfied","A single SLA defines target service levels for multiple customers, so every customer sees reports about other customers' experiences","SLA targets change very frequently, so that each report includes new measures and trends cannot be analyzed","Introducing SLAs for a service enables customers to see that the service provider is doing a really good job, so this improves satisfaction"],
+          "answer": "The metrics in an SLA are focused on internal measures, so that reports show everything is good, while the customer is not satisfied",
+          "explanation": {
+            "The metrics in an SLA are focused on internal measures, so that reports show everything is good, while the customer is not satisfied": "Correct: green on the outside, red inside.",
+            "A single SLA defines target service levels for multiple customers, so every customer sees reports about other customers' experiences": "Incorrect.",
+            "SLA targets change very frequently, so that each report includes new measures and trends cannot be analyzed": "Incorrect.",
+            "Introducing SLAs for a service enables customers to see that the service provider is doing a really good job, so this improves satisfaction": "Incorrect."
+          }
+        }
+      ]
+    }
+  ]
+}
+

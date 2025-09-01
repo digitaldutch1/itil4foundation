@@ -1,0 +1,776 @@
+{
+  "chapters": [
+    {
+      "chapter": 5,
+      "description": "ITIL 4 BL1/BL2 - Hoofdstuk 5 (Practices: 15 doelen, 7 termen, 7 practices in detail)",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Wat is het doel van Information security management?",
+          "options": [
+            "Beschermen van informatie die de organisatie nodig heeft, inclusief vertrouwelijkheid, integriteit en beschikbaarheid.",
+            "Zorgen dat services aan afgesproken servicelevels voldoen.",
+            "Nieuwe en gewijzigde services en functies beschikbaar maken voor gebruik.",
+            "Leveranciers en prestaties zo managen dat levering naadloos is."
+          ],
+          "answer": "Beschermen van informatie die de organisatie nodig heeft, inclusief vertrouwelijkheid, integriteit en beschikbaarheid.",
+          "explanation": {
+            "Beschermen van informatie die de organisatie nodig heeft, inclusief vertrouwelijkheid, integriteit en beschikbaarheid.": "Correct: dit is de kern van Information security management (CIA).",
+            "Zorgen dat services aan afgesproken servicelevels voldoen.": "Dit is Service level management.",
+            "Nieuwe en gewijzigde services en functies beschikbaar maken voor gebruik.": "Dit is Release management.",
+            "Leveranciers en prestaties zo managen dat levering naadloos is.": "Dit is Supplier management."
+          }
+        },
+        {
+          "number": 2,
+          "question": "Wat is het doel van Relationship management?",
+          "options": [
+            "Relaties op strategisch en tactisch niveau opbouwen en onderhouden met stakeholders.",
+            "De levenscyclus van IT-assets plannen en managen.",
+            "Wijzigingen autoriseren en risico's beoordelen.",
+            "Servicecomponenten naar productie- of testomgevingen verplaatsen."
+          ],
+          "answer": "Relaties op strategisch en tactisch niveau opbouwen en onderhouden met stakeholders.",
+          "explanation": {
+            "Relaties op strategisch en tactisch niveau opbouwen en onderhouden met stakeholders.": "Correct: dit is het doel van Relationship management.",
+            "De levenscyclus van IT-assets plannen en managen.": "Dit is IT asset management.",
+            "Wijzigingen autoriseren en risico's beoordelen.": "Dit is Change enablement.",
+            "Servicecomponenten naar productie- of testomgevingen verplaatsen.": "Dit is Deployment management."
+          }
+        },
+        {
+          "number": 3,
+          "question": "Wat is het doel van Supplier management?",
+          "options": [
+            "Leveranciers en hun prestaties op de juiste manier managen om naadloze levering van kwaliteitsproducten en -services te ondersteunen.",
+            "Voortdurende verbetering van producten en services stimuleren.",
+            "Nieuwe en gewijzigde services valideren en testen.",
+            "Incidenten zo snel mogelijk herstellen."
+          ],
+          "answer": "Leveranciers en hun prestaties op de juiste manier managen om naadloze levering van kwaliteitsproducten en -services te ondersteunen.",
+          "explanation": {
+            "Leveranciers en hun prestaties op de juiste manier managen om naadloze levering van kwaliteitsproducten en -services te ondersteunen.": "Correct: doel van Supplier management.",
+            "Voortdurende verbetering van producten en services stimuleren.": "Dit is Continual improvement.",
+            "Nieuwe en gewijzigde services valideren en testen.": "Dit is Servicevalidatie en testen.",
+            "Incidenten zo snel mogelijk herstellen.": "Dit is Incident management."
+          }
+        },
+        {
+          "number": 4,
+          "question": "Wat is het doel van IT asset management?",
+          "options": [
+            "De volledige levenscyclus van IT-assets plannen en managen om waarde te maximaliseren en kosten/risico's te beheersen.",
+            "De servicecatalogus beheren en publiceren.",
+            "De configuratie van services en CI's betrouwbaar vastleggen.",
+            "Beveiligingsrisico's voor informatie mitigeren."
+          ],
+          "answer": "De volledige levenscyclus van IT-assets plannen en managen om waarde te maximaliseren en kosten/risico's te beheersen.",
+          "explanation": {
+            "De volledige levenscyclus van IT-assets plannen en managen om waarde te maximaliseren en kosten/risico's te beheersen.": "Correct: doel van IT asset management.",
+            "De servicecatalogus beheren en publiceren.": "Dit is Servicecatalogusmanagement (valt niet in BL1-lijst).",
+            "De configuratie van services en CI's betrouwbaar vastleggen.": "Dit is Service configuration management.",
+            "Beveiligingsrisico's voor informatie mitigeren.": "Dit is Information security management."
+          }
+        },
+        {
+          "number": 5,
+          "question": "Wat is het doel van Monitoring & event management?",
+          "options": [
+            "Systematisch services en servicecomponenten observeren en statuswijzigingen (events) registreren en afhandelen.",
+            "Service requests effectief en gebruikersvriendelijk afhandelen.",
+            "Root-cause analyses uitvoeren en known errors beheren.",
+            "Wijzigingen autoriseren en plannen."
+          ],
+          "answer": "Systematisch services en servicecomponenten observeren en statuswijzigingen (events) registreren en afhandelen.",
+          "explanation": {
+            "Systematisch services en servicecomponenten observeren en statuswijzigingen (events) registreren en afhandelen.": "Correct: doel van Monitoring & event management.",
+            "Service requests effectief en gebruikersvriendelijk afhandelen.": "Dit is Service request management.",
+            "Root-cause analyses uitvoeren en known errors beheren.": "Dit is Problem management.",
+            "Wijzigingen autoriseren en plannen.": "Dit is Change enablement."
+          }
+        },
+        {
+          "number": 6,
+          "question": "Wat is het doel van Release management?",
+          "options": [
+            "Nieuwe en gewijzigde services en functies beschikbaar maken voor gebruik.",
+            "Componenten naar productie- of testomgevingen verplaatsen.",
+            "Services leveren en ondersteunen conform afspraken.",
+            "Capaciteit en prestatie monitoren en plannen."
+          ],
+          "answer": "Nieuwe en gewijzigde services en functies beschikbaar maken voor gebruik.",
+          "explanation": {
+            "Nieuwe en gewijzigde services en functies beschikbaar maken voor gebruik.": "Correct: doel van Release management.",
+            "Componenten naar productie- of testomgevingen verplaatsen.": "Dit is Deployment management (nauw verwant, maar niet hetzelfde).",
+            "Services leveren en ondersteunen conform afspraken.": "Dit is Deliver & support (SVC-activiteit), geen practice in BL1-lijst.",
+            "Capaciteit en prestatie monitoren en plannen.": "Dit is Capaciteits- en prestatiemanagement (geen BL1-doel hier)."
+          }
+        },
+        {
+          "number": 7,
+          "question": "Wat is het doel van Service configuration management?",
+          "options": [
+            "Zorgen dat nauwkeurige en betrouwbare informatie over de configuratie van services en CI's beschikbaar is.",
+            "De incidentafhandeling centraal registreren.",
+            "SLA's opstellen en reviewen met klanten.",
+            "Security policies en controles definiëren."
+          ],
+          "answer": "Zorgen dat nauwkeurige en betrouwbare informatie over de configuratie van services en CI's beschikbaar is.",
+          "explanation": {
+            "Zorgen dat nauwkeurige en betrouwbare informatie over de configuratie van services en CI's beschikbaar is.": "Correct: doel van Service configuration management.",
+            "De incidentafhandeling centraal registreren.": "Dit is Servicedesk/Incident management.",
+            "SLA's opstellen en reviewen met klanten.": "Dit is Service level management.",
+            "Security policies en controles definiëren.": "Dit is Information security management."
+          }
+        },
+        {
+          "number": 8,
+          "question": "Wat is het doel van Deployment management?",
+          "options": [
+            "Nieuwe of gewijzigde componenten naar productie- of testomgevingen verplaatsen.",
+            "Wijzigingen autoriseren en plannen.",
+            "Services en functies beschikbaar maken voor gebruik.",
+            "Serviceprestaties rapporteren."
+          ],
+          "answer": "Nieuwe of gewijzigde componenten naar productie- of testomgevingen verplaatsen.",
+          "explanation": {
+            "Nieuwe of gewijzigde componenten naar productie- of testomgevingen verplaatsen.": "Correct: doel van Deployment management.",
+            "Wijzigingen autoriseren en plannen.": "Dit is Change enablement.",
+            "Services en functies beschikbaar maken voor gebruik.": "Dit is Release management.",
+            "Serviceprestaties rapporteren.": "Dit hoort bij SLM/rapportagepraktijken."
+          }
+        },
+        {
+          "number": 9,
+          "question": "Wat is het doel van Continual improvement (BL1)?",
+          "options": [
+            "Services, producten en practices voortdurend verbeteren zodat ze aansluiten bij veranderende behoeften.",
+            "Incidenten zo snel mogelijk herstellen.",
+            "Wijzigingen autoriseren en risico's beoordelen.",
+            "CI's en relaties registreren en auditen."
+          ],
+          "answer": "Services, producten en practices voortdurend verbeteren zodat ze aansluiten bij veranderende behoeften.",
+          "explanation": {
+            "Services, producten en practices voortdurend verbeteren zodat ze aansluiten bij veranderende behoeften.": "Correct: doel van Continual improvement.",
+            "Incidenten zo snel mogelijk herstellen.": "Dit is Incident management.",
+            "Wijzigingen autoriseren en risico's beoordelen.": "Dit is Change enablement.",
+            "CI's en relaties registreren en auditen.": "Dit is Service configuration management."
+          }
+        },
+        {
+          "number": 10,
+          "question": "Wat is het doel van Change enablement?",
+          "options": [
+            "Het aantal succesvolle changes maximaliseren door risico's te beoordelen, changes te autoriseren en het wijzigingsplan te managen.",
+            "Nieuwe releases plannen en beschikbaar stellen.",
+            "Service requests stroomlijnen en automatiseren.",
+            "Probleemoorzaken analyseren en known errors beheren."
+          ],
+          "answer": "Het aantal succesvolle changes maximaliseren door risico's te beoordelen, changes te autoriseren en het wijzigingsplan te managen.",
+          "explanation": {
+            "Het aantal succesvolle changes maximaliseren door risico's te beoordelen, changes te autoriseren en het wijzigingsplan te managen.": "Correct.",
+            "Nieuwe releases plannen en beschikbaar stellen.": "Release management.",
+            "Service requests stroomlijnen en automatiseren.": "Service request management.",
+            "Probleemoorzaken analyseren en known errors beheren.": "Problem management."
+          }
+        },
+        {
+          "number": 11,
+          "question": "Wat is het doel van Incident management?",
+          "options": [
+            "De impact van incidenten minimaliseren door de normale service zo snel mogelijk te herstellen.",
+            "De oorzaak van incidenten structureel oplossen.",
+            "Alle serviceaanvragen afhandelen.",
+            "Nieuwe of gewijzigde componenten uitrollen."
+          ],
+          "answer": "De impact van incidenten minimaliseren door de normale service zo snel mogelijk te herstellen.",
+          "explanation": {
+            "De impact van incidenten minimaliseren door de normale service zo snel mogelijk te herstellen.": "Correct: primaire doel van Incident management.",
+            "De oorzaak van incidenten structureel oplossen.": "Dit is Problem management.",
+            "Alle serviceaanvragen afhandelen.": "Dit is Service request management.",
+            "Nieuwe of gewijzigde componenten uitrollen.": "Dit is Deployment management."
+          }
+        },
+        {
+          "number": 12,
+          "question": "Wat is het doel van Problem management?",
+          "options": [
+            "De waarschijnlijkheid en impact van incidenten verminderen door oorzaken te analyseren en workarounds/known errors te beheren.",
+            "Service requests gebruikersvriendelijk afhandelen.",
+            "SLA's opstellen en meten.",
+            "Servicecomponenten naar productie brengen."
+          ],
+          "answer": "De waarschijnlijkheid en impact van incidenten verminderen door oorzaken te analyseren en workarounds/known errors te beheren.",
+          "explanation": {
+            "De waarschijnlijkheid en impact van incidenten verminderen door oorzaken te analyseren en workarounds/known errors te beheren.": "Correct.",
+            "Service requests gebruikersvriendelijk afhandelen.": "Dit is Service request management.",
+            "SLA's opstellen en meten.": "Dit is Service level management.",
+            "Servicecomponenten naar productie brengen.": "Dit is Deployment management."
+          }
+        },
+        {
+          "number": 13,
+          "question": "Wat is het doel van Service request management?",
+          "options": [
+            "Alle vooraf gedefinieerde, door gebruikers geïnitieerde service requests effectief en gebruikersvriendelijk afhandelen.",
+            "Incidenten registreren en oplossen.",
+            "Wijzigingen autoriseren en plannen.",
+            "Known errors registreren en mitigeren."
+          ],
+          "answer": "Alle vooraf gedefinieerde, door gebruikers geïnitieerde service requests effectief en gebruikersvriendelijk afhandelen.",
+          "explanation": {
+            "Alle vooraf gedefinieerde, door gebruikers geïnitieerde service requests effectief en gebruikersvriendelijk afhandelen.": "Correct: doel van Service request management.",
+            "Incidenten registreren en oplossen.": "Incident management.",
+            "Wijzigingen autoriseren en plannen.": "Change enablement.",
+            "Known errors registreren en mitigeren.": "Problem management."
+          }
+        },
+        {
+          "number": 14,
+          "question": "Wat is het doel van Servicedesk?",
+          "options": [
+            "Single point of contact voor gebruikers voor incidenten en service requests.",
+            "Capaciteit plannen en monitoren.",
+            "CI-gegevens vastleggen en relateren.",
+            "Changes autoriseren."
+          ],
+          "answer": "Single point of contact voor gebruikers voor incidenten en service requests.",
+          "explanation": {
+            "Single point of contact voor gebruikers voor incidenten en service requests.": "Correct: doel van Servicedesk-practice.",
+            "Capaciteit plannen en monitoren.": "Capaciteits- en prestatiemanagement.",
+            "CI-gegevens vastleggen en relateren.": "Service configuration management.",
+            "Changes autoriseren.": "Change enablement."
+          }
+        },
+        {
+          "number": 15,
+          "question": "Wat is het doel van Service level management?",
+          "options": [
+            "Duidelijke, business-gerelateerde doelen voor serviceprestaties vaststellen en bewaken.",
+            "Root-cause analyses uitvoeren.",
+            "Releases plannen en beschikbaar stellen.",
+            "Leveranciersrelaties beheren."
+          ],
+          "answer": "Duidelijke, business-gerelateerde doelen voor serviceprestaties vaststellen en bewaken.",
+          "explanation": {
+            "Duidelijke, business-gerelateerde doelen voor serviceprestaties vaststellen en bewaken.": "Correct: doel van SLM.",
+            "Root-cause analyses uitvoeren.": "Problem management.",
+            "Releases plannen en beschikbaar stellen.": "Release management.",
+            "Leveranciersrelaties beheren.": "Supplier management."
+          }
+        },
+        {
+          "number": 16,
+          "question": "Wat is de definitie van IT asset (BL1-term)?",
+          "options": [
+            "Elk financieel waardevol onderdeel dat kan bijdragen aan de levering van een IT-product of -service.",
+            "Elke statuswijziging die relevant is voor het managen van een service of CI.",
+            "Elk onderdeel dat beheerd moet worden om een IT-service te kunnen leveren.",
+            "Het toevoegen, aanpassen of verwijderen van iets dat effect kan hebben op services."
+          ],
+          "answer": "Elk financieel waardevol onderdeel dat kan bijdragen aan de levering van een IT-product of -service.",
+          "explanation": {
+            "Elk financieel waardevol onderdeel dat kan bijdragen aan de levering van een IT-product of -service.": "Correct: definitie van IT asset.",
+            "Elke statuswijziging die relevant is voor het managen van een service of CI.": "Dit is Event.",
+            "Elk onderdeel dat beheerd moet worden om een IT-service te kunnen leveren.": "Dit is Configuration item (CI).",
+            "Het toevoegen, aanpassen of verwijderen van iets dat effect kan hebben op services.": "Dit is Change."
+          }
+        },
+        {
+          "number": 17,
+          "question": "Wat is de definitie van Event (BL1-term)?",
+          "options": [
+            "Elke statuswijziging die relevant is voor het managen van een service of configuratie-item.",
+            "Een ongeplande onderbreking van een service.",
+            "Een geanalyseerd problem zonder oplossing.",
+            "Een oorzaak of mogelijke oorzaak van één of meer incidenten."
+          ],
+          "answer": "Elke statuswijziging die relevant is voor het managen van een service of configuratie-item.",
+          "explanation": {
+            "Elke statuswijziging die relevant is voor het managen van een service of configuratie-item.": "Correct: definitie van Event.",
+            "Een ongeplande onderbreking van een service.": "Dit is Incident.",
+            "Een geanalyseerd problem zonder oplossing.": "Dit is Known error.",
+            "Een oorzaak of mogelijke oorzaak van één of meer incidenten.": "Dit is Problem."
+          }
+        },
+        {
+          "number": 18,
+          "question": "Wat is de definitie van Configuration item (CI) (BL1-term)?",
+          "options": [
+            "Elk onderdeel dat beheerd moet worden om een IT-service te kunnen leveren.",
+            "Elk financieel waardevol onderdeel dat kan bijdragen aan servicelevering.",
+            "Een statuswijziging die relevant is.",
+            "Een geanalyseerd problem zonder oplossing."
+          ],
+          "answer": "Elk onderdeel dat beheerd moet worden om een IT-service te kunnen leveren.",
+          "explanation": {
+            "Elk onderdeel dat beheerd moet worden om een IT-service te kunnen leveren.": "Correct: definitie van CI.",
+            "Elk financieel waardevol onderdeel dat kan bijdragen aan servicelevering.": "Dit is IT asset.",
+            "Een statuswijziging die relevant is.": "Dit is Event.",
+            "Een geanalyseerd problem zonder oplossing.": "Dit is Known error."
+          }
+        },
+        {
+          "number": 19,
+          "question": "Wat is de definitie van Change (BL1-term)?",
+          "options": [
+            "Het toevoegen, aanpassen of verwijderen van iets dat een direct of indirect effect kan hebben op services.",
+            "Een ongeplande onderbreking van een service.",
+            "Een statuswijziging die relevant is.",
+            "Een materiële of immateriële uitkomst van een activiteit."
+          ],
+          "answer": "Het toevoegen, aanpassen of verwijderen van iets dat een direct of indirect effect kan hebben op services.",
+          "explanation": {
+            "Het toevoegen, aanpassen of verwijderen van iets dat een direct of indirect effect kan hebben op services.": "Correct: definitie van Change.",
+            "Een ongeplande onderbreking van een service.": "Dit is Incident.",
+            "Een statuswijziging die relevant is.": "Dit is Event.",
+            "Een materiële of immateriële uitkomst van een activiteit.": "Dit is Output (hoofdstuk 2)."
+          }
+        },
+        {
+          "number": 20,
+          "question": "Wat is de definitie van Incident (BL1-term)?",
+          "options": [
+            "Een ongeplande onderbreking van een service of een vermindering van de kwaliteit van een service.",
+            "Een problem dat is geanalyseerd maar nog niet is opgelost.",
+            "Een oorzaak of mogelijke oorzaak van één of meer incidenten.",
+            "Een formele beschrijving van één of meerdere services."
+          ],
+          "answer": "Een ongeplande onderbreking van een service of een vermindering van de kwaliteit van een service.",
+          "explanation": {
+            "Een ongeplande onderbreking van een service of een vermindering van de kwaliteit van een service.": "Correct: definitie van Incident.",
+            "Een problem dat is geanalyseerd maar nog niet is opgelost.": "Dit is Known error.",
+            "Een oorzaak of mogelijke oorzaak van één of meer incidenten.": "Dit is Problem.",
+            "Een formele beschrijving van één of meerdere services.": "Dit is Serviceaanbieding."
+          }
+        },
+        {
+          "number": 21,
+          "question": "Wat is de definitie van Problem (BL1-term)?",
+          "options": [
+            "Een oorzaak of mogelijke oorzaak van één of meer incidenten.",
+            "Een geanalyseerd problem zonder oplossing.",
+            "Een statuswijziging die relevant is.",
+            "Een configuratie van middelen die waarde biedt."
+          ],
+          "answer": "Een oorzaak of mogelijke oorzaak van één of meer incidenten.",
+          "explanation": {
+            "Een oorzaak of mogelijke oorzaak van één of meer incidenten.": "Correct: definitie van Problem.",
+            "Een geanalyseerd problem zonder oplossing.": "Dit is Known error.",
+            "Een statuswijziging die relevant is.": "Dit is Event.",
+            "Een configuratie van middelen die waarde biedt.": "Dit is Product (hoofdstuk 2)."
+          }
+        },
+        {
+          "number": 22,
+          "question": "Wat is de definitie van Known error (BL1-term)?",
+          "options": [
+            "Een problem dat is geanalyseerd maar nog niet is opgelost.",
+            "Een ongeplande onderbreking van een service.",
+            "Een toevoeging of verwijdering die effect heeft op services.",
+            "Een materiële of immateriële uitkomst van een activiteit."
+          ],
+          "answer": "Een problem dat is geanalyseerd maar nog niet is opgelost.",
+          "explanation": {
+            "Een problem dat is geanalyseerd maar nog niet is opgelost.": "Correct: definitie van Known error.",
+            "Een ongeplande onderbreking van een service.": "Dit is Incident.",
+            "Een toevoeging of verwijdering die effect heeft op services.": "Dit is Change.",
+            "Een materiële of immateriële uitkomst van een activiteit.": "Dit is Output (hoofdstuk 2)."
+          }
+        },
+        {
+          "number": 23,
+          "question": "Welk changetype is vooraf geautoriseerd, laag risico en volledig gedocumenteerd?",
+          "options": [
+            "Standaard change",
+            "Normale change",
+            "Emergency change",
+            "Architectuur change"
+          ],
+          "answer": "Standaard change",
+          "explanation": {
+            "Standaard change": "Correct: vooraf geautoriseerd, laag risico, volledig gedocumenteerd.",
+            "Normale change": "Volgt regulier proces met beoordeling en autorisatie (RFC).",
+            "Emergency change": "Versneld proces bij hoge urgentie; toch zoveel mogelijk testen en autoriseren.",
+            "Architectuur change": "Geen officieel ITIL 4 changetype."
+          }
+        },
+        {
+          "number": 24,
+          "question": "Wat is de rol van de CAB (Change Advisory Board) in Change enablement?",
+          "options": [
+            "Adviseren over significante changes (impact, risico, planning) zodat de autoriteit kan beslissen.",
+            "Alle changes zelfstandig autoriseren zonder andere autoriteit.",
+            "Incidenten behandelen en escaleren.",
+            "Servicecomponenten uitrollen naar productie."
+          ],
+          "answer": "Adviseren over significante changes (impact, risico, planning) zodat de autoriteit kan beslissen.",
+          "explanation": {
+            "Adviseren over significante changes (impact, risico, planning) zodat de autoriteit kan beslissen.": "Correct: de CAB adviseert, de change-authority autoriseert.",
+            "Alle changes zelfstandig autoriseren zonder andere autoriteit.": "Onjuist: CAB adviseert, autoriseert niet per se.",
+            "Incidenten behandelen en escaleren.": "Dit is Incident management.",
+            "Servicecomponenten uitrollen naar productie.": "Dit is Deployment management."
+          }
+        },
+        {
+          "number": 25,
+          "question": "Wat is het doel van een wijzigingsplan (change schedule) binnen Change enablement?",
+          "options": [
+            "Conflicten voorkomen, resources toewijzen en communicatie over changes faciliteren.",
+            "Alle incidents te plannen en prioriteren.",
+            "Servicevalidatie te automatiseren.",
+            "De servicecatalogus te publiceren."
+          ],
+          "answer": "Conflicten voorkomen, resources toewijzen en communicatie over changes faciliteren.",
+          "explanation": {
+            "Conflicten voorkomen, resources toewijzen en communicatie over changes faciliteren.": "Correct: kernfunctie van het wijzigingsplan.",
+            "Alle incidents te plannen en prioriteren.": "Hoort bij Incident management en operationele planning.",
+            "Servicevalidatie te automatiseren.": "Hoort bij Servicevalidatie en testen.",
+            "De servicecatalogus te publiceren.": "Hoort bij Servicecatalogusmanagement."
+          }
+        },
+        {
+          "number": 26,
+          "question": "Welke uitspraak over Incident management is juist (BL2)?",
+          "options": [
+            "Doel is zo snel mogelijk de normale service te herstellen; root-cause hoort primair bij Problem management.",
+            "Doel is root-cause elimineren, ongeacht hersteltijd.",
+            "Doel is alleen registreren, niet herstellen.",
+            "Doel is changes autoriseren bij storingen."
+          ],
+          "answer": "Doel is zo snel mogelijk de normale service te herstellen; root-cause hoort primair bij Problem management.",
+          "explanation": {
+            "Doel is zo snel mogelijk de normale service te herstellen; root-cause hoort primair bij Problem management.": "Correct: incident-herstel boven root-cause.",
+            "Doel is root-cause elimineren, ongeacht hersteltijd.": "Dit is Problem management.",
+            "Doel is alleen registreren, niet herstellen.": "Onjuist: herstel is juist onderdeel.",
+            "Doel is changes autoriseren bij storingen.": "Autoriseren is taak van Change enablement."
+          }
+        },
+        {
+          "number": 27,
+          "question": "Wat is een Major incident in Incident management?",
+          "options": [
+            "Een incident met zeer hoge impact dat een aparte, versnelde procedure vereist.",
+            "Een standaard change met laag risico.",
+            "Een event dat geen actie vereist.",
+            "Een geanalyseerd problem zonder oplossing."
+          ],
+          "answer": "Een incident met zeer hoge impact dat een aparte, versnelde procedure vereist.",
+          "explanation": {
+            "Een incident met zeer hoge impact dat een aparte, versnelde procedure vereist.": "Correct: kenmerk van Major incident.",
+            "Een standaard change met laag risico.": "Dit is Standaard change.",
+            "Een event dat geen actie vereist.": "Dit is een informatief event.",
+            "Een geanalyseerd problem zonder oplossing.": "Dit is Known error."
+          }
+        },
+        {
+          "number": 28,
+          "question": "Wat is 'swarming' in Incident management?",
+          "options": [
+            "Multidisciplinaire samenwerking waarbij experts zich flexibel rond een incident groeperen om het sneller op te lossen.",
+            "Het escaleren van een ticket naar hiërarchisch management.",
+            "Het uitstellen van analyse tot na herstel.",
+            "Het autoriseren van spoedwijzigingen."
+          ],
+          "answer": "Multidisciplinaire samenwerking waarbij experts zich flexibel rond een incident groeperen om het sneller op te lossen.",
+          "explanation": {
+            "Multidisciplinaire samenwerking waarbij experts zich flexibel rond een incident groeperen om het sneller op te lossen.": "Correct: swarming-werkwijze.",
+            "Het escaleren van een ticket naar hiërarchisch management.": "Dit is hiërarchische escalatie, niet swarming.",
+            "Het uitstellen van analyse tot na herstel.": "Niet de definitie van swarming.",
+            "Het autoriseren van spoedwijzigingen.": "Dit is Change enablement."
+          }
+        },
+        {
+          "number": 29,
+          "question": "Welke uitspraak over Problem management is juist (BL2)?",
+          "options": [
+            "Problem management kent problem identificatie, problem control en error control.",
+            "Problem management focust enkel op registratie en rapportage.",
+            "Problem management vervangt incidentafhandeling.",
+            "Problem management autoriseert changes."
+          ],
+          "answer": "Problem management kent problem identificatie, problem control en error control.",
+          "explanation": {
+            "Problem management kent problem identificatie, problem control en error control.": "Correct: dit zijn de drie fasen.",
+            "Problem management focust enkel op registratie en rapportage.": "Onjuist: het gaat om oorzaken en oplossingen/workarounds.",
+            "Problem management vervangt incidentafhandeling.": "Onjuist: beide bestaan naast elkaar.",
+            "Problem management autoriseert changes.": "Onjuist: change-authority autoriseert."
+          }
+        },
+        {
+          "number": 30,
+          "question": "Wat is een Workaround (BL2-koppeling Problem/Incident)?",
+          "options": [
+            "Een tijdelijke oplossing die impact vermindert of elimineert wanneer nog geen permanente oplossing beschikbaar is.",
+            "Een standaard change met laag risico.",
+            "Een event dat geen actie vereist.",
+            "Een formele beschrijving van serviceaanvragen."
+          ],
+          "answer": "Een tijdelijke oplossing die impact vermindert of elimineert wanneer nog geen permanente oplossing beschikbaar is.",
+          "explanation": {
+            "Een tijdelijke oplossing die impact vermindert of elimineert wanneer nog geen permanente oplossing beschikbaar is.": "Correct: Workaround.",
+            "Een standaard change met laag risico.": "Dit is Standaard change.",
+            "Een event dat geen actie vereist.": "Dit is een informatief event.",
+            "Een formele beschrijving van serviceaanvragen.": "Dit is verzoekscatalogus (request catalog)."
+          }
+        },
+        {
+          "number": 31,
+          "question": "Welke hoort bij Service request management (BL2)?",
+          "options": [
+            "Gestandaardiseerde procedures en waar mogelijk automatiseren; sommige requests vereisen autorisatie.",
+            "Root-cause analyse en error control.",
+            "Change-risicoanalyse en autorisatie.",
+            "Uitrollen van componenten naar productie."
+          ],
+          "answer": "Gestandaardiseerde procedures en waar mogelijk automatiseren; sommige requests vereisen autorisatie.",
+          "explanation": {
+            "Gestandaardiseerde procedures en waar mogelijk automatiseren; sommige requests vereisen autorisatie.": "Correct: kern van SRM.",
+            "Root-cause analyse en error control.": "Problem management.",
+            "Change-risicoanalyse en autorisatie.": "Change enablement.",
+            "Uitrollen van componenten naar productie.": "Deployment management."
+          }
+        },
+        {
+          "number": 32,
+          "question": "Welke voorbeelden zijn Service requests?",
+          "options": [
+            "Wachtwoord reset en toegang aanvragen tot een applicatie",
+            "Een Major incident afhandelen",
+            "Een emergency change autoriseren",
+            "Een root-cause analyse uitvoeren"
+          ],
+          "answer": "Wachtwoord reset en toegang aanvragen tot een applicatie",
+          "explanation": {
+            "Wachtwoord reset en toegang aanvragen tot een applicatie": "Correct: typische service requests.",
+            "Een Major incident afhandelen": "Incident management.",
+            "Een emergency change autoriseren": "Change enablement.",
+            "Een root-cause analyse uitvoeren": "Problem management."
+          }
+        },
+        {
+          "number": 33,
+          "question": "Welke hoort bij Servicedesk (BL2)?",
+          "options": [
+            "Single point of contact; meerdere kanalen (telefoon, mail, chat, portaal); focus op UX en communicatievaardigheden.",
+            "Alle root-cause analyses centraliseren.",
+            "Alle changes zelfstandig autoriseren.",
+            "Alle releases plannen en uitvoeren."
+          ],
+          "answer": "Single point of contact; meerdere kanalen (telefoon, mail, chat, portaal); focus op UX en communicatievaardigheden.",
+          "explanation": {
+            "Single point of contact; meerdere kanalen (telefoon, mail, chat, portaal); focus op UX en communicatievaardigheden.": "Correct: beschrijft Servicedesk-practice.",
+            "Alle root-cause analyses centraliseren.": "Problem management.",
+            "Alle changes zelfstandig autoriseren.": "Change enablement (change authority), niet servicedesk.",
+            "Alle releases plannen en uitvoeren.": "Release/Deployment management."
+          }
+        },
+        {
+          "number": 34,
+          "question": "Welke vaardigheid hoort expliciet bij de Servicedesk-practice?",
+          "options": [
+            "Empathie en effectieve communicatie",
+            "Diepe database-tuningexpertise",
+            "CAB-voorzitterschap",
+            "Contractonderhandelingen met leveranciers"
+          ],
+          "answer": "Empathie en effectieve communicatie",
+          "explanation": {
+            "Empathie en effectieve communicatie": "Correct: zeer belangrijk voor servicedesk en UX.",
+            "Diepe database-tuningexpertise": "Technische specialisatie, niet expliciet servicedesk.",
+            "CAB-voorzitterschap": "Behoort bij Change enablement (change manager/authority).",
+            "Contractonderhandelingen met leveranciers": "Behoort bij Supplier management."
+          }
+        },
+        {
+          "number": 35,
+          "question": "Welke hoort bij Service level management (BL2)?",
+          "options": [
+            "Service reviews uitvoeren, rapportages maken en targets afstemmen op echte klantbehoeften (voorkom watermeloen-effect).",
+            "Alle requests automatisch goedkeuren.",
+            "Alle events automatisch negeren tenzij er een incident is.",
+            "Alle changes bundelen in één big-bang release."
+          ],
+          "answer": "Service reviews uitvoeren, rapportages maken en targets afstemmen op echte klantbehoeften (voorkom watermeloen-effect).",
+          "explanation": {
+            "Service reviews uitvoeren, rapportages maken en targets afstemmen op echte klantbehoeften (voorkom watermeloen-effect).": "Correct: SLM borgt betekenisvolle meting en dialoog.",
+            "Alle requests automatisch goedkeuren.": "Onjuist: requests kunnen autorisatie vereisen.",
+            "Alle events automatisch negeren tenzij er een incident is.": "Onjuist: eventmanagement beoordeelt events.",
+            "Alle changes bundelen in één big-bang release.": "Onjuist: dit is een deployment/release-keuze en niet per se wenselijk."
+          }
+        },
+        {
+          "number": 36,
+          "question": "Welke situatie vraagt eerder om Incident management dan om Problem management?",
+          "options": [
+            "Een storing die direct de productie stillegt en zo snel mogelijk hersteld moet worden.",
+            "Een herhaald terugkerend issue dat analyse vereist voor structurele oplossing.",
+            "Een geplande wijziging met laag risico en vooraf documentatie.",
+            "Een trend in events die mogelijk wijst op toekomstige degradatie."
+          ],
+          "answer": "Een storing die direct de productie stillegt en zo snel mogelijk hersteld moet worden.",
+          "explanation": {
+            "Een storing die direct de productie stillegt en zo snel mogelijk hersteld moet worden.": "Correct: focus op snel herstel = Incident management.",
+            "Een herhaald terugkerend issue dat analyse vereist voor structurele oplossing.": "Dit is Problem management.",
+            "Een geplande wijziging met laag risico en vooraf documentatie.": "Dit is Standaard change (Change enablement).",
+            "Een trend in events die mogelijk wijst op toekomstige degradatie.": "Monitoring & event management; kan leiden tot Problem management."
+          }
+        },
+        {
+          "number": 37,
+          "question": "Welke situatie vraagt eerder om Problem management dan om Incident management?",
+          "options": [
+            "Er is een workaround actief, maar de oorzaak moet structureel worden opgelost.",
+            "De service ligt stil en moet binnen 15 minuten hersteld worden.",
+            "Een user vraagt om toegang tot een applicatie.",
+            "Een change moet vanavond doorgevoerd worden."
+          ],
+          "answer": "Er is een workaround actief, maar de oorzaak moet structureel worden opgelost.",
+          "explanation": {
+            "Er is een workaround actief, maar de oorzaak moet structureel worden opgelost.": "Correct: dit is een typische Problem management-case.",
+            "De service ligt stil en moet binnen 15 minuten hersteld worden.": "Incident management (snel herstel).",
+            "Een user vraagt om toegang tot een applicatie.": "Service request management.",
+            "Een change moet vanavond doorgevoerd worden.": "Change enablement/Deployment management."
+          }
+        },
+        {
+          "number": 38,
+          "question": "Welke is een output van Service request management (BL2)?",
+          "options": [
+            "Afgehandelde, gestandaardiseerde verzoeken conform afgesproken doorlooptijden",
+            "Geautoriseerde changes met geaccepteerd risico",
+            "Analyse van root-cause en geregistreerde known errors",
+            "Geplande release met release notes"
+          ],
+          "answer": "Afgehandelde, gestandaardiseerde verzoeken conform afgesproken doorlooptijden",
+          "explanation": {
+            "Afgehandelde, gestandaardiseerde verzoeken conform afgesproken doorlooptijden": "Correct: SRM-resultaat.",
+            "Geautoriseerde changes met geaccepteerd risico": "Change enablement-resultaat.",
+            "Analyse van root-cause en geregistreerde known errors": "Problem management-resultaat.",
+            "Geplande release met release notes": "Release management-resultaat."
+          }
+        },
+        {
+          "number": 39,
+          "question": "Wat is een geschikt kanaal voor de Servicedesk?",
+          "options": [
+            "Telefoon, e-mail, chat en selfserviceportaal",
+            "Alleen mondeling via balie",
+            "Uitsluitend hiërarchische escalatie",
+            "Alleen Change-vergaderingen (CAB)"
+          ],
+          "answer": "Telefoon, e-mail, chat en selfserviceportaal",
+          "explanation": {
+            "Telefoon, e-mail, chat en selfserviceportaal": "Correct: veelgebruikte kanalen.",
+            "Alleen mondeling via balie": "Onnodige beperking van kanaalkeuze.",
+            "Uitsluitend hiërarchische escalatie": "Dit is geen kanaal voor registreren, maar een escalatievorm.",
+            "Alleen Change-vergaderingen (CAB)": "CAB is change-advies, geen servicedesk-kanaal."
+          }
+        },
+        {
+          "number": 40,
+          "question": "Welke KPI's passen bij Service level management?",
+          "options": [
+            "Beschikbaarheid, doorlooptijd, klanttevredenheid",
+            "Aantal standaard changes, CAB-bezetting, wijzigingsdoorlooptijd",
+            "Aantal workarounds, gemiddelde analyse-tijd",
+            "Aantal events, aantal filters, event-drempels"
+          ],
+          "answer": "Beschikbaarheid, doorlooptijd, klanttevredenheid",
+          "explanation": {
+            "Beschikbaarheid, doorlooptijd, klanttevredenheid": "Correct: typische SLM-metrics (mits businessrelevant).",
+            "Aantal standaard changes, CAB-bezetting, wijzigingsdoorlooptijd": "Meer Change enablement-kpi's.",
+            "Aantal workarounds, gemiddelde analyse-tijd": "Meer Problem management-kpi's.",
+            "Aantal events, aantal filters, event-drempels": "Meer Monitoring & event management-kpi's."
+          }
+        },
+        {
+          "number": 41,
+          "question": "Welke uitspraak over het Continual improvement register (CIR) is juist?",
+          "options": [
+            "Het CIR is een log/overzicht waarin verbetermogelijkheden, prioriteit, status en resultaten worden bijgehouden.",
+            "Het CIR is de lijst met changes die zijn goedgekeurd.",
+            "Het CIR is de servicecatalogus.",
+            "Het CIR vervangt incidentregistratie."
+          ],
+          "answer": "Het CIR is een log/overzicht waarin verbetermogelijkheden, prioriteit, status en resultaten worden bijgehouden.",
+          "explanation": {
+            "Het CIR is een log/overzicht waarin verbetermogelijkheden, prioriteit, status en resultaten worden bijgehouden.": "Correct: kern van het CIR.",
+            "Het CIR is de lijst met changes die zijn goedgekeurd.": "Dat is het wijzigingsplan/change schedule, niet het CIR.",
+            "Het CIR is de servicecatalogus.": "Onjuist.",
+            "Het CIR vervangt incidentregistratie.": "Onjuist."
+          }
+        },
+        {
+          "number": 42,
+          "question": "Welke combinaties zijn juist voor de drie Incident-escalatiesoorten?",
+          "options": [
+            "Functioneel (naar 2e lijn of leverancier), hiërarchisch (management), swarming (multidisciplinair samenwerken).",
+            "Functioneel (CAB), hiërarchisch (CAB), swarming (CAB).",
+            "Functioneel (SLA), hiërarchisch (SLA), swarming (SLA).",
+            "Er zijn geen escalaties binnen Incident management."
+          ],
+          "answer": "Functioneel (naar 2e lijn of leverancier), hiërarchisch (management), swarming (multidisciplinair samenwerken).",
+          "explanation": {
+            "Functioneel (naar 2e lijn of leverancier), hiërarchisch (management), swarming (multidisciplinair samenwerken).": "Correct: drie veelgebruikte benaderingen.",
+            "Functioneel (CAB), hiërarchisch (CAB), swarming (CAB).": "CAB is voor changes, niet voor incidentele escalatie.",
+            "Functioneel (SLA), hiërarchisch (SLA), swarming (SLA).": "SLA is geen escalatietype.",
+            "Er zijn geen escalaties binnen Incident management.": "Onjuist."
+          }
+        },
+        {
+          "number": 43,
+          "question": "Welke activiteit ligt het meest voor de hand na het identificeren van een Known error?",
+          "options": [
+            "Error control uitvoeren en (indien nodig) een change aanvragen voor een permanente oplossing.",
+            "Incident sluiten zonder verdere actie.",
+            "Alle events negeren tot het probleem terugkeert.",
+            "De servicecatalogus bijwerken."
+          ],
+          "answer": "Error control uitvoeren en (indien nodig) een change aanvragen voor een permanente oplossing.",
+          "explanation": {
+            "Error control uitvoeren en (indien nodig) een change aanvragen voor een permanente oplossing.": "Correct: volgt op problem control en KE-registratie.",
+            "Incident sluiten zonder verdere actie.": "Onvolledig: KE vraagt beoordeling en vervolgactie.",
+            "Alle events negeren tot het probleem terugkeert.": "Onjuist.",
+            "De servicecatalogus bijwerken.": "Niet relevant voor KE-afhandeling."
+          }
+        },
+        {
+          "number": 44,
+          "question": "Welke hoort bij Release management en niet bij Deployment management?",
+          "options": [
+            "Beschikbaar maken van een nieuwe serviceversie voor gebruik",
+            "Technisch uitvoeren van de uitrol naar productie",
+            "Agents installeren op endpoints",
+            "Containers deployen in een cluster"
+          ],
+          "answer": "Beschikbaar maken van een nieuwe serviceversie voor gebruik",
+          "explanation": {
+            "Beschikbaar maken van een nieuwe serviceversie voor gebruik": "Correct: Release management richt zich op beschikbaarstelling en afspraken daarover.",
+            "Technisch uitvoeren van de uitrol naar productie": "Deployment management.",
+            "Agents installeren op endpoints": "Deployment management-actie.",
+            "Containers deployen in een cluster": "Deployment management-actie."
+          }
+        },
+        {
+          "number": 45,
+          "question": "Welke koppeling tussen practice en primaire deliverable is correct?",
+          "options": [
+            "Service configuration management - Betrouwbare CI- en servicemodellering",
+            "Incident management - Post-implementation review",
+            "Change enablement - CMDB-relaties",
+            "Service request management - Root-cause rapport"
+          ],
+          "answer": "Service configuration management - Betrouwbare CI- en servicemodellering",
+          "explanation": {
+            "Service configuration management - Betrouwbare CI- en servicemodellering": "Correct: SCM borgt betrouwbare CI-info en relaties.",
+            "Incident management - Post-implementation review": "PIR hoort eerder bij releases of changes dan bij standaard incidenten.",
+            "Change enablement - CMDB-relaties": "CMDB-beheer hoort bij SCM; CE gebruikt info uit CMDB.",
+            "Service request management - Root-cause rapport": "Root-cause hoort bij Problem management."
+          }
+        }
+      ]
+    }
+  ]
+}
+

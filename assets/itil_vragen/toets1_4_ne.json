@@ -1,0 +1,691 @@
+{
+  "chapters": [
+    {
+      "chapter": "ITIL 4 toets 1_4 (NE)",
+      "description": "ITIL 4 - Oefentoets 1_4 (NL, vragen 121-160)",
+      "questions": [
+        {
+          "number": 121,
+          "question": "Vul in: het doel van Supplier management is te borgen dat de leveranciers van de organisatie en hun ______ op passende wijze worden gemanaged om naadloze levering van kwaliteitsproducten en -services te ondersteunen.",
+          "options": [
+            "waarde",
+            "prestaties",
+            "gebruikers",
+            "kosten"
+          ],
+          "answer": "prestaties",
+          "explanation": {
+            "waarde": "Leveranciers kunnen waarde leveren, maar de practice focust op prestaties.",
+            "prestaties": "Juist: prestaties van leveranciers managen.",
+            "gebruikers": "Gebruikers zijn serviceconsumenten, geen focus van supplier management.",
+            "kosten": "Kosten tellen mee, maar het doel benadrukt performance."
+          }
+        },
+        {
+          "number": 122,
+          "question": "Welke serviceconsumentenrol definieert de eisen voor een service en neemt verantwoordelijkheid voor de eindresultaten van serviceconsumptie?",
+          "options": [
+            "Een configuration item (CI)",
+            "Een IT-asset",
+            "Een klant",
+            "Een gebruiker"
+          ],
+          "answer": "Een klant",
+          "explanation": {
+            "Een configuration item (CI)": "Een beheerd component, geen rol.",
+            "Een IT-asset": "Financieel waardevol component, geen rol.",
+            "Een klant": "Juist: definieert eisen en is verantwoordelijk voor outcomes.",
+            "Een gebruiker": "Gebruikt de service, definieert geen eisen."
+          }
+        },
+        {
+          "number": 123,
+          "question": "Welk richtinggevend principe adviseert de vier dimensies van servicemanagement mee te nemen?",
+          "options": [
+            "Focus op waarde",
+            "Houd het eenvoudig en praktisch",
+            "Denk en werk holistisch",
+            "Werk iteratief met feedback"
+          ],
+          "answer": "Denk en werk holistisch",
+          "explanation": {
+            "Focus op waarde": "Waardeprinciple.",
+            "Houd het eenvoudig en praktisch": "Minimaliseer complexiteit.",
+            "Denk en werk holistisch": "Juist: betrek alle vier dimensies.",
+            "Werk iteratief met feedback": "Kleine stappen met feedback."
+          }
+        },
+        {
+          "number": 124,
+          "question": "Welke activiteit hoort bij de practice Voortdurend verbeteren?",
+          "options": [
+            "Een duidelijk meldpunt bieden voor issues, vragen en verzoeken",
+            "Verbeterkansen identificeren en registreren",
+            "Het assetregister vullen en beheren",
+            "Tactische en operationele klantbetrokkenheid leveren"
+          ],
+          "answer": "Verbeterkansen identificeren en registreren",
+          "explanation": {
+            "Een duidelijk meldpunt bieden voor issues, vragen en verzoeken": "Servicedesk.",
+            "Verbeterkansen identificeren en registreren": "Juist.",
+            "Het assetregister vullen en beheren": "IT asset management.",
+            "Tactische en operationele klantbetrokkenheid leveren": "Relationship management."
+          }
+        },
+        {
+          "number": 125,
+          "question": "Welke practices zijn typisch betrokken bij het realiseren van een problem-oplossing?",
+          "options": [
+            "1 en 2",
+            "2 en 3",
+            "3 en 4",
+            "1 en 4"
+          ],
+          "answer": "1 en 4",
+          "explanation": {
+            "1 en 2": "2 (Service request management) is niet de gebruikelijke implementatiepraktijk.",
+            "2 en 3": "3 (Service level management) is niet de standaard uitvoeringspractice.",
+            "3 en 4": "3 past niet als implementerende practice.",
+            "1 en 4": "Juist: Continual improvement en Change enablement."
+          }
+        },
+        {
+          "number": 126,
+          "question": "Wat is gedefinieerd als elk financieel waardevol component dat kan bijdragen aan servicelevering?",
+          "options": [
+            "IT-asset",
+            "Product",
+            "Configuration item",
+            "Event"
+          ],
+          "answer": "IT-asset",
+          "explanation": {
+            "IT-asset": "Juist: financieel waardevol component.",
+            "Product": "Configuratie van resources als aanbod.",
+            "Configuration item": "Beheerd component; niet per se 'financieel waardevol' in de definitie.",
+            "Event": "Betekenisvolle statuswijziging."
+          }
+        },
+        {
+          "number": 127,
+          "question": "Welk richtinggevend principe adviseert handmatige taken te standaardiseren en te stroomlijnen?",
+          "options": [
+            "Focus op waarde",
+            "Werk samen en bevorder zichtbaarheid",
+            "Denk en werk holistisch",
+            "Optimaliseer en automatiseer"
+          ],
+          "answer": "Optimaliseer en automatiseer",
+          "explanation": {
+            "Focus op waarde": "Waardeprinciple.",
+            "Werk samen en bevorder zichtbaarheid": "Transparantie/samenwerking.",
+            "Denk en werk holistisch": "End-to-end blik.",
+            "Optimaliseer en automatiseer": "Juist: standaardiseren/stroomlijnen, dan automatiseren."
+          }
+        },
+        {
+          "number": 128,
+          "question": "Welk richtinggevend principe benadrukt inzicht in de flow van werk, bottlenecks en verspilling?",
+          "options": [
+            "Denk en werk holistisch",
+            "Focus op waarde",
+            "Werk samen en bevorder zichtbaarheid",
+            "Houd het eenvoudig en praktisch"
+          ],
+          "answer": "Werk samen en bevorder zichtbaarheid",
+          "explanation": {
+            "Denk en werk holistisch": "End-to-end, niet specifiek WIP-visibility.",
+            "Focus op waarde": "Waarde, niet WIP.",
+            "Werk samen en bevorder zichtbaarheid": "Juist: zichtbaarheid van werk en bottlenecks.",
+            "Houd het eenvoudig en praktisch": "Simpliciteit."
+          }
+        },
+        {
+          "number": 129,
+          "question": "Wat fungeert als single point of contact tussen klant en serviceprovider?",
+          "options": [
+            "Servicedesk",
+            "Service level management",
+            "Problem management",
+            "Change enablement"
+          ],
+          "answer": "Servicedesk",
+          "explanation": {
+            "Servicedesk": "Juist: ingang en SPOC.",
+            "Service level management": "Targets en reviews.",
+            "Problem management": "Oorzaakanalyse.",
+            "Change enablement": "Beoordeling/autorisatie van changes."
+          }
+        },
+        {
+          "number": 130,
+          "question": "Wat fungeert als single point of contact tussen klant en serviceprovider?",
+          "options": [
+            "Servicedesk",
+            "Service level management",
+            "Problem management",
+            "Change enablement"
+          ],
+          "answer": "Servicedesk",
+          "explanation": {
+            "Servicedesk": "Juist.",
+            "Service level management": "Targets en rapportages.",
+            "Problem management": "Oorzaakanalyse.",
+            "Change enablement": "Changebeoordeling en -autorisatie."
+          }
+        },
+        {
+          "number": 131,
+          "question": "Definieer utility.",
+          "options": [
+            "De functionaliteit die een service biedt om aan een behoefte te voldoen",
+            "Zekerheid dat een service aan overeengekomen vereisten voldoet",
+            "De ervaren voordelen, bruikbaarheid en het belang van iets",
+            "Het bedrag dat aan een activiteit of middel is uitgegeven"
+          ],
+          "answer": "De functionaliteit die een service biedt om aan een behoefte te voldoen",
+          "explanation": {
+            "De functionaliteit die een service biedt om aan een behoefte te voldoen": "Juist: 'fit for purpose'.",
+            "Zekerheid dat een service aan overeengekomen vereisten voldoet": "Warranty.",
+            "De ervaren voordelen, bruikbaarheid en het belang van iets": "Waarde.",
+            "Het bedrag dat aan een activiteit of middel is uitgegeven": "Kosten."
+          }
+        },
+        {
+          "number": 132,
+          "question": "Definieer een problem.",
+          "options": [
+            "De oorzaak of potentiële oorzaak van een of meer incidenten",
+            "Elke statuswijziging die betekenisvol is voor het managen van een service of CI",
+            "Een problem dat is geanalyseerd en niet is opgelost",
+            "Een ongeplande onderbreking of kwaliteitsvermindering van een service"
+          ],
+          "answer": "De oorzaak of potentiële oorzaak van een of meer incidenten",
+          "explanation": {
+            "De oorzaak of potentiële oorzaak van een of meer incidenten": "Juist: definitie van problem.",
+            "Elke statuswijziging die betekenisvol is voor het managen van een service of CI": "Event.",
+            "Een problem dat is geanalyseerd en niet is opgelost": "Known error.",
+            "Een ongeplande onderbreking of kwaliteitsvermindering van een service": "Incident."
+          }
+        },
+        {
+          "number": 133,
+          "question": "Wat is de verwachte uitkomst van het gebruik van de servicewaardeketen?",
+          "options": [
+            "Het toepassen van practices",
+            "Servicewaardestromen",
+            "Klantbetrokkenheid",
+            "Waarderealisatie"
+          ],
+          "answer": "Waarderealisatie",
+          "explanation": {
+            "Het toepassen van practices": "Middelen om te werken; de uitkomst is waarde.",
+            "Servicewaardestromen": "Routes van activiteiten, niet de einduitkomst.",
+            "Klantbetrokkenheid": "Onderdeel van Engage.",
+            "Waarderealisatie": "Juist: het beoogde resultaat."
+          }
+        },
+        {
+          "number": 134,
+          "question": "Wat is de definitie van een IT-asset?",
+          "options": [
+            "Elk financieel waardevol component dat kan bijdragen aan levering van een IT-product of -service",
+            "Het verwijderen van iets dat effect kan hebben op services",
+            "Een verzoek van een gebruiker dat een serviceactie initieert",
+            "Elk component dat beheerd moet worden om een service te leveren"
+          ],
+          "answer": "Elk financieel waardevol component dat kan bijdragen aan levering van een IT-product of -service",
+          "explanation": {
+            "Elk financieel waardevol component dat kan bijdragen aan levering van een IT-product of -service": "Juist.",
+            "Het verwijderen van iets dat effect kan hebben op services": "Change.",
+            "Een verzoek van een gebruiker dat een serviceactie initieert": "Service request.",
+            "Elk component dat beheerd moet worden om een service te leveren": "Configuration item (CI)."
+          }
+        },
+        {
+          "number": 135,
+          "question": "Welke aanpak past bij 'Houd het eenvoudig en praktisch'?",
+          "options": [
+            "Eerst controles en metrics ontwerpen en daarna verwijderen wat geen waarde toevoegt",
+            "Controles en metrics blijven toevoegen tot alles is geïmplementeerd",
+            "Alleen controles en metrics toevoegen die voor compliance vereist zijn",
+            "Controles en metrics alleen toevoegen wanneer ze nodig zijn"
+          ],
+          "answer": "Controles en metrics alleen toevoegen wanneer ze nodig zijn",
+          "explanation": {
+            "Eerst controles en metrics ontwerpen en daarna verwijderen wat geen waarde toevoegt": "Over-engineering.",
+            "Controles en metrics blijven toevoegen tot alles is geïmplementeerd": "Leidt tot complexiteit.",
+            "Alleen controles en metrics toevoegen die voor compliance vereist zijn": "Compliance is niet de enige maatstaf; waarde is leidend.",
+            "Controles en metrics alleen toevoegen wanneer ze nodig zijn": "Juist."
+          }
+        },
+        {
+          "number": 136,
+          "question": "Welke uitspraak over 'Optimaliseer en automatiseer' is correct?",
+          "options": [
+            "Automatisering maakt menskracht vrij voor complexer werk",
+            "Automatiseren moet vóór optimaliseren gebeuren",
+            "Automatisering werkt het best op niet-standaard taken",
+            "Technologie elimineert de noodzaak van menselijk ingrijpen"
+          ],
+          "answer": "Automatisering maakt menskracht vrij voor complexer werk",
+          "explanation": {
+            "Automatisering maakt menskracht vrij voor complexer werk": "Juist.",
+            "Automatiseren moet vóór optimaliseren gebeuren": "Onjuist: eerst optimaliseren.",
+            "Automatisering werkt het best op niet-standaard taken": "Beter op gestandaardiseerde taken.",
+            "Technologie elimineert de noodzaak van menselijk ingrijpen": "Onjuist: toezicht blijft nodig."
+          }
+        },
+        {
+          "number": 137,
+          "question": "Wat is een serviceaanbieding?",
+          "options": [
+            "Een middel om waarde te co-creëren door outcomes te faciliteren",
+            "Een beschrijving van een of meer services voor een beoogde doelgroep",
+            "Geen van de opties",
+            "Een productconfiguratie die potentieel waardevol is voor klanten"
+          ],
+          "answer": "Een beschrijving van een of meer services voor een beoogde doelgroep",
+          "explanation": {
+            "Een middel om waarde te co-creëren door outcomes te faciliteren": "Definitie van service.",
+            "Een beschrijving van een of meer services voor een beoogde doelgroep": "Juist.",
+            "Geen van de opties": "Onjuist.",
+            "Een productconfiguratie die potentieel waardevol is voor klanten": "Product."
+          }
+        },
+        {
+          "number": 138,
+          "question": "Welke stakeholders co-creëren waarde in een servicerelatie?",
+          "options": [
+            "Investeerder en leverancier",
+            "Investeerder en consument",
+            "Consument en provider",
+            "Provider en leverancier"
+          ],
+          "answer": "Consument en provider",
+          "explanation": {
+            "Investeerder en leverancier": "Geen standaard ITIL-paar.",
+            "Investeerder en consument": "Geen standaard ITIL-paar.",
+            "Consument en provider": "Juist.",
+            "Provider en leverancier": "Leveranciers ondersteunen de provider."
+          }
+        },
+        {
+          "number": 139,
+          "question": "Welke uitspraak over Voortdurend verbeteren is correct?",
+          "options": [
+            "Iedereen in de organisatie is verantwoordelijk voor aspecten van verbeteren",
+            "Verbeteren moet minimale interactie met andere practices hebben",
+            "Eén team voert alle verbeteringen uit",
+            "Alle ideeën moeten in één centraal register staan"
+          ],
+          "answer": "Iedereen in de organisatie is verantwoordelijk voor aspecten van verbeteren",
+          "explanation": {
+            "Iedereen in de organisatie is verantwoordelijk voor aspecten van verbeteren": "Juist.",
+            "Verbeteren moet minimale interactie met andere practices hebben": "Onjuist.",
+            "Eén team voert alle verbeteringen uit": "Onjuist.",
+            "Alle ideeën moeten in één centraal register staan": "Niet verplicht."
+          }
+        },
+        {
+          "number": 140,
+          "question": "Wat helpt een organisatie ITIL-richtlijnen te adopteren en aan te passen?",
+          "options": [
+            "Practices",
+            "De vier dimensies van servicemanagement",
+            "De servicewaardeketen",
+            "De richtinggevende principes"
+          ],
+          "answer": "De richtinggevende principes",
+          "explanation": {
+            "Practices": "Beschrijven hoe werk wordt gedaan.",
+            "De vier dimensies van servicemanagement": "Contextkader.",
+            "De servicewaardeketen": "Operationeel model.",
+            "De richtinggevende principes": "Juist: 'adopt and adapt'."
+          }
+        },
+        {
+          "number": 141,
+          "question": "Wat is de definitie van een event?",
+          "options": [
+            "Een ongeplande onderbreking of kwaliteitsvermindering van een service",
+            "Elke statuswijziging die betekenisvol is voor het managen van een service of CI",
+            "Elk financieel waardevol component dat kan bijdragen aan servicelevering",
+            "Elk component dat beheerd moet worden om een IT-service te leveren"
+          ],
+          "answer": "Elke statuswijziging die betekenisvol is voor het managen van een service of CI",
+          "explanation": {
+            "Een ongeplande onderbreking of kwaliteitsvermindering van een service": "Incident.",
+            "Elke statuswijziging die betekenisvol is voor het managen van een service of CI": "Juist: event.",
+            "Elk financieel waardevol component dat kan bijdragen aan servicelevering": "IT-asset.",
+            "Elk component dat beheerd moet worden om een IT-service te leveren": "Configuration item."
+          }
+        },
+        {
+          "number": 142,
+          "question": "Welke uitspraak over de servicedesk is correct?",
+          "options": [
+            "Moet vertrouwen op selfservice in plaats van escalatie",
+            "Moet geïsoleerd blijven van technische teams",
+            "Moet nauw samenwerken met support- en developmentteams",
+            "Moet alle technische issues escaleren"
+          ],
+          "answer": "Moet nauw samenwerken met support- en developmentteams",
+          "explanation": {
+            "Moet vertrouwen op selfservice in plaats van escalatie": "Escalatie blijft nodig.",
+            "Moet geïsoleerd blijven van technische teams": "Onjuist.",
+            "Moet nauw samenwerken met support- en developmentteams": "Juist.",
+            "Moet alle technische issues escaleren": "Niet alle; veel kan bij first contact."
+          }
+        },
+        {
+          "number": 143,
+          "question": "Wat is het hoofddoel van Relationship management?",
+          "options": [
+            "Koppelingen tussen organisatie en stakeholders opbouwen en onderhouden",
+            "Duidelijke business-gebaseerde servicetargets vaststellen",
+            "Afgesproken servicekwaliteit ondersteunen via gebruikersverzoeken",
+            "Practices en services alignen met veranderende businessbehoeften"
+          ],
+          "answer": "Koppelingen tussen organisatie en stakeholders opbouwen en onderhouden",
+          "explanation": {
+            "Koppelingen tussen organisatie en stakeholders opbouwen en onderhouden": "Juist.",
+            "Duidelijke business-gebaseerde servicetargets vaststellen": "Service level management.",
+            "Afgesproken servicekwaliteit ondersteunen via gebruikersverzoeken": "Service request management.",
+            "Practices en services alignen met veranderende businessbehoeften": "Voortdurend verbeteren."
+          }
+        },
+        {
+          "number": 144,
+          "question": "Hoe kan de serviceconsument bijdragen aan risicoreductie?",
+          "options": [
+            "Door voor de service te betalen",
+            "Door personeelsbeschikbaarheid te managen",
+            "Door beperkingen duidelijk te communiceren",
+            "Door serverhardware te beheren"
+          ],
+          "answer": "Door beperkingen duidelijk te communiceren",
+          "explanation": {
+            "Door voor de service te betalen": "Kosten, geen risicoreductie.",
+            "Door personeelsbeschikbaarheid te managen": "HR-aspect.",
+            "Door beperkingen duidelijk te communiceren": "Juist: CSF's/constraints verlagen risico.",
+            "Door serverhardware te beheren": "Doorgaans verantwoordelijkheid provider."
+          }
+        },
+        {
+          "number": 145,
+          "question": "Welk richtinggevend principe raadt aan de huidige staat te beoordelen en te bepalen wat kan worden hergebruikt?",
+          "options": [
+            "Werk samen en bevorder zichtbaarheid",
+            "Werk iteratief met feedback",
+            "Focus op waarde",
+            "Begin waar je bent"
+          ],
+          "answer": "Begin waar je bent",
+          "explanation": {
+            "Werk samen en bevorder zichtbaarheid": "Transparantie.",
+            "Werk iteratief met feedback": "Iteratie/feedback.",
+            "Focus op waarde": "Waarde.",
+            "Begin waar je bent": "Juist: meten/observeren en hergebruiken."
+          }
+        },
+        {
+          "number": 146,
+          "question": "Wat is gedefinieerd als elk component dat beheerd moet worden om een IT-service te leveren?",
+          "options": [
+            "Een incident",
+            "Een IT-asset",
+            "Een configuration item (CI)",
+            "Een service request"
+          ],
+          "answer": "Een configuration item (CI)",
+          "explanation": {
+            "Een incident": "Ongeplande onderbreking/kwaliteitsverlies.",
+            "Een IT-asset": "Financieel waardevol component; niet elk asset is een CI.",
+            "Een configuration item (CI)": "Juist.",
+            "Een service request": "Gestandaardiseerd gebruikersverzoek."
+          }
+        },
+        {
+          "number": 147,
+          "question": "Welke practice faciliteert operationele communicatie tussen provider en gebruikers aan consumentzijde?",
+          "options": [
+            "Relationship management",
+            "Service level management",
+            "Servicedesk",
+            "Monitoring & event management"
+          ],
+          "answer": "Servicedesk",
+          "explanation": {
+            "Relationship management": "Strategisch/tactisch.",
+            "Service level management": "Targets en reviews.",
+            "Servicedesk": "Juist: tactisch/operationeel kanaal.",
+            "Monitoring & event management": "Observeert events."
+          }
+        },
+        {
+          "number": 148,
+          "question": "Welk richtinggevend principe raadt aan bestaande services, processen en tools te hergebruiken bij verbeteren?",
+          "options": [
+            "Werk iteratief met feedback",
+            "Houd het eenvoudig en praktisch",
+            "Begin waar je bent",
+            "Focus op waarde"
+          ],
+          "answer": "Begin waar je bent",
+          "explanation": {
+            "Werk iteratief met feedback": "Iteratie.",
+            "Houd het eenvoudig en praktisch": "Simpliciteit.",
+            "Begin waar je bent": "Juist: hergebruik wat al werkt.",
+            "Focus op waarde": "Waarde."
+          }
+        },
+        {
+          "number": 149,
+          "question": "Wat beschrijft een set gedefinieerde stappen om verbeteringen te implementeren?",
+          "options": [
+            "De SVC-activiteit Engage",
+            "Het model Voortdurend verbeteren",
+            "De SVC-activiteit Improve",
+            "Het Continual Improvement Register"
+          ],
+          "answer": "Het model Voortdurend verbeteren",
+          "explanation": {
+            "De SVC-activiteit Engage": "Stakeholderbetrokkenheid.",
+            "Het model Voortdurend verbeteren": "Juist: gestructureerde stappen.",
+            "De SVC-activiteit Improve": "Voert verbeteringen uit, geen stappenmodel.",
+            "Het Continual Improvement Register": "Backlog van kansen."
+          }
+        },
+        {
+          "number": 150,
+          "question": "Welke aanpak is juist om een groot verbeterinitiatief in kleinere iteraties te managen?",
+          "options": [
+            "Feedback pas meenemen als een iteratie zijn doel niet haalt",
+            "Alle iteraties vooraf ontwerpen en uitvoeren zonder feedback",
+            "Feedback verminderen bij grote veranderingen",
+            "Elke iteratie continu herevalueren op basis van feedback"
+          ],
+          "answer": "Elke iteratie continu herevalueren op basis van feedback",
+          "explanation": {
+            "Feedback pas meenemen als een iteratie zijn doel niet haalt": "Onjuist: feedback continu gebruiken.",
+            "Alle iteraties vooraf ontwerpen en uitvoeren zonder feedback": "Geen lerend vermogen.",
+            "Feedback verminderen bij grote veranderingen": "Onrealistisch; omstandigheden veranderen.",
+            "Elke iteratie continu herevalueren op basis van feedback": "Juist."
+          }
+        },
+        {
+          "number": 151,
+          "question": "Welk richtinggevend principe betrekt expliciet klant- en gebruikerservaring?",
+          "options": [
+            "Werk samen en bevorder zichtbaarheid",
+            "Focus op waarde",
+            "Begin waar je bent",
+            "Houd het eenvoudig en praktisch"
+          ],
+          "answer": "Focus op waarde",
+          "explanation": {
+            "Werk samen en bevorder zichtbaarheid": "Transparantie.",
+            "Focus op waarde": "Juist: waarde omvat CX/UX.",
+            "Begin waar je bent": "Observeren/hergebruiken.",
+            "Houd het eenvoudig en praktisch": "Simpliciteit."
+          }
+        },
+        {
+          "number": 152,
+          "question": "Welke practice maakt nieuwe en gewijzigde services en features beschikbaar voor gebruik?",
+          "options": [
+            "Change enablement",
+            "Deployment management",
+            "Release management",
+            "Service request management"
+          ],
+          "answer": "Release management",
+          "explanation": {
+            "Change enablement": "Risico beoordelen/autoriseren.",
+            "Deployment management": "Componenten verplaatsen tussen omgevingen.",
+            "Release management": "Juist: beschikbaar stellen voor gebruik.",
+            "Service request management": "Verzoeken afhandelen."
+          }
+        },
+        {
+          "number": 153,
+          "question": "Wat is het effect van automatisering op de servicedesk?",
+          "options": [
+            "Werken vanuit één centrale locatie",
+            "Werken vanuit meerdere verspreide locaties",
+            "Minder laag-niveau werk en meer focus op gebruikservaring",
+            "Meer telefooncontact en minder focus op gebruikservaring"
+          ],
+          "answer": "Minder laag-niveau werk en meer focus op gebruikservaring",
+          "explanation": {
+            "Werken vanuit één centrale locatie": "Niet het directe effect.",
+            "Werken vanuit meerdere verspreide locaties": "Organisatiekeuze, geen effect van automatisering.",
+            "Minder laag-niveau werk en meer focus op gebruikservaring": "Juist.",
+            "Meer telefooncontact en minder focus op gebruikservaring": "Tegengesteld aan de praktijk."
+          }
+        },
+        {
+          "number": 154,
+          "question": "Wat is een problem?",
+          "options": [
+            "Een toevoeging of wijziging die effect kan hebben op services",
+            "Een ongeplande kwaliteitsvermindering van een service",
+            "Elke betekenisvolle statuswijziging van een CI",
+            "De oorzaak of potentiële oorzaak van een of meer incidenten"
+          ],
+          "answer": "De oorzaak of potentiële oorzaak van een of meer incidenten",
+          "explanation": {
+            "Een toevoeging of wijziging die effect kan hebben op services": "Change.",
+            "Een ongeplande kwaliteitsvermindering van een service": "Incident.",
+            "Elke betekenisvolle statuswijziging van een CI": "Event.",
+            "De oorzaak of potentiële oorzaak van een of meer incidenten": "Juist."
+          }
+        },
+        {
+          "number": 155,
+          "question": "Een pakket met laptop, software, licenties en support is een voorbeeld van?",
+          "options": [
+            "Een serviceaanbieding",
+            "Warranty",
+            "Waarde",
+            "Een outcome"
+          ],
+          "answer": "Een serviceaanbieding",
+          "explanation": {
+            "Een serviceaanbieding": "Juist: combinatie gericht op een doelgroep.",
+            "Warranty": "Zekerheid dat aan vereisten wordt voldaan.",
+            "Waarde": "Ervaren nut/belang.",
+            "Een outcome": "Resultaat voor een stakeholder."
+          }
+        },
+        {
+          "number": 156,
+          "question": "Welke practice alignet practices en services met veranderende businessbehoeften?",
+          "options": [
+            "Service level management",
+            "Service configuration management",
+            "Voortdurend verbeteren",
+            "Relationship management"
+          ],
+          "answer": "Voortdurend verbeteren",
+          "explanation": {
+            "Service level management": "Doelen en rapportages.",
+            "Service configuration management": "CI-informatie.",
+            "Voortdurend verbeteren": "Juist: alignen met veranderende behoeften.",
+            "Relationship management": "Stakeholderrelaties."
+          }
+        },
+        {
+          "number": 157,
+          "question": "Welke aanbeveling hoort bij de servicedesk-practice?",
+          "options": [
+            "Altijd een fysiek team op één locatie zijn",
+            "Sterk technisch, minder klantgericht",
+            "Automatisering vermijden",
+            "De bredere organisatie begrijpen"
+          ],
+          "answer": "De bredere organisatie begrijpen",
+          "explanation": {
+            "Altijd een fysiek team op één locatie zijn": "Moderne desks kunnen virtueel of hybride zijn.",
+            "Sterk technisch, minder klantgericht": "Techniek helpt, maar klantcontext is cruciaal.",
+            "Automatisering vermijden": "Onjuist: juist benutten waar zinvol.",
+            "De bredere organisatie begrijpen": "Juist."
+          }
+        },
+        {
+          "number": 158,
+          "question": "Vul in: de servicedesk is het ingangspunt en single point of contact voor de _____ met al zijn gebruikers.",
+          "options": [
+            "klant",
+            "serviceprovider",
+            "serviceconsument",
+            "leverancier"
+          ],
+          "answer": "serviceprovider",
+          "explanation": {
+            "klant": "Klant definieert eisen; SPOC is voor de provider naar gebruikers.",
+            "serviceprovider": "Juist.",
+            "serviceconsument": "Algemene term; de formulering doelt op providerzijde.",
+            "leverancier": "Externe partij."
+          }
+        },
+        {
+          "number": 159,
+          "question": "Waarom moeten servicedeskmedewerkers terugkerende issues detecteren?",
+          "options": [
+            "Om de juiste change-authority te betrekken",
+            "Om problems te helpen identificeren",
+            "Om service requests effectiever af te handelen",
+            "Om incidenten naar het juiste team te escaleren"
+          ],
+          "answer": "Om problems te helpen identificeren",
+          "explanation": {
+            "Om de juiste change-authority te betrekken": "Change enablement.",
+            "Om problems te helpen identificeren": "Juist: herhaling wijst op onderliggende oorzaken.",
+            "Om service requests effectiever af te handelen": "Efficiëntie, maar niet de kernreden.",
+            "Om incidenten naar het juiste team te escaleren": "Routing, niet het doel van detectie."
+          }
+        },
+        {
+          "number": 160,
+          "question": "Welk voordeel past het meest bij 'Werk iteratief met feedback'?",
+          "options": [
+            "Sneller kunnen reageren op klantbehoeften",
+            "Complexiteit van IT-systemen in kaart brengen",
+            "Beter begrip van klantbeleving",
+            "Bottlenecks in workflow identificeren"
+          ],
+          "answer": "Sneller kunnen reageren op klantbehoeften",
+          "explanation": {
+            "Sneller kunnen reageren op klantbehoeften": "Juist: korte iteraties met feedback vergroten wendbaarheid.",
+            "Complexiteit van IT-systemen in kaart brengen": "Bijvangst, geen hoofdvoordeel.",
+            "Beter begrip van klantbeleving": "Kan, maar niet het primaire voordeel hier.",
+            "Bottlenecks in workflow identificeren": "Past bij 'zichtbaarheid' principe."
+          }
+        }
+      ]
+    }
+  ]
+}
+

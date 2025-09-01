@@ -1,0 +1,694 @@
+{
+  "chapters": [
+    {
+      "chapter": "ITIL 4 test 1_1 (EN)",
+      "description": "ITIL 4 - Practice Test 1_1 (EN, questions 1-40)",
+      "questions": [
+        {
+          "number": 1,
+          "question": "How does categorization of incidents assist the incident management practice?",
+          "options": [
+            "It determines the priority assigned to the incident.",
+            "It ensures that incidents are resolved in timescales agreed with the customer.",
+            "It determines how the service provider is perceived.",
+            "It helps direct the incident to the correct support area."
+          ],
+          "answer": "It helps direct the incident to the correct support area.",
+          "explanation": {
+            "It determines the priority assigned to the incident.": "Incorrect: priority is based on impact and urgency, not on category alone.",
+            "It ensures that incidents are resolved in timescales agreed with the customer.": "Incorrect: that is governed by SLAs/OLAs, not categorization.",
+            "It determines how the service provider is perceived.": "Incorrect: perception may be influenced, but that is not the purpose of categorization.",
+            "It helps direct the incident to the correct support area.": "Correct: categories guide routing and escalation to appropriate teams."
+          }
+        },
+        {
+          "number": 2,
+          "question": "Which approach is TRUE when applying the guiding principle 'keep it simple and practical'?",
+          "options": [
+            "Only add controls and metrics that are required for compliance",
+            "Only add controls and metrics when they are needed",
+            "Design controls and metrics first, then remove those not adding value",
+            "Design controls and metrics and add them individually until all are implemented"
+          ],
+          "answer": "Only add controls and metrics when they are needed",
+          "explanation": {
+            "Only add controls and metrics that are required for compliance": "Incomplete: compliance may be required, but keep what truly adds value.",
+            "Only add controls and metrics when they are needed": "Correct: start uncomplicated and add only when necessary.",
+            "Design controls and metrics first, then remove those not adding value": "Over-engineering, not simple.",
+            "Design controls and metrics and add them individually until all are implemented": "Adds unnecessary complexity."
+          }
+        },
+        {
+          "number": 3,
+          "question": "What is the main purpose of the design and transition value chain activity?",
+          "options": [
+            "Continually meeting stakeholder expectations for costs",
+            "Providing transparency and good stakeholder relationships",
+            "Ensuring that service components are available when needed",
+            "Supporting services according to specifications"
+          ],
+          "answer": "Continually meeting stakeholder expectations for costs",
+          "explanation": {
+            "Continually meeting stakeholder expectations for costs": "Correct in the given option set: D&T ensures products and services meet expectations for quality, cost, and time-to-market.",
+            "Providing transparency and good stakeholder relationships": "Engage activity.",
+            "Ensuring that service components are available when needed": "Obtain/build activity.",
+            "Supporting services according to specifications": "Deliver & support activity."
+          }
+        },
+        {
+          "number": 4,
+          "question": "What is the MOST important reason for prioritizing incidents?",
+          "options": [
+            "To provide links to related changes and known errors",
+            "To help information-sharing and learning",
+            "To ensure that user expectations are realistic",
+            "To ensure that incidents with highest impact are resolved first"
+          ],
+          "answer": "To ensure that incidents with highest impact are resolved first",
+          "explanation": {
+            "To provide links to related changes and known errors": "Useful practice, but not the reason for prioritization.",
+            "To help information-sharing and learning": "Valuable, but not the core reason.",
+            "To ensure that user expectations are realistic": "Important, yet secondary to impact/urgency.",
+            "To ensure that incidents with highest impact are resolved first": "Correct: prioritization is impact/urgency-driven."
+          }
+        },
+        {
+          "number": 5,
+          "question": "What is a recommendation of the 'focus on value' guiding principle?",
+          "options": [
+            "Make 'focus on value' a responsibility of the management",
+            "Focus on value at every step of the improvement",
+            "Focus on the value of new and significant projects first",
+            "Focus on value for the service provider first"
+          ],
+          "answer": "Focus on value at every step of the improvement",
+          "explanation": {
+            "Make 'focus on value' a responsibility of the management": "Value focus is for everyone, not only management.",
+            "Focus on value at every step of the improvement": "Correct: value should be evident at each step.",
+            "Focus on the value of new and significant projects first": "Incorrect: small initiatives must also deliver value.",
+            "Focus on value for the service provider first": "Incorrect: value is defined by the consumer."
+          }
+        },
+        {
+          "number": 6,
+          "question": "What should all continual improvement decisions be based on?",
+          "options": [
+            "Accurate and carefully analyzed data",
+            "Details of how services are measured",
+            "A recent maturity assessment",
+            "An up-to-date balanced scorecard"
+          ],
+          "answer": "Accurate and carefully analyzed data",
+          "explanation": {
+            "Accurate and carefully analyzed data": "Correct: fact-based decisions.",
+            "Details of how services are measured": "Input source, not the basis by itself.",
+            "A recent maturity assessment": "May help, but is not sufficient by itself.",
+            "An up-to-date balanced scorecard": "Additional input, but the key is accurate data and analysis."
+          }
+        },
+        {
+          "number": 7,
+          "question": "Which guiding principle discourages 'silo activity' the most?",
+          "options": [
+            "Focus on value",
+            "Keep it simple and practical",
+            "Start where you are",
+            "Collaborate and promote visibility"
+          ],
+          "answer": "Collaborate and promote visibility",
+          "explanation": {
+            "Focus on value": "Important principle, but not about breaking silos specifically.",
+            "Keep it simple and practical": "About simplicity, not silos.",
+            "Start where you are": "Measure/observe current state.",
+            "Collaborate and promote visibility": "Correct: transparency and collaboration break silos."
+          }
+        },
+        {
+          "number": 8,
+          "question": "Identify the missing word: A known error is a problem that has been _____ but has not been resolved.",
+          "options": [
+            "Logged",
+            "Escalated",
+            "Closed",
+            "Analyzed"
+          ],
+          "answer": "Analyzed",
+          "explanation": {
+            "Logged": "Logging is necessary, but not sufficient for known error.",
+            "Escalated": "Escalation may happen, but is not the criterion.",
+            "Closed": "Then it would not be a known error.",
+            "Analyzed": "Correct: analyzed but not resolved."
+          }
+        },
+        {
+          "number": 9,
+          "question": "Which of the following activities is an example of service provisioning?",
+          "options": [
+            "Utilization of the provider's resources",
+            "Provision of access to resources for users",
+            "Receipt or acquisition of goods",
+            "Request for service actions"
+          ],
+          "answer": "Provision of access to resources for users",
+          "explanation": {
+            "Utilization of the provider's resources": "This is service consumption by the consumer.",
+            "Provision of access to resources for users": "Correct: part of provisioning.",
+            "Receipt or acquisition of goods": "May occur, but not the canonical provisioning example here.",
+            "Request for service actions": "Service request/consumption."
+          }
+        },
+        {
+          "number": 10,
+          "question": "Which guiding principle is primarily concerned with consumer's revenue and growth?",
+          "options": [
+            "Optimize and automate",
+            "Focus on value",
+            "Keep it simple and practical",
+            "Progress iteratively with feedback"
+          ],
+          "answer": "Focus on value",
+          "explanation": {
+            "Optimize and automate": "About efficiency/effectiveness via optimization and automation.",
+            "Focus on value": "Correct: value to the consumer (revenue, growth, loyalty).",
+            "Keep it simple and practical": "About simplicity.",
+            "Progress iteratively with feedback": "About iterative delivery and learning."
+          }
+        },
+        {
+          "number": 11,
+          "question": "Why is a change schedule used?",
+          "options": [
+            "To help authorize standard changes",
+            "To help assign a change authority",
+            "To help plan emergency changes",
+            "To avoid change conflicts"
+          ],
+          "answer": "To avoid change conflicts",
+          "explanation": {
+            "To help authorize standard changes": "Standard changes are pre-authorized.",
+            "To help assign a change authority": "Authorities are defined by policy/model, not by the schedule.",
+            "To help plan emergency changes": "Emergency changes are accelerated and often outside the schedule.",
+            "To avoid change conflicts": "Correct: planning and conflict avoidance."
+          }
+        },
+        {
+          "number": 12,
+          "question": "What is an event?",
+          "options": [
+            "None of the options",
+            "Change of state that has significance for the management of a configuration item (CI) or IT service",
+            "Unplanned interruption to a service or reduction in the quality of a service",
+            "Cause, or potential cause, of one or more incidents"
+          ],
+          "answer": "Change of state that has significance for the management of a configuration item (CI) or IT service",
+          "explanation": {
+            "None of the options": "Incorrect: the definition is provided in the options.",
+            "Change of state that has significance for the management of a configuration item (CI) or IT service": "Correct: definition of an event.",
+            "Unplanned interruption to a service or reduction in the quality of a service": "Incident.",
+            "Cause, or potential cause, of one or more incidents": "Problem."
+          }
+        },
+        {
+          "number": 13,
+          "question": "Which statement about the value chain activities is correct?",
+          "options": [
+            "Every practice belongs to a specific value chain activity",
+            "A specific combination of value chain activities and practices forms a service relationship",
+            "Each value chain activity contributes to the value chain by transforming specific inputs into outputs",
+            "Service value chain activities form a single workflow that enables value creation"
+          ],
+          "answer": "Each value chain activity contributes to the value chain by transforming specific inputs into outputs",
+          "explanation": {
+            "Every practice belongs to a specific value chain activity": "Incorrect: practices can support multiple activities.",
+            "A specific combination of value chain activities and practices forms a service relationship": "Incorrect: this describes value streams rather than a relationship.",
+            "Each value chain activity contributes to the value chain by transforming specific inputs into outputs": "Correct.",
+            "Service value chain activities form a single workflow that enables value creation": "Incorrect: the chain is flexible and scenario-dependent."
+          }
+        },
+        {
+          "number": 14,
+          "question": "Which statement about the 'service request management' practice is CORRECT?",
+          "options": [
+            "Additional approval is sometimes needed for restoration of service",
+            "Service requests are fulfilled using simple workflows",
+            "A new workflow is created for each type of request",
+            "Financial authorization is sometimes required for service requests"
+          ],
+          "answer": "Financial authorization is sometimes required for service requests",
+          "explanation": {
+            "Additional approval is sometimes needed for restoration of service": "This applies to incident or change handling, not typical SRM.",
+            "Service requests are fulfilled using simple workflows": "Not always; some are complex.",
+            "A new workflow is created for each type of request": "Not recommended; reuse models where possible.",
+            "Financial authorization is sometimes required for service requests": "Correct: policy (financial/security) may require authorization."
+          }
+        },
+        {
+          "number": 15,
+          "question": "Which practice is responsible for moving components to live environments?",
+          "options": [
+            "IT asset management",
+            "Release management",
+            "Change enablement",
+            "Deployment management"
+          ],
+          "answer": "Deployment management",
+          "explanation": {
+            "IT asset management": "Lifecycle of IT assets, not deployments.",
+            "Release management": "Focuses on when/how to make available to users.",
+            "Change enablement": "Assesses and authorizes changes.",
+            "Deployment management": "Correct: moves components to test/prod."
+          }
+        },
+        {
+          "number": 16,
+          "question": "Which is a purpose of the service desk practice?",
+          "options": [
+            "To reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents",
+            "To maximize the number of successful IT changes by ensuring risks are properly assessed",
+            "To capture demand for incident resolution and service requests",
+            "To set clear business-based targets for service performance"
+          ],
+          "answer": "To capture demand for incident resolution and service requests",
+          "explanation": {
+            "To reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents": "Problem management.",
+            "To maximize the number of successful IT changes by ensuring risks are properly assessed": "Change enablement.",
+            "To capture demand for incident resolution and service requests": "Correct: core purpose of the service desk.",
+            "To set clear business-based targets for service performance": "Service level management."
+          }
+        },
+        {
+          "number": 17,
+          "question": "Which of these dimension considers data security and privacy?",
+          "options": [
+            "Value streams and processes",
+            "Information and technology",
+            "Organizations and people",
+            "Partners and suppliers"
+          ],
+          "answer": "Information and technology",
+          "explanation": {
+            "Value streams and processes": "Focus on activities/workflows.",
+            "Information and technology": "Correct: includes information security and compliance.",
+            "Organizations and people": "Focus on culture, roles, competencies.",
+            "Partners and suppliers": "Focus on external relationships."
+          }
+        },
+        {
+          "number": 18,
+          "question": "How should the seven guiding principles be applied when an organization is making a decision?",
+          "options": [
+            "By using the most relevant principles to the specific decision",
+            "By reviewing each guiding principle to decide how relevant it is to the specific decision",
+            "By using all the guiding principles equally when making any decision",
+            "By using the focus on value principle among others that are relevant to the specific decision"
+          ],
+          "answer": "By reviewing each guiding principle to decide how relevant it is to the specific decision",
+          "explanation": {
+            "By using the most relevant principles to the specific decision": "Close, but you first review each principle to judge relevance.",
+            "By reviewing each guiding principle to decide how relevant it is to the specific decision": "Correct.",
+            "By using all the guiding principles equally when making any decision": "Unnecessary and impractical.",
+            "By using the focus on value principle among others that are relevant to the specific decision": "Too narrow; consider all principles for relevance."
+          }
+        },
+        {
+          "number": 19,
+          "question": "What is the MAIN benefit of 'problem management'?",
+          "options": [
+            "Reducing the number and impact of incidents",
+            "Maximizing the number of successful changes",
+            "Restoring normal service as quickly as possible",
+            "Managing workarounds and known errors"
+          ],
+          "answer": "Reducing the number and impact of incidents",
+          "explanation": {
+            "Reducing the number and impact of incidents": "Correct: primary benefit.",
+            "Maximizing the number of successful changes": "Change enablement.",
+            "Restoring normal service as quickly as possible": "Incident management.",
+            "Managing workarounds and known errors": "Part of problem management, but not the headline benefit."
+          }
+        },
+        {
+          "number": 20,
+          "question": "What is the purpose of the SVS?",
+          "options": [
+            "It ensures that the organization continually co-creates value with all stakeholders.",
+            "None of the options",
+            "It guides the organization.",
+            "It typically addresses areas such as availability, capacity, security levels, and continuity."
+          ],
+          "answer": "It ensures that the organization continually co-creates value with all stakeholders.",
+          "explanation": {
+            "It ensures that the organization continually co-creates value with all stakeholders.": "Correct: definition of the SVS purpose.",
+            "None of the options": "Incorrect.",
+            "It guides the organization.": "Describes governance, a component of the SVS.",
+            "It typically addresses areas such as availability, capacity, security levels, and continuity.": "Warranty/SLA aspects, not the SVS purpose."
+          }
+        },
+        {
+          "number": 21,
+          "question": "Which of the statement about a service value stream is TRUE?",
+          "options": [
+            "It uses prescriptive inputs and outputs",
+            "It is a value chain activity",
+            "It is used to provide governance",
+            "It integrates practices for a specific scenario"
+          ],
+          "answer": "It integrates practices for a specific scenario",
+          "explanation": {
+            "It uses prescriptive inputs and outputs": "Incorrect: streams are flexible.",
+            "It is a value chain activity": "Incorrect: a stream combines multiple activities.",
+            "It is used to provide governance": "Incorrect: governance is a SVS component.",
+            "It integrates practices for a specific scenario": "Correct."
+          }
+        },
+        {
+          "number": 22,
+          "question": "Which TWO are considered part of the 'organizations and people' dimension of service management?",
+          "options": [
+            "1. Systems of authority",
+            "2. Culture",
+            "3. Relationships between organizations",
+            "4. Workflows"
+          ],
+          "answer": [
+            "1. Systems of authority",
+            "2. Culture"
+          ],
+          "explanation": {
+            "1. Systems of authority": "Correct: O&P.",
+            "2. Culture": "Correct: O&P.",
+            "3. Relationships between organizations": "Partners and suppliers.",
+            "4. Workflows": "Value streams and processes."
+          }
+        },
+        {
+          "number": 23,
+          "question": "Identify the missing word. The purpose of the service configuration management practice is to ensure that accurate and reliable information about the configuration of services, and the ______ that support them, is available when and where it is needed.",
+          "options": [
+            "Customers",
+            "CIs",
+            "Suppliers",
+            "Assets"
+          ],
+          "answer": "CIs",
+          "explanation": {
+            "Customers": "Not configuration items.",
+            "CIs": "Correct: configuration items support services.",
+            "Suppliers": "External parties, not CIs.",
+            "Assets": "Not every asset is necessarily a CI in the CMDB scope."
+          }
+        },
+        {
+          "number": 24,
+          "question": "Define a known error.",
+          "options": [
+            "A cause, or potential cause, of one or more incidents",
+            "Any change of state that has significance for the management of a service or other configuration item (CI)",
+            "A problem that has been analyzed and has not been resolved",
+            "An unplanned interruption to a service, or reduction in the quality of a service"
+          ],
+          "answer": "A problem that has been analyzed and has not been resolved",
+          "explanation": {
+            "A cause, or potential cause, of one or more incidents": "Problem.",
+            "Any change of state that has significance for the management of a service or other configuration item (CI)": "Event.",
+            "A problem that has been analyzed and has not been resolved": "Correct: known error.",
+            "An unplanned interruption to a service, or reduction in the quality of a service": "Incident."
+          }
+        },
+        {
+          "number": 25,
+          "question": "Which describes the 'plan' value chain activity?",
+          "options": [
+            "It ensures that services are delivered and supported according to agreed specifications and stakeholders’ expectations",
+            "It ensures a shared understanding of the current status and vision for all products and services across the organization",
+            "It ensures continual improvement of products, services, and practices across all value chain activities",
+            "It ensures that service components are available when and where they are needed, and meet agreed specifications"
+          ],
+          "answer": "It ensures a shared understanding of the current status and vision for all products and services across the organization",
+          "explanation": {
+            "It ensures that services are delivered and supported according to agreed specifications and stakeholders’ expectations": "Deliver & support.",
+            "It ensures a shared understanding of the current status and vision for all products and services across the organization": "Correct: Plan.",
+            "It ensures continual improvement of products, services, and practices across all value chain activities": "Improve.",
+            "It ensures that service components are available when and where they are needed, and meet agreed specifications": "Obtain/build."
+          }
+        },
+        {
+          "number": 26,
+          "question": "Which ITIL practice has the purpose of reducing the likelihood of incidents occurring?",
+          "options": [
+            "Service desk",
+            "Change enablement",
+            "Problem management",
+            "Continual improvement"
+          ],
+          "answer": "Problem management",
+          "explanation": {
+            "Service desk": "SPOC and coordination, not probability reduction.",
+            "Change enablement": "Assesses and authorizes change risk.",
+            "Problem management": "Correct: reduces likelihood and impact by addressing causes.",
+            "Continual improvement": "Improves broadly, not specifically incident likelihood."
+          }
+        },
+        {
+          "number": 27,
+          "question": "Which of the below will NOT be handled as a service request?",
+          "options": [
+            "The provision of a laptop",
+            "The degradation of a service",
+            "A complaint about a support team",
+            "The replacement of a toner cartridge"
+          ],
+          "answer": "The degradation of a service",
+          "explanation": {
+            "The provision of a laptop": "Can be a service request (goods).",
+            "The degradation of a service": "Correct: it is an incident.",
+            "A complaint about a support team": "Can be a request/feedback item.",
+            "The replacement of a toner cartridge": "Typical service request."
+          }
+        },
+        {
+          "number": 28,
+          "question": "What is the objective of the information security management practice?",
+          "options": [
+            "To protect the information needed by the organization to conduct its business",
+            "To ensure that accurate and reliable information about the configuration of services is available when and where it is needed",
+            "To observe services and service components",
+            "To plan and manage the lifecycle of all IT assets"
+          ],
+          "answer": "To protect the information needed by the organization to conduct its business",
+          "explanation": {
+            "To protect the information needed by the organization to conduct its business": "Correct.",
+            "To ensure that accurate and reliable information about the configuration of services is available when and where it is needed": "Service configuration management.",
+            "To observe services and service components": "Monitoring & event management.",
+            "To plan and manage the lifecycle of all IT assets": "IT asset management."
+          }
+        },
+        {
+          "number": 29,
+          "question": "Select the CORRECT approach to change authorization.",
+          "options": [
+            "Normal changes are typically implemented as service requests and authorized by the service desk",
+            "Emergency changes should be authorized by as many people as possible to reduce risk",
+            "Normal changes should be assessed and authorized before they are deployed",
+            "Changes included in the change schedule are pre-authorized and do not need additional authorization"
+          ],
+          "answer": "Normal changes should be assessed and authorized before they are deployed",
+          "explanation": {
+            "Normal changes are typically implemented as service requests and authorized by the service desk": "Incorrect.",
+            "Emergency changes should be authorized by as many people as possible to reduce risk": "Incorrect: emergency auth is expedited, not expanded.",
+            "Normal changes should be assessed and authorized before they are deployed": "Correct.",
+            "Changes included in the change schedule are pre-authorized and do not need additional authorization": "Incorrect: the schedule does not replace authorization."
+          }
+        },
+        {
+          "number": 30,
+          "question": "Which activity is part of the 'continual improvement' practice?",
+          "options": [
+            "Handling compliments and complaints from users to identify improvements",
+            "Identifying the cause of unplanned interruptions to service",
+            "Improving relationships with and between stakeholders",
+            "Prioritizing and creating business cases for improvement initiatives"
+          ],
+          "answer": "Prioritizing and creating business cases for improvement initiatives",
+          "explanation": {
+            "Handling compliments and complaints from users to identify improvements": "Can be input, but not the named core activity here.",
+            "Identifying the cause of unplanned interruptions to service": "Problem management.",
+            "Improving relationships with and between stakeholders": "Relationship management.",
+            "Prioritizing and creating business cases for improvement initiatives": "Correct: key CI activity."
+          }
+        },
+        {
+          "number": 31,
+          "question": "Which value chain activity communicates the current status of all four dimensions of service management?",
+          "options": [
+            "Improve",
+            "Engage",
+            "Plan",
+            "Obtain or build"
+          ],
+          "answer": "Plan",
+          "explanation": {
+            "Improve": "About improving across all activities.",
+            "Engage": "About stakeholder needs and transparency/relationships.",
+            "Plan": "Correct: shared understanding of vision, status, and direction.",
+            "Obtain or build": "About making components available."
+          }
+        },
+        {
+          "number": 32,
+          "question": "Which practice needs people who understand complex systems and have creative and analytical skills?",
+          "options": [
+            "Change enablement",
+            "Service request management",
+            "Problem management",
+            "Service-level management"
+          ],
+          "answer": "Problem management",
+          "explanation": {
+            "Change enablement": "Assesses/authorizes changes.",
+            "Service request management": "Predefined user requests.",
+            "Problem management": "Correct: requires analytical and creative diagnosis.",
+            "Service-level management": "Focus on targets, metrics, customer dialogue."
+          }
+        },
+        {
+          "number": 33,
+          "question": "Which one of the practices has a purpose that includes managing risks to confidentiality, integrity and availability?",
+          "options": [
+            "Information security management",
+            "Supplier management",
+            "Monitoring and event management",
+            "Continual enablement"
+          ],
+          "answer": "Information security management",
+          "explanation": {
+            "Information security management": "Correct: CIA risk management.",
+            "Supplier management": "Manages suppliers and performance.",
+            "Monitoring and event management": "Observes and reports events.",
+            "Continual enablement": "Not an ITIL 4 practice name."
+          }
+        },
+        {
+          "number": 34,
+          "question": "Which of the following is true about emergency changes?",
+          "options": [
+            "Are implemented as soon as possible",
+            "Are authorized based on change type",
+            "Are pre-authorized",
+            "Are implemented without any additional authorization"
+          ],
+          "answer": "Are implemented as soon as possible",
+          "explanation": {
+            "Are implemented as soon as possible": "Correct: with expedited assessment/authorization.",
+            "Are authorized based on change type": "Too generic; emergency has its own expedited path.",
+            "Are pre-authorized": "Incorrect: that is standard changes.",
+            "Are implemented without any additional authorization": "Incorrect: authorization is expedited, not removed."
+          }
+        },
+        {
+          "number": 35,
+          "question": "What is recommended by the guiding principle 'progress iteratively with feedback'?",
+          "options": [
+            "An improvement initiative that is broken into a number of manageable sections",
+            "The identification of all interested stakeholders at the start of an improvement initiative",
+            "An assessment of how all the parts of an organization will affect an improvement initiative",
+            "A current state assessment that is carried out at the start of an improvement initiative"
+          ],
+          "answer": "An improvement initiative that is broken into a number of manageable sections",
+          "explanation": {
+            "An improvement initiative that is broken into a number of manageable sections": "Correct: smaller iterations with feedback.",
+            "The identification of all interested stakeholders at the start of an improvement initiative": "Useful, but not the essence of the principle.",
+            "An assessment of how all the parts of an organization will affect an improvement initiative": "Holistic thinking, not the iterative principle.",
+            "A current state assessment that is carried out at the start of an improvement initiative": "Related to 'start where you are'; not the key here."
+          }
+        },
+        {
+          "number": 36,
+          "question": "How should an organization include third-party suppliers in the continual improvement of services?",
+          "options": [
+            "Require evidence that the supplier implements all improvements using project management practices",
+            "Require evidence that the supplier uses agile development methods",
+            "Ensure suppliers include details of their approach to service improvement in contracts",
+            "Ensure that all supplier problem management activities result in improvements"
+          ],
+          "answer": "Ensure suppliers include details of their approach to service improvement in contracts",
+          "explanation": {
+            "Require evidence that the supplier implements all improvements using project management practices": "Too prescriptive; the approach should be agreed, not dictated.",
+            "Require evidence that the supplier uses agile development methods": "Method-neutral; the point is having an agreed improvement approach.",
+            "Ensure suppliers include details of their approach to service improvement in contracts": "Correct: measurement, reporting, and improvement should be contractually covered.",
+            "Ensure that all supplier problem management activities result in improvements": "Unrealistic: priorities and context matter."
+          }
+        },
+        {
+          "number": 37,
+          "question": "Identify the missing word in the following sentence. A customer is the role that defines the requirements for a service and takes responsibility for the ________ of service consumption.",
+          "options": [
+            "Outputs",
+            "Costs",
+            "Outcomes",
+            "Risks"
+          ],
+          "answer": "Outcomes",
+          "explanation": {
+            "Outputs": "Outputs are deliverables; outcomes are the results for the stakeholder.",
+            "Costs": "Provider manages many specific costs/risks; customer is responsible for outcomes.",
+            "Outcomes": "Correct.",
+            "Risks": "Specific risks are largely managed by the provider."
+          }
+        },
+        {
+          "number": 38,
+          "question": "What type of change is MOST likely to be managed as a service request?",
+          "options": [
+            "A standard change",
+            "An organizational change",
+            "An emergency change",
+            "A normal change"
+          ],
+          "answer": "A standard change",
+          "explanation": {
+            "A standard change": "Correct: low risk, pre-authorized, often fulfilled via SRM.",
+            "An organizational change": "People/structure (OCM), not SRM.",
+            "An emergency change": "Expedited change, not SRM.",
+            "A normal change": "Goes through the normal change process."
+          }
+        },
+        {
+          "number": 39,
+          "question": "What is the primary use of a change schedule?",
+          "options": [
+            "To support incident management and improvement planning",
+            "To manage standard changes",
+            "To manage emergency changes",
+            "To plan changes and help avoid conflicts"
+          ],
+          "answer": "To plan changes and help avoid conflicts",
+          "explanation": {
+            "To support incident management and improvement planning": "Secondary benefit at most.",
+            "To manage standard changes": "Standard changes are pre-authorized; schedule is broader.",
+            "To manage emergency changes": "Emergency changes are often outside the schedule.",
+            "To plan changes and help avoid conflicts": "Correct: primary purpose."
+          }
+        },
+        {
+          "number": 40,
+          "question": "What is a guiding principle?",
+          "options": [
+            "It is a process.",
+            "It is a recommendation that guides an organization in all circumstances.",
+            "It is a means by which an organization is directed and controlled.",
+            "All of the options"
+          ],
+          "answer": "It is a recommendation that guides an organization in all circumstances.",
+          "explanation": {
+            "It is a process.": "Incorrect: principles are not processes.",
+            "It is a recommendation that guides an organization in all circumstances.": "Correct: definition of guiding principle.",
+            "It is a means by which an organization is directed and controlled.": "That is governance.",
+            "All of the options": "Incorrect: not all choices are correct."
+          }
+        }
+      ]
+    }
+  ]
+}
+

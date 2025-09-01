@@ -1,0 +1,582 @@
+{
+  "chapters": [
+    {
+      "chapter": "ITIL 4 toets 4_2 (NE)",
+      "description": "ITIL 4 - Oefentoets 4_2 (NL, vragen 41-80)",
+      "questions": [
+        {
+          "number": 41,
+          "question": "Wat zijn de BELANGRIJKSTE stakeholdergroepen waarmee serviceproviders moeten samenwerken?",
+          "options": ["Klanten","Leveranciers","Developers","Relatiemanagers"],
+          "answer": "Klanten",
+          "explanation": {
+            "Klanten": "Juist: waarde wordt gedefinieerd door en met klanten gecreeerd.",
+            "Leveranciers": "Belangrijk, maar niet de primaire groep die wordt bediend.",
+            "Developers": "Interne bijdragers, geen stakeholdergroep op zich.",
+            "Relatiemanagers": "Rollen, geen stakeholdergroep."
+          }
+        },
+        {
+          "number": 42,
+          "question": "Wat zijn de twee kostentypen die een serviceconsument moet beoordelen?",
+          "options": [
+            "Kosten die door de service worden weggenomen en kosten die door de service worden opgelegd",
+            "De prijs van de service en de kosten om de service te maken",
+            "Kosten voor provisioning en verbeteren van de service",
+            "Softwarekosten en hardwarekosten"
+          ],
+          "answer": "Kosten die door de service worden weggenomen en kosten die door de service worden opgelegd",
+          "explanation": {
+            "Kosten die door de service worden weggenomen en kosten die door de service worden opgelegd": "Juist: consumentenperspectief op totale kosten.",
+            "De prijs van de service en de kosten om de service te maken": "Providerperspectief.",
+            "Kosten voor provisioning en verbeteren van de service": "Providerperspectief.",
+            "Softwarekosten en hardwarekosten": "Te smal."
+          }
+        },
+        {
+          "number": 43,
+          "question": "Wat is de definitie van servicemanagement?",
+          "options": [
+            "Gezamenlijke activiteiten van provider en consument om continu waarde te co-creeren",
+            "Een set gespecialiseerde organisatorische capabilities om waarde voor klanten mogelijk te maken in de vorm van services",
+            "Een formele beschrijving van een of meer services voor een doelgroep",
+            "Een resultaat voor een stakeholder mogelijk gemaakt door een of meer outputs"
+          ],
+          "answer": "Een set gespecialiseerde organisatorische capabilities om waarde voor klanten mogelijk te maken in de vorm van services",
+          "explanation": {
+            "Gezamenlijke activiteiten...": "Servicerelationshipmanagement.",
+            "Een set gespecialiseerde organisatorische capabilities...": "Juist: definitie van servicemanagement.",
+            "Een formele beschrijving...": "Serviceaanbieding.",
+            "Een resultaat voor een stakeholder...": "Outcome."
+          }
+        },
+        {
+          "number": 44,
+          "question": "Welke SVC-activiteit hoort bij het inkopen van nieuwe producten?",
+          "options": ["Improve","Obtain/build","Engage","Plan"],
+          "answer": "Obtain/build",
+          "explanation": {
+            "Improve": "Continue verbetering.",
+            "Obtain/build": "Juist: verwerven en bouwen van componenten.",
+            "Engage": "Stakeholderinteracties.",
+            "Plan": "Visie, richting en beleid."
+          }
+        },
+        {
+          "number": 45,
+          "question": "Wat is een voorbeeld van een servicerequest?",
+          "options": [
+            "Een verzoek om toegang tot een bestand",
+            "Een verzoek om de oorzaak van een incident te onderzoeken",
+            "Een verzoek om normale operatie te herstellen",
+            "Een verzoek om een security patch te implementeren"
+          ],
+          "answer": "Een verzoek om toegang tot een bestand",
+          "explanation": {
+            "Een verzoek om toegang tot een bestand": "Juist: typische user-initiated serviceactie.",
+            "Een verzoek om de oorzaak van een incident te onderzoeken": "Problem management.",
+            "Een verzoek om normale operatie te herstellen": "Incident management.",
+            "Een verzoek om een security patch te implementeren": "Change enablement (vaak emergency)."
+          }
+        },
+        {
+          "number": 46,
+          "question": "Wat is een voorbeeld van een servicerequest?",
+          "options": [
+            "Een verzoek om toegang tot een bestand",
+            "Een verzoek om een security patch te implementeren",
+            "Een verzoek om normale operatie te herstellen",
+            "Een verzoek om de oorzaak van een incident te onderzoeken"
+          ],
+          "answer": "Een verzoek om toegang tot een bestand",
+          "explanation": {
+            "Een verzoek om toegang tot een bestand": "Juist: standaard service request.",
+            "Een verzoek om een security patch te implementeren": "Change enablement.",
+            "Een verzoek om normale operatie te herstellen": "Incident management.",
+            "Een verzoek om de oorzaak van een incident te onderzoeken": "Problem management."
+          }
+        },
+        {
+          "number": 47,
+          "question": "Een service is 2 uur onbeschikbaar door ongeplande maintenance. Welke practice managet dit het meest waarschijnlijk?",
+          "options": ["Change enablement","Problem management","Incident management","Servicerequestmanagement"],
+          "answer": "Incident management",
+          "explanation": {
+            "Incident management": "Juist: ongeplande onderbreking is een incident.",
+            "Change enablement": "Ongeplande maintenance valt niet onder geplande changes.",
+            "Problem management": "Richt zich op oorzaken/known errors.",
+            "Servicerequestmanagement": "Vooraf gedefinieerde verzoeken."
+          }
+        },
+        {
+          "number": 48,
+          "question": "Welke dimensie behandelt het type relatie met andere organisaties in ontwerp en levering?",
+          "options": ["Organisaties en mensen","Partners en leveranciers","Waardestromen en processen","Informatie en technologie"],
+          "answer": "Partners en leveranciers",
+          "explanation": {
+            "Partners en leveranciers": "Juist: externe relaties en contracten.",
+            "Organisaties en mensen": "Mensen, rollen, cultuur.",
+            "Waardestromen en processen": "Activiteiten en workflows.",
+            "Informatie en technologie": "Informatie, kennis en tools."
+          }
+        },
+        {
+          "number": 49,
+          "question": "Wat is het verschil tussen Incident management en Service desk?",
+          "options": [
+            "Incident management beheert serviceonderbrekingen, Service desk monitort servicekwaliteit",
+            "Incident management lost complexe issues op, Service desk eenvoudige issues",
+            "Incident management herstelt service, Service desk verzorgt communicatie met gebruikers",
+            "Incident management lost issues op, Service desk onderzoekt oorzaken"
+          ],
+          "answer": "Incident management herstelt service, Service desk verzorgt communicatie met gebruikers",
+          "explanation": {
+            "Incident management herstelt service, Service desk verzorgt communicatie met gebruikers": "Juist: proces vs. toegangspunt.",
+            "Andere opties": "Geven de rollen niet correct weer."
+          }
+        },
+        {
+          "number": 50,
+          "question": "Een organisatie die een verbeterinitiatief uitvoert moet de bestaande methoden en services [?] bij het bouwen aan de toekomst.",
+          "options": ["Verbeteren","Overwegen","Weggooien","Hergebruiken"],
+          "answer": "Overwegen",
+          "explanation": {
+            "Overwegen": "Juist: eerst beoordelen wat werkt.",
+            "Hergebruiken": "Kan na beoordeling.",
+            "Verbeteren": "Kan na beoordeling.",
+            "Weggooien": "Niet zonder beoordeling."
+          }
+        },
+        {
+          "number": 51,
+          "question": "Welk ITIL-concept helpt een organisatie goede beslissingen te nemen?",
+          "options": ["Practices","Guiding principles","Vier dimensies van servicemanagement","Servicewaardeketen"],
+          "answer": "Guiding principles",
+          "explanation": {
+            "Guiding principles": "Juist: aanbevelingen die acties en beslissingen sturen.",
+            "Practices": "Resources, geen beslisregels.",
+            "Vier dimensies van servicemanagement": "Holistische kijk.",
+            "Servicewaardeketen": "Operating model."
+          }
+        },
+        {
+          "number": 52,
+          "question": "Wat is de definitie van een event?",
+          "options": [
+            "Elk financieel waardevol component dat kan bijdragen aan levering",
+            "Elke statuswijziging met betekenis voor het managen van een service of CI",
+            "Een ongeplande onderbreking of kwaliteitsvermindering van een service",
+            "Elk component dat moet worden gemanaged om een IT-service te leveren"
+          ],
+          "answer": "Elke statuswijziging met betekenis voor het managen van een service of CI",
+          "explanation": {
+            "Elke statuswijziging met betekenis voor het managen van een service of CI": "Juist: event.",
+            "Elk financieel waardevol component...": "IT-asset.",
+            "Een ongeplande onderbreking...": "Incident.",
+            "Elk component dat moet worden gemanaged...": "Configuration item."
+          }
+        },
+        {
+          "number": 53,
+          "question": "Een service is 2 uur onbeschikbaar door ongeplande maintenance. Welke practice managet dit?",
+          "options": ["Problem management","Change enablement","Servicerequestmanagement","Incident management"],
+          "answer": "Incident management",
+          "explanation": {
+            "Incident management": "Juist: ongeplande onderbreking.",
+            "Problem management": "Oorzaakonderzoek: later.",
+            "Change enablement": "Voor geplande changes.",
+            "Servicerequestmanagement": "Vooraf gedefinieerde verzoeken."
+          }
+        },
+        {
+          "number": 54,
+          "question": "Vul in: doel van Service configuration management is borgen dat accurate en betrouwbare informatie over de configuratie van [?], en de CI's die hen ondersteunen, beschikbaar is.",
+          "options": ["organisaties","IT-assets","outcomes","services"],
+          "answer": "services",
+          "explanation": {
+            "services": "Juist: services en ondersteunende CIs.",
+            "IT-assets": "Assets kunnen CIs zijn, focus blijft services.",
+            "organisaties": "Geen doel van SCM.",
+            "outcomes": "Resultaten, geen configuratie."
+          }
+        },
+        {
+          "number": 55,
+          "question": "Welke activiteit wordt NIET aanbevolen door 'Begin waar je bent'?",
+          "options": [
+            "Mensen zonder voorkennis betrekken bij observatie/beoordeling",
+            "Brondata gebruiken om vertekening te vermijden",
+            "Bestaande processen weggooien zonder nut te beoordelen",
+            "Risicomanagement toepassen bij nieuwe processen"
+          ],
+          "answer": "Bestaande processen weggooien zonder nut te beoordelen",
+          "explanation": {
+            "Bestaande processen weggooien zonder nut te beoordelen": "Juist: eerst beoordelen en hergebruiken waar kan.",
+            "Overigen": "In lijn met 'Begin waar je bent'."
+          }
+        },
+        {
+          "number": 56,
+          "question": "Welke uitspraak over inputs en outputs van SVC-activiteiten is JUIST?",
+          "options": [
+            "Sommige activiteiten hebben alleen inputs, andere alleen outputs",
+            "Governance bepaalt inputs en outputs per activiteit",
+            "Inputs en outputs zijn vast per activiteit",
+            "Elke SVC-activiteit ontvangt inputs en levert outputs"
+          ],
+          "answer": "Elke SVC-activiteit ontvangt inputs en levert outputs",
+          "explanation": {
+            "Elke SVC-activiteit ontvangt inputs en levert outputs": "Juist: activiteiten transformeren inputs naar outputs.",
+            "Overige opties": "Weerspiegelen niet de flexibele, gekoppelde SVC."
+          }
+        },
+        {
+          "number": 57,
+          "question": "Welke practice handelt alle vooraf gedefinieerde user-initiated serviceacties af?",
+          "options": ["Service level management","Servicerequestmanagement","Incident management","Deployment management"],
+          "answer": "Servicerequestmanagement",
+          "explanation": {
+            "Servicerequestmanagement": "Juist: fulfilment van vooraf gedefinieerde acties.",
+            "Service level management": "Doelen en reviews.",
+            "Incident management": "Herstelt service.",
+            "Deployment management": "Verplaatst componenten."
+          }
+        },
+        {
+          "number": 58,
+          "question": "Welke practice moet als cultuur door de hele organisatie worden ingebed?",
+          "options": ["Change enablement","Voortdurend verbeteren","Servicerequestmanagement","Service level management"],
+          "answer": "Voortdurend verbeteren",
+          "explanation": {
+            "Voortdurend verbeteren": "Juist: iedereen draagt bij; cultuurbreed nodig.",
+            "Overigen": "Vragen niet dezelfde org-brede cultuuradoptie."
+          }
+        },
+        {
+          "number": 59,
+          "question": "Welke practice doet reviews om te valideren dat services klantbehoeften afdekken?",
+          "options": ["Service desk","Service level management","Change enablement","Monitoring en eventmanagement"],
+          "answer": "Service level management",
+          "explanation": {
+            "Service level management": "Juist: servicereviews.",
+            "Service desk": "SPOC en coordinatie.",
+            "Change enablement": "Risico/autoriseer changes.",
+            "Monitoring en eventmanagement": "Observatie en rapportage."
+          }
+        },
+        {
+          "number": 60,
+          "question": "Wat omvat het configureren van componenten en activiteiten om outcomes te faciliteren?",
+          "options": [
+            "Servicerelationshipmanagement",
+            "Het Service Value System",
+            "De practice Release management",
+            "Serviceconsumptie"
+          ],
+          "answer": "Het Service Value System",
+          "explanation": {
+            "Het Service Value System": "Juist: beschrijft hoe alles samen waarde mogelijk maakt.",
+            "Servicerelationshipmanagement": "Gezamenlijke activiteiten provider/consument.",
+            "De practice Release management": "Beschikbaar maken voor gebruik.",
+            "Serviceconsumptie": "Consumentkant."
+          }
+        },
+        {
+          "number": 61,
+          "question": "Welke practice vereist focus en inzet om te luisteren naar eisen, issues en dagelijkse behoeften van klanten?",
+          "options": ["Servicerequestmanagement","Service level management","Supplier management","Service desk"],
+          "answer": "Service level management",
+          "explanation": {
+            "Service level management": "Juist: SLM vereist actieve engagement en luisteren.",
+            "Servicerequestmanagement": "Fulfilment van vooraf gedefinieerde acties.",
+            "Supplier management": "Focust op leveranciers.",
+            "Service desk": "SPOC, niet primair eisen ophalen."
+          }
+        },
+        {
+          "number": 62,
+          "question": "Wat wordt het meest waarschijnlijk als servicerequest afgehandeld?",
+          "options": [
+            "Een virtuele server leveren voor een dev-team",
+            "Een emergency change om een security patch toe te passen",
+            "Een workaround implementeren",
+            "Een serviceonderbreking managen"
+          ],
+          "answer": "Een virtuele server leveren voor een dev-team",
+          "explanation": {
+            "Een virtuele server leveren voor een dev-team": "Juist: standaard fulfilment.",
+            "Een emergency change...": "Emergency change.",
+            "Een workaround implementeren": "Incident/problem maatregel.",
+            "Een serviceonderbreking managen": "Incident management."
+          }
+        },
+        {
+          "number": 63,
+          "question": "Welke stap van het model Voortdurend verbeteren definieert meetbare targets?",
+          "options": ["Where are we now?","Where do we want to be?","What is the vision?","How do we get there?"],
+          "answer": "Where do we want to be?",
+          "explanation": {
+            "Where do we want to be?": "Juist: meetbare doelen (CSFs/KPIs).",
+            "Where are we now?": "Baseline.",
+            "What is the vision?": "Richting.",
+            "How do we get there?": "Plan van aanpak."
+          }
+        },
+        {
+          "number": 64,
+          "question": "Vul in: een [?] is de oorzaak of mogelijke oorzaak van een of meer incidents.",
+          "options": ["Problem","Known error","Change","Event"],
+          "answer": "Problem",
+          "explanation": {
+            "Problem": "Juist: definitie van problem.",
+            "Known error": "Geanalyseerd problem, nog niet opgelost.",
+            "Change": "Wijziging met effect op services.",
+            "Event": "Betekenisvolle statuswijziging."
+          }
+        },
+        {
+          "number": 65,
+          "question": "Welke gezamenlijke activiteit van provider en consument borgt continue waarde-co-creatie?",
+          "options": ["Servicelevering","Serviceaanbieding","Serviceconsumptie","Servicerelationshipmanagement"],
+          "answer": "Servicerelationshipmanagement",
+          "explanation": {
+            "Servicerelationshipmanagement": "Juist: gezamenlijke activiteiten voor co-creatie.",
+            "Servicelevering": "Providerzijde.",
+            "Serviceconsumptie": "Consumentzijde.",
+            "Serviceaanbieding": "Beschrijving/pakket."
+          }
+        },
+        {
+          "number": 66,
+          "question": "Welke is een voorbeeld van een servicerequest?",
+          "options": [
+            "Verzoek om de oorzaak van een incident te onderzoeken",
+            "Verzoek om een security patch te implementeren",
+            "Verzoek om toegang tot een bestand",
+            "Verzoek om normale operatie te herstellen"
+          ],
+          "answer": "Verzoek om toegang tot een bestand",
+          "explanation": {
+            "Verzoek om toegang tot een bestand": "Juist: standaard request.",
+            "Verzoek om de oorzaak...": "Problem management.",
+            "Verzoek om een security patch...": "Change enablement.",
+            "Verzoek om normale operatie te herstellen": "Incident management."
+          }
+        },
+        {
+          "number": 67,
+          "question": "Wat is de BELANGRIJKSTE stakeholdergroep om mee samen te werken?",
+          "options": ["Leveranciers","Klanten","Developers","Relatiemanagers"],
+          "answer": "Klanten",
+          "explanation": {
+            "Klanten": "Juist: primaire stakeholder voor waarde.",
+            "Leveranciers": "Belangrijk maar secundair.",
+            "Developers": "Intern.",
+            "Relatiemanagers": "Rol, geen groep."
+          }
+        },
+        {
+          "number": 68,
+          "question": "Wat faciliteert outcomes die klanten willen bereiken?",
+          "options": ["Warranty","Service","IT-asset","Organisatie"],
+          "answer": "Service",
+          "explanation": {
+            "Service": "Juist: maakt waarde-co-creatie mogelijk door outcomes te faciliteren.",
+            "Warranty": "Fit for use.",
+            "IT-asset": "Component.",
+            "Organisatie": "Entiteit."
+          }
+        },
+        {
+          "number": 69,
+          "question": "Wat hoort bij het doel van de SVC-activiteit Improve?",
+          "options": [
+            "Gedeeld begrip van visie en richting borgen",
+            "Continue verbetering van producten, services en practices over alle activiteiten borgen",
+            "Borgen dat producten/services voldoen aan verwachtingen voor kwaliteit, kosten en time-to-market",
+            "Stakeholderbehoeften en engagement borgen"
+          ],
+          "answer": "Continue verbetering van producten, services en practices over alle activiteiten borgen",
+          "explanation": {
+            "Continue verbetering...": "Juist: Improve.",
+            "Gedeeld begrip...": "Plan.",
+            "Borgen dat producten/services...": "Design and transition.",
+            "Stakeholderbehoeften...": "Engage."
+          }
+        },
+        {
+          "number": 70,
+          "question": "Wat hoort bij het doel van de practice Relationship management?",
+          "options": [
+            "Relaties met stakeholders identificeren, analyseren, monitoren en continu verbeteren",
+            "Business-gebaseerde servicetargets vaststellen",
+            "Alle vooraf gedefinieerde user-requests effectief afhandelen",
+            "Nauwe samenwerkingen met kernleveranciers opzetten"
+          ],
+          "answer": "Relaties met stakeholders identificeren, analyseren, monitoren en continu verbeteren",
+          "explanation": {
+            "Relaties met stakeholders identificeren, analyseren, monitoren en continu verbeteren": "Juist.",
+            "Business-gebaseerde servicetargets...": "Service level management.",
+            "Alle vooraf gedefinieerde user-requests...": "Servicerequestmanagement.",
+            "Nauwe samenwerkingen met kernleveranciers...": "Onderdeel van Supplier management."
+          }
+        },
+        {
+          "number": 71,
+          "question": "Welke twee uitspraken horen het MEEST bij 'Optimaliseer en automatiseer'?",
+          "options": [
+            "1. Per stakeholder het juiste communicatiekanaal kiezen",
+            "2. Complexe systemen ontwerpen met begrip van onderlinge relaties",
+            "3. Overwegen of technologie handmatige processen efficienter kan maken",
+            "4. De organisatiedoelen begrijpen bij het beoordelen van verbeterimpact"
+          ],
+          "answer": [
+            "3. Overwegen of technologie handmatige processen efficienter kan maken",
+            "4. De organisatiedoelen begrijpen bij het beoordelen van verbeterimpact"
+          ],
+          "explanation": {
+            "1. ...communicatiekanaal...": "Hoort meer bij 'Werk samen en bevorder zichtbaarheid'.",
+            "2. ...complexe systemen...": "Hoort bij 'Denk en werk holistisch'.",
+            "3. ...technologie...": "Juist: kern van optimaliseren en automatiseren.",
+            "4. ...organisatiedoelen...": "Juist: optimalisatie moet doelgericht zijn."
+          }
+        },
+        {
+          "number": 72,
+          "question": "Waar is de klant (customer) verantwoordelijk voor?",
+          "options": [
+            "Budget voor de service autoriseren",
+            "De eisen voor de service bepalen",
+            "De service gebruiken",
+            "De service provisionen"
+          ],
+          "answer": "De eisen voor de service bepalen",
+          "explanation": {
+            "De eisen voor de service bepalen": "Juist: en verantwoordelijk voor outcomes.",
+            "Budget...": "Sponsorrol.",
+            "De service gebruiken": "Userrol.",
+            "De service provisionen": "Providerrol."
+          }
+        },
+        {
+          "number": 73,
+          "question": "Welke practice maakt nieuwe en gewijzigde services en features beschikbaar voor gebruik?",
+          "options": ["Release management","Change control","Deployment management","Servicerequestmanagement"],
+          "answer": "Release management",
+          "explanation": {
+            "Release management": "Juist: beschikbaar maken.",
+            "Deployment management": "Verplaatsen naar omgevingen.",
+            "Change control": "Beoordelen/autorisereren van changes.",
+            "Servicerequestmanagement": "Fulfilment van verzoeken."
+          }
+        },
+        {
+          "number": 74,
+          "question": "Hoe pas je 'Focus op waarde' goed toe?",
+          "options": [
+            "Bewust zijn van systeemcomplexiteit",
+            "Begrijpen waarom services door consumenten worden gebruikt",
+            "Minder taken doen maar met hogere kwaliteit",
+            "Het geheel begrijpen, maar iets doen"
+          ],
+          "answer": "Begrijpen waarom services door consumenten worden gebruikt",
+          "explanation": {
+            "Begrijpen waarom services door consumenten worden gebruikt": "Juist: waarde is consumentgedreven.",
+            "Bewust zijn van systeemcomplexiteit": "Holistisch denken.",
+            "Minder taken doen...": "Simpliciteit/kwaliteit.",
+            "Het geheel begrijpen, maar iets doen": "Iteratieve mindset."
+          }
+        },
+        {
+          "number": 75,
+          "question": "Wat is de JUISTE volgorde van de drie fases van Problem management?",
+          "options": [
+            "Error control, problem control, problem identification",
+            "Problem identification, error control, problem control",
+            "Problem identification, problem control, error control",
+            "Problem control, error control, problem identification"
+          ],
+          "answer": "Problem identification, problem control, error control",
+          "explanation": {
+            "Problem identification, problem control, error control": "Juist: volgorde volgens ITIL 4.",
+            "Overige": "Niet de beoogde flow."
+          }
+        },
+        {
+          "number": 76,
+          "question": "Welke term beschrijft de functionaliteit die een service biedt?",
+          "options": ["Kosten","Utility","Warranty","Risico"],
+          "answer": "Utility",
+          "explanation": {
+            "Utility": "Juist: wat de service doet (fit for purpose).",
+            "Warranty": "Hoe de service presteert (fit for use).",
+            "Kosten": "Hulpbronnen die worden ingezet.",
+            "Risico": "Mogelijke gebeurtenissen met impact."
+          }
+        },
+        {
+          "number": 77,
+          "question": "Welke omschrijving hoort bij servicelevering (service provision)?",
+          "options": [
+            "Activiteiten die een organisatie uitvoert om services te leveren",
+            "Een formele beschrijving van services voor een doelgroep",
+            "Samenwerking tussen twee organisaties om waarde te borgen",
+            "Een manier om waarde te creeren door outcomes te faciliteren"
+          ],
+          "answer": "Activiteiten die een organisatie uitvoert om services te leveren",
+          "explanation": {
+            "Activiteiten die een organisatie uitvoert om services te leveren": "Juist: onderdeel van servicelevering.",
+            "Een formele beschrijving...": "Serviceaanbieding.",
+            "Samenwerking tussen twee organisaties...": "Vorm van partnering.",
+            "Een manier om waarde te creeren...": "Definitie van service."
+          }
+        },
+        {
+          "number": 78,
+          "question": "Wat is de MEEST waarschijnlijke manier om major incidents op te lossen?",
+          "options": [
+            "De servicedesk vindt oorzaak en oplossing",
+            "Een tijdelijk team werkt samen aan een oplossing",
+            "Gebruikers lossen het zelf op via selfservice",
+            "Een supportteam volgt gedetailleerde procedures"
+          ],
+          "answer": "Een tijdelijk team werkt samen aan een oplossing",
+          "explanation": {
+            "Een tijdelijk team werkt samen aan een oplossing": "Juist: cross-functioneel 'swarming' voor major incidents.",
+            "Overige": "Minder effectief voor complexe major incidents."
+          }
+        },
+        {
+          "number": 79,
+          "question": "Wat borgt dat provider en consument samen waarde blijven creeren?",
+          "options": ["Serviceconsumptie","Service level management","Servicerelationshipmanagement","Serviceaanbiedingen"],
+          "answer": "Servicerelationshipmanagement",
+          "explanation": {
+            "Servicerelationshipmanagement": "Juist: gezamenlijke activiteiten voor co-creatie.",
+            "Serviceconsumptie": "Consumentzijde.",
+            "Service level management": "Targets en reviews.",
+            "Serviceaanbiedingen": "Beschrijving/pakket."
+          }
+        },
+        {
+          "number": 80,
+          "question": "Welke practice heeft als doel nauwere, meer collaboratieve relaties te creeren?",
+          "options": [
+            "Release management",
+            "Supplier management",
+            "Service configuration management",
+            "Information security management"
+          ],
+          "answer": "Supplier management",
+          "explanation": {
+            "Supplier management": "Juist: samenwerking met kernleveranciers.",
+            "Release management": "Beschikbaar maken van services/features.",
+            "Service configuration management": "Configuratie-informatie beheren.",
+            "Information security management": "Informatierisico's managen."
+          }
+        }
+      ]
+    }
+  ]
+}
+

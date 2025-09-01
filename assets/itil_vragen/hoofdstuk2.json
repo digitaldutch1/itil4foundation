@@ -1,0 +1,860 @@
+{
+  "chapters": [
+    {
+      "chapter": 2,
+      "description": "ITIL 4 BL1/BL2 - Hoofdstuk 2 (Kernbegrippen servicemanagement)",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Wat is de definitie van een service?",
+          "options": [
+            "Een configuratie van de middelen van een organisatie die is ontworpen om waarde voor een consument te bieden.",
+            "Een middel om co-creatie van waarde mogelijk te maken door eindresultaten te faciliteren die klanten willen bereiken, zonder dat de klant specifieke kosten en risico's hoeft te managen.",
+            "Een formele beschrijving van één of meer services, ontworpen om in de vraag van een consumentendoelgroep te voorzien.",
+            "Een gedocumenteerde overeenkomst tussen serviceprovider en klant, waarin de vereiste services en servicelevels zijn vastgelegd."
+          ],
+          "answer": "Een middel om co-creatie van waarde mogelijk te maken door eindresultaten te faciliteren die klanten willen bereiken, zonder dat de klant specifieke kosten en risico's hoeft te managen.",
+          "explanation": {
+            "Een configuratie van de middelen van een organisatie die is ontworpen om waarde voor een consument te bieden.": "Dit is de definitie van Product, niet van Service.",
+            "Een middel om co-creatie van waarde mogelijk te maken door eindresultaten te faciliteren die klanten willen bereiken, zonder dat de klant specifieke kosten en risico's hoeft te managen.": "Correct: dit is de definitie van Service.",
+            "Een formele beschrijving van één of meer services, ontworpen om in de vraag van een consumentendoelgroep te voorzien.": "Dit is een Serviceaanbieding.",
+            "Een gedocumenteerde overeenkomst tussen serviceprovider en klant, waarin de vereiste services en servicelevels zijn vastgelegd.": "Dit is een SLA (Service Level Agreement)."
+          }
+        },
+        {
+          "number": 2,
+          "question": "Wat is de definitie van Utility?",
+          "options": [
+            "De zekerheid dat een product of service aan de overeengekomen vereisten voldoet.",
+            "De functionaliteit die een product of service biedt om aan een specifieke vraag te voldoen.",
+            "Een gevolg voor een stakeholder, mogelijk gemaakt door één of meer outputs.",
+            "Een materiële of immateriële uitkomst van een activiteit."
+          ],
+          "answer": "De functionaliteit die een product of service biedt om aan een specifieke vraag te voldoen.",
+          "explanation": {
+            "De zekerheid dat een product of service aan de overeengekomen vereisten voldoet.": "Dit is Warranty.",
+            "De functionaliteit die een product of service biedt om aan een specifieke vraag te voldoen.": "Correct: dit is Utility.",
+            "Een gevolg voor een stakeholder, mogelijk gemaakt door één of meer outputs.": "Dit is Outcome (Eindresultaat).",
+            "Een materiële of immateriële uitkomst van een activiteit.": "Dit is Output."
+          }
+        },
+        {
+          "number": 3,
+          "question": "Wat is de definitie van Warranty?",
+          "options": [
+            "De zekerheid dat een product of service aan de overeengekomen vereisten voldoet.",
+            "De functionaliteit die een product of service biedt om aan een specifieke vraag te voldoen.",
+            "Een configuratie van de middelen van een organisatie die is ontworpen om waarde voor een consument te bieden.",
+            "Elke statuswijziging die relevant is voor het managen van een service of configuratie-item."
+          ],
+          "answer": "De zekerheid dat een product of service aan de overeengekomen vereisten voldoet.",
+          "explanation": {
+            "De zekerheid dat een product of service aan de overeengekomen vereisten voldoet.": "Correct: dit is Warranty.",
+            "De functionaliteit die een product of service biedt om aan een specifieke vraag te voldoen.": "Dit is Utility.",
+            "Een configuratie van de middelen van een organisatie die is ontworpen om waarde voor een consument te bieden.": "Dit is Product.",
+            "Elke statuswijziging die relevant is voor het managen van een service of configuratie-item.": "Dit is Event."
+          }
+        },
+        {
+          "number": 4,
+          "question": "Wat is de definitie van Servicemanagement?",
+          "options": [
+            "Een reeks gespecialiseerde organisatorische vermogens om waarde voor klanten mogelijk te maken in de vorm van services.",
+            "Een samenwerking tussen een serviceprovider en een serviceconsument.",
+            "Een formele beschrijving van één of meer services.",
+            "Een ongeplande onderbreking van een service of vermindering van de kwaliteit van een service."
+          ],
+          "answer": "Een reeks gespecialiseerde organisatorische vermogens om waarde voor klanten mogelijk te maken in de vorm van services.",
+          "explanation": {
+            "Een reeks gespecialiseerde organisatorische vermogens om waarde voor klanten mogelijk te maken in de vorm van services.": "Correct: dit is Servicemanagement.",
+            "Een samenwerking tussen een serviceprovider en een serviceconsument.": "Dit is een Servicerelatie.",
+            "Een formele beschrijving van één of meer services.": "Dit is een Serviceaanbieding.",
+            "Een ongeplande onderbreking van een service of vermindering van de kwaliteit van een service.": "Dit is een Incident."
+          }
+        },
+        {
+          "number": 5,
+          "question": "Wat is de definitie van Waarde?",
+          "options": [
+            "Het ervaren voordeel, nut en belang van iets.",
+            "De zekerheid dat een product of service aan de overeengekomen vereisten voldoet.",
+            "De functionele mogelijkheden van een product of service.",
+            "Een gevolg voor een stakeholder, mogelijk gemaakt door outputs."
+          ],
+          "answer": "Het ervaren voordeel, nut en belang van iets.",
+          "explanation": {
+            "Het ervaren voordeel, nut en belang van iets.": "Correct: dit is Waarde.",
+            "De zekerheid dat een product of service aan de overeengekomen vereisten voldoet.": "Dit is Warranty.",
+            "De functionele mogelijkheden van een product of service.": "Dit is Utility.",
+            "Een gevolg voor een stakeholder, mogelijk gemaakt door outputs.": "Dit is Outcome."
+          }
+        },
+        {
+          "number": 6,
+          "question": "Wat is een Serviceaanbieding (Service offering)?",
+          "options": [
+            "Een formele beschrijving van één of meer services, ontworpen om in de vraag van een consumentendoelgroep te voorzien.",
+            "Een configuratie van de middelen van een organisatie die is ontworpen om waarde voor een consument te bieden.",
+            "Een document met overeengekomen servicelevels.",
+            "Een samenwerking tussen provider en consument."
+          ],
+          "answer": "Een formele beschrijving van één of meer services, ontworpen om in de vraag van een consumentendoelgroep te voorzien.",
+          "explanation": {
+            "Een formele beschrijving van één of meer services, ontworpen om in de vraag van een consumentendoelgroep te voorzien.": "Correct: dit is een Serviceaanbieding.",
+            "Een configuratie van de middelen van een organisatie die is ontworpen om waarde voor een consument te bieden.": "Dit is Product.",
+            "Een document met overeengekomen servicelevels.": "Dit is een SLA.",
+            "Een samenwerking tussen provider en consument.": "Dit is een Servicerelatie."
+          }
+        },
+        {
+          "number": 7,
+          "question": "Welke onderdelen bevat een Serviceaanbieding?",
+          "options": [
+            "Goederen, Toegang, Serviceacties",
+            "Product, Utility, Warranty",
+            "Waarde, Kosten, Risico's",
+            "Incident, Problem, Known Error"
+          ],
+          "answer": "Goederen, Toegang, Serviceacties",
+          "explanation": {
+            "Goederen, Toegang, Serviceacties": "Correct: dit zijn de drie onderdelen van een Serviceaanbieding.",
+            "Product, Utility, Warranty": "Dit zijn begrippen, geen onderdelen van een offering.",
+            "Waarde, Kosten, Risico's": "Dit zijn waardefactoren, geen onderdelen van een offering.",
+            "Incident, Problem, Known Error": "Dit zijn operationele begrippen uit practices."
+          }
+        },
+        {
+          "number": 8,
+          "question": "Wat is de definitie van een Product?",
+          "options": [
+            "Een configuratie van de middelen van een organisatie die is ontworpen om waarde voor een consument te bieden.",
+            "Een formele beschrijving van één of meer services.",
+            "Het ervaren voordeel, nut en belang van iets.",
+            "Elke statuswijziging die relevant is voor het managen van een service of configuratie-item."
+          ],
+          "answer": "Een configuratie van de middelen van een organisatie die is ontworpen om waarde voor een consument te bieden.",
+          "explanation": {
+            "Een configuratie van de middelen van een organisatie die is ontworpen om waarde voor een consument te bieden.": "Correct: dit is Product.",
+            "Een formele beschrijving van één of meer services.": "Dit is een Serviceaanbieding.",
+            "Het ervaren voordeel, nut en belang van iets.": "Dit is Waarde.",
+            "Elke statuswijziging die relevant is voor het managen van een service of configuratie-item.": "Dit is Event."
+          }
+        },
+        {
+          "number": 9,
+          "question": "Wat is de definitie van Output?",
+          "options": [
+            "Een materiële of immateriële uitkomst van een activiteit.",
+            "Een gevolg voor een stakeholder, mogelijk gemaakt door één of meer outputs.",
+            "Een configuratie van middelen ontworpen om waarde te bieden.",
+            "Een overeenkomst met afgesproken servicelevels."
+          ],
+          "answer": "Een materiële of immateriële uitkomst van een activiteit.",
+          "explanation": {
+            "Een materiële of immateriële uitkomst van een activiteit.": "Correct: dit is Output.",
+            "Een gevolg voor een stakeholder, mogelijk gemaakt door één of meer outputs.": "Dit is Outcome.",
+            "Een configuratie van middelen ontworpen om waarde te bieden.": "Dit is Product.",
+            "Een overeenkomst met afgesproken servicelevels.": "Dit is een SLA."
+          }
+        },
+        {
+          "number": 10,
+          "question": "Wat is de definitie van Outcome (Eindresultaat)?",
+          "options": [
+            "Een materiële of immateriële uitkomst van een activiteit.",
+            "Een gevolg voor een stakeholder, mogelijk gemaakt door één of meer outputs.",
+            "Een formele beschrijving van services.",
+            "De functionele mogelijkheden van een service."
+          ],
+          "answer": "Een gevolg voor een stakeholder, mogelijk gemaakt door één of meer outputs.",
+          "explanation": {
+            "Een materiële of immateriële uitkomst van een activiteit.": "Dit is Output.",
+            "Een gevolg voor een stakeholder, mogelijk gemaakt door één of meer outputs.": "Correct: dit is Outcome.",
+            "Een formele beschrijving van services.": "Dit is een Serviceaanbieding.",
+            "De functionele mogelijkheden van een service.": "Dit is Utility."
+          }
+        },
+        {
+          "number": 11,
+          "question": "Wat is de definitie van Kosten (Cost)?",
+          "options": [
+            "De hoeveelheid geld die aan een specifieke activiteit of middel is uitgegeven.",
+            "Een mogelijk voorval dat schade of verlies kan veroorzaken of het moeilijker maakt om doelstellingen te bereiken.",
+            "Het ervaren voordeel, nut en belang van iets.",
+            "Een geanalyseerd problem zonder oplossing."
+          ],
+          "answer": "De hoeveelheid geld die aan een specifieke activiteit of middel is uitgegeven.",
+          "explanation": {
+            "De hoeveelheid geld die aan een specifieke activiteit of middel is uitgegeven.": "Correct: dit is Kosten.",
+            "Een mogelijk voorval dat schade of verlies kan veroorzaken of het moeilijker maakt om doelstellingen te bereiken.": "Dit is Risico.",
+            "Het ervaren voordeel, nut en belang van iets.": "Dit is Waarde.",
+            "Een geanalyseerd problem zonder oplossing.": "Dit is Known Error."
+          }
+        },
+        {
+          "number": 12,
+          "question": "Wat is de definitie van Risico (Risk)?",
+          "options": [
+            "Een mogelijk voorval dat schade of verlies kan veroorzaken of het moeilijker maakt om doelstellingen te bereiken.",
+            "De hoeveelheid geld die aan een specifieke activiteit of middel is uitgegeven.",
+            "De functionaliteit die een product of service biedt om aan een specifieke vraag te voldoen.",
+            "Een formele beschrijving van services."
+          ],
+          "answer": "Een mogelijk voorval dat schade of verlies kan veroorzaken of het moeilijker maakt om doelstellingen te bereiken.",
+          "explanation": {
+            "Een mogelijk voorval dat schade of verlies kan veroorzaken of het moeilijker maakt om doelstellingen te bereiken.": "Correct: dit is Risico (onzekerheid kan positief of negatief zijn).",
+            "De hoeveelheid geld die aan een specifieke activiteit of middel is uitgegeven.": "Dit is Kosten.",
+            "De functionaliteit die een product of service biedt om aan een specifieke vraag te voldoen.": "Dit is Utility.",
+            "Een formele beschrijving van services.": "Dit is een Serviceaanbieding."
+          }
+        },
+        {
+          "number": 13,
+          "question": "Welke uitspraak over Kosten is juist?",
+          "options": [
+            "Kosten kunnen ook in tijd of inspanning worden uitgedrukt, naast geld.",
+            "Kosten zijn uitsluitend financieel.",
+            "Een service kan nooit kosten veroorzaken.",
+            "Kosten verdwijnen zodra een service is uitbesteed."
+          ],
+          "answer": "Kosten kunnen ook in tijd of inspanning worden uitgedrukt, naast geld.",
+          "explanation": {
+            "Kosten kunnen ook in tijd of inspanning worden uitgedrukt, naast geld.": "Correct.",
+            "Kosten zijn uitsluitend financieel.": "Onjuist: tijd en effort zijn ook kosten.",
+            "Een service kan nooit kosten veroorzaken.": "Onjuist: denk aan licenties, training, netwerkgebruik.",
+            "Kosten verdwijnen zodra een service is uitbesteed.": "Onjuist: sommige kosten worden vermeden, andere blijven of komen erbij."
+          }
+        },
+        {
+          "number": 14,
+          "question": "Welke TWEE uitspraken over Kosten zijn juist?",
+          "options": [
+            "Een service kan kosten vermijden voor de consument.",
+            "Een service kan nooit kosten veroorzaken voor de consument.",
+            "Training en adoptie kunnen kostenposten zijn.",
+            "Kosten hebben geen relatie met waarde."
+          ],
+          "answer": "Een service kan kosten vermijden voor de consument; Training en adoptie kunnen kostenposten zijn.",
+          "explanation": {
+            "Een service kan kosten vermijden voor de consument.": "Juist: minder eigen personeel, geen eigen infra.",
+            "Een service kan nooit kosten veroorzaken voor de consument.": "Onjuist: er zijn ook kosten zoals licenties, training.",
+            "Training en adoptie kunnen kostenposten zijn.": "Juist.",
+            "Kosten hebben geen relatie met waarde.": "Onjuist: waarde is balans tussen outcomes, kosten en risico's."
+          }
+        },
+        {
+          "number": 15,
+          "question": "Welke uitspraak over Risico is juist?",
+          "options": [
+            "Een service kan risico's vermijden voor de consument.",
+            "Een service kan geen risico's veroorzaken voor de consument.",
+            "Risico is altijd negatief en nooit positief.",
+            "Risico's verdwijnen zodra een SLA is getekend."
+          ],
+          "answer": "Een service kan risico's vermijden voor de consument.",
+          "explanation": {
+            "Een service kan risico's vermijden voor de consument.": "Correct: bijv. door betrouwbaardere middelen van de provider.",
+            "Een service kan geen risico's veroorzaken voor de consument.": "Onjuist: afhankelijkheid van provider kan eigen risico's meebrengen.",
+            "Risico is altijd negatief en nooit positief.": "Onjuist: risico is onzekerheid en kan positief/negatief zijn.",
+            "Risico's verdwijnen zodra een SLA is getekend.": "Onjuist: SLA's managen verwachtingen, maar elimineren risico niet."
+          }
+        },
+        {
+          "number": 16,
+          "question": "Kies het beste voorbeeld van een risico dat door de service wordt vermeden.",
+          "options": [
+            "Geen eigen datacenter meer hoeven beheren.",
+            "Een training inkopen voor eindgebruikers.",
+            "Een licentieprijs betalen per gebruiker.",
+            "Een extra servicedeskmedewerker aannemen."
+          ],
+          "answer": "Geen eigen datacenter meer hoeven beheren.",
+          "explanation": {
+            "Geen eigen datacenter meer hoeven beheren.": "Correct: vermeden risico op infra-uitval/onderhoud.",
+            "Een training inkopen voor eindgebruikers.": "Dit is een kostenpost, geen risicoreductie.",
+            "Een licentieprijs betalen per gebruiker.": "Dit is een kostenaspect, geen risicoreductie.",
+            "Een extra servicedeskmedewerker aannemen.": "Personeelskosten/capaciteit, geen direct risicovoorbeeld."
+          }
+        },
+        {
+          "number": 17,
+          "question": "Kies het beste voorbeeld van een risico dat door de service kan worden veroorzaakt.",
+          "options": [
+            "Afhankelijkheid van de beschikbaarheid van de provider.",
+            "Uitfasering van oude licenties.",
+            "Snellere time-to-market.",
+            "Verbeterde meetbaarheid door rapportages."
+          ],
+          "answer": "Afhankelijkheid van de beschikbaarheid van de provider.",
+          "explanation": {
+            "Afhankelijkheid van de beschikbaarheid van de provider.": "Correct: dat is een nieuw risico door uitbesteding.",
+            "Uitfasering van oude licenties.": "Dit is een lifecycle/asset vraagstuk, geen puur risico door de service.",
+            "Snellere time-to-market.": "Dit is een voordeel, geen risico.",
+            "Verbeterde meetbaarheid door rapportages.": "Dit is een voordeel, geen risico."
+          }
+        },
+        {
+          "number": 18,
+          "question": "Wat is de definitie van Servicelevering (Service provision)?",
+          "options": [
+            "Activiteiten die door een serviceprovider worden uitgevoerd om services te leveren.",
+            "Activiteiten die door een organisatie worden uitgevoerd om services te gebruiken.",
+            "Een formele beschrijving van services.",
+            "Gezamenlijke activiteiten om co-creatie van waarde te borgen."
+          ],
+          "answer": "Activiteiten die door een serviceprovider worden uitgevoerd om services te leveren.",
+          "explanation": {
+            "Activiteiten die door een serviceprovider worden uitgevoerd om services te leveren.": "Correct: dit is Servicelevering.",
+            "Activiteiten die door een organisatie worden uitgevoerd om services te gebruiken.": "Dit is Serviceconsumptie.",
+            "Een formele beschrijving van services.": "Dit is een Serviceaanbieding.",
+            "Gezamenlijke activiteiten om co-creatie van waarde te borgen.": "Dit is Servicerelatiemanagement."
+          }
+        },
+        {
+          "number": 19,
+          "question": "Wat is de definitie van Serviceconsumptie (Service consumption)?",
+          "options": [
+            "Activiteiten die door een organisatie worden uitgevoerd om services te gebruiken.",
+            "Activiteiten die door een serviceprovider worden uitgevoerd om services te leveren.",
+            "Een document met servicelevels.",
+            "De totale set producten en services van een organisatie."
+          ],
+          "answer": "Activiteiten die door een organisatie worden uitgevoerd om services te gebruiken.",
+          "explanation": {
+            "Activiteiten die door een organisatie worden uitgevoerd om services te gebruiken.": "Correct: dit is Serviceconsumptie.",
+            "Activiteiten die door een serviceprovider worden uitgevoerd om services te leveren.": "Dit is Servicelevering.",
+            "Een document met servicelevels.": "Dit is een SLA.",
+            "De totale set producten en services van een organisatie.": "Dit is een Serviceportfolio."
+          }
+        },
+        {
+          "number": 20,
+          "question": "Wat is de definitie van een Servicerelatie?",
+          "options": [
+            "Een samenwerking tussen een serviceprovider en een serviceconsument, waaronder servicelevering, serviceconsumptie en servicerelatiemanagement.",
+            "Een formele beschrijving van services.",
+            "Een geformaliseerde overeenkomst met servicelevels.",
+            "Een configuratie van middelen die waarde biedt."
+          ],
+          "answer": "Een samenwerking tussen een serviceprovider en een serviceconsument, waaronder servicelevering, serviceconsumptie en servicerelatiemanagement.",
+          "explanation": {
+            "Een samenwerking tussen een serviceprovider en een serviceconsument, waaronder servicelevering, serviceconsumptie en servicerelatiemanagement.": "Correct: dit is een Servicerelatie.",
+            "Een formele beschrijving van services.": "Dit is een Serviceaanbieding.",
+            "Een geformaliseerde overeenkomst met servicelevels.": "Dit is een SLA.",
+            "Een configuratie van middelen die waarde biedt.": "Dit is Product."
+          }
+        },
+        {
+          "number": 21,
+          "question": "Wat is de definitie van Servicerelatiemanagement?",
+          "options": [
+            "Gezamenlijke activiteiten van provider en consument om cocreatie van waarde te garanderen op basis van overeengekomen serviceaanbiedingen.",
+            "Activiteiten om services te leveren.",
+            "Activiteiten om services te gebruiken.",
+            "Het opstellen en meten van SLA's."
+          ],
+          "answer": "Gezamenlijke activiteiten van provider en consument om cocreatie van waarde te garanderen op basis van overeengekomen serviceaanbiedingen.",
+          "explanation": {
+            "Gezamenlijke activiteiten van provider en consument om cocreatie van waarde te garanderen op basis van overeengekomen serviceaanbiedingen.": "Correct: dit is Servicerelatiemanagement.",
+            "Activiteiten om services te leveren.": "Dit is Servicelevering.",
+            "Activiteiten om services te gebruiken.": "Dit is Serviceconsumptie.",
+            "Het opstellen en meten van SLA's.": "Dit hoort bij Service level management."
+          }
+        },
+        {
+          "number": 22,
+          "question": "Welke drie rollen vallen onder de Serviceconsument?",
+          "options": [
+            "Klant, Gebruiker, Sponsor",
+            "Serviceprovider, Klant, Leverancier",
+            "Gebruiker, Leverancier, Sponsor",
+            "Klant, Serviceprovider, Sponsor"
+          ],
+          "answer": "Klant, Gebruiker, Sponsor",
+          "explanation": {
+            "Klant, Gebruiker, Sponsor": "Correct: dit zijn de drie rollen binnen de Serviceconsument.",
+            "Serviceprovider, Klant, Leverancier": "Bevat rollen die niet tot de Serviceconsument behoren (Serviceprovider/Leverancier).",
+            "Gebruiker, Leverancier, Sponsor": "Leverancier hoort niet bij de Serviceconsument.",
+            "Klant, Serviceprovider, Sponsor": "Serviceprovider hoort niet bij de Serviceconsument."
+          }
+        },
+        {
+          "number": 23,
+          "question": "Wie definieert de vereisten voor een service en neemt verantwoordelijkheid voor de uitkomsten?",
+          "options": [
+            "Klant",
+            "Gebruiker",
+            "Sponsor",
+            "Serviceprovider"
+          ],
+          "answer": "Klant",
+          "explanation": {
+            "Klant": "Correct: definieert eisen en is verantwoordelijk voor uitkomsten.",
+            "Gebruiker": "Gebruikt de service.",
+            "Sponsor": "Autoriseert de kosten/budget.",
+            "Serviceprovider": "Levert de service."
+          }
+        },
+        {
+          "number": 24,
+          "question": "Wie autoriseert de kosten/budget voor serviceconsumptie?",
+          "options": [
+            "Klant",
+            "Gebruiker",
+            "Sponsor",
+            "Serviceprovider"
+          ],
+          "answer": "Sponsor",
+          "explanation": {
+            "Klant": "Definieert eisen en is verantwoordelijk voor uitkomsten.",
+            "Gebruiker": "Gebruikt de service.",
+            "Sponsor": "Correct: autoriseert kosten/budget.",
+            "Serviceprovider": "Levert de service."
+          }
+        },
+        {
+          "number": 25,
+          "question": "Wie gebruikt de service?",
+          "options": [
+            "Klant",
+            "Gebruiker",
+            "Sponsor",
+            "Serviceprovider"
+          ],
+          "answer": "Gebruiker",
+          "explanation": {
+            "Klant": "Definieert eisen en is verantwoordelijk voor uitkomsten.",
+            "Gebruiker": "Correct: gebruikt de service.",
+            "Sponsor": "Autoriseert kosten/budget.",
+            "Serviceprovider": "Levert de service."
+          }
+        },
+        {
+          "number": 26,
+          "question": "Welke zijn voorbeelden van andere stakeholders (naast serviceprovider en serviceconsument)?",
+          "options": [
+            "Aandeelhouders en de samenleving",
+            "Gebruikers en sponsors",
+            "Serviceproviders en leveranciers",
+            "Servicedesk en projectmanagers"
+          ],
+          "answer": "Aandeelhouders en de samenleving",
+          "explanation": {
+            "Aandeelhouders en de samenleving": "Correct: behoren tot andere stakeholders.",
+            "Gebruikers en sponsors": "Dit zijn rollen binnen de Serviceconsument.",
+            "Serviceproviders en leveranciers": "Dit zijn aanbiedende partijen, geen 'andere stakeholders' in de context.",
+            "Servicedesk en projectmanagers": "Functies/praktijken, geen stakeholdercategorie."
+          }
+        },
+        {
+          "number": 27,
+          "question": "Welke uitspraak over Waarde is NIET juist?",
+          "options": [
+            "Waarde wordt bepaald door stakeholders.",
+            "Waarde wordt mede gecreëerd door samenwerking tussen serviceproviders en serviceconsumenten.",
+            "Waarde ontstaat alleen als alle kosten verdwijnen.",
+            "Waarde is een balans tussen uitkomsten, kosten en risico's."
+          ],
+          "answer": "Waarde ontstaat alleen als alle kosten verdwijnen.",
+          "explanation": {
+            "Waarde wordt bepaald door stakeholders.": "Juist: waarde is subjectief.",
+            "Waarde wordt mede gecreëerd door samenwerking tussen serviceproviders en serviceconsumenten.": "Juist: co-creatie.",
+            "Waarde ontstaat alleen als alle kosten verdwijnen.": "Onjuist: kosten kunnen blijven bestaan; het gaat om balans.",
+            "Waarde is een balans tussen uitkomsten, kosten en risico's.": "Juist."
+          }
+        },
+        {
+          "number": 28,
+          "question": "Welke van de volgende hoort bij Utility en niet bij Warranty?",
+          "options": [
+            "Ondersteunen van prestaties en/of verwijderen van beperkingen",
+            "Beschikbaarheid",
+            "Capaciteit",
+            "Veiligheid"
+          ],
+          "answer": "Ondersteunen van prestaties en/of verwijderen van beperkingen",
+          "explanation": {
+            "Ondersteunen van prestaties en/of verwijderen van beperkingen": "Correct: dit is de kern van Utility (wat de service doet).",
+            "Beschikbaarheid": "Dit hoort bij Warranty (hoe goed).",
+            "Capaciteit": "Dit hoort bij Warranty.",
+            "Veiligheid": "Dit hoort bij Warranty."
+          }
+        },
+        {
+          "number": 29,
+          "question": "Welke van de volgende hoort bij Warranty en niet bij Utility?",
+          "options": [
+            "Voldoen aan een specifieke vraag",
+            "Continuïteit",
+            "Functionaliteit",
+            "Beperkingen wegnemen"
+          ],
+          "answer": "Continuïteit",
+          "explanation": {
+            "Voldoen aan een specifieke vraag": "Dit hoort bij Utility.",
+            "Continuïteit": "Correct: dit hoort bij Warranty.",
+            "Functionaliteit": "Dit hoort bij Utility.",
+            "Beperkingen wegnemen": "Dit hoort bij Utility."
+          }
+        },
+        {
+          "number": 30,
+          "question": "Kies het beste voorbeeld van Output.",
+          "options": [
+            "Een rapport dat is opgesteld voor een klant",
+            "Betere besluitvorming dankzij een rapport",
+            "Een overeenkomst met servicelevels",
+            "Een beschrijving van een servicecatalogus"
+          ],
+          "answer": "Een rapport dat is opgesteld voor een klant",
+          "explanation": {
+            "Een rapport dat is opgesteld voor een klant": "Correct: dit is Output.",
+            "Betere besluitvorming dankzij een rapport": "Dit is Outcome (gevolg).",
+            "Een overeenkomst met servicelevels": "Dit is een SLA.",
+            "Een beschrijving van een servicecatalogus": "Dit gaat over informatie over services, geen Output in deze context."
+          }
+        },
+        {
+          "number": 31,
+          "question": "Kies het beste voorbeeld van Outcome.",
+          "options": [
+            "Een opgeleverd incidentrapport",
+            "Een sneller onboardingsproces voor nieuwe medewerkers",
+            "Een lijst met CI's in de CMDB",
+            "Een wijzigingsverzoek (RFC)"
+          ],
+          "answer": "Een sneller onboardingsproces voor nieuwe medewerkers",
+          "explanation": {
+            "Een opgeleverd incidentrapport": "Dit is Output.",
+            "Een sneller onboardingsproces voor nieuwe medewerkers": "Correct: dit is Outcome (gevolg/waarde).",
+            "Een lijst met CI's in de CMDB": "Dit is informatie/Output in configuratiecontext.",
+            "Een wijzigingsverzoek (RFC)": "Dit is een request, geen Outcome."
+          }
+        },
+        {
+          "number": 32,
+          "question": "Wat is GEEN onderdeel van een Serviceaanbieding?",
+          "options": [
+            "Goederen",
+            "Toegang",
+            "Serviceacties",
+            "Service Level Agreement"
+          ],
+          "answer": "Service Level Agreement",
+          "explanation": {
+            "Goederen": "Onderdeel van een Serviceaanbieding.",
+            "Toegang": "Onderdeel van een Serviceaanbieding.",
+            "Serviceacties": "Onderdeel van een Serviceaanbieding.",
+            "Service Level Agreement": "Correct: SLA is geen onderdeel van de offering, maar een aparte overeenkomst."
+          }
+        },
+        {
+          "number": 33,
+          "question": "Welke hoort het best bij Goederen, Toegang of Serviceacties?",
+          "options": [
+            "Laptop - Goederen",
+            "Netwerktoegang - Serviceacties",
+            "Gebruikersondersteuning - Goederen",
+            "Opslagtoegang - Goederen"
+          ],
+          "answer": "Laptop - Goederen",
+          "explanation": {
+            "Laptop - Goederen": "Correct: fysiek goed.",
+            "Netwerktoegang - Serviceacties": "Onjuist: netwerktoegang is Toegang.",
+            "Gebruikersondersteuning - Goederen": "Onjuist: dit is een Serviceactie.",
+            "Opslagtoegang - Goederen": "Onjuist: opslagtoegang is Toegang."
+          }
+        },
+        {
+          "number": 34,
+          "question": "Wat is de juiste relatie tussen Servicelevering en Serviceconsumptie?",
+          "options": [
+            "Servicelevering is van de provider; Serviceconsumptie is van de consument.",
+            "Servicelevering is van de consument; Serviceconsumptie is van de provider.",
+            "Beide zijn alleen van toepassing op providers.",
+            "Beide zijn alleen van toepassing op consumenten."
+          ],
+          "answer": "Servicelevering is van de provider; Serviceconsumptie is van de consument.",
+          "explanation": {
+            "Servicelevering is van de provider; Serviceconsumptie is van de consument.": "Correct.",
+            "Servicelevering is van de consument; Serviceconsumptie is van de provider.": "Onjuist: omgedraaid.",
+            "Beide zijn alleen van toepassing op providers.": "Onjuist.",
+            "Beide zijn alleen van toepassing op consumenten.": "Onjuist."
+          }
+        },
+        {
+          "number": 35,
+          "question": "Welke uitspraak over de Serviceprovider is juist?",
+          "options": [
+            "De Serviceprovider levert services en werkt samen met de consument aan waardecreatie.",
+            "De Serviceprovider gebruikt services die door de consument worden geleverd.",
+            "De Serviceprovider definieert uitkomsten in plaats van de klant.",
+            "De Serviceprovider autoriseert de kosten/budget."
+          ],
+          "answer": "De Serviceprovider levert services en werkt samen met de consument aan waardecreatie.",
+          "explanation": {
+            "De Serviceprovider levert services en werkt samen met de consument aan waardecreatie.": "Correct.",
+            "De Serviceprovider gebruikt services die door de consument worden geleverd.": "Onjuist.",
+            "De Serviceprovider definieert uitkomsten in plaats van de klant.": "Onjuist: de klant definieert uitkomsten.",
+            "De Serviceprovider autoriseert de kosten/budget.": "Onjuist: dat doet de Sponsor."
+          }
+        },
+        {
+          "number": 36,
+          "question": "Welke uitspraak over de Serviceconsument is juist?",
+          "options": [
+            "De Serviceconsument gebruikt services en kan rollen hebben als Klant, Gebruiker en Sponsor.",
+            "De Serviceconsument levert services aan providers.",
+            "De Serviceconsument definieert nooit service-eisen.",
+            "De Serviceconsument stelt SLA's op voor de provider."
+          ],
+          "answer": "De Serviceconsument gebruikt services en kan rollen hebben als Klant, Gebruiker en Sponsor.",
+          "explanation": {
+            "De Serviceconsument gebruikt services en kan rollen hebben als Klant, Gebruiker en Sponsor.": "Correct.",
+            "De Serviceconsument levert services aan providers.": "Onjuist.",
+            "De Serviceconsument definieert nooit service-eisen.": "Onjuist: de Klant definieert service-eisen.",
+            "De Serviceconsument stelt SLA's op voor de provider.": "Onjuist: SLA's worden overeengekomen tussen provider en klant."
+          }
+        },
+        {
+          "number": 37,
+          "question": "Welke zijn juiste voorbeelden van andere stakeholders?",
+          "options": [
+            "Aandeelhouders en medewerkers",
+            "Klant en gebruiker",
+            "Sponsor en serviceprovider",
+            "CI-eigenaren en toolleveranciers"
+          ],
+          "answer": "Aandeelhouders en medewerkers",
+          "explanation": {
+            "Aandeelhouders en medewerkers": "Correct: andere stakeholders buiten provider/consument.",
+            "Klant en gebruiker": "Rollen binnen de Serviceconsument.",
+            "Sponsor en serviceprovider": "Sponsor is consumentrol; provider is aanbiedende partij.",
+            "CI-eigenaren en toolleveranciers": "Kunnen stakeholders zijn, maar het kernoverzicht benadrukt aandeelhouders/medewerkers/samenleving."
+          }
+        },
+        {
+          "number": 38,
+          "question": "Welke uitspraak over 'Waarde wordt bepaald door stakeholders' is juist?",
+          "options": [
+            "Waarde is subjectief en wordt bepaald door de betrokken stakeholders.",
+            "Waarde is objectief en wordt uitsluitend bepaald door de provider.",
+            "Waarde bestaat alleen uit kostenreductie.",
+            "Waarde staat los van uitkomsten."
+          ],
+          "answer": "Waarde is subjectief en wordt bepaald door de betrokken stakeholders.",
+          "explanation": {
+            "Waarde is subjectief en wordt bepaald door de betrokken stakeholders.": "Correct.",
+            "Waarde is objectief en wordt uitsluitend bepaald door de provider.": "Onjuist.",
+            "Waarde bestaat alleen uit kostenreductie.": "Onjuist: ook uitkomsten en risico's tellen mee.",
+            "Waarde staat los van uitkomsten.": "Onjuist."
+          }
+        },
+        {
+          "number": 39,
+          "question": "Welke uitspraak over co-creatie van waarde is juist?",
+          "options": [
+            "Waarde wordt mede gecreëerd door actieve samenwerking tussen serviceprovider en serviceconsument.",
+            "Waarde wordt altijd zonder samenwerking gecreëerd.",
+            "Co-creatie is alleen relevant voor interne services.",
+            "Co-creatie vervangt de noodzaak voor SLA's."
+          ],
+          "answer": "Waarde wordt mede gecreëerd door actieve samenwerking tussen serviceprovider en serviceconsument.",
+          "explanation": {
+            "Waarde wordt mede gecreëerd door actieve samenwerking tussen serviceprovider en serviceconsument.": "Correct.",
+            "Waarde wordt altijd zonder samenwerking gecreëerd.": "Onjuist.",
+            "Co-creatie is alleen relevant voor interne services.": "Onjuist: ook extern.",
+            "Co-creatie vervangt de noodzaak voor SLA's.": "Onjuist: SLA's blijven nodig."
+          }
+        },
+        {
+          "number": 40,
+          "question": "Welke koppeling is NIET correct?",
+          "options": [
+            "Serviceaanbieding - Goederen/Toegang/Serviceacties",
+            "Product - Configuratie van middelen",
+            "SLA - Formele beschrijving van services",
+            "Servicerelatiemanagement - Gezamenlijke activiteiten voor co-creatie"
+          ],
+          "answer": "SLA - Formele beschrijving van services",
+          "explanation": {
+            "Serviceaanbieding - Goederen/Toegang/Serviceacties": "Correcte koppeling.",
+            "Product - Configuratie van middelen": "Correcte koppeling.",
+            "SLA - Formele beschrijving van services": "Onjuist: SLA is een overeenkomst; formele beschrijving is de Serviceaanbieding.",
+            "Servicerelatiemanagement - Gezamenlijke activiteiten voor co-creatie": "Correcte koppeling."
+          }
+        },
+        {
+          "number": 41,
+          "question": "Wat is een juist voorbeeld van Kosten veroorzaakt door de service?",
+          "options": [
+            "Licentiekosten per gebruiker",
+            "Minder eigen servers nodig",
+            "Risico op datacenteruitval daalt",
+            "Hogere klanttevredenheid"
+          ],
+          "answer": "Licentiekosten per gebruiker",
+          "explanation": {
+            "Licentiekosten per gebruiker": "Correct: dit zijn directe kosten.",
+            "Minder eigen servers nodig": "Dit is een kostenvermijding.",
+            "Risico op datacenteruitval daalt": "Dit is risicoreductie.",
+            "Hogere klanttevredenheid": "Dit is een waarde-uitkomst, geen kosten."
+          }
+        },
+        {
+          "number": 42,
+          "question": "Wat is een juist voorbeeld van Kosten vermeden door de service?",
+          "options": [
+            "Geen eigen patch-team meer nodig",
+            "Eenmalige migratiekosten",
+            "Nieuwe training voor gebruikers",
+            "Extra netwerkbandbreedte afnemen"
+          ],
+          "answer": "Geen eigen patch-team meer nodig",
+          "explanation": {
+            "Geen eigen patch-team meer nodig": "Correct: vermeden personeelskosten.",
+            "Eenmalige migratiekosten": "Dit zijn extra kosten.",
+            "Nieuwe training voor gebruikers": "Dit zijn extra kosten.",
+            "Extra netwerkbandbreedte afnemen": "Dit zijn extra kosten."
+          }
+        },
+        {
+          "number": 43,
+          "question": "Wat is een juist voorbeeld van een door de service veroorzaakt risico?",
+          "options": [
+            "Afhankelijkheid van provider SLA en uptime",
+            "Minder beheer van eigen hardware",
+            "Betere rapportages over prestaties",
+            "Snellere implementaties"
+          ],
+          "answer": "Afhankelijkheid van provider SLA en uptime",
+          "explanation": {
+            "Afhankelijkheid van provider SLA en uptime": "Correct: nieuw risico door afhankelijkheid.",
+            "Minder beheer van eigen hardware": "Dit is risicoreductie.",
+            "Betere rapportages over prestaties": "Dit is een voordeel.",
+            "Snellere implementaties": "Dit is een voordeel."
+          }
+        },
+        {
+          "number": 44,
+          "question": "Wat is een juist voorbeeld van een door de service vermeden risico?",
+          "options": [
+            "Geen eigen datacenter-storing meer hoeven oplossen",
+            "Vendor lock-in",
+            "Dataverlies bij provider",
+            "Vertraging door change-adviescommissie"
+          ],
+          "answer": "Geen eigen datacenter-storing meer hoeven oplossen",
+          "explanation": {
+            "Geen eigen datacenter-storing meer hoeven oplossen": "Correct: risicovermijding door uitbesteding.",
+            "Vendor lock-in": "Dit is juist een nieuw risico.",
+            "Dataverlies bij provider": "Dit is een mogelijk nieuw risico.",
+            "Vertraging door change-adviescommissie": "Procesrisico, geen vermeden risico."
+          }
+        },
+        {
+          "number": 45,
+          "question": "Welke koppeling is correct: Utility en Warranty?",
+          "options": [
+            "Utility - Wat de service doet; Warranty - Hoe goed de service presteert",
+            "Utility - Hoe goed de service presteert; Warranty - Wat de service doet",
+            "Utility - SLA; Warranty - CI",
+            "Utility - Kosten; Warranty - Risico"
+          ],
+          "answer": "Utility - Wat de service doet; Warranty - Hoe goed de service presteert",
+          "explanation": {
+            "Utility - Wat de service doet; Warranty - Hoe goed de service presteert": "Correcte koppeling.",
+            "Utility - Hoe goed de service presteert; Warranty - Wat de service doet": "Onjuist: omgedraaid.",
+            "Utility - SLA; Warranty - CI": "Onjuist: dit zijn andere begrippen.",
+            "Utility - Kosten; Warranty - Risico": "Onjuist: dit zijn waardefactoren."
+          }
+        },
+        {
+          "number": 46,
+          "question": "Welke uitspraak over Product is juist?",
+          "options": [
+            "Producten zijn vaak slechts gedeeltelijk zichtbaar voor de consument.",
+            "Producten zijn altijd volledig zichtbaar voor de consument.",
+            "Producten zijn gelijk aan services.",
+            "Producten bestaan alleen uit software."
+          ],
+          "answer": "Producten zijn vaak slechts gedeeltelijk zichtbaar voor de consument.",
+          "explanation": {
+            "Producten zijn vaak slechts gedeeltelijk zichtbaar voor de consument.": "Correct: bv. netwerklaag is vaak niet zichtbaar.",
+            "Producten zijn altijd volledig zichtbaar voor de consument.": "Onjuist.",
+            "Producten zijn gelijk aan services.": "Onjuist: services zijn gebaseerd op één of meer producten.",
+            "Producten bestaan alleen uit software.": "Onjuist: kunnen ook hardware, mensen, processen omvatten."
+          }
+        },
+        {
+          "number": 47,
+          "question": "Welke hoort NIET bij de drie rollen van de Serviceconsument?",
+          "options": [
+            "Klant",
+            "Gebruiker",
+            "Sponsor",
+            "Leverancier"
+          ],
+          "answer": "Leverancier",
+          "explanation": {
+            "Klant": "Rol binnen de Serviceconsument.",
+            "Gebruiker": "Rol binnen de Serviceconsument.",
+            "Sponsor": "Rol binnen de Serviceconsument.",
+            "Leverancier": "Geen rol binnen de Serviceconsument; dit is een externe partij."
+          }
+        },
+        {
+          "number": 48,
+          "question": "Welke uitspraak over de relatie tussen Output en Outcome is juist?",
+          "options": [
+            "Outputs maken Outcomes mogelijk.",
+            "Outcome is een type Output.",
+            "Output is altijd gelijk aan Outcome.",
+            "Outputs zijn alleen materieel."
+          ],
+          "answer": "Outputs maken Outcomes mogelijk.",
+          "explanation": {
+            "Outputs maken Outcomes mogelijk.": "Correct: Outputs zijn input voor het bereiken van Outcomes.",
+            "Outcome is een type Output.": "Onjuist: Outcome is het effect/gevolg voor de stakeholder.",
+            "Output is altijd gelijk aan Outcome.": "Onjuist.",
+            "Outputs zijn alleen materieel.": "Onjuist: kunnen ook immaterieel zijn."
+          }
+        },
+        {
+          "number": 49,
+          "question": "Welke is GEEN juiste koppeling?",
+          "options": [
+            "Serviceaanbieding - Formele beschrijving van één of meer services",
+            "SLA - Document met afspraken over services en servicelevels",
+            "Product - Output van een activiteit",
+            "Outcome - Gevolg voor een stakeholder mogelijk gemaakt door outputs"
+          ],
+          "answer": "Product - Output van een activiteit",
+          "explanation": {
+            "Serviceaanbieding - Formele beschrijving van één of meer services": "Juiste koppeling.",
+            "SLA - Document met afspraken over services en servicelevels": "Juiste koppeling.",
+            "Product - Output van een activiteit": "Onjuist: Product is een configuratie van middelen; Output is een resultaat van een activiteit.",
+            "Outcome - Gevolg voor een stakeholder mogelijk gemaakt door outputs": "Juiste koppeling."
+          }
+        },
+        {
+          "number": 50,
+          "question": "Welke zin hoort NIET bij de definitie van Service?",
+          "options": [
+            "Een middel om co-creatie van waarde mogelijk te maken",
+            "Door eindresultaten te faciliteren die klanten willen bereiken",
+            "Zonder dat de klant specifieke kosten en risico's hoeft te managen",
+            "Een document met servicelevels opstellen"
+          ],
+          "answer": "Een document met servicelevels opstellen",
+          "explanation": {
+            "Een middel om co-creatie van waarde mogelijk te maken": "Onderdeel van de definitie.",
+            "Door eindresultaten te faciliteren die klanten willen bereiken": "Onderdeel van de definitie.",
+            "Zonder dat de klant specifieke kosten en risico's hoeft te managen": "Onderdeel van de definitie.",
+            "Een document met servicelevels opstellen": "Onjuist: dit hoort bij SLA, niet bij de definitie van Service."
+          }
+        }
+      ]
+    }
+  ]
+}

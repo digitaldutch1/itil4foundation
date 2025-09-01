@@ -1,0 +1,606 @@
+{
+  "chapters": [
+    {
+      "chapter": 4,
+      "description": "ITIL 4 BL2 - Hoofdstuk 4 (Servicewaardesysteem, Richtinggevende principes, Servicewaardeketen, Governance, Voortdurend verbeteren)",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Wat is het ITIL-servicewaardesysteem (SVS)?",
+          "options": [
+            "Een model dat laat zien hoe alle componenten en activiteiten van een organisatie samenwerken om waarde te creëren.",
+            "Een verzameling van alleen processen voor incidenten en wijzigingen.",
+            "Alleen een beschrijving van de servicewaardeketen.",
+            "Een contractvorm voor het vastleggen van servicelevels."
+          ],
+          "answer": "Een model dat laat zien hoe alle componenten en activiteiten van een organisatie samenwerken om waarde te creëren.",
+          "explanation": {
+            "Een model dat laat zien hoe alle componenten en activiteiten van een organisatie samenwerken om waarde te creëren.": "Correct: dit is de officiële beschrijving van het SVS.",
+            "Een verzameling van alleen processen voor incidenten en wijzigingen.": "Onjuist: het SVS is breder dan afzonderlijke processen.",
+            "Alleen een beschrijving van de servicewaardeketen.": "Onjuist: de SVC is slechts één onderdeel van het SVS.",
+            "Een contractvorm voor het vastleggen van servicelevels.": "Onjuist: dit beschrijft een SLA, geen SVS."
+          }
+        },
+        {
+          "number": 2,
+          "question": "Welke paren vormen respectievelijk de input en output van het SVS?",
+          "options": [
+            "Kans en vraag; Waarde",
+            "Product; Outcome",
+            "Utility; Warranty",
+            "Kosten; Risico"
+          ],
+          "answer": "Kans en vraag; Waarde",
+          "explanation": {
+            "Kans en vraag; Waarde": "Correct: kans en vraag zijn de input van het SVS, waarde is de output.",
+            "Product; Outcome": "Onjuist: dit zijn kernbegrippen uit hoofdstuk 2, geen SVS-in-/output.",
+            "Utility; Warranty": "Onjuist: dit zijn geschiktheidsaspecten van services.",
+            "Kosten; Risico": "Onjuist: dit zijn factoren in de waardebalans, geen in-/output van het SVS."
+          }
+        },
+        {
+          "number": 3,
+          "question": "Welke is GEEN kernonderdeel van het SVS?",
+          "options": [
+            "Servicewaardeketen",
+            "Richtinggevende principes",
+            "Governance",
+            "Projectportfolio"
+          ],
+          "answer": "Projectportfolio",
+          "explanation": {
+            "Servicewaardeketen": "Onderdeel van het SVS.",
+            "Richtinggevende principes": "Onderdeel van het SVS.",
+            "Governance": "Onderdeel van het SVS.",
+            "Projectportfolio": "Correct: dit is geen kernonderdeel van het SVS."
+          }
+        },
+        {
+          "number": 4,
+          "question": "Welke uitspraak over de aard en het gebruik van de richtinggevende principes is juist?",
+          "options": [
+            "Het zijn aanbevelingen die onder alle omstandigheden toepasbaar zijn en samen gebruikt kunnen worden.",
+            "Het zijn verplichte regels die alleen in projecten gelden.",
+            "Je kiest er precies één en past die altijd toe.",
+            "Ze zijn alleen van toepassing op IT-teams, niet op de rest van de organisatie."
+          ],
+          "answer": "Het zijn aanbevelingen die onder alle omstandigheden toepasbaar zijn en samen gebruikt kunnen worden.",
+          "explanation": {
+            "Het zijn aanbevelingen die onder alle omstandigheden toepasbaar zijn en samen gebruikt kunnen worden.": "Correct: principes zijn guidance, geen harde regels, en worden in samenhang toegepast.",
+            "Het zijn verplichte regels die alleen in projecten gelden.": "Onjuist: ze zijn niet verplicht en gelden breder dan projecten.",
+            "Je kiest er precies één en past die altijd toe.": "Onjuist: meerdere principes worden samen overwogen en toegepast.",
+            "Ze zijn alleen van toepassing op IT-teams, niet op de rest van de organisatie.": "Onjuist: ze zijn organisatiebreed toepasbaar."
+          }
+        },
+        {
+          "number": 5,
+          "question": "Welk principe past het beste bij: 'Richt alle activiteiten op het leveren van waarde (direct of indirect) voor klanten en stakeholders'?",
+          "options": [
+            "Focus op waarde",
+            "Begin waar je bent",
+            "Werk iteratief met feedback",
+            "Denk en werk holistisch"
+          ],
+          "answer": "Focus op waarde",
+          "explanation": {
+            "Focus op waarde": "Correct: dit principe vraagt expliciet om waarde als toetssteen.",
+            "Begin waar je bent": "Dit principe gaat over hergebruik en objectieve nulmetingen.",
+            "Werk iteratief met feedback": "Dit principe gaat over stap-voor-stap verbeteren met feedbackloops.",
+            "Denk en werk holistisch": "Dit principe gaat over end-to-end en integrale benadering."
+          }
+        },
+        {
+          "number": 6,
+          "question": "Welk principe past het beste bij: 'Herbenut wat er al is, op basis van objectieve metingen'?",
+          "options": [
+            "Begin waar je bent",
+            "Houd het eenvoudig en praktisch",
+            "Werk samen en bevorder zichtbaarheid",
+            "Optimaliseer en automatiseer"
+          ],
+          "answer": "Begin waar je bent",
+          "explanation": {
+            "Begin waar je bent": "Correct: eerst meten, dan hergebruik waar zinvol.",
+            "Houd het eenvoudig en praktisch": "Dit gaat over vermijden van onnodige complexiteit.",
+            "Werk samen en bevorder zichtbaarheid": "Dit gaat over silo’s doorbreken en transparantie.",
+            "Optimaliseer en automatiseer": "Dit gaat over optimaliseren en daarna automatiseren."
+          }
+        },
+        {
+          "number": 7,
+          "question": "Welk principe past het beste bij: 'Lever in kleine stappen en gebruik feedback om bij te sturen'?",
+          "options": [
+            "Werk iteratief met feedback",
+            "Denk en werk holistisch",
+            "Begin waar je bent",
+            "Focus op waarde"
+          ],
+          "answer": "Werk iteratief met feedback",
+          "explanation": {
+            "Werk iteratief met feedback": "Correct: korte iteraties en snelle leerloops.",
+            "Denk en werk holistisch": "End-to-end zicht, geen iteratie-focus.",
+            "Begin waar je bent": "Nulmeting en hergebruik, geen iteratie-focus.",
+            "Focus op waarde": "Overkoepelend, maar hier is iteratie en feedback de kern."
+          }
+        },
+        {
+          "number": 8,
+          "question": "Welk principe past het beste bij: 'Doorbreek silo’s en maak werk en beslissingen zichtbaar'?",
+          "options": [
+            "Werk samen en bevorder zichtbaarheid",
+            "Houd het eenvoudig en praktisch",
+            "Begin waar je bent",
+            "Optimaliseer en automatiseer"
+          ],
+          "answer": "Werk samen en bevorder zichtbaarheid",
+          "explanation": {
+            "Werk samen en bevorder zichtbaarheid": "Correct: samenwerking en transparantie zijn sleutelwoorden.",
+            "Houd het eenvoudig en praktisch": "Gaat over eenvoud en praktische oplossingen.",
+            "Begin waar je bent": "Gaat over hergebruik van wat bestaat.",
+            "Optimaliseer en automatiseer": "Gaat over procesoptimalisatie en automatisering."
+          }
+        },
+        {
+          "number": 9,
+          "question": "Welk principe past het beste bij: 'Kijk end-to-end en betrek alle vier de dimensies'?",
+          "options": [
+            "Denk en werk holistisch",
+            "Focus op waarde",
+            "Werk iteratief met feedback",
+            "Optimaliseer en automatiseer"
+          ],
+          "answer": "Denk en werk holistisch",
+          "explanation": {
+            "Denk en werk holistisch": "Correct: het benadrukt integrale, end-to-end benadering.",
+            "Focus op waarde": "Waarde is doel, maar vraag gaat over end-to-end denken.",
+            "Werk iteratief met feedback": "Gaat over iteraties, niet over holisme.",
+            "Optimaliseer en automatiseer": "Gaat over efficiëntie, niet over holisme."
+          }
+        },
+        {
+          "number": 10,
+          "question": "Welk principe past het beste bij: 'Minimaliseer stappen en ontwerp geen uitzonderingsroutes tenzij nodig'?",
+          "options": [
+            "Houd het eenvoudig en praktisch",
+            "Begin waar je bent",
+            "Denk en werk holistisch",
+            "Focus op waarde"
+          ],
+          "answer": "Houd het eenvoudig en praktisch",
+          "explanation": {
+            "Houd het eenvoudig en praktisch": "Correct: eenvoud, pragmatisme en vermijden van uitzonderingsfocus.",
+            "Begin waar je bent": "Gaat over hergebruik.",
+            "Denk en werk holistisch": "Gaat over integrale benadering.",
+            "Focus op waarde": "Overkoepelend waardeprincipe, geen eenvoudsfocus."
+          }
+        },
+        {
+          "number": 11,
+          "question": "Welk principe past het beste bij: 'Optimaliseer eerst de werkwijze en automatiseer vervolgens waar zinvol'?",
+          "options": [
+            "Optimaliseer en automatiseer",
+            "Houd het eenvoudig en praktisch",
+            "Werk samen en bevorder zichtbaarheid",
+            "Werk iteratief met feedback"
+          ],
+          "answer": "Optimaliseer en automatiseer",
+          "explanation": {
+            "Optimaliseer en automatiseer": "Correct: optimalisatie gaat vooraf aan automatisering.",
+            "Houd het eenvoudig en praktisch": "Gaat over eenvoud, niet per se over optimalisatie/automatisering.",
+            "Werk samen en bevorder zichtbaarheid": "Gaat over samenwerking/transparantie.",
+            "Werk iteratief met feedback": "Gaat over iteraties en feedbackloops."
+          }
+        },
+        {
+          "number": 12,
+          "question": "Welke uitspraak over de samenhang van de servicewaardeketen (SVC) en waardestromen is juist?",
+          "options": [
+            "De zes activiteiten van de SVC kunnen in verschillende volgorden en iteraties worden gecombineerd tot waardestromen.",
+            "De SVC-activiteiten mogen niet iteratief gebruikt worden.",
+            "Waardestromen bestaan alleen uit de activiteit Deliver & support.",
+            "Waardestromen zijn losgekoppeld van de SVC."
+          ],
+          "answer": "De zes activiteiten van de SVC kunnen in verschillende volgorden en iteraties worden gecombineerd tot waardestromen.",
+          "explanation": {
+            "De zes activiteiten van de SVC kunnen in verschillende volgorden en iteraties worden gecombineerd tot waardestromen.": "Correct: waardestromen zijn flexibele combinaties van SVC-activiteiten.",
+            "De SVC-activiteiten mogen niet iteratief gebruikt worden.": "Onjuist: iteratie is toegestaan en gebruikelijk.",
+            "Waardestromen bestaan alleen uit de activiteit Deliver & support.": "Onjuist: alle SVC-activiteiten kunnen deel uitmaken van een stroom.",
+            "Waardestromen zijn losgekoppeld van de SVC.": "Onjuist: waardestromen zijn juist samengesteld uit SVC-activiteiten."
+          }
+        },
+        {
+          "number": 13,
+          "question": "Wat is het doel van de SVC-activiteit Plan?",
+          "options": [
+            "Gedeeld begrip van visie, status en richting realiseren.",
+            "Servicecomponenten beschikbaar maken waar en wanneer nodig.",
+            "Relaties onderhouden en behoeften begrijpen.",
+            "Zorgen dat producten en services aan verwachtingen voldoen."
+          ],
+          "answer": "Gedeeld begrip van visie, status en richting realiseren.",
+          "explanation": {
+            "Gedeeld begrip van visie, status en richting realiseren.": "Correct: dit is het doel van Plan.",
+            "Servicecomponenten beschikbaar maken waar en wanneer nodig.": "Dit is Obtain/build.",
+            "Relaties onderhouden en behoeften begrijpen.": "Dit is Engage.",
+            "Zorgen dat producten en services aan verwachtingen voldoen.": "Dit is Design & transition."
+          }
+        },
+        {
+          "number": 14,
+          "question": "Wat is het doel van de SVC-activiteit Improve?",
+          "options": [
+            "Continue verbetering van producten, services en practices in alle SVC-activiteiten en dimensies.",
+            "Nieuwe en gewijzigde producten en services ontwerpen en overdragen.",
+            "Servicecomponenten beschikbaar maken waar en wanneer nodig.",
+            "Services leveren en ondersteunen volgens afspraken."
+          ],
+          "answer": "Continue verbetering van producten, services en practices in alle SVC-activiteiten en dimensies.",
+          "explanation": {
+            "Continue verbetering van producten, services en practices in alle SVC-activiteiten en dimensies.": "Correct: dit is Improve.",
+            "Nieuwe en gewijzigde producten en services ontwerpen en overdragen.": "Dit is Design & transition.",
+            "Servicecomponenten beschikbaar maken waar en wanneer nodig.": "Dit is Obtain/build.",
+            "Services leveren en ondersteunen volgens afspraken.": "Dit is Deliver & support."
+          }
+        },
+        {
+          "number": 15,
+          "question": "Wat is het doel van de SVC-activiteit Engage?",
+          "options": [
+            "Behoeften en vraag begrijpen, transparantie en relaties onderhouden met stakeholders.",
+            "SLA-rapportages opleveren.",
+            "Architecturen en beleid vastleggen.",
+            "Root-cause analyses uitvoeren."
+          ],
+          "answer": "Behoeften en vraag begrijpen, transparantie en relaties onderhouden met stakeholders.",
+          "explanation": {
+            "Behoeften en vraag begrijpen, transparantie en relaties onderhouden met stakeholders.": "Correct: dit is Engage.",
+            "SLA-rapportages opleveren.": "Onderdeel van SLM, niet Engage.",
+            "Architecturen en beleid vastleggen.": "Meer Plan/Design-context.",
+            "Root-cause analyses uitvoeren.": "Hoort bij Problem management."
+          }
+        },
+        {
+          "number": 16,
+          "question": "Wat is het doel van de SVC-activiteit Design & transition?",
+          "options": [
+            "Zorgen dat producten en services voortdurend voldoen aan verwachtingen (kwaliteit, kosten, doorlooptijd).",
+            "Servicecomponenten beschikbaar maken waar en wanneer nodig.",
+            "Services leveren en ondersteunen volgens afspraken.",
+            "Behoeften en vraag begrijpen en relaties onderhouden."
+          ],
+          "answer": "Zorgen dat producten en services voortdurend voldoen aan verwachtingen (kwaliteit, kosten, doorlooptijd).",
+          "explanation": {
+            "Zorgen dat producten en services voortdurend voldoen aan verwachtingen (kwaliteit, kosten, doorlooptijd).": "Correct.",
+            "Servicecomponenten beschikbaar maken waar en wanneer nodig.": "Dit is Obtain/build.",
+            "Services leveren en ondersteunen volgens afspraken.": "Dit is Deliver & support.",
+            "Behoeften en vraag begrijpen en relaties onderhouden.": "Dit is Engage."
+          }
+        },
+        {
+          "number": 17,
+          "question": "Wat is het doel van de SVC-activiteit Obtain/build?",
+          "options": [
+            "Servicecomponenten beschikbaar maken waar en wanneer nodig en conform specificaties.",
+            "Zorgen dat producten en services voldoen aan verwachtingen.",
+            "Relaties onderhouden en vraag begrijpen.",
+            "Gedeeld begrip van visie en status realiseren."
+          ],
+          "answer": "Servicecomponenten beschikbaar maken waar en wanneer nodig en conform specificaties.",
+          "explanation": {
+            "Servicecomponenten beschikbaar maken waar en wanneer nodig en conform specificaties.": "Correct: dit is Obtain/build.",
+            "Zorgen dat producten en services voldoen aan verwachtingen.": "Dit is Design & transition.",
+            "Relaties onderhouden en vraag begrijpen.": "Dit is Engage.",
+            "Gedeeld begrip van visie en status realiseren.": "Dit is Plan."
+          }
+        },
+        {
+          "number": 18,
+          "question": "Wat is het doel van de SVC-activiteit Deliver & support?",
+          "options": [
+            "Services leveren en ondersteunen volgens afspraken.",
+            "Nieuwe producten en services ontwerpen.",
+            "Change-risico’s beoordelen en autoriseren.",
+            "Input voor de visie en strategie creëren."
+          ],
+          "answer": "Services leveren en ondersteunen volgens afspraken.",
+          "explanation": {
+            "Services leveren en ondersteunen volgens afspraken.": "Correct: dit is Deliver & support.",
+            "Nieuwe producten en services ontwerpen.": "Dit is Design & transition.",
+            "Change-risico’s beoordelen en autoriseren.": "Onder de practice Change enablement.",
+            "Input voor de visie en strategie creëren.": "Meer Plan-activiteit."
+          }
+        },
+        {
+          "number": 19,
+          "question": "Welke uitspraak over Governance in het SVS is juist?",
+          "options": [
+            "Governance evalueert, stuurt en bewaakt alle activiteiten zodat het SVS aansluit bij strategie en beleid.",
+            "Governance schrijft alleen technische eisen voor in de servicecatalogus.",
+            "Governance beperkt zich tot de servicedesk-activiteiten.",
+            "Governance vervangt de richtinggevende principes."
+          ],
+          "answer": "Governance evalueert, stuurt en bewaakt alle activiteiten zodat het SVS aansluit bij strategie en beleid.",
+          "explanation": {
+            "Governance evalueert, stuurt en bewaakt alle activiteiten zodat het SVS aansluit bij strategie en beleid.": "Correct: dit is de rol van governance.",
+            "Governance schrijft alleen technische eisen voor in de servicecatalogus.": "Onjuist: governance gaat breder dan technische eisen.",
+            "Governance beperkt zich tot de servicedesk-activiteiten.": "Onjuist: governance is organisatiebreed.",
+            "Governance vervangt de richtinggevende principes.": "Onjuist: principes blijven leidend als aanbevelingen."
+          }
+        },
+        {
+          "number": 20,
+          "question": "Welke uitspraak over Voortdurend verbeteren als onderdeel van het SVS is juist?",
+          "options": [
+            "Het zorgt ervoor dat alle activiteiten, practices en waardestromen voortdurend worden aangepast en verbeterd.",
+            "Het is alleen een eenmalig project aan het einde van het jaar.",
+            "Het geldt alleen voor de servicewaardeketen, niet voor andere SVS-onderdelen.",
+            "Het vervangt de noodzaak om te plannen."
+          ],
+          "answer": "Het zorgt ervoor dat alle activiteiten, practices en waardestromen voortdurend worden aangepast en verbeterd.",
+          "explanation": {
+            "Het zorgt ervoor dat alle activiteiten, practices en waardestromen voortdurend worden aangepast en verbeterd.": "Correct: dit is de rol binnen het SVS.",
+            "Het is alleen een eenmalig project aan het einde van het jaar.": "Onjuist: het is continu.",
+            "Het geldt alleen voor de servicewaardeketen, niet voor andere SVS-onderdelen.": "Onjuist: het geldt voor het hele SVS.",
+            "Het vervangt de noodzaak om te plannen.": "Onjuist: Plan blijft noodzakelijk."
+          }
+        },
+        {
+          "number": 21,
+          "question": "Wat is de eerste stap van het continual improvement model?",
+          "options": [
+            "Wat is de visie?",
+            "Waar zijn we nu?",
+            "Waar willen we zijn?",
+            "Hoe komen we daar?"
+          ],
+          "answer": "Wat is de visie?",
+          "explanation": {
+            "Wat is de visie?": "Correct: dit is stap 1.",
+            "Waar zijn we nu?": "Dit is stap 2.",
+            "Waar willen we zijn?": "Dit is stap 3.",
+            "Hoe komen we daar?": "Dit is stap 4."
+          }
+        },
+        {
+          "number": 22,
+          "question": "Welke stap in het continual improvement model controleert of het doel bereikt is?",
+          "options": [
+            "Zijn we daar aangekomen?",
+            "Waar zijn we nu?",
+            "Wat is de visie?",
+            "Hoe komen we daar?"
+          ],
+          "answer": "Zijn we daar aangekomen?",
+          "explanation": {
+            "Zijn we daar aangekomen?": "Correct: dit is de evaluatiestap na uitvoering.",
+            "Waar zijn we nu?": "Nulmeting (huidige situatie).",
+            "Wat is de visie?": "Startpunt/doelstelling op hoog niveau.",
+            "Hoe komen we daar?": "Plannen van de route/aanpak."
+          }
+        },
+        {
+          "number": 23,
+          "question": "Welke stap in het continual improvement model borgt het behoud van momentum?",
+          "options": [
+            "Hoe houden we de vaart erin?",
+            "Waar willen we zijn?",
+            "Neem actie.",
+            "Waar zijn we nu?"
+          ],
+          "answer": "Hoe houden we de vaart erin?",
+          "explanation": {
+            "Hoe houden we de vaart erin?": "Correct: verankeren, leren en vervolginitiatieven stimuleren.",
+            "Waar willen we zijn?": "Definiëren van de doeltoestand.",
+            "Neem actie.": "Uitvoering van het verbeterplan.",
+            "Waar zijn we nu?": "Huidige status beoordelen."
+          }
+        },
+        {
+          "number": 24,
+          "question": "Welke is GEEN richtinggevend principe?",
+          "options": [
+            "Maximaliseer budgetuitgaven",
+            "Begin waar je bent",
+            "Houd het eenvoudig en praktisch",
+            "Denk en werk holistisch"
+          ],
+          "answer": "Maximaliseer budgetuitgaven",
+          "explanation": {
+            "Maximaliseer budgetuitgaven": "Correct: dit is geen ITIL-richtinggevend principe.",
+            "Begin waar je bent": "Dit is wél een richtinggevend principe.",
+            "Houd het eenvoudig en praktisch": "Dit is wél een richtinggevend principe.",
+            "Denk en werk holistisch": "Dit is wél een richtinggevend principe."
+          }
+        },
+        {
+          "number": 25,
+          "question": "Welke actie past NIET bij 'Houd het eenvoudig en praktisch'?",
+          "options": [
+            "Ontwerp alleen extra stappen als ze aantoonbaar waarde toevoegen.",
+            "Richt geen processen in rond zeldzame uitzonderingen.",
+            "Voeg standaard complexiteit toe om op alles voorbereid te zijn.",
+            "Verwijder onderdelen die geen waarde leveren."
+          ],
+          "answer": "Voeg standaard complexiteit toe om op alles voorbereid te zijn.",
+          "explanation": {
+            "Ontwerp alleen extra stappen als ze aantoonbaar waarde toevoegen.": "Past wel: minimaliseer stappen.",
+            "Richt geen processen in rond zeldzame uitzonderingen.": "Past wel: vermijd uitzonderingsfocus.",
+            "Voeg standaard complexiteit toe om op alles voorbereid te zijn.": "Correct: dit past NIET bij het principe.",
+            "Verwijder onderdelen die geen waarde leveren.": "Past wel: eenvoud en waarde."
+          }
+        },
+        {
+          "number": 26,
+          "question": "Welke uitspraak past het beste bij 'Begin waar je bent'?",
+          "options": [
+            "Maak een objectieve nulmeting en hergebruik bestaande capaciteiten waar zinvol.",
+            "Start altijd from scratch voor een frisse blik.",
+            "Automatiseer elk proces voordat je het begrijpt.",
+            "Eerst alle silo’s verwijderen vóórdat je meten toestaat."
+          ],
+          "answer": "Maak een objectieve nulmeting en hergebruik bestaande capaciteiten waar zinvol.",
+          "explanation": {
+            "Maak een objectieve nulmeting en hergebruik bestaande capaciteiten waar zinvol.": "Correct: kern van het principe.",
+            "Start altijd from scratch voor een frisse blik.": "Onjuist: dit botst met hergebruik.",
+            "Automatiseer elk proces voordat je het begrijpt.": "Onjuist: eerst optimaliseren/begrijpen.",
+            "Eerst alle silo’s verwijderen vóórdat je meten toestaat.": "Onjuist: meten is onderdeel van het principe."
+          }
+        },
+        {
+          "number": 27,
+          "question": "Welke uitspraak past het beste bij 'Werk samen en bevorder zichtbaarheid'?",
+          "options": [
+            "Maak werk zichtbaar (bijv. Kanban), deel beslissingen en erken bijdragen.",
+            "Beperk communicatie tot het kernteam om ruis te verminderen.",
+            "Publiceer alleen successen, verberg knelpunten.",
+            "Split het werk zodanig op dat teams alleen hun eigen KPI’s zien."
+          ],
+          "answer": "Maak werk zichtbaar (bijv. Kanban), deel beslissingen en erken bijdragen.",
+          "explanation": {
+            "Maak werk zichtbaar (bijv. Kanban), deel beslissingen en erken bijdragen.": "Correct: transparantie en samenwerking.",
+            "Beperk communicatie tot het kernteam om ruis te verminderen.": "Onjuist: dit creëert silo’s.",
+            "Publiceer alleen successen, verberg knelpunten.": "Onjuist: zichtbaarheid van knelpunten is juist nodig.",
+            "Split het werk zodanig op dat teams alleen hun eigen KPI’s zien.": "Onjuist: belemmert end-to-end zicht."
+          }
+        },
+        {
+          "number": 28,
+          "question": "Welke uitspraak past het beste bij 'Denk en werk holistisch'?",
+          "options": [
+            "Betrek alle vier de dimensies en optimaliseer end-to-end in plaats van lokaal.",
+            "Optimaliseer alleen de drukste activiteit voor maximaal effect.",
+            "Ontwerp eerst tooling, dan pas processen en mensen.",
+            "Beperk scope tot teams met directe budgetverantwoordelijkheid."
+          ],
+          "answer": "Betrek alle vier de dimensies en optimaliseer end-to-end in plaats van lokaal.",
+          "explanation": {
+            "Betrek alle vier de dimensies en optimaliseer end-to-end in plaats van lokaal.": "Correct: kern van holistisch denken.",
+            "Optimaliseer alleen de drukste activiteit voor maximaal effect.": "Onjuist: lokale optimalisatie kan suboptimaal zijn.",
+            "Ontwerp eerst tooling, dan pas processen en mensen.": "Onjuist: dit is geen holistische volgorde.",
+            "Beperk scope tot teams met directe budgetverantwoordelijkheid.": "Onjuist: end-to-end reikt verder dan budgetlijnen."
+          }
+        },
+        {
+          "number": 29,
+          "question": "Welke uitspraak past het beste bij 'Werk iteratief met feedback'?",
+          "options": [
+            "Verdeel werk in kleine stukken met korte leerloops en pas aan op feedback.",
+            "Plan alles upfront en voorkom wijzigingen in scope.",
+            "Wacht met feedback tot de volledige oplossing live is.",
+            "Combineer alle verbeteringen in één big-bang implementatie."
+          ],
+          "answer": "Verdeel werk in kleine stukken met korte leerloops en pas aan op feedback.",
+          "explanation": {
+            "Verdeel werk in kleine stukken met korte leerloops en pas aan op feedback.": "Correct: dit ís iteratief met feedback.",
+            "Plan alles upfront en voorkom wijzigingen in scope.": "Onjuist: dit is big design up front.",
+            "Wacht met feedback tot de volledige oplossing live is.": "Onjuist: te laat voor iteratief leren.",
+            "Combineer alle verbeteringen in één big-bang implementatie.": "Onjuist: iteratief juist in kleine stappen."
+          }
+        },
+        {
+          "number": 30,
+          "question": "Welke uitspraak past het beste bij 'Optimaliseer en automatiseer'?",
+          "options": [
+            "Standaardiseer, optimaliseer het proces en automatiseer daarna waar zinvol.",
+            "Automatiseer eerst, optimaliseer later als er tijd is.",
+            "Menselijke tussenkomst is altijd beter dan automatisering.",
+            "Automatisering vervangt elk procesontwerp."
+          ],
+          "answer": "Standaardiseer, optimaliseer het proces en automatiseer daarna waar zinvol.",
+          "explanation": {
+            "Standaardiseer, optimaliseer het proces en automatiseer daarna waar zinvol.": "Correct: volgorde is essentieel.",
+            "Automatiseer eerst, optimaliseer later als er tijd is.": "Onjuist: automation of waste.",
+            "Menselijke tussenkomst is altijd beter dan automatisering.": "Onjuist: niet altijd, automatiseer waar zinvol.",
+            "Automatisering vervangt elk procesontwerp.": "Onjuist: zonder design geen goede automatisering."
+          }
+        },
+        {
+          "number": 31,
+          "question": "Welke combinatie hoort expliciet bij de kernonderdelen van het SVS?",
+          "options": [
+            "Richtinggevende principes en Servicewaardeketen",
+            "SLA en CMDB",
+            "Releasekalender en verzoekscatalogus",
+            "Serviceportfolio en projectportfolio"
+          ],
+          "answer": "Richtinggevende principes en Servicewaardeketen",
+          "explanation": {
+            "Richtinggevende principes en Servicewaardeketen": "Correct: beiden zijn kernonderdelen van het SVS.",
+            "SLA en CMDB": "Dit zijn artefacten/praktijktools, geen SVS-kernonderdelen.",
+            "Releasekalender en verzoekscatalogus": "Praktijkartefacten, geen SVS-kernonderdelen.",
+            "Serviceportfolio en projectportfolio": "Portefeuilles zijn managementmiddelen, geen SVS-kernonderdelen."
+          }
+        },
+        {
+          "number": 32,
+          "question": "Welke uitspraak over de relatie tussen Engage en Deliver & support is juist?",
+          "options": [
+            "Engage haalt behoeften op en levert input aan Deliver & support om ondersteuningstaken uit te voeren.",
+            "Engage voert zelf alle ondersteuningstaken uit.",
+            "Deliver & support definieert de klantbehoeften.",
+            "Beide activiteiten zijn identiek qua doel en output."
+          ],
+          "answer": "Engage haalt behoeften op en levert input aan Deliver & support om ondersteuningstaken uit te voeren.",
+          "explanation": {
+            "Engage haalt behoeften op en levert input aan Deliver & support om ondersteuningstaken uit te voeren.": "Correct: Engage is de interface met stakeholders; D&S voert uit.",
+            "Engage voert zelf alle ondersteuningstaken uit.": "Onjuist: uitvoering hoort bij Deliver & support.",
+            "Deliver & support definieert de klantbehoeften.": "Onjuist: dat hoort bij Engage.",
+            "Beide activiteiten zijn identiek qua doel en output.": "Onjuist: ze hebben verschillende doelen."
+          }
+        },
+        {
+          "number": 33,
+          "question": "Welke stap past bij 'Neem actie' binnen het continual improvement model?",
+          "options": [
+            "Uitvoering van het verbeterplan",
+            "Definiëren van meetbare doelen",
+            "Evalueren van resultaten",
+            "Beoordelen van de huidige status"
+          ],
+          "answer": "Uitvoering van het verbeterplan",
+          "explanation": {
+            "Uitvoering van het verbeterplan": "Correct: dit is 'Neem actie'.",
+            "Definiëren van meetbare doelen": "Hoort bij 'Waar willen we zijn?'.",
+            "Evalueren van resultaten": "Hoort bij 'Zijn we daar aangekomen?'.",
+            "Beoordelen van de huidige status": "Hoort bij 'Waar zijn we nu?'."
+          }
+        },
+        {
+          "number": 34,
+          "question": "Welke stap hoort bij 'Waar willen we zijn?' binnen het continual improvement model?",
+          "options": [
+            "Definiëren van meetbare doelen en de doeltoestand",
+            "De visie formuleren",
+            "De huidige status objectief beoordelen",
+            "Het uitgevoerde resultaat valideren"
+          ],
+          "answer": "Definiëren van meetbare doelen en de doeltoestand",
+          "explanation": {
+            "Definiëren van meetbare doelen en de doeltoestand": "Correct: dit hoort bij 'Waar willen we zijn?'.",
+            "De visie formuleren": "Hoort bij 'Wat is de visie?'.",
+              "De huidige status objectief beoordelen": "Hoort bij 'Waar zijn we nu?'.",
+            "Het uitgevoerde resultaat valideren": "Hoort bij 'Zijn we daar aangekomen?'."
+          }
+        },
+        {
+          "number": 35,
+          "question": "Welke uitspraak koppelt de SVC correct aan waardestromen?",
+          "options": [
+            "Waardestromen zijn flexibele routes die SVC-activiteiten in verschillende combinaties en iteraties gebruiken om waarde te leveren.",
+            "Waardestromen zijn één vaste route die altijd alle SVC-activiteiten in dezelfde volgorde doorloopt.",
+            "Waardestromen vervangen de noodzaak van SVC-activiteiten.",
+            "Waardestromen bestaan uitsluitend uit Obtain/build en Deliver & support."
+          ],
+          "answer": "Waardestromen zijn flexibele routes die SVC-activiteiten in verschillende combinaties en iteraties gebruiken om waarde te leveren.",
+          "explanation": {
+            "Waardestromen zijn flexibele routes die SVC-activiteiten in verschillende combinaties en iteraties gebruiken om waarde te leveren.": "Correct: dit geeft de samenhang en flexibiliteit weer.",
+            "Waardestromen zijn één vaste route die altijd alle SVC-activiteiten in dezelfde volgorde doorloopt.": "Onjuist: er is geen vaste volgorde vereist.",
+            "Waardestromen vervangen de noodzaak van SVC-activiteiten.": "Onjuist: ze zijn er juist uit opgebouwd.",
+            "Waardestromen bestaan uitsluitend uit Obtain/build en Deliver & support.": "Onjuist: alle SVC-activiteiten kunnen deel uitmaken."
+          }
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,691 @@
+{
+  "chapters": [
+    {
+      "chapter": "ITIL 4 test 1_2 (EN)",
+      "description": "ITIL 4 - Practice Test 1_2 (EN, questions 41-80)",
+      "questions": [
+        {
+          "number": 41,
+          "question": "Which service management dimension is focused on activities and how these are coordinated?",
+          "options": [
+            "Organizations and people",
+            "Information and technology",
+            "Value streams and processes",
+            "Partners and suppliers"
+          ],
+          "answer": "Value streams and processes",
+          "explanation": {
+            "Organizations and people": "Covers culture, roles, skills, structures.",
+            "Information and technology": "Covers information, tooling, technology.",
+            "Value streams and processes": "Correct: focuses on activities and coordination.",
+            "Partners and suppliers": "Covers external relationships and contracts."
+          }
+        },
+        {
+          "number": 42,
+          "question": "Which of the following is a key output of the Deliver and support activity?",
+          "options": [
+            "Service performance information",
+            "Consolidated demands and opportunities",
+            "New and changed products and services",
+            "Performance information and improvement opportunities"
+          ],
+          "answer": "Service performance information",
+          "explanation": {
+            "Service performance information": "Correct: D&S provides service performance info.",
+            "Consolidated demands and opportunities": "Plan and Engage related outputs.",
+            "New and changed products and services": "Output of Design & transition.",
+            "Performance information and improvement opportunities": "Improve-related outputs."
+          }
+        },
+        {
+          "number": 43,
+          "question": "Why should incidents be prioritized?",
+          "options": [
+            "To ensure that incidents with the highest business impact are resolved first",
+            "To identify which support team the incident should be escalated to",
+            "To encourage collaboration within and between teams",
+            "To help automated matching of incidents to problems or known errors"
+          ],
+          "answer": "To ensure that incidents with the highest business impact are resolved first",
+          "explanation": {
+            "To ensure that incidents with the highest business impact are resolved first": "Correct: prioritization is based on impact and urgency.",
+            "To identify which support team the incident should be escalated to": "Routing is driven by categorization.",
+            "To encourage collaboration within and between teams": "A benefit, not the purpose of prioritization.",
+            "To help automated matching of incidents to problems or known errors": "Tool capability, not prioritization purpose."
+          }
+        },
+        {
+          "number": 44,
+          "question": "A major incident has been closed, but there is a risk that it might happen again. How should this case be logged and managed?",
+          "options": [
+            "As an event",
+            "As a change request",
+            "As a service request",
+            "As a problem"
+          ],
+          "answer": "As a problem",
+          "explanation": {
+            "As an event": "Events are significant state changes, not root-cause analysis records.",
+            "As a change request": "May result later, but first manage as a problem.",
+            "As a service request": "Requests are normal service actions.",
+            "As a problem": "Correct: log a problem to prevent recurrence."
+          }
+        },
+        {
+          "number": 45,
+          "question": "What are guiding principles?",
+          "options": [
+            "A description of one or more services that help address the needs of a target consumer group",
+            "A set of specialized organizational capabilities for enabling value for customers",
+            "Recommendations that help an organization when adopting a service management approach",
+            "A set of interconnected activities that help an organization deliver a valuable service"
+          ],
+          "answer": "Recommendations that help an organization when adopting a service management approach",
+          "explanation": {
+            "A description of one or more services that help address the needs of a target consumer group": "Service offering.",
+            "A set of specialized organizational capabilities for enabling value for customers": "Definition of service management.",
+            "Recommendations that help an organization when adopting a service management approach": "Correct: guiding principles.",
+            "A set of interconnected activities that help an organization deliver a valuable service": "Service value chain."
+          }
+        },
+        {
+          "number": 46,
+          "question": "What is a standard change?",
+          "options": [
+            "A change that needs to be assessed, authorized, and scheduled by a change authority",
+            "A change that does not need a risk assessment because it resolves an incident",
+            "A change that is assessed, authorized, and scheduled as part of continual improvement",
+            "A change that is well understood, fully documented and pre-authorized"
+          ],
+          "answer": "A change that is well understood, fully documented and pre-authorized",
+          "explanation": {
+            "A change that needs to be assessed, authorized, and scheduled by a change authority": "Normal change.",
+            "A change that does not need a risk assessment because it resolves an incident": "Incorrect; risk must be understood when creating the model.",
+            "A change that is assessed, authorized, and scheduled as part of continual improvement": "Not the definition of a standard change.",
+            "A change that is well understood, fully documented and pre-authorized": "Correct."
+          }
+        },
+        {
+          "number": 47,
+          "question": "What should be done for every problem?",
+          "options": [
+            "It should be prioritized based on its potential impact and probability",
+            "It should have a workaround to reduce the impact",
+            "It should be diagnosed to identify possible solutions",
+            "It should be resolved so that it can be closed"
+          ],
+          "answer": "It should be prioritized based on its potential impact and probability",
+          "explanation": {
+            "It should be prioritized based on its potential impact and probability": "Correct: problems are managed as risks.",
+            "It should have a workaround to reduce the impact": "Useful where possible, but not always available.",
+            "It should be diagnosed to identify possible solutions": "Often yes, but prioritization is universal.",
+            "It should be resolved so that it can be closed": "Not always possible or cost-effective."
+          }
+        },
+        {
+          "number": 48,
+          "question": "What is a standard change?",
+          "options": [
+            "A change that needs to be scheduled, assessed, and authorized following a defined process",
+            "A change that must be implemented as soon as possible",
+            "A change that is typically implemented as a service request",
+            "A high-risk change that needs approval"
+          ],
+          "answer": "A change that is typically implemented as a service request",
+          "explanation": {
+            "A change that needs to be scheduled, assessed, and authorized following a defined process": "Normal change.",
+            "A change that must be implemented as soon as possible": "Emergency change.",
+            "A change that is typically implemented as a service request": "Correct: standard changes are often fulfilled via SRM.",
+            "A high-risk change that needs approval": "Not a standard change."
+          }
+        },
+        {
+          "number": 49,
+          "question": "Which dimension of service management considers governance, management, and communication?",
+          "options": [
+            "Organizations and people",
+            "Value streams and processes",
+            "Information and technology",
+            "Partners and suppliers"
+          ],
+          "answer": "Organizations and people",
+          "explanation": {
+            "Organizations and people": "Correct: covers structures, authority, and communication.",
+            "Value streams and processes": "Focuses on activities and workflows.",
+            "Information and technology": "Covers info, tooling, platforms.",
+            "Partners and suppliers": "External parties and contracts."
+          }
+        },
+        {
+          "number": 50,
+          "question": "Who has the purpose of ensuring that the organization's suppliers and their performance are managed appropriately to support the provision of seamless, quality products and services?",
+          "options": [
+            "Supplier management",
+            "Release management",
+            "Service management",
+            "Relationship management"
+          ],
+          "answer": "Supplier management",
+          "explanation": {
+            "Supplier management": "Correct: manages suppliers and their performance.",
+            "Release management": "Makes new or changed services available for use.",
+            "Service management": "Discipline overall, not a single practice here.",
+            "Relationship management": "Manages relationships with stakeholders."
+          }
+        },
+        {
+          "number": 51,
+          "question": "Which statement about the 'service request management' practice is CORRECT?",
+          "options": [
+            "Financial authorization is sometimes required for service requests",
+            "Additional approval is sometimes needed for restoration of service",
+            "A new workflow is created for each type of request",
+            "Service requests are fulfilled using simple workflows"
+          ],
+          "answer": "Financial authorization is sometimes required for service requests",
+          "explanation": {
+            "Financial authorization is sometimes required for service requests": "Correct: depends on policy.",
+            "Additional approval is sometimes needed for restoration of service": "More relevant to incident/change handling.",
+            "A new workflow is created for each type of request": "Not recommended; reuse models.",
+            "Service requests are fulfilled using simple workflows": "Not always; some are complex."
+          }
+        },
+        {
+          "number": 52,
+          "question": "Which statement about the service desk practice is correct?",
+          "options": [
+            "It carries out change assessment and authorization",
+            "It investigates the cause of incidents",
+            "It provides a link with stakeholders at strategic and tactical levels",
+            "It needs a practical understanding of the business processes"
+          ],
+          "answer": "It needs a practical understanding of the business processes",
+          "explanation": {
+            "It carries out change assessment and authorization": "Change enablement role, not service desk.",
+            "It investigates the cause of incidents": "Root-cause is problem management.",
+            "It provides a link with stakeholders at strategic and tactical levels": "That is relationship management.",
+            "It needs a practical understanding of the business processes": "Correct: key success factor for the desk."
+          }
+        },
+        {
+          "number": 53,
+          "question": "___________ is a series of steps an organization takes to create and deliver products and services.",
+          "options": [
+            "Procedure",
+            "Process",
+            "Value stream",
+            "Workflow"
+          ],
+          "answer": "Value stream",
+          "explanation": {
+            "Procedure": "A specific way to carry out an activity or process step.",
+            "Process": "Interrelated activities transforming inputs to outputs.",
+            "Value stream": "Correct: end-to-end steps to create and deliver value.",
+            "Workflow": "Flow of tasks; a value stream is the larger end-to-end path."
+          }
+        },
+        {
+          "number": 54,
+          "question": "What is the starting point for optimization?",
+          "options": [
+            "Standardizing practices and services",
+            "Understanding the vision and objectives of the organization",
+            "Securing stakeholder engagement",
+            "Determining where the most positive impact would be"
+          ],
+          "answer": "Understanding the vision and objectives of the organization",
+          "explanation": {
+            "Standardizing practices and services": "May help later; not the starting point.",
+            "Understanding the vision and objectives of the organization": "Correct: context first.",
+            "Securing stakeholder engagement": "Important, but follows context understanding.",
+            "Determining where the most positive impact would be": "Assessment step after understanding context."
+          }
+        },
+        {
+          "number": 55,
+          "question": "What should be done first when applying the 'focus on value' guiding principle?",
+          "options": [
+            "Determine who the service consumer is in each situation",
+            "Determine the cost of providing the service",
+            "Identify the outcomes that the service facilitates",
+            "Identify all suppliers and partners involved in the service"
+          ],
+          "answer": "Determine who the service consumer is in each situation",
+          "explanation": {
+            "Determine who the service consumer is in each situation": "Correct: first know who is being served.",
+            "Determine the cost of providing the service": "Important later; not first step.",
+            "Identify the outcomes that the service facilitates": "Follows knowing the consumer.",
+            "Identify all suppliers and partners involved in the service": "Operational detail, not the first step."
+          }
+        },
+        {
+          "number": 56,
+          "question": "Which is the correct definition of warranty?",
+          "options": [
+            "The perceived benefits, usefulness, and importance of something",
+            "The amount of money spent on a specific activity or resource",
+            "The functionality offered by a product or service to meet a particular need",
+            "Assurance that a product or service will meet agreed requirements"
+          ],
+          "answer": "Assurance that a product or service will meet agreed requirements",
+          "explanation": {
+            "The perceived benefits, usefulness, and importance of something": "Value.",
+            "The amount of money spent on a specific activity or resource": "Cost.",
+            "The functionality offered by a product or service to meet a particular need": "Utility.",
+            "Assurance that a product or service will meet agreed requirements": "Correct: warranty."
+          }
+        },
+        {
+          "number": 57,
+          "question": "What is the effect of increased automation on the service desk practice?",
+          "options": [
+            "Elimination of the need to escalate incidents to support teams",
+            "Greater ability to focus on customer experience when personal contact is needed",
+            "Decrease in self-service incident logging and resolution",
+            "Increased ability to focus on fixing technology instead of supporting people"
+          ],
+          "answer": "Greater ability to focus on customer experience when personal contact is needed",
+          "explanation": {
+            "Elimination of the need to escalate incidents to support teams": "Incorrect: escalation will still be needed for complex issues.",
+            "Greater ability to focus on customer experience when personal contact is needed": "Correct: less low-level work enables better focus on CX.",
+            "Decrease in self-service incident logging and resolution": "Automation increases self-service, not decreases it.",
+            "Increased ability to focus on fixing technology instead of supporting people": "Focus stays on supporting users."
+          }
+        },
+        {
+          "number": 58,
+          "question": "Which practice is the responsibility of everyone in the organization?",
+          "options": [
+            "Problem management",
+            "Service level management",
+            "Change enablement",
+            "Continual improvement"
+          ],
+          "answer": "Continual improvement",
+          "explanation": {
+            "Problem management": "Specialist practice for causes of incidents.",
+            "Service level management": "Practice for targets and reviews.",
+            "Change enablement": "Practice for assessing/authorizing changes.",
+            "Continual improvement": "Correct: everyone contributes."
+          }
+        },
+        {
+          "number": 59,
+          "question": "Which statement about outputs is CORRECT?",
+          "options": [
+            "They contribute to the achievement of outcomes",
+            "They capture customer demand for services",
+            "They describe how the service performs",
+            "They consist of several outcomes"
+          ],
+          "answer": "They contribute to the achievement of outcomes",
+          "explanation": {
+            "They contribute to the achievement of outcomes": "Correct: outputs enable outcomes.",
+            "They capture customer demand for services": "That is Engage/Plan related, not output definition.",
+            "They describe how the service performs": "That is about metrics/warranty.",
+            "They consist of several outcomes": "The relation is the other way around."
+          }
+        },
+        {
+          "number": 60,
+          "question": "Which dimension considers how knowledge assets should be protected?",
+          "options": [
+            "Value streams and processes",
+            "Organizations and people",
+            "Partners and suppliers",
+            "Information and technology"
+          ],
+          "answer": "Information and technology",
+          "explanation": {
+            "Value streams and processes": "Activities and workflows.",
+            "Organizations and people": "Structures, roles, skills, culture.",
+            "Partners and suppliers": "External relationships.",
+            "Information and technology": "Correct: includes information protection and lifecycle."
+          }
+        },
+        {
+          "number": 61,
+          "question": "When planning continual improvement, which approach for assessing the current state is correct?",
+          "options": [
+            "An organization should always develop competencies in methodologies and techniques that will meet their needs",
+            "An organization should always use a SWOT analysis",
+            "An organization should always use an approach that combines Lean, Agile, and DevOps",
+            "An organization should always use a single technique to ensure metrics are consistent"
+          ],
+          "answer": "An organization should always develop competencies in methodologies and techniques that will meet their needs",
+          "explanation": {
+            "An organization should always develop competencies in methodologies and techniques that will meet their needs": "Correct: choose methods fit for purpose.",
+            "An organization should always use a SWOT analysis": "A useful tool, but not always.",
+            "An organization should always use an approach that combines Lean, Agile, and DevOps": "May be useful, but not mandatory.",
+            "An organization should always use a single technique to ensure metrics are consistent": "Overly restrictive."
+          }
+        },
+        {
+          "number": 62,
+          "question": "What is the definition of warranty?",
+          "options": [
+            "The assurance that a product or service will meet agreed requirements",
+            "A possible event that could cause harm or make it more difficult to achieve objectives",
+            "The functionality offered by a product or service to meet a particular need",
+            "A tangible or intangible deliverable that is produced by carrying out an activity"
+          ],
+          "answer": "The assurance that a product or service will meet agreed requirements",
+          "explanation": {
+            "The assurance that a product or service will meet agreed requirements": "Correct.",
+            "A possible event that could cause harm or make it more difficult to achieve objectives": "Risk.",
+            "The functionality offered by a product or service to meet a particular need": "Utility.",
+            "A tangible or intangible deliverable that is produced by carrying out an activity": "Output."
+          }
+        },
+        {
+          "number": 63,
+          "question": "Which practice uses techniques such as SWOT analysis, balanced scorecard reviews, and maturity assessments?",
+          "options": [
+            "Incident management",
+            "Problem management",
+            "Continual improvement",
+            "Service request management"
+          ],
+          "answer": "Continual improvement",
+          "explanation": {
+            "Incident management": "Handles restoration.",
+            "Problem management": "Analyzes causes.",
+            "Continual improvement": "Correct: uses such techniques to assess and improve.",
+            "Service request management": "Fulfills predefined requests."
+          }
+        },
+        {
+          "number": 64,
+          "question": "What considerations influence the supplier strategy of an organization?",
+          "options": [
+            "Type of cooperation with suppliers",
+            "Corporate culture of the organization",
+            "Contracts and agreements",
+            "Level of formality"
+          ],
+          "answer": "Corporate culture of the organization",
+          "explanation": {
+            "Type of cooperation with suppliers": "Part of strategy, but culture often drives sourcing choices.",
+            "Corporate culture of the organization": "Correct: cultural bias strongly influences sourcing.",
+            "Contracts and agreements": "Result from strategy, not the driver.",
+            "Level of formality": "Characteristic, not a core driver."
+          }
+        },
+        {
+          "number": 65,
+          "question": "Which guiding principle describes the importance of doing something instead of spending a long time analyzing options?",
+          "options": [
+            "Start where you are",
+            "Focus on value",
+            "Progress iteratively with feedback",
+            "Optimize and automate"
+          ],
+          "answer": "Progress iteratively with feedback",
+          "explanation": {
+            "Start where you are": "Measure and observe first.",
+            "Focus on value": "Keep value in focus, not about analysis paralysis.",
+            "Progress iteratively with feedback": "Correct: do smaller increments and learn.",
+            "Optimize and automate": "Optimize first, then automate."
+          }
+        },
+        {
+          "number": 66,
+          "question": "How should automation be implemented?",
+          "options": [
+            "By initially concentrating on the most complex tasks",
+            "By replacing human intervention wherever possible",
+            "By optimizing as much as possible",
+            "By replacing the existing tools"
+          ],
+          "answer": "By optimizing as much as possible",
+          "explanation": {
+            "By initially concentrating on the most complex tasks": "Start with well-understood, standardized work first.",
+            "By replacing human intervention wherever possible": "Goal is not to remove humans blindly.",
+            "By optimizing as much as possible": "Correct: optimize before automating.",
+            "By replacing the existing tools": "Tools may or may not need replacement."
+          }
+        },
+        {
+          "number": 67,
+          "question": "Which practice updates information relating to symptoms and business impact?",
+          "options": [
+            "Change enablement",
+            "Incident management",
+            "Service-level management",
+            "Service request management"
+          ],
+          "answer": "Incident management",
+          "explanation": {
+            "Change enablement": "Assesses/authorizes changes.",
+            "Incident management": "Correct: updates symptoms, impact, affected CIs, actions.",
+            "Service-level management": "Targets, reviews and reporting.",
+            "Service request management": "Handles predefined requests."
+          }
+        },
+        {
+          "number": 68,
+          "question": "What role approves the cost of services?",
+          "options": [
+            "Sponsor",
+            "Customer",
+            "User",
+            "Change authority"
+          ],
+          "answer": "Sponsor",
+          "explanation": {
+            "Sponsor": "Correct: authorizes budget for service consumption.",
+            "Customer": "Defines requirements and is responsible for outcomes.",
+            "User": "Uses the service.",
+            "Change authority": "Authorizes changes, not service costs."
+          }
+        },
+        {
+          "number": 69,
+          "question": "Mark the dimension that includes a workflow management system.",
+          "options": [
+            "Organizations and people",
+            "Value streams and processes",
+            "Information and technology",
+            "Partners and suppliers"
+          ],
+          "answer": "Information and technology",
+          "explanation": {
+            "Organizations and people": "Structures, roles, culture.",
+            "Value streams and processes": "Activities and workflows, not specific tools.",
+            "Information and technology": "Correct: includes workflow systems, knowledge bases, etc.",
+            "Partners and suppliers": "External relationships."
+          }
+        },
+        {
+          "number": 70,
+          "question": "What is the service consumer's contribution to the reduction of risk?",
+          "options": [
+            "Managing server hardware",
+            "Managing staff availability",
+            "Reducing communication constraints",
+            "Paying for the service"
+          ],
+          "answer": "Reducing communication constraints",
+          "explanation": {
+            "Managing server hardware": "Provider responsibility in most service models.",
+            "Managing staff availability": "Internal HR, not the risk contribution asked.",
+            "Reducing communication constraints": "Correct: clearly communicating CSFs and constraints reduces risk.",
+            "Paying for the service": "Cost aspect, not risk reduction."
+          }
+        },
+        {
+          "number": 71,
+          "question": "Which joint activity performed by a service provider and service consumer ensures continual value co-creation?",
+          "options": [
+            "Service provision",
+            "Service consumption",
+            "Service offering",
+            "Service relationship management"
+          ],
+          "answer": "Service relationship management",
+          "explanation": {
+            "Service provision": "Provider activities.",
+            "Service consumption": "Consumer activities.",
+            "Service offering": "Description of services for a target group.",
+            "Service relationship management": "Correct: joint activities to ensure continual co-creation of value."
+          }
+        },
+        {
+          "number": 72,
+          "question": "Identify the missing word in the following sentence. A service is a means of enabling value co-creation by facilitating ______ that customers want to achieve.",
+          "options": [
+            "Outcomes",
+            "Outputs",
+            "The warranty",
+            "The utility"
+          ],
+          "answer": "Outcomes",
+          "explanation": {
+            "Outcomes": "Correct: services facilitate outcomes.",
+            "Outputs": "Deliverables from activities, not the desired end state.",
+            "The warranty": "Assurance of performance.",
+            "The utility": "Functionality offered."
+          }
+        },
+        {
+          "number": 73,
+          "question": "Which would be supported by the service request management practice?",
+          "options": [
+            "A request to restore service after a service interruption",
+            "A request from a user for something which is a normal part of service delivery",
+            "A request to authorize a change that could have an effect on a service",
+            "A request to investigate the cause of multiple related incidents"
+          ],
+          "answer": "A request from a user for something which is a normal part of service delivery",
+          "explanation": {
+            "A request to restore service after a service interruption": "Incident handling.",
+            "A request from a user for something which is a normal part of service delivery": "Correct: SRM handles predefined user requests.",
+            "A request to authorize a change that could have an effect on a service": "Change enablement.",
+            "A request to investigate the cause of multiple related incidents": "Problem management."
+          }
+        },
+        {
+          "number": 74,
+          "question": "Which is NOT usually included as part of incident management?",
+          "options": [
+            "Detailed procedures for the diagnosis of incidents",
+            "Scripts for collecting initial information about incidents",
+            "The use of specialized knowledge for complicated incidents",
+            "Formalized procedures for logging incidents"
+          ],
+          "answer": "Detailed procedures for the diagnosis of incidents",
+          "explanation": {
+            "Detailed procedures for the diagnosis of incidents": "Correct: detailed diagnosis typically resides with support teams and knowledge articles.",
+            "Scripts for collecting initial information about incidents": "Often used at the service desk.",
+            "The use of specialized knowledge for complicated incidents": "Handled via escalation and knowledge bases.",
+            "Formalized procedures for logging incidents": "Part of incident management."
+          }
+        },
+        {
+          "number": 75,
+          "question": "Identify the missing word: A service is a means of enabling value co-creation by facilitating [?] that customers want to achieve, without the customer having to manage specific costs and risks.",
+          "options": [
+            "Outputs",
+            "Warranty",
+            "Utility",
+            "Outcomes"
+          ],
+          "answer": "Outcomes",
+          "explanation": {
+            "Outputs": "Deliverables, not end results for stakeholders.",
+            "Warranty": "Assurance of performance.",
+            "Utility": "Functionality.",
+            "Outcomes": "Correct."
+          }
+        },
+        {
+          "number": 76,
+          "question": "How should an organization adopt continual improvement methods?",
+          "options": [
+            "Select a single method for all improvements that the organization handles",
+            "Use a new method for each improvement the organization handles",
+            "Build the capability to use as many improvement methods as possible",
+            "Select a few key methods for the types of improvement that the organization handles"
+          ],
+          "answer": "Select a few key methods for the types of improvement that the organization handles",
+          "explanation": {
+            "Select a single method for all improvements that the organization handles": "Too rigid.",
+            "Use a new method for each improvement the organization handles": "Inconsistent and inefficient.",
+            "Build the capability to use as many improvement methods as possible": "Spreads focus too thin.",
+            "Select a few key methods for the types of improvement that the organization handles": "Correct: cultivate fit-for-purpose methods."
+          }
+        },
+        {
+          "number": 77,
+          "question": "Identify the missing word: A service is a means of enabling value co-creation by facilitating [?] that customers want to achieve, without the customer having to manage specific costs and risks.",
+          "options": [
+            "outputs",
+            "warranty",
+            "utility",
+            "outcomes"
+          ],
+          "answer": "outcomes",
+          "explanation": {
+            "outputs": "Deliverables, not end results.",
+            "warranty": "Assurance of performance.",
+            "utility": "Functionality.",
+            "outcomes": "Correct."
+          }
+        },
+        {
+          "number": 78,
+          "question": "Which statement about emergency changes is correct?",
+          "options": [
+            "Emergency changes must be fully documented before authorization and implementation",
+            "The testing of emergency changes can be eliminated in order to implement the change quickly",
+            "The assessment and authorization of emergency changes is expedited to ensure they can be implemented quickly",
+            "Emergency changes should be authorized and implemented as service requests"
+          ],
+          "answer": "The assessment and authorization of emergency changes is expedited to ensure they can be implemented quickly",
+          "explanation": {
+            "Emergency changes must be fully documented before authorization and implementation": "Incorrect: documentation is appropriate, but authorization is expedited.",
+            "The testing of emergency changes can be eliminated in order to implement the change quickly": "Testing may be reduced but not eliminated irresponsibly.",
+            "The assessment and authorization of emergency changes is expedited to ensure they can be implemented quickly": "Correct.",
+            "Emergency changes should be authorized and implemented as service requests": "Incorrect."
+          }
+        },
+        {
+          "number": 79,
+          "question": "What actions does a service desk take for all issues, queries, and requests reported to them?",
+          "options": [
+            "Diagnose, investigate, resolve",
+            "Acknowledge, classify, own",
+            "Schedule, assess, authorize",
+            "Initiate, approve, fulfil"
+          ],
+          "answer": "Acknowledge, classify, own",
+          "explanation": {
+            "Diagnose, investigate, resolve": "Performed by resolver groups as needed.",
+            "Acknowledge, classify, own": "Correct: core desk actions.",
+            "Schedule, assess, authorize": "Change enablement actions.",
+            "Initiate, approve, fulfil": "Generic phrasing, not the desk core."
+          }
+        },
+        {
+          "number": 80,
+          "question": "How does customer engagement contribute to the service-level management practice?",
+          "options": [
+            "1 and 4",
+            "1 and 2",
+            "2 and 3",
+            "3 and 4"
+          ],
+          "answer": "1 and 4",
+          "explanation": {
+            "1 and 4": "Correct: it captures information to base metrics on (1) and supports progress discussions (4).",
+            "1 and 2": "2 (ensuring defined service levels) is SLM execution, not engagement.",
+            "2 and 3": "3 (defining workflows for service requests) is SRM, not SLM engagement.",
+            "3 and 4": "3 is not part of SLM engagement."
+          }
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,571 @@
+{
+  "chapters": [
+    {
+      "chapter": 3,
+      "description": "ITIL 4 BL2 - Hoofdstuk 3 (Vier dimensies van servicemanagement)",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Welke dimensie omvat rollen, verantwoordelijkheden, organisatiestructuren, cultuur en competenties die nodig zijn om services te leveren?",
+          "options": [
+            "Organisaties en mensen",
+            "Informatie en technologie",
+            "Partners en leveranciers",
+            "Waardestromen en processen"
+          ],
+          "answer": "Organisaties en mensen",
+          "explanation": {
+            "Organisaties en mensen": "Correct: deze dimensie gaat over mensen, structuur, cultuur, vaardigheden en verantwoordelijkheden.",
+            "Informatie en technologie": "Gaat over informatie, data en technische middelen, niet primair over cultuur/rollen.",
+            "Partners en leveranciers": "Gaat over externe relaties en contracten.",
+            "Waardestromen en processen": "Gaat over activiteiten, workflows en procedures."
+          }
+        },
+        {
+          "number": 2,
+          "question": "Welke uitspraak over cultuur binnen de dimensie Organisaties en mensen is juist?",
+          "options": [
+            "Cultuur omvat vertrouwen, transparantie en een focus op continu verbeteren.",
+            "Cultuur gaat uitsluitend over hiërarchie en functies.",
+            "Cultuur is alleen relevant voor externe leveranciers.",
+            "Cultuur is een tijdelijk projectartefact."
+          ],
+          "answer": "Cultuur omvat vertrouwen, transparantie en een focus op continu verbeteren.",
+          "explanation": {
+            "Cultuur omvat vertrouwen, transparantie en een focus op continu verbeteren.": "Correct: dit zijn kernaspecten van de gewenste servicecultuur.",
+            "Cultuur gaat uitsluitend over hiërarchie en functies.": "Onjuist: hiërarchie is organisatieontwerp, niet de volledige cultuur.",
+            "Cultuur is alleen relevant voor externe leveranciers.": "Onjuist: cultuur is primair intern en beïnvloedt samenwerking met alle stakeholders.",
+            "Cultuur is een tijdelijk projectartefact.": "Onjuist: cultuur is blijvend en organisatiebreed."
+          }
+        },
+        {
+          "number": 3,
+          "question": "Wat typeert T-shaped medewerkers in de dimensie Organisaties en mensen?",
+          "options": [
+            "Brede kennis met een verdiept specialisme",
+            "Alleen brede kennis zonder specialisme",
+            "Alleen verdiept specialisme zonder brede kennis",
+            "Uitsluitend managementvaardigheden"
+          ],
+          "answer": "Brede kennis met een verdiept specialisme",
+          "explanation": {
+            "Brede kennis met een verdiept specialisme": "Correct: T-shaped combineert breedte met diepte voor betere samenwerking.",
+            "Alleen brede kennis zonder specialisme": "Onjuist: dat is generalistisch maar niet T-shaped.",
+            "Alleen verdiept specialisme zonder brede kennis": "Onjuist: dat is I-shaped, niet T-shaped.",
+            "Uitsluitend managementvaardigheden": "Onjuist: T-shaped gaat over inhoudelijke vaardigheden en samenwerking."
+          }
+        },
+        {
+          "number": 4,
+          "question": "Welke factor hoort bij Organisaties en mensen en bevordert effectieve servicelevering?",
+          "options": [
+            "Leiderschap dat waarden uitdraagt",
+            "Encryptie van data",
+            "Sourcingcontracten met leveranciers",
+            "Releasekalender"
+          ],
+          "answer": "Leiderschap dat waarden uitdraagt",
+          "explanation": {
+            "Leiderschap dat waarden uitdraagt": "Correct: leiderschap ondersteunt cultuur en samenwerking.",
+            "Encryptie van data": "Behoort bij Informatie en technologie (beveiliging).",
+            "Sourcingcontracten met leveranciers": "Behoort bij Partners en leveranciers.",
+            "Releasekalender": "Praktijkdetail, niet specifiek Organisaties en mensen."
+          }
+        },
+        {
+          "number": 5,
+          "question": "Welke uitspraak past bij de dimensie Informatie en technologie?",
+          "options": [
+            "Het omvat informatie, kennis en technologie die services ondersteunen en managen.",
+            "Het beschrijft alleen het gedrag van medewerkers.",
+            "Het omvat uitsluitend leverancierscontracten.",
+            "Het definieert alleen de volgorde van activiteiten."
+          ],
+          "answer": "Het omvat informatie, kennis en technologie die services ondersteunen en managen.",
+          "explanation": {
+            "Het omvat informatie, kennis en technologie die services ondersteunen en managen.": "Correct.",
+            "Het beschrijft alleen het gedrag van medewerkers.": "Behoort bij Organisaties en mensen.",
+            "Het omvat uitsluitend leverancierscontracten.": "Behoort bij Partners en leveranciers.",
+            "Het definieert alleen de volgorde van activiteiten.": "Behoort bij Waardestromen en processen (processen)."
+          }
+        },
+        {
+          "number": 6,
+          "question": "Welke is een passend voorbeeld van consumentgerichte technologie in de dimensie Informatie en technologie?",
+          "options": [
+            "Mobiele app voor selfservice",
+            "Juridisch contractkader",
+            "Organogram van de IT-afdeling",
+            "Procesbeschrijving voor incidentafhandeling"
+          ],
+          "answer": "Mobiele app voor selfservice",
+          "explanation": {
+            "Mobiele app voor selfservice": "Correct: voorbeeld van technologie die de consument gebruikt.",
+            "Juridisch contractkader": "Behoort bij Partners en leveranciers (contracten).",
+            "Organogram van de IT-afdeling": "Behoort bij Organisaties en mensen.",
+            "Procesbeschrijving voor incidentafhandeling": "Behoort bij Waardestromen en processen."
+          }
+        },
+        {
+          "number": 7,
+          "question": "Welke is een passend voorbeeld van providerinterne tooling in de dimensie Informatie en technologie?",
+          "options": [
+            "Workflowmanagementsysteem",
+            "Stakeholdermatrices",
+            "Sourcingstrategie",
+            "Service-level rapporten"
+          ],
+          "answer": "Workflowmanagementsysteem",
+          "explanation": {
+            "Workflowmanagementsysteem": "Correct: interne tool om werk te sturen en automatiseren.",
+            "Stakeholdermatrices": "Meer governance/relatiemanagement dan technologie.",
+            "Sourcingstrategie": "Behoort bij Partners en leveranciers.",
+            "Service-level rapporten": "Een output; de tooling die dit ondersteunt valt onder I&T, maar rapporten zelf zijn geen tool."
+          }
+        },
+        {
+          "number": 8,
+          "question": "Welke eigenschap hoort bij informatiekwaliteit in de dimensie Informatie en technologie: Beschikbaarheid?",
+          "options": [
+            "Beschikbaarheid",
+            "Betrouwbaarheid",
+            "Toegankelijkheid",
+            "Tijdigheid"
+          ],
+          "answer": "Beschikbaarheid",
+          "explanation": {
+            "Beschikbaarheid": "Correct: informatie moet beschikbaar zijn wanneer nodig.",
+            "Betrouwbaarheid": "Andere informatie-eigenschap (juistheid/stabiliteit).",
+            "Toegankelijkheid": "Andere informatie-eigenschap (toegang voor geautoriseerde gebruikers).",
+            "Tijdigheid": "Andere informatie-eigenschap (actueel genoeg)."
+          }
+        },
+        {
+          "number": 9,
+          "question": "Welke eigenschap hoort bij informatiekwaliteit: Betrouwbaarheid?",
+          "options": [
+            "Betrouwbaarheid",
+            "Tijdigheid",
+            "Nauwkeurigheid",
+            "Relevantie"
+          ],
+          "answer": "Betrouwbaarheid",
+          "explanation": {
+            "Betrouwbaarheid": "Correct: informatie moet consistent en betrouwbaar zijn.",
+            "Tijdigheid": "Andere eigenschap (actueel op tijd).",
+            "Nauwkeurigheid": "Andere eigenschap (juist/precies).",
+            "Relevantie": "Andere eigenschap (bruikbaar voor doel)."
+          }
+        },
+        {
+          "number": 10,
+          "question": "Welke eigenschap hoort bij informatiekwaliteit: Toegankelijkheid?",
+          "options": [
+            "Toegankelijkheid",
+            "Beschikbaarheid",
+            "Nauwkeurigheid",
+            "Relevantie"
+          ],
+          "answer": "Toegankelijkheid",
+          "explanation": {
+            "Toegankelijkheid": "Correct: geautoriseerde gebruikers moeten kunnen bij de info.",
+            "Beschikbaarheid": "Ander aspect (systeem/gegevens beschikbaar).",
+            "Nauwkeurigheid": "Ander aspect (juistheid).",
+            "Relevantie": "Ander aspect (bruikbaarheid)."
+          }
+        },
+        {
+          "number": 11,
+          "question": "Welke eigenschap hoort bij informatiekwaliteit: Tijdigheid?",
+          "options": [
+            "Tijdigheid",
+            "Toegankelijkheid",
+            "Betrouwbaarheid",
+            "Beschikbaarheid"
+          ],
+          "answer": "Tijdigheid",
+          "explanation": {
+            "Tijdigheid": "Correct: gegevens moeten op tijd actueel zijn voor gebruik.",
+            "Toegankelijkheid": "Andere eigenschap (toegang).",
+            "Betrouwbaarheid": "Andere eigenschap (stabiel/consistent).",
+            "Beschikbaarheid": "Andere eigenschap (up/dienstbaar)."
+          }
+        },
+        {
+          "number": 12,
+          "question": "Welke eigenschap hoort bij informatiekwaliteit: Nauwkeurigheid?",
+          "options": [
+            "Nauwkeurigheid",
+            "Relevantie",
+            "Beschikbaarheid",
+            "Tijdigheid"
+          ],
+          "answer": "Nauwkeurigheid",
+          "explanation": {
+            "Nauwkeurigheid": "Correct: informatie moet juist/precies zijn.",
+            "Relevantie": "Andere eigenschap (nut voor doel).",
+            "Beschikbaarheid": "Andere eigenschap.",
+            "Tijdigheid": "Andere eigenschap."
+          }
+        },
+        {
+          "number": 13,
+          "question": "Welke eigenschap hoort bij informatiekwaliteit: Relevantie?",
+          "options": [
+            "Relevantie",
+            "Nauwkeurigheid",
+            "Betrouwbaarheid",
+            "Toegankelijkheid"
+          ],
+          "answer": "Relevantie",
+          "explanation": {
+            "Relevantie": "Correct: de informatie moet bruikbaar zijn voor het beoogde doel.",
+            "Nauwkeurigheid": "Andere eigenschap.",
+            "Betrouwbaarheid": "Andere eigenschap.",
+            "Toegankelijkheid": "Andere eigenschap."
+          }
+        },
+        {
+          "number": 14,
+          "question": "Welke uitspraak typeert de dimensie Partners en leveranciers?",
+          "options": [
+            "Het betreft samenwerking en integratie met externe partijen om services te ontwerpen, leveren en verbeteren.",
+            "Het gaat alleen over interne teamstructuren.",
+            "Het beschrijft de volgorde van activiteiten en procedures.",
+            "Het definieert de datamodellen en API's."
+          ],
+          "answer": "Het betreft samenwerking en integratie met externe partijen om services te ontwerpen, leveren en verbeteren.",
+          "explanation": {
+            "Het betreft samenwerking en integratie met externe partijen om services te ontwerpen, leveren en verbeteren.": "Correct.",
+            "Het gaat alleen over interne teamstructuren.": "Behoort bij Organisaties en mensen.",
+            "Het beschrijft de volgorde van activiteiten en procedures.": "Behoort bij Waardestromen en processen.",
+            "Het definieert de datamodellen en API's.": "Detail van technologie, maar niet de essentie van deze dimensie."
+          }
+        },
+        {
+          "number": 15,
+          "question": "Wat bedoelt men met service-integratie en -management in de dimensie Partners en leveranciers?",
+          "options": [
+            "Het coördineren en orkestreren van meerdere leveranciers als één geheel voor naadloze dienstverlening.",
+            "Het reduceren van het aantal interne teams.",
+            "Het versimpelen van de SLA-structuur tot één KPI.",
+            "Het vervangen van alle interne tooling door cloudoplossingen."
+          ],
+          "answer": "Het coördineren en orkestreren van meerdere leveranciers als één geheel voor naadloze dienstverlening.",
+          "explanation": {
+            "Het coördineren en orkestreren van meerdere leveranciers als één geheel voor naadloze dienstverlening.": "Correct: dit is de kern van service-integratie en -management.",
+            "Het reduceren van het aantal interne teams.": "Heeft niets met leveranciersintegratie te maken.",
+            "Het versimpelen van de SLA-structuur tot één KPI.": "Is SLM-gerelateerd, niet service-integratie.",
+            "Het vervangen van alle interne tooling door cloudoplossingen.": "Technische keuze, geen integratieprincipe."
+          }
+        },
+        {
+          "number": 16,
+          "question": "Welke factor hoort bij sourcingbeslissingen: Strategische focus?",
+          "options": [
+            "Strategische focus",
+            "Schaarste aan middelen",
+            "Vraagpatronen",
+            "Externe beperkingen"
+          ],
+          "answer": "Strategische focus",
+          "explanation": {
+            "Strategische focus": "Correct: kernsourcingfactor (wel/niet uitbesteden van strategische middelen).",
+            "Schaarste aan middelen": "Ook een sourcingfactor, maar hier is specifiek Strategische focus gevraagd.",
+            "Vraagpatronen": "Ook een sourcingfactor, maar andere punt.",
+            "Externe beperkingen": "Ook een sourcingfactor, maar andere punt."
+          }
+        },
+        {
+          "number": 17,
+          "question": "Welke factor hoort bij sourcingbeslissingen: Bedrijfscultuur?",
+          "options": [
+            "Bedrijfscultuur",
+            "Kostenoverwegingen",
+            "Materiedeskundigheid",
+            "Strategische focus"
+          ],
+          "answer": "Bedrijfscultuur",
+          "explanation": {
+            "Bedrijfscultuur": "Correct: hoe externen passen in de cultuur weegt mee.",
+            "Kostenoverwegingen": "Andere factor.",
+            "Materiedeskundigheid": "Andere factor.",
+            "Strategische focus": "Andere factor."
+          }
+        },
+        {
+          "number": 18,
+          "question": "Welke factor hoort bij sourcingbeslissingen: Schaarste aan middelen?",
+          "options": [
+            "Schaarste aan middelen",
+            "Externe beperkingen",
+            "Vraagpatronen",
+            "Materiedeskundigheid"
+          ],
+          "answer": "Schaarste aan middelen",
+          "explanation": {
+            "Schaarste aan middelen": "Correct: aanvullen met externen kan nodig zijn.",
+            "Externe beperkingen": "Andere factor (wetgeving/policy).",
+            "Vraagpatronen": "Andere factor (seizoensfluctuaties).",
+            "Materiedeskundigheid": "Andere factor (expertise)."
+          }
+        },
+        {
+          "number": 19,
+          "question": "Welke factor hoort bij sourcingbeslissingen: Kostenoverwegingen?",
+          "options": [
+            "Kostenoverwegingen",
+            "Strategische focus",
+            "Bedrijfscultuur",
+            "Schaarste aan middelen"
+          ],
+          "answer": "Kostenoverwegingen",
+          "explanation": {
+            "Kostenoverwegingen": "Correct: extern kan kostenefficiënter zijn.",
+            "Strategische focus": "Andere factor.",
+            "Bedrijfscultuur": "Andere factor.",
+            "Schaarste aan middelen": "Andere factor."
+          }
+        },
+        {
+          "number": 20,
+          "question": "Welke factor hoort bij sourcingbeslissingen: Materiedeskundigheid?",
+          "options": [
+            "Materiedeskundigheid",
+            "Externe beperkingen",
+            "Vraagpatronen",
+            "Kostenoverwegingen"
+          ],
+          "answer": "Materiedeskundigheid",
+          "explanation": {
+            "Materiedeskundigheid": "Correct: specifieke kennis kan extern sneller/beter beschikbaar zijn.",
+            "Externe beperkingen": "Andere factor.",
+            "Vraagpatronen": "Andere factor.",
+            "Kostenoverwegingen": "Andere factor."
+          }
+        },
+        {
+          "number": 21,
+          "question": "Welke factor hoort bij sourcingbeslissingen: Externe beperkingen?",
+          "options": [
+            "Externe beperkingen",
+            "Strategische focus",
+            "Schaarste aan middelen",
+            "Bedrijfscultuur"
+          ],
+          "answer": "Externe beperkingen",
+          "explanation": {
+            "Externe beperkingen": "Correct: wet- en regelgeving/policy kan outsourcen verplichten of verbieden.",
+            "Strategische focus": "Andere factor.",
+            "Schaarste aan middelen": "Andere factor.",
+            "Bedrijfscultuur": "Andere factor."
+          }
+        },
+        {
+          "number": 22,
+          "question": "Welke factor hoort bij sourcingbeslissingen: Vraagpatronen?",
+          "options": [
+            "Vraagpatronen",
+            "Kostenoverwegingen",
+            "Materiedeskundigheid",
+            "Externe beperkingen"
+          ],
+          "answer": "Vraagpatronen",
+          "explanation": {
+            "Vraagpatronen": "Correct: schommelingen (seizoenen/pieken) kunnen tijdelijk externen vereisen.",
+            "Kostenoverwegingen": "Andere factor.",
+            "Materiedeskundigheid": "Andere factor.",
+            "Externe beperkingen": "Andere factor."
+          }
+        },
+        {
+          "number": 23,
+          "question": "Welke hoort bij de elementen van Partners en leveranciers binnen het servicewaardesysteem?",
+          "options": [
+            "Relaties met andere organisaties",
+            "Contracten en overeenkomsten",
+            "Service-integratie en -management",
+            "Alle bovenstaande"
+          ],
+          "answer": "Alle bovenstaande",
+          "explanation": {
+            "Relaties met andere organisaties": "Behoort erbij.",
+            "Contracten en overeenkomsten": "Behoort erbij.",
+            "Service-integratie en -management": "Behoort erbij.",
+            "Alle bovenstaande": "Correct: alle drie zijn elementen die je in deze dimensie meeneemt."
+          }
+        },
+        {
+          "number": 24,
+          "question": "Welke uitspraak typeert de dimensie Waardestromen en processen?",
+          "options": [
+            "Bepaalt activiteiten, workflows, controls en procedures om overeengekomen doelen te bereiken.",
+            "Definieert leverancierscontracten en integratie-afspraken.",
+            "Legt de informatiearchitectuur vast.",
+            "Richt zich uitsluitend op personeelscompetenties."
+          ],
+          "answer": "Bepaalt activiteiten, workflows, controls en procedures om overeengekomen doelen te bereiken.",
+          "explanation": {
+            "Bepaalt activiteiten, workflows, controls en procedures om overeengekomen doelen te bereiken.": "Correct.",
+            "Definieert leverancierscontracten en integratie-afspraken.": "Behoort bij Partners en leveranciers.",
+            "Legt de informatiearchitectuur vast.": "Behoort bij Informatie en technologie.",
+            "Richt zich uitsluitend op personeelscompetenties.": "Behoort bij Organisaties en mensen."
+          }
+        },
+        {
+          "number": 25,
+          "question": "Wat is de definitie van een Waardestroom?",
+          "options": [
+            "Een reeks stappen die een organisatie onderneemt om producten en services te creëren en aan consumenten te leveren.",
+            "Een reeks onderling gerelateerde activiteiten die inputs in outputs omzetten.",
+            "Een formele beschrijving van services voor een doelgroep.",
+            "Een document met servicelevels."
+          ],
+          "answer": "Een reeks stappen die een organisatie onderneemt om producten en services te creëren en aan consumenten te leveren.",
+          "explanation": {
+            "Een reeks stappen die een organisatie onderneemt om producten en services te creëren en aan consumenten te leveren.": "Correct: dit is de waardestroom.",
+            "Een reeks onderling gerelateerde activiteiten die inputs in outputs omzetten.": "Dit is een proces.",
+            "Een formele beschrijving van services voor een doelgroep.": "Dit is een Serviceaanbieding.",
+            "Een document met servicelevels.": "Dit is een SLA."
+          }
+        },
+        {
+          "number": 26,
+          "question": "Wat is de definitie van een Proces?",
+          "options": [
+            "Een reeks onderling gerelateerde of interactieve activiteiten die inputs in outputs omzetten.",
+            "Een route van SVC-activiteiten die waarde levert.",
+            "Een beschrijving van services voor klanten.",
+            "Een contractuele afspraak met KPI's."
+          ],
+          "answer": "Een reeks onderling gerelateerde of interactieve activiteiten die inputs in outputs omzetten.",
+          "explanation": {
+            "Een reeks onderling gerelateerde of interactieve activiteiten die inputs in outputs omzetten.": "Correct: dit is een proces.",
+            "Een route van SVC-activiteiten die waarde levert.": "Dat beschrijft een waardestroom.",
+            "Een beschrijving van services voor klanten.": "Serviceaanbieding.",
+            "Een contractuele afspraak met KPI's.": "SLA."
+          }
+        },
+        {
+          "number": 27,
+          "question": "Welke uitspraak over waardestromen is juist?",
+          "options": [
+            "Waardestromen moeten verspilling vermijden en waarde maximaliseren.",
+            "Waardestromen zijn uitsluitend van toepassing op de hele organisatie, niet op individuele services.",
+            "Waardestromen vervangen alle processen.",
+            "Waardestromen negeren de SVC-activiteiten."
+          ],
+          "answer": "Waardestromen moeten verspilling vermijden en waarde maximaliseren.",
+          "explanation": {
+            "Waardestromen moeten verspilling vermijden en waarde maximaliseren.": "Correct.",
+            "Waardestromen zijn uitsluitend van toepassing op de hele organisatie, niet op individuele services.": "Onjuist: ook op services/producten.",
+            "Waardestromen vervangen alle processen.": "Onjuist: processen ondersteunen waardestromen.",
+            "Waardestromen negeren de SVC-activiteiten.": "Onjuist: ze zijn samengesteld uit SVC-activiteiten."
+          }
+        },
+        {
+          "number": 28,
+          "question": "Welke factor hoort bij PESTLE: Politiek?",
+          "options": [
+            "Politiek",
+            "Economisch",
+            "Sociaal",
+            "Technologisch"
+          ],
+          "answer": "Politiek",
+          "explanation": {
+            "Politiek": "Correct: bijv. wet- en regelgeving, overheidsbeleid.",
+            "Economisch": "Andere PESTLE-factor: inflatie, rente, handel.",
+            "Sociaal": "Andere PESTLE-factor: demografie, publieke opinie.",
+            "Technologisch": "Andere PESTLE-factor: innovatie, trends."
+          }
+        },
+        {
+          "number": 29,
+          "question": "Welke factor hoort bij PESTLE: Economisch?",
+          "options": [
+            "Economisch",
+            "Juridisch",
+            "Ecologisch",
+            "Sociaal"
+          ],
+          "answer": "Economisch",
+          "explanation": {
+            "Economisch": "Correct: bijv. inflatie, rente, handel.",
+            "Juridisch": "Andere PESTLE-factor: wetgeving.",
+            "Ecologisch": "Andere PESTLE-factor: milieu/duurzaamheid.",
+            "Sociaal": "Andere PESTLE-factor: cultuur, samenleving."
+          }
+        },
+        {
+          "number": 30,
+          "question": "Welke factor hoort bij PESTLE: Sociaal?",
+          "options": [
+            "Sociaal",
+            "Politiek",
+            "Technologisch",
+            "Juridisch"
+          ],
+          "answer": "Sociaal",
+          "explanation": {
+            "Sociaal": "Correct: publieke opinie, demografie, lifestyle.",
+            "Politiek": "Andere factor.",
+            "Technologisch": "Andere factor.",
+            "Juridisch": "Andere factor."
+          }
+        },
+        {
+          "number": 31,
+          "question": "Welke factor hoort bij PESTLE: Technologisch?",
+          "options": [
+            "Technologisch",
+            "Sociaal",
+            "Economisch",
+            "Ecologisch"
+          ],
+          "answer": "Technologisch",
+          "explanation": {
+            "Technologisch": "Correct: innovatie, communicatiemiddelen, digitalisering.",
+            "Sociaal": "Andere factor.",
+            "Economisch": "Andere factor.",
+            "Ecologisch": "Andere factor."
+          }
+        },
+        {
+          "number": 32,
+          "question": "Welke factor hoort bij PESTLE: Juridisch?",
+          "options": [
+            "Juridisch",
+            "Technologisch",
+            "Economisch",
+            "Politiek"
+          ],
+          "answer": "Juridisch",
+          "explanation": {
+            "Juridisch": "Correct: compliance, privacywetgeving.",
+            "Technologisch": "Andere factor.",
+            "Economisch": "Andere factor.",
+            "Politiek": "Andere factor."
+          }
+        },
+        {
+          "number": 33,
+          "question": "Welke factor hoort bij PESTLE: Ecologisch?",
+          "options": [
+            "Ecologisch",
+            "Juridisch",
+            "Sociaal",
+            "Politiek"
+          ],
+          "answer": "Ecologisch",
+          "explanation": {
+            "Ecologisch": "Correct: duurzaamheid, energie, afvalbeheer.",
+            "Juridisch": "Andere factor.",
+            "Sociaal": "Andere factor.",
+            "Politiek": "Andere factor."
+          }
+        }
+      ]
+    }
+  ]
+}

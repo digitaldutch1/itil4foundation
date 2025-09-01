@@ -1,0 +1,537 @@
+{
+  "chapters": [
+    {
+      "chapter": "ITIL 4 toets 3_6 (NE)",
+      "description": "ITIL 4 - Oefentoets 3_6 (NL, vragen 201-233)",
+      "questions": [
+        {
+          "number": 201,
+          "question": "Welke term hoort bij serviceniveaus die zijn afgestemd op de behoeften van serviceconsumenten?",
+          "options": ["Servicemanagement","Utility","Warranty","Kosten"],
+          "answer": "Warranty",
+          "explanation": {
+            "Servicemanagement": "Onjuist: organisatorische capabilities.",
+            "Utility": "Onjuist: fit for purpose (wat de service doet).",
+            "Warranty": "Juist: fit for use; beschikbaarheid, capaciteit, security, continuiteit.",
+            "Kosten": "Onjuist: uitgaven, geen servicetargets."
+          }
+        },
+        {
+          "number": 202,
+          "question": "Wat is belangrijk voor een Continual Improvement Register (CIR)?",
+          "options": [
+            "Ideeen die niet direct worden opgepakt, worden uit het CIR verwijderd",
+            "Ideeen uit vele bronnen staan in precies 1 CIR",
+            "Ideeen worden vastgelegd, beoordeeld en geprioriteerd",
+            "Ideeen worden getest, gefinancierd en akkoord bevonden"
+          ],
+          "answer": "Ideeen worden vastgelegd, beoordeeld en geprioriteerd",
+          "explanation": {
+            "Ideeen die niet direct worden opgepakt, worden uit het CIR verwijderd": "Onjuist: bewaren en herprioriteren.",
+            "Ideeen uit vele bronnen staan in precies 1 CIR": "Niet verplicht; meerdere registers kunnen.",
+            "Ideeen worden vastgelegd, beoordeeld en geprioriteerd": "Juist: kernfunctie van een CIR.",
+            "Ideeen worden getest, gefinancierd en akkoord bevonden": "Volgt mogelijk later; niet de essentie van het CIR."
+          }
+        },
+        {
+          "number": 203,
+          "question": "Wat hoort bij het doel van de practice Change enablement?",
+          "options": [
+            "De volledige lifecycle van IT-assets plannen en managen",
+            "Borgen dat risico's correct zijn beoordeeld",
+            "Nieuwe en gewijzigde services beschikbaar maken voor gebruik",
+            "Geselecteerde statuswijzigingen registreren en rapporteren"
+          ],
+          "answer": "Borgen dat risico's correct zijn beoordeeld",
+          "explanation": {
+            "De volledige lifecycle van IT-assets plannen en managen": "IT asset management.",
+            "Borgen dat risico's correct zijn beoordeeld": "Juist: centraal in change enablement.",
+            "Nieuwe en gewijzigde services beschikbaar maken voor gebruik": "Release management.",
+            "Geselecteerde statuswijzigingen registreren en rapporteren": "Monitoring en eventmanagement."
+          }
+        },
+        {
+          "number": 204,
+          "question": "Wanneer maak je een workaround?",
+          "options": [
+            "Zo snel mogelijk zodra het incident is gelogd",
+            "Wanneer een permanente oplossing waarschijnlijk is",
+            "Wanneer een problem niet snel kan worden opgelost",
+            "Na de definitieve oplossing van een problem"
+          ],
+          "answer": "Wanneer een problem niet snel kan worden opgelost",
+          "explanation": {
+            "Zo snel mogelijk zodra het incident is gelogd": "Niet nodig voor elk incident.",
+            "Wanneer een permanente oplossing waarschijnlijk is": "Workarounds kunnen eerder nodig zijn.",
+            "Wanneer een problem niet snel kan worden opgelost": "Juist: om impact te verlagen.",
+            "Na de definitieve oplossing van een problem": "Te laat."
+          }
+        },
+        {
+          "number": 205,
+          "question": "Welke uitspraak over outcomes is JUIST?",
+          "options": [
+            "Een output kan door 1 of meer outcomes worden mogelijk gemaakt",
+            "Outcomes beschrijven hoe de service presteert",
+            "Een outcome is een materiele of immateriele activiteit",
+            "Een outcome kan door meer dan 1 output worden mogelijk gemaakt"
+          ],
+          "answer": "Een outcome kan door meer dan 1 output worden mogelijk gemaakt",
+          "explanation": {
+            "Een output kan door 1 of meer outcomes worden mogelijk gemaakt": "Onjuist: outputs maken outcomes mogelijk.",
+            "Outcomes beschrijven hoe de service presteert": "Onjuist: dat is warranty.",
+            "Een outcome is een materiele of immateriele activiteit": "Onjuist: dat is een output.",
+            "Een outcome kan door meer dan 1 output worden mogelijk gemaakt": "Juist."
+          }
+        },
+        {
+          "number": 206,
+          "question": "Welke activiteit hoort bij Problem management?",
+          "options": [
+            "Zo snel mogelijk normale service herstellen",
+            "Problems prioriteren op basis van risico",
+            "Incidents binnen afgesproken tijd oplossen",
+            "Changes autoriseren om oorzaken te verhelpen"
+          ],
+          "answer": "Problems prioriteren op basis van risico",
+          "explanation": {
+            "Zo snel mogelijk normale service herstellen": "Incident management.",
+            "Problems prioriteren op basis van risico": "Juist: impact en waarschijnlijkheid.",
+            "Incidents binnen afgesproken tijd oplossen": "Incident management.",
+            "Changes autoriseren om oorzaken te verhelpen": "Change enablement."
+          }
+        },
+        {
+          "number": 207,
+          "question": "Welke TWEE aspecten zijn belangrijk in Servicerequestmanagement?",
+          "options": [
+            "1. Standaardisatie en automatisering",
+            "2. Diverse toegangskanalen bieden",
+            "3. Gedeelde targets vastleggen",
+            "4. Beleid voor autorisaties"
+          ],
+          "answer": ["1. Standaardisatie en automatisering","4. Beleid voor autorisaties"],
+          "explanation": {
+            "1. Standaardisatie en automatisering": "Juist: versnelt en vereenvoudigt fulfilment.",
+            "2. Diverse toegangskanalen bieden": "Handig, maar niet het kernaspect hier.",
+            "3. Gedeelde targets vastleggen": "Onder SLM.",
+            "4. Beleid voor autorisaties": "Juist: bepaalt wanneer goedkeuring nodig is."
+          }
+        },
+        {
+          "number": 208,
+          "question": "Welke zijn elementen van het Service Value System?",
+          "options": [
+            "Governance, Service Value Chain, practices",
+            "Servicelevering, serviceconsumptie, servicerelationshipmanagement",
+            "Klantwaarde, stakeholderwaarde, organisatie",
+            "Outcomes, utility, warranty"
+          ],
+          "answer": "Governance, Service Value Chain, practices",
+          "explanation": {
+            "Governance, Service Value Chain, practices": "Juist: onderdeel van het SVS.",
+            "Servicelevering, serviceconsumptie, servicerelationshipmanagement": "Relatie-termen, geen SVS-componenten.",
+            "Klantwaarde, stakeholderwaarde, organisatie": "Geen SVS-structuur.",
+            "Outcomes, utility, warranty": "Waarde-termen, geen componenten."
+          }
+        },
+        {
+          "number": 209,
+          "question": "Welke practice stemt praktijken en services af op veranderende businessbehoeften?",
+          "options": [
+            "Service configuration management",
+            "Voortdurend verbeteren",
+            "Relationship management",
+            "Service level management"
+          ],
+          "answer": "Voortdurend verbeteren",
+          "explanation": {
+            "Service configuration management": "Betrouwbare configuratie-informatie.",
+            "Voortdurend verbeteren": "Juist: continue afstemming en verbetering.",
+            "Relationship management": "Stakeholderrelaties.",
+            "Service level management": "Targets en performance."
+          }
+        },
+        {
+          "number": 210,
+          "question": "Welk richtinggevend principe helpt betere informatie voor besluitvorming te krijgen?",
+          "options": [
+            "Optimaliseer en automatiseer",
+            "Houd het eenvoudig en praktisch",
+            "Werk samen en bevorder zichtbaarheid",
+            "Denk en werk holistisch"
+          ],
+          "answer": "Werk samen en bevorder zichtbaarheid",
+          "explanation": {
+            "Optimaliseer en automatiseer": "Efficientie.",
+            "Houd het eenvoudig en praktisch": "Simpliciteit.",
+            "Werk samen en bevorder zichtbaarheid": "Juist: zichtbaarheid verbetert beslissingen.",
+            "Denk en werk holistisch": "Systeemblik."
+          }
+        },
+        {
+          "number": 211,
+          "question": "Wat beschrijft een change authority?",
+          "options": [
+            "Iemand die een change goedkeurt",
+            "Een manier om de mensenkant van verandering te managen",
+            "Een tool om changes te plannen",
+            "Een model om te bepalen wie een change beoordeelt"
+          ],
+          "answer": "Iemand die een change goedkeurt",
+          "explanation": {
+            "Iemand die een change goedkeurt": "Juist.",
+            "Een manier om de mensenkant van verandering te managen": "Organizational change management.",
+            "Een tool om changes te plannen": "Geen authority.",
+            "Een model om te bepalen wie een change beoordeelt": "Changemodel, niet de rol."
+          }
+        },
+        {
+          "number": 212,
+          "question": "Welke dimensie behandelt de workflows en controls die nodig zijn om services te leveren?",
+          "options": [
+            "Organisaties en mensen",
+            "Partners en leveranciers",
+            "Waardestromen en processen",
+            "Informatie en technologie"
+          ],
+          "answer": "Waardestromen en processen",
+          "explanation": {
+            "Organisaties en mensen": "Mensen, skills, cultuur, rollen.",
+            "Partners en leveranciers": "Externe relaties.",
+            "Waardestromen en processen": "Juist: activiteiten, workflows, controls, procedures.",
+            "Informatie en technologie": "Informatie, kennis en tools."
+          }
+        },
+        {
+          "number": 213,
+          "question": "Welke practice vraagt mensen die complexe systemen begrijpen en analytisch/creatief kunnen denken?",
+          "options": [
+            "Change enablement",
+            "Servicerequestmanagement",
+            "Problem management",
+            "Service level management"
+          ],
+          "answer": "Problem management",
+          "explanation": {
+            "Change enablement": "Beoordeelt/autoriseert changes.",
+            "Servicerequestmanagement": "Gestandaardiseerde verzoeken.",
+            "Problem management": "Juist: diagnose en analyse vereisen deze skills.",
+            "Service level management": "Businessdialoog en metrics."
+          }
+        },
+        {
+          "number": 214,
+          "question": "Wat is het doel van de practice Incident management?",
+          "options": [
+            "De afgesproken servicekwaliteit ondersteunen door user-initiated requests af te handelen",
+            "De negatieve impact van incidents minimaliseren door normale service zo snel mogelijk te herstellen",
+            "De kans en impact van incidents verlagen door oorzaken te identificeren",
+            "Vraag naar incidentoplossing en servicerequests vastleggen"
+          ],
+          "answer": "De negatieve impact van incidents minimaliseren door normale service zo snel mogelijk te herstellen",
+          "explanation": {
+            "De afgesproken servicekwaliteit ondersteunen door user-initiated requests af te handelen": "Servicerequestmanagement.",
+            "De negatieve impact van incidents minimaliseren door normale service zo snel mogelijk te herstellen": "Juist.",
+            "De kans en impact van incidents verlagen door oorzaken te identificeren": "Problem management.",
+            "Vraag naar incidentoplossing en servicerequests vastleggen": "Service desk."
+          }
+        },
+        {
+          "number": 215,
+          "question": "Welke dimensie bevat de kennis die nodig is voor servicemanagement?",
+          "options": [
+            "Informatie en technologie",
+            "Partners en leveranciers",
+            "Organisaties en mensen",
+            "Waardestromen en processen"
+          ],
+          "answer": "Informatie en technologie",
+          "explanation": {
+            "Informatie en technologie": "Juist: omvat informatie en kennis voor management van services.",
+            "Partners en leveranciers": "Externe relaties.",
+            "Organisaties en mensen": "Rollen, skills, cultuur.",
+            "Waardestromen en processen": "Activiteiten en controls."
+          }
+        },
+        {
+          "number": 216,
+          "question": "Welke SVC-activiteit borgt dat servicecomponenten aan de afgesproken specificaties voldoen?",
+          "options": [
+            "Design and transition",
+            "Obtain/Build",
+            "Plan",
+            "Deliver and support"
+          ],
+          "answer": "Obtain/Build",
+          "explanation": {
+            "Design and transition": "Borgt aansluiting op verwachtingen in het geheel.",
+            "Obtain/Build": "Juist: componenten beschikbaar en conform specificatie.",
+            "Plan": "Gedeeld begrip en richting.",
+            "Deliver and support": "Opereren volgens afspraken."
+          }
+        },
+        {
+          "number": 217,
+          "question": "Welke uitspraak over Change enablement is JUIST?",
+          "options": [
+            "Servicerequests zijn meestal normale changes zonder autorisatie",
+            "Standaardchanges moeten worden gepland, beoordeeld en geautoriseerd",
+            "Emergency changes moeten volledig getest en gedocumenteerd zijn voor implementatie",
+            "Emergency changes moeten zo snel mogelijk worden uitgevoerd en autorisatie is versneld"
+          ],
+          "answer": "Emergency changes moeten zo snel mogelijk worden uitgevoerd en autorisatie is versneld",
+          "explanation": {
+            "Servicerequests zijn meestal normale changes zonder autorisatie": "Onjuist.",
+            "Standaardchanges moeten worden gepland, beoordeeld en geautoriseerd": "Onjuist: pre-authorized.",
+            "Emergency changes moeten volledig getest en gedocumenteerd zijn voor implementatie": "Onjuist: vaak versnelde beoordeling.",
+            "Emergency changes moeten zo snel mogelijk worden uitgevoerd en autorisatie is versneld": "Juist."
+          }
+        },
+        {
+          "number": 218,
+          "question": "Wat varieert in grootte en complexiteit en gebruikt functies om doelen te behalen?",
+          "options": ["Een organisatie","Een practice","Een risico","Een outcome"],
+          "answer": "Een organisatie",
+          "explanation": {
+            "Een organisatie": "Juist: gebruikt functies/rollen om doelen te halen.",
+            "Een practice": "Herbruikbare resources; niet per se variabel in grootte.",
+            "Een risico": "Potentiele gebeurtenis.",
+            "Een outcome": "Resultaat voor een stakeholder."
+          }
+        },
+        {
+          "number": 219,
+          "question": "Welk richtinggevend principe zegt dat services en processen NIET voor elke uitzondering een oplossing moeten bieden?",
+          "options": [
+            "Denk en werk holistisch",
+            "Optimaliseer en automatiseer",
+            "Werk samen en bevorder zichtbaarheid",
+            "Houd het eenvoudig en praktisch"
+          ],
+          "answer": "Houd het eenvoudig en praktisch",
+          "explanation": {
+            "Denk en werk holistisch": "End-to-end coördinatie.",
+            "Optimaliseer en automatiseer": "Efficientie.",
+            "Werk samen en bevorder zichtbaarheid": "Betrokkenheid en transparantie.",
+            "Houd het eenvoudig en praktisch": "Juist: voorkom over-engineering voor uitzonderingen."
+          }
+        },
+        {
+          "number": 220,
+          "question": "Welke practice raadt event-based surveys aan om klantfeedback te verzamelen?",
+          "options": [
+            "Servicerequestmanagement",
+            "Problem management",
+            "Change enablement",
+            "Service level management"
+          ],
+          "answer": "Service level management",
+          "explanation": {
+            "Servicerequestmanagement": "Fulfilment van verzoeken.",
+            "Problem management": "Root cause en known errors.",
+            "Change enablement": "Beoordelen/autorisereren van changes.",
+            "Service level management": "Juist: gebruikt surveys (na events en periodiek)."
+          }
+        },
+        {
+          "number": 221,
+          "question": "Welke practice wordt gebruikt om klantvereisten voor services te bevestigen?",
+          "options": [
+            "Service level management",
+            "Incident management",
+            "Service desk",
+            "Servicerequestmanagement"
+          ],
+          "answer": "Service level management",
+          "explanation": {
+            "Service level management": "Juist: afstemmen en bevestigen van eisen en targets.",
+            "Incident management": "Herstel van service.",
+            "Service desk": "Toegangspunt.",
+            "Servicerequestmanagement": "Afhandeling van vooraf gedefinieerde verzoeken."
+          }
+        },
+        {
+          "number": 222,
+          "question": "Vul in: de servicedesk is het toegangspunt en single point of contact voor de [?] met al zijn gebruikers.",
+          "options": ["Serviceprovider","Serviceconsument","Klant","Leverancier"],
+          "answer": "Serviceprovider",
+          "explanation": {
+            "Serviceprovider": "Juist: toegangspunt en SPOC.",
+            "Serviceconsument": "Gebruikt de service; beheert de desk niet.",
+            "Klant": "Bepaalt eisen en outcomes.",
+            "Leverancier": "Externe partij."
+          }
+        },
+        {
+          "number": 223,
+          "question": "Wat is de definitie van een known error?",
+          "options": [
+            "Een ongeplande onderbreking of kwaliteitsvermindering van een service",
+            "De oorzaak of potentiële oorzaak van 1 of meer incidenten",
+            "Een problem dat is geanalyseerd maar niet is opgelost",
+            "Elke betekenisvolle statuswijziging van een service of CI"
+          ],
+          "answer": "Een problem dat is geanalyseerd maar niet is opgelost",
+          "explanation": {
+            "Een ongeplande onderbreking of kwaliteitsvermindering van een service": "Incident.",
+            "De oorzaak of potentiële oorzaak van 1 of meer incidenten": "Problem.",
+            "Een problem dat is geanalyseerd maar niet is opgelost": "Juist: known error.",
+            "Elke betekenisvolle statuswijziging van een service of CI": "Event."
+          }
+        },
+        {
+          "number": 224,
+          "question": "Wat bevat governance als component?",
+          "options": ["Practices","Guiding principles","Service Value System","Service Value Chain"],
+          "answer": "Service Value System",
+          "explanation": {
+            "Practices": "SVS-component, maar bevat governance niet zelf.",
+            "Guiding principles": "SVS-component.",
+            "Service Value System": "Juist: omvat o.a. governance.",
+            "Service Value Chain": "Operating model binnen het SVS."
+          }
+        },
+        {
+          "number": 225,
+          "question": "Vul in: een user is [?] die services gebruikt.",
+          "options": ["Een persoon","Een organisatie","Een team","Een leverancier"],
+          "answer": "Een persoon",
+          "explanation": {
+            "Een persoon": "Juist: user is de persoon die services gebruikt.",
+            "Een organisatie": "Te breed.",
+            "Een team": "Geen definitie.",
+            "Een leverancier": "Levert aan de provider."
+          }
+        },
+        {
+          "number": 226,
+          "question": "Welke uitspraak over Change control is JUIST?",
+          "options": [
+            "Normale changes starten met een changerequest die handmatig of automatisch kan worden aangemaakt",
+            "Standaardchanges moeten worden gepland, beoordeeld en geautoriseerd",
+            "Beoordeling en autorisatie van normale changes wordt altijd versneld",
+            "Voor standaardchanges is een aparte authority met senior managers nodig"
+          ],
+          "answer": "Normale changes starten met een changerequest die handmatig of automatisch kan worden aangemaakt",
+          "explanation": {
+            "Normale changes starten met een changerequest die handmatig of automatisch kan worden aangemaakt": "Juist.",
+            "Standaardchanges moeten worden gepland, beoordeeld en geautoriseerd": "Onjuist: pre-authorized.",
+            "Beoordeling en autorisatie van normale changes wordt altijd versneld": "Onjuist: volg het normale proces.",
+            "Voor standaardchanges is een aparte authority met senior managers nodig": "Onjuist."
+          }
+        },
+        {
+          "number": 227,
+          "question": "Waarvoor wordt een changeschema PRIMair gebruikt?",
+          "options": [
+            "Borgen dat 1 authority elke change reviewt",
+            "Een lijst met servicerequests publiceren",
+            "Emergency changes plannen, autoriseren en inplannen",
+            "Changes plannen, communicatie ondersteunen en conflicten voorkomen"
+          ],
+          "answer": "Changes plannen, communicatie ondersteunen en conflicten voorkomen",
+          "explanation": {
+            "Borgen dat 1 authority elke change reviewt": "Niet het doel.",
+            "Een lijst met servicerequests publiceren": "Niet gerelateerd.",
+            "Emergency changes plannen, autoriseren en inplannen": "Spoedchanges gaan vaak buiten het schema.",
+            "Changes plannen, communicatie ondersteunen en conflicten voorkomen": "Juist."
+          }
+        },
+        {
+          "number": 228,
+          "question": "Wat helpt een incident te managen als onduidelijk is welk team het moet oppakken?",
+          "options": ["Swarming","Selfservice","Doeloplossingstijden","Disaster recovery-plannen"],
+          "answer": "Swarming",
+          "explanation": {
+            "Swarming": "Juist: betrokkenen starten samen en bepalen snel de beste eigenaar.",
+            "Selfservice": "Gebruikersoplossing; geen coördinatie.",
+            "Doeloplossingstijden": "Verwachtingen managen; geen routing.",
+            "Disaster recovery-plannen": "Voor grote verstoringen."
+          }
+        },
+        {
+          "number": 229,
+          "question": "Welke uitspraak over change authorities is JUIST?",
+          "options": [
+            "Authorities worden per change bij deployment toegewezen",
+            "Authorities worden per changetype en changemodel toegewezen",
+            "Authorities zijn alleen nodig voor emergency changes",
+            "Authorities zijn alleen nodig voor normale changes"
+          ],
+          "answer": "Authorities worden per changetype en changemodel toegewezen",
+          "explanation": {
+            "Authorities worden per change bij deployment toegewezen": "Onjuist.",
+            "Authorities worden per changetype en changemodel toegewezen": "Juist: efficient en effectief.",
+            "Authorities zijn alleen nodig voor emergency changes": "Onjuist.",
+            "Authorities zijn alleen nodig voor normale changes": "Onjuist."
+          }
+        },
+        {
+          "number": 230,
+          "question": "Welke practice vormt de schakel tussen serviceprovider en gebruikers?",
+          "options": ["Change control","Problem management","Service level management","Service desk"],
+          "answer": "Service desk",
+          "explanation": {
+            "Change control": "Beoordeelt/autoriseert changes.",
+            "Problem management": "Root cause en known errors.",
+            "Service level management": "Targets en reviews.",
+            "Service desk": "Juist: toegangspunt en SPOC."
+          }
+        },
+        {
+          "number": 231,
+          "question": "Wat is een van de BELANGRIJKSTE aandachtspunten van 'Design and transition'?",
+          "options": [
+            "De visie van de organisatie begrijpen",
+            "Voldoen aan verwachtingen van stakeholders",
+            "Stakeholderbehoeften begrijpen",
+            "Borgen dat componenten beschikbaar zijn"
+          ],
+          "answer": "Voldoen aan verwachtingen van stakeholders",
+          "explanation": {
+            "De visie van de organisatie begrijpen": "Plan.",
+            "Voldoen aan verwachtingen van stakeholders": "Juist: kwaliteit, kosten, time-to-market.",
+            "Stakeholderbehoeften begrijpen": "Engage.",
+            "Borgen dat componenten beschikbaar zijn": "Obtain/Build."
+          }
+        },
+        {
+          "number": 232,
+          "question": "Wat is de definitie van een problem?",
+          "options": [
+            "Een ongeplande onderbreking of kwaliteitsvermindering van een service",
+            "De oorzaak of potentiële oorzaak van een of meer incidents",
+            "Elke betekenisvolle statuswijziging van een CI",
+            "Een incident waarvoor nog geen volledige oplossing is"
+          ],
+          "answer": "De oorzaak of potentiële oorzaak van een of meer incidents",
+          "explanation": {
+            "Een ongeplande onderbreking of kwaliteitsvermindering van een service": "Incident.",
+            "De oorzaak of potentiële oorzaak van een of meer incidents": "Juist: definitie van problem.",
+            "Elke betekenisvolle statuswijziging van een CI": "Event.",
+            "Een incident waarvoor nog geen volledige oplossing is": "Geen definitie."
+          }
+        },
+        {
+          "number": 233,
+          "question": "Wat stroomlijnt de fulfilment van servicerequests?",
+          "options": [
+            "Requests met complexe workflows verwijderen",
+            "Begrijpen welke requests met beperkte autorisaties kunnen",
+            "Requests voor storingen scheiden van degradaties",
+            "Voor elk request een nieuwe workflow maken"
+          ],
+          "answer": "Begrijpen welke requests met beperkte autorisaties kunnen",
+          "explanation": {
+            "Requests met complexe workflows verwijderen": "Niet nodig; standaardiseer i.p.v. verwijderen.",
+            "Begrijpen welke requests met beperkte autorisaties kunnen": "Juist: pre-approval versnelt fulfilment.",
+            "Requests voor storingen scheiden van degradaties": "Classificatiepunt, versnelt niet per se.",
+            "Voor elk request een nieuwe workflow maken": "Inefficient; hergebruik modellen."
+          }
+        }
+      ]
+    }
+  ]
+}
+

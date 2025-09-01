@@ -1,0 +1,691 @@
+{
+  "chapters": [
+    {
+      "chapter": "ITIL 4 test 4_1 (EN)",
+      "description": "ITIL 4 - Practice Test 4_1 (EN, questions 1-40)",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What type of change is often used for resolving critical incidents or implementing urgent security patches?",
+          "options": [
+            "Normal change",
+            "Change model",
+            "Standard change",
+            "Emergency change"
+          ],
+          "answer": "Emergency change",
+          "explanation": {
+            "Normal change": "Incorrect: follows assessed and scheduled process.",
+            "Change model": "Incorrect: a template describing how to handle a change.",
+            "Standard change": "Incorrect: low-risk, pre-authorized routine change.",
+            "Emergency change": "Correct: must be implemented as soon as possible to resolve incidents or security issues."
+          }
+        },
+        {
+          "number": 2,
+          "question": "Which of the following is the MOST important for effective incident management?",
+          "options": [
+            "A variety of access channels",
+            "Collaboration tools and techniques",
+            "Automated pipelines",
+            "Balanced score card review"
+          ],
+          "answer": "Collaboration tools and techniques",
+          "explanation": {
+            "A variety of access channels": "Helpful for intake, but not the most critical factor.",
+            "Collaboration tools and techniques": "Correct: enable fast coordination across teams during incidents.",
+            "Automated pipelines": "Useful for delivery, not incident coordination primarily.",
+            "Balanced score card review": "A governance/measurement activity, not immediate incident response."
+          }
+        },
+        {
+          "number": 3,
+          "question": "Which statement about outcomes is correct?",
+          "options": [
+            "An outcome depends on at least one output to deliver a result",
+            "Outcomes enable products to be delivered to a stakeholder",
+            "An outcome defines the amount of money spent on technology for a service",
+            "Outcome provides assurance to stakeholders on how a service performs"
+          ],
+          "answer": "An outcome depends on at least one output to deliver a result",
+          "explanation": {
+            "An outcome depends on at least one output to deliver a result": "Correct: outcomes are enabled by outputs.",
+            "Outcomes enable products to be delivered to a stakeholder": "Incorrect: outputs deliverables enable outcomes.",
+            "An outcome defines the amount of money spent on technology for a service": "Incorrect: that is cost.",
+            "Outcome provides assurance to stakeholders on how a service performs": "Incorrect: assurance relates to warranty."
+          }
+        },
+        {
+          "number": 4,
+          "question": "Which is NOT usually included as part of incident management?",
+          "options": [
+            "Detailed procedures for the diagnosis of incidents",
+            "The use of specialized knowledge for complicated incidents",
+            "Scripts for collecting initial information about incidents",
+            "Formalized procedures for logging incidents"
+          ],
+          "answer": "Detailed procedures for the diagnosis of incidents",
+          "explanation": {
+            "Detailed procedures for the diagnosis of incidents": "Correct: detailed diagnosis usually sits with specialist teams, not the core process.",
+            "The use of specialized knowledge for complicated incidents": "Incorrect: may be required for complex cases.",
+            "Scripts for collecting initial information about incidents": "Incorrect: recommended to standardize triage.",
+            "Formalized procedures for logging incidents": "Incorrect: essential part of incident management."
+          }
+        },
+        {
+          "number": 5,
+          "question": "Which of the four dimensions contributes MOST to defining activities needed to deliver services?",
+          "options": [
+            "Partners and suppliers",
+            "Organizations and people",
+            "Value streams and processes",
+            "Information and technology"
+          ],
+          "answer": "Value streams and processes",
+          "explanation": {
+            "Partners and suppliers": "Incorrect: focuses on external relationships.",
+            "Organizations and people": "Incorrect: focuses on roles, culture, competencies.",
+            "Value streams and processes": "Correct: defines activities, workflows, controls, procedures.",
+            "Information and technology": "Incorrect: focuses on information and tools."
+          }
+        },
+        {
+          "number": 6,
+          "question": "Which is a key requirement for successful service level agreements (SLAs)?",
+          "options": [
+            "They should be written using language and terms which all parties will understand",
+            "They should be carried forward, unchanged from one year to the next to enable consistent service",
+            "They should be based on system-based metrics which are useful to the service provider",
+            "They should avoid ambiguous targets such as those relating to user experience"
+          ],
+          "answer": "They should be written using language and terms which all parties will understand",
+          "explanation": {
+            "They should be written using language and terms which all parties will understand": "Correct: clarity enables shared expectations.",
+            "They should be carried forward, unchanged from one year to the next to enable consistent service": "Incorrect: SLAs should evolve with needs.",
+            "They should be based on system-based metrics which are useful to the service provider": "Incorrect: must reflect outcomes and experience.",
+            "They should avoid ambiguous targets such as those relating to user experience": "Incorrect: experience targets are important."
+          }
+        },
+        {
+          "number": 7,
+          "question": "A service will be unavailable for the next two hours for unplanned maintenance. Which practice is MOST LIKELY to be involved in managing this?",
+          "options": [
+            "Problem management",
+            "Service request management",
+            "Change enablement",
+            "Incident management"
+          ],
+          "answer": "Incident management",
+          "explanation": {
+            "Problem management": "Incorrect: addresses causes and known errors.",
+            "Service request management": "Incorrect: handles predefined user requests.",
+            "Change enablement": "Incorrect: unplanned maintenance relates to incidents.",
+            "Incident management": "Correct: unplanned interruption is an incident."
+          }
+        },
+        {
+          "number": 8,
+          "question": "Which activity is not recommended by the 'start where you are' guiding principles?",
+          "options": [
+            "Involving people who are not familiar with a service when observing and assessing its activities",
+            "Using source data to avoid any unintentional data distortion found in reports",
+            "Applying risk management when considering to introduce new processes",
+            "Discarding existing processes before assessing their usefulness"
+          ],
+          "answer": "Discarding existing processes before assessing their usefulness",
+          "explanation": {
+            "Involving people who are not familiar with a service when observing and assessing its activities": "Incorrect: unbiased observation can be helpful.",
+            "Using source data to avoid any unintentional data distortion found in reports": "Incorrect: recommended to avoid bias.",
+            "Applying risk management when considering to introduce new processes": "Incorrect: good practice.",
+            "Discarding existing processes before assessing their usefulness": "Correct: first assess what can be reused."
+          }
+        },
+        {
+          "number": 9,
+          "question": "Which is a purpose of the 'service desk' practice?",
+          "options": [
+            "To maximize the number of successful IT changes by ensuring risks are properly assessed",
+            "To set clear business-based targets for service performance",
+            "To capture demand for incident resolution and service requests",
+            "To reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents"
+          ],
+          "answer": "To capture demand for incident resolution and service requests",
+          "explanation": {
+            "To maximize the number of successful IT changes by ensuring risks are properly assessed": "Change enablement purpose.",
+            "To set clear business-based targets for service performance": "Service level management purpose.",
+            "To capture demand for incident resolution and service requests": "Correct: core purpose of the service desk.",
+            "To reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents": "Problem management purpose."
+          }
+        },
+        {
+          "number": 10,
+          "question": "Identify the missing word in the following sentence. An organization which is undertaking an improvement initiative should [?] the existing methods and services when building for the future.",
+          "options": [
+            "Consider",
+            "Re-use",
+            "Discard",
+            "Improve"
+          ],
+          "answer": "Consider",
+          "explanation": {
+            "Consider": "Correct: assess current methods and services before replacing.",
+            "Re-use": "Good outcome when appropriate, but first consider.",
+            "Discard": "Incorrect: do not discard before assessment.",
+            "Improve": "May follow after assessment; not the first step."
+          }
+        },
+        {
+          "number": 11,
+          "question": "Which describes outcomes?",
+          "options": [
+            "Functionality offered by a product or service",
+            "Results desired by a stakeholder",
+            "Configuration of an organization's resources",
+            "Tangible or intangible deliverables"
+          ],
+          "answer": "Results desired by a stakeholder",
+          "explanation": {
+            "Functionality offered by a product or service": "Utility, not outcomes.",
+            "Results desired by a stakeholder": "Correct: definition of outcomes.",
+            "Configuration of an organization's resources": "Organizational setup, not outcomes.",
+            "Tangible or intangible deliverables": "Outputs, not outcomes."
+          }
+        },
+        {
+          "number": 12,
+          "question": "Which value chain activity is concerned about relationships and understanding of customer needs?",
+          "options": [
+            "Improve",
+            "Plan",
+            "Engage",
+            "Obtain/build"
+          ],
+          "answer": "Engage",
+          "explanation": {
+            "Improve": "Ensures continual improvement.",
+            "Plan": "Shared understanding of vision and direction.",
+            "Engage": "Correct: stakeholder needs and relationships.",
+            "Obtain/build": "Ensures components are available."
+          }
+        },
+        {
+          "number": 13,
+          "question": "Which is a key requirement for successful service level agreements (SLAs) ?",
+          "options": [
+            "They should avoid ambiguous targets such as those relating to user experience",
+            "They should be carried forward, unchanged from one year to the next to enable consistent service",
+            "They should be written using language and terms which all parties will understand",
+            "They should be based on system-based metrics which are useful to the service provider"
+          ],
+          "answer": "They should be written using language and terms which all parties will understand",
+          "explanation": {
+            "They should avoid ambiguous targets such as those relating to user experience": "Incorrect: experience is important to include.",
+            "They should be carried forward, unchanged from one year to the next to enable consistent service": "Incorrect: SLAs should evolve.",
+            "They should be written using language and terms which all parties will understand": "Correct: clarity and mutual understanding are essential.",
+            "They should be based on system-based metrics which are useful to the service provider": "Incorrect: they must reflect outcomes and customer experience."
+          }
+        },
+        {
+          "number": 14,
+          "question": "When working on an improvement iteration, which concept helps to ensure that the iteration activities remain appropriate in changing circumstances?",
+          "options": [
+            "Analysis paralysis",
+            "Direct observation",
+            "Minimum viable product",
+            "Feedback loop"
+          ],
+          "answer": "Feedback loop",
+          "explanation": {
+            "Analysis paralysis": "Incorrect: over-analysis delays action.",
+            "Direct observation": "Useful input, but not the iteration steering mechanism.",
+            "Minimum viable product": "Delivery tactic, not the steering concept.",
+            "Feedback loop": "Correct: continuous feedback keeps actions aligned."
+          }
+        },
+        {
+          "number": 15,
+          "question": "Which guiding principle recommends collecting data before deciding what can be re-used?",
+          "options": [
+            "Progress iteratively with feedback",
+            "Focus on value",
+            "Keep it simple and practical",
+            "Start where you are"
+          ],
+          "answer": "Start where you are",
+          "explanation": {
+            "Progress iteratively with feedback": "About small steps and learning.",
+            "Focus on value": "About value-centric decisions.",
+            "Keep it simple and practical": "About reducing unnecessary complexity.",
+            "Start where you are": "Correct: measure and observe current state first."
+          }
+        },
+        {
+          "number": 16,
+          "question": "Which phase of problem management includes the regular re-assessment of the effectiveness of workarounds?",
+          "options": [
+            "Error control",
+            "Problem analysis",
+            "Problem identification",
+            "Problem control"
+          ],
+          "answer": "Error control",
+          "explanation": {
+            "Error control": "Correct: includes re-assessing known errors and workarounds.",
+            "Problem analysis": "Analysis occurs under problem control.",
+            "Problem identification": "Initial discovery and logging.",
+            "Problem control": "Includes prioritization and investigation."
+          }
+        },
+        {
+        "number": 17,
+        "question": "Which term is used to define \"any component that needs to be managed in order to deliver an IT service\"?",
+        "options": [
+            "A change",
+            "An event",
+            "An IT asset",
+            "A configuration item"
+        ],
+        "answer": "A configuration item",
+        "explanation": {
+            "A change": "Incorrect: addition/modification/removal affecting services.",
+            "An event": "Incorrect: significant change of state.",
+            "An IT asset": "Incorrect: a financially valuable component; not every asset is a CI in scope.",
+            "A configuration item": "Correct: CI definition."
+        }
+        },
+        {
+          "number": 18,
+          "question": "Which practice conducts reviews to validate that services are covering the needs of the customer?",
+          "options": [
+            "Service desk",
+            "Service level management",
+            "Change enablement",
+            "Monitoring and event management"
+          ],
+          "answer": "Service level management",
+          "explanation": {
+            "Service desk": "Handles interaction and coordination.",
+            "Service level management": "Correct: performs service reviews.",
+            "Change enablement": "Manages change risk and authorization.",
+            "Monitoring and event management": "Observes services and events."
+          }
+        },
+        {
+          "number": 19,
+          "question": "Which BEST describes the focus of the 'think and work holistically' principle?",
+          "options": [
+            "Breaking down large initiatives into smaller pieces of work",
+            "Integrating an organization's activities to deliver value",
+            "Eliminating unnecessary steps to deliver valuable outcomes",
+            "Considering the existing organizational assets before building something new"
+          ],
+          "answer": "Integrating an organization's activities to deliver value",
+          "explanation": {
+            "Breaking down large initiatives into smaller pieces of work": "Iterative principle.",
+            "Integrating an organization's activities to deliver value": "Correct: end-to-end integration.",
+            "Eliminating unnecessary steps to deliver valuable outcomes": "Simplicity principle.",
+            "Considering the existing organizational assets before building something new": "Start where you are."
+          }
+        },
+        {
+          "number": 20,
+          "question": "Which value chain activity is concerned with the availability of service components?",
+          "options": [
+            "Obtain/build",
+            "Plan",
+            "Deliver and support",
+            "Design and transition"
+          ],
+          "answer": "Obtain/build",
+          "explanation": {
+            "Obtain/build": "Correct: ensures components are available and meet specs.",
+            "Plan": "Sets shared understanding and direction.",
+            "Deliver and support": "Operates services to agreed specs.",
+            "Design and transition": "Ensures products meet stakeholder expectations."
+          }
+        },
+        {
+          "number": 21,
+          "question": "What is defined as \"any component that needs to be managed in order to deliver an IT service\"?",
+          "options": [
+            "A change ",
+            "An IT asset",
+            "A configuration item",
+            "An event"
+          ],
+          "answer": "A configuration item",
+          "explanation": {
+            "A change ": "Incorrect: a modification affecting services.",
+            "An IT asset": "Incorrect: financially valuable component.",
+            "A configuration item": "Correct: CI definition.",
+            "An event": "Incorrect: significant change of state."
+          }
+        },
+        {
+          "number": 22,
+          "question": "Staff in an IT organization are very busy, mostly carrying out tasks that add little or no value to the organization or its customers. Which guiding principle recommends that the unnecessary work should be eliminated?",
+          "options": [
+            "Progress iteratively with feedback",
+            "Keep it simple and practical",
+            "Start where you are",
+            "Think and work holistically"
+          ],
+          "answer": "Keep it simple and practical",
+          "explanation": {
+            "Progress iteratively with feedback": "About small steps and learning.",
+            "Keep it simple and practical": "Correct: remove non-value-adding activity.",
+            "Start where you are": "First assess current state.",
+            "Think and work holistically": "Integrate across the system."
+          }
+        },
+        {
+          "number": 23,
+          "question": "How does categorization of incidents assist the 'incident management' practice?",
+          "options": [
+            "It ensures that incidents are resolved in timescales agreed with the customer",
+            "It determines the priority assigned to the incident",
+            "It determines how the service provider is perceived",
+            "It helps direct the incident to the correct support area"
+          ],
+          "answer": "It helps direct the incident to the correct support area",
+          "explanation": {
+            "It ensures that incidents are resolved in timescales agreed with the customer": "Incorrect: relates to targets and prioritization.",
+            "It determines the priority assigned to the incident": "Incorrect: priority is based on impact and urgency.",
+            "It determines how the service provider is perceived": "Not the purpose of categorization.",
+            "It helps direct the incident to the correct support area": "Correct: category guides routing."
+          }
+        },
+        {
+          "number": 24,
+          "question": "Which phase of problem management includes the regular re-assessment of the effectiveness of workarounds?",
+          "options": [
+            "Problem control",
+            "Problem identification",
+            "Problem analysis",
+            "Error control"
+          ],
+          "answer": "Error control",
+          "explanation": {
+            "Problem control": "Handles prioritization and investigation.",
+            "Problem identification": "Initial discovery and logging.",
+            "Problem analysis": "Part of problem control.",
+            "Error control": "Correct: manage known errors and reassess workarounds."
+          }
+        },
+        {
+          "number": 25,
+          "question": "Which of the four dimensions contributes MOST to defining activities needed to deliver services?",
+          "options": [
+            "Organizations and people",
+            "Partners and suppliers",
+            "Information and technology",
+            "Value streams and processes"
+          ],
+          "answer": "Value streams and processes",
+          "explanation": {
+            "Organizations and people": "Focuses on people and culture.",
+            "Partners and suppliers": "Focuses on external relationships.",
+            "Information and technology": "Focuses on information and tools.",
+            "Value streams and processes": "Correct: defines activities and workflows."
+          }
+        },
+        {
+          "number": 26,
+          "question": "Which practice ensures that service actions, that are normal part of service delivery, are effectively handled?",
+          "options": [
+            "Service level management",
+            "Incident management",
+            "Service Request management",
+            "Problem management"
+          ],
+          "answer": "Service Request management",
+          "explanation": {
+            "Service level management": "Sets performance targets and reviews.",
+            "Incident management": "Restores service during interruptions.",
+            "Service Request management": "Correct: handles predefined, user-initiated service actions.",
+            "Problem management": "Manages causes, workarounds, and known errors."
+          }
+        },
+        {
+          "number": 27,
+          "question": "What is the Definition of Known error",
+          "options": [
+            "A cause, or potential cause, of one or more incidents.",
+            "A documented agreement between a service provider and a customer that identifies both services required and the expected level of service.",
+            "A low-risk, pre-authorized change that is well-understood and fully-documented and which can be implemented without needing additional authorization.",
+            "A problem that has been analyzed but has not been resolved."
+          ],
+          "answer": "A problem that has been analyzed but has not been resolved.",
+          "explanation": {
+            "A cause, or potential cause, of one or more incidents.": "Problem, not known error.",
+            "A documented agreement between a service provider and a customer that identifies both services required and the expected level of service.": "SLA.",
+            "A low-risk, pre-authorized change that is well-understood and fully-documented and which can be implemented without needing additional authorization.": "Standard change.",
+            "A problem that has been analyzed but has not been resolved.": "Correct: known error."
+          }
+        },
+        {
+          "number": 28,
+          "question": "How should an organization adopt continual improvement methods?",
+          "options": [
+            "Select a few key methods for the types of improvement that the organization handles",
+            "Select a single method for all improvements that the organization handles",
+            "Build the capability to use as many improvement methods as possible",
+            "Use a new method for each improvement the organization handles"
+          ],
+          "answer": "Select a few key methods for the types of improvement that the organization handles",
+          "explanation": {
+            "Select a few key methods for the types of improvement that the organization handles": "Correct: focus and mastery beat method sprawl.",
+            "Select a single method for all improvements that the organization handles": "Too rigid for diverse needs.",
+            "Build the capability to use as many improvement methods as possible": "Dilutes expertise and consistency.",
+            "Use a new method for each improvement the organization handles": "Inconsistent and inefficient."
+          }
+        },
+        {
+          "number": 29,
+          "question": "Which is a financially valuable component that can contribute to the delivery of a service?",
+          "options": [
+            "Configuration item",
+            "IT asset",
+            "Sponsor",
+            "Service offering"
+          ],
+          "answer": "IT asset",
+          "explanation": {
+            "Configuration item": "Managed component, not necessarily financially valuable.",
+            "IT asset": "Correct: any financially valuable component contributing to services.",
+            "Sponsor": "Budget authorizer, not a component.",
+            "Service offering": "Description/package of services."
+          }
+        },
+        {
+          "number": 30,
+          "question": "How does categorization of incidents assist the 'incident management' practice?",
+          "options": [
+            "It determines the priority assigned to the incident",
+            "It helps direct the incident to the correct support area",
+            "It determines how the service provider is perceived",
+            "It ensures that incidents are resolved in timescales agreed with the customer"
+          ],
+          "answer": "It helps direct the incident to the correct support area",
+          "explanation": {
+            "It determines the priority assigned to the incident": "Priority is impact/urgency based.",
+            "It helps direct the incident to the correct support area": "Correct: guides routing and escalation.",
+            "It determines how the service provider is perceived": "Not the aim of categorization.",
+            "It ensures that incidents are resolved in timescales agreed with the customer": "Related to SLAs and prioritization, not categorization itself."
+          }
+        },
+        {
+          "number": 31,
+          "question": "Which statement about a 'continual improvement register (CIR)' is TRUE?",
+          "options": [
+            "Used to track and manage improvement ideas from identification through to final action",
+            "Used to help plan changes, assist in communication, avoid conflicts, and assign resources",
+            "Used to provide a formal description of one or more services, designed to address the needs of a target consumer group",
+            "Used to select the right method, model or technique for identifying improvements"
+          ],
+          "answer": "Used to track and manage improvement ideas from identification through to final action",
+          "explanation": {
+            "Used to track and manage improvement ideas from identification through to final action": "Correct: purpose of the CIR.",
+            "Used to help plan changes, assist in communication, avoid conflicts, and assign resources": "Describes change schedule.",
+            "Used to provide a formal description of one or more services, designed to address the needs of a target consumer group": "Service offering.",
+            "Used to select the right method, model or technique for identifying improvements": "Method selection is separate."
+          }
+        },
+        {
+          "number": 32,
+          "question": "Which is an input to the service value system?",
+          "options": [
+            "A model to help meet stakeholders' expectations",
+            "Recommendations to help an organization in all aspects of its work",
+            "A need from consumers for new or changed services",
+            "The system of directing and controlling an organization"
+          ],
+          "answer": "A need from consumers for new or changed services",
+          "explanation": {
+            "A model to help meet stakeholders' expectations": "Not an SVS input.",
+            "Recommendations to help an organization in all aspects of its work": "Guiding principles are within the SVS.",
+            "A need from consumers for new or changed services": "Correct: demand/opportunity triggers the SVS.",
+            "The system of directing and controlling an organization": "Governance is a component of the SVS, not an input."
+          }
+        },
+        {
+          "number": 33,
+          "question": "Identify the missing word in the following sentence. The purpose of the service configuration management practice is to ensure that accurate and reliable information about the configuration of (?) and the CIs that support them, is available when and where it is needed.",
+          "options": [
+            "Outcomes",
+            "Services",
+            "IT Assets",
+            "Organizations"
+          ],
+          "answer": "Services",
+          "explanation": {
+            "Outcomes": "Incorrect: results for stakeholders.",
+            "Services": "Correct: SCM maintains information about services and supporting CIs.",
+            "IT Assets": "Assets may be CIs, but the definition focuses on services.",
+            "Organizations": "Not the target of SCM."
+          }
+        },
+        {
+          "number": 34,
+          "question": "A good way to apply the ITIL guiding principle 'focus on value' is to:",
+          "options": [
+            "Understand the whole, but do something",
+            "Be aware of system complexity",
+            "Do less tasks but in a better way with higher quality",
+            "Understand why services are used by service consumers"
+          ],
+          "answer": "Understand why services are used by service consumers",
+          "explanation": {
+            "Understand the whole, but do something": "Iterative principle phrasing.",
+            "Be aware of system complexity": "Holistic principle.",
+            "Do less tasks but in a better way with higher quality": "Simplicity/quality focus, not value definition.",
+            "Understand why services are used by service consumers": "Correct: value is defined by the consumer's outcomes."
+          }
+        },
+        {
+          "number": 35,
+          "question": "Which of the following is a necessity to a successful service level agreement (SLAs)?",
+          "options": [
+            "The language and terms used in the SLA should be commonly understood by all parties",
+            "Base the SLA on system-based metrics that are useful to the service provider",
+            "Vague targets, such as those related to user experience, should be avoided",
+            "In order to promote consistent service, they should be be carried forward, unchanged, from one year to the next"
+          ],
+          "answer": "The language and terms used in the SLA should be commonly understood by all parties",
+          "explanation": {
+            "The language and terms used in the SLA should be commonly understood by all parties": "Correct: shared understanding is essential.",
+            "Base the SLA on system-based metrics that are useful to the service provider": "Incorrect: must reflect outcomes and CX.",
+            "Vague targets, such as those related to user experience, should be avoided": "Incorrect: CX targets matter; they should be clear, not avoided.",
+            "In order to promote consistent service, they should be be carried forward, unchanged, from one year to the next": "Incorrect: SLAs evolve."
+          }
+        },
+        {
+          "number": 36,
+          "question": "Identify the missing word in the following sentence. The purpose of the service configuration management practice is to ensure that accurate and reliable information about the configuration of [?], and the CIs that support them, is available when and where it is needed.",
+          "options": [
+            "Organizations",
+            "Outcomes",
+            "IT assets",
+            "Services"
+          ],
+          "answer": "Services",
+          "explanation": {
+            "Organizations": "Incorrect.",
+            "Outcomes": "Incorrect.",
+            "IT assets": "Assets can be part of CIs, but the focus is services.",
+            "Services": "Correct: mirrors the formal definition."
+          }
+        },
+        {
+          "number": 37,
+          "question": "Which practice has a purpose that includes the management of financially valuable components that can contribute to the delivery of IT Service",
+          "options": [
+            "Deployment management",
+            "IT Asset management",
+            "Service configuration management",
+            "Change enablement"
+          ],
+          "answer": "IT Asset management",
+          "explanation": {
+            "Deployment management": "Moves components to environments.",
+            "IT Asset management": "Correct: manages financially valuable components (assets).",
+            "Service configuration management": "Maintains configuration info of services and CIs.",
+            "Change enablement": "Assesses and authorizes changes."
+          }
+        },
+        {
+          "number": 38,
+          "question": "What are the two types of cost that a service consumer should evaluate?",
+          "options": [
+            "The cost of provisioning the service, and the cost of improving the service",
+            "The cost of software, and the cost of hardware",
+            "The price of the service, and the cost of creating the service",
+            "The costs removed by the service, and the costs imposed by the service"
+          ],
+          "answer": "The costs removed by the service, and the costs imposed by the service",
+          "explanation": {
+            "The cost of provisioning the service, and the cost of improving the service": "Provider-centric view.",
+            "The cost of software, and the cost of hardware": "Too narrow.",
+            "The price of the service, and the cost of creating the service": "Provider view, not consumer.",
+            "The costs removed by the service, and the costs imposed by the service": "Correct: consumer perspective."
+          }
+        },
+        {
+          "number": 39,
+          "question": "Which practice is responsible for moving components to live environments?",
+          "options": [
+            "Release management",
+            "IT asset management",
+            "Deployment management",
+            "Change control"
+          ],
+          "answer": "Deployment management",
+          "explanation": {
+            "Release management": "Makes new or changed services/features available for use.",
+            "IT asset management": "Manages asset lifecycle.",
+            "Deployment management": "Correct: moves components to live/other environments.",
+            "Change control": "Assesses and authorizes changes."
+          }
+        },
+        {
+          "number": 40,
+          "question": "Which of the following includes configuring components and activities to facilitate outcomes for stakeholders?",
+          "options": [
+            "Service relationship management",
+            "The service value system",
+            "The release management practice",
+            "Service consumption"
+          ],
+          "answer": "The service value system",
+          "explanation": {
+            "Service relationship management": "Joint provider-consumer activities, not the full configuration view.",
+            "The service value system": "Correct: describes how components and activities work together to enable value.",
+            "The release management practice": "Makes services/features available for use.",
+            "Service consumption": "Consumer-side activities."
+          }
+        }
+      ]
+    }
+  ]
+}
+

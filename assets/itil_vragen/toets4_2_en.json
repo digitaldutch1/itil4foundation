@@ -1,0 +1,577 @@
+{
+  "chapters": [
+    {
+      "chapter": "ITIL 4 test 4_2 (EN)",
+      "description": "ITIL 4 - Practice Test 4_2 (EN, questions 41-80)",
+      "questions": [
+        {
+          "number": 41,
+          "question": "What are the KEY stakeholder groups that service providers should cooperate with?",
+          "options": ["Customers","Suppliers","Developers","Relationship managers"],
+          "answer": "Customers",
+          "explanation": {
+            "Customers": "Correct: value is defined by and co-created with customers.",
+            "Suppliers": "Important, but not the primary group the provider serves.",
+            "Developers": "Internal contributors, not the main stakeholder group.",
+            "Relationship managers": "Roles, not a stakeholder group category."
+          }
+        },
+        {
+          "number": 42,
+          "question": "What are the two types of cost that a service consumer should evaluate?",
+          "options": [
+            "The costs removed by the service, and the costs imposed by the service",
+            "The price of the service, and the cost of creating the service",
+            "The cost of provisioning the service, and the cost of improving the service",
+            "The cost of software, and the cost of hardware"
+          ],
+          "answer": "The costs removed by the service, and the costs imposed by the service",
+          "explanation": {
+            "The costs removed by the service, and the costs imposed by the service": "Correct: consumer perspective on total cost.",
+            "The price of the service, and the cost of creating the service": "Provider-centric view.",
+            "The cost of provisioning the service, and the cost of improving the service": "Provider-centric view.",
+            "The cost of software, and the cost of hardware": "Too narrow."
+          }
+        },
+        {
+          "number": 43,
+          "question": "What is the definition of 'service management'?",
+          "options": [
+            "Joint activities performed by a service provider and a service consumer to ensure continual value co-creation",
+            "A set of specialized organizational capabilities for enabling value for customers in the form of services",
+            "A formal description of one or more services, designed to address the needs of a target consumer group",
+            "A result for a stakeholder enabled by one or more outputs"
+          ],
+          "answer": "A set of specialized organizational capabilities for enabling value for customers in the form of services",
+          "explanation": {
+            "Joint activities...": "Service relationship management.",
+            "A set of specialized organizational capabilities for enabling value for customers in the form of services": "Correct: definition of service management.",
+            "A formal description...": "Service offering.",
+            "A result for a stakeholder...": "Outcome."
+          }
+        },
+        {
+          "number": 44,
+          "question": "Which service value chain activity relates with buying new products?",
+          "options": ["Improve","Obtain/build","Engage","Plan"],
+          "answer": "Obtain/build",
+          "explanation": {
+            "Improve": "Focus on continual improvement.",
+            "Obtain/build": "Correct: covers acquisition and building of components.",
+            "Engage": "Stakeholder interactions.",
+            "Plan": "Vision, direction, and policies."
+          }
+        },
+        {
+          "number": 45,
+          "question": "Which is an example of service request?",
+          "options": [
+            "A request to access a file",
+            "A request to investigate the cause of an incident",
+            "A request for normal operation to be restored",
+            "A request to implement a security patch"
+          ],
+          "answer": "A request to access a file",
+          "explanation": {
+            "A request to access a file": "Correct: typical user-initiated service action.",
+            "A request to investigate the cause of an incident": "Problem management.",
+            "A request for normal operation to be restored": "Incident management.",
+            "A request to implement a security patch": "Change enablement (often emergency)."
+          }
+        },
+        {
+          "number": 46,
+          "question": "Which is an example of service request",
+          "options": [
+            "A request to access a file",
+            "A request to implement a security patch",
+            "A request for normal operation to be restored",
+            "A request to investigate the cause of an incident"
+          ],
+          "answer": "A request to access a file",
+          "explanation": {
+            "A request to access a file": "Correct: standard service request.",
+            "A request to implement a security patch": "Change enablement.",
+            "A request for normal operation to be restored": "Incident resolution.",
+            "A request to investigate the cause of an incident": "Problem management."
+          }
+        },
+        {
+          "number": 47,
+          "question": "A service will be unavailable for the next two hours for unplanned maintenance. Which practice is most likely to be involved in managing this?",
+          "options": ["Change enablement","Problem management","Incident management","Service request management"],
+          "answer": "Incident management",
+          "explanation": {
+            "Change enablement": "Unplanned maintenance relates to incidents, not a planned change.",
+            "Problem management": "Addresses causes and known errors.",
+            "Incident management": "Correct: unplanned interruption is an incident.",
+            "Service request management": "Handles predefined user requests."
+          }
+        },
+        {
+          "number": 48,
+          "question": "Which dimension of service management includes consideration of the type of relationship required with other organization involved in the design and delivery?",
+          "options": ["Organization and people","Partners and suppliers","Value streams and processes","Information and technology"],
+          "answer": "Partners and suppliers",
+          "explanation": {
+            "Organization and people": "People, roles, culture.",
+            "Partners and suppliers": "Correct: external relationships and contracts.",
+            "Value streams and processes": "Activities and workflows.",
+            "Information and technology": "Information, knowledge and tools."
+          }
+        },
+        {
+          "number": 49,
+          "question": "What is the difference between the 'incident management' and 'service desk' practices?",
+          "options": [
+            "Incident management manages interruptions to services, service desk monitors achieved service quality",
+            "Incident management resolves complex issues, service desk resolves simpler issues",
+            "Incident management resolves issues, service desk investigates the underlying causes of issues",
+            "Incident management restores service operation, service desk provides communication with users"
+          ],
+          "answer": "Incident management restores service operation, service desk provides communication with users",
+          "explanation": {
+            "Incident management restores service operation, service desk provides communication with users": "Correct: process vs. point-of-contact.",
+            "Other options": "Do not correctly represent the roles."
+          }
+        },
+        {
+          "number": 50,
+          "question": "An organization which is undertaking an improvement initiative should [?] the existing methods and services when building for the future.",
+          "options": ["Improve","Consider","Discard","Re-use"],
+          "answer": "Consider",
+          "explanation": {
+            "Consider": "Correct: assess existing methods and services first.",
+            "Re-use": "May follow after assessment.",
+            "Improve": "May follow after assessment.",
+            "Discard": "Not recommended without assessment."
+          }
+        },
+        {
+          "number": 51,
+          "question": "Which ITIL concept helps an organization to make good decisions?",
+          "options": ["Practices","Guiding principles","Four dimensions of service management","Service value chain"],
+          "answer": "Guiding principles",
+          "explanation": {
+            "Practices": "Reusable organizational resources, not decision guidance per se.",
+            "Guiding principles": "Correct: recommendations guiding actions and decisions.",
+            "Four dimensions of service management": "Holistic view, not decision rules.",
+            "Service value chain": "Operating model."
+          }
+        },
+        {
+          "number": 52,
+          "question": "What is the definition of an event?",
+          "options": [
+            "Any financially valuable component that can contribute to the delivery of an IT product or service",
+            "Any change of state that has significance for the management of a service or other configuration item",
+            "An unplanned interruption to a service or reduction in the quality of a service",
+            "Any component that needs to be managed in order to deliver an IT service"
+          ],
+          "answer": "Any change of state that has significance for the management of a service or other configuration item",
+          "explanation": {
+            "Any change of state...": "Correct: event definition.",
+            "Any financially valuable component...": "IT asset.",
+            "An unplanned interruption...": "Incident.",
+            "Any component that needs to be managed...": "Configuration item."
+          }
+        },
+        {
+          "number": 53,
+          "question": "A service will be unavailable for the next two hours for unplanned maintenance. Which practice is most likely to be involved in managing this?",
+          "options": ["Problem management","Change enablement","Service request management","Incident Management"],
+          "answer": "Incident Management",
+          "explanation": {
+            "Incident Management": "Correct: unplanned interruption.",
+            "Problem management": "Root cause analysis, not immediate restoration.",
+            "Change enablement": "Planned changes.",
+            "Service request management": "Predefined user requests."
+          }
+        },
+        {
+          "number": 54,
+          "question": "Identify the missing word in the following sentence. The purpose of the service configuration management practice is to ensure that accurate and reliable information about the configuration of [?], and the CIs that support them, is available when and where it is needed.",
+          "options": ["organizations","IT assets","outcomes","services"],
+          "answer": "services",
+          "explanation": {
+            "services": "Correct: SCM maintains info about services and supporting CIs.",
+            "IT assets": "Assets may be CIs, but the focus is services.",
+            "organizations": "Not the target of SCM.",
+            "outcomes": "Results for stakeholders, not configuration."
+          }
+        },
+        {
+          "number": 55,
+          "question": "Which activity is NOT recommended by the 'start where you are' guiding principle?",
+          "options": [
+            "Involving people who are not familiar with a service when observing and assessing its activities",
+            "Using source data to avoid any unintentional data distortion found in reports",
+            "Discarding existing processes before assessing their usefulness",
+            "Applying risk management when considering to introduce new processes"
+          ],
+          "answer": "Discarding existing processes before assessing their usefulness",
+          "explanation": {
+            "Discarding existing processes before assessing their usefulness": "Correct: first assess and reuse where possible.",
+            "Others": "Consistent with 'start where you are'."
+          }
+        },
+        {
+          "number": 56,
+          "question": "Which statement about the inputs and outputs of the value chain activities is CORRECT?",
+          "options": [
+            "Some value chain activities only have inputs, whereas others only have outputs",
+            "The organization's governance will determine the inputs and outputs of each value chain activity",
+            "Inputs and outputs are fixed for each value chain activity",
+            "Each value chain activity receives inputs and provides outputs"
+          ],
+          "answer": "Each value chain activity receives inputs and provides outputs",
+          "explanation": {
+            "Each value chain activity receives inputs and provides outputs": "Correct: activities transform inputs to outputs.",
+            "Other options": "Do not reflect the flexible, interconnected nature of the SVC."
+          }
+        },
+        {
+          "number": 57,
+          "question": "Which practice handles all pre-defined user-initiated service actions?",
+          "options": ["Service level management","Service request management","Incident management","Deployment management"],
+          "answer": "Service request management",
+          "explanation": {
+            "Service request management": "Correct: fulfills predefined, user-initiated actions.",
+            "Service level management": "Sets service targets and reviews.",
+            "Incident management": "Restores service.",
+            "Deployment management": "Moves components to environments."
+          }
+        },
+        {
+          "number": 58,
+          "question": "Which practice needs the right culture to be embedded across the entire organization?",
+          "options": ["Change enablement","Continual improvement","Service request management","Service level management"],
+          "answer": "Continual improvement",
+          "explanation": {
+            "Continual improvement": "Correct: everyone should contribute; culture-wide adoption is needed.",
+            "Others": "Do not require org-wide cultural embedding to the same extent."
+          }
+        },
+        {
+          "number": 59,
+          "question": "Which practice conducts reviews to validate that services are covering the needs of the customer?",
+          "options": ["Service desk","Service level management","Change enablement","Monitoring and event management"],
+          "answer": "Service level management",
+          "explanation": {
+            "Service level management": "Correct: conducts service reviews.",
+            "Service desk": "Intake and coordination.",
+            "Change enablement": "Risk and authorization.",
+            "Monitoring and event management": "Observation and reporting of events."
+          }
+        },
+        {
+          "number": 60,
+          "question": "Which of the following includes configuring components and activities to facilitate outcomes for stakeholders?",
+          "options": ["Service relationship management","The service value system","The release management practice","Service consumption"],
+          "answer": "The service value system",
+          "explanation": {
+            "The service value system": "Correct: shows how components and activities work together to enable value.",
+            "Service relationship management": "Focuses on joint provider-consumer activities.",
+            "The release management practice": "Makes services/features available.",
+            "Service consumption": "Consumer-side activities."
+          }
+        },
+        {
+          "number": 61,
+          "question": "Which practice requires focus and effort to engage and listen to the requirements, issues, concerns, and daily needs of customers?",
+          "options": ["Service request management","Service level management","Supplier management","Service desk"],
+          "answer": "Service level management",
+          "explanation": {
+            "Service level management": "Correct: SLM requires active engagement and listening.",
+            "Service request management": "Fulfills predefined actions.",
+            "Supplier management": "Focuses on supplier performance.",
+            "Service desk": "SPOC for users, not primarily requirements capture."
+          }
+        },
+        {
+          "number": 62,
+          "question": "What is MOST LIKELY to be handled as a service request?",
+          "options": [
+            "Providing a virtual server for a development team",
+            "An emergency change to apply a security patch",
+            "The implementation of a workaround",
+            "Managing an interruption to a service"
+          ],
+          "answer": "Providing a virtual server for a development team",
+          "explanation": {
+            "Providing a virtual server for a development team": "Correct: standard fulfillment request.",
+            "An emergency change to apply a security patch": "Emergency change.",
+            "The implementation of a workaround": "Incident/problem response.",
+            "Managing an interruption to a service": "Incident management."
+          }
+        },
+        {
+          "number": 63,
+          "question": "Which step of the 'continual improvement model' defines measurable targets?",
+          "options": ["Where are we now?","Where do we want to be?","What is the vision?","How do we get there?"],
+          "answer": "Where do we want to be?",
+          "explanation": {
+            "Where do we want to be?": "Correct: defines measurable targets (CSFs/KPIs).",
+            "Where are we now?": "Baseline assessment.",
+            "What is the vision?": "Direction and intent.",
+            "How do we get there?": "Planning the approach."
+          }
+        },
+        {
+          "number": 64,
+          "question": "Identify the missing word(s) in the following sentence. A(n) [?] is the cause, or potential cause, of one or more incidents.",
+          "options": ["Problem","Known error","Change","Event"],
+          "answer": "Problem",
+          "explanation": {
+            "Problem": "Correct: cause or potential cause of incidents.",
+            "Known error": "Analyzed problem not yet resolved.",
+            "Change": "Addition/modification/removal affecting services.",
+            "Event": "Significant change of state."
+          }
+        },
+        {
+          "number": 65,
+          "question": "Which joint activity performed by a service provider and service consumer ensures continual value co-creation?",
+          "options": ["Service provision","Service offering","Service consumption","Service relationship management"],
+          "answer": "Service relationship management",
+          "explanation": {
+            "Service relationship management": "Correct: joint activities enabling value co-creation.",
+            "Service provision": "Provider-side.",
+            "Service consumption": "Consumer-side.",
+            "Service offering": "Described package of services."
+          }
+        },
+        {
+          "number": 66,
+          "question": "Which is an example of a service request?",
+          "options": [
+            "A request to investigate the cause of an incident",
+            "A request to implement a security patch",
+            "A request for access to a file",
+            "A request for normal operation to be restored"
+          ],
+          "answer": "A request for access to a file",
+          "explanation": {
+            "A request for access to a file": "Correct: standard request.",
+            "A request to investigate the cause of an incident": "Problem management.",
+            "A request to implement a security patch": "Change enablement.",
+            "A request for normal operation to be restored": "Incident management."
+          }
+        },
+        {
+          "number": 67,
+          "question": "Which is the MOST important stakeholder groups that a service provider needs to collaborate with?",
+          "options": ["Suppliers","Customers","Developers","Relationship managers"],
+          "answer": "Customers",
+          "explanation": {
+            "Customers": "Correct: the primary stakeholder for value creation.",
+            "Suppliers": "Important but secondary to customers.",
+            "Developers": "Internal contributors.",
+            "Relationship managers": "Role, not a stakeholder group."
+          }
+        },
+        {
+          "number": 68,
+          "question": "Which facilitates outcomes that customers want to achieve?",
+          "options": ["Warranty","Service","IT asset","Organization"],
+          "answer": "Service",
+          "explanation": {
+            "Service": "Correct: means of enabling value co-creation by facilitating outcomes.",
+            "Warranty": "Fit for use assurance.",
+            "IT asset": "Component contributing to delivery.",
+            "Organization": "Entity, not the enabler itself."
+          }
+        },
+        {
+          "number": 69,
+          "question": "Which is included in the purpose of the improve value chain activity?",
+          "options": [
+            "Ensures a shared understanding of the vision, current status, and improvement direction",
+            "Ensures continual improvement of products, services, and practices across all activities",
+            "Ensures products and services meet stakeholder expectations for quality, costs, and time to market",
+            "Ensures a good understanding of stakeholder needs and continual engagement"
+          ],
+          "answer": "Ensures continual improvement of products, services, and practices across all activities",
+          "explanation": {
+            "Ensures continual improvement of products, services, and practices across all activities": "Correct: Improve activity purpose.",
+            "Ensures a shared understanding...": "Plan activity.",
+            "Ensures products and services meet stakeholder expectations...": "Design and transition.",
+            "Ensures a good understanding of stakeholder needs...": "Engage."
+          }
+        },
+        {
+          "number": 70,
+          "question": "What is included in the purpose of the 'relationship management' practice?",
+          "options": [
+            "Identifying, analyzing, monitoring, and the continual improvement of relationships with stakeholders",
+            "Setting clear business-based targets so that the delivery of a service can be properly assessed",
+            "Handling all pre-defined, user-initiated service requests in an effective and user-friendly manner",
+            "Creating collaborative relationships with key suppliers to uncover and realize new value"
+          ],
+          "answer": "Identifying, analyzing, monitoring, and the continual improvement of relationships with stakeholders",
+          "explanation": {
+            "Identifying, analyzing, monitoring, and the continual improvement of relationships with stakeholders": "Correct: purpose of relationship management.",
+            "Setting clear business-based targets...": "Service level management.",
+            "Handling all pre-defined...": "Service request management.",
+            "Creating collaborative relationships...": "Supplier management focus."
+          }
+        },
+        {
+          "number": 71,
+          "question": "Which two of the following statements are MOST associated with 'optimize and automate' guiding principle?",
+          "options": [
+            "1. It is important to assess which method of communication is appropriate for each type of stakeholder",
+            "2. Complex systems should be designed with an understanding of how the components parts are related",
+            "3. Organization should consider whether technology could improve the efficiency of manual processes.",
+            "4. It is important to understand the organization's objectives when assessing the impact of potential improvement"
+          ],
+          "answer": [
+            "3. Organization should consider whether technology could improve the efficiency of manual processes.",
+            "4. It is important to understand the organization's objectives when assessing the impact of potential improvement"
+          ],
+          "explanation": {
+            "1. ...communication...": "Relates more to collaborate and promote visibility.",
+            "2. ...complex systems...": "Relates to think and work holistically.",
+            "3. ...technology to improve manual processes": "Correct: core to optimize and automate.",
+            "4. ...understand the organization's objectives": "Correct: optimization aligned to objectives."
+          }
+        },
+        {
+          "number": 72,
+          "question": "What is the customer of a service responsible for?",
+          "options": [
+            "Authorizing the budget for the service",
+            "Defining the requirements for the service",
+            "Using the service",
+            "Provisioning the service"
+          ],
+          "answer": "Defining the requirements for the service",
+          "explanation": {
+            "Defining the requirements for the service": "Correct: and taking responsibility for outcomes.",
+            "Authorizing the budget for the service": "Sponsor role.",
+            "Using the service": "User role.",
+            "Provisioning the service": "Provider role."
+          }
+        },
+        {
+          "number": 73,
+          "question": "Which practice has the purpose of making new and changed services and features available for use?",
+          "options": ["Release management","Change control","Deployment management","Service request management"],
+          "answer": "Release management",
+          "explanation": {
+            "Release management": "Correct: makes services/features available for use.",
+            "Deployment management": "Moves components to environments.",
+            "Change control": "Assesses and authorizes changes.",
+            "Service request management": "Fulfills predefined requests."
+          }
+        },
+        {
+          "number": 74,
+          "question": "A good way to apply the ITIL guiding principle 'focus on value' is to:",
+          "options": [
+            "Be aware of system complexity",
+            "Understand why services are used by service consumers",
+            "Do less tasks but in a better way with higher quality",
+            "Understand the whole, but do something"
+          ],
+          "answer": "Understand why services are used by service consumers",
+          "explanation": {
+            "Understand why services are used by service consumers": "Correct: value is defined by consumer outcomes.",
+            "Be aware of system complexity": "Holistic thinking.",
+            "Do less tasks but in a better way...": "Simplicity/quality.",
+            "Understand the whole, but do something": "Iterative mindset."
+          }
+        },
+        {
+          "number": 75,
+          "question": "What is the CORRECT order for the three phases of problem management?",
+          "options": [
+            "Error control, problem control, problem identification",
+            "Problem identification, error control, problem control",
+            "Problem identification, problem control, error control",
+            "Problem control, error control, problem identification"
+          ],
+          "answer": "Problem identification, problem control, error control",
+          "explanation": {
+            "Problem identification, problem control, error control": "Correct order per ITIL 4.",
+            "Other orders": "Do not reflect the intended flow."
+          }
+        },
+        {
+          "number": 76,
+          "question": "Which term describes the functionality offered by a service?",
+          "options": ["Cost","Utility","Warranty","Risk"],
+          "answer": "Utility",
+          "explanation": {
+            "Utility": "Correct: what the service does (fit for purpose).",
+            "Warranty": "How the service performs (fit for use).",
+            "Cost": "Resources expended.",
+            "Risk": "Possible events affecting objectives."
+          }
+        },
+        {
+          "number": 77,
+          "question": "Which is a description of service provision?",
+          "options": [
+            "Activities that an organization performs to deliver services",
+            "A formal description of one or more services, designed to address the needs of a service consumer",
+            "Cooperation between two organizations to ensure that a service delivers value",
+            "A way to help create value by facilitating outcomes that service consumers need"
+          ],
+          "answer": "Activities that an organization performs to deliver services",
+          "explanation": {
+            "Activities that an organization performs to deliver services": "Correct: part of service provision.",
+            "A formal description...": "Service offering.",
+            "Cooperation between two organizations...": "A form of partnering, not the definition.",
+            "A way to help create value...": "Definition of a service."
+          }
+        },
+        {
+          "number": 78,
+          "question": "Which is the MOST LIKELY way of resolving major incidents?",
+          "options": [
+            "The service desk identifying the cause and a resolution",
+            "A temporary team working together to identify a resolution",
+            "Users establishing a resolution using self-help",
+            "A support team following detailed procedures for investigating the incident"
+          ],
+          "answer": "A temporary team working together to identify a resolution",
+          "explanation": {
+            "A temporary team working together to identify a resolution": "Correct: cross-functional 'swarming' for major incidents.",
+            "Others": "Less likely to resolve complex major incidents quickly."
+          }
+        },
+        {
+          "number": 79,
+          "question": "What ensures that service providers and service consumers continue to create value together?",
+          "options": ["Service consumption","Service level management","Service relationship management","Service offerings"],
+          "answer": "Service relationship management",
+          "explanation": {
+            "Service relationship management": "Correct: joint activities to co-create value.",
+            "Service consumption": "Consumer-side actions.",
+            "Service level management": "Targets and reviews.",
+            "Service offerings": "Service package descriptions."
+          }
+        },
+        {
+          "number": 80,
+          "question": "Which practice has a purpose that involves creating closer, more collaborative relationships?",
+          "options": [
+            "Release management",
+            "Supplier management",
+            "Service configuration management",
+            "Information security management"
+          ],
+          "answer": "Supplier management",
+          "explanation": {
+            "Supplier management": "Correct: fosters collaborative supplier relationships.",
+            "Release management": "Makes services/features available.",
+            "Service configuration management": "Maintains configuration info.",
+            "Information security management": "Manages information security risks."
+          }
+        }
+      ]
+    }
+  ]
+}
+

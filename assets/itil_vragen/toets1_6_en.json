@@ -1,0 +1,776 @@
+{
+  "chapters": [
+    {
+      "chapter": "ITIL 4 test 1_6 (EN)",
+      "description": "ITIL 4 - Practice Test 1_6 (EN, questions 201-245)",
+      "questions": [
+        {
+          "number": 201,
+          "question": "Which statement about outputs is correct?",
+          "options": [
+            "They capture customer demand for services",
+            "They consist of several outcomes",
+            "They describe how the service performs",
+            "They contribute to the achievement of outcomes"
+          ],
+          "answer": "They contribute to the achievement of outcomes",
+          "explanation": {
+            "They capture customer demand for services": "Demand is captured by Engage/Plan, not by outputs.",
+            "They consist of several outcomes": "Relation is the opposite.",
+            "They describe how the service performs": "That is warranty/performance metrics.",
+            "They contribute to the achievement of outcomes": "Correct: outputs enable outcomes."
+          }
+        },
+        {
+          "number": 202,
+          "question": "Which type of change is MOST LIKELY to be initiated as part of the 'service request management' practice?",
+          "options": [
+            "An emergency change",
+            "A normal change",
+            "A standard change",
+            "A change model"
+          ],
+          "answer": "A standard change",
+          "explanation": {
+            "An emergency change": "Handled via expedited change enablement.",
+            "A normal change": "Assessed/authorized case by case.",
+            "A standard change": "Correct: pre-authorized, often fulfilled via SRM.",
+            "A change model": "Template/process, not a change type."
+          }
+        },
+        {
+          "number": 203,
+          "question": "Which of these are an example of a business-related measurement?",
+          "options": [
+            "The number of passengers checked in",
+            "The number of problems resolved",
+            "The average resolution time for incidents",
+            "The average time to respond to change requests"
+          ],
+          "answer": "The number of passengers checked in",
+          "explanation": {
+            "The number of passengers checked in": "Correct: measures a business outcome.",
+            "The number of problems resolved": "Operational/problem metric.",
+            "The average resolution time for incidents": "Operational incident metric.",
+            "The average time to respond to change requests": "Operational change metric."
+          }
+        },
+        {
+          "number": 204,
+          "question": "Which of the following is a guiding principle?",
+          "options": [
+            "Think and work holistically",
+            "Focus on value",
+            "Start where you are",
+            "All of the options"
+          ],
+          "answer": "All of the options",
+          "explanation": {
+            "Think and work holistically": "Is a guiding principle.",
+            "Focus on value": "Is a guiding principle.",
+            "Start where you are": "Is a guiding principle.",
+            "All of the options": "Correct: all listed are principles."
+          }
+        },
+        {
+          "number": 205,
+          "question": "Which practice may involve the initiation of disaster recovery?",
+          "options": [
+            "Service-level management",
+            "Incident management",
+            "Service request management",
+            "IT asset management"
+          ],
+          "answer": "Incident management",
+          "explanation": {
+            "Service-level management": "Targets/reviews, not DR invocation.",
+            "Incident management": "Correct: may trigger DR plans for severe incidents.",
+            "Service request management": "Handles predefined requests.",
+            "IT asset management": "Lifecycle of assets."
+          }
+        },
+        {
+          "number": 206,
+          "question": "Identify the missing word: A service is a means of enabling value co-creation by facilitating outcomes that customers want to achieve, without the customer having to manage specific ______ and risks.",
+          "options": [
+            "information",
+            "warranty",
+            "utility",
+            "costs"
+          ],
+          "answer": "costs",
+          "explanation": {
+            "information": "Not part of the canonical definition.",
+            "warranty": "Assurance of performance; not the missing word.",
+            "utility": "Functionality; not the missing word.",
+            "costs": "Correct: 'costs and risks'."
+          }
+        },
+        {
+          "number": 207,
+          "question": "What is important for a successful service level agreement (SLA)?",
+          "options": [
+            "It should be based on the service provider's view of the service",
+            "It should be written in legal language",
+            "It should relate to simple operational metrics",
+            "It should be simply written and easy to understand"
+          ],
+          "answer": "It should be simply written and easy to understand",
+          "explanation": {
+            "It should be based on the service provider's view of the service": "SLA must reflect customer needs and shared understanding.",
+            "It should be written in legal language": "Overly legalese text harms usability.",
+            "It should relate to simple operational metrics": "Outcome-based metrics are preferred.",
+            "It should be simply written and easy to understand": "Correct."
+          }
+        },
+        {
+          "number": 208,
+          "question": "In which way should automation be implemented?",
+          "options": [
+            "By optimizing as much as possible first",
+            "By replacing human intervention wherever possible",
+            "By replacing the existing tools first",
+            "By initially concentrating on the most complex tasks"
+          ],
+          "answer": "By optimizing as much as possible first",
+          "explanation": {
+            "By optimizing as much as possible first": "Correct: optimize then automate.",
+            "By replacing human intervention wherever possible": "Not the goal per se.",
+            "By replacing the existing tools first": "Tool replacement may not be required.",
+            "By initially concentrating on the most complex tasks": "Start with well-understood, standardized work."
+          }
+        },
+        {
+          "number": 209,
+          "question": "What are the factors that influence an organization's choice of technology?",
+          "options": [
+            "All of the options",
+            "Employees",
+            "Environment",
+            "Organizational culture"
+          ],
+          "answer": "Organizational culture",
+          "explanation": {
+            "All of the options": "In this item the key factor highlighted is culture.",
+            "Employees": "People matter, but culture strongly drives choices.",
+            "Environment": "Context matters; culture remains a primary driver.",
+            "Organizational culture": "Correct: long-standing cultural bias influences sourcing/tech choice."
+          }
+        },
+        {
+          "number": 210,
+          "question": "In which two situations should ITIL guiding principles be considered?",
+          "options": [
+            "1 and 4",
+            "2 and 3",
+            "3 and 4",
+            "1 and 2"
+          ],
+          "answer": "1 and 2",
+          "explanation": {
+            "1 and 4": "Not the best pair per ITIL guidance.",
+            "2 and 3": "Excludes 'every initiative' and 'all stakeholders'.",
+            "3 and 4": "Too narrow.",
+            "1 and 2": "Correct: in every initiative and in relationships with all stakeholders."
+          }
+        },
+        {
+          "number": 211,
+          "question": "What is the definition of change?",
+          "options": [
+            "To make new and changed services and features available for use",
+            "To ensure that accurate and reliable configuration information is available",
+            "To add, modify, or remove anything that could have a direct or indirect effect on services",
+            "To move new or changed components to live environments"
+          ],
+          "answer": "To add, modify, or remove anything that could have a direct or indirect effect on services",
+          "explanation": {
+            "To make new and changed services and features available for use": "Release management.",
+            "To ensure that accurate and reliable configuration information is available": "Service configuration management.",
+            "To add, modify, or remove anything that could have a direct or indirect effect on services": "Correct: definition of change.",
+            "To move new or changed components to live environments": "Deployment management."
+          }
+        },
+        {
+          "number": 212,
+          "question": "Which of these should be logged and managed as a problem?",
+          "options": [
+            "A monitoring tool detects a change of state for a service",
+            "Trend analysis shows a large number of similar incidents",
+            "Continual improvement needs to prioritize an improvement opportunity",
+            "A user requests the delivery of a laptop"
+          ],
+          "answer": "Trend analysis shows a large number of similar incidents",
+          "explanation": {
+            "A monitoring tool detects a change of state for a service": "Event, not necessarily a problem.",
+            "Trend analysis shows a large number of similar incidents": "Correct: indicates an underlying cause.",
+            "Continual improvement needs to prioritize an improvement opportunity": "CI activity, not a problem record.",
+            "A user requests the delivery of a laptop": "Service request."
+          }
+        },
+        {
+          "number": 213,
+          "question": "What is a cause, or potential cause, of one or more incidents?",
+          "options": [
+            "A problem",
+            "An incident",
+            "A configuration item",
+            "A workaround"
+          ],
+          "answer": "A problem",
+          "explanation": {
+            "A problem": "Correct: definition.",
+            "An incident": "Unplanned interruption or quality reduction.",
+            "A configuration item": "A managed component.",
+            "A workaround": "A temporary solution to reduce impact."
+          }
+        },
+        {
+          "number": 214,
+          "question": "Which of these dimensions includes activities and workflows?",
+          "options": [
+            "Information and technology",
+            "Value streams and processes",
+            "Partners and suppliers",
+            "Organizations and people"
+          ],
+          "answer": "Value streams and processes",
+          "explanation": {
+            "Information and technology": "Focuses on information and tooling.",
+            "Value streams and processes": "Correct: activities/workflows.",
+            "Partners and suppliers": "External relationships.",
+            "Organizations and people": "Roles, skills, structures, culture."
+          }
+        },
+        {
+          "number": 215,
+          "question": "Which role submits service requests?",
+          "options": [
+            "The customer, or their authorized representative",
+            "The sponsor, or their authorized representative",
+            "The supplier, or their authorized representative",
+            "The user, or their authorized representative"
+          ],
+          "answer": "The user, or their authorized representative",
+          "explanation": {
+            "The customer, or their authorized representative": "Defines requirements and owns outcomes.",
+            "The sponsor, or their authorized representative": "Authorizes budget.",
+            "The supplier, or their authorized representative": "Third party.",
+            "The user, or their authorized representative": "Correct: initiates service requests."
+          }
+        },
+        {
+          "number": 216,
+          "question": "Identify the missing words: The management of information security incidents usually requires _______.",
+          "options": [
+            "Third-party support",
+            "A separate process",
+            "Immediate escalation",
+            "Specialist teams"
+          ],
+          "answer": "A separate process",
+          "explanation": {
+            "Third-party support": "May be involved, but not the standard statement.",
+            "A separate process": "Correct: often handled by a dedicated security incident process.",
+            "Immediate escalation": "Not always; depends on severity.",
+            "Specialist teams": "Often required, but the key point is the separate process."
+          }
+        },
+        {
+          "number": 217,
+          "question": "Which practice has a purpose that includes restoring normal service operation as quickly as possible?",
+          "options": [
+            "Supplier management",
+            "Incident management",
+            "Deployment management",
+            "Problem management"
+          ],
+          "answer": "Incident management",
+          "explanation": {
+            "Supplier management": "Manages suppliers.",
+            "Incident management": "Correct: restore normal service quickly.",
+            "Deployment management": "Moves components to environments.",
+            "Problem management": "Reduces likelihood and impact of incidents."
+          }
+        },
+        {
+          "number": 218,
+          "question": "What is a means of enabling value co-creation by facilitating outcomes that customers want to achieve?",
+          "options": [
+            "An output",
+            "A practice",
+            "A service",
+            "Continual improvement"
+          ],
+          "answer": "A service",
+          "explanation": {
+            "An output": "Deliverable from an activity.",
+            "A practice": "Organizational resources designed to perform work.",
+            "A service": "Correct: ITIL definition.",
+            "Continual improvement": "Practice for improvement."
+          }
+        },
+        {
+          "number": 219,
+          "question": "Describe normal changes.",
+          "options": [
+            "Changes that must be implemented as soon as possible",
+            "Changes that are typically initiated as service requests",
+            "Changes that are low-risk and pre-authorized",
+            "Changes that need to be scheduled and assessed following a process"
+          ],
+          "answer": "Changes that need to be scheduled and assessed following a process",
+          "explanation": {
+            "Changes that must be implemented as soon as possible": "Emergency change.",
+            "Changes that are typically initiated as service requests": "Standard change.",
+            "Changes that are low-risk and pre-authorized": "Standard change.",
+            "Changes that need to be scheduled and assessed following a process": "Correct: normal change."
+          }
+        },
+        {
+          "number": 220,
+          "question": "When should a full risk assessment and authorization be carried out for a standard change?",
+          "options": [
+            "When an emergency change is requested",
+            "At least once a year",
+            "Each time the standard change is implemented",
+            "When the procedure for the standard change is created"
+          ],
+          "answer": "When the procedure for the standard change is created",
+          "explanation": {
+            "When an emergency change is requested": "Emergency has expedited handling.",
+            "At least once a year": "No such periodic rule in ITIL.",
+            "Each time the standard change is implemented": "Not required; pre-authorized by the model.",
+            "When the procedure for the standard change is created": "Correct: assess and authorize the model."
+          }
+        },
+        {
+          "number": 221,
+          "question": "Which is an external input to the service value chain?",
+          "options": [
+            "Customer requirements",
+            "Feedback loops",
+            "The improve value chain activity",
+            "An overall plan"
+          ],
+          "answer": "Customer requirements",
+          "explanation": {
+            "Customer requirements": "Correct: part of demand input to the SVS/SVC.",
+            "Feedback loops": "Internal learning loops.",
+            "The improve value chain activity": "An activity, not an external input.",
+            "An overall plan": "Plan is an internal SVC artifact."
+          }
+        },
+        {
+          "number": 222,
+          "question": "Identify the missing word: A change is defined as the addition, modification, or removal of anything that could have a direct or indirect effect on ________.",
+          "options": [
+            "Values",
+            "Services",
+            "Elements",
+            "Assets"
+          ],
+          "answer": "Services",
+          "explanation": {
+            "Values": "Not the term used in the definition.",
+            "Services": "Correct: effect on services.",
+            "Elements": "Too vague.",
+            "Assets": "Not the definition."
+          }
+        },
+        {
+          "number": 223,
+          "question": "Identify the missing words: The purpose of the ________ is to ensure that the organization continually cocreates value with all stakeholders in line with the organization's objectives.",
+          "options": [
+            "Service value system",
+            "Focus on value guiding principle",
+            "Service request management practice",
+            "Four dimensions of service management"
+          ],
+          "answer": "Service value system",
+          "explanation": {
+            "Service value system": "Correct: purpose of the SVS.",
+            "Focus on value guiding principle": "A principle, not the overall framework.",
+            "Service request management practice": "Handles predefined requests.",
+            "Four dimensions of service management": "Context model, not the overarching system."
+          }
+        },
+        {
+          "number": 224,
+          "question": "Which practice ensures that accurate and reliable information is available about configuration items and the relationships between them?",
+          "options": [
+            "Service desk",
+            "Monitoring and event management",
+            "Service configuration management",
+            "IT asset management"
+          ],
+          "answer": "Service configuration management",
+          "explanation": {
+            "Service desk": "SPOC for users.",
+            "Monitoring and event management": "Observes events.",
+            "Service configuration management": "Correct: manages CI info and relationships.",
+            "IT asset management": "Covers asset lifecycle, not the CMDB."
+          }
+        },
+        {
+          "number": 225,
+          "question": "Define an IT asset.",
+          "options": [
+            "Any financially valuable component that can contribute to the delivery of an IT product or service",
+            "Any component that needs to be managed in order to deliver a service",
+            "A request from a user that initiates a service action",
+            "The removal of anything that could have a direct or indirect effect on services"
+          ],
+          "answer": "Any financially valuable component that can contribute to the delivery of an IT product or service",
+          "explanation": {
+            "Any financially valuable component that can contribute to the delivery of an IT product or service": "Correct.",
+            "Any component that needs to be managed in order to deliver a service": "Configuration item.",
+            "A request from a user that initiates a service action": "Service request.",
+            "The removal of anything that could have a direct or indirect effect on services": "Change."
+          }
+        },
+        {
+          "number": 226,
+          "question": "Which ITIL practice recommends performing service reviews to ensure that services continue to meet the needs of the organization?",
+          "options": [
+            "Service configuration management",
+            "Service request management",
+            "Service desk",
+            "Service level management"
+          ],
+          "answer": "Service level management",
+          "explanation": {
+            "Service configuration management": "Maintains CI information.",
+            "Service request management": "Handles predefined requests.",
+            "Service desk": "SPOC and coordination.",
+            "Service level management": "Correct: recommends regular service reviews."
+          }
+        },
+        {
+          "number": 227,
+          "question": "Define the main purpose of the 'relationship management' practice.",
+          "options": [
+            "To establish and nurture the links between the organization and its stakeholders",
+            "To support the agreed quality of a service by handling all agreed, user-initiated service requests",
+            "To align the organization's practices and services with changing business needs",
+            "To set clear business-based targets for service performance"
+          ],
+          "answer": "To establish and nurture the links between the organization and its stakeholders",
+          "explanation": {
+            "To establish and nurture the links between the organization and its stakeholders": "Correct.",
+            "To support the agreed quality of a service by handling all agreed, user-initiated service requests": "Service request management.",
+            "To align the organization's practices and services with changing business needs": "Continual improvement.",
+            "To set clear business-based targets for service performance": "Service level management."
+          }
+        },
+        {
+          "number": 228,
+          "question": "What should be used to set user expectations for request fulfilment times?",
+          "options": [
+            "The frequency of the customer's requests for service delivery",
+            "The consumer demand for the service",
+            "The service levels of the supplier",
+            "The time needed to realistically deliver the service"
+          ],
+          "answer": "The time needed to realistically deliver the service",
+          "explanation": {
+            "The frequency of the customer's requests for service delivery": "Demand affects planning, not the promise.",
+            "The consumer demand for the service": "Demand is not the sole basis for promised times.",
+            "The service levels of the supplier": "An input, but not the full basis.",
+            "The time needed to realistically deliver the service": "Correct."
+          }
+        },
+        {
+          "number": 229,
+          "question": "How should the workflow for a new service request be designed?",
+          "options": [
+            "Use a single workflow for all types of service request",
+            "Use different workflows for each type of service request",
+            "Leverage existing workflows whenever possible",
+            "Avoid workflows for simple service requests"
+          ],
+          "answer": "Leverage existing workflows whenever possible",
+          "explanation": {
+            "Use a single workflow for all types of service request": "Too rigid; complexity varies.",
+            "Use different workflows for each type of service request": "Can cause proliferation; reuse patterns instead.",
+            "Leverage existing workflows whenever possible": "Correct: reuse models for efficiency/maintainability.",
+            "Avoid workflows for simple service requests": "Workflows (even simple ones) help standardization."
+          }
+        },
+        {
+          "number": 230,
+          "question": "Which practice protects the information needed by the organization to conduct its business?",
+          "options": [
+            "Supplier Management",
+            "Incident Management",
+            "Information Security Management",
+            "None of the options"
+          ],
+          "answer": "Information Security Management",
+          "explanation": {
+            "Supplier Management": "Manages suppliers.",
+            "Incident Management": "Restores service.",
+            "Information Security Management": "Correct: protects information.",
+            "None of the options": "Incorrect."
+          }
+        },
+        {
+          "number": 231,
+          "question": "What is an output?",
+          "options": [
+            "Something created by carrying out an activity",
+            "A result for a stakeholder",
+            "A possible event that could cause harm or loss",
+            "A change of state that has significance for the management of a configuration item"
+          ],
+          "answer": "Something created by carrying out an activity",
+          "explanation": {
+            "Something created by carrying out an activity": "Correct: definition of output.",
+            "A result for a stakeholder": "Outcome.",
+            "A possible event that could cause harm or loss": "Risk.",
+            "A change of state that has significance for the management of a configuration item": "Event."
+          }
+        },
+        {
+          "number": 232,
+          "question": "What helps diagnose and resolve a simple incident?",
+          "options": [
+            "Problem prioritization",
+            "Rapid escalation",
+            "The use of scripts",
+            "Formation of a temporary team"
+          ],
+          "answer": "The use of scripts",
+          "explanation": {
+            "Problem prioritization": "Problem management activity.",
+            "Rapid escalation": "Used when necessary, not for 'simple' incidents.",
+            "The use of scripts": "Correct: facilitates quick triage/resolution.",
+            "Formation of a temporary team": "Major incident practice."
+          }
+        },
+        {
+          "number": 233,
+          "question": "What is a service value chain?",
+          "options": [
+            "It is a set of organizational resources designed for performing work or accomplishing an objective.",
+            "It is a set of interconnected activities that an organization performs to deliver a valuable product or service.",
+            "It is a means by which an organization is directed and controlled.",
+            "None of the options"
+          ],
+          "answer": "It is a set of interconnected activities that an organization performs to deliver a valuable product or service.",
+          "explanation": {
+            "It is a set of organizational resources designed for performing work or accomplishing an objective.": "Describes a practice.",
+            "It is a set of interconnected activities that an organization performs to deliver a valuable product or service.": "Correct: SVC.",
+            "It is a means by which an organization is directed and controlled.": "Governance.",
+            "None of the options": "Incorrect."
+          }
+        },
+        {
+          "number": 234,
+          "question": "What is the reason for using a balanced bundle of service metrics?",
+          "options": [
+            "It reduces the number of metrics that need to be collected",
+            "It facilitates the automatic collection of metrics",
+            "It reports each service element separately",
+            "It provides an outcome-based view of services"
+          ],
+          "answer": "It provides an outcome-based view of services",
+          "explanation": {
+            "It reduces the number of metrics that need to be collected": "Not necessarily; focus is on balance/outcomes.",
+            "It facilitates the automatic collection of metrics": "Automation is a tooling matter.",
+            "It reports each service element separately": "Can lead to siloed metrics.",
+            "It provides an outcome-based view of services": "Correct."
+          }
+        },
+        {
+          "number": 235,
+          "question": "What is the purpose of the 'engage' value chain activity?",
+          "options": [
+            "Ensuring the continual improvement of services",
+            "Ensuring that the organization's vision is understood",
+            "Providing transparency and good relationships",
+            "Meeting expectations for quality, costs and time-to-market"
+          ],
+          "answer": "Providing transparency and good relationships",
+          "explanation": {
+            "Ensuring the continual improvement of services": "Improve activity.",
+            "Ensuring that the organization's vision is understood": "Plan activity.",
+            "Providing transparency and good relationships": "Correct: Engage.",
+            "Meeting expectations for quality, costs and time-to-market": "Design & transition activity."
+          }
+        },
+        {
+          "number": 236,
+          "question": "Change enablement PRIMARILY focuses on?",
+          "options": [
+            "Changes to organizational structure",
+            "Changes to products and services",
+            "Changes to skills and competencies",
+            "Changes to service levels"
+          ],
+          "answer": "Changes to products and services",
+          "explanation": {
+            "Changes to organizational structure": "Organizational change management.",
+            "Changes to products and services": "Correct: scope of change enablement.",
+            "Changes to skills and competencies": "People changes (OCM).",
+            "Changes to service levels": "SLM/agreements."
+          }
+        },
+        {
+          "number": 237,
+          "question": "Which is the most important skill required by service desk staff?",
+          "options": [
+            "Problem resolution skills",
+            "Incident analysis skills",
+            "Technical skills",
+            "Supplier management skills"
+          ],
+          "answer": "Incident analysis skills",
+          "explanation": {
+            "Problem resolution skills": "Resolver groups; desk focuses on triage.",
+            "Incident analysis skills": "Correct: triage/prioritization/communication.",
+            "Technical skills": "Useful but not the key.",
+            "Supplier management skills": "Supplier management practice."
+          }
+        },
+        {
+          "number": 238,
+          "question": "Which one of the below is a part of service provision?",
+          "options": [
+            "The joint activities performed to ensure continuous value cocreation",
+            "The grouping of one or more services based on one or more products",
+            "The management of resources configured to deliver the service",
+            "The management of resources needed to provide the service"
+          ],
+          "answer": "The management of resources configured to deliver the service",
+          "explanation": {
+            "The joint activities performed to ensure continuous value cocreation": "Service relationship management.",
+            "The grouping of one or more services based on one or more products": "Portfolio/catalogue concepts.",
+            "The management of resources configured to deliver the service": "Correct: part of provisioning.",
+            "The management of resources needed to provide the service": "Ambiguous phrasing; 'configured to deliver' is precise."
+          }
+        },
+        {
+          "number": 239,
+          "question": "Which of the below includes governance as a component?",
+          "options": [
+            "The service value chain",
+            "The service value system",
+            "Practices",
+            "The guiding principles"
+          ],
+          "answer": "The service value system",
+          "explanation": {
+            "The service value chain": "Component of the SVS.",
+            "The service value system": "Correct: includes governance.",
+            "Practices": "Resources/methods for work.",
+            "The guiding principles": "Recommendations, not governance."
+          }
+        },
+        {
+          "number": 240,
+          "question": "Which statement about a service value stream is TRUE?",
+          "options": [
+            "It integrates practices for a specific scenario",
+            "It is a value chain activity",
+            "It is used to provide governance",
+            "It uses prescriptive inputs and outputs"
+          ],
+          "answer": "It integrates practices for a specific scenario",
+          "explanation": {
+            "It integrates practices for a specific scenario": "Correct.",
+            "It is a value chain activity": "No, it combines multiple activities.",
+            "It is used to provide governance": "Governance is part of the SVS.",
+            "It uses prescriptive inputs and outputs": "Streams are flexible."
+          }
+        },
+        {
+          "number": 241,
+          "question": "Which of the dimensions focuses on relationships with other organizations involved in the design, development, deployment, and delivery of services?",
+          "options": [
+            "Partners and suppliers",
+            "Organizations and people",
+            "Value streams and processes",
+            "Information and technology"
+          ],
+          "answer": "Partners and suppliers",
+          "explanation": {
+            "Partners and suppliers": "Correct: external relationships.",
+            "Organizations and people": "Culture, roles, competencies.",
+            "Value streams and processes": "Activities/workflows.",
+            "Information and technology": "Information, tooling, platforms."
+          }
+        },
+        {
+          "number": 242,
+          "question": "What does the service request management practice depend on for maximum efficiency?",
+          "options": [
+            "Compliments and complaints",
+            "Processes and procedures",
+            "Self-service tools",
+            "Incident management"
+          ],
+          "answer": "Processes and procedures",
+          "explanation": {
+            "Compliments and complaints": "Can be SRs, but not the efficiency driver.",
+            "Processes and procedures": "Correct: well-designed processes and procedures.",
+            "Self-service tools": "Helpful enablers, not the foundation.",
+            "Incident management": "Separate practice."
+          }
+        },
+        {
+          "number": 243,
+          "question": "Which statements about the 'service request management' practice are CORRECT?",
+          "options": [
+            "1 and 2",
+            "3 and 4",
+            "2 and 3",
+            "1 and 4"
+          ],
+          "answer": "1 and 2",
+          "explanation": {
+            "1 and 2": "Correct: SRs are part of normal delivery; complaints can be SRs.",
+            "3 and 4": "3 is false; 4 misplaces normal changes under SRM.",
+            "2 and 3": "3 is false (SRs are not failures).",
+            "1 and 4": "4 is not universally true for normal changes."
+          }
+        },
+        {
+          "number": 244,
+          "question": "What is the purpose of the supplier management practice?",
+          "options": [
+            "To ensure that accurate and reliable information about the configuration of suppliers' services is available",
+            "To ensure that the organization's suppliers and their performance are managed appropriately to support the seamless provision of quality products and services",
+            "To align practices and services with changing business needs through the ongoing identification and improvement of services",
+            "To ensure that the organization's suppliers and their performance are managed at strategic and tactical levels through coordinated activities"
+          ],
+          "answer": "To ensure that the organization's suppliers and their performance are managed appropriately to support the seamless provision of quality products and services",
+          "explanation": {
+            "To ensure that accurate and reliable information about the configuration of suppliers' services is available": "Sounds like CMDB for suppliers; not the purpose.",
+            "To ensure that the organization's suppliers and their performance are managed appropriately to support the seamless provision of quality products and services": "Correct.",
+            "To align practices and services with changing business needs through the ongoing identification and improvement of services": "Continual improvement purpose.",
+            "To ensure that the organization's suppliers and their performance are managed at strategic and tactical levels through coordinated activities": "Close, but the standard wording focuses on supporting seamless, quality provision."
+          }
+        },
+        {
+          "number": 245,
+          "question": "Which of the following describes outcomes?",
+          "options": [
+            "Results desired by a stakeholder",
+            "Configuration of an organization's resources",
+            "Functionality offered by a product or service",
+            "Tangible or intangible deliverables"
+          ],
+          "answer": "Results desired by a stakeholder",
+          "explanation": {
+            "Results desired by a stakeholder": "Correct: definition of outcome.",
+            "Configuration of an organization's resources": "Product.",
+            "Functionality offered by a product or service": "Utility.",
+            "Tangible or intangible deliverables": "Outputs."
+          }
+        }
+      ]
+    }
+  ]
+}
+

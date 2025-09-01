@@ -1,0 +1,691 @@
+{
+  "chapters": [
+    {
+      "chapter": "ITIL 4 test 1_5 (EN)",
+      "description": "ITIL 4 - Practice Test 1_5 (EN, questions 161-200)",
+      "questions": [
+        {
+          "number": 161,
+          "question": "What are the two types of cost that a service consumer should evaluate?",
+          "options": [
+            "The cost of provisioning the service, and the cost of improving the service",
+            "The cost of software, and the cost of hardware",
+            "The costs removed by the service, and the costs imposed by the service",
+            "The price of the service, and the cost of creating the service"
+          ],
+          "answer": "The costs removed by the service, and the costs imposed by the service",
+          "explanation": {
+            "The cost of provisioning the service, and the cost of improving the service": "Too provider-centric; consumer view is removed vs. imposed.",
+            "The cost of software, and the cost of hardware": "Examples, not the cost types in ITIL.",
+            "The costs removed by the service, and the costs imposed by the service": "Correct: consumer perspective.",
+            "The price of the service, and the cost of creating the service": "Creation cost is not the consumer view."
+          }
+        },
+        {
+          "number": 162,
+          "question": "Which is the best example of an emergency change?",
+          "options": [
+            "A scheduled major hardware and software implementation",
+            "The implementation of a security patch to a critical software application",
+            "A low-risk computer upgrade implemented as a service request",
+            "The implementation of a planned new release of a software application"
+          ],
+          "answer": "The implementation of a security patch to a critical software application",
+          "explanation": {
+            "A scheduled major hardware and software implementation": "Planned change, not emergency.",
+            "The implementation of a security patch to a critical software application": "Correct: needs immediate implementation.",
+            "A low-risk computer upgrade implemented as a service request": "Typical standard change via SRM.",
+            "The implementation of a planned new release of a software application": "Release/change, not emergency."
+          }
+        },
+        {
+          "number": 163,
+          "question": "Mention the three phases of problem management.",
+          "options": [
+            "Problem logging, problem classification, problem resolution",
+            "Incident management, problem management, change control",
+            "Problem identification, problem control, error control",
+            "Problem analysis, error identification, incident resolution"
+          ],
+          "answer": "Problem identification, problem control, error control",
+          "explanation": {
+            "Problem logging, problem classification, problem resolution": "Not the ITIL phase names.",
+            "Incident management, problem management, change control": "Mix of practices, not phases.",
+            "Problem identification, problem control, error control": "Correct.",
+            "Problem analysis, error identification, incident resolution": "Not the ITIL phrasing."
+          }
+        },
+        {
+          "number": 164,
+          "question": "Which practice requires demonstration of excellent customer service skills, such as empathy and emotional intelligence?",
+          "options": [
+            "Service desk",
+            "Supplier management",
+            "Problem management",
+            "Release management"
+          ],
+          "answer": "Service desk",
+          "explanation": {
+            "Service desk": "Correct: front-line customer interaction.",
+            "Supplier management": "Focus on suppliers and contracts.",
+            "Problem management": "Analytical skills; customer service is secondary.",
+            "Release management": "Availability of new or changed services."
+          }
+        },
+        {
+          "number": 165,
+          "question": "Which practice provides visibility of the organization's services by capturing and reporting on service performance?",
+          "options": [
+            "Service configuration management",
+            "Service desk",
+            "Service request management",
+            "Service level management"
+          ],
+          "answer": "Service level management",
+          "explanation": {
+            "Service configuration management": "Maintains CI information.",
+            "Service desk": "SPOC for users.",
+            "Service request management": "Handles predefined requests.",
+            "Service level management": "Correct: captures and reports service performance."
+          }
+        },
+        {
+          "number": 166,
+          "question": "Which is a low-risk change that has been pre-approved so that no additional authorization is needed?",
+          "options": [
+            "A change model",
+            "An emergency change",
+            "A normal change",
+            "A standard change"
+          ],
+          "answer": "A standard change",
+          "explanation": {
+            "A change model": "Template/process for change handling, not a change type.",
+            "An emergency change": "High urgency; expedited authorization.",
+            "A normal change": "Assessed and authorized case-by-case.",
+            "A standard change": "Correct: low risk and pre-authorized."
+          }
+        },
+        {
+          "number": 167,
+          "question": "Identify the missing word: The purpose of the information security management practice is to ______ the organization's information.",
+          "options": [
+            "Provide",
+            "Store",
+            "Protect",
+            "Audit"
+          ],
+          "answer": "Protect",
+          "explanation": {
+            "Provide": "Not the purpose of ISM.",
+            "Store": "Storage is an activity, not the purpose.",
+            "Protect": "Correct: protect information.",
+            "Audit": "Audit is a control activity, not the purpose."
+          }
+        },
+        {
+          "number": 168,
+          "question": "Which ITIL concept describes governance?",
+          "options": [
+            "The seven guiding principles",
+            "The service value chain",
+            "The service value system",
+            "The four dimensions of service management"
+          ],
+          "answer": "The service value system",
+          "explanation": {
+            "The seven guiding principles": "Advice for decision-making.",
+            "The service value chain": "Operating model component.",
+            "The service value system": "Correct: includes governance as a component.",
+            "The four dimensions of service management": "Context model."
+          }
+        },
+        {
+          "number": 169,
+          "question": "What is the purpose of the deployment management practice?",
+          "options": [
+            "To set clear business-based targets for service performance",
+            "To ensure services achieve agreed and expected performance",
+            "To move new or changed components to live environments",
+            "To make new or changed services available for use"
+          ],
+          "answer": "To move new or changed components to live environments",
+          "explanation": {
+            "To set clear business-based targets for service performance": "Service level management.",
+            "To ensure services achieve agreed and expected performance": "Assurance/warranty perspective.",
+            "To move new or changed components to live environments": "Correct: deployment management.",
+            "To make new or changed services available for use": "Release management."
+          }
+        },
+        {
+          "number": 170,
+          "question": "Which statement about outcomes is correct?",
+          "options": [
+            "An output can be enabled by one or more outcomes",
+            "An output can be enabled by more than one outcome",
+            "Outcomes are how the service performs",
+            "An outcome can be enabled by more than one output"
+          ],
+          "answer": "An outcome can be enabled by more than one output",
+          "explanation": {
+            "An output can be enabled by one or more outcomes": "Reversed.",
+            "An output can be enabled by more than one outcome": "Reversed.",
+            "Outcomes are how the service performs": "Performance belongs to warranty/metrics.",
+            "An outcome can be enabled by more than one output": "Correct."
+          }
+        },
+        {
+          "number": 171,
+          "question": "Which statement about known errors is correct?",
+          "options": [
+            "Known errors are managed by technical staff, problems are managed by service management staff",
+            "Known errors cause vulnerabilities, problems cause incidents",
+            "A known error is the cause of one or more problems",
+            "Known error is a problem that has been analyzed but has not been resolved"
+          ],
+          "answer": "Known error is a problem that has been analyzed but has not been resolved",
+          "explanation": {
+            "Known errors are managed by technical staff, problems are managed by service management staff": "Not an ITIL definition.",
+            "Known errors cause vulnerabilities, problems cause incidents": "Not an ITIL statement.",
+            "A known error is the cause of one or more problems": "Reversed; problems cause incidents.",
+            "Known error is a problem that has been analyzed but has not been resolved": "Correct."
+          }
+        },
+        {
+          "number": 172,
+          "question": "Which practice has the purpose to ensure that risks have been properly assessed?",
+          "options": [
+            "Service level management",
+            "Service configuration management",
+            "Change enablement",
+            "Problem management"
+          ],
+          "answer": "Change enablement",
+          "explanation": {
+            "Service level management": "Targets and reviews.",
+            "Service configuration management": "Configuration information.",
+            "Change enablement": "Correct: assess and authorize risk for changes.",
+            "Problem management": "Reduce incident likelihood and impact."
+          }
+        },
+        {
+          "number": 173,
+          "question": "Which principle concentrates on service consumers?",
+          "options": [
+            "Start where you are",
+            "Keep it simple",
+            "Optimize and automate",
+            "Focus on value"
+          ],
+          "answer": "Focus on value",
+          "explanation": {
+            "Start where you are": "Reuse and observe current state.",
+            "Keep it simple": "Simplicity principle.",
+            "Optimize and automate": "Efficiency principle.",
+            "Focus on value": "Correct: consumer-centric value."
+          }
+        },
+        {
+          "number": 174,
+          "question": "Which practice recommends using tools for collaboration and the automated matching of symptoms?",
+          "options": [
+            "Incident management",
+            "Service level management",
+            "Service request management",
+            "Problem management"
+          ],
+          "answer": "Incident management",
+          "explanation": {
+            "Incident management": "Correct: modern tools can auto-match incidents to problems/known errors.",
+            "Service level management": "Targets and reporting.",
+            "Service request management": "Handles predefined requests.",
+            "Problem management": "Analyzes causes; automated matching is mentioned more with incident tooling."
+          }
+        },
+        {
+          "number": 175,
+          "question": "Select the CORRECT approach to change authorization.",
+          "options": [
+            "Emergency changes should be authorized by as many people as possible to reduce risk",
+            "Normal changes should be assessed and authorized before they are deployed",
+            "Changes included in the change schedule are pre-authorized and do not need additional authorization",
+            "Normal changes are typically implemented as service requests and authorized by the service desk"
+          ],
+          "answer": "Normal changes should be assessed and authorized before they are deployed",
+          "explanation": {
+            "Emergency changes should be authorized by as many people as possible to reduce risk": "Incorrect: authorization is expedited, not expanded.",
+            "Normal changes should be assessed and authorized before they are deployed": "Correct.",
+            "Changes included in the change schedule are pre-authorized and do not need additional authorization": "Incorrect: schedule does not replace authorization.",
+            "Normal changes are typically implemented as service requests and authorized by the service desk": "Incorrect."
+          }
+        },
+        {
+          "number": 176,
+          "question": "Which practice confirms the customer requirements for services?",
+          "options": [
+            "Service request management",
+            "Incident management",
+            "Service desk",
+            "Service level management"
+          ],
+          "answer": "Service level management",
+          "explanation": {
+            "Service request management": "Fulfills predefined requests.",
+            "Incident management": "Restores service.",
+            "Service desk": "SPOC and coordination.",
+            "Service level management": "Correct: confirms requirements and targets."
+          }
+        },
+        {
+          "number": 177,
+          "question": "Which is NOT a key focus of the information and technology dimension?",
+          "options": [
+            "Workflow management and inventory systems",
+            "Communication systems and knowledge bases",
+            "Roles and responsibilities",
+            "Security and compliance"
+          ],
+          "answer": "Roles and responsibilities",
+          "explanation": {
+            "Workflow management and inventory systems": "Part of I&T tooling.",
+            "Communication systems and knowledge bases": "Part of I&T.",
+            "Roles and responsibilities": "Correct: this is Organizations and people.",
+            "Security and compliance": "Information management focus within I&T."
+          }
+        },
+        {
+          "number": 178,
+          "question": "What are typically recognized through notifications created by an IT service, CI, or monitoring tool?",
+          "options": [
+            "Events",
+            "Requests",
+            "Incidents",
+            "Problems"
+          ],
+          "answer": "Events",
+          "explanation": {
+            "Events": "Correct: recognized via notifications.",
+            "Requests": "User-initiated actions.",
+            "Incidents": "Unplanned interruptions or quality reduction.",
+            "Problems": "Causes or potential causes of incidents."
+          }
+        },
+        {
+          "number": 179,
+          "question": "Which MOST helps an organization adapt ITIL concepts so that they apply to the organization's specific circumstances?",
+          "options": [
+            "Guiding principles",
+            "Practices",
+            "Continual improvement",
+            "Service value chain"
+          ],
+          "answer": "Guiding principles",
+          "explanation": {
+            "Guiding principles": "Correct: they guide adopt-and-adapt.",
+            "Practices": "Describe how to perform work.",
+            "Continual improvement": "Improves, but principles give adaptation guidance.",
+            "Service value chain": "Operating model."
+          }
+        },
+        {
+          "number": 180,
+          "question": "Which guiding principle recommends collecting data before deciding what can be reused?",
+          "options": [
+            "Start where you are",
+            "Keep it simple and practical",
+            "Progress iteratively with feedback",
+            "Focus on value"
+          ],
+          "answer": "Start where you are",
+          "explanation": {
+            "Start where you are": "Correct: measure/observe first, then reuse.",
+            "Keep it simple and practical": "Minimize steps/complexity.",
+            "Progress iteratively with feedback": "Small steps with feedback.",
+            "Focus on value": "Value-centric."
+          }
+        },
+        {
+          "number": 181,
+          "question": "When should a change request be submitted to resolve a problem?",
+          "options": [
+            "As soon as the analysis of the frequency and impact of incidents justifies the change",
+            "As soon as a workaround for the problem has been identified",
+            "As soon as a solution for the problem has been identified",
+            "As soon as the analysis of cost, risks, and benefits justifies the change"
+          ],
+          "answer": "As soon as the analysis of cost, risks, and benefits justifies the change",
+          "explanation": {
+            "As soon as the analysis of the frequency and impact of incidents justifies the change": "Part of the analysis, but decision balances cost, risk, and benefit.",
+            "As soon as a workaround for the problem has been identified": "Workaround is temporary; not the trigger for change.",
+            "As soon as a solution for the problem has been identified": "Feasibility is not enough without cost/risk/benefit analysis.",
+            "As soon as the analysis of cost, risks, and benefits justifies the change": "Correct."
+          }
+        },
+        {
+          "number": 182,
+          "question": "Which is a key consideration for the guiding principle 'keep it simple and practical'?",
+          "options": [
+            "Ignore the conflicting objectives of different stakeholders",
+            "Try to create a solution for every exception",
+            "Start with a complex solution, then simplify",
+            "Understand how each element contributes to value creation"
+          ],
+          "answer": "Understand how each element contributes to value creation",
+          "explanation": {
+            "Ignore the conflicting objectives of different stakeholders": "Opposite of good practice.",
+            "Try to create a solution for every exception": "Leads to complexity.",
+            "Start with a complex solution, then simplify": "Reverse of the principle.",
+            "Understand how each element contributes to value creation": "Correct."
+          }
+        },
+        {
+          "number": 183,
+          "question": "Which of the following is NOT a characteristic of an organization's culture?",
+          "options": [
+            "A culture of assigning blame",
+            "A culture of trust and transparency",
+            "Effective communication",
+            "Shared values and attitudes"
+          ],
+          "answer": "A culture of assigning blame",
+          "explanation": {
+            "A culture of assigning blame": "Correct: this undermines effectiveness.",
+            "A culture of trust and transparency": "Positive cultural aspect.",
+            "Effective communication": "Positive cultural aspect.",
+            "Shared values and attitudes": "Core element of culture."
+          }
+        },
+        {
+          "number": 184,
+          "question": "Which guiding principle recommends coordinating all dimensions of service management?",
+          "options": [
+            "Start where you are",
+            "Keep it simple and practical",
+            "Think and work holistically",
+            "Progress iteratively with feedback"
+          ],
+          "answer": "Think and work holistically",
+          "explanation": {
+            "Start where you are": "Reuse/measure.",
+            "Keep it simple and practical": "Simplicity.",
+            "Think and work holistically": "Correct: coordinate all dimensions.",
+            "Progress iteratively with feedback": "Iteration."
+          }
+        },
+        {
+          "number": 185,
+          "question": "Which of the following terms determines if a service is fit for purpose?",
+          "options": [
+            "Risk",
+            "Utility",
+            "Warranty",
+            "Value"
+          ],
+          "answer": "Utility",
+          "explanation": {
+            "Risk": "Potential events/uncertainty.",
+            "Utility": "Correct: functionality (fit for purpose).",
+            "Warranty": "Fit for use (assurance).",
+            "Value": "Perceived benefits/importance."
+          }
+        },
+        {
+          "number": 186,
+          "question": "How do all value chain activities transform inputs to outputs?",
+          "options": [
+            "By implementing process automation",
+            "By using a single functional team",
+            "By using a combination of practices",
+            "By determining service demand"
+          ],
+          "answer": "By using a combination of practices",
+          "explanation": {
+            "By implementing process automation": "Automation may help, but not required.",
+            "By using a single functional team": "Silos are discouraged.",
+            "By using a combination of practices": "Correct: practices underpin activities.",
+            "By determining service demand": "Input to the SVS, not how activities transform."
+          }
+        },
+        {
+          "number": 187,
+          "question": "Which value chain activity ensures people understand the organization's vision?",
+          "options": [
+            "Deliver and support",
+            "Obtain or build",
+            "Improve",
+            "Plan"
+          ],
+          "answer": "Plan",
+          "explanation": {
+            "Deliver and support": "Delivery and support of services.",
+            "Obtain or build": "Make components available.",
+            "Improve": "Improvement across activities.",
+            "Plan": "Correct: shared understanding of vision and status."
+          }
+        },
+        {
+          "number": 188,
+          "question": "Which guiding principle is primarily concerned with end-to-end service delivery?",
+          "options": [
+            "Collaborate and promote visibility",
+            "Focus on value",
+            "Think and work holistically",
+            "Optimize and automate"
+          ],
+          "answer": "Think and work holistically",
+          "explanation": {
+            "Collaborate and promote visibility": "Transparency and collaboration.",
+            "Focus on value": "Value-centric.",
+            "Think and work holistically": "Correct: end-to-end view across all parts.",
+            "Optimize and automate": "Efficiency."
+          }
+        },
+        {
+          "number": 189,
+          "question": "What are Engage, Plan, and Improve examples of?",
+          "options": [
+            "Service-level management",
+            "Change enablement",
+            "Service value chain activities",
+            "Service value chain inputs"
+          ],
+          "answer": "Service value chain activities",
+          "explanation": {
+            "Service-level management": "A practice.",
+            "Change enablement": "A practice.",
+            "Service value chain activities": "Correct.",
+            "Service value chain inputs": "External demand/opportunities are inputs."
+          }
+        },
+        {
+          "number": 190,
+          "question": "A supplier notifies an organization about a defect in a software product they use. Which practice describes the activities needed to log and manage this?",
+          "options": [
+            "Change enablement",
+            "Incident management",
+            "Service-level management",
+            "Problem management"
+          ],
+          "answer": "Incident management",
+          "explanation": {
+            "Change enablement": "May follow later if a change is needed.",
+            "Incident management": "Correct: log and manage incidents, including with suppliers.",
+            "Service-level management": "Targets and reviews.",
+            "Problem management": "Root-cause analysis; may be triggered later."
+          }
+        },
+        {
+          "number": 191,
+          "question": "Mention one practice that includes observing a service to report selected changes of state identified as events.",
+          "options": [
+            "Information security management",
+            "Incident management",
+            "Monitoring and event management",
+            "Change control"
+          ],
+          "answer": "Monitoring and event management",
+          "explanation": {
+            "Information security management": "Protects information.",
+            "Incident management": "Restores service.",
+            "Monitoring and event management": "Correct: observe and report events.",
+            "Change control": "ITIL v3 term; in ITIL 4: change enablement."
+          }
+        },
+        {
+          "number": 192,
+          "question": "Which practice has a purpose that includes helping the organization to maximize value, control costs, and manage risks?",
+          "options": [
+            "IT asset management",
+            "Relationship management",
+            "Release management",
+            "Service desk"
+          ],
+          "answer": "IT asset management",
+          "explanation": {
+            "IT asset management": "Correct: plan and manage the asset lifecycle for value/cost/risk.",
+            "Relationship management": "Stakeholder relationships.",
+            "Release management": "Availability for use.",
+            "Service desk": "SPOC."
+          }
+        },
+        {
+          "number": 193,
+          "question": "Which is a potential benefit of using an IT service management tool to support the incident management practice?",
+          "options": [
+            "It may provide automated matching of incidents to problems or known errors.",
+            "It may ensure that supplier contracts are aligned with the needs of the service provider.",
+            "It may provide automated resolution and closure of complex incidents.",
+            "It may ensure that the cause of incidents is identified within agreed times."
+          ],
+          "answer": "It may provide automated matching of incidents to problems or known errors.",
+          "explanation": {
+            "It may provide automated matching of incidents to problems or known errors.": "Correct.",
+            "It may ensure that supplier contracts are aligned with the needs of the service provider.": "Supplier management responsibility.",
+            "It may provide automated resolution and closure of complex incidents.": "Complex incidents typically need human expertise.",
+            "It may ensure that the cause of incidents is identified within agreed times.": "Root-cause is problem management and not always time-bound."
+          }
+        },
+        {
+          "number": 194,
+          "question": "Which practice provides support for managing feedback, compliments, and complaints from users?",
+          "options": [
+            "Incident management",
+            "Service request management",
+            "Change enablement",
+            "Problem management"
+          ],
+          "answer": "Service request management",
+          "explanation": {
+            "Incident management": "Restores service.",
+            "Service request management": "Correct: SRs can include feedback, compliments, and complaints.",
+            "Change enablement": "Assesses and authorizes changes.",
+            "Problem management": "Cause analysis."
+          }
+        },
+        {
+          "number": 195,
+          "question": "Which one of the value chain activities ensures that service components meet agreed specifications?",
+          "options": [
+            "Design and transition",
+            "Obtain or build",
+            "Deliver and support",
+            "Plan"
+          ],
+          "answer": "Obtain or build",
+          "explanation": {
+            "Design and transition": "Ensures services meet expectations for quality/cost/time-to-market.",
+            "Obtain or build": "Correct: components available when and where needed and meet specifications.",
+            "Deliver and support": "Delivery and support of services.",
+            "Plan": "Vision, status, direction."
+          }
+        },
+        {
+          "number": 196,
+          "question": "What is the purpose of the relationship management practice?",
+          "options": [
+            "To establish and nurture the links between the organization and its stakeholders at strategic and tactical levels",
+            "To reduce the likelihood and impact of incidents by managing causes, workarounds, and known errors",
+            "To minimize the negative impact of incidents by restoring normal service operation as quickly as possible",
+            "To align the organization's practices and services with changing business needs"
+          ],
+          "answer": "To establish and nurture the links between the organization and its stakeholders at strategic and tactical levels",
+          "explanation": {
+            "To establish and nurture the links between the organization and its stakeholders at strategic and tactical levels": "Correct.",
+            "To reduce the likelihood and impact of incidents by managing causes, workarounds, and known errors": "Problem management.",
+            "To minimize the negative impact of incidents by restoring normal service operation as quickly as possible": "Incident management.",
+            "To align the organization's practices and services with changing business needs": "Continual improvement."
+          }
+        },
+        {
+          "number": 197,
+          "question": "Which is a recommendation of the continual improvement practice?",
+          "options": [
+            "There should at least be a small team dedicated to leading continual improvement efforts.",
+            "Continual improvement should be isolated from other practices.",
+            "All improvements should be managed as multi-phase projects.",
+            "External suppliers should be excluded from improvement initiatives."
+          ],
+          "answer": "There should at least be a small team dedicated to leading continual improvement efforts.",
+          "explanation": {
+            "There should at least be a small team dedicated to leading continual improvement efforts.": "Correct.",
+            "Continual improvement should be isolated from other practices.": "Incorrect.",
+            "All improvements should be managed as multi-phase projects.": "Not required.",
+            "External suppliers should be excluded from improvement initiatives.": "Incorrect: suppliers can be included."
+          }
+        },
+        {
+          "number": 198,
+          "question": "Which practice provides a single point of contact for users?",
+          "options": [
+            "Service desk",
+            "Incident management",
+            "Service request management",
+            "Change enablement"
+          ],
+          "answer": "Service desk",
+          "explanation": {
+            "Service desk": "Correct: entry and single point of contact.",
+            "Incident management": "Restores service.",
+            "Service request management": "Fulfills predefined requests.",
+            "Change enablement": "Assesses/authorizes changes."
+          }
+        },
+        {
+          "number": 199,
+          "question": "Which phase of problem management includes analyzing incidents to look for patterns and trends?",
+          "options": [
+            "Error control",
+            "Post-implementation review",
+            "Problem identification",
+            "Problem control"
+          ],
+          "answer": "Problem identification",
+          "explanation": {
+            "Error control": "Manages known errors and workarounds.",
+            "Post-implementation review": "Examines changes after deployment.",
+            "Problem identification": "Correct: includes trend analysis of incidents.",
+            "Problem control": "Prioritization and analysis of problems."
+          }
+        },
+        {
+          "number": 200,
+          "question": "Which describes the nature of the guiding principles?",
+          "options": [
+            "Guiding principles describe processes that all organizations must adopt",
+            "An organization will select and adopt only one of the seven guiding principles",
+            "Each guiding principle mandates specific actions and decisions",
+            "Guiding principles can guide an organization in all circumstances"
+          ],
+          "answer": "Guiding principles can guide an organization in all circumstances",
+          "explanation": {
+            "Guiding principles describe processes that all organizations must adopt": "Incorrect: not processes.",
+            "An organization will select and adopt only one of the seven guiding principles": "Incorrect: multiple apply.",
+            "Each guiding principle mandates specific actions and decisions": "Incorrect: recommendations, not mandates.",
+            "Guiding principles can guide an organization in all circumstances": "Correct."
+          }
+        }
+      ]
+    }
+  ]
+}
+

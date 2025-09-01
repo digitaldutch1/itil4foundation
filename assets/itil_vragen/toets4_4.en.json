@@ -1,0 +1,569 @@
+{
+  "chapters": [
+    {
+      "chapter": "ITIL 4 test 4_4 (EN)",
+      "description": "ITIL 4 - Practice Test 4_4 (EN, questions 121-160)",
+      "questions": [
+        {
+          "number": 121,
+          "question": "What term is used to describe the functionality of a service?",
+          "options": ["Output","Warranty","Outcome","Utility"],
+          "answer": "Utility",
+          "explanation": {
+            "Output": "Incorrect: a deliverable produced by an activity.",
+            "Warranty": "Incorrect: assurance the service is fit for use.",
+            "Outcome": "Incorrect: a result for a stakeholder.",
+            "Utility": "Correct: what the service does (fit for purpose)."
+          }
+        },
+        {
+          "number": 122,
+          "question": "Which is NOT a key focus of the 'information and technology' dimension?",
+          "options": ["Workflow management and inventory systems","Communication systems and knowledge bases","Security and compliance","Roles and responsibilities"],
+          "answer": "Roles and responsibilities",
+          "explanation": {
+            "Workflow management and inventory systems": "Incorrect: tools within information and technology.",
+            "Communication systems and knowledge bases": "Incorrect: part of the dimension.",
+            "Security and compliance": "Incorrect: covered by this dimension.",
+            "Roles and responsibilities": "Correct: these belong to organizations and people."
+          }
+        },
+        {
+          "number": 123,
+          "question": "Which describes an unresolved problem which has been already analyzed?",
+          "options": ["A known error","An incident","A risk","A workaround"],
+          "answer": "A known error",
+          "explanation": {
+            "A known error": "Correct: analyzed problem not yet resolved.",
+            "An incident": "Incorrect: unplanned interruption or quality reduction.",
+            "A risk": "Incorrect: a possible event affecting objectives.",
+            "A workaround": "Incorrect: a temporary solution to reduce impact."
+          }
+        },
+        {
+          "number": 124,
+          "question": "Which of the following is an input to the service value system?",
+          "options": ["Guiding principles","Demand/Opportunity","Value","Practices"],
+          "answer": "Demand/Opportunity",
+          "explanation": {
+            "Guiding principles": "Incorrect: a component of the SVS.",
+            "Demand/Opportunity": "Correct: external inputs that trigger the SVS.",
+            "Value": "Incorrect: primary output of the SVS.",
+            "Practices": "Incorrect: components supporting the SVS."
+          }
+        },
+        {
+          "number": 125,
+          "question": "Which statement about a 'continual improvement register (CIR)' is TRUE?",
+          "options": [
+            "Used to help plan changes, assist in communication, avoid conflicts, and assign resources",
+            "Used to select the right method, model or technique for identifying improvements",
+            "Used to track and manage improvement ideas from identification through to final action",
+            "Used to provide a formal description of one or more services, designed to address the needs of a target consumer group"
+          ],
+          "answer": "Used to track and manage improvement ideas from identification through to final action",
+          "explanation": {
+            "Used to help plan changes, assist in communication, avoid conflicts, and assign resources": "Incorrect: that is the change schedule.",
+            "Used to select the right method, model or technique for identifying improvements": "Incorrect: method selection is separate.",
+            "Used to track and manage improvement ideas from identification through to final action": "Correct: purpose of a CIR.",
+            "Used to provide a formal description of one or more services, designed to address the needs of a target consumer group": "Incorrect: that is a service offering."
+          }
+        },
+        {
+          "number": 126,
+          "question": "Which value chain activity deals with the purchase of new products?",
+          "options": ["Plan","Obtain/Build","Improve","Engage"],
+          "answer": "Obtain/Build",
+          "explanation": {
+            "Plan": "Incorrect: sets direction and policies.",
+            "Obtain/Build": "Correct: includes acquiring and building components.",
+            "Improve": "Incorrect: focuses on improving across activities.",
+            "Engage": "Incorrect: manages stakeholder interactions."
+          }
+        },
+        {
+          "number": 127,
+          "question": "Which is a necessity to a successful service level agreement (SLA)?",
+          "options": [
+            "The language and terms used in the SLA should be commonly understood by all parties",
+            "They should be carried forward, unchanged, from one year to the next",
+            "Base the SLA on system-based metrics that are useful to the service provider",
+            "Vague targets such as those related to user experience should be avoided"
+          ],
+          "answer": "The language and terms used in the SLA should be commonly understood by all parties",
+          "explanation": {
+            "The language and terms used in the SLA should be commonly understood by all parties": "Correct: clarity enables shared expectations.",
+            "They should be carried forward, unchanged, from one year to the next": "Incorrect: SLAs should evolve.",
+            "Base the SLA on system-based metrics that are useful to the service provider": "Incorrect: include outcomes and experience.",
+            "Vague targets such as those related to user experience should be avoided": "Incorrect: experience targets matter; make them specific."
+          }
+        },
+        {
+          "number": 128,
+          "question": "What is used as a tool to help define and measure performance?",
+          "options": ["An incident record","A continual improvement register","A change schedule","A service level agreement"],
+          "answer": "A service level agreement",
+          "explanation": {
+            "An incident record": "Incorrect: captures details of an incident.",
+            "A continual improvement register": "Incorrect: tracks improvement ideas.",
+            "A change schedule": "Incorrect: plans and coordinates changes.",
+            "A service level agreement": "Correct: defines targets and how they are measured."
+          }
+        },
+        {
+          "number": 129,
+          "question": "Which is part of the value proposition of a service?",
+          "options": ["Costs imposed on the consumer by the service","Risks imposed on the consumer by the service","Outputs of the service received by the consumer","Costs removed from the consumer by the service"],
+          "answer": "Costs removed from the consumer by the service",
+          "explanation": {
+            "Costs imposed on the consumer by the service": "Incorrect: costs of consumption.",
+            "Risks imposed on the consumer by the service": "Incorrect: risks of consumption.",
+            "Outputs of the service received by the consumer": "Incorrect: deliverables, not the proposition.",
+            "Costs removed from the consumer by the service": "Correct: part of the value proposition."
+          }
+        },
+        {
+          "number": 130,
+          "question": "Which practice has a purpose that includes managing authentication and non-repudiation?",
+          "options": ["Change enablement","IT asset management","Service configuration management","Information security management"],
+          "answer": "Information security management",
+          "explanation": {
+            "Change enablement": "Incorrect: assesses and authorizes changes.",
+            "IT asset management": "Incorrect: manages financial/usage lifecycle of assets.",
+            "Service configuration management": "Incorrect: maintains configuration information.",
+            "Information security management": "Correct: includes authentication and non-repudiation."
+          }
+        },
+        {
+          "number": 131,
+          "question": "When considering the type of relationship required with other organizations involved in the design and delivery of services, which dimension is being used?",
+          "options": ["Information and technology","Organizations and people","Partners and suppliers","Value streams and processes"],
+          "answer": "Partners and suppliers",
+          "explanation": {
+            "Information and technology": "Incorrect: information, knowledge, tooling.",
+            "Organizations and people": "Incorrect: roles, skills, culture.",
+            "Partners and suppliers": "Correct: external relationships and contracts.",
+            "Value streams and processes": "Incorrect: activities and workflows."
+          }
+        },
+        {
+          "number": 132,
+          "question": "What is the purpose of the 'supplier management' practice?",
+          "options": [
+            "To ensure that accurate and reliable information about the configuration of suppliers' services is available",
+            "To ensure that the organization's suppliers and their performance are managed appropriately to support the seamless provision of quality products and services",
+            "To manage suppliers at strategic and tactical levels through coordinated marketing, selling, and delivery activities",
+            "To align practices and services with changing business needs through ongoing identification and improvement"
+          ],
+          "answer": "To ensure that the organization's suppliers and their performance are managed appropriately to support the seamless provision of quality products and services",
+          "explanation": {
+            "To ensure that accurate and reliable information about the configuration of suppliers' services is available": "Incorrect: configuration management scope.",
+            "To ensure that the organization's suppliers and their performance are managed appropriately to support the seamless provision of quality products and services": "Correct: supplier management purpose.",
+            "To manage suppliers at strategic and tactical levels through coordinated marketing, selling, and delivery activities": "Incorrect: not ITIL wording.",
+            "To align practices and services with changing business needs through ongoing identification and improvement": "Incorrect: continual improvement."
+          }
+        },
+        {
+          "number": 133,
+          "question": "Which practice guarantees that users have a range of access channels to choose from to report problems?",
+          "options": ["Service level management","Change enablement","Service desk","Incident management"],
+          "answer": "Service desk",
+          "explanation": {
+            "Service level management": "Incorrect: sets targets and reviews.",
+            "Change enablement": "Incorrect: change risk and authorization.",
+            "Service desk": "Correct: main communications point with multiple channels.",
+            "Incident management": "Incorrect: process to restore service."
+          }
+        },
+        {
+          "number": 134,
+          "question": "Which practice needs the right culture to be embedded across the entire organization?",
+          "options": ["Change enablement","Service request management","Continual improvement","Service level management"],
+          "answer": "Continual improvement",
+          "explanation": {
+            "Change enablement": "Incorrect.",
+            "Service request management": "Incorrect.",
+            "Continual improvement": "Correct: everyone should contribute; culture-wide adoption is needed.",
+            "Service level management": "Incorrect."
+          }
+        },
+        {
+          "number": 135,
+          "question": "What is included in the purpose of the 'IT asset management' practice?",
+          "options": [
+            "Providing information on how assets are configured and the relationships between them",
+            "Supporting decision-making about purchase, re-use, retirement, and disposal of assets",
+            "Making new and changed assets available for use",
+            "Moving assets to live or other environments for testing or staging"
+          ],
+          "answer": "Supporting decision-making about purchase, re-use, retirement, and disposal of assets",
+          "explanation": {
+            "Providing information on how assets are configured and the relationships between them": "Incorrect: configuration management.",
+            "Supporting decision-making about purchase, re-use, retirement, and disposal of assets": "Correct: ITAM purpose.",
+            "Making new and changed assets available for use": "Incorrect: release management.",
+            "Moving assets to live or other environments for testing or staging": "Incorrect: deployment management."
+          }
+        },
+        {
+          "number": 136,
+          "question": "Which describes outputs?",
+          "options": [
+            "Configuration of an organization’s resources",
+            "Results desired by a stakeholder",
+            "Tangible or intangible deliverables",
+            "Functionality offered by a product or service"
+          ],
+          "answer": "Tangible or intangible deliverables",
+          "explanation": {
+            "Configuration of an organization’s resources": "Incorrect: organizational setup.",
+            "Results desired by a stakeholder": "Incorrect: outcomes.",
+            "Tangible or intangible deliverables": "Correct: outputs.",
+            "Functionality offered by a product or service": "Incorrect: utility."
+          }
+        },
+        {
+          "number": 137,
+          "question": "What is used as a tool to help define and measure performance?",
+          "options": ["A service level agreement","A continual improvement register","An incident record","A change schedule"],
+          "answer": "A service level agreement",
+          "explanation": {
+            "A service level agreement": "Correct: defines targets and measurements.",
+            "A continual improvement register": "Incorrect: tracks improvements.",
+            "An incident record": "Incorrect: documents incidents.",
+            "A change schedule": "Incorrect: plans changes."
+          }
+        },
+        {
+          "number": 138,
+          "question": "What is the CORRECT order for the three phases of problem management?",
+          "options": [
+            "Error control, problem control, problem identification",
+            "Problem identification, error control, problem control",
+            "Problem identification, problem control, error control",
+            "Problem control, error control, problem identification"
+          ],
+          "answer": "Problem identification, problem control, error control",
+          "explanation": {
+            "Problem identification, problem control, error control": "Correct: ITIL 4 flow.",
+            "Other orders": "Incorrect sequencing."
+          }
+        },
+        {
+          "number": 139,
+          "question": "A good way to apply the ITIL guiding principle 'keep it simple and practical' is to:",
+          "options": [
+            "Re-use nothing from the current state",
+            "Adopt a practice which is easy to follow",
+            "Understand that fast does not mean incomplete",
+            "Communicate so that the audience will hear"
+          ],
+          "answer": "Adopt a practice which is easy to follow",
+          "explanation": {
+            "Re-use nothing from the current state": "Incorrect: 'start where you are' suggests reuse.",
+            "Adopt a practice which is easy to follow": "Correct: simplicity and practicality.",
+            "Understand that fast does not mean incomplete": "Helpful mindset, not the core example here.",
+            "Communicate so that the audience will hear": "Relates to collaboration and visibility."
+          }
+        },
+        {
+          "number": 140,
+          "question": "Which statement about the purpose of the Monitoring and event management practice is TRUE?",
+          "options": [
+            "Support the agreed quality of a service by handling all pre-defined, user-initiated service requests in an effective and user-friendly manner",
+            "Systematically observe services and service components, and record and report selected changes of state identified as events",
+            "Minimize the negative impact of incidents by restoring normal service operation as quickly as possible",
+            "Maximize the number of successful service and product changes by ensuring that risks have been properly assessed, authorized and managed within a schedule"
+          ],
+          "answer": "Systematically observe services and service components, and record and report selected changes of state identified as events",
+          "explanation": {
+            "Support the agreed quality...": "Incorrect: service request management.",
+            "Systematically observe services...": "Correct: purpose of monitoring and event management.",
+            "Minimize the negative impact...": "Incorrect: incident management.",
+            "Maximize the number of successful...": "Incorrect: change enablement."
+          }
+        },
+        {
+          "number": 141,
+          "question": "Which practice MOST requires staff to demonstrate skills such as empathy and emotional intelligence?",
+          "options": ["Problem management","Service desk","Service level management","Continual Improvement"],
+          "answer": "Service desk",
+          "explanation": {
+            "Problem management": "Incorrect: analysis and creative thinking are key.",
+            "Service desk": "Correct: front-line user engagement requires empathy/EI.",
+            "Service level management": "Incorrect: customer engagement but less front-line.",
+            "Continual Improvement": "Incorrect: improvement discipline."
+          }
+        },
+        {
+          "number": 142,
+          "question": "What is the PRIMARY use of a change schedule?",
+          "options": [
+            "To plan changes and help avoid conflicts",
+            "To manage emergency changes",
+            "To support 'incident management' and improvement planning",
+            "To manage standard changes"
+          ],
+          "answer": "To plan changes and help avoid conflicts",
+          "explanation": {
+            "To plan changes and help avoid conflicts": "Correct: primary purpose.",
+            "To manage emergency changes": "Incorrect: emergencies are expedited outside the schedule.",
+            "To support 'incident management' and improvement planning": "Secondary use at best.",
+            "To manage standard changes": "Incorrect: standard changes are pre-authorized."
+          }
+        },
+        {
+          "number": 143,
+          "question": "Which ITIL concept describes governance?",
+          "options": ["The service value chain","The service value system","The seven guiding principles","The four dimensions of service management"],
+          "answer": "The service value system",
+          "explanation": {
+            "The service value chain": "Incorrect: operating model inside the SVS.",
+            "The service value system": "Correct: governance is a component of the SVS.",
+            "The seven guiding principles": "Incorrect: recommendations for actions.",
+            "The four dimensions of service management": "Incorrect: holistic perspectives."
+          }
+        },
+        {
+          "number": 144,
+          "question": "What ensures that service providers and service consumers continue to create value together?",
+          "options": ["Service consumption","Service offerings","Service relationship management","Service level management"],
+          "answer": "Service relationship management",
+          "explanation": {
+            "Service consumption": "Incorrect: consumer-side activities.",
+            "Service offerings": "Incorrect: service descriptions.",
+            "Service relationship management": "Correct: joint activities to co-create value.",
+            "Service level management": "Incorrect: targets and reviews."
+          }
+        },
+        {
+          "number": 145,
+          "question": "Which practice handles all pre-defined user-initiated service actions?",
+          "options": ["Incident management","Service request management","Deployment management","Service level management"],
+          "answer": "Service request management",
+          "explanation": {
+            "Incident management": "Incorrect: restore service interruptions.",
+            "Service request management": "Correct: fulfills predefined, user-initiated actions.",
+            "Deployment management": "Incorrect: moves components to environments.",
+            "Service level management": "Incorrect: set and monitor targets."
+          }
+        },
+        {
+          "number": 146,
+          "question": "What is the definition of warranty?",
+          "options": [
+            "The functionality offered by a product or service to meet a particular need",
+            "The assurance that a product or service will meet agreed requirements",
+            "A tangible or intangible deliverable that is produced by carrying out an activity",
+            "A possible event that could cause harm or loss, or make it more difficult to achieve objectives"
+          ],
+          "answer": "The assurance that a product or service will meet agreed requirements",
+          "explanation": {
+            "The functionality offered by a product or service to meet a particular need": "Incorrect: utility.",
+            "The assurance that a product or service will meet agreed requirements": "Correct: warranty (fit for use).",
+            "A tangible or intangible deliverable...": "Incorrect: output.",
+            "A possible event that could cause harm or loss...": "Incorrect: risk."
+          }
+        },
+        {
+          "number": 147,
+          "question": "Which practice has a purpose that includes managing authentication and non-repudiation?",
+          "options": ["Information security management","Change enablement","IT asset management","Service configuration management"],
+          "answer": "Information security management",
+          "explanation": {
+            "Information security management": "Correct: covers authentication and non-repudiation.",
+            "Change enablement": "Incorrect.",
+            "IT asset management": "Incorrect.",
+            "Service configuration management": "Incorrect."
+          }
+        },
+        {
+          "number": 148,
+          "question": "A service is a means of enabling value co-creation by facilitating [?] that customers want to achieve.",
+          "options": ["outputs","outcomes","the warranty","the utility"],
+          "answer": "outcomes",
+          "explanation": {
+            "outputs": "Incorrect: deliverables produced by activities.",
+            "outcomes": "Correct: results desired by customers.",
+            "the warranty": "Incorrect: assurance fit for use.",
+            "the utility": "Incorrect: functionality fit for purpose."
+          }
+        },
+        {
+          "number": 149,
+          "question": "Which TWO types of components are MOST important for Service Desk staff?",
+          "options": [
+            "1. Knowledge of business processes",
+            "2. Collaboration skills",
+            "3. Advanced technical knowledge",
+            "4. Workflow design skills"
+          ],
+          "answer": ["1. Knowledge of business processes","2. Collaboration skills"],
+          "explanation": {
+            "1. Knowledge of business processes": "Correct: understand user context and processes.",
+            "2. Collaboration skills": "Correct: essential for coordination and hand-offs.",
+            "3. Advanced technical knowledge": "Useful but not always required.",
+            "4. Workflow design skills": "Helpful but not primary for front-line work."
+          }
+        },
+        {
+          "number": 150,
+          "question": "What is defined as an IT Asset?",
+          "options": [
+            "Any financially valuable component that can contribute to the delivery of an IT product or service.",
+            "A description of one or more services, designed to address the needs of a target consumer group",
+            "A request from a user that initiates a service action agreed as a normal part of service delivery",
+            "Any component that needs to be managed in order to deliver an IT service"
+          ],
+          "answer": "Any financially valuable component that can contribute to the delivery of an IT product or service.",
+          "explanation": {
+            "Any financially valuable component that can contribute to the delivery of an IT product or service.": "Correct: IT asset definition.",
+            "A description of one or more services...": "Incorrect: service offering.",
+            "A request from a user...": "Incorrect: service request.",
+            "Any component that needs to be managed in order to deliver an IT service": "Incorrect: configuration item."
+          }
+        },
+        {
+          "number": 151,
+          "question": "Which is an example of a service request?",
+          "options": [
+            "A request to investigate the cause of an incident",
+            "A request to implement a security patch",
+            "A request for normal operation to be restored",
+            "A request for access to a file"
+          ],
+          "answer": "A request for access to a file",
+          "explanation": {
+            "A request to investigate the cause of an incident": "Incorrect: problem management.",
+            "A request to implement a security patch": "Incorrect: change enablement.",
+            "A request for normal operation to be restored": "Incorrect: incident management.",
+            "A request for access to a file": "Correct: typical service request."
+          }
+        },
+        {
+          "number": 152,
+          "question": "Which is the MOST important stakeholder group that a service provider needs to collaborate with?",
+          "options": ["Developers","Suppliers","Relationship managers","Customers"],
+          "answer": "Customers",
+          "explanation": {
+            "Developers": "Incorrect: internal contributors.",
+            "Suppliers": "Incorrect: important but secondary.",
+            "Relationship managers": "Incorrect: roles rather than stakeholder groups.",
+            "Customers": "Correct: value is defined by and co-created with customers."
+          }
+        },
+        {
+          "number": 153,
+          "question": "Identify the missing word in the following sentence. The purpose of the 'information security management' practice is to [?] the organization’s information.",
+          "options": ["provide","store","audit","protect"],
+          "answer": "protect",
+          "explanation": {
+            "provide": "Incorrect.",
+            "store": "Incorrect.",
+            "audit": "Incorrect.",
+            "protect": "Correct: ISM protects information needed by the organization."
+          }
+        },
+        {
+          "number": 154,
+          "question": "Which practice handles all pre-defined user-initiated service actions?",
+          "options": ["Deployment management","Service request management","Service level management","Incident management"],
+          "answer": "Service request management",
+          "explanation": {
+            "Deployment management": "Incorrect: moves components to environments.",
+            "Service request management": "Correct: fulfills predefined requests.",
+            "Service level management": "Incorrect: sets targets and reviews.",
+            "Incident management": "Incorrect: restores service."
+          }
+        },
+        {
+          "number": 155,
+          "question": "Which value chain activity deals with the purchase of new products?",
+          "options": ["Improve","Obtain/Build","Engage","Plan"],
+          "answer": "Obtain/Build",
+          "explanation": {
+            "Improve": "Incorrect.",
+            "Obtain/Build": "Correct: acquisition/building of service components.",
+            "Engage": "Incorrect.",
+            "Plan": "Incorrect."
+          }
+        },
+        {
+          "number": 156,
+          "question": "Which dimension of service management considers governance, management, and communication?",
+          "options": ["Value streams and processes","Partners and suppliers","Information and technology","Organization and people"],
+          "answer": "Organization and people",
+          "explanation": {
+            "Value streams and processes": "Incorrect: activities and workflows.",
+            "Partners and suppliers": "Incorrect: external relationships.",
+            "Information and technology": "Incorrect: information, knowledge, tooling.",
+            "Organization and people": "Correct: includes governance structures, roles, skills, and communication."
+          }
+        },
+        {
+          "number": 157,
+          "question": "Which of the following statements is included in the 'improve' value chain activity's purpose?",
+          "options": [
+            "Ensure services continually meet expectations for quality, costs, and time to market",
+            "Ensure a shared understanding of the improvement direction for services across the organization",
+            "Ensure the continual improvement of practices across all value chain activities",
+            "Ensure continual engagement and good relationships with all stakeholders"
+          ],
+          "answer": "Ensure the continual improvement of practices across all value chain activities",
+          "explanation": {
+            "Ensure services continually meet expectations for quality, costs, and time to market": "Incorrect: design and transition.",
+            "Ensure a shared understanding of the improvement direction for services across the organization": "Incorrect: plan.",
+            "Ensure the continual improvement of practices across all value chain activities": "Correct: improve.",
+            "Ensure continual engagement and good relationships with all stakeholders": "Incorrect: engage."
+          }
+        },
+        {
+          "number": 158,
+          "question": "How can service consumers contribute to risk mitigation?",
+          "options": [
+            "By controlling the specific level of risk on the service provider's behalf",
+            "By managing the detailed level of risk on behalf of the service provider",
+            "Through the provision of services according to predefined needs",
+            "By being fully aware of their own requirements for the service"
+          ],
+          "answer": "By being fully aware of their own requirements for the service",
+          "explanation": {
+            "By controlling the specific level of risk on the service provider's behalf": "Incorrect.",
+            "By managing the detailed level of risk on behalf of the service provider": "Incorrect.",
+            "Through the provision of services according to predefined needs": "Incorrect: provision is provider-side.",
+            "By being fully aware of their own requirements for the service": "Correct: clear requirements reduce ambiguity and risk."
+          }
+        },
+        {
+          "number": 159,
+          "question": "Which practice handles all pre-defined user-initiated service actions?",
+          "options": ["Service level management","Incident management","Deployment management","Service request management"],
+          "answer": "Service request management",
+          "explanation": {
+            "Service level management": "Incorrect.",
+            "Incident management": "Incorrect.",
+            "Deployment management": "Incorrect.",
+            "Service request management": "Correct: predefined user-initiated actions."
+          }
+        },
+        {
+          "number": 160,
+          "question": "What is the definition of an IT Asset?",
+          "options": [
+            "Any change of state that has significance for management of a service",
+            "Any financially valuable component that contributes to a service",
+            "Any request from a user that is a normal part of service delivery",
+            "Any component that needs to be managed to deliver a service"
+          ],
+          "answer": "Any financially valuable component that contributes to a service",
+          "explanation": {
+            "Any change of state that has significance for management of a service": "Incorrect: event.",
+            "Any financially valuable component that contributes to a service": "Correct: IT asset.",
+            "Any request from a user that is a normal part of service delivery": "Incorrect: service request.",
+            "Any component that needs to be managed to deliver a service": "Incorrect: configuration item."
+          }
+        }
+      ]
+    }
+  ]
+}
+

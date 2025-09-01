@@ -1,0 +1,689 @@
+{
+  "chapters": [
+    {
+      "chapter": "ITIL 4 test 4_5 (EN)",
+      "description": "ITIL 4 - Practice Test 4_5 (EN, questions 161-200)",
+      "questions": [
+        {
+          "number": 161,
+          "question": "When using the 'continual improvement model' which information should be produced by an organization to understand where the organization is now?",
+          "options": [
+            "Business objectives",
+            "Assessment results",
+            "Improvement plans",
+            "Measurable targets"
+          ],
+          "answer": "Assessment results",
+          "explanation": {
+            "Business objectives": "Incorrect: this is clarified in the vision step.",
+            "Assessment results": "Correct: baseline assessments show the current state.",
+            "Improvement plans": "Incorrect: planned later.",
+            "Measurable targets": "Incorrect: set in 'where do we want to be'."
+          }
+        },
+        {
+          "number": 162,
+          "question": "Which of the following statements is included in the 'improve' value chain activity's purpose?",
+          "options": [
+            "Ensure a shared understanding of the improvement direction for services across the organization",
+            "Ensure the continual improvement of practices across all value chain activities",
+            "Ensure services continually meet expectations for quality, costs, and time to market",
+            "Ensure continual engagement and good relationships with all stakeholders"
+          ],
+          "answer": "Ensure the continual improvement of practices across all value chain activities",
+          "explanation": {
+            "Ensure a shared understanding of the improvement direction for services across the organization": "Plan activity.",
+            "Ensure the continual improvement of practices across all value chain activities": "Correct: Improve activity purpose.",
+            "Ensure services continually meet expectations for quality, costs, and time to market": "Design and transition activity.",
+            "Ensure continual engagement and good relationships with all stakeholders": "Engage activity."
+          }
+        },
+        {
+          "number": 163,
+          "question": "Identify the missing word in the following sentence: The purpose of the problem management practice is to reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents and managing workarounds and [?].",
+          "options": [
+            "Changes",
+            "Events",
+            "Configuration items",
+            "Known errors"
+          ],
+          "answer": "Known errors",
+          "explanation": {
+            "Changes": "Incorrect: governed via change enablement.",
+            "Events": "Incorrect: changes of state.",
+            "Configuration items": "Incorrect: CMDB scope, not a PM output.",
+            "Known errors": "Correct: analyzed problems awaiting resolution."
+          }
+        },
+        {
+          "number": 164,
+          "question": "Which is the best type of resource for investigating complex incidents?",
+          "options": [
+            "Disaster recovery plans",
+            "Self-help systems",
+            "Detailed work instructions",
+            "Knowledgeable support staff"
+          ],
+          "answer": "Knowledgeable support staff",
+          "explanation": {
+            "Disaster recovery plans": "For major continuity scenarios.",
+            "Self-help systems": "For simple user fixes.",
+            "Detailed work instructions": "Helpful, but insufficient alone for complex cases.",
+            "Knowledgeable support staff": "Correct: expertise is key for complex diagnosis."
+          }
+        },
+        {
+          "number": 165,
+          "question": "Which term is used to describe removing something that could have an effect on a service?",
+          "options": [
+            "An incident",
+            "A problem",
+            "A change",
+            "An IT asset"
+          ],
+          "answer": "A change",
+          "explanation": {
+            "An incident": "Unplanned interruption or quality reduction.",
+            "A problem": "Cause or potential cause of incidents.",
+            "A change": "Correct: addition, modification, or removal affecting services.",
+            "An IT asset": "Financially valuable component."
+          }
+        },
+        {
+          "number": 166,
+          "question": "Identify the missing word in the following sentence. A customer is the role that defines the requirements for a service and takes responsibility for the [?] of service consumption.",
+          "options": [
+            "Outcomes",
+            "Outputs",
+            "Risks",
+            "Costs"
+          ],
+          "answer": "Outcomes",
+          "explanation": {
+            "Outcomes": "Correct: customers own the results of consumption.",
+            "Outputs": "Deliverables, not owned responsibility.",
+            "Risks": "Providers manage many service risks.",
+            "Costs": "Sponsor authorizes budget."
+          }
+        },
+        {
+          "number": 167,
+          "question": "What is defined as a Service offering?",
+          "options": [
+            "Any component that needs to be managed in order to deliver an IT service",
+            "A description of one or more services, designed to address the needs of a target consumer group (goods, service actions and access to resources)",
+            "Any financially valuable component that can contribute to the delivery of an IT product or service",
+            "A request from a user that initiates a service action agreed as a normal part of service delivery"
+          ],
+          "answer": "A description of one or more services, designed to address the needs of a target consumer group (goods, service actions and access to resources)",
+          "explanation": {
+            "Any component that needs to be managed in order to deliver an IT service": "Configuration item.",
+            "A description of one or more services...": "Correct: service offering.",
+            "Any financially valuable component...": "IT asset.",
+            "A request from a user...": "Service request."
+          }
+        },
+        {
+          "number": 168,
+          "question": "Which of the following is an output to the service value system?",
+          "options": [
+            "Value",
+            "Demand/Opportunity",
+            "Guiding Principles",
+            "Practices"
+          ],
+          "answer": "Value",
+          "explanation": {
+            "Value": "Correct: the SVS outputs value.",
+            "Demand/Opportunity": "Inputs to the SVS.",
+            "Guiding Principles": "SVS component.",
+            "Practices": "SVS component."
+          }
+        },
+        {
+          "number": 169,
+          "question": "Which practice ensures that there are variety of access channels are available for users to report issues?",
+          "options": [
+            "Change enablement",
+            "Incident management",
+            "Service level management",
+            "Service desk"
+          ],
+          "answer": "Service desk",
+          "explanation": {
+            "Change enablement": "Assesses and authorizes changes.",
+            "Incident management": "Restores service.",
+            "Service level management": "Sets targets and reviews.",
+            "Service desk": "Correct: provides multiple channels and acts as SPOC."
+          }
+        },
+        {
+          "number": 170,
+          "question": "Which statement about a change authority is CORRECT?",
+          "options": [
+            "A single change authority should be assigned to authorize all types of change and change models",
+            "A change authority should be assigned for each type of change and change model",
+            "Normal changes are pre-authorized and do not need a change authority",
+            "Emergency changes can be implemented without authorization from a change authority"
+          ],
+          "answer": "A change authority should be assigned for each type of change and change model",
+          "explanation": {
+            "A single change authority should be assigned...": "Incorrect: one size does not fit all.",
+            "A change authority should be assigned for each type of change and change model": "Correct.",
+            "Normal changes are pre-authorized...": "Incorrect: standard changes are.",
+            "Emergency changes can be implemented without authorization": "Incorrect: authorization is expedited, not removed."
+          }
+        },
+        {
+          "number": 171,
+          "question": "For which purpose would the continual Improvement practice use a SWOT analysis?",
+          "options": [
+            "Understanding the current state",
+            "Defining the future desired state",
+            "Ensuring everyone actively participates",
+            "Tracking and managing ideas"
+          ],
+          "answer": "Understanding the current state",
+          "explanation": {
+            "Understanding the current state": "Correct: SWOT informs the baseline.",
+            "Defining the future desired state": "Done when setting targets.",
+            "Ensuring everyone actively participates": "Culture/leadership concern.",
+            "Tracking and managing ideas": "CIR purpose."
+          }
+        },
+        {
+          "number": 172,
+          "question": "Which is a key element of the 'think and work holistically' guiding principles?",
+          "options": [
+            "Understanding the methods applicable to complex systems",
+            "Eliminating metrics which do not contribute in achieving an objective",
+            "Using technology for standard tasks to give people time for complex activities",
+            "Assessing which procedures can be re-used when improving a service"
+          ],
+          "answer": "Understanding the methods applicable to complex systems",
+          "explanation": {
+            "Understanding the methods applicable to complex systems": "Correct: end-to-end systems thinking.",
+            "Eliminating metrics which do not contribute...": "Keep it simple and practical.",
+            "Using technology for standard tasks...": "Optimize and automate.",
+            "Assessing which procedures can be re-used...": "Start where you are."
+          }
+        },
+        {
+          "number": 173,
+          "question": "What ensures that a service provider and service consumer continually co-create value?",
+          "options": [
+            "Service relationship management",
+            "Service level management",
+            "Service offering",
+            "Service consumption"
+          ],
+          "answer": "Service relationship management",
+          "explanation": {
+            "Service relationship management": "Correct: joint activities for co-creation.",
+            "Service level management": "Targets and reviews.",
+            "Service offering": "Described package.",
+            "Service consumption": "Consumer-side actions."
+          }
+        },
+        {
+          "number": 174,
+          "question": "Which organization delivers outputs or outcomes of a service?",
+          "options": [
+            "A service consumer delivers outputs of the service",
+            "A service provider delivers outcomes of the service",
+            "A service consumer delivers outcomes of the service",
+            "A service provider delivers outputs of the service"
+          ],
+          "answer": "A service provider delivers outputs of the service",
+          "explanation": {
+            "A service consumer delivers outputs of the service": "Incorrect.",
+            "A service provider delivers outcomes of the service": "Incorrect: consumers realize outcomes.",
+            "A service consumer delivers outcomes of the service": "Outcomes are realized by consumers using outputs.",
+            "A service provider delivers outputs of the service": "Correct."
+          }
+        },
+        {
+          "number": 175,
+          "question": "Which practice MOST requires staff who demonstrate skills such as empathy and emotional intelligence?",
+          "options": [
+            "Continual improvement",
+            "Service desk",
+            "Problem management",
+            "Service request management"
+          ],
+          "answer": "Service desk",
+          "explanation": {
+            "Continual improvement": "Improvement discipline.",
+            "Service desk": "Correct: front-line engagement requires empathy/EI.",
+            "Problem management": "Analytical/creative skills more critical.",
+            "Service request management": "Fulfillment process."
+          }
+        },
+        {
+          "number": 176,
+          "question": "Which is a recommendation of the 'service desk' practice?",
+          "options": [
+            "Service desks should understand the wider organization",
+            "Service desks should avoid the use of automation",
+            "Service desks should be a physical team in a single fixed location",
+            "Service desks should be highly technical"
+          ],
+          "answer": "Service desks should understand the wider organization",
+          "explanation": {
+            "Service desks should understand the wider organization": "Correct: practical business context matters.",
+            "Service desks should avoid the use of automation": "Incorrect: automation helps.",
+            "Service desks should be a physical team in a single fixed location": "Not required.",
+            "Service desks should be highly technical": "Not necessarily; coordination and CX are key."
+          }
+        },
+        {
+          "number": 177,
+          "question": "Identify the missing word(s) in the following sentence. The purpose of the problem management practice is to reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents, and managing [?] and known errors.",
+          "options": [
+            "Workarounds",
+            "Events",
+            "Configuration items",
+            "Changes"
+          ],
+          "answer": "Workarounds",
+          "explanation": {
+            "Workarounds": "Correct: temporary reduction of impact.",
+            "Events": "Changes of state.",
+            "Configuration items": "CMDB scope.",
+            "Changes": "Change enablement."
+          }
+        },
+        {
+          "number": 178,
+          "question": "Which component is focused on the activities needed by an organization to help it co-create value?",
+          "options": [
+            "Continual improvement",
+            "Practices",
+            "Service value chain",
+            "Guiding principles"
+          ],
+          "answer": "Service value chain",
+          "explanation": {
+            "Continual improvement": "Supports improvement.",
+            "Practices": "Reusable organizational resources.",
+            "Service value chain": "Correct: the operating model activities.",
+            "Guiding principles": "Recommendations."
+          }
+        },
+        {
+          "number": 179,
+          "question": "Which is the BEST type of resource for investigating complex incidents?",
+          "options": [
+            "Knowledgeable support staff",
+            "Self-help systems",
+            "Detailed work instructions",
+            "Disaster recovery plans"
+          ],
+          "answer": "Knowledgeable support staff",
+          "explanation": {
+            "Knowledgeable support staff": "Correct: expertise drives complex diagnosis.",
+            "Self-help systems": "For simple user fixes.",
+            "Detailed work instructions": "Helpful but limited for complexity.",
+            "Disaster recovery plans": "For major outages."
+          }
+        },
+        {
+          "number": 180,
+          "question": "What is defined as an IT Asset?",
+          "options": [
+            "Any component that needs to be managed in order to deliver an IT service (Configuration Item)",
+            "A request from a user, or a user’s authorized representative, that initiates a service action agreed as a normal part of service delivery",
+            "Any financially valuable component that can contribute to the delivery of an IT product or service",
+            "A description of one or more services, designed to address the needs of a target consumer group"
+          ],
+          "answer": "Any financially valuable component that can contribute to the delivery of an IT product or service",
+          "explanation": {
+            "Any component that needs to be managed in order to deliver an IT service (Configuration Item)": "CI, not IT asset.",
+            "A request from a user...": "Service request.",
+            "Any financially valuable component...": "Correct: IT asset.",
+            "A description of one or more services...": "Service offering."
+          }
+        },
+        {
+          "number": 181,
+          "question": "What is defined as 'the role that uses services'",
+          "options": [
+            "User",
+            "Customer",
+            "Sponsor",
+            "Service Consumer"
+          ],
+          "answer": "User",
+          "explanation": {
+            "User": "Correct: the role that uses services.",
+            "Customer": "Defines requirements and owns outcomes.",
+            "Sponsor": "Authorizes budget.",
+            "Service Consumer": "Umbrella term including user, customer, sponsor."
+          }
+        },
+        {
+          "number": 182,
+          "question": "For which purpose would the continual improvement practice use a SWOT analysis?",
+          "options": [
+            "Understanding the current state",
+            "Ensuring everyone actively participates",
+            "Defining the future desired state",
+            "Tracking and managing ideas"
+          ],
+          "answer": "Understanding the current state",
+          "explanation": {
+            "Understanding the current state": "Correct: SWOT supports baseline.",
+            "Ensuring everyone actively participates": "Culture/leadership.",
+            "Defining the future desired state": "Target-setting step.",
+            "Tracking and managing ideas": "CIR purpose."
+          }
+        },
+        {
+          "number": 183,
+          "question": "Which practice has a purpose that includes managing authentication and non-repudiation?",
+          "options": [
+            "IT asset management",
+            "Service configuration management",
+            "Information security management",
+            "Change enablement"
+          ],
+          "answer": "Information security management",
+          "explanation": {
+            "IT asset management": "Asset value lifecycle.",
+            "Service configuration management": "Configuration info.",
+            "Information security management": "Correct: includes authentication and non-repudiation.",
+            "Change enablement": "Risk assessment and authorization."
+          }
+        },
+        {
+          "number": 184,
+          "question": "Which term is used to describe removing something that could have an effect on a service?",
+          "options": [
+            "An IT asset",
+            "Problem",
+            "An incident",
+            "Change"
+          ],
+          "answer": "Change",
+          "explanation": {
+            "An IT asset": "Financially valuable component.",
+            "Problem": "Cause or potential cause of incidents.",
+            "An incident": "Unplanned interruption.",
+            "Change": "Correct: addition, modification, or removal affecting services."
+          }
+        },
+        {
+          "number": 185,
+          "question": "Which guiding principle recommends that the four dimensions of service management are considered?",
+          "options": [
+            "Keep it simple and practical",
+            "Progress iteratively with feedback",
+            "Think and work holistically",
+            "Focus on value"
+          ],
+          "answer": "Think and work holistically",
+          "explanation": {
+            "Keep it simple and practical": "Simplicity.",
+            "Progress iteratively with feedback": "Small steps and learning.",
+            "Think and work holistically": "Correct: consider all four dimensions.",
+            "Focus on value": "Value-centric, not explicitly four dimensions."
+          }
+        },
+        {
+          "number": 186,
+          "question": "What is described as a 'A request from a user, or a user’s authorized representative, that initiates a service action agreed as a normal part of service delivery.'",
+          "options": [
+            "Service Request",
+            "Incident",
+            "Change",
+            "Service Offering"
+          ],
+          "answer": "Service Request",
+          "explanation": {
+            "Service Request": "Correct: definition.",
+            "Incident": "Unplanned interruption.",
+            "Change": "Addition/modification/removal affecting services.",
+            "Service Offering": "Package/description of services."
+          }
+        },
+        {
+          "number": 187,
+          "question": "Which statement about the inputs and outputs of the value chain activities is CORRECT?",
+          "options": [
+            "The organization's governance will determine the inputs and outputs of each value chain activity",
+            "Some value chain activities only have inputs, whereas others only have outputs",
+            "Each value chain activity receives inputs and provides outputs",
+            "Inputs and outputs are fixed for each value chain activity"
+          ],
+          "answer": "Each value chain activity receives inputs and provides outputs",
+          "explanation": {
+            "Each value chain activity receives inputs and provides outputs": "Correct: activities transform inputs to outputs.",
+            "Others": "Do not reflect SVC design."
+          }
+        },
+        {
+          "number": 188,
+          "question": "Which practice has a purpose that includes the management of financially valuable components that can contribute to the delivery of an IT service?",
+          "options": [
+            "IT asset management",
+            "Change enablement",
+            "Deployment management",
+            "Service configuration management"
+          ],
+          "answer": "IT asset management",
+          "explanation": {
+            "IT asset management": "Correct: manages IT assets and their value.",
+            "Change enablement": "Change risk/authorization.",
+            "Deployment management": "Moves components.",
+            "Service configuration management": "Maintains configuration information."
+          }
+        },
+        {
+          "number": 189,
+          "question": "What is defined as 'any component that needs to be managed in order to deliver an IT service?",
+          "options": [
+            "A change",
+            "An event",
+            "A configuration item",
+            "An IT asset"
+          ],
+          "answer": "A configuration item",
+          "explanation": {
+            "A change": "Definition of change, not CI.",
+            "An event": "Significant change of state.",
+            "A configuration item": "Correct: CI definition.",
+            "An IT asset": "Financially valuable component."
+          }
+        },
+        {
+          "number": 190,
+          "question": "What is a problem?",
+          "options": [
+            "An addition or modification that could have an effect on services",
+            "Cause or potential cause of one or more incidents",
+            "Any change of state that has significance for the management of a configuration item",
+            "An unplanned reduction in the quality of a service"
+          ],
+          "answer": "Cause or potential cause of one or more incidents",
+          "explanation": {
+            "An addition or modification that could have an effect on services": "Change.",
+            "Cause or potential cause of one or more incidents": "Correct: problem.",
+            "Any change of state that has significance...": "Event.",
+            "An unplanned reduction in the quality of a service": "Incident."
+          }
+        },
+        {
+          "number": 191,
+          "question": "What is a user?",
+          "options": [
+            "The role that directs and controls an organization",
+            "The role that authorizes budget for service consumption",
+            "The role that defines the requirements for a service",
+            "The role that uses services"
+          ],
+          "answer": "The role that uses services",
+          "explanation": {
+            "The role that uses services": "Correct.",
+            "The role that directs and controls an organization": "Governance role.",
+            "The role that authorizes budget for service consumption": "Sponsor.",
+            "The role that defines the requirements for a service": "Customer."
+          }
+        },
+        {
+          "number": 192,
+          "question": "What is an output?",
+          "options": [
+            "A possible event that could cause harm or loss",
+            "A change of state that has significance for the management of a configuration item",
+            "Something created by carrying out an activity",
+            "A result for a stakeholder"
+          ],
+          "answer": "Something created by carrying out an activity",
+          "explanation": {
+            "A possible event that could cause harm or loss": "Risk.",
+            "A change of state that has significance...": "Event.",
+            "Something created by carrying out an activity": "Correct: output.",
+            "A result for a stakeholder": "Outcome."
+          }
+        },
+        {
+          "number": 193,
+          "question": "Which dimension of service management includes consideration of the type of relationship required with other organization involved in the design and delivery?",
+          "options": [
+            "Organization and people",
+            "Partners and suppliers",
+            "Value streams and processes",
+            "Information and technology"
+          ],
+          "answer": "Partners and suppliers",
+          "explanation": {
+            "Organization and people": "People, roles, culture.",
+            "Partners and suppliers": "Correct: external relationships.",
+            "Value streams and processes": "Activities/workflows.",
+            "Information and technology": "Information/tools."
+          }
+        },
+        {
+          "number": 194,
+          "question": "Which practice identifies metrics that reflect the customer’s experience of a service?",
+          "options": [
+            "Problem management",
+            "Service desk",
+            "Service level management",
+            "Continual improvement"
+          ],
+          "answer": "Service level management",
+          "explanation": {
+            "Problem management": "Root cause/known errors.",
+            "Service desk": "Entry point and coordination.",
+            "Service level management": "Correct: identifies outcome and experience metrics.",
+            "Continual improvement": "Improvement discipline."
+          }
+        },
+        {
+          "number": 195,
+          "question": "Which is a recommendation of the 'continual improvement' practice?",
+          "options": [
+            "All improvements should be managed as multi-phase projects",
+            "External suppliers should be excluded from improvement initiatives",
+            "There should at least be a small team dedicated to leading 'continual improvement' efforts",
+            "'Continual improvement' should be isolated from other practices"
+          ],
+          "answer": "There should at least be a small team dedicated to leading 'continual improvement' efforts",
+          "explanation": {
+            "All improvements should be managed as multi-phase projects": "Too prescriptive.",
+            "External suppliers should be excluded from improvement initiatives": "Incorrect: include relevant stakeholders.",
+            "There should at least be a small team dedicated to leading 'continual improvement' efforts": "Correct: leadership and advocacy are needed.",
+            "'Continual improvement' should be isolated from other practices": "Incorrect: it interacts broadly."
+          }
+        },
+        {
+          "number": 196,
+          "question": "Which practice includes the classification and ownership of queries and requests from users?",
+          "options": [
+            "Service desk",
+            "Incident management",
+            "Change enablement",
+            "Service level management"
+          ],
+          "answer": "Service desk",
+          "explanation": {
+            "Service desk": "Correct: acknowledges, classifies, owns, and coordinates.",
+            "Incident management": "Restores service; may work on tickets but not the SPOC role.",
+            "Change enablement": "Assesses and authorizes changes.",
+            "Service level management": "Targets and reviews."
+          }
+        },
+        {
+          "number": 197,
+          "question": "Which practice has a purpose that includes the management of financially valuable components that can contribute to the delivery of an IT Service?",
+          "options": [
+            "Change enablement",
+            "Deployment management",
+            "IT asset management",
+            "Service configuration management"
+          ],
+          "answer": "IT asset management",
+          "explanation": {
+            "Change enablement": "Change risk and authorization.",
+            "Deployment management": "Moves components to environments.",
+            "IT asset management": "Correct: manages the lifecycle and value of IT assets.",
+            "Service configuration management": "Maintains configuration information."
+          }
+        },
+        {
+          "number": 198,
+          "question": "Which ITIL concept helps an organization to make good decisions?",
+          "options": [
+            "Service value chain (key activities)",
+            "Practices",
+            "Four dimensions of service management",
+            "Guiding principles"
+          ],
+          "answer": "Guiding principles",
+          "explanation": {
+            "Service value chain (key activities)": "Operating model.",
+            "Practices": "Organizational resources.",
+            "Four dimensions of service management": "Holistic view.",
+            "Guiding principles": "Correct: recommendations guiding actions and decisions."
+          }
+        },
+        {
+          "number": 199,
+          "question": "Which of the following is the MOST important for effective incident management?",
+          "options": [
+            "Balanced scorecard review",
+            "A variety of access channels",
+            "Automated pipelines",
+            "Collaboration tools and techniques"
+          ],
+          "answer": "Collaboration tools and techniques",
+          "explanation": {
+            "Balanced scorecard review": "Measurement/governance, not response.",
+            "A variety of access channels": "Useful intake, less critical.",
+            "Automated pipelines": "Delivery focus.",
+            "Collaboration tools and techniques": "Correct: coordinate people fast to resolve incidents."
+          }
+        },
+        {
+          "number": 200,
+          "question": "What is included in the purpose of the 'release management' practice?",
+          "options": [
+            "Ensuring information about services is available",
+            "Making new features available for use",
+            "Moving new software to live environments",
+            "Authorizing changes to proceed"
+          ],
+          "answer": "Making new features available for use",
+          "explanation": {
+            "Ensuring information about services is available": "Knowledge/SCM area.",
+            "Making new features available for use": "Correct: release management purpose.",
+            "Moving new software to live environments": "Deployment management.",
+            "Authorizing changes to proceed": "Change enablement."
+          }
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,693 @@
+{
+  "chapters": [
+    {
+      "chapter": "ITIL 4 test 5_2 (EN)",
+      "description": "ITIL 4 - Practice Test 5_2 (EN, questions 41-80)",
+      "questions": [
+        {
+          "number": 41,
+          "question": "Which dimension is MOST concerned with skills, competencies, roles and responsibilities?",
+          "options": [
+            "Partners and suppliers",
+            "Organizations and people",
+            "Information and technology",
+            "Value streams and processes"
+          ],
+          "answer": "Organizations and people",
+          "explanation": {
+            "Partners and suppliers": "Incorrect: focuses on external relationships and contracts.",
+            "Organizations and people": "Correct: covers roles, culture, competencies and authority systems.",
+            "Information and technology": "Incorrect: information, knowledge and tools.",
+            "Value streams and processes": "Incorrect: activities, workflows and controls."
+          }
+        },
+        {
+          "number": 42,
+          "question": "Identify the missing words in the following sentence. The purpose of the [?] is to ensure that the organization continually co-creates value with all stakeholders in line with the organization's objectives.",
+          "options": [
+            "service value system",
+            "'service request management' practice",
+            "'focus on value' guiding principle",
+            "four dimensions of service management"
+          ],
+          "answer": "service value system",
+          "explanation": {
+            "service value system": "Correct: the SVS ensures continual co-creation of value.",
+            "'service request management' practice": "Incorrect: fulfills predefined user requests.",
+            "'focus on value' guiding principle": "Incorrect: gives a value-centric lens, not the whole system.",
+            "four dimensions of service management": "Incorrect: holistic perspectives, not the purpose statement."
+          }
+        },
+        {
+          "number": 43,
+          "question": "What actions does a service desk take for all issues, queries and requests that are reported to them?",
+          "options": [
+            "Initiate, approve, fulfil",
+            "Acknowledge, classify, own",
+            "Diagnose, investigate, resolve",
+            "Schedule, assess, authorize"
+          ],
+          "answer": "Acknowledge, classify, own",
+          "explanation": {
+            "Initiate, approve, fulfil": "Incorrect: mixes request fulfilment and authorization.",
+            "Acknowledge, classify, own": "Correct: standard service desk handling.",
+            "Diagnose, investigate, resolve": "Incorrect: more relevant to incident/problem handling.",
+            "Schedule, assess, authorize": "Incorrect: typical of change enablement."
+          }
+        },
+        {
+          "number": 44,
+          "question": "Why should service desk staff detect recurring issues?",
+          "options": [
+            "To escalate incidents to the correct support team",
+            "To engage the correct change authority",
+            "To help identify problems",
+            "To ensure effective handling of service requests"
+          ],
+          "answer": "To help identify problems",
+          "explanation": {
+            "To escalate incidents to the correct support team": "Incorrect: routing is typically based on category.",
+            "To engage the correct change authority": "Incorrect: applies to changes, not incident recurrences.",
+            "To help identify problems": "Correct: recurring incidents point to underlying causes.",
+            "To ensure effective handling of service requests": "Incorrect: not the primary reason."
+          }
+        },
+        {
+          "number": 45,
+          "question": "Which statement about change authorities is CORRECT?",
+          "options": [
+            "Change authorities are only required for authorizing normal changes",
+            "Change authorities are assigned when each change is deployed",
+            "Change authorities are only required for authorizing emergency changes",
+            "Change authorities are assigned for each type of change and change model"
+          ],
+          "answer": "Change authorities are assigned for each type of change and change model",
+          "explanation": {
+            "Change authorities are only required for authorizing normal changes": "Incorrect.",
+            "Change authorities are assigned when each change is deployed": "Incorrect: authorization must be prior.",
+            "Change authorities are only required for authorizing emergency changes": "Incorrect.",
+            "Change authorities are assigned for each type of change and change model": "Correct: ensures efficiency and effectiveness."
+          }
+        },
+        {
+          "number": 46,
+          "question": "Which statement about service requests is CORRECT?",
+          "options": [
+            "Service requests that require simple workflows should be dealt with as incidents",
+            "Complex service requests should be dealt with as normal changes",
+            "Service requests are usually formalized using standard procedures for initiation, approval and fulfilment",
+            "Service requests require workflows that should use manual procedures and avoid automation"
+          ],
+          "answer": "Service requests are usually formalized using standard procedures for initiation, approval and fulfilment",
+          "explanation": {
+            "Service requests that require simple workflows should be dealt with as incidents": "Incorrect.",
+            "Complex service requests should be dealt with as normal changes": "Incorrect: complexity does not automatically make them changes.",
+            "Service requests are usually formalized using standard procedures for initiation, approval and fulfilment": "Correct.",
+            "Service requests require workflows that should use manual procedures and avoid automation": "Incorrect: automation is encouraged where practical."
+          }
+        },
+        {
+          "number": 47,
+          "question": "Which guiding principle considers customer and user experience?",
+          "options": [
+            "Start where you are",
+            "Keep it simple and practical",
+            "Focus on value",
+            "Collaborate and promote visibility"
+          ],
+          "answer": "Focus on value",
+          "explanation": {
+            "Start where you are": "Incorrect: measure and reuse current state.",
+            "Keep it simple and practical": "Incorrect: reduce unnecessary steps.",
+            "Focus on value": "Correct: explicitly considers customer and user experience.",
+            "Collaborate and promote visibility": "Incorrect: emphasizes communication and transparency."
+          }
+        },
+        {
+          "number": 48,
+          "question": "Which is the CORRECT approach for managing a large improvement initiative as smaller iterations?",
+          "options": [
+            "Feedback should only be taken into account when one iteration fails to meet its objective",
+            "Each iteration should be continually re-evaluated based on feedback",
+            "Each iteration should be designed before starting the initiative and implemented without feedback",
+            "Feedback should be reduced for large improvements as it is unlikely that circumstances will change"
+          ],
+          "answer": "Each iteration should be continually re-evaluated based on feedback",
+          "explanation": {
+            "Feedback should only be taken into account when one iteration fails to meet its objective": "Incorrect: continuous feedback is required.",
+            "Each iteration should be continually re-evaluated based on feedback": "Correct.",
+            "Each iteration should be designed before starting the initiative and implemented without feedback": "Incorrect.",
+            "Feedback should be reduced for large improvements as it is unlikely that circumstances will change": "Incorrect."
+          }
+        },
+        {
+          "number": 49,
+          "question": "When should a change request be submitted to resolve a problem?",
+          "options": [
+            "As soon as the analysis of cost, risks and benefits justifies the change",
+            "As soon as the analysis of the frequency and impact of incidents justifies the change",
+            "As soon as a solution for the problem has been identified",
+            "As soon as a workaround for the problem has been identified"
+          ],
+          "answer": "As soon as the analysis of cost, risks and benefits justifies the change",
+          "explanation": {
+            "As soon as the analysis of cost, risks and benefits justifies the change": "Correct: CR follows a justified business/risk case.",
+            "As soon as the analysis of the frequency and impact of incidents justifies the change": "Incorrect: frequency/impact may inform, but risk/benefit justifies.",
+            "As soon as a solution for the problem has been identified": "Incorrect: solution alone is insufficient.",
+            "As soon as a workaround for the problem has been identified": "Incorrect: workaround does not mandate a change."
+          }
+        },
+        {
+          "number": 50,
+          "question": "Which practice provides visibility of the organization's services by capturing and reporting on service performance?",
+          "options": [
+            "Service level management",
+            "Service request management",
+            "Service configuration management",
+            "Service desk"
+          ],
+          "answer": "Service level management",
+          "explanation": {
+            "Service level management": "Correct: captures and reports performance against targets.",
+            "Service request management": "Incorrect: fulfills user requests.",
+            "Service configuration management": "Incorrect: manages CI information.",
+            "Service desk": "Incorrect: acts as entry point and coordination."
+          }
+        },
+        {
+          "number": 51,
+          "question": "Which practice has a purpose that includes restoring normal service operation as quickly as possible?",
+          "options": [
+            "Incident management",
+            "Supplier management",
+            "Deployment management",
+            "Problem management"
+          ],
+          "answer": "Incident management",
+          "explanation": {
+            "Incident management": "Correct: minimizes impact by fast restoration.",
+            "Supplier management": "Incorrect.",
+            "Deployment management": "Incorrect.",
+            "Problem management": "Incorrect: reduces likelihood and impact by addressing causes."
+          }
+        },
+        {
+          "number": 52,
+          "question": "An organization is notified by a supplier about a defect in a software product that they use. Which practice describes the activities needed to log and manage this?",
+          "options": [
+            "Change enablement",
+            "Incident management",
+            "Service level management",
+            "Problem management"
+          ],
+          "answer": "Incident management",
+          "explanation": {
+            "Change enablement": "Incorrect: risk assessment and authorization of changes.",
+            "Incident management": "Correct: logs and manages incidents including supplier interactions.",
+            "Service level management": "Incorrect: targets and reviews.",
+            "Problem management": "Incorrect: addresses root causes."
+          }
+        },
+        {
+          "number": 53,
+          "question": "What should all 'continual improvement' decisions be based on?",
+          "options": [
+            "A recent maturity assessment",
+            "An up-to-date balanced scorecard",
+            "Details of how services are measured",
+            "Accurate and carefully analyzed data"
+          ],
+          "answer": "Accurate and carefully analyzed data",
+          "explanation": {
+            "A recent maturity assessment": "Incorrect: one input, not the foundation.",
+            "An up-to-date balanced scorecard": "Incorrect: useful input, not the sole basis.",
+            "Details of how services are measured": "Incorrect: methods help, data drives decisions.",
+            "Accurate and carefully analyzed data": "Correct: fact-based decision-making."
+          }
+        },
+        {
+          "number": 54,
+          "question": "What is the purpose of the 'relationship management' practice?",
+          "options": [
+            "To align the organization's practices and services with changing business needs",
+            "To reduce the likelihood and impact of incidents by identifying causes",
+            "To establish and nurture the links between the organization and its stakeholders at strategic and tactical levels",
+            "To minimize the negative impact of incidents by restoring service quickly"
+          ],
+          "answer": "To establish and nurture the links between the organization and its stakeholders at strategic and tactical levels",
+          "explanation": {
+            "To align the organization's practices and services with changing business needs": "Incorrect: continual improvement.",
+            "To reduce the likelihood and impact of incidents by identifying causes": "Incorrect: problem management.",
+            "To establish and nurture the links between the organization and its stakeholders at strategic and tactical levels": "Correct.",
+            "To minimize the negative impact of incidents by restoring service quickly": "Incorrect: incident management."
+          }
+        },
+        {
+          "number": 55,
+          "question": "Identify which of the below is recognized through notifications created by an IT service, CI or monitoring tool.",
+          "options": [
+            "Problems",
+            "Requests",
+            "Events",
+            "Incidents"
+          ],
+          "answer": "Events",
+          "explanation": {
+            "Problems": "Incorrect: causes of incidents.",
+            "Requests": "Incorrect: user-initiated service actions.",
+            "Events": "Correct: changes of state recognized via notifications.",
+            "Incidents": "Incorrect: unplanned interruptions or quality reductions."
+          }
+        },
+        {
+          "number": 56,
+          "question": "How should an organization include third-party suppliers in the continual improvement of services?",
+          "options": [
+            "Ensure suppliers include details of their approach to service improvement in contracts",
+            "Ensure that all supplier problem management activities result in improvements",
+            "Require evidence that the supplier implements all improvements using project management practices",
+            "Require evidence that the supplier uses agile development methods"
+          ],
+          "answer": "Ensure suppliers include details of their approach to service improvement in contracts",
+          "explanation": {
+            "Ensure suppliers include details of their approach to service improvement in contracts": "Correct: measurement, reporting and improvement clauses.",
+            "Ensure that all supplier problem management activities result in improvements": "Incorrect: not every problem warrants immediate improvement.",
+            "Require evidence that the supplier implements all improvements using project management practices": "Incorrect: methods may vary.",
+            "Require evidence that the supplier uses agile development methods": "Incorrect: methodology-agnostic."
+          }
+        },
+        {
+          "number": 57,
+          "question": "Identify the missing word. The use of ______ should support, not replace what is observed, when using the 'start where you are' guiding principle.",
+          "options": [
+            "plans",
+            "tools",
+            "measurement",
+            "process"
+          ],
+          "answer": "measurement",
+          "explanation": {
+            "plans": "Incorrect.",
+            "tools": "Incorrect.",
+            "measurement": "Correct: measure to support direct observation.",
+            "process": "Incorrect."
+          }
+        },
+        {
+          "number": 58,
+          "question": "What is a problem?",
+          "options": [
+            "An addition or modification that could have an effect on services",
+            "Any change of state that has significance for the management of a configuration item",
+            "A cause or potential cause of one or more incidents",
+            "An unplanned reduction in the quality of a service"
+          ],
+          "answer": "A cause or potential cause of one or more incidents",
+          "explanation": {
+            "An addition or modification that could have an effect on services": "Change.",
+            "Any change of state that has significance for the management of a configuration item": "Event.",
+            "A cause or potential cause of one or more incidents": "Correct: problem definition.",
+            "An unplanned reduction in the quality of a service": "Incident."
+          }
+        },
+        {
+          "number": 59,
+          "question": "What is utility?",
+          "options": [
+            "The perceived benefits, usefulness and importance of something",
+            "The amount of money spent on a specific activity or resource",
+            "The functionality offered by a service to meet a particular need",
+            "Fit for warranty"
+          ],
+          "answer": "The functionality offered by a service to meet a particular need",
+          "explanation": {
+            "The perceived benefits, usefulness and importance of something": "Value.",
+            "The amount of money spent on a specific activity or resource": "Cost.",
+            "The functionality offered by a service to meet a particular need": "Correct: utility (fit for purpose).",
+            "Fit for warranty": "Incorrect phrasing; warranty is fit for use."
+          }
+        },
+        {
+          "number": 60,
+          "question": "Which dimension includes activities and workflows?",
+          "options": [
+            "Information and technology",
+            "Value streams and processes",
+            "Organizations and people",
+            "Partners and suppliers"
+          ],
+          "answer": "Value streams and processes",
+          "explanation": {
+            "Information and technology": "Incorrect.",
+            "Value streams and processes": "Correct: activities, workflows, controls and procedures.",
+            "Organizations and people": "Incorrect.",
+            "Partners and suppliers": "Incorrect."
+          }
+        },
+        {
+          "number": 61,
+          "question": "Which practice provides support for managing feedback, compliments and complaints from users?",
+          "options": [
+            "Service request management",
+            "Problem management",
+            "Change enablement",
+            "Incident management"
+          ],
+          "answer": "Service request management",
+          "explanation": {
+            "Service request management": "Correct: requests include feedback, compliments and complaints.",
+            "Problem management": "Incorrect.",
+            "Change enablement": "Incorrect.",
+            "Incident management": "Incorrect."
+          }
+        },
+        {
+          "number": 62,
+          "question": "Determine one appropriate metric for measuring a new service.",
+          "options": [
+            "Measuring the performance over the first six months and basing a solution on the results",
+            "Asking customers open questions to establish their requirements",
+            "Using operational data to provide detailed service reports",
+            "Asking customers to provide numerical targets that meet their needs"
+          ],
+          "answer": "Asking customers open questions to establish their requirements",
+          "explanation": {
+            "Measuring the performance over the first six months and basing a solution on the results": "Incorrect: define success criteria before rollout.",
+            "Asking customers open questions to establish their requirements": "Correct: capture needs to define outcome-based metrics.",
+            "Using operational data to provide detailed service reports": "Incorrect: technical metrics alone are insufficient.",
+            "Asking customers to provide numerical targets that meet their needs": "Incorrect: co-create targets; do not offload definition."
+          }
+        },
+        {
+          "number": 63,
+          "question": "Which practice coordinates the classification, ownership and communication of service requests and incidents?",
+          "options": [
+            "Relationship management",
+            "Problem management",
+            "Supplier management",
+            "Service desk"
+          ],
+          "answer": "Service desk",
+          "explanation": {
+            "Relationship management": "Incorrect.",
+            "Problem management": "Incorrect.",
+            "Supplier management": "Incorrect.",
+            "Service desk": "Correct: SPOC coordinating classification and ownership."
+          }
+        },
+        {
+          "number": 64,
+          "question": "Which dimension considers data security and privacy?",
+          "options": [
+            "Information and technology",
+            "Organizations and people",
+            "Value streams and processes",
+            "Partners and suppliers"
+          ],
+          "answer": "Information and technology",
+          "explanation": {
+            "Information and technology": "Correct: includes information security and compliance.",
+            "Organizations and people": "Incorrect.",
+            "Value streams and processes": "Incorrect.",
+            "Partners and suppliers": "Incorrect."
+          }
+        },
+        {
+          "number": 65,
+          "question": "How do all value chain activities transform inputs to outputs?",
+          "options": [
+            "By determining service demand",
+            "By using a single functional team",
+            "By implementing process automation",
+            "By using a combination of practices"
+          ],
+          "answer": "By using a combination of practices",
+          "explanation": {
+            "By determining service demand": "Incorrect: demand is an input to the SVS.",
+            "By using a single functional team": "Incorrect: cross-practice resources are used.",
+            "By implementing process automation": "Incorrect: automation is helpful but not required.",
+            "By using a combination of practices": "Correct: activities draw on practices and resources as needed."
+          }
+        },
+        {
+          "number": 66,
+          "question": "Which guiding principle describes the importance of doing something, instead of spending a long time analyzing different options?",
+          "options": [
+            "Optimize and automate",
+            "Progress iteratively with feedback",
+            "Focus on value",
+            "Start where you are"
+          ],
+          "answer": "Progress iteratively with feedback",
+          "explanation": {
+            "Optimize and automate": "Incorrect: optimize first, then automate.",
+            "Progress iteratively with feedback": "Correct: avoid analysis paralysis and deliver in small steps.",
+            "Focus on value": "Incorrect: value-centric selection and prioritization.",
+            "Start where you are": "Incorrect: begin with current-state evidence."
+          }
+        },
+        {
+          "number": 67,
+          "question": "What role approves the cost of services?",
+          "options": [
+            "User",
+            "Change authority",
+            "Customer",
+            "Sponsor"
+          ],
+          "answer": "Sponsor",
+          "explanation": {
+            "User": "Incorrect: consumes services.",
+            "Change authority": "Incorrect: authorizes changes, not budgets.",
+            "Customer": "Incorrect: defines requirements and outcomes.",
+            "Sponsor": "Correct: authorizes budget for service consumption."
+          }
+        },
+        {
+          "number": 68,
+          "question": "Which statement about change authorization is CORRECT?",
+          "options": [
+            "Standard changes are high risk and should be authorized by the highest level",
+            "Centralizing authorization to a single person is the most effective approach",
+            "The authorization of normal changes should be expedited to implement quickly",
+            "A change authority should be assigned to each type of change and change model"
+          ],
+          "answer": "A change authority should be assigned to each type of change and change model",
+          "explanation": {
+            "Standard changes are high risk and should be authorized by the highest level": "Incorrect: standard changes are low-risk and pre-authorized.",
+            "Centralizing authorization to a single person is the most effective approach": "Incorrect: depends on context; often decentralized.",
+            "The authorization of normal changes should be expedited to implement quickly": "Incorrect: emergency changes are expedited.",
+            "A change authority should be assigned to each type of change and change model": "Correct."
+          }
+        },
+        {
+          "number": 69,
+          "question": "What type of change is MOST likely to be managed by the 'service request management' practice?",
+          "options": [
+            "An emergency change",
+            "An application change",
+            "A normal change",
+            "A standard change"
+          ],
+          "answer": "A standard change",
+          "explanation": {
+            "An emergency change": "Incorrect: handled via change enablement with expedited flow.",
+            "An application change": "Incorrect: could be normal/emergency depending on risk.",
+            "A normal change": "Incorrect: assessed and authorized via change enablement.",
+            "A standard change": "Correct: low-risk, pre-authorized; often initiated as a service request."
+          }
+        },
+        {
+          "number": 70,
+          "question": "Which impact does automation have on a service desk?",
+          "options": [
+            "Increased phone contact and a reduced ability to focus on user experience",
+            "Ability to work from multiple locations, geographically dispersed",
+            "Less low level work and a greater ability to focus on user experience",
+            "Ability to work from a single centralized location"
+          ],
+          "answer": "Less low level work and a greater ability to focus on user experience",
+          "explanation": {
+            "Increased phone contact and a reduced ability to focus on user experience": "Incorrect: automation reduces low-level contacts.",
+            "Ability to work from multiple locations, geographically dispersed": "Not the primary impact cited.",
+            "Less low level work and a greater ability to focus on user experience": "Correct.",
+            "Ability to work from a single centralized location": "Not a necessary effect."
+          }
+        },
+        {
+          "number": 71,
+          "question": "Which practice has a purpose that includes ensuring that risks have been properly assessed?",
+          "options": [
+            "Change enablement",
+            "Service configuration management",
+            "Service level management",
+            "Problem management"
+          ],
+          "answer": "Change enablement",
+          "explanation": {
+            "Change enablement": "Correct: assesses risk and authorizes changes.",
+            "Service configuration management": "Incorrect.",
+            "Service level management": "Incorrect.",
+            "Problem management": "Incorrect."
+          }
+        },
+        {
+          "number": 72,
+          "question": "Why is it important to set target resolution times in 'incident management'?",
+          "options": [
+            "They facilitate information sharing and learning",
+            "They determine which support team the incident should be escalated to",
+            "They determine when an incident becomes a problem",
+            "They enable the management of customer and user expectations"
+          ],
+          "answer": "They enable the management of customer and user expectations",
+          "explanation": {
+            "They facilitate information sharing and learning": "Incorrect: good practice but not the primary purpose.",
+            "They determine which support team the incident should be escalated to": "Incorrect: category routes assignment.",
+            "They determine when an incident becomes a problem": "Incorrect: problem creation is not based solely on time.",
+            "They enable the management of customer and user expectations": "Correct."
+          }
+        },
+        {
+          "number": 73,
+          "question": "Which dimension considers how knowledge assets should be protected?",
+          "options": [
+            "Value streams and processes",
+            "Organizations and people",
+            "Information and technology",
+            "Partners and suppliers"
+          ],
+          "answer": "Information and technology",
+          "explanation": {
+            "Value streams and processes": "Incorrect.",
+            "Organizations and people": "Incorrect.",
+            "Information and technology": "Correct: includes information security and privacy.",
+            "Partners and suppliers": "Incorrect."
+          }
+        },
+        {
+          "number": 74,
+          "question": "Why should incidents be prioritized?",
+          "options": [
+            "To identify which support team the incident should be escalated to",
+            "To ensure that incidents with the highest business impact are resolved first",
+            "To encourage a high level of collaboration within and between teams",
+            "To help automated matching of incidents to problems or known errors"
+          ],
+          "answer": "To ensure that incidents with the highest business impact are resolved first",
+          "explanation": {
+            "To identify which support team the incident should be escalated to": "Incorrect: routing is categorization-driven.",
+            "To ensure that incidents with the highest business impact are resolved first": "Correct.",
+            "To encourage a high level of collaboration within and between teams": "Desirable but not the purpose of prioritization.",
+            "To help automated matching of incidents to problems or known errors": "Incorrect: tool function independent of priority."
+          }
+        },
+        {
+          "number": 75,
+          "question": "Which statement about known errors and problems is CORRECT?",
+          "options": [
+            "Known errors are managed by technical staff, problems are managed by service management staff",
+            "A known error is the cause of one or more problems",
+            "Known errors cause vulnerabilities, problems cause incidents",
+            "Known error is the status assigned to a problem after it has been analyzed"
+          ],
+          "answer": "Known error is the status assigned to a problem after it has been analyzed",
+          "explanation": {
+            "Known errors are managed by technical staff, problems are managed by service management staff": "Incorrect: roles vary; distinction is not that.",
+            "A known error is the cause of one or more problems": "Incorrect.",
+            "Known errors cause vulnerabilities, problems cause incidents": "Incorrect: both can lead to incidents.",
+            "Known error is the status assigned to a problem after it has been analyzed": "Correct."
+          }
+        },
+        {
+          "number": 76,
+          "question": "Which ITIL guiding principle recommends using existing services, processes and tools when improving services?",
+          "options": [
+            "Focus on value",
+            "Start where you are",
+            "Progress iteratively with feedback",
+            "Keep it simple and practical"
+          ],
+          "answer": "Start where you are",
+          "explanation": {
+            "Focus on value": "Incorrect.",
+            "Start where you are": "Correct: assess and reuse what exists.",
+            "Progress iteratively with feedback": "Incorrect.",
+            "Keep it simple and practical": "Incorrect."
+          }
+        },
+        {
+          "number": 77,
+          "question": "How does customer engagement contribute to the 'service level management' practice?",
+          "options": [
+            "1 and 2",
+            "2 and 3",
+            "3 and 4",
+            "1 and 4"
+          ],
+          "answer": [
+            "1 and 4"
+          ],
+          "explanation": {
+            "1 and 2": "Incorrect: #2 is about meeting targets, not specifically engagement.",
+            "2 and 3": "Incorrect.",
+            "3 and 4": "Incorrect: workflow definition belongs to SRM; #4 is correct, #3 is not.",
+            "1 and 4": "Correct: engagement captures info to base metrics on and supports progress discussions."
+          }
+        },
+        {
+          "number": 78,
+          "question": "Which is the MOST important skill required by service desk staff?",
+          "options": [
+            "Technical skills",
+            "Incident analysis skills",
+            "Problem resolution skills",
+            "Supplier management skills"
+          ],
+          "answer": "Incident analysis skills",
+          "explanation": {
+            "Technical skills": "Helpful but not the most important.",
+            "Incident analysis skills": "Correct: understanding, triage and prioritization.",
+            "Problem resolution skills": "More relevant to specialized support teams.",
+            "Supplier management skills": "Not primary for the desk."
+          }
+        },
+        {
+          "number": 79,
+          "question": "Which practice has a purpose to support the quality of the service by handling all agreed user-initiated service requests?",
+          "options": [
+            "Service request management",
+            "Change enablement",
+            "Service desk",
+            "IT asset management"
+          ],
+          "answer": "Service request management",
+          "explanation": {
+            "Service request management": "Correct.",
+            "Change enablement": "Incorrect.",
+            "Service desk": "Incorrect.",
+            "IT asset management": "Incorrect."
+          }
+        },
+        {
+          "number": 80,
+          "question": "What helps diagnose and resolve a simple incident?",
+          "options": [
+            "Formation of a temporary team",
+            "The use of scripts",
+            "Problem prioritization",
+            "Rapid escalation"
+          ],
+          "answer": "The use of scripts",
+          "explanation": {
+            "Formation of a temporary team": "Typically for major incidents.",
+            "The use of scripts": "Correct: guides consistent triage and quick resolution.",
+            "Problem prioritization": "Problem management activity.",
+            "Rapid escalation": "Appropriate for high-impact incidents, not necessarily simple ones."
+          }
+        }
+      ]
+    }
+  ]
+}
+

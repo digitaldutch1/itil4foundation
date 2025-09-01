@@ -1,0 +1,548 @@
+{
+  "chapters": [
+    {
+      "chapter": "ITIL 4 hoofdstuk 1 (Inleiding)",
+      "description": "Inleiding: Servicewaardesysteem (SWS) en de vier dimensies.",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Wat beschrijft het ITIL-servicewaardesysteem (SWS) het best?",
+          "options": [
+            "Een model van rollen en functies voor projectmanagement",
+            "Een model dat laat zien hoe alle componenten en activiteiten samenwerken bij waardecreatie door services",
+            "Een lijst van tools voor incidentafhandeling",
+            "Een set KPI's voor leveranciersprestatie"
+          ],
+          "answer": "Een model dat laat zien hoe alle componenten en activiteiten samenwerken bij waardecreatie door services",
+          "explanation": {
+            "Een model dat laat zien hoe alle componenten en activiteiten samenwerken bij waardecreatie door services": "Juist: dit is de kern-definitie van het SWS.",
+            "Een model van rollen en functies voor projectmanagement": "Onjuist: dit is geen beschrijving van het SWS.",
+            "Een lijst van tools voor incidentafhandeling": "Onjuist: tools horen nergens als SWS-component.",
+            "Een set KPI's voor leveranciersprestatie": "Onjuist: dit kan binnen governance of supplier management vallen, maar is geen SWS-definitie."
+          }
+        },
+        {
+          "number": 2,
+          "question": "Welke onderdelen maken deel uit van het SWS? (selecteer alle juiste)",
+          "options": [
+            "Servicewaardeketen",
+            "Practices",
+            "Richtinggevende principes",
+            "Governance",
+            "Voortdurend verbeteren",
+            "Servicecatalogus",
+            "Financiële jaarrekening"
+          ],
+          "answer": [
+            "Servicewaardeketen",
+            "Practices",
+            "Richtinggevende principes",
+            "Governance",
+            "Voortdurend verbeteren"
+          ],
+          "explanation": {
+            "Servicewaardeketen": "Juist: kernonderdeel van het SWS.",
+            "Practices": "Juist: ITIL-practices ondersteunen activiteiten en waardestromen.",
+            "Richtinggevende principes": "Juist: aanbevelingen die onder alle omstandigheden gelden.",
+            "Governance": "Juist: de manier waarop de organisatie wordt bestuurd en beheerst.",
+            "Voortdurend verbeteren": "Juist: doorlopend verbeteren op alle niveaus.",
+            "Servicecatalogus": "Onjuist: het kan een artefact zijn, maar is geen SWS-component.",
+            "Financiële jaarrekening": "Onjuist: valt buiten het SWS."
+          }
+        },
+        {
+          "number": 3,
+          "question": "Wat is het doel van de ITIL-servicewaardeketen?",
+          "options": [
+            "Het plannen van releases voor software",
+            "Een managementmodel bieden met samenhangende activiteiten voor het creëren en leveren van waarde",
+            "Het vervangen van alle processen door user stories",
+            "Het inrichten van een CMDB"
+          ],
+          "answer": "Een managementmodel bieden met samenhangende activiteiten voor het creëren en leveren van waarde",
+          "explanation": {
+            "Een managementmodel bieden met samenhangende activiteiten voor het creëren en leveren van waarde": "Juist: de SVC bestaat uit zes kernactiviteiten die waardecreatie ondersteunen.",
+            "Het plannen van releases voor software": "Onjuist: kan binnen practices passen, maar dit is niet het doel van de SVC.",
+            "Het vervangen van alle processen door user stories": "Onjuist.",
+            "Het inrichten van een CMDB": "Onjuist."
+          }
+        },
+        {
+          "number": 4,
+          "question": "Wat leveren de richtinggevende principes?",
+          "options": [
+            "Het operationele draaiboek voor incidentafhandeling",
+            "Aanbevelingen die onder alle omstandigheden toepasbaar zijn",
+            "De sleutelrollen voor elke practice",
+            "De autorisatie voor changes"
+          ],
+          "answer": "Aanbevelingen die onder alle omstandigheden toepasbaar zijn",
+          "explanation": {
+            "Aanbevelingen die onder alle omstandigheden toepasbaar zijn": "Juist.",
+            "Het operationele draaiboek voor incidentafhandeling": "Onjuist.",
+            "De sleutelrollen voor elke practice": "Onjuist.",
+            "De autorisatie voor changes": "Onjuist."
+          }
+        },
+        {
+          "number": 5,
+          "question": "Wat wordt bedoeld met governance in het SWS?",
+          "options": [
+            "De manier waarop een organisatie wordt bestuurd en beheerst",
+            "Een tool voor service desk-rapportage",
+            "Het proces om leveranciers te selecteren",
+            "Het tactisch overleg tussen teams"
+          ],
+          "answer": "De manier waarop een organisatie wordt bestuurd en beheerst",
+          "explanation": {
+            "De manier waarop een organisatie wordt bestuurd en beheerst": "Juist.",
+            "Een tool voor service desk-rapportage": "Onjuist.",
+            "Het proces om leveranciers te selecteren": "Onjuist.",
+            "Het tactisch overleg tussen teams": "Onjuist."
+          }
+        },
+        {
+          "number": 6,
+          "question": "Wat is 'voortdurend verbeteren' in ITIL 4?",
+          "options": [
+            "Een eenmalig verbeterproject per jaar",
+            "Een herhaalde organisatorische activiteit op alle niveaus",
+            "Een practice die alleen bij releases wordt gebruikt",
+            "Een audit van leveranciers"
+          ],
+          "answer": "Een herhaalde organisatorische activiteit op alle niveaus",
+          "explanation": {
+            "Een herhaalde organisatorische activiteit op alle niveaus": "Juist.",
+            "Een eenmalig verbeterproject per jaar": "Onjuist.",
+            "Een practice die alleen bij releases wordt gebruikt": "Onjuist.",
+            "Een audit van leveranciers": "Onjuist."
+          }
+        },
+        {
+          "number": 7,
+          "question": "Welke uitspraak over de samenhang van de SWS-onderdelen is correct?",
+          "options": [
+            "De servicewaardeketen gebruikt practices om activiteiten uit te voeren",
+            "Richtinggevende principes gelden alleen voor projecten",
+            "Governance staat los van strategie",
+            "Voortdurend verbeteren is alleen operationeel"
+          ],
+          "answer": "De servicewaardeketen gebruikt practices om activiteiten uit te voeren",
+          "explanation": {
+            "De servicewaardeketen gebruikt practices om activiteiten uit te voeren": "Juist.",
+            "Richtinggevende principes gelden alleen voor projecten": "Onjuist.",
+            "Governance staat los van strategie": "Onjuist.",
+            "Voortdurend verbeteren is alleen operationeel": "Onjuist: het geldt op alle niveaus."
+          }
+        },
+        {
+          "number": 8,
+          "question": "Welke maken deel uit van het vier dimensies model? (selecteer alle juiste)",
+          "options": [
+            "Organisaties en mensen",
+            "Informatie en technologie",
+            "Partners en leveranciers",
+            "Waardestromen en processen",
+            "Marketing en sales",
+            "Financiën en administratie"
+          ],
+          "answer": [
+            "Organisaties en mensen",
+            "Informatie en technologie",
+            "Partners en leveranciers",
+            "Waardestromen en processen"
+          ],
+          "explanation": {
+            "Organisaties en mensen": "Juist.",
+            "Informatie en technologie": "Juist.",
+            "Partners en leveranciers": "Juist.",
+            "Waardestromen en processen": "Juist.",
+            "Marketing en sales": "Onjuist.",
+            "Financiën en administratie": "Onjuist."
+          }
+        },
+        {
+          "number": 9,
+          "question": "Waarop ligt de focus van de dimensie 'Organisaties en mensen'?",
+          "options": [
+            "Technische architectuur en tools",
+            "Rollen, verantwoordelijkheden, cultuur en competenties",
+            "Contracten en SLA-structuren met leveranciers",
+            "Project-scope en businesscase"
+          ],
+          "answer": "Rollen, verantwoordelijkheden, cultuur en competenties",
+          "explanation": {
+            "Rollen, verantwoordelijkheden, cultuur en competenties": "Juist.",
+            "Technische architectuur en tools": "Onjuist: hoort bij 'Informatie en technologie'.",
+            "Contracten en SLA-structuren met leveranciers": "Onjuist: hoort bij 'Partners en leveranciers'.",
+            "Project-scope en businesscase": "Onjuist."
+          }
+        },
+        {
+          "number": 10,
+          "question": "Wat dekt de dimensie 'Informatie en technologie'? (beste antwoord)",
+          "options": [
+            "Alle informatie die nodig is voor het managen van services en de technologie die dat ondersteunt",
+            "Alle HR- en payroll-processen",
+            "Alle verkoopinformatie en CRM-workflows",
+            "Alle juridische contracten met leveranciers"
+          ],
+          "answer": "Alle informatie die nodig is voor het managen van services en de technologie die dat ondersteunt",
+          "explanation": {
+            "Alle informatie die nodig is voor het managen van services en de technologie die dat ondersteunt": "Juist.",
+            "Alle HR- en payroll-processen": "Onjuist.",
+            "Alle verkoopinformatie en CRM-workflows": "Onjuist.",
+            "Alle juridische contracten met leveranciers": "Onjuist."
+          }
+        },
+        {
+          "number": 11,
+          "question": "Wat valt onder de dimensie 'Partners en leveranciers'?",
+          "options": [
+            "De relaties met andere organisaties die bijdragen aan het ontwerpen, leveren en verbeteren van services",
+            "Alle interne rollen en verantwoordelijkheden",
+            "De opzet van het interne datacenter",
+            "Het budget voor continue verbetering"
+          ],
+          "answer": "De relaties met andere organisaties die bijdragen aan het ontwerpen, leveren en verbeteren van services",
+          "explanation": {
+            "De relaties met andere organisaties die bijdragen aan het ontwerpen, leveren en verbeteren van services": "Juist.",
+            "Alle interne rollen en verantwoordelijkheden": "Onjuist.",
+            "De opzet van het interne datacenter": "Onjuist.",
+            "Het budget voor continue verbetering": "Onjuist."
+          }
+        },
+        {
+          "number": 12,
+          "question": "Wat dekt de dimensie 'Waardestromen en processen'?",
+          "options": [
+            "Activiteiten, workflows, controles en procedures die nodig zijn om doelen te bereiken",
+            "De lijst van alle openstaande changes",
+            "Het salarisoverzicht per team",
+            "Het auditplan van leveranciers"
+          ],
+          "answer": "Activiteiten, workflows, controles en procedures die nodig zijn om doelen te bereiken",
+          "explanation": {
+            "Activiteiten, workflows, controles en procedures die nodig zijn om doelen te bereiken": "Juist.",
+            "De lijst van alle openstaande changes": "Onjuist.",
+            "Het salarisoverzicht per team": "Onjuist.",
+            "Het auditplan van leveranciers": "Onjuist."
+          }
+        },
+        {
+          "number": 13,
+          "question": "Waarom vraagt ITIL 4 om een holistische benadering?",
+          "options": [
+            "Omdat alleen processen belangrijk zijn",
+            "Omdat alle vier dimensies geïntegreerd gemanaged moeten worden voor effectieve waardecreatie",
+            "Omdat techniek het enige is dat telt",
+            "Omdat leveranciers alle verantwoordelijkheid hebben"
+          ],
+          "answer": "Omdat alle vier dimensies geïntegreerd gemanaged moeten worden voor effectieve waardecreatie",
+          "explanation": {
+            "Omdat alle vier dimensies geïntegreerd gemanaged moeten worden voor effectieve waardecreatie": "Juist.",
+            "Omdat alleen processen belangrijk zijn": "Onjuist.",
+            "Omdat techniek het enige is dat telt": "Onjuist.",
+            "Omdat leveranciers alle verantwoordelijkheid hebben": "Onjuist."
+          }
+        },
+        {
+          "number": 14,
+          "question": "Welke trend motiveerde o.a. de update naar ITIL 4?",
+          "options": [
+            "Afnemende digitalisering en minder IT-afhankelijkheid",
+            "Digitalisering en behoefte aan flexibel servicemanagement dat Agile/Lean/DevOps omarmt",
+            "De afschaffing van governance",
+            "Het terugbrengen van services naar waterval-only"
+          ],
+          "answer": "Digitalisering en behoefte aan flexibel servicemanagement dat Agile/Lean/DevOps omarmt",
+          "explanation": {
+            "Digitalisering en behoefte aan flexibel servicemanagement dat Agile/Lean/DevOps omarmt": "Juist.",
+            "Afnemende digitalisering en minder IT-afhankelijkheid": "Onjuist.",
+            "De afschaffing van governance": "Onjuist.",
+            "Het terugbrengen van services naar waterval-only": "Onjuist."
+          }
+        },
+        {
+          "number": 15,
+          "question": "Wat is waar over de relatie tussen servicewaardeketen en practices?",
+          "options": [
+            "Praktisch niets; ze zijn onafhankelijk",
+            "De servicewaardeketen gebruikt practices om activiteiten te ondersteunen en uit te voeren",
+            "Practices vervangen de servicewaardeketen",
+            "Practices zijn alleen relevant voor incidenten"
+          ],
+          "answer": "De servicewaardeketen gebruikt practices om activiteiten te ondersteunen en uit te voeren",
+          "explanation": {
+            "De servicewaardeketen gebruikt practices om activiteiten te ondersteunen en uit te voeren": "Juist.",
+            "Praktisch niets; ze zijn onafhankelijk": "Onjuist.",
+            "Practices vervangen de servicewaardeketen": "Onjuist.",
+            "Practices zijn alleen relevant voor incidenten": "Onjuist."
+          }
+        },
+        {
+          "number": 16,
+          "question": "Welke activiteit hoort NIET in het SWS thuis?",
+          "options": [
+            "Voortdurend verbeteren",
+            "Governance",
+            "Servicewaardeketen",
+            "Servicecatalogus publiceren"
+          ],
+          "answer": "Servicecatalogus publiceren",
+          "explanation": {
+            "Servicecatalogus publiceren": "Juist: een catalogus kan nuttig zijn, maar het is geen SWS-component.",
+            "Voortdurend verbeteren": "Onjuist.",
+            "Governance": "Onjuist.",
+            "Servicewaardeketen": "Onjuist."
+          }
+        },
+        {
+          "number": 17,
+          "question": "Wat is het doel van 'voortdurend verbeteren' binnen het SWS?",
+          "options": [
+            "Zorgen dat prestaties voortdurend aan stakeholderverwachtingen voldoen",
+            "Alle processen elk kwartaal herschrijven",
+            "Incidents sluiten zonder root cause",
+            "Alle leveranciers jaarlijks vervangen"
+          ],
+          "answer": "Zorgen dat prestaties voortdurend aan stakeholderverwachtingen voldoen",
+          "explanation": {
+            "Zorgen dat prestaties voortdurend aan stakeholderverwachtingen voldoen": "Juist.",
+            "Alle processen elk kwartaal herschrijven": "Onjuist.",
+            "Incidents sluiten zonder root cause": "Onjuist.",
+            "Alle leveranciers jaarlijks vervangen": "Onjuist."
+          }
+        },
+        {
+          "number": 18,
+          "question": "Richtinggevende principes zijn bedoeld om...",
+          "options": [
+            "alleen op projectniveau te worden toegepast",
+            "onder alle omstandigheden richting te geven, ongeacht doelen of strategie",
+            "de rol van governance te vervangen",
+            "alle processen te standaardiseren"
+          ],
+          "answer": "onder alle omstandigheden richting te geven, ongeacht doelen of strategie",
+          "explanation": {
+            "onder alle omstandigheden richting te geven, ongeacht doelen of strategie": "Juist.",
+            "alleen op projectniveau te worden toegepast": "Onjuist.",
+            "de rol van governance te vervangen": "Onjuist.",
+            "alle processen te standaardiseren": "Onjuist."
+          }
+        },
+        {
+          "number": 19,
+          "question": "Wat is het beste samengestelde voordeel van SWS + vier dimensies?",
+          "options": [
+            "Effectieve en efficiënte waardecreatie door services",
+            "Snellere boekhouding",
+            "Minder leverancierscontracten",
+            "Eenmalige migratie naar de cloud"
+          ],
+          "answer": "Effectieve en efficiënte waardecreatie door services",
+          "explanation": {
+            "Effectieve en efficiënte waardecreatie door services": "Juist.",
+            "Snellere boekhouding": "Onjuist.",
+            "Minder leverancierscontracten": "Onjuist.",
+            "Eenmalige migratie naar de cloud": "Onjuist."
+          }
+        },
+        {
+          "number": 20,
+          "question": "Welke 2 uitspraken zijn juist? (selecteer alle juiste)",
+          "options": [
+            "De servicewaardeketen levert een managementmodel met zes kernactiviteiten",
+            "Practices zijn sets van organisatorische middelen om werk uit te voeren of doelen te bereiken",
+            "Governance is optioneel voor organisaties die Agile werken",
+            "Voortdurend verbeteren vindt alleen plaats bij incidenten"
+          ],
+          "answer": [
+            "De servicewaardeketen levert een managementmodel met zes kernactiviteiten",
+            "Practices zijn sets van organisatorische middelen om werk uit te voeren of doelen te bereiken"
+          ],
+          "explanation": {
+            "De servicewaardeketen levert een managementmodel met zes kernactiviteiten": "Juist.",
+            "Practices zijn sets van organisatorische middelen om werk uit te voeren of doelen te bereiken": "Juist.",
+            "Governance is optioneel voor organisaties die Agile werken": "Onjuist.",
+            "Voortdurend verbeteren vindt alleen plaats bij incidenten": "Onjuist."
+          }
+        },
+        {
+          "number": 21,
+          "question": "Wat bedoelt ITIL 4 met een 'holistische benadering'?",
+          "options": [
+            "Primair procedures verbeteren, mensen en tooling komen later",
+            "Alle vier dimensies en SWS-componenten geïntegreerd managen met end-to-end zicht",
+            "Alleen de servicewaardeketen optimaliseren",
+            "Practices laten vervallen en alleen principes gebruiken"
+          ],
+          "answer": "Alle vier dimensies en SWS-componenten geïntegreerd managen met end-to-end zicht",
+          "explanation": {
+            "Alle vier dimensies en SWS-componenten geïntegreerd managen met end-to-end zicht": "Juist: holistisch werken vraagt end-to-end kijken naar vraag→waarde over alle dimensies en SWS-onderdelen.",
+            "Primair procedures verbeteren, mensen en tooling komen later": "Onjuist: dat is juist níet holistisch.",
+            "Alleen de servicewaardeketen optimaliseren": "Onjuist: SVC is één component; holistisch = breder.",
+            "Practices laten vervallen en alleen principes gebruiken": "Onjuist."
+          }
+        },
+        {
+          "number": 22,
+          "question": "Welk effect valt het meest onder de dimensie 'Organisaties en mensen'?",
+          "options": [
+            "Een cultuur die samenwerking stimuleert versnelt time-to-market",
+            "Een cloudprovider levert extra rekenkracht",
+            "Een contract is verlengd met een leverancier",
+            "Een workflow is geautomatiseerd met een RPA-tool"
+          ],
+          "answer": "Een cultuur die samenwerking stimuleert versnelt time-to-market",
+          "explanation": {
+            "Een cultuur die samenwerking stimuleert versnelt time-to-market": "Juist: cultuur, rollen en competenties vallen onder 'Organisaties en mensen'.",
+            "Een cloudprovider levert extra rekenkracht": "Onjuist: dit hoort bij 'Informatie en technologie' of 'Partners en leveranciers'.",
+            "Een contract is verlengd met een leverancier": "Onjuist: dit raakt 'Partners en leveranciers'.",
+            "Een workflow is geautomatiseerd met een RPA-tool": "Onjuist: tooling hoort bij 'Informatie en technologie'."
+          }
+        },
+        {
+          "number": 23,
+          "question": "Welke situatie hoort primair bij de dimensie 'Informatie en technologie'?",
+          "options": [
+            "Het definiëren van teams en verantwoordelijkheden in de service desk",
+            "Het inrichten van telemetrie en dashboards voor serviceprestaties",
+            "Het uitonderhandelen van servicecredits met een leverancier",
+            "Het standaardiseren van een intake-procedure voor requests"
+          ],
+          "answer": "Het inrichten van telemetrie en dashboards voor serviceprestaties",
+          "explanation": {
+            "Het inrichten van telemetrie en dashboards voor serviceprestaties": "Juist: informatie (meting) en technologie (tools) ondersteunen service-management.",
+            "Het definiëren van teams en verantwoordelijkheden in de service desk": "Onjuist: dit valt onder 'Organisaties en mensen'.",
+            "Het uitonderhandelen van servicecredits met een leverancier": "Onjuist: 'Partners en leveranciers'.",
+            "Het standaardiseren van een intake-procedure voor requests": "Onjuist: 'Waardestromen en processen'."
+          }
+        },
+        {
+          "number": 24,
+          "question": "Wat is een goed voorbeeld van de dimensie 'Partners en leveranciers'?",
+          "options": [
+            "Een productowner bepaalt prioriteiten in de backlog",
+            "Een shared-responsibility model en heldere afspraken met de hostingprovider",
+            "Een interne opleiding voor probleemdiagnose",
+            "Een workflow voor autorisatie van changes"
+          ],
+          "answer": "Een shared-responsibility model en heldere afspraken met de hostingprovider",
+          "explanation": {
+            "Een shared-responsibility model en heldere afspraken met de hostingprovider": "Juist: dit gaat over de relatie en afspraken met een externe partij.",
+            "Een productowner bepaalt prioriteiten in de backlog": "Onjuist: organisatie/rollen.",
+            "Een interne opleiding voor probleemdiagnose": "Onjuist: mensen/competenties.",
+            "Een workflow voor autorisatie van changes": "Onjuist: processen/waardestromen."
+          }
+        },
+        {
+          "number": 25,
+          "question": "Welke component van het SWS borgt expliciet de lus van leren en verbeteren?",
+          "options": [
+            "Richtinggevende principes",
+            "Governance",
+            "Voortdurend verbeteren",
+            "Servicewaardeketen"
+          ],
+          "answer": "Voortdurend verbeteren",
+          "explanation": {
+            "Voortdurend verbeteren": "Juist: dit is de SWS-component die continu verbeteren op alle niveaus organiseert.",
+            "Richtinggevende principes": "Onjuist: die geven richting, geen verbeterlus.",
+            "Governance": "Onjuist: borging/aansturing, geen verbeterlus.",
+            "Servicewaardeketen": "Onjuist: activiteitenmodel; verbeteren kan erin plaatsvinden maar is niet de lus zelf."
+          }
+        },
+        {
+          "number": 26,
+          "question": "Wat is het voordeel van het SWS t.o.v. 'alleen processen optimaliseren'?",
+          "options": [
+            "Het vervangt alle processen door user stories",
+            "Het dwingt end-to-end afstemming tussen activiteiten, practices en dimensies",
+            "Het voorkomt dat externe leveranciers nodig zijn",
+            "Het schrapt governance om sneller te zijn"
+          ],
+          "answer": "Het dwingt end-to-end afstemming tussen activiteiten, practices en dimensies",
+          "explanation": {
+            "Het dwingt end-to-end afstemming tussen activiteiten, practices en dimensies": "Juist: daarmee voorkom je lokale optimalisaties en silo’s.",
+            "Het vervangt alle processen door user stories": "Onjuist.",
+            "Het voorkomt dat externe leveranciers nodig zijn": "Onjuist.",
+            "Het schrapt governance om sneller te zijn": "Onjuist."
+          }
+        },
+        {
+          "number": 27,
+          "question": "Welke uitspraak over governance en richtinggevende principes is het meest correct?",
+          "options": [
+            "Governance is de toepassing van een consistente set richtinggevende principes op organisatieniveau",
+            "Richtinggevende principes vervangen governance",
+            "Governance geldt alleen voor externe audits",
+            "Richtinggevende principes worden alleen bij projecten gebruikt"
+          ],
+          "answer": "Governance is de toepassing van een consistente set richtinggevende principes op organisatieniveau",
+          "explanation": {
+            "Governance is de toepassing van een consistente set richtinggevende principes op organisatieniveau": "Juist: governance leunt op principes om consistent te sturen en te beheersen.",
+            "Richtinggevende principes vervangen governance": "Onjuist.",
+            "Governance geldt alleen voor externe audits": "Onjuist.",
+            "Richtinggevende principes worden alleen bij projecten gebruikt": "Onjuist."
+          }
+        },
+        {
+          "number": 28,
+          "question": "Wat is een juiste omschrijving van ITIL-practices binnen het SWS?",
+          "options": [
+            "Practices zijn tools die incidenten automatisch oplossen",
+            "Practices zijn sets van organisatorische middelen die activiteiten in waardestromen ondersteunen",
+            "Practices zijn uitsluitend procesbeschrijvingen",
+            "Practices vervangen de servicewaardeketen"
+          ],
+          "answer": "Practices zijn sets van organisatorische middelen die activiteiten in waardestromen ondersteunen",
+          "explanation": {
+            "Practices zijn sets van organisatorische middelen die activiteiten in waardestromen ondersteunen": "Juist: people, process, information, technologie en partners komen hierin samen.",
+            "Practices zijn tools die incidenten automatisch oplossen": "Onjuist: tools kunnen onderdeel zijn, maar practice ≠ tool.",
+            "Practices zijn uitsluitend procesbeschrijvingen": "Onjuist: practices zijn breder dan processen.",
+            "Practices vervangen de servicewaardeketen": "Onjuist."
+          }
+        },
+        {
+          "number": 29,
+          "question": "Welke twee voorbeelden sluiten aan bij waardestroom-denken? (selecteer alle juiste)",
+          "options": [
+            "End-to-end flow van vraag tot waarde met minimale wachttijden",
+            "Lokaal optimaliseren binnen één team zonder zicht op keten",
+            "Verspilling (wachten, overbodige handoffs) actief verminderen",
+            "Elke activiteit alleen op output meten, niet op outcome"
+          ],
+          "answer": [
+            "End-to-end flow van vraag tot waarde met minimale wachttijden",
+            "Verspilling (wachten, overbodige handoffs) actief verminderen"
+          ],
+          "explanation": {
+            "End-to-end flow van vraag tot waarde met minimale wachttijden": "Juist.",
+            "Lokaal optimaliseren binnen één team zonder zicht op keten": "Onjuist.",
+            "Verspilling (wachten, overbodige handoffs) actief verminderen": "Juist.",
+            "Elke activiteit alleen op output meten, niet op outcome": "Onjuist: focus op outcome is belangrijk."
+          }
+        },
+        {
+          "number": 30,
+          "question": "Welke combinatie van SWS-component en functie is correct?",
+          "options": [
+            "Richtinggevende principes - autoriseren van changes",
+            "Governance - borgen dat activiteiten aansluiten op strategie en beleid",
+            "Servicewaardeketen - vastleggen van KPI's en leveranciersboetes",
+            "Voortdurend verbeteren - bepalen van rollen en verantwoordelijkheden"
+          ],
+          "answer": "Governance - borgen dat activiteiten aansluiten op strategie en beleid",
+          "explanation": {
+            "Governance - borgen dat activiteiten aansluiten op strategie en beleid": "Juist.",
+            "Richtinggevende principes - autoriseren van changes": "Onjuist: change-autorisatie hoort bij change enablement/practice en governance-kaders.",
+            "Servicewaardeketen - vastleggen van KPI's en leveranciersboetes": "Onjuist: dat ligt eerder bij supplier mgt/governance, niet bij de SVC zelf.",
+            "Voortdurend verbeteren - bepalen van rollen en verantwoordelijkheden": "Onjuist: rollen vallen onder organisaties/mensen en practices; CI gaat om verbeteren."
+          }
+        }
+      ]
+    }
+  ]
+}
+

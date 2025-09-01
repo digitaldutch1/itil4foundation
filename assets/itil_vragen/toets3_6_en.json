@@ -1,0 +1,537 @@
+{
+  "chapters": [
+    {
+      "chapter": "ITIL 4 test 3_6 (EN)",
+      "description": "ITIL 4 - Practice Test 3_6 (EN, questions 201-233)",
+      "questions": [
+        {
+          "number": 201,
+          "question": "Which term relates to service levels aligned with the needs of service consumers?",
+          "options": ["Service management","Utility","Warranty","Cost"],
+          "answer": "Warranty",
+          "explanation": {
+            "Service management": "Incorrect: organizational capabilities overall.",
+            "Utility": "Incorrect: fit for purpose (what the service does).",
+            "Warranty": "Correct: fit for use; availability, capacity, security, continuity.",
+            "Cost": "Incorrect: spending, not service levels."
+          }
+        },
+        {
+          "number": 202,
+          "question": "What is important for a 'continual improvement register' (CIR)?",
+          "options": [
+            "Improvement ideas that are not being actioned immediately are removed from the CIR",
+            "Improvement ideas from many sources are kept in a single CIR",
+            "Improvement ideas are documented, assessed and prioritized",
+            "Improvement ideas are tested, funded and agreed"
+          ],
+          "answer": "Improvement ideas are documented, assessed and prioritized",
+          "explanation": {
+            "Improvement ideas that are not being actioned immediately are removed from the CIR": "Incorrect: keep and reprioritize.",
+            "Improvement ideas from many sources are kept in a single CIR": "Not required; multiple registers may exist.",
+            "Improvement ideas are documented, assessed and prioritized": "Correct: core use of a CIR.",
+            "Improvement ideas are tested, funded and agreed": "May happen later; not the CIR's essence."
+          }
+        },
+        {
+          "number": 203,
+          "question": "Which is included in the purpose of the 'change enablement' practice?",
+          "options": [
+            "Plan and manage the full lifecycle of all IT assets",
+            "Ensure that risks have been properly assessed",
+            "Make new and changed services available for use",
+            "Record and report selected changes of state"
+          ],
+          "answer": "Ensure that risks have been properly assessed",
+          "explanation": {
+            "Plan and manage the full lifecycle of all IT assets": "IT asset management.",
+            "Ensure that risks have been properly assessed": "Correct: central to change enablement.",
+            "Make new and changed services available for use": "Release management.",
+            "Record and report selected changes of state": "Monitoring and event management."
+          }
+        },
+        {
+          "number": 204,
+          "question": "When should a workaround be created?",
+          "options": [
+            "As soon as possible, once the incident is logged",
+            "When a potential permanent solution has been identified",
+            "When a problem cannot be resolved quickly",
+            "After the resolution of a problem"
+          ],
+          "answer": "When a problem cannot be resolved quickly",
+          "explanation": {
+            "As soon as possible, once the incident is logged": "Not always needed for every incident.",
+            "When a potential permanent solution has been identified": "Workarounds come earlier if needed.",
+            "When a problem cannot be resolved quickly": "Correct: to reduce impact meanwhile.",
+            "After the resolution of a problem": "Too late."
+          }
+        },
+        {
+          "number": 205,
+          "question": "Which statement about outcomes is CORRECT?",
+          "options": [
+            "An output can be enabled by one or more outcomes",
+            "Outcomes are how the service performs",
+            "An outcome is a tangible or intangible activity",
+            "An outcome can be enabled by more than one output"
+          ],
+          "answer": "An outcome can be enabled by more than one output",
+          "explanation": {
+            "An output can be enabled by one or more outcomes": "Incorrect: outputs enable outcomes.",
+            "Outcomes are how the service performs": "Incorrect: relates to warranty.",
+            "An outcome is a tangible or intangible activity": "Incorrect: that describes an output.",
+            "An outcome can be enabled by more than one output": "Correct."
+          }
+        },
+        {
+          "number": 206,
+          "question": "Which is an activity of the 'problem management' practice?",
+          "options": [
+            "Restoration of normal service operation as quickly as possible",
+            "Prioritization of problems based on the risk that they pose",
+            "Resolution of incidents in a time that meets customer expectations",
+            "Authorization of changes to resolve the cause of problems"
+          ],
+          "answer": "Prioritization of problems based on the risk that they pose",
+          "explanation": {
+            "Restoration of normal service operation as quickly as possible": "Incident management.",
+            "Prioritization of problems based on the risk that they pose": "Correct: risk-based prioritization.",
+            "Resolution of incidents in a time that meets customer expectations": "Incident management.",
+            "Authorization of changes to resolve the cause of problems": "Change enablement."
+          }
+        },
+        {
+          "number": 207,
+          "question": "Which TWO are important aspects of the 'service request management' practice?",
+          "options": [
+            "1. Standardization and automation",
+            "2. Providing a variety of channels for access",
+            "3. Establishing a shared view of targets",
+            "4. Policies for approvals"
+          ],
+          "answer": ["1. Standardization and automation","4. Policies for approvals"],
+          "explanation": {
+            "1. Standardization and automation": "Correct: speeds and simplifies fulfilment.",
+            "2. Providing a variety of channels for access": "Helpful, but not the key aspect here.",
+            "3. Establishing a shared view of targets": "SLM concern.",
+            "4. Policies for approvals": "Correct: define when approvals are needed."
+          }
+        },
+        {
+          "number": 208,
+          "question": "Which are elements of the service value system?",
+          "options": [
+            "Governance, service value chain, practices",
+            "Service provision, service consumption, service relationship management",
+            "Customer value, stakeholder value, organization",
+            "Outcomes, utility, warranty"
+          ],
+          "answer": "Governance, service value chain, practices",
+          "explanation": {
+            "Governance, service value chain, practices": "Correct subset of SVS components.",
+            "Service provision, service consumption, service relationship management": "Service relationship terms, not SVS components.",
+            "Customer value, stakeholder value, organization": "Not the SVS structure.",
+            "Outcomes, utility, warranty": "Value-related terms, not components."
+          }
+        },
+        {
+          "number": 209,
+          "question": "Which practice has a purpose that includes aligning the organization's practices and services with changing business needs?",
+          "options": [
+            "Service configuration management",
+            "Continual improvement",
+            "Relationship management",
+            "Service level management"
+          ],
+          "answer": "Continual improvement",
+          "explanation": {
+            "Service configuration management": "Ensures accurate configuration information.",
+            "Continual improvement": "Correct: align with changing needs via ongoing improvement.",
+            "Relationship management": "Stakeholder links.",
+            "Service level management": "Targets and performance."
+          }
+        },
+        {
+          "number": 210,
+          "question": "Which guiding principle helps to ensure that better information is available for decision making?",
+          "options": [
+            "Optimize and automate",
+            "Keep it simple and practical",
+            "Collaborate and promote visibility",
+            "Think and work holistically"
+          ],
+          "answer": "Collaborate and promote visibility",
+          "explanation": {
+            "Optimize and automate": "Efficiency focus.",
+            "Keep it simple and practical": "Simplicity focus.",
+            "Collaborate and promote visibility": "Correct: visibility improves decisions.",
+            "Think and work holistically": "System view, not primarily info visibility."
+          }
+        },
+        {
+          "number": 211,
+          "question": "Which describes a 'change authority'?",
+          "options": [
+            "A person who approves a change",
+            "A way to manage the people aspects of change",
+            "A tool used to help plan changes",
+            "A model used to determine who will assess a change"
+          ],
+          "answer": "A person who approves a change",
+          "explanation": {
+            "A person who approves a change": "Correct.",
+            "A way to manage the people aspects of change": "Organizational change management.",
+            "A tool used to help plan changes": "Not the authority.",
+            "A model used to determine who will assess a change": "Change model, not the role itself."
+          }
+        },
+        {
+          "number": 212,
+          "question": "Which dimension of service management considers the workflows and controls needed to deliver services?",
+          "options": [
+            "Organizations and people",
+            "Partners and suppliers",
+            "Value streams and processes",
+            "Information and technology"
+          ],
+          "answer": "Value streams and processes",
+          "explanation": {
+            "Organizations and people": "People, skills, culture and roles.",
+            "Partners and suppliers": "External relationships.",
+            "Value streams and processes": "Correct: activities, workflows, controls, procedures.",
+            "Information and technology": "Information, knowledge and tools."
+          }
+        },
+        {
+          "number": 213,
+          "question": "Which practice needs people who understand complex systems and have creative and analytical skills?",
+          "options": [
+            "Change enablement",
+            "Service request management",
+            "Problem management",
+            "Service level management"
+          ],
+          "answer": "Problem management",
+          "explanation": {
+            "Change enablement": "Assesses and authorizes changes.",
+            "Service request management": "Standardized request fulfilment.",
+            "Problem management": "Correct: analysis requires creative and analytical ability.",
+            "Service level management": "Business liaison and metrics focus."
+          }
+        },
+        {
+          "number": 214,
+          "question": "What is the purpose of the 'incident management' practice?",
+          "options": [
+            "To support the agreed service quality by effective handling of all agreed user-initiated service requests",
+            "To minimize the negative impact of incidents by restoring normal service operation as quickly as possible",
+            "To reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents",
+            "To capture demand for incident resolution and service requests"
+          ],
+          "answer": "To minimize the negative impact of incidents by restoring normal service operation as quickly as possible",
+          "explanation": {
+            "To support the agreed service quality by effective handling of all agreed user-initiated service requests": "Service request management.",
+            "To minimize the negative impact of incidents by restoring normal service operation as quickly as possible": "Correct.",
+            "To reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents": "Problem management.",
+            "To capture demand for incident resolution and service requests": "Service desk."
+          }
+        },
+        {
+          "number": 215,
+          "question": "Which dimension includes the knowledge needed for the management of services?",
+          "options": [
+            "Information and technology",
+            "Partners and suppliers",
+            "Organizations and people",
+            "Value streams and processes"
+          ],
+          "answer": "Information and technology",
+          "explanation": {
+            "Information and technology": "Correct: includes information and knowledge for service management.",
+            "Partners and suppliers": "External relationships and contracts.",
+            "Organizations and people": "Roles, skills, culture.",
+            "Value streams and processes": "Activities, controls and workflows."
+          }
+        },
+        {
+          "number": 216,
+          "question": "Which value chain activity ensures that service components meet agreed specifications?",
+          "options": [
+            "Design and transition",
+            "Obtain/Build",
+            "Plan",
+            "Deliver and support"
+          ],
+          "answer": "Obtain/Build",
+          "explanation": {
+            "Design and transition": "Ensures products meet stakeholder expectations overall.",
+            "Obtain/Build": "Correct: components available and meet specs.",
+            "Plan": "Shared understanding and direction.",
+            "Deliver and support": "Operate services to agreed specs."
+          }
+        },
+        {
+          "number": 217,
+          "question": "Which statement about the 'change enablement' practice is CORRECT?",
+          "options": [
+            "Service requests are usually normal changes that can be implemented quickly without authorization",
+            "Standard changes are changes that need to be scheduled, assessed and authorized following a standard process",
+            "Emergency changes are changes that must be fully tested and fully documented prior to implementation",
+            "Emergency changes are changes that must be implemented as soon as possible and therefore authorization is expedited"
+          ],
+          "answer": "Emergency changes are changes that must be implemented as soon as possible and therefore authorization is expedited",
+          "explanation": {
+            "Service requests are usually normal changes that can be implemented quickly without authorization": "Incorrect: service requests are managed via SRM; normal changes need assessment.",
+            "Standard changes are changes that need to be scheduled, assessed and authorized following a standard process": "Incorrect: standard changes are pre-authorized.",
+            "Emergency changes are changes that must be fully tested and fully documented prior to implementation": "Incorrect: testing/documentation may be expedited.",
+            "Emergency changes are changes that must be implemented as soon as possible and therefore authorization is expedited": "Correct."
+          }
+        },
+        {
+          "number": 218,
+          "question": "What varies in size and complexity, and uses functions to achieve its objectives?",
+          "options": ["An organization","A practice","A risk","An outcome"],
+          "answer": "An organization",
+          "explanation": {
+            "An organization": "Correct: uses functions, roles and relationships to achieve objectives.",
+            "A practice": "Reusable organizational resources, not necessarily varying in size.",
+            "A risk": "A potential event; not constructed with functions.",
+            "An outcome": "A result for a stakeholder."
+          }
+        },
+        {
+          "number": 219,
+          "question": "Which guiding principle says that services and processes should NOT provide a solution for every exception?",
+          "options": [
+            "Think and work holistically",
+            "Optimize and automate",
+            "Collaborate and promote visibility",
+            "Keep it simple and practical"
+          ],
+          "answer": "Keep it simple and practical",
+          "explanation": {
+            "Think and work holistically": "End-to-end coordination.",
+            "Optimize and automate": "Efficiency principle.",
+            "Collaborate and promote visibility": "Engagement and transparency.",
+            "Keep it simple and practical": "Correct: avoid over-engineering for rare exceptions."
+          }
+        },
+        {
+          "number": 220,
+          "question": "Which practice recommends the use of event-based surveys to gather feedback from customers?",
+          "options": [
+            "Service request management",
+            "Problem management",
+            "Change enablement",
+            "Service level management"
+          ],
+          "answer": "Service level management",
+          "explanation": {
+            "Service request management": "Fulfils requests.",
+            "Problem management": "Root cause and known errors.",
+            "Change enablement": "Assesses and authorizes changes.",
+            "Service level management": "Correct: uses surveys (post-event and periodic) to measure experience."
+          }
+        },
+        {
+          "number": 221,
+          "question": "Which practice is used to confirm customer requirements for services?",
+          "options": [
+            "Service level management",
+            "Incident management",
+            "Service desk",
+            "Service request management"
+          ],
+          "answer": "Service level management",
+          "explanation": {
+            "Service level management": "Correct: engages customers to agree requirements and targets.",
+            "Incident management": "Restores service.",
+            "Service desk": "Entry point for users.",
+            "Service request management": "Handles predefined requests."
+          }
+        },
+        {
+          "number": 222,
+          "question": "Identify the missing word(s) in the following sentence. The service desk should be the entry point and single point of contact for the [?] with all of its users.",
+          "options": ["Service provider","Service consumer","Customer","Supplier"],
+          "answer": "Service provider",
+          "explanation": {
+            "Service provider": "Correct: provider's entry and single point of contact.",
+            "Service consumer": "Role using the service; not who owns the desk.",
+            "Customer": "Defines requirements and owns outcomes.",
+            "Supplier": "External party."
+          }
+        },
+        {
+          "number": 223,
+          "question": "What is the definition of a known error?",
+          "options": [
+            "An unplanned interruption to a service, or reduction in the quality of a service",
+            "A cause, or potential cause, of one or more incident",
+            "A problem that has been analyzed and has not been resolved",
+            "Any change of state that has significance for the management of a service or other configuration item (CI)"
+          ],
+          "answer": "A problem that has been analyzed and has not been resolved",
+          "explanation": {
+            "An unplanned interruption to a service, or reduction in the quality of a service": "Incident.",
+            "A cause, or potential cause, of one or more incident": "Problem.",
+            "A problem that has been analyzed and has not been resolved": "Correct: known error.",
+            "Any change of state that has significance for the management of a service or other configuration item (CI)": "Event."
+          }
+        },
+        {
+          "number": 224,
+          "question": "What includes governance as a component?",
+          "options": ["Practices","The guiding principles","The service value system","The service value chain"],
+          "answer": "The service value system",
+          "explanation": {
+            "Practices": "SVS component, but not the container of governance.",
+            "The guiding principles": "SVS component.",
+            "The service value system": "Correct: includes governance among other components.",
+            "The service value chain": "Operating model inside the SVS."
+          }
+        },
+        {
+          "number": 225,
+          "question": "Identify the missing words in the following sentence. A user is [?] who uses services.",
+          "options": ["A person","An organization","a team","a supplier"],
+          "answer": "A person",
+          "explanation": {
+            "A person": "Correct: user is the person using services.",
+            "An organization": "Too broad.",
+            "a team": "Not the definition.",
+            "a supplier": "Provides to the provider."
+          }
+        },
+        {
+          "number": 226,
+          "question": "Which statement about the 'change control' practice is CORRECT?",
+          "options": [
+            "Normal changes are triggered by the creation of a change request which can be created manually or automated",
+            "Standard changes are those that need to be scheduled, assessed and authorized following a standard process",
+            "Assessment and authorization of normal changes should be expedited to ensure they can be implemented quickly",
+            "There should be a separate change authority for standard changes which includes senior managers who understand the risks involved"
+          ],
+          "answer": "Normal changes are triggered by the creation of a change request which can be created manually or automated",
+          "explanation": {
+            "Normal changes are triggered by the creation of a change request which can be created manually or automated": "Correct.",
+            "Standard changes are those that need to be scheduled, assessed and authorized following a standard process": "Incorrect: standard changes are pre-authorized.",
+            "Assessment and authorization of normal changes should be expedited to ensure they can be implemented quickly": "Incorrect: follow the normal process.",
+            "There should be a separate change authority for standard changes which includes senior managers who understand the risks involved": "Incorrect: standard changes do not need case-by-case authorization."
+          }
+        },
+        {
+          "number": 227,
+          "question": "What is a change schedule PRIMARILY used for?",
+          "options": [
+            "To ensure that a single change authority reviews every change",
+            "To publish a list of service requests that users can select",
+            "To help plan, authorize and schedule emergency changes",
+            "To help plan changes, assist in communication and avoid conflicts"
+          ],
+          "answer": "To help plan changes, assist in communication and avoid conflicts",
+          "explanation": {
+            "To ensure that a single change authority reviews every change": "Not its purpose.",
+            "To publish a list of service requests that users can select": "Not related.",
+            "To help plan, authorize and schedule emergency changes": "Emergencies are expedited outside the schedule.",
+            "To help plan changes, assist in communication and avoid conflicts": "Correct."
+          }
+        },
+        {
+          "number": 228,
+          "question": "Which helps to manage an incident when it is unclear which support team should be working on the incident?",
+          "options": ["Swarming","Self-help","Target resolution times","Disaster recovery plans"],
+          "answer": "Swarming",
+          "explanation": {
+            "Swarming": "Correct: stakeholders collaborate initially, then the best owner continues.",
+            "Self-help": "User resolution channel, not coordination.",
+            "Target resolution times": "Expectation management, not routing.",
+            "Disaster recovery plans": "For major disruptions, not routine routing."
+          }
+        },
+        {
+          "number": 229,
+          "question": "Which statement about change authorities is CORRECT?",
+          "options": [
+            "Change authorities are assigned when each change is deployed",
+            "Change authorities are assigned for each type of change and change model",
+            "Change authorities are only required for authorizing emergency changes",
+            "Change authorities are only required for authorizing normal changes"
+          ],
+          "answer": "Change authorities are assigned for each type of change and change model",
+          "explanation": {
+            "Change authorities are assigned when each change is deployed": "Incorrect.",
+            "Change authorities are assigned for each type of change and change model": "Correct: ensures efficiency and effectiveness.",
+            "Change authorities are only required for authorizing emergency changes": "Incorrect.",
+            "Change authorities are only required for authorizing normal changes": "Incorrect."
+          }
+        },
+        {
+          "number": 230,
+          "question": "Which practice forms a link between the service provider and the users of services?",
+          "options": ["Change control","Problem management","Service level management","Service desk"],
+          "answer": "Service desk",
+          "explanation": {
+            "Change control": "Assesses and authorizes changes.",
+            "Problem management": "Root cause and known errors.",
+            "Service level management": "Targets and reviews.",
+            "Service desk": "Correct: entry point and SPOC."
+          }
+        },
+        {
+          "number": 231,
+          "question": "Which is one of the MAIN concerns of the 'design and transition' value chain activity?",
+          "options": [
+            "Understanding the organization's vision",
+            "Meeting stakeholder expectations",
+            "Understanding stakeholder needs",
+            "Ensuring service components are available"
+          ],
+          "answer": "Meeting stakeholder expectations",
+          "explanation": {
+            "Understanding the organization's vision": "Plan.",
+            "Meeting stakeholder expectations": "Correct: quality, cost, time-to-market.",
+            "Understanding stakeholder needs": "Engage.",
+            "Ensuring service components are available": "Obtain/Build."
+          }
+        },
+        {
+          "number": 232,
+          "question": "What is the definition of a problem?",
+          "options": [
+            "An unplanned interruption to a service, or reduction in the quality of a service",
+            "A cause, or potential cause, of one or more incidents",
+            "Any change of state that has significance for the management of a configuration item (CI)",
+            "An incident for which a full resolution is not yet available"
+          ],
+          "answer": "A cause, or potential cause, of one or more incidents",
+          "explanation": {
+            "An unplanned interruption to a service, or reduction in the quality of a service": "Incident.",
+            "A cause, or potential cause, of one or more incidents": "Correct: definition of a problem.",
+            "Any change of state that has significance for the management of a configuration item (CI)": "Event.",
+            "An incident for which a full resolution is not yet available": "Describes work in progress, not the definition."
+          }
+        },
+        {
+          "number": 233,
+          "question": "Which helps to streamline the fulfilment of service requests?",
+          "options": [
+            "Eliminating service requests which have complex workflows",
+            "Understanding which service requests can be accomplished with limited approvals",
+            "Separating requests relating to service failures from the degradation of services",
+            "Creating new workflows for every service request"
+          ],
+          "answer": "Understanding which service requests can be accomplished with limited approvals",
+          "explanation": {
+            "Eliminating service requests which have complex workflows": "Not necessary; complexity can remain standardized.",
+            "Understanding which service requests can be accomplished with limited approvals": "Correct: pre-approval streamlines fulfilment.",
+            "Separating requests relating to service failures from the degradation of services": "Classification point, not fulfilment speed.",
+            "Creating new workflows for every service request": "Inefficient; reuse models."
+          }
+        }
+      ]
+    }
+  ]
+}
+

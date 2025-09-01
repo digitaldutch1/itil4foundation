@@ -1,0 +1,694 @@
+{
+  "chapters": [
+    {
+      "chapter": "ITIL 4 toets 1_1 (NE)",
+      "description": "ITIL 4 ' Oefentoets 1_1 (NL, vragen 1'40)",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Hoe helpt categorisatie van incidenten de practice Incident management?",
+          "options": [
+            "Het bepaalt de prioriteit die aan het incident wordt toegekend.",
+            "Het zorgt dat incidenten binnen met de klant afgesproken tijd worden opgelost.",
+            "Het bepaalt hoe de serviceprovider wordt waargenomen.",
+            "Het helpt het incident naar het juiste supportgebied te routeren."
+          ],
+          "answer": "Het helpt het incident naar het juiste supportgebied te routeren.",
+          "explanation": {
+            "Het bepaalt de prioriteit die aan het incident wordt toegekend.": "Onjuist: prioritering gebeurt op basis van impact en urgentie, niet door categorisatie zelf.",
+            "Het zorgt dat incidenten binnen met de klant afgesproken tijd worden opgelost.": "Onjuist: dit is een doel van SLM en operationele afspraken, niet van categorisatie.",
+            "Het bepaalt hoe de serviceprovider wordt waargenomen.": "Onjuist: perceptie kan beïnvloed worden, maar dat is geen primaire functie van categorisatie.",
+            "Het helpt het incident naar het juiste supportgebied te routeren.": "Juist: categorieën sturen escalatie en toewijzing naar het juiste team."
+          }
+        },
+        {
+          "number": 2,
+          "question": "Welke aanpak past bij het richtinggevend principe 'Houd het eenvoudig en praktisch'?",
+          "options": [
+            "Alleen controles en metrics toevoegen die voor compliance vereist zijn.",
+            "Controles en metrics alleen toevoegen wanneer ze nodig blijken.",
+            "Eerst alle controles en metrics ontwerpen, daarna informatie verwijderen die geen waarde toevoegt.",
+            "Controles en metrics ontwerpen en stuk voor stuk blijven toevoegen tot alles geïmplementeerd is."
+          ],
+          "answer": "Controles en metrics alleen toevoegen wanneer ze nodig blijken.",
+          "explanation": {
+            "Alleen controles en metrics toevoegen die voor compliance vereist zijn.": "Onvolledig: compliance kan nodig zijn, maar de toetssteen is waarde en eenvoud.",
+            "Controles en metrics alleen toevoegen wanneer ze nodig blijken.": "Juist: voeg alleen toe wat aantoonbaar waarde toevoegt.",
+            "Eerst alle controles en metrics ontwerpen, daarna informatie verwijderen die geen waarde toevoegt.": "Onnodig complex: dit vergroot de kans op over-engineering.",
+            "Controles en metrics ontwerpen en stuk voor stuk blijven toevoegen tot alles geïmplementeerd is.": "Onjuist: dit creëert ballast en ondermijnt eenvoud."
+          }
+        },
+        {
+          "number": 3,
+          "question": "Wat is het hoofddoel van de SVC-activiteit Design & transition?",
+          "options": [
+            "Voortdurend voldoen aan verwachtingen van stakeholders voor kosten.",
+            "Transparantie bieden en goede relaties onderhouden met stakeholders.",
+            "Zorgen dat servicecomponenten beschikbaar zijn wanneer nodig.",
+            "Services volgens specificatie ondersteunen."
+          ],
+          "answer": "Voortdurend voldoen aan verwachtingen van stakeholders voor kosten.",
+          "explanation": {
+            "Voortdurend voldoen aan verwachtingen van stakeholders voor kosten.": "Juist in de context van de vraagset: D&T borgt dat producten/services blijven voldoen aan verwachtingen m.b.t. kwaliteit, kosten en ‘time-to-market’.",
+            "Transparantie bieden en goede relaties onderhouden met stakeholders.": "Hoort bij Engage (betrekken/relaties).",
+            "Zorgen dat servicecomponenten beschikbaar zijn wanneer nodig.": "Hoort bij Obtain/build.",
+            "Services volgens specificatie ondersteunen.": "Hoort bij Deliver & support."
+          }
+        },
+        {
+          "number": 4,
+          "question": "Wat is de belangrijkste reden om incidenten te prioriteren?",
+          "options": [
+            "Links te leggen naar gerelateerde changes en known errors.",
+            "Kennisdeling en leren te bevorderen.",
+            "Reële verwachtingen bij gebruikers te borgen.",
+            "Te zorgen dat incidenten met de hoogste impact eerst worden opgelost."
+          ],
+          "answer": "Te zorgen dat incidenten met de hoogste impact eerst worden opgelost.",
+          "explanation": {
+            "Links te leggen naar gerelateerde changes en known errors.": "Nuttig, maar geen primaire reden voor prioritering.",
+            "Kennisdeling en leren te bevorderen.": "Gewenst effect, maar niet de kern van prioritering.",
+            "Reële verwachtingen bij gebruikers te borgen.": "Belangrijk, maar prioritering draait om impact/urgentie.",
+            "Te zorgen dat incidenten met de hoogste impact eerst worden opgelost.": "Juist: zo worden de grootste verstoringen het snelst beperkt."
+          }
+        },
+        {
+          "number": 5,
+          "question": "Welke aanbeveling hoort bij het richtinggevend principe 'Focus op waarde'?",
+          "options": [
+            "Maak 'focus op waarde' een verantwoordelijkheid van het management.",
+            "Focus op waarde bij elke stap van verbetering.",
+            "Focus eerst op waarde van nieuwe en grote projecten.",
+            "Focus eerst op waarde voor de serviceprovider."
+          ],
+          "answer": "Focus op waarde bij elke stap van verbetering.",
+          "explanation": {
+            "Maak 'focus op waarde' een verantwoordelijkheid van het management.": "Onvolledig: focus op waarde geldt voor iedereen, overal.",
+            "Focus op waarde bij elke stap van verbetering.": "Juist: waarde moet aantoonbaar zijn in elke stap.",
+            "Focus eerst op waarde van nieuwe en grote projecten.": "Onjuist: ook kleine verbeteringen moeten waarde leveren.",
+            "Focus eerst op waarde voor de serviceprovider.": "Onjuist: waarde wordt gedefinieerd door de consument/klant."
+          }
+        },
+        {
+          "number": 6,
+          "question": "Waarop moeten alle besluiten voor Voortdurend verbeteren gebaseerd zijn?",
+          "options": [
+            "Nauwkeurige en zorgvuldig geanalyseerde data.",
+            "Details over hoe services worden gemeten.",
+            "Een recente maturity-assessment.",
+            "Een actuele balanced scorecard."
+          ],
+          "answer": "Nauwkeurige en zorgvuldig geanalyseerde data.",
+          "explanation": {
+            "Nauwkeurige en zorgvuldig geanalyseerde data.": "Juist: 'fact-based' besluiten vergen goede data en analyse.",
+            "Details over hoe services worden gemeten.": "Bron van data, maar niet het doel op zich.",
+            "Een recente maturity-assessment.": "Kan input zijn, maar is niet altijd nodig of voldoende.",
+            "Een actuele balanced scorecard.": "Kan input zijn, maar de kern is juiste data en analyse."
+          }
+        },
+        {
+          "number": 7,
+          "question": "Welk richtinggevend principe ontmoedigt 'silo-activiteit' het meest?",
+          "options": [
+            "Focus op waarde",
+            "Houd het eenvoudig en praktisch",
+            "Begin waar je bent",
+            "Werk samen en bevorder zichtbaarheid"
+          ],
+          "answer": "Werk samen en bevorder zichtbaarheid",
+          "explanation": {
+            "Focus op waarde": "Belangrijk, maar gaat niet specifiek over silo's doorbreken.",
+            "Houd het eenvoudig en praktisch": "Richt zich op eenvoud, niet per se op silo's.",
+            "Begin waar je bent": "Eerst waarnemen/meten wat er al is.",
+            "Werk samen en bevorder zichtbaarheid": "Juist: transparantie en samenwerking doorbreken silo's."
+          }
+        },
+        {
+          "number": 8,
+          "question": "Vul het ontbrekende woord in: een known error is een problem dat is _________ maar nog niet is opgelost.",
+          "options": [
+            "Gelogd",
+            "Geëscaleerd",
+            "Gesloten",
+            "Geanalyseerd"
+          ],
+          "answer": "Geanalyseerd",
+          "explanation": {
+            "Gelogd": "Logging is nodig, maar maakt het geen known error.",
+            "Geëscaleerd": "Escalatie kan, maar is geen criterium voor known error.",
+            "Gesloten": "Dan is het geen open known error meer.",
+            "Geanalyseerd": "Juist: problem geanalyseerd, nog niet opgelost = known error."
+          }
+        },
+        {
+          "number": 9,
+          "question": "Welke activiteit is een voorbeeld van servicelevering (service provisioning)?",
+          "options": [
+            "Benutting van resources van de provider",
+            "Toegang tot resources voor gebruikers leveren",
+            "Ontvangst of aanschaf van goederen",
+            "Verzoek om serviceacties"
+          ],
+          "answer": "Toegang tot resources voor gebruikers leveren",
+          "explanation": {
+            "Benutting van resources van de provider": "Dat is serviceconsumptie (door de consument).",
+            "Toegang tot resources voor gebruikers leveren": "Juist: dit is onderdeel van servicelevering.",
+            "Ontvangst of aanschaf van goederen": "Kan onderdeel zijn, maar niet specifiek provisioning.",
+            "Verzoek om serviceacties": "Service request (consumptie), niet provisioning."
+          }
+        },
+        {
+          "number": 10,
+          "question": "Welk richtinggevend principe richt zich primair op de waarde voor de serviceconsument (zoals omzet/groei)?",
+          "options": [
+            "Optimaliseer en automatiseer",
+            "Focus op waarde",
+            "Houd het eenvoudig en praktisch",
+            "Werk iteratief met feedback"
+          ],
+          "answer": "Focus op waarde",
+          "explanation": {
+            "Optimaliseer en automatiseer": "Gaat om effectiviteit/efficiëntie, niet direct om klantwaarde.",
+            "Focus op waarde": "Juist: waarde (zoals revenue/groei) voor de consument centraal.",
+            "Houd het eenvoudig en praktisch": "Gaat over eenvoud.",
+            "Werk iteratief met feedback": "Gaat over itereren/leren."
+          }
+        },
+        {
+          "number": 11,
+          "question": "Waarom wordt een change schedule gebruikt?",
+          "options": [
+            "Om standaard changes te autoriseren",
+            "Om een change authority toe te wijzen",
+            "Om spoedchanges te plannen",
+            "Om change-conflicten te voorkomen"
+          ],
+          "answer": "Om change-conflicten te voorkomen",
+          "explanation": {
+            "Om standaard changes te autoriseren": "Standaard changes zijn vooraf geautoriseerd.",
+            "Om een change authority toe te wijzen": "Change authority wordt via het model/beleid bepaald.",
+            "Om spoedchanges te plannen": "Spoedchanges zijn juist versneld en vaak buiten het schema.",
+            "Om change-conflicten te voorkomen": "Juist: het schema helpt conflicten en resource-botsingen voorkomen."
+          }
+        },
+        {
+          "number": 12,
+          "question": "Wat is een event?",
+          "options": [
+            "Geen van de opties",
+            "Elke statuswijziging met betekenis voor het managen van een CI of service",
+            "Een ongeplande onderbreking of kwaliteitsvermindering van een service",
+            "De oorzaak of potentiële oorzaak van één of meer incidenten"
+          ],
+          "answer": "Elke statuswijziging met betekenis voor het managen van een CI of service",
+          "explanation": {
+            "Geen van de opties": "Onjuist: de juiste definitie staat erbij.",
+            "Elke statuswijziging met betekenis voor het managen van een CI of service": "Juist: dit is de definitie van event.",
+            "Een ongeplande onderbreking of kwaliteitsvermindering van een service": "Dat is een incident.",
+            "De oorzaak of potentiële oorzaak van één of meer incidenten": "Dat is een problem."
+          }
+        },
+        {
+          "number": 13,
+          "question": "Welke uitspraak over de SVC-activiteiten is juist?",
+          "options": [
+            "Elke practice hoort bij exact één SVC-activiteit.",
+            "Een specifieke combinatie van SVC-activiteiten en practices vormt een servicerelatie.",
+            "Elke SVC-activiteit draagt bij door specifieke inputs in outputs te transformeren.",
+            "SVC-activiteiten vormen één vaste workflow voor waardecreatie."
+          ],
+          "answer": "Elke SVC-activiteit draagt bij door specifieke inputs in outputs te transformeren.",
+          "explanation": {
+            "Elke practice hoort bij exact één SVC-activiteit.": "Onjuist: practices ondersteunen meerdere activiteiten.",
+            "Een specifieke combinatie van SVC-activiteiten en practices vormt een servicerelatie.": "Onjuist: dat beschrijft eerder waardestromen dan een relatie.",
+            "Elke SVC-activiteit draagt bij door specifieke inputs in outputs te transformeren.": "Juist: kern van de SVC.",
+            "SVC-activiteiten vormen één vaste workflow voor waardecreatie.": "Onjuist: de volgorde is flexibel en scenario-afhankelijk."
+          }
+        },
+        {
+          "number": 14,
+          "question": "Welke uitspraak over de practice Service request management is correct?",
+          "options": [
+            "Voor herstel van service is soms aanvullende goedkeuring nodig.",
+            "Service requests worden afgehandeld met eenvoudige workflows.",
+            "Voor elk requesttype wordt een nieuwe workflow gemaakt.",
+            "Voor service requests is soms financiële autorisatie vereist."
+          ],
+          "answer": "Voor service requests is soms financiële autorisatie vereist.",
+          "explanation": {
+            "Voor herstel van service is soms aanvullende goedkeuring nodig.": "Dat hoort bij incidentafhandeling of change, niet standaard SRM.",
+            "Service requests worden afgehandeld met eenvoudige workflows.": "Niet altijd; sommige zijn juist complex.",
+            "Voor elk requesttype wordt een nieuwe workflow gemaakt.": "Onjuist: hergebruik workflow-modellen is aanbevolen.",
+            "Voor service requests is soms financiële autorisatie vereist.": "Juist: beleid (financieel/security) kan autorisatie vereisen."
+          }
+        },
+        {
+          "number": 15,
+          "question": "Welke practice is verantwoordelijk voor het verplaatsen van componenten naar productieomgevingen?",
+          "options": [
+            "IT asset management",
+            "Release management",
+            "Change enablement",
+            "Deployment management"
+          ],
+          "answer": "Deployment management",
+          "explanation": {
+            "IT asset management": "Gaat over lifecycle van assets, niet deployment.",
+            "Release management": "Gaat over beschikbaarstellen voor gebruik ('when/how'), niet het technische verplaatsen.",
+            "Change enablement": "Beoordeelt/autoriseert changes.",
+            "Deployment management": "Juist: technisch verplaatsen naar test/prod."
+          }
+        },
+        {
+          "number": 16,
+          "question": "Wat is een doel van de practice Service desk?",
+          "options": [
+            "De kans en impact van incidenten verlagen door oorzaken te analyseren.",
+            "Het aantal succesvolle changes maximaliseren door risicobeoordeling.",
+            "De vraag naar incidentoplossing en service requests vastleggen.",
+            "Duidelijke, business-gebaseerde servicetargets vaststellen."
+          ],
+          "answer": "De vraag naar incidentoplossing en service requests vastleggen.",
+          "explanation": {
+            "De kans en impact van incidenten verlagen door oorzaken te analyseren.": "Hoort bij Problem management.",
+            "Het aantal succesvolle changes maximaliseren door risicobeoordeling.": "Hoort bij Change enablement.",
+            "De vraag naar incidentoplossing en service requests vastleggen.": "Juist: ingang en SPOC-functie.",
+            "Duidelijke, business-gebaseerde servicetargets vaststellen.": "Hoort bij Service level management."
+          }
+        },
+        {
+          "number": 17,
+          "question": "Welke dimensie behandelt o.a. dataveiligheid en privacy?",
+          "options": [
+            "Waardestromen en processen",
+            "Informatie en technologie",
+            "Organisaties en mensen",
+            "Partners en leveranciers"
+          ],
+          "answer": "Informatie en technologie",
+          "explanation": {
+            "Waardestromen en processen": "Richt zich op activiteiten/workflows.",
+            "Informatie en technologie": "Juist: bevat informatiebeveiliging en compliance-aspecten.",
+            "Organisaties en mensen": "Gaat over cultuur, rollen, competenties.",
+            "Partners en leveranciers": "Focust op externe partijen/contracten."
+          }
+        },
+        {
+          "number": 18,
+          "question": "Hoe pas je de zeven richtinggevende principes toe bij besluitvorming?",
+          "options": [
+            "Door de meest relevante principes te gebruiken.",
+            "Door elk principe te beoordelen op relevantie voor het besluit.",
+            "Door alle principes altijd even zwaar mee te wegen.",
+            "Door vooral 'Focus op waarde' te gebruiken."
+          ],
+          "answer": "Door elk principe te beoordelen op relevantie voor het besluit.",
+          "explanation": {
+            "Door de meest relevante principes te gebruiken.": "Te globaal; eerst beoordelen welke relevant zijn.",
+            "Door elk principe te beoordelen op relevantie voor het besluit.": "Juist: per situatie de toepasbaarheid bepalen.",
+            "Door alle principes altijd even zwaar mee te wegen.": "Onnodig en niet effectief.",
+            "Door vooral 'Focus op waarde' te gebruiken.": "Belangrijk, maar niet exclusief."
+          }
+        },
+        {
+          "number": 19,
+          "question": "Wat is de belangrijkste baten van Problem management?",
+          "options": [
+            "Het aantal en de impact van incidenten verminderen.",
+            "Het aantal succesvolle changes maximaliseren.",
+            "Normale service zo snel mogelijk herstellen.",
+            "Workarounds en known errors beheren."
+          ],
+          "answer": "Het aantal en de impact van incidenten verminderen.",
+          "explanation": {
+            "Het aantal en de impact van incidenten verminderen.": "Juist: primaire doel van Problem management.",
+            "Het aantal succesvolle changes maximaliseren.": "Doel van Change enablement.",
+            "Normale service zo snel mogelijk herstellen.": "Doel van Incident management.",
+            "Workarounds en known errors beheren.": "Onderdeel van Problem management, maar niet het 'main benefit'."
+          }
+        },
+        {
+          "number": 20,
+          "question": "Wat is het doel van het Service Value System (SVS)?",
+          "options": [
+            "Borgen dat de organisatie continu samen met stakeholders waarde co-creëert.",
+            "Geen van de opties.",
+            "De organisatie aansturen.",
+            "Beschikbaarheid, capaciteit, security en continuïteit adresseren."
+          ],
+          "answer": "Borgen dat de organisatie continu samen met stakeholders waarde co-creëert.",
+          "explanation": {
+            "Borgen dat de organisatie continu samen met stakeholders waarde co-creëert.": "Juist: kern van het SVS.",
+            "Geen van de opties.": "Onjuist.",
+            "De organisatie aansturen.": "Beschrijft governance, een onderdeel van het SVS.",
+            "Beschikbaarheid, capaciteit, security en continuïteit adresseren.": "Dit zijn aspecten van warranty/SLA's, niet het doel van het SVS."
+          }
+        },
+        {
+          "number": 21,
+          "question": "Welke uitspraak over een waardestroom is juist?",
+          "options": [
+            "Hij gebruikt voorgeschreven inputs en outputs.",
+            "Het is een SVC-activiteit.",
+            "Het wordt gebruikt om governance te bieden.",
+            "Hij integreert practices voor een specifiek scenario."
+          ],
+          "answer": "Hij integreert practices voor een specifiek scenario.",
+          "explanation": {
+            "Hij gebruikt voorgeschreven inputs en outputs.": "Onjuist: waardestromen zijn flexibel.",
+            "Het is een SVC-activiteit.": "Onjuist: waardestromen bestaan uit meerdere SVC-activiteiten.",
+            "Het wordt gebruikt om governance te bieden.": "Onjuist: governance is een SVS-component.",
+            "Hij integreert practices voor een specifiek scenario.": "Juist: waardestromen combineren activiteiten en practices."
+          }
+        },
+        {
+          "number": 22,
+          "question": "Welke TWEE horen bij de dimensie 'Organisaties en mensen'?",
+          "options": [
+            "Systemen van autoriteit",
+            "Cultuur",
+            "Relaties tussen organisaties",
+            "Workflows"
+          ],
+          "answer": [
+            "Systemen van autoriteit",
+            "Cultuur"
+          ],
+          "explanation": {
+            "Systemen van autoriteit": "Juist: onderdeel van Organisaties en mensen.",
+            "Cultuur": "Juist: onderdeel van Organisaties en mensen.",
+            "Relaties tussen organisaties": "Hoort bij Partners en leveranciers.",
+            "Workflows": "Hoort bij Waardestromen en processen."
+          }
+        },
+        {
+          "number": 23,
+          "question": "Vul het ontbrekende woord in: het doel van Service configuration management is te borgen dat accurate en betrouwbare informatie over de configuratie van services en de ______ die hen ondersteunen, beschikbaar is wanneer en waar nodig.",
+          "options": [
+            "Klanten",
+            "CI's",
+            "Leveranciers",
+            "Assets"
+          ],
+          "answer": "CI's",
+          "explanation": {
+            "Klanten": "Onjuist: klanten zijn geen configuratie-items.",
+            "CI's": "Juist: configuration items ondersteunen de services.",
+            "Leveranciers": "Belangrijk, maar geen CI's.",
+            "Assets": "Niet elke asset is per definitie een CI in het CMDB-perspectief."
+          }
+        },
+        {
+          "number": 24,
+          "question": "Wat is een known error?",
+          "options": [
+            "De oorzaak of potentiële oorzaak van één of meer incidenten.",
+            "Elke betekenisvolle statuswijziging van een service of CI.",
+            "Een problem dat is geanalyseerd maar niet is opgelost.",
+            "Een ongeplande onderbreking of kwaliteitsvermindering van een service."
+          ],
+          "answer": "Een problem dat is geanalyseerd maar niet is opgelost.",
+          "explanation": {
+            "De oorzaak of potentiële oorzaak van één of meer incidenten.": "Dat is een problem (nog geen known error).",
+            "Elke betekenisvolle statuswijziging van een service of CI.": "Dat is een event.",
+            "Een problem dat is geanalyseerd maar niet is opgelost.": "Juist: definitie van known error.",
+            "Een ongeplande onderbreking of kwaliteitsvermindering van een service.": "Dat is een incident."
+          }
+        },
+        {
+          "number": 25,
+          "question": "Welke omschrijving past bij de SVC-activiteit Plan?",
+          "options": [
+            "Zorgt dat services worden geleverd en ondersteund volgens afspraken en verwachtingen.",
+            "Zorgt voor een gedeeld begrip van visie en huidige status voor alle producten en services in de organisatie.",
+            "Zorgt voor continue verbetering van producten, services en practices over alle activiteiten.",
+            "Zorgt dat servicecomponenten beschikbaar zijn wanneer en waar nodig."
+          ],
+          "answer": "Zorgt voor een gedeeld begrip van visie en huidige status voor alle producten en services in de organisatie.",
+          "explanation": {
+            "Zorgt dat services worden geleverd en ondersteund volgens afspraken en verwachtingen.": "Hoort bij Deliver & support.",
+            "Zorgt voor een gedeeld begrip van visie en huidige status voor alle producten en services in de organisatie.": "Juist: kern van Plan.",
+            "Zorgt voor continue verbetering van producten, services en practices over alle activiteiten.": "Hoort bij Improve.",
+            "Zorgt dat servicecomponenten beschikbaar zijn wanneer en waar nodig.": "Hoort bij Obtain/build."
+          }
+        },
+        {
+          "number": 26,
+          "question": "Welke practice verkleint de kans op incidenten?",
+          "options": [
+            "Service desk",
+            "Change enablement",
+            "Problem management",
+            "Voortdurend verbeteren"
+          ],
+          "answer": "Problem management",
+          "explanation": {
+            "Service desk": "SPOC en coördinatie, niet primair kansreductie.",
+            "Change enablement": "Gaat over changes beoordelen/autorisereren.",
+            "Problem management": "Juist: reduceert kans en impact door oorzaken aan te pakken.",
+            "Voortdurend verbeteren": "Verbetert breed, maar niet specifiek incidentkans."
+          }
+        },
+        {
+          "number": 27,
+          "question": "Wat wordt NIET afgehandeld als een service request?",
+          "options": [
+            "Het leveren van een laptop",
+            "Degradatie van een service",
+            "Een klacht over een supportteam",
+            "Vervanging van een tonercartridge"
+          ],
+          "answer": "Degradatie van een service",
+          "explanation": {
+            "Het leveren van een laptop": "Kan als request (goederen) afgehandeld worden.",
+            "Degradatie van een service": "Juist: dat is een incident.",
+            "Een klacht over een supportteam": "Kan via request/feedback lopen.",
+            "Vervanging van een tonercartridge": "Typische service request."
+          }
+        },
+        {
+          "number": 28,
+          "question": "Wat is het doel van Information security management?",
+          "options": [
+            "De informatie beschermen die de organisatie nodig heeft om te functioneren.",
+            "Zorgen voor betrouwbare configuratie-informatie.",
+            "Services en componenten observeren.",
+            "De lifecycle van alle IT-assets plannen en managen."
+          ],
+          "answer": "De informatie beschermen die de organisatie nodig heeft om te functioneren.",
+          "explanation": {
+            "De informatie beschermen die de organisatie nodig heeft om te functioneren.": "Juist: vertrouwelijkheid, integriteit, beschikbaarheid enz.",
+            "Zorgen voor betrouwbare configuratie-informatie.": "Hoort bij Service configuration management.",
+            "Services en componenten observeren.": "Hoort bij Monitoring & event management.",
+            "De lifecycle van alle IT-assets plannen en managen.": "Hoort bij IT asset management."
+          }
+        },
+        {
+          "number": 29,
+          "question": "Welke uitspraak over change-autorisatie is correct?",
+          "options": [
+            "Normale changes worden doorgaans als service request geïmplementeerd en door de servicedesk geautoriseerd.",
+            "Spoedchanges moeten door zoveel mogelijk mensen geautoriseerd worden.",
+            "Normale changes moeten beoordeeld en geautoriseerd zijn voordat ze worden uitgerold.",
+            "Changes in het change schedule zijn al vooraf geautoriseerd en hebben niets extra's nodig."
+          ],
+          "answer": "Normale changes moeten beoordeeld en geautoriseerd zijn voordat ze worden uitgerold.",
+          "explanation": {
+            "Normale changes worden doorgaans als service request geïmplementeerd en door de servicedesk geautoriseerd.": "Onjuist: normale changes volgen het change-proces en authority.",
+            "Spoedchanges moeten door zoveel mogelijk mensen geautoriseerd worden.": "Onjuist: autorisatie wordt versneld, niet uitgebreid.",
+            "Normale changes moeten beoordeeld en geautoriseerd zijn voordat ze worden uitgerold.": "Juist.",
+            "Changes in het change schedule zijn al vooraf geautoriseerd en hebben niets extra's nodig.": "Onjuist: het schedule vervangt autorisatie niet."
+          }
+        },
+        {
+          "number": 30,
+          "question": "Welke activiteit hoort bij de practice Voortdurend verbeteren?",
+          "options": [
+            "Complimenten en klachten afhandelen om verbeteringen te vinden",
+            "De oorzaak van ongeplande service-onderbrekingen identificeren",
+            "Relaties met en tussen stakeholders verbeteren",
+            "Verbeterinitiatieven prioriteren en businesscases opstellen"
+          ],
+          "answer": "Verbeterinitiatieven prioriteren en businesscases opstellen",
+          "explanation": {
+            "Complimenten en klachten afhandelen om verbeteringen te vinden": "Kan input zijn, hoort bij SRM/Servicedesk.",
+            "De oorzaak van ongeplande service-onderbrekingen identificeren": "Hoort bij Problem management.",
+            "Relaties met en tussen stakeholders verbeteren": "Hoort bij Relationship management.",
+            "Verbeterinitiatieven prioriteren en businesscases opstellen": "Juist: kernactiviteit van continual improvement."
+          }
+        },
+        {
+          "number": 31,
+          "question": "Welke SVC-activiteit communiceert de huidige status van alle vier dimensies?",
+          "options": [
+            "Improve",
+            "Engage",
+            "Plan",
+            "Obtain/build"
+          ],
+          "answer": "Plan",
+          "explanation": {
+            "Improve": "Richt zich op verbeteren over alle activiteiten.",
+            "Engage": "Gaat over behoeften/relaties en transparantie naar stakeholders.",
+            "Plan": "Juist: gedeeld begrip van visie, status en richting.",
+            "Obtain/build": "Gaat over beschikbaar maken van componenten."
+          }
+        },
+        {
+          "number": 32,
+          "question": "Welke practice vraagt mensen die complexe systemen begrijpen en analytisch/creatief kunnen denken?",
+          "options": [
+            "Change enablement",
+            "Service request management",
+            "Problem management",
+            "Service level management"
+          ],
+          "answer": "Problem management",
+          "explanation": {
+            "Change enablement": "Gaat om beoordelen/autoriteren van changes.",
+            "Service request management": "Gaat om gestandaardiseerde verzoeken.",
+            "Problem management": "Juist: diagnose/analyse vergt systeemdenken en creativiteit.",
+            "Service level management": "Focus op afspraken/metrics en klantdialoog."
+          }
+        },
+        {
+          "number": 33,
+          "question": "Welke practice beheert risico's rond vertrouwelijkheid, integriteit en beschikbaarheid?",
+          "options": [
+            "Information security management",
+            "Supplier management",
+            "Monitoring & event management",
+            "Voortdurend verbeteren"
+          ],
+          "answer": "Information security management",
+          "explanation": {
+            "Information security management": "Juist: CIA, authenticatie, non-repudiation, etc.",
+            "Supplier management": "Gaat over leveranciersprestaties.",
+            "Monitoring & event management": "Observeert en rapporteert events.",
+            "Voortdurend verbeteren": "Brede verbetering, geen infosec-focus."
+          }
+        },
+        {
+          "number": 34,
+          "question": "Welke uitspraak over spoedchanges (emergency changes) is juist?",
+          "options": [
+            "Ze worden zo snel mogelijk geïmplementeerd.",
+            "Ze worden geautoriseerd op basis van change-type (normaal).",
+            "Ze zijn vooraf geautoriseerd.",
+            "Ze worden zonder enige autorisatie uitgevoerd."
+          ],
+          "answer": "Ze worden zo snel mogelijk geïmplementeerd.",
+          "explanation": {
+            "Ze worden zo snel mogelijk geïmplementeerd.": "Juist: met versnelde beoordeling/autorisatie.",
+            "Ze worden geautoriseerd op basis van change-type (normaal).": "Onjuist: emergency heeft eigen versnelde flow.",
+            "Ze zijn vooraf geautoriseerd.": "Onjuist: dat geldt voor standaard changes.",
+            "Ze worden zonder enige autorisatie uitgevoerd.": "Onjuist: autorisatie is versneld, niet afwezig."
+          }
+        },
+        {
+          "number": 35,
+          "question": "Wat beveelt 'Werk iteratief met feedback' aan?",
+          "options": [
+            "Een verbeterinitiatief opsplitsen in beheersbare delen.",
+            "Alle stakeholders vooraf volledig in kaart brengen.",
+            "Eerst alle organisatorische effecten in kaart brengen.",
+            "Altijd starten met een volledige nulmeting."
+          ],
+          "answer": "Een verbeterinitiatief opsplitsen in beheersbare delen.",
+          "explanation": {
+            "Een verbeterinitiatief opsplitsen in beheersbare delen.": "Juist: kleine iteraties + feedback.",
+            "Alle stakeholders vooraf volledig in kaart brengen.": "Kan nuttig zijn, maar is geen kern van dit principe.",
+            "Eerst alle organisatorische effecten in kaart brengen.": "Holistisch denken is belangrijk, maar niet de essentie hier.",
+            "Altijd starten met een volledige nulmeting.": "'Begin waar je bent' gaat over meten/observeren; hier gaat het om itereren."
+          }
+        },
+        {
+          "number": 36,
+          "question": "Hoe betrek je leveranciers in Voortdurend verbeteren?",
+          "options": [
+            "Bewijs eisen dat de leverancier alle verbeteringen via projectmanagement uitvoert.",
+            "Bewijs eisen dat de leverancier agile-methoden gebruikt.",
+            "Borgen dat contracten de verbeteraanpak van de leverancier beschrijven.",
+            "Eisen dat alle supplier-problems tot verbeteringen leiden."
+          ],
+          "answer": "Borgen dat contracten de verbeteraanpak van de leverancier beschrijven.",
+          "explanation": {
+            "Bewijs eisen dat de leverancier alle verbeteringen via projectmanagement uitvoert.": "Te voorschrijvend; het gaat om passende aanpak.",
+            "Bewijs eisen dat de leverancier agile-methoden gebruikt.": "Methodeneutraal; belangrijk is dat verbetering is geborgd.",
+            "Borgen dat contracten de verbeteraanpak van de leverancier beschrijven.": "Juist: afspraken over meten, rapporteren en verbeteren.",
+            "Eisen dat alle supplier-problems tot verbeteringen leiden.": "Onrealistisch; prioriteit en context zijn bepalend."
+          }
+        },
+        {
+          "number": 37,
+          "question": "Vul het ontbrekende woord in: de klant is de rol die de eisen voor een service bepaalt en verantwoordelijkheid neemt voor de ________ van serviceconsumptie.",
+          "options": [
+            "Outputs",
+            "Kosten",
+            "Outcomes",
+            "Risico’s"
+          ],
+          "answer": "Outcomes",
+          "explanation": {
+            "Outputs": "Outputs zijn resultaten van activiteiten, niet de eindresultaten voor de stakeholder.",
+            "Kosten": "Klant neemt niet de kostenverantwoordelijkheid van de provider over.",
+            "Outcomes": "Juist: eindresultaten waarvoor de klant verantwoordelijk is.",
+            "Risico’s": "Provider beheert specifieke risico's; klant is verantwoordelijk voor de gewenste uitkomsten."
+          }
+        },
+        {
+          "number": 38,
+          "question": "Welk change-type wordt het meest als service request afgehandeld?",
+          "options": [
+            "Een standaard change",
+            "Een organisatie-change",
+            "Een emergency change",
+            "Een normale change"
+          ],
+          "answer": "Een standaard change",
+          "explanation": {
+            "Een standaard change": "Juist: laag risico, vooraf geautoriseerd, vaak via SRM.",
+            "Een organisatie-change": "Gaat over mensen/structuren (OCM), niet SRM.",
+            "Een emergency change": "Versnelde change, niet via SRM.",
+            "Een normale change": "Doorloopt het reguliere changeproces."
+          }
+        },
+        {
+          "number": 39,
+          "question": "Wat is het primaire doel van een change schedule?",
+          "options": [
+            "Incidentmanagement en verbeterplanning ondersteunen",
+            "Standaard changes managen",
+            "Spoedchanges managen",
+            "Changes plannen en conflicten helpen voorkomen"
+          ],
+          "answer": "Changes plannen en conflicten helpen voorkomen",
+          "explanation": {
+            "Incidentmanagement en verbeterplanning ondersteunen": "Kan helpen, maar is niet het primaire doel.",
+            "Standaard changes managen": "Standaard changes zijn vooraf geautoriseerd; schema is breder.",
+            "Spoedchanges managen": "Emergency changes gaan vaak buiten het schema om.",
+            "Changes plannen en conflicten helpen voorkomen": "Juist: kernfunctie van het schema."
+          }
+        },
+        {
+          "number": 40,
+          "question": "Wat is een richtinggevend principe (guiding principle)?",
+          "options": [
+            "Een proces.",
+            "Een aanbeveling die een organisatie onder alle omstandigheden kan sturen.",
+            "Een middel waarmee een organisatie wordt bestuurd en gecontroleerd.",
+            "Alle opties."
+          ],
+          "answer": "Een aanbeveling die een organisatie onder alle omstandigheden kan sturen.",
+          "explanation": {
+            "Een proces.": "Onjuist: principes zijn geen processen.",
+            "Een aanbeveling die een organisatie onder alle omstandigheden kan sturen.": "Juist: definitie van guiding principle.",
+            "Een middel waarmee een organisatie wordt bestuurd en gecontroleerd.": "Beschrijft governance.",
+            "Alle opties.": "Onjuist: niet alle opties zijn correct."
+          }
+        }
+      ]
+    }
+  ]
+}
+

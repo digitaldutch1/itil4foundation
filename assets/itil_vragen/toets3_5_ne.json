@@ -1,0 +1,694 @@
+{
+  "chapters": [
+    {
+      "chapter": "ITIL 4 toets 3_5 (NE)",
+      "description": "ITIL 4 - Oefentoets 3_5 (NL, vragen 161-200)",
+      "questions": [
+        {
+          "number": 161,
+          "question": "Welke uitspraak over de stappen om een servicerequest te vervullen is JUIST?",
+          "options": [
+            "Ze moeten complex en gedetailleerd zijn",
+            "Ze moeten incidentafhandeling bevatten",
+            "Ze moeten kort en simpel zijn",
+            "Ze moeten bekend en beproefd zijn"
+          ],
+          "answer": "Ze moeten bekend en beproefd zijn",
+          "explanation": {
+            "Ze moeten complex en gedetailleerd zijn": "Onjuist: onnodige complexiteit vertraagt.",
+            "Ze moeten incidentafhandeling bevatten": "Onjuist: incidents horen bij Incident management.",
+            "Ze moeten kort en simpel zijn": "Handig, maar het belangrijkste is dat ze bewezen en bekend zijn.",
+            "Ze moeten bekend en beproefd zijn": "Juist: gestandaardiseerde, beproefde stappen geven betrouwbaarheid."
+          }
+        },
+        {
+          "number": 162,
+          "question": "Welke dimensie omvat een workflowmanagementsysteem?",
+          "options": [
+            "Organisaties en mensen",
+            "Informatie en technologie",
+            "Waardestromen en processen",
+            "Partners en leveranciers"
+          ],
+          "answer": "Informatie en technologie",
+          "explanation": {
+            "Organisaties en mensen": "Onjuist: mensen, skills, cultuur, rollen.",
+            "Informatie en technologie": "Juist: omvat tools zoals workflowmanagement.",
+            "Waardestromen en processen": "Onjuist: definieert activiteiten en controls.",
+            "Partners en leveranciers": "Onjuist: externe relaties en contracten."
+          }
+        },
+        {
+          "number": 163,
+          "question": "Welke term beschrijft of een service aan eisen voor beschikbaarheid, capaciteit en security voldoet?",
+          "options": [
+            "Waarde",
+            "Utility",
+            "Outcomes",
+            "Warranty"
+          ],
+          "answer": "Warranty",
+          "explanation": {
+            "Waarde": "Onjuist: ervaren baten, bruikbaarheid en belangrijkheid.",
+            "Utility": "Onjuist: fit for purpose (wat de service doet).",
+            "Outcomes": "Onjuist: resultaten voor stakeholders.",
+            "Warranty": "Juist: fit for use (hoe de service presteert)."
+          }
+        },
+        {
+          "number": 164,
+          "question": "Welk richtinggevend principe helpt het effect van een wijziging in een element op andere elementen te begrijpen?",
+          "options": [
+            "Begin waar je bent",
+            "Denk en werk holistisch",
+            "Focus op waarde",
+            "Houd het eenvoudig en praktisch"
+          ],
+          "answer": "Denk en werk holistisch",
+          "explanation": {
+            "Begin waar je bent": "Onjuist: start met de huidige staat.",
+            "Denk en werk holistisch": "Juist: kijk end-to-end naar relaties en impact.",
+            "Focus op waarde": "Onjuist: concentratie op stakeholderwaarde.",
+            "Houd het eenvoudig en praktisch": "Onjuist: vereenvoudig onnodige stappen."
+          }
+        },
+        {
+          "number": 165,
+          "question": "Welke hoort bij de definitie van een klant (customer)?",
+          "options": [
+            "Een set gespecialiseerde organisatorische capabilities om waarde te leveren",
+            "De rol die budget autoriseert voor serviceconsumptie",
+            "Een middel om waarde-co-creatie mogelijk te maken",
+            "De rol die de eisen voor een service bepaalt"
+          ],
+          "answer": "De rol die de eisen voor een service bepaalt",
+          "explanation": {
+            "Een set gespecialiseerde organisatorische capabilities om waarde te leveren": "Onjuist: servicemanagement.",
+            "De rol die budget autoriseert voor serviceconsumptie": "Onjuist: sponsor.",
+            "Een middel om waarde-co-creatie mogelijk te maken": "Onjuist: service.",
+            "De rol die de eisen voor een service bepaalt": "Juist: klant."
+          }
+        },
+        {
+          "number": 166,
+          "question": "Welke TWEE uitspraken over de guiding principles zijn JUIST?",
+          "options": [
+            "1. De guiding principles ondersteunen Voortdurend verbeteren",
+            "2. Elk guiding principle geldt slechts voor een selectie stakeholders",
+            "3. Organisaties kiezen precies 1 guiding principle dat voor hen relevant is",
+            "4. Organisaties moeten bekijken hoe de guiding principles op elkaar inwerken"
+          ],
+          "answer": [
+            "1. De guiding principles ondersteunen Voortdurend verbeteren",
+            "4. Organisaties moeten bekijken hoe de guiding principles op elkaar inwerken"
+          ],
+          "explanation": {
+            "1. De guiding principles ondersteunen Voortdurend verbeteren": "Juist: zij sturen verbetering op alle niveaus.",
+            "2. Elk guiding principle geldt slechts voor een selectie stakeholders": "Onjuist: ze zijn universeel toepasbaar.",
+            "3. Organisaties kiezen precies 1 guiding principle dat voor hen relevant is": "Onjuist: beoordeel ze allemaal per context.",
+            "4. Organisaties moeten bekijken hoe de guiding principles op elkaar inwerken": "Juist: principes versterken elkaar."
+          }
+        },
+        {
+          "number": 167,
+          "question": "Welke practice zorgt dat leveranciers en hun prestaties passend worden gemanaged voor naadloze kwaliteit?",
+          "options": [
+            "Servicemanagement",
+            "Relationship management",
+            "Supplier management",
+            "Release management"
+          ],
+          "answer": "Supplier management",
+          "explanation": {
+            "Servicemanagement": "Onjuist: overkoepelende capabilities.",
+            "Relationship management": "Onjuist: bredere stakeholderrelaties.",
+            "Supplier management": "Juist: leveranciers en performance managen.",
+            "Release management": "Onjuist: beschikbaar maken voor gebruik."
+          }
+        },
+        {
+          "number": 168,
+          "question": "Wat verbindt activiteiten binnen de servicewaardeketen?",
+          "options": [
+            "Opportunity, demand en value",
+            "Service level agreements",
+            "Service desk",
+            "Inputs, outputs en triggers"
+          ],
+          "answer": "Inputs, outputs en triggers",
+          "explanation": {
+            "Opportunity, demand en value": "Onjuist: SVS-elementen, geen activiteitslinks.",
+            "Service level agreements": "Onjuist: definiëren targets, geen links tussen activiteiten.",
+            "Service desk": "Onjuist: toegangspunt, geen activiteitslink.",
+            "Inputs, outputs en triggers": "Juist: verbinden de SVC-activiteiten."
+          }
+        },
+        {
+          "number": 169,
+          "question": "Welke ITIL-practice heeft als doel de links met stakeholders op strategisch en tactisch niveau op te bouwen en te onderhouden?",
+          "options": [
+            "Supplier management",
+            "Relationship management",
+            "Change control",
+            "Service desk"
+          ],
+          "answer": "Relationship management",
+          "explanation": {
+            "Supplier management": "Onjuist: specifiek leveranciersmanagement.",
+            "Relationship management": "Juist: stakeholderrelaties borgen en verbeteren.",
+            "Change control": "Onjuist: changes beoordelen en autoriseren.",
+            "Service desk": "Onjuist: toegangspunt voor gebruikers."
+          }
+        },
+        {
+          "number": 170,
+          "question": "Wat is een configuration item?",
+          "options": [
+            "Elke statuswijziging die betekenisvol is voor het managen van een service",
+            "Een problem dat is geanalyseerd maar niet is opgelost",
+            "Elk component dat moet worden gemanaged om een IT-service te leveren",
+            "Elk financieel waardevol component dat kan bijdragen aan levering van IT"
+          ],
+          "answer": "Elk component dat moet worden gemanaged om een IT-service te leveren",
+          "explanation": {
+            "Elke statuswijziging die betekenisvol is voor het managen van een service": "Onjuist: event.",
+            "Een problem dat is geanalyseerd maar niet is opgelost": "Onjuist: known error.",
+            "Elk component dat moet worden gemanaged om een IT-service te leveren": "Juist: definitie van CI.",
+            "Elk financieel waardevol component dat kan bijdragen aan levering van IT": "Onjuist: IT-asset."
+          }
+        },
+        {
+          "number": 171,
+          "question": "Vul in: wanneer je een service gaat verbeteren, begin je met het bekijken van [?].",
+          "options": [
+            "nieuwe methoden",
+            "aangepaste processen",
+            "extra metingen",
+            "bestaande informatie"
+          ],
+          "answer": "bestaande informatie",
+          "explanation": {
+            "nieuwe methoden": "Onjuist: start met wat er is.",
+            "aangepaste processen": "Onjuist: niet herontwerpen voor je hebt beoordeeld.",
+            "extra metingen": "Onjuist: meet eerst de huidige staat.",
+            "bestaande informatie": "Juist: benut wat beschikbaar en werkend is."
+          }
+        },
+        {
+          "number": 172,
+          "question": "Een stakeholder laat een geplande change vooraf reviewen. Welk richtinggevend principe wordt toegepast?",
+          "options": [
+            "Werk samen en bevorder zichtbaarheid",
+            "Focus op waarde",
+            "Houd het eenvoudig en praktisch",
+            "Begin waar je bent"
+          ],
+          "answer": "Werk samen en bevorder zichtbaarheid",
+          "explanation": {
+            "Werk samen en bevorder zichtbaarheid": "Juist: betrek stakeholders vroeg en transparant.",
+            "Focus op waarde": "Belangrijk, maar niet de kern hier.",
+            "Houd het eenvoudig en praktisch": "Niet primair over reviewen.",
+            "Begin waar je bent": "Gaat over actuele staat."
+          }
+        },
+        {
+          "number": 173,
+          "question": "Welke kernactiviteit hoort bij de stap 'Did we get there?' in het model Voortdurend verbeteren?",
+          "options": [
+            "Baseline-metingen uitvoeren",
+            "Metingen en metrics evalueren",
+            "Meetbare targets definiëren",
+            "Verbeteracties uitvoeren"
+          ],
+          "answer": "Metingen en metrics evalueren",
+          "explanation": {
+            "Baseline-metingen uitvoeren": "Hoort bij 'Where are we now'.",
+            "Metingen en metrics evalueren": "Juist: toetsen of doelen zijn gehaald.",
+            "Meetbare targets definiëren": "Hoort bij 'Where do we want to be'.",
+            "Verbeteracties uitvoeren": "Hoort bij 'Take action'."
+          }
+        },
+        {
+          "number": 174,
+          "question": "Wat neem je mee in de dimensie 'Partners en leveranciers'?",
+          "options": [
+            "De mate van integratie en formaliteit in de relaties tussen organisaties",
+            "De activiteiten, workflows, controls en procedures om doelen te halen",
+            "De informatie die wordt gecreëerd en gebruikt bij servicelevering",
+            "De benodigde skills en competenties in teams"
+          ],
+          "answer": "De mate van integratie en formaliteit in de relaties tussen organisaties",
+          "explanation": {
+            "De mate van integratie en formaliteit in de relaties tussen organisaties": "Juist: kernoverweging van deze dimensie.",
+            "De activiteiten, workflows, controls en procedures om doelen te halen": "Waardestromen en processen.",
+            "De informatie die wordt gecreëerd en gebruikt bij servicelevering": "Informatie en technologie.",
+            "De benodigde skills en competenties in teams": "Organisaties en mensen."
+          }
+        },
+        {
+          "number": 175,
+          "question": "Wat hoort bij het richtinggevend principe 'Focus op waarde'?",
+          "options": [
+            "Het aantal stappen in de klantreis verminderen",
+            "Activiteiten identificeren die in kleine iteraties kunnen",
+            "Begrijpen welke services de consument helpen",
+            "Services beoordelen om herbruikbare delen te vinden"
+          ],
+          "answer": "Begrijpen welke services de consument helpen",
+          "explanation": {
+            "Het aantal stappen in de klantreis verminderen": "Houd het eenvoudig en praktisch.",
+            "Activiteiten identificeren die in kleine iteraties kunnen": "Werk iteratief met feedback.",
+            "Begrijpen welke services de consument helpen": "Juist: waarde is consumentperspectief.",
+            "Services beoordelen om herbruikbare delen te vinden": "Begin waar je bent."
+          }
+        },
+        {
+          "number": 176,
+          "question": "Welke uitspraak over outcomes is JUIST?",
+          "options": [
+            "Outcomes zijn een of meer services die de behoefte invullen",
+            "Consumenten outcomes laten behalen verlaagt altijd providerkosten",
+            "Serviceproviders helpen consumenten outcomes te bereiken",
+            "Outcomes helpen consumenten outputs te bereiken"
+          ],
+          "answer": "Serviceproviders helpen consumenten outcomes te bereiken",
+          "explanation": {
+            "Outcomes zijn een of meer services die de behoefte invullen": "Onjuist: dat beschrijft services.",
+            "Consumenten outcomes laten behalen verlaagt altijd providerkosten": "Geen definitie.",
+            "Serviceproviders helpen consumenten outcomes te bereiken": "Juist.",
+            "Outcomes helpen consumenten outputs te bereiken": "Onjuist: outputs ondersteunen outcomes."
+          }
+        },
+        {
+          "number": 177,
+          "question": "Welke practice beheert kwetsbaarheden die pas na livegang zijn ontdekt?",
+          "options": [
+            "Servicerequestmanagement",
+            "Problem management",
+            "Change control",
+            "Service level management"
+          ],
+          "answer": "Problem management",
+          "explanation": {
+            "Servicerequestmanagement": "Onjuist.",
+            "Problem management": "Juist: omvat analyse en beheersing van problemen/kwetsbaarheden.",
+            "Change control": "Beoordeelt en autoriseert changes.",
+            "Service level management": "Beheert servicetargets en reviews."
+          }
+        },
+        {
+          "number": 178,
+          "question": "Welke practice ondersteunt servicekwaliteit door door gebruikers gestarte, vooraf gedefinieerde requests af te handelen?",
+          "options": [
+            "Service desk",
+            "Servicerequestmanagement",
+            "IT asset management",
+            "Change control"
+          ],
+          "answer": "Servicerequestmanagement",
+          "explanation": {
+            "Service desk": "Toegangspunt; coördineert.",
+            "Servicerequestmanagement": "Juist: fulfilment van vooraf gedefinieerde requests.",
+            "IT asset management": "Beheert de lifecycle van IT-assets.",
+            "Change control": "Beoordeelt/autoriseert changes."
+          }
+        },
+        {
+          "number": 179,
+          "question": "Welke risico kan door een IT-service bij de consument worden weggenomen?",
+          "options": [
+            "Uitval van serverhardware",
+            "Kosten van de aanschaf van servers",
+            "Security breach",
+            "Provider die stopt met leveren"
+          ],
+          "answer": "Uitval van serverhardware",
+          "explanation": {
+            "Uitval van serverhardware": "Juist: risico dat de provider overneemt.",
+            "Kosten van de aanschaf van servers": "Kosten, geen risico.",
+            "Security breach": "Risico van consumptie blijft bestaan.",
+            "Provider die stopt met leveren": "Risico dat juist wordt opgelegd."
+          }
+        },
+        {
+          "number": 180,
+          "question": "Welke is GEEN component van het Service Value System?",
+          "options": [
+            "Governance",
+            "De vier dimensies van servicemanagement",
+            "Guiding principles",
+            "Practices"
+          ],
+          "answer": "De vier dimensies van servicemanagement",
+          "explanation": {
+            "Governance": "Onderdeel van het SVS.",
+            "De vier dimensies van servicemanagement": "Juist: ondersteunend model, geen component.",
+            "Guiding principles": "Onderdeel van het SVS.",
+            "Practices": "Onderdeel van het SVS."
+          }
+        },
+        {
+          "number": 181,
+          "question": "Welke practice biedt gebruikers een plek om uiteenlopende verzoeken geregeld, uitgelegd en gecoördineerd te krijgen?",
+          "options": [
+            "Service level management",
+            "Relationship management",
+            "Voortdurend verbeteren",
+            "Service desk"
+          ],
+          "answer": "Service desk",
+          "explanation": {
+            "Service level management": "Beheert servicetargets en reviews.",
+            "Relationship management": "Relaties op tactisch/strategisch niveau.",
+            "Voortdurend verbeteren": "Verbeterpraktijk.",
+            "Service desk": "Juist: primair coördinatie- en communicatiepunt."
+          }
+        },
+        {
+          "number": 182,
+          "question": "Vul in: het gebruik van [?] moet observatie ondersteunen, niet vervangen, bij 'Begin waar je bent'.",
+          "options": [
+            "proces",
+            "plannen",
+            "tools",
+            "meten"
+          ],
+          "answer": "meten",
+          "explanation": {
+            "proces": "Onjuist.",
+            "plannen": "Onjuist.",
+            "tools": "Onjuist.",
+            "meten": "Juist: metingen ondersteunen directe observatie."
+          }
+        },
+        {
+          "number": 183,
+          "question": "Waarvoor wordt een changeschema PRIMair gebruikt?",
+          "options": [
+            "Standaardchanges autoriseren",
+            "Een change authority toewijzen",
+            "Emergency changes plannen",
+            "Normale changes managen"
+          ],
+          "answer": "Normale changes managen",
+          "explanation": {
+            "Standaardchanges autoriseren": "Onjuist: die zijn vooraf geautoriseerd.",
+            "Een change authority toewijzen": "Onjuist: via beleid/modellen bepaald.",
+            "Emergency changes plannen": "Onjuist: spoedchanges gaan vaak buiten het schema.",
+            "Normale changes managen": "Juist: plannen, communiceren, conflicten voorkomen en resources toewijzen."
+          }
+        },
+        {
+          "number": 184,
+          "question": "Hoe prioriteer je incidents?",
+          "options": [
+            "Gebruik een afgesproken classificatie op basis van businessimpact",
+            "Kijk naar beschikbaarheid van het juiste supportteam",
+            "Sorteer op logdatum en -tijd",
+            "Vraag de gewenste oplostijd aan de gebruiker"
+          ],
+          "answer": "Gebruik een afgesproken classificatie op basis van businessimpact",
+          "explanation": {
+            "Gebruik een afgesproken classificatie op basis van businessimpact": "Juist: hoogste impact eerst.",
+            "Kijk naar beschikbaarheid van het juiste supportteam": "Onjuist: bemensing bepaalt prioriteit niet.",
+            "Sorteer op logdatum en -tijd": "Onjuist: niet impact-gedreven.",
+            "Vraag de gewenste oplostijd aan de gebruiker": "Onjuist: geen basis voor prioriteit."
+          }
+        },
+        {
+          "number": 185,
+          "question": "Welke uitspraak over Voortdurend verbeteren is JUIST?",
+          "options": [
+            "Eén team voert alle verbetering in de organisatie uit",
+            "Verbetering heeft minimale interactie met andere practices",
+            "Alle ideeën moeten in één register staan",
+            "Iedereen in de organisatie is verantwoordelijk voor aspecten van verbetering"
+          ],
+          "answer": "Iedereen in de organisatie is verantwoordelijk voor aspecten van verbetering",
+          "explanation": {
+            "Eén team voert alle verbetering in de organisatie uit": "Onjuist: iedereen draagt bij.",
+            "Verbetering heeft minimale interactie met andere practices": "Onjuist: werkt breed samen.",
+            "Alle ideeën moeten in één register staan": "Niet verplicht.",
+            "Iedereen in de organisatie is verantwoordelijk voor aspecten van verbetering": "Juist."
+          }
+        },
+        {
+          "number": 186,
+          "question": "Wat is vereist van alle servicedesk-medewerkers?",
+          "options": [
+            "Root cause-analysevaardigheden",
+            "Emotionele intelligentie tonen",
+            "Uitstekende technische kennis",
+            "Kennis van telefonietechnologie"
+          ],
+          "answer": "Emotionele intelligentie tonen",
+          "explanation": {
+            "Root cause-analysevaardigheden": "Nuttig, maar niet voor iedereen vereist.",
+            "Emotionele intelligentie tonen": "Juist: empathie en communicatie zijn essentieel.",
+            "Uitstekende technische kennis": "Handig, maar niet verplicht voor alle rollen.",
+            "Kennis van telefonietechnologie": "Tweede prioriteit."
+          }
+        },
+        {
+          "number": 187,
+          "question": "Welke omschrijving hoort bij de utility van een service?",
+          "options": [
+            "Een service die de performance van de consument ondersteunt",
+            "Een service die fit for use is",
+            "Een service die zijn servicetargets haalt",
+            "Een service die beperkingen voor de consument vergroot"
+          ],
+          "answer": "Een service die de performance van de consument ondersteunt",
+          "explanation": {
+            "Een service die de performance van de consument ondersteunt": "Juist: utility = wat de service doet (fit for purpose).",
+            "Een service die fit for use is": "Warranty, niet utility.",
+            "Een service die zijn servicetargets haalt": "Meer warranty/performance.",
+            "Een service die beperkingen voor de consument vergroot": "Tegengesteld aan waarde."
+          }
+        },
+        {
+          "number": 188,
+          "question": "Wat moet je altijd doen voordat je een activiteit automatiseert?",
+          "options": [
+            "Zorgen dat menselijke interventie niet meer nodig is",
+            "Zorgen dat DevOps is ingevoerd",
+            "Controleren of nieuwe technologie is aangeschaft",
+            "Controleren of de activiteit al is geoptimaliseerd"
+          ],
+          "answer": "Controleren of de activiteit al is geoptimaliseerd",
+          "explanation": {
+            "Zorgen dat menselijke interventie niet meer nodig is": "Niet altijd haalbaar of wenselijk.",
+            "Zorgen dat DevOps is ingevoerd": "Methodiekeuze, geen vereiste.",
+            "Controleren of nieuwe technologie is aangeschaft": "Tooling komt na optimalisatie.",
+            "Controleren of de activiteit al is geoptimaliseerd": "Juist: optimaliseer voor je automatiseert."
+          }
+        },
+        {
+          "number": 189,
+          "question": "Welke practice identificeert metrics die de klantbeleving van een service weerspiegelen?",
+          "options": [
+            "Service level management",
+            "Voortdurend verbeteren",
+            "Problem management",
+            "Service desk"
+          ],
+          "answer": "Service level management",
+          "explanation": {
+            "Service level management": "Juist: outcome- en experience-gericht meten.",
+            "Voortdurend verbeteren": "Verbetert breed; SLM definieert servicetargets.",
+            "Problem management": "Oorzaken en known errors.",
+            "Service desk": "SPOC voor gebruikers."
+          }
+        },
+        {
+          "number": 190,
+          "question": "Wat hoort bij het doel van de practice Change control?",
+          "options": [
+            "Nieuwe en gewijzigde services beschikbaar maken voor gebruik",
+            "De volledige lifecycle van IT-assets plannen en managen",
+            "Geselecteerde statuswijzigingen registreren en rapporteren",
+            "Borgen dat risico's correct zijn beoordeeld"
+          ],
+          "answer": "Borgen dat risico's correct zijn beoordeeld",
+          "explanation": {
+            "Nieuwe en gewijzigde services beschikbaar maken voor gebruik": "Release management.",
+            "De volledige lifecycle van IT-assets plannen en managen": "IT asset management.",
+            "Geselecteerde statuswijzigingen registreren en rapporteren": "Monitoring en eventmanagement.",
+            "Borgen dat risico's correct zijn beoordeeld": "Juist: kern van change control/enablement."
+          }
+        },
+        {
+          "number": 191,
+          "question": "Welke activiteit hoort bij 'Where are we now?' in het model Voortdurend verbeteren?",
+          "options": [
+            "De businessmissie begrijpen",
+            "Baseline-assessments uitvoeren",
+            "Verbeteracties uitvoeren",
+            "Het verbeterplan definiëren"
+          ],
+          "answer": "Baseline-assessments uitvoeren",
+          "explanation": {
+            "De businessmissie begrijpen": "Hoort bij 'What is the vision'.",
+            "Baseline-assessments uitvoeren": "Juist: startpunt bepalen.",
+            "Verbeteracties uitvoeren": "Hoort bij 'Take action'.",
+            "Het verbeterplan definiëren": "Hoort bij 'How do we get there'."
+          }
+        },
+        {
+          "number": 192,
+          "question": "Wat is het doel van de practice Information security management?",
+          "options": [
+            "De volledige lifecycle van IT-assets plannen en managen",
+            "De informatie beschermen die de organisatie nodig heeft",
+            "Zorgen voor betrouwbare configuratie-informatie",
+            "Services en componenten observeren"
+          ],
+          "answer": "De informatie beschermen die de organisatie nodig heeft",
+          "explanation": {
+            "De volledige lifecycle van IT-assets plannen en managen": "IT asset management.",
+            "De informatie beschermen die de organisatie nodig heeft": "Juist: risico's op vertrouwelijkheid, integriteit en beschikbaarheid managen.",
+            "Zorgen voor betrouwbare configuratie-informatie": "Service configuration management.",
+            "Services en componenten observeren": "Monitoring en eventmanagement."
+          }
+        },
+        {
+          "number": 193,
+          "question": "Welke practice bezit en beheert issues, vragen en requests van gebruikers?",
+          "options": [
+            "Problem management",
+            "Service desk",
+            "Change control",
+            "Incident management"
+          ],
+          "answer": "Service desk",
+          "explanation": {
+            "Problem management": "Analyseert oorzaken en beheert known errors.",
+            "Service desk": "Juist: eigenaar van user issues, vragen en requests.",
+            "Change control": "Beoordeelt/autoriseert changes.",
+            "Incident management": "Herstelt service; requests via SRM."
+          }
+        },
+        {
+          "number": 194,
+          "question": "Wat helpt direct bij diagnose en oplossing van eenvoudige incidents?",
+          "options": [
+            "Fulfilment van servicerequests",
+            "Scripts om gebruikersinformatie te verzamelen",
+            "Ploegendiensten inzetten",
+            "Een tijdelijk team vormen"
+          ],
+          "answer": "Scripts om gebruikersinformatie te verzamelen",
+          "explanation": {
+            "Fulfilment van servicerequests": "Staat los van incidentdiagnose.",
+            "Scripts om gebruikersinformatie te verzamelen": "Juist: leidt snelle diagnose/oplossing.",
+            "Ploegendiensten inzetten": "Bemensing, geen diagnose.",
+            "Een tijdelijk team vormen": "Voor major incidents."
+          }
+        },
+        {
+          "number": 195,
+          "question": "Wat is een doel van de practice Relationship management?",
+          "options": [
+            "Toegangspunt en SPOC voor alle gebruikers zijn",
+            "Services en componenten systematisch observeren",
+            "Links met stakeholders identificeren, analyseren, monitoren en verbeteren",
+            "De informatie van de organisatie beschermen"
+          ],
+          "answer": "Links met stakeholders identificeren, analyseren, monitoren en verbeteren",
+          "explanation": {
+            "Toegangspunt en SPOC voor alle gebruikers zijn": "Service desk.",
+            "Services en componenten systematisch observeren": "Monitoring en eventmanagement.",
+            "Links met stakeholders identificeren, analyseren, monitoren en verbeteren": "Juist: relationship management.",
+            "De informatie van de organisatie beschermen": "Information security management."
+          }
+        },
+        {
+          "number": 196,
+          "question": "Wat is een doel van de practice Service level management?",
+          "options": [
+            "Relaties met stakeholders opbouwen en onderhouden",
+            "Door gebruikers gestarte, vooraf gedefinieerde requests afhandelen",
+            "Leveranciers en hun performance passend managen",
+            "Duidelijke, business-gebaseerde servicetargets vaststellen"
+          ],
+          "answer": "Duidelijke, business-gebaseerde servicetargets vaststellen",
+          "explanation": {
+            "Relaties met stakeholders opbouwen en onderhouden": "Relationship management.",
+            "Door gebruikers gestarte, vooraf gedefinieerde requests afhandelen": "Servicerequestmanagement.",
+            "Leveranciers en hun performance passend managen": "Supplier management.",
+            "Duidelijke, business-gebaseerde servicetargets vaststellen": "Juist: doel van SLM."
+          }
+        },
+        {
+          "number": 197,
+          "question": "Welke activiteit hoort bij de practice Voortdurend verbeteren?",
+          "options": [
+            "Incidents loggen en managen die tot verbeterkansen leiden",
+            "Businesscases opstellen voor verbeteracties",
+            "Changes autoriseren om verbeteringen te implementeren",
+            "Oorzaken van incidents identificeren en verbeteringen adviseren"
+          ],
+          "answer": "Businesscases opstellen voor verbeteracties",
+          "explanation": {
+            "Incidents loggen en managen die tot verbeterkansen leiden": "Incident management; verbeterideeën gaan in een CIR.",
+            "Businesscases opstellen voor verbeteracties": "Juist: kernactiviteit van Continu al improvement.",
+            "Changes autoriseren om verbeteringen te implementeren": "Change enablement.",
+            "Oorzaken van incidents identificeren en verbeteringen adviseren": "Problem management."
+          }
+        },
+        {
+          "number": 198,
+          "question": "Hoe gebruik je targetoplossingstijden in Incident management?",
+          "options": [
+            "Ze worden gepland, beoordeeld en geautoriseerd om risico te verlagen",
+            "Ze worden vastgesteld, herzien en gerapporteerd om tevredenheid te borgen",
+            "Ze worden afgesproken, gedocumenteerd en gecommuniceerd om verwachtingen te managen",
+            "Ze worden geïnitieerd, goedgekeurd en gemanaged voor voorspelbare responses"
+          ],
+          "answer": "Ze worden afgesproken, gedocumenteerd en gecommuniceerd om verwachtingen te managen",
+          "explanation": {
+            "Ze worden gepland, beoordeeld en geautoriseerd om risico te verlagen": "Beschrijft change enablement.",
+            "Ze worden vastgesteld, herzien en gerapporteerd om tevredenheid te borgen": "Rapportage; niet de kern.",
+            "Ze worden afgesproken, gedocumenteerd en gecommuniceerd om verwachtingen te managen": "Juist: realistische verwachtingen zetten.",
+            "Ze worden geïnitieerd, goedgekeurd en gemanaged voor voorspelbare responses": "Niet de standaardformulering."
+          }
+        },
+        {
+          "number": 199,
+          "question": "Welke practice voert regelmatig servicereviews uit om te borgen dat services nog passend en relevant zijn?",
+          "options": [
+            "Change enablement",
+            "Voortdurend verbeteren",
+            "Service level management",
+            "Service desk"
+          ],
+          "answer": "Service level management",
+          "explanation": {
+            "Change enablement": "Beoordeelt/autoriseert changes.",
+            "Voortdurend verbeteren": "Stuurt verbetering en acties.",
+            "Service level management": "Juist: voert servicereviews uit.",
+            "Service desk": "Toegangspunt en coördinatie."
+          }
+        },
+        {
+          "number": 200,
+          "question": "Waarop focust Change enablement PRIMAir?",
+          "options": [
+            "Wijzigingen aan producten en services",
+            "Wijzigingen aan skills en competenties",
+            "Wijzigingen aan serviceniveaus",
+            "Wijzigingen aan de organisatiestructuur"
+          ],
+          "answer": "Wijzigingen aan producten en services",
+          "explanation": {
+            "Wijzigingen aan producten en services": "Juist: onderscheid met organizational change management.",
+            "Wijzigingen aan skills en competenties": "Organizational change management.",
+            "Wijzigingen aan serviceniveaus": "SLM.",
+            "Wijzigingen aan de organisatiestructuur": "Organizational change management."
+          }
+        }
+      ]
+    }
+  ]
+}
+

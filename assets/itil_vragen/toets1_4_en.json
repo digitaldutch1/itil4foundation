@@ -1,0 +1,691 @@
+{
+  "chapters": [
+    {
+      "chapter": "ITIL 4 test 1_4 (EN)",
+      "description": "ITIL 4 - Practice Test 1_4 (EN, questions 121-160)",
+      "questions": [
+        {
+          "number": 121,
+          "question": "Fill in the blank: The purpose of the supplier management practice is to ensure that the organization’s suppliers and their ______ are managed appropriately to support the seamless provision of quality products and services.",
+          "options": [
+            "value",
+            "performances",
+            "users",
+            "costs"
+          ],
+          "answer": "performances",
+          "explanation": {
+            "value": "Suppliers may create value, but supplier management focuses on their performance.",
+            "performances": "Correct: manage supplier performance appropriately.",
+            "users": "Users are consumers, not a supplier management focus.",
+            "costs": "Cost is important, but the purpose stresses performance management."
+          }
+        },
+        {
+          "number": 122,
+          "question": "Which type of service consumer defines the requirements for a service and takes responsibility for the outcomes of service consumption?",
+          "options": [
+            "A configuration item (CI)",
+            "An IT asset",
+            "A customer",
+            "A user"
+          ],
+          "answer": "A customer",
+          "explanation": {
+            "A configuration item (CI)": "A managed component, not a consumer role.",
+            "An IT asset": "A financially valuable component, not a role.",
+            "A customer": "Correct: defines requirements and owns outcomes.",
+            "A user": "Uses the service but does not define requirements or own outcomes."
+          }
+        },
+        {
+          "number": 123,
+          "question": "Which guiding principle recommends that the four dimensions of service management are considered?",
+          "options": [
+            "Focus on value",
+            "Keep it simple and practical",
+            "Think and work holistically",
+            "Progress iteratively with feedback"
+          ],
+          "answer": "Think and work holistically",
+          "explanation": {
+            "Focus on value": "Centers on value for stakeholders.",
+            "Keep it simple and practical": "Minimize steps and complexity.",
+            "Think and work holistically": "Correct: consider all four dimensions.",
+            "Progress iteratively with feedback": "Small steps with feedback."
+          }
+        },
+        {
+          "number": 124,
+          "question": "Which activity is part of the 'continual improvement' practice?",
+          "options": [
+            "Providing a clear path for users to report issues, queries, and requests",
+            "Identifying and logging opportunities",
+            "Populating and maintaining the asset register",
+            "Delivering tactical and operational engagement with customers"
+          ],
+          "answer": "Identifying and logging opportunities",
+          "explanation": {
+            "Providing a clear path for users to report issues, queries, and requests": "Service desk.",
+            "Identifying and logging opportunities": "Correct: key continual improvement activity.",
+            "Populating and maintaining the asset register": "IT asset management.",
+            "Delivering tactical and operational engagement with customers": "Relationship management."
+          }
+        },
+        {
+          "number": 125,
+          "question": "Which practices are typically involved in the implementation of a problem resolution?",
+          "options": [
+            "1 and 2",
+            "2 and 3",
+            "3 and 4",
+            "1 and 4"
+          ],
+          "answer": "1 and 4",
+          "explanation": {
+            "1 and 2": "2 (service request management) is not typical for problem resolution implementation.",
+            "2 and 3": "3 (service level management) is not typically part of implementation.",
+            "3 and 4": "3 is not the usual implementation practice.",
+            "1 and 4": "Correct: continual improvement and change enablement often participate."
+          }
+        },
+        {
+          "number": 126,
+          "question": "What is defined as any financially valuable component that can contribute to the delivery of a service?",
+          "options": [
+            "IT asset",
+            "Product",
+            "Configuration item",
+            "Event"
+          ],
+          "answer": "IT asset",
+          "explanation": {
+            "IT asset": "Correct: financially valuable component used in service delivery.",
+            "Product": "Configuration of resources offered by the organization.",
+            "Configuration item": "Any component managed to deliver a service; not necessarily 'financially valuable' by definition.",
+            "Event": "A change of state with significance."
+          }
+        },
+        {
+          "number": 127,
+          "question": "Which guiding principle recommends standardizing and streamlining manual tasks?",
+          "options": [
+            "Focus on value",
+            "Collaborate and promote visibility",
+            "Think and work holistically",
+            "Optimize and automate"
+          ],
+          "answer": "Optimize and automate",
+          "explanation": {
+            "Focus on value": "Centers on stakeholder value.",
+            "Collaborate and promote visibility": "Transparency and collaboration.",
+            "Think and work holistically": "End-to-end perspective.",
+            "Optimize and automate": "Correct: standardize/streamline, then automate."
+          }
+        },
+        {
+          "number": 128,
+          "question": "Which guiding principle emphasizes understanding the flow of work in progress, identifying bottlenecks, and uncovering waste?",
+          "options": [
+            "Think and work holistically",
+            "Focus on value",
+            "Collaborate and promote visibility",
+            "Keep it simple and practical"
+          ],
+          "answer": "Collaborate and promote visibility",
+          "explanation": {
+            "Think and work holistically": "End-to-end view; not specifically WIP visibility.",
+            "Focus on value": "Value-centric, not WIP-focused.",
+            "Collaborate and promote visibility": "Correct: visibility of work and bottlenecks.",
+            "Keep it simple and practical": "Simplicity principle."
+          }
+        },
+        {
+          "number": 129,
+          "question": "What acts as a single point of contact between customer and service provider?",
+          "options": [
+            "Service desk",
+            "Service-level management",
+            "Problem management",
+            "Change enablement"
+          ],
+          "answer": "Service desk",
+          "explanation": {
+            "Service desk": "Correct: entry point and SPOC for users.",
+            "Service-level management": "Targets and reviews.",
+            "Problem management": "Cause analysis and known errors.",
+            "Change enablement": "Assess and authorize changes."
+          }
+        },
+        {
+          "number": 130,
+          "question": "What acts as a single point of contact between customer and service provider?",
+          "options": [
+            "Service desk",
+            "Service-level management",
+            "Problem management",
+            "Change enablement"
+          ],
+          "answer": "Service desk",
+          "explanation": {
+            "Service desk": "Correct: entry point and SPOC for users.",
+            "Service-level management": "Targets and reviews.",
+            "Problem management": "Cause analysis and known errors.",
+            "Change enablement": "Assess and authorize changes."
+          }
+        },
+        {
+          "number": 131,
+          "question": "Define utility.",
+          "options": [
+            "The functionality offered by a service to meet a particular need",
+            "Assurance that a service will meet agreed requirements",
+            "The perceived benefits, usefulness, and importance of something",
+            "The amount of money spent on a specific activity or resource"
+          ],
+          "answer": "The functionality offered by a service to meet a particular need",
+          "explanation": {
+            "The functionality offered by a service to meet a particular need": "Correct: 'fit for purpose'.",
+            "Assurance that a service will meet agreed requirements": "Warranty.",
+            "The perceived benefits, usefulness, and importance of something": "Value.",
+            "The amount of money spent on a specific activity or resource": "Cost."
+          }
+        },
+        {
+          "number": 132,
+          "question": "Define a problem.",
+          "options": [
+            "A cause, or potential cause, of one or more incidents",
+            "Any change of state that has significance for the management of a service or CI",
+            "A problem that has been analyzed and has not been resolved",
+            "An unplanned interruption to a service or reduction in the quality of a service"
+          ],
+          "answer": "A cause, or potential cause, of one or more incidents",
+          "explanation": {
+            "A cause, or potential cause, of one or more incidents": "Correct: definition of a problem.",
+            "Any change of state that has significance for the management of a service or CI": "Event.",
+            "A problem that has been analyzed and has not been resolved": "Known error.",
+            "An unplanned interruption to a service or reduction in quality": "Incident."
+          }
+        },
+        {
+          "number": 133,
+          "question": "Which one of the below is the expected outcome from using a service value chain?",
+          "options": [
+            "The application of practices",
+            "Service value streams",
+            "Customer engagement",
+            "Value realization"
+          ],
+          "answer": "Value realization",
+          "explanation": {
+            "The application of practices": "Practices enable activities; the outcome is value.",
+            "Service value streams": "Operational paths, not the final outcome.",
+            "Customer engagement": "Part of Engage, not the outcome itself.",
+            "Value realization": "Correct: overall outcome of the SVC."
+          }
+        },
+        {
+          "number": 134,
+          "question": "What is the definition of an IT asset?",
+          "options": [
+            "Any financially valuable component that can contribute to delivery of an IT product or service",
+            "The removal of anything that could have a direct or indirect effect on services",
+            "A request from a user that initiates a service action",
+            "Any component that needs to be managed in order to deliver a service"
+          ],
+          "answer": "Any financially valuable component that can contribute to delivery of an IT product or service",
+          "explanation": {
+            "Any financially valuable component that can contribute to delivery of an IT product or service": "Correct.",
+            "The removal of anything that could have a direct or indirect effect on services": "This describes change, not an asset.",
+            "A request from a user that initiates a service action": "Service request.",
+            "Any component that needs to be managed in order to deliver a service": "Configuration item (CI)."
+          }
+        },
+        {
+          "number": 135,
+          "question": "Which approach is correct when applying the guiding principle 'keep it simple and practical'?",
+          "options": [
+            "Design controls and metrics first, then remove those not adding value",
+            "Design controls and metrics and add them until all are implemented",
+            "Only add controls and metrics that are required for compliance",
+            "Only add controls and metrics when they are needed"
+          ],
+          "answer": "Only add controls and metrics when they are needed",
+          "explanation": {
+            "Design controls and metrics first, then remove those not adding value": "Over-engineering.",
+            "Design controls and metrics and add them until all are implemented": "Adds unnecessary complexity.",
+            "Only add controls and metrics that are required for compliance": "Compliance is not the only criterion; value is.",
+            "Only add controls and metrics when they are needed": "Correct."
+          }
+        },
+        {
+          "number": 136,
+          "question": "Which statement about the 'optimize and automate' guiding principle is correct?",
+          "options": [
+            "Automation frees human resources for more complex activities",
+            "Activities should be automated before they are optimized",
+            "Automation is best applied to non-standard tasks",
+            "Technology eliminates the need for human intervention"
+          ],
+          "answer": "Automation frees human resources for more complex activities",
+          "explanation": {
+            "Automation frees human resources for more complex activities": "Correct: automation takes repetitive tasks.",
+            "Activities should be automated before they are optimized": "Incorrect: optimize first, then automate.",
+            "Automation is best applied to non-standard tasks": "Automation works best on standardized tasks.",
+            "Technology eliminates the need for human intervention": "Incorrect: human oversight remains important."
+          }
+        },
+        {
+          "number": 137,
+          "question": "What is a service offering?",
+          "options": [
+            "A means of enabling value co-creation by facilitating outcomes",
+            "Description of one or more services designed to address the needs of a target consumer group",
+            "None of the options",
+            "Configuration of resources created by the organization that will be potentially valuable for customers"
+          ],
+          "answer": "Description of one or more services designed to address the needs of a target consumer group",
+          "explanation": {
+            "A means of enabling value co-creation by facilitating outcomes": "Definition of service, not service offering.",
+            "Description of one or more services designed to address the needs of a target consumer group": "Correct.",
+            "None of the options": "Incorrect.",
+            "Configuration of resources created by the organization that will be potentially valuable for customers": "Product, not service offering."
+          }
+        },
+        {
+          "number": 138,
+          "question": "Which stakeholders co-create value in a service relationship?",
+          "options": [
+            "Investor and supplier",
+            "Investor and consumer",
+            "Consumer and provider",
+            "Provider and supplier"
+          ],
+          "answer": "Consumer and provider",
+          "explanation": {
+            "Investor and supplier": "Not the co-creation pair in ITIL context.",
+            "Investor and consumer": "Not the standard pair.",
+            "Consumer and provider": "Correct: co-create value.",
+            "Provider and supplier": "Suppliers support the provider."
+          }
+        },
+        {
+          "number": 139,
+          "question": "Which statement about continual improvement is correct?",
+          "options": [
+            "Everyone in the organization is responsible for some aspects of continual improvement",
+            "Continual improvement should have minimal interaction with other practices",
+            "A single team should carry out continual improvements across the organization",
+            "All improvement ideas should be logged in a single continual improvement register"
+          ],
+          "answer": "Everyone in the organization is responsible for some aspects of continual improvement",
+          "explanation": {
+            "Everyone in the organization is responsible for some aspects of continual improvement": "Correct.",
+            "Continual improvement should have minimal interaction with other practices": "Incorrect: it interacts with many practices.",
+            "A single team should carry out continual improvements across the organization": "Incorrect: everyone contributes.",
+            "All improvement ideas should be logged in a single continual improvement register": "Not mandatory; multiple views may exist."
+          }
+        },
+        {
+          "number": 140,
+          "question": "Which is intended to help an organization adopt and adapt ITIL guidance?",
+          "options": [
+            "Practices",
+            "The four dimensions of service management",
+            "The service value chain",
+            "The guiding principles"
+          ],
+          "answer": "The guiding principles",
+          "explanation": {
+            "Practices": "Describe how work is done, not the overall 'adopt and adapt' intent.",
+            "The four dimensions of service management": "Context model, not the primary guidance.",
+            "The service value chain": "Operating model, not the high-level advice.",
+            "The guiding principles": "Correct: guide adoption and adaptation."
+          }
+        },
+        {
+          "number": 141,
+          "question": "What is the definition of an event?",
+          "options": [
+            "An unplanned interruption to a service or reduction in the quality of a service",
+            "Any change of state that has significance for the management of a service or other configuration item",
+            "Any financially valuable component that can contribute to the delivery of an IT product or service",
+            "Any component that needs to be managed in order to deliver an IT service"
+          ],
+          "answer": "Any change of state that has significance for the management of a service or other configuration item",
+          "explanation": {
+            "An unplanned interruption to a service or reduction in the quality of a service": "Incident.",
+            "Any change of state that has significance for the management of a service or other configuration item": "Correct: event.",
+            "Any financially valuable component that can contribute to the delivery of an IT product or service": "IT asset.",
+            "Any component that needs to be managed in order to deliver an IT service": "Configuration item (CI)."
+          }
+        },
+        {
+          "number": 142,
+          "question": "Which statement about the service desk is correct?",
+          "options": [
+            "The service desk should rely on self-service portals instead of escalation to support teams",
+            "The service desk should remain isolated from technical support teams",
+            "The service desk should work in close collaboration with support and development teams",
+            "The service desk should escalate all technical issues to support and development teams"
+          ],
+          "answer": "The service desk should work in close collaboration with support and development teams",
+          "explanation": {
+            "The service desk should rely on self-service portals instead of escalation to support teams": "Self-service helps, but escalation remains necessary.",
+            "The service desk should remain isolated from technical support teams": "Incorrect: collaboration is essential.",
+            "The service desk should work in close collaboration with support and development teams": "Correct.",
+            "The service desk should escalate all technical issues to support and development teams": "Not all; some are resolved at first contact."
+          }
+        },
+        {
+          "number": 143,
+          "question": "What is the main purpose of the relationship management practice?",
+          "options": [
+            "To establish and nurture the links between the organization and its stakeholders",
+            "To set clear business-based targets for service performance",
+            "To support the agreed quality of a service by handling all agreed, user-initiated service requests",
+            "To align the organization's practices and services with changing business needs"
+          ],
+          "answer": "To establish and nurture the links between the organization and its stakeholders",
+          "explanation": {
+            "To establish and nurture the links between the organization and its stakeholders": "Correct: strategic and tactical relationships.",
+            "To set clear business-based targets for service performance": "Service level management.",
+            "To support the agreed quality of a service by handling all agreed, user-initiated service requests": "Service request management.",
+            "To align the organization's practices and services with changing business needs": "Continual improvement."
+          }
+        },
+        {
+          "number": 144,
+          "question": "In what ways can a service consumer contribute to the reduction of risk?",
+          "options": [
+            "By paying for the service",
+            "By managing staff availability",
+            "By communicating constraints",
+            "By managing server hardware"
+          ],
+          "answer": "By communicating constraints",
+          "explanation": {
+            "By paying for the service": "Cost aspect, not risk reduction.",
+            "By managing staff availability": "Internal HR matter.",
+            "By communicating constraints": "Correct: clear CSFs/constraints reduce risk.",
+            "By managing server hardware": "Usually provider responsibility."
+          }
+        },
+        {
+          "number": 145,
+          "question": "Which guiding principle recommends assessing the current state and deciding what can be reused?",
+          "options": [
+            "Collaborate and promote visibility",
+            "Progress iteratively with feedback",
+            "Focus on value",
+            "Start where you are"
+          ],
+          "answer": "Start where you are",
+          "explanation": {
+            "Collaborate and promote visibility": "Transparency principle.",
+            "Progress iteratively with feedback": "Iteration principle.",
+            "Focus on value": "Value principle.",
+            "Start where you are": "Correct: measure/observe and reuse where possible."
+          }
+        },
+        {
+          "number": 146,
+          "question": "What is defined as any component that needs to be managed in order to deliver an IT service?",
+          "options": [
+            "An incident",
+            "An IT asset",
+            "A configuration item (CI)",
+            "A service request"
+          ],
+          "answer": "A configuration item (CI)",
+          "explanation": {
+            "An incident": "Unplanned interruption or quality reduction.",
+            "An IT asset": "Financially valuable component; not every asset is a CI.",
+            "A configuration item (CI)": "Correct: item that must be managed to deliver a service.",
+            "A service request": "A predefined user-initiated request."
+          }
+        },
+        {
+          "number": 147,
+          "question": "Which practice facilitates operational communication between the service provider organization and users in the service consumer organization?",
+          "options": [
+            "Relationship management",
+            "Service level management",
+            "Service desk",
+            "Monitoring and event management"
+          ],
+          "answer": "Service desk",
+          "explanation": {
+            "Relationship management": "Strategic/tactical stakeholder links.",
+            "Service level management": "Targets, reviews, reporting.",
+            "Service desk": "Correct: main channel for tactical/operational user engagement.",
+            "Monitoring and event management": "Observes events."
+          }
+        },
+        {
+          "number": 148,
+          "question": "Which ITIL guiding principle recommends using existing services, processes, and tools when improving services?",
+          "options": [
+            "Progress iteratively with feedback",
+            "Keep it simple and practical",
+            "Start where you are",
+            "Focus on value"
+          ],
+          "answer": "Start where you are",
+          "explanation": {
+            "Progress iteratively with feedback": "Iteration/learning.",
+            "Keep it simple and practical": "Minimize complexity.",
+            "Start where you are": "Correct: leverage what already exists.",
+            "Focus on value": "Value-centric."
+          }
+        },
+        {
+          "number": 149,
+          "question": "Which describes a set of defined steps for implementing improvements?",
+          "options": [
+            "The 'engage' value chain activity",
+            "The 'continual improvement model'",
+            "The 'improve' value chain activity",
+            "The 'continual improvement register'"
+          ],
+          "answer": "The 'continual improvement model'",
+          "explanation": {
+            "The 'engage' value chain activity": "Stakeholder engagement.",
+            "The 'continual improvement model'": "Correct: structured steps for improvements.",
+            "The 'improve' value chain activity": "Executes improvements, not the step model itself.",
+            "The 'continual improvement register'": "Backlog of improvement opportunities."
+          }
+        },
+        {
+          "number": 150,
+          "question": "Which is the correct approach for managing a large improvement initiative as smaller iterations?",
+          "options": [
+            "Feedback should only be taken into account when one iteration fails to meet its objective",
+            "Each iteration should be designed before starting the initiative and implemented without feedback",
+            "Feedback should be reduced for large improvements as it is unlikely that circumstances will change",
+            "Each iteration should be continually reevaluated based on feedback"
+          ],
+          "answer": "Each iteration should be continually reevaluated based on feedback",
+          "explanation": {
+            "Feedback should only be taken into account when one iteration fails to meet its objective": "Incorrect: feedback is continuous.",
+            "Each iteration should be designed before starting the initiative and implemented without feedback": "No; use feedback between iterations.",
+            "Feedback should be reduced for large improvements as it is unlikely that circumstances will change": "Assumption is unsafe; circumstances change.",
+            "Each iteration should be continually reevaluated based on feedback": "Correct."
+          }
+        },
+        {
+          "number": 151,
+          "question": "Which guiding principle considers customer and user experience?",
+          "options": [
+            "Collaborate and promote visibility",
+            "Focus on value",
+            "Start where you are",
+            "Keep it simple and practical"
+          ],
+          "answer": "Focus on value",
+          "explanation": {
+            "Collaborate and promote visibility": "Transparency/silos.",
+            "Focus on value": "Correct: value includes customer and user experience.",
+            "Start where you are": "Reuse/measure.",
+            "Keep it simple and practical": "Simplicity."
+          }
+        },
+        {
+          "number": 152,
+          "question": "Which practice has the purpose of making new and changed services and features available for use?",
+          "options": [
+            "Change enablement",
+            "Deployment management",
+            "Release management",
+            "Service request management"
+          ],
+          "answer": "Release management",
+          "explanation": {
+            "Change enablement": "Assesses/authorizes risk.",
+            "Deployment management": "Moves components between environments.",
+            "Release management": "Correct: makes services/features available for use.",
+            "Service request management": "Handles predefined user requests."
+          }
+        },
+        {
+          "number": 153,
+          "question": "What impact does automation have on a service desk?",
+          "options": [
+            "Ability to work from a single centralized location",
+            "Ability to work from multiple, geographically dispersed locations",
+            "Less low-level work and a greater ability to focus on user experience",
+            "Increased phone contact and a reduced ability to focus on user experience"
+          ],
+          "answer": "Less low-level work and a greater ability to focus on user experience",
+          "explanation": {
+            "Ability to work from a single centralized location": "Not the direct impact asked.",
+            "Ability to work from multiple, geographically dispersed locations": "Possible setup, not automation impact.",
+            "Less low-level work and a greater ability to focus on user experience": "Correct.",
+            "Increased phone contact and a reduced ability to focus on user experience": "Opposite of typical automation results."
+          }
+        },
+        {
+          "number": 154,
+          "question": "What is a problem?",
+          "options": [
+            "An addition or modification that could have an effect on services",
+            "An unplanned reduction in the quality of a service",
+            "Any change of state that has significance for a configuration item",
+            "A cause or potential cause of one or more incidents"
+          ],
+          "answer": "A cause or potential cause of one or more incidents",
+          "explanation": {
+            "An addition or modification that could have an effect on services": "Change.",
+            "An unplanned reduction in the quality of a service": "Incident.",
+            "Any change of state that has significance for a configuration item": "Event.",
+            "A cause or potential cause of one or more incidents": "Correct."
+          }
+        },
+        {
+          "number": 155,
+          "question": "A service provider describes a package that includes a laptop with software, licenses, and support. What is this package an example of?",
+          "options": [
+            "A service offering",
+            "Warranty",
+            "Value",
+            "An outcome"
+          ],
+          "answer": "A service offering",
+          "explanation": {
+            "A service offering": "Correct: a described combination tailored to a target group.",
+            "Warranty": "Assurance of performance.",
+            "Value": "Perceived benefits and importance.",
+            "An outcome": "A result for a stakeholder enabled by outputs."
+          }
+        },
+        {
+          "number": 156,
+          "question": "Which practice aligns the organization's practices and services with changing business needs?",
+          "options": [
+            "Service-level management",
+            "Service-configuration management",
+            "Continual improvement",
+            "Relationship management"
+          ],
+          "answer": "Continual improvement",
+          "explanation": {
+            "Service-level management": "Sets/measures targets.",
+            "Service-configuration management": "Maintains configuration information.",
+            "Continual improvement": "Correct: aligns practices/services with changing needs.",
+            "Relationship management": "Manages stakeholder relationships."
+          }
+        },
+        {
+          "number": 157,
+          "question": "Which is a recommendation of the service desk practice?",
+          "options": [
+            "Service desks should be a physical team in a single fixed location.",
+            "Service desks should be highly technical.",
+            "Service desks should avoid the use of automation.",
+            "Service desks should understand the wider organization."
+          ],
+          "answer": "Service desks should understand the wider organization.",
+          "explanation": {
+            "Service desks should be a physical team in a single fixed location.": "Modern desks can be virtual or distributed.",
+            "Service desks should be highly technical.": "Technical depth helps, but understanding users/business is key.",
+            "Service desks should avoid the use of automation.": "Opposite: automation is recommended where useful.",
+            "Service desks should understand the wider organization.": "Correct."
+          }
+        },
+        {
+          "number": 158,
+          "question": "Fill in the blanks: The service desk should be the entry point and single point of contact for the _____ with all of its users.",
+          "options": [
+            "Customer",
+            "Service provider",
+            "Service consumer",
+            "Supplier"
+          ],
+          "answer": "Service provider",
+          "explanation": {
+            "Customer": "Customers define requirements; the SPOC is for users of the provider.",
+            "Service provider": "Correct: SPOC for the provider with all its users.",
+            "Service consumer": "Generic term for consumer roles; the SPOC wording targets the provider.",
+            "Supplier": "Suppliers are third parties, not the provider."
+          }
+        },
+        {
+          "number": 159,
+          "question": "Why should service desk staff detect recurring issues?",
+          "options": [
+            "To engage the correct change authority",
+            "To help identify problems",
+            "To ensure effective handling of service requests",
+            "To escalate incidents to the correct support team"
+          ],
+          "answer": "To help identify problems",
+          "explanation": {
+            "To engage the correct change authority": "Change enablement activity.",
+            "To help identify problems": "Correct: recurring issues indicate underlying problems.",
+            "To ensure effective handling of service requests": "SRM process efficiency, not the reason asked.",
+            "To escalate incidents to the correct support team": "Routing task, not the purpose of detecting recurrence."
+          }
+        },
+        {
+          "number": 160,
+          "question": "Which benefit is MOST aligned with the guiding principle 'progress iteratively with feedback'?",
+          "options": [
+            "Service providers are able to respond more quickly to customer needs",
+            "The complexities of the service provider's IT systems are identified",
+            "The service provider gains a better understanding of the customer experience",
+            "Bottlenecks in the service provider's workflow are identified"
+          ],
+          "answer": "Service providers are able to respond more quickly to customer needs",
+          "explanation": {
+            "Service providers are able to respond more quickly to customer needs": "Correct: incremental delivery with feedback increases responsiveness.",
+            "The complexities of the service provider's IT systems are identified": "May happen, but not the key benefit.",
+            "The service provider gains a better understanding of the customer experience": "Possible outcome, but not the main benefit here.",
+            "Bottlenecks in the service provider's workflow are identified": "Visibility principle addresses bottlenecks."
+          }
+        }
+      ]
+    }
+  ]
+}
+

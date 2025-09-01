@@ -1,0 +1,691 @@
+{
+  "chapters": [
+    {
+      "chapter": "ITIL 4 test 2_1 (EN)",
+      "description": "ITIL 4 - Practice Test 2_1 (EN, questions 1-40)",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Which guiding principle should you use to maximize the value of the work carried out by the human and technical resources within an organization?",
+          "options": [
+            "Progress iteratively with feedback",
+            "Think and work holistically",
+            "Focus on value",
+            "Optimize and automate"
+          ],
+          "answer": "Optimize and automate",
+          "explanation": {
+            "Progress iteratively with feedback": "Incorrect: this improves in small steps but is not about maximizing resource value.",
+            "Think and work holistically": "Incorrect: it stresses end-to-end integration, not specifically resource optimization.",
+            "Focus on value": "Incorrect: value focus is vital, but here the emphasis is on optimization and automation.",
+            "Optimize and automate": "Correct: optimize the work first, then automate to maximize value from human and technical resources."
+          }
+        },
+        {
+          "number": 2,
+          "question": "What is the definition of a customer?",
+          "options": [
+            "A person who works for an organization other than the service provider",
+            "A person who uses services",
+            "A person who authorizes budget for service consumption",
+            "A person who defines the requirements for a service and takes responsibility for the outcomes of service consumption"
+          ],
+          "answer": "A person who defines the requirements for a service and takes responsibility for the outcomes of service consumption",
+          "explanation": {
+            "A person who works for an organization other than the service provider": "Incorrect: this describes an external person, not specifically the customer role.",
+            "A person who uses services": "Incorrect: that is a user.",
+            "A person who authorizes budget for service consumption": "Incorrect: that is a sponsor.",
+            "A person who defines the requirements for a service and takes responsibility for the outcomes of service consumption": "Correct: that is the ITIL definition of a customer."
+          }
+        },
+        {
+          "number": 3,
+          "question": "What is NOT a phase in problem management?",
+          "options": [
+            "Incident analysis",
+            "Error control",
+            "Problem identification",
+            "Problem control"
+          ],
+          "answer": "Incident analysis",
+          "explanation": {
+            "Incident analysis": "Correct: this is not a named problem management phase.",
+            "Error control": "Incorrect: this is a problem management phase.",
+            "Problem identification": "Incorrect: this is a problem management phase.",
+            "Problem control": "Incorrect: this is a problem management phase."
+          }
+        },
+        {
+          "number": 4,
+          "question": "Which is a recommendation of the 'service desk' practice?",
+          "options": [
+            "Service desks should always be local to the organization they support",
+            "Service desks should never use technologies such as SMS and chat functions",
+            "Service desks should have a practical understanding of the users and their needs",
+            "Service desks should be highly technical functions"
+          ],
+          "answer": "Service desks should have a practical understanding of the users and their needs",
+          "explanation": {
+            "Service desks should always be local to the organization they support": "Incorrect: structure depends on context and need.",
+            "Service desks should never use technologies such as SMS and chat functions": "Incorrect: modern channels can improve service.",
+            "Service desks should have a practical understanding of the users and their needs": "Correct: understanding users and the business is key.",
+            "Service desks should be highly technical functions": "Incorrect: the focus is on engagement and coordination, not only deep technical skills."
+          }
+        },
+        {
+          "number": 5,
+          "question": "What term best describes a person or a group of people that has its own functions with responsibilities, authorities, and relationships to achieve its objectives?",
+          "options": [
+            "Organization",
+            "Customer",
+            "Service provider",
+            "Consumer"
+          ],
+          "answer": "Organization",
+          "explanation": {
+            "Organization": "Correct: a structured group with defined functions and authority.",
+            "Customer": "Incorrect: a role that sets requirements and owns outcomes.",
+            "Service provider": "Incorrect: an organization in the provider role; the term asked is broader.",
+            "Consumer": "Incorrect: a role that uses services."
+          }
+        },
+        {
+          "number": 6,
+          "question": "Fill in the blank. Service requests and their fulfillment should be standardized and [?] to the greatest degree possible.",
+          "options": [
+            "Eliminated",
+            "Reduced",
+            "Increased",
+            "Automated"
+          ],
+          "answer": "Automated",
+          "explanation": {
+            "Eliminated": "Incorrect: requests are not eliminated; they are standardized and automated.",
+            "Reduced": "Incorrect: reduction is not the principle here.",
+            "Increased": "Incorrect: increasing requests is not a goal.",
+            "Automated": "Correct: standardize first, then automate fulfillment."
+          }
+        },
+        {
+          "number": 7,
+          "question": "If your company is using a single service desk located in one office building to support users from around the world, what type of service desk might this be?",
+          "options": [
+            "Local",
+            "Follow-the-sun",
+            "Virtual",
+            "Centralized"
+          ],
+          "answer": "Centralized",
+          "explanation": {
+            "Local": "Incorrect: local means co-located with users.",
+            "Follow-the-sun": "Incorrect: multiple desks in different time zones.",
+            "Virtual": "Incorrect: analysts work from multiple dispersed locations.",
+            "Centralized": "Correct: a single, central location."
+          }
+        },
+        {
+          "number": 8,
+          "question": "Your organization has recently installed a brand new accounting program. The program has many functions including one that creates a report that shows the 'Profit and Loss (P&L)' metrics for the month. What term best describes the P&L report that is produced each month?",
+          "options": [
+            "Output",
+            "Value",
+            "Outcome",
+            "Cost"
+          ],
+          "answer": "Output",
+          "explanation": {
+            "Output": "Correct: a tangible or intangible deliverable of an activity.",
+            "Value": "Incorrect: value is perceived benefits and importance.",
+            "Outcome": "Incorrect: outcomes are results for stakeholders enabled by outputs.",
+            "Cost": "Incorrect: costs are resources spent."
+          }
+        },
+        {
+          "number": 9,
+          "question": "The users on the fourth floor of your building keep calling the service desk to report that their network connectivity is not working properly. The service desk logs each of these incidents, but since there are multiple incidents for the same issue, they forward it to the problem management activity for resolution. During your analysis, you determine that the network switch that services the entire fourth floor is broken and will need to be replaced. You checked the current inventory of spares, but there are none available. It appears this problem will remain for 24 hours until a new switch can be received and installed. How would you categorize the issue described in this scenario?",
+          "options": [
+            "Known error",
+            "Workaround",
+            "Problem",
+            "Incident"
+          ],
+          "answer": "Known error",
+          "explanation": {
+            "Known error": "Correct: the cause is analyzed and known but not yet resolved.",
+            "Workaround": "Incorrect: no alternative solution that reduces impact is described.",
+            "Problem": "Incorrect: it is a problem, but once analyzed it is a known error.",
+            "Incident": "Incorrect: incidents triggered this, but the categorization now is a known error."
+          }
+        },
+        {
+          "number": 10,
+          "question": "You have just been promoted to the role of the Service Desk manager. The manager before you loved metrics, and the Service Desk is currently spending numerous hours per week creating reports based on over 150 different metrics they call 'measures of effectiveness'. You believe there are simply too many metrics being collected and begin an analysis of each one to determine if is it providing valuable information. For the ones you find without value, you eliminate the requirement to track and report on those metrics. Which guiding principle are you following in this scenario?",
+          "options": [
+            "Optimize and automate",
+            "Keep it simple and practical",
+            "Collaborate and promote visibility",
+            "Progress iteratively with feedback"
+          ],
+          "answer": "Keep it simple and practical",
+          "explanation": {
+            "Optimize and automate": "Incorrect: no automation intent is mentioned.",
+            "Keep it simple and practical": "Correct: remove non-value-adding activities and metrics.",
+            "Collaborate and promote visibility": "Incorrect: collaboration is not the main point here.",
+            "Progress iteratively with feedback": "Incorrect: not about iterative delivery here."
+          }
+        },
+        {
+          "number": 11,
+          "question": "Which guiding principle is most affected by the customer experience (CX)?",
+          "options": [
+            "Think and work holistically",
+            "Start where you are",
+            "Focus on value",
+            "Progress iteratively with feedback"
+          ],
+          "answer": "Focus on value",
+          "explanation": {
+            "Think and work holistically": "Incorrect: it is about integration across the system.",
+            "Start where you are": "Incorrect: emphasizes using the current state.",
+            "Focus on value": "Correct: CX is a key element of value.",
+            "Progress iteratively with feedback": "Incorrect: about incremental progress."
+          }
+        },
+        {
+          "number": 12,
+          "question": "Your printer is currently out of toner and will not print. You ask your co-worker for help, but he says the toner has already been ordered but it won't arrive for a few days. What would you classify this as?",
+          "options": [
+            "Event",
+            "Incident",
+            "Problem",
+            "Known error"
+          ],
+          "answer": "Known error",
+          "explanation": {
+            "Event": "Incorrect: an event is a change of state detected by monitoring.",
+            "Incident": "Incorrect: the cause is known and pending fix.",
+            "Problem": "Incorrect: once analyzed and known, it is a known error.",
+            "Known error": "Correct: known cause and not yet resolved."
+          }
+        },
+        {
+          "number": 13,
+          "question": "What is defined as the practice of planning and managing the full lifecycle of all IT assets?",
+          "options": [
+            "IT asset management",
+            "Release management",
+            "Deployment management",
+            "Change enablement"
+          ],
+          "answer": "IT asset management",
+          "explanation": {
+            "IT asset management": "Correct: lifecycle planning and management of IT assets.",
+            "Release management": "Incorrect: makes new and changed services/features available.",
+            "Deployment management": "Incorrect: moves components to environments.",
+            "Change enablement": "Incorrect: assesses and authorizes changes."
+          }
+        },
+        {
+          "number": 14,
+          "question": "Identify the missing word(s) in the following sentence. A customer is a person who defines the requirements for a service and takes responsibility for the [?] of service consumption.",
+          "options": [
+            "Benefits",
+            "Outcomes",
+            "Outputs",
+            "Cost"
+          ],
+          "answer": "Outcomes",
+          "explanation": {
+            "Benefits": "Incorrect: benefits are part of value but not the formal role responsibility.",
+            "Outcomes": "Correct: customers own the outcomes.",
+            "Outputs": "Incorrect: outputs are deliverables of activities.",
+            "Cost": "Incorrect: costs are only one aspect of value."
+          }
+        },
+        {
+          "number": 15,
+          "question": "A standard change has been initiated to create an email account for a new user. Who should authorize this change?",
+          "options": [
+            "Standard changes are already pre-authorized",
+            "The user's manager should authorize the change",
+            "The user can authorize it themselves",
+            "The change authority must authorize all changes"
+          ],
+          "answer": "Standard changes are already pre-authorized",
+          "explanation": {
+            "Standard changes are already pre-authorized": "Correct: low-risk, well-understood changes are pre-authorized.",
+            "The user's manager should authorize the change": "Incorrect: not required for standard changes unless policy states otherwise.",
+            "The user can authorize it themselves": "Incorrect: users do not authorize changes.",
+            "The change authority must authorize all changes": "Incorrect: standard changes are not authorized case-by-case."
+          }
+        },
+        {
+          "number": 16,
+          "question": "What is NOT a phase in problem management?",
+          "options": [
+            "Error control",
+            "Incident logging",
+            "Problem identification",
+            "Problem control"
+          ],
+          "answer": "Incident logging",
+          "explanation": {
+            "Error control": "Incorrect: a defined phase in problem management.",
+            "Incident logging": "Correct: belongs to incident management, not a problem phase.",
+            "Problem identification": "Incorrect: a defined problem phase.",
+            "Problem control": "Incorrect: a defined problem phase."
+          }
+        },
+        {
+          "number": 17,
+          "question": "Which describes outputs?",
+          "options": [
+            "Results for a stakeholder",
+            "Tangible or intangible deliverables",
+            "Functionality offered by a product or service",
+            "Configuration of an organization’s resources"
+          ],
+          "answer": "Tangible or intangible deliverables",
+          "explanation": {
+            "Results for a stakeholder": "Incorrect: that describes outcomes.",
+            "Tangible or intangible deliverables": "Correct: definition of outputs.",
+            "Functionality offered by a product or service": "Incorrect: that is utility.",
+            "Configuration of an organization’s resources": "Incorrect: more aligned to service configuration."
+          }
+        },
+        {
+          "number": 18,
+          "question": "How does 'service request management' contribute to the 'improve' value chain activity?",
+          "options": [
+            "It ensures that users continue to be productive when they need assistance from the service provider",
+            "It analyzes data to identify opportunities to provide new service request options",
+            "It acquires pre-approved service components to help fulfill service requests",
+            "It collects user-specific requirements, sets expectations, and provides status updates"
+          ],
+          "answer": "It analyzes data to identify opportunities to provide new service request options",
+          "explanation": {
+            "It ensures that users continue to be productive when they need assistance from the service provider": "Incorrect: deliver and support contribution.",
+            "It analyzes data to identify opportunities to provide new service request options": "Correct: improve contribution.",
+            "It acquires pre-approved service components to help fulfill service requests": "Incorrect: obtain/build contribution.",
+            "It collects user-specific requirements, sets expectations, and provides status updates": "Incorrect: engage contribution."
+          }
+        },
+        {
+          "number": 19,
+          "question": "How often should the guiding principles be changed within your organization?",
+          "options": [
+            "Quarterly",
+            "Yearly",
+            "Monthly",
+            "Never"
+          ],
+          "answer": "Never",
+          "explanation": {
+            "Quarterly": "Incorrect: principles are enduring.",
+            "Yearly": "Incorrect: principles are enduring.",
+            "Monthly": "Incorrect: principles are enduring.",
+            "Never": "Correct: they are universal and lasting recommendations."
+          }
+        },
+        {
+          "number": 20,
+          "question": "What is the definition of utility?",
+          "options": [
+            "The functionality offered by a product or service to meet a particular need",
+            "The assurance that a product or service will meet agreed requirements",
+            "A possible event that could cause harm or loss, or make it more difficult to achieve objectives",
+            "A tangible or intangible deliverable that is produced by carrying out an activity"
+          ],
+          "answer": "The functionality offered by a product or service to meet a particular need",
+          "explanation": {
+            "The functionality offered by a product or service to meet a particular need": "Correct: definition of utility (fit for purpose).",
+            "The assurance that a product or service will meet agreed requirements": "Incorrect: that is warranty (fit for use).",
+            "A possible event that could cause harm or loss, or make it more difficult to achieve objectives": "Incorrect: that is risk.",
+            "A tangible or intangible deliverable that is produced by carrying out an activity": "Incorrect: that is an output."
+          }
+        },
+        {
+          "number": 21,
+          "question": "You are working as part of an improvement initiative and your team would like to release a new module into the existing Customer Relationship Management system. Which type of change should you initiate?",
+          "options": [
+            "Normal",
+            "Routine",
+            "Emergency",
+            "Standard"
+          ],
+          "answer": "Normal",
+          "explanation": {
+            "Normal": "Correct: assessed, authorized, and scheduled via the normal process.",
+            "Routine": "Incorrect: not an ITIL 4 change type.",
+            "Emergency": "Incorrect: not urgent or incident-driven.",
+            "Standard": "Incorrect: this is not a low-risk pre-authorized change."
+          }
+        },
+        {
+          "number": 22,
+          "question": "Who can report an incident?",
+          "options": [
+            "Anyone",
+            "End user",
+            "Service desk analyst",
+            "System administrator"
+          ],
+          "answer": "Anyone",
+          "explanation": {
+            "Anyone": "Correct: any person can report an incident.",
+            "End user": "Incorrect: not limited to end users.",
+            "Service desk analyst": "Incorrect: they can log incidents, but reporting is not limited to them.",
+            "System administrator": "Incorrect: also not limited to admins."
+          }
+        },
+        {
+          "number": 23,
+          "question": "Identify the missing word(s) in the following sentence. A(n) [?] is any component that needs to be managed in order to deliver an IT service.",
+          "options": [
+            "Product",
+            "Asset",
+            "Configuration item",
+            "Outputs"
+          ],
+          "answer": "Configuration item",
+          "explanation": {
+            "Product": "Incorrect: broader than CI and not the definition.",
+            "Asset": "Incorrect: assets can be CIs, but CI is the exact definition.",
+            "Configuration item": "Correct: any managed component needed to deliver a service.",
+            "Outputs": "Incorrect: deliverables of activities."
+          }
+        },
+        {
+          "number": 24,
+          "question": "Which guiding principle is concerned with an understanding of how all the parts of an organization work together in an integrated way?",
+          "options": [
+            "Focus on value",
+            "Optimize and automate",
+            "Keep it simple and practical",
+            "Think and work holistically"
+          ],
+          "answer": "Think and work holistically",
+          "explanation": {
+            "Focus on value": "Incorrect: focuses on stakeholder value.",
+            "Optimize and automate": "Incorrect: focuses on efficiency and automation.",
+            "Keep it simple and practical": "Incorrect: focuses on simplicity.",
+            "Think and work holistically": "Correct: emphasizes end-to-end integration across dimensions."
+          }
+        },
+        {
+          "number": 25,
+          "question": "Your company currently uses a paper-based process for allocating funding for authorized business travel. This process requires the traveler to fill out a form and get 6 different signatures and approval prior to turning in the form to accounting for funding of the travel. This entire process is currently done manually, meaning, an employee is actually walking around to the various managers for their physical signature on a piece of paper. You have decided to automate this process. Based on the principle of 'optimize and automate', how should you approach the automation of this existing process?",
+          "options": [
+            "Create a new process first and then automate it",
+            "Identify all the steps in the process, eliminate any unnecessary steps, and then automate the remaining steps in the process",
+            "Identify all of the steps in the process and create an automated workflow that will route the form electronically to the authorized signatories",
+            "Identify all of the steps in the process and eliminate any unnecessary steps in the process"
+          ],
+          "answer": "Identify all the steps in the process, eliminate any unnecessary steps, and then automate the remaining steps in the process",
+          "explanation": {
+            "Create a new process first and then automate it": "Incorrect: optimize before you automate; reuse what works.",
+            "Identify all the steps in the process, eliminate any unnecessary steps, and then automate the remaining steps in the process": "Correct: optimize then automate.",
+            "Identify all of the steps in the process and create an automated workflow that will route the form electronically to the authorized signatories": "Incorrect: automates wasteful steps without optimization.",
+            "Identify all of the steps in the process and eliminate any unnecessary steps in the process": "Incorrect: misses the automation step."
+          }
+        },
+        {
+          "number": 26,
+          "question": "What is defined as the practice of protecting an organization by understanding and managing risks to the confidentiality, integrity, and availability of information?",
+          "options": [
+            "Availability Management",
+            "Change enablement",
+            "Information security management",
+            "Service continuity management"
+          ],
+          "answer": "Information security management",
+          "explanation": {
+            "Availability Management": "Incorrect: focuses on service availability levels.",
+            "Change enablement": "Incorrect: focuses on assessing and authorizing changes.",
+            "Information security management": "Correct: manages CIA risks to information.",
+            "Service continuity management": "Incorrect: focuses on recovery/continuity."
+          }
+        },
+        {
+          "number": 27,
+          "question": "Which value chain activity would best be used to categorize the actions of the service desk when they are responding to a consumer's request for assistance?",
+          "options": [
+            "Obtain/build",
+            "Improve",
+            "Design and transition",
+            "Deliver and support"
+          ],
+          "answer": "Deliver and support",
+          "explanation": {
+            "Obtain/build": "Incorrect: about making components available.",
+            "Improve": "Incorrect: about continual improvement across the chain.",
+            "Design and transition": "Incorrect: ensuring products meet requirements before live.",
+            "Deliver and support": "Correct: delivery and support of services to users."
+          }
+        },
+        {
+          "number": 28,
+          "question": "Which service management dimension is focused on the communication systems and knowledge bases used by employees?",
+          "options": [
+            "Partners and suppliers",
+            "Organizations and people",
+            "Information and technology",
+            "Value streams and processes"
+          ],
+          "answer": "Information and technology",
+          "explanation": {
+            "Partners and suppliers": "Incorrect: external relationships and contracts.",
+            "Organizations and people": "Incorrect: roles, culture, competencies.",
+            "Information and technology": "Correct: information, knowledge, and enabling technology.",
+            "Value streams and processes": "Incorrect: activities transforming inputs to outputs."
+          }
+        },
+        {
+          "number": 29,
+          "question": "Identify the missing word(s) in the following sentence. An event is any change of state that has significance for the management of a(n) [?] or other configuration items.",
+          "options": [
+            "Output",
+            "Product",
+            "Service",
+            "Outcome"
+          ],
+          "answer": "Service",
+          "explanation": {
+            "Output": "Incorrect: an output is a deliverable.",
+            "Product": "Incorrect: too broad; the definition targets services or CIs.",
+            "Service": "Correct: events have significance for managing services and CIs.",
+            "Outcome": "Incorrect: result for stakeholders."
+          }
+        },
+        {
+          "number": 30,
+          "question": "XYZ Training Solutions has decided to create an online course for the ITIL 4 Foundation exam. The company developed their curriculum and then invited 50 students to participate in live training to determine if the training was effective. During the training, some students didn't understand the concept of the service value chain, so the instructor rewrote that portion of the curriculum. Which guiding principle is being demonstrated by this approach to curriculum development?",
+          "options": [
+            "Progress iteratively with feedback",
+            "Collaborate and promote visibility",
+            "Focus on value",
+            "Optimize and automate"
+          ],
+          "answer": "Progress iteratively with feedback",
+          "explanation": {
+            "Progress iteratively with feedback": "Correct: develop, get feedback, refine, and iterate.",
+            "Collaborate and promote visibility": "Incorrect: collaboration helps but is not the core shown.",
+            "Focus on value": "Incorrect: value focus is implied but iteration is central here.",
+            "Optimize and automate": "Incorrect: not about optimization/automation."
+          }
+        },
+        {
+          "number": 31,
+          "question": "What term best describes the perceived benefits, usefulness, and importance of something?",
+          "options": [
+            "Utility",
+            "Warranty",
+            "Value",
+            "Outcome"
+          ],
+          "answer": "Value",
+          "explanation": {
+            "Utility": "Incorrect: functionality to meet a need.",
+            "Warranty": "Incorrect: assurance that requirements will be met.",
+            "Value": "Correct: perceived benefits, usefulness, and importance.",
+            "Outcome": "Incorrect: results enabled by outputs."
+          }
+        },
+        {
+          "number": 32,
+          "question": "What is the purpose of the 'release management' practice?",
+          "options": [
+            "Supporting the agreed quality of a service by handling all pre-defined, user-initiated service requests in an effective and user-friendly manner",
+            "Making new and changed services and features available for use",
+            "Ensuring that risks are properly assessed, authorizing changes to proceed and managing a change schedule in order to maximize the number of successful IT changes",
+            "Moving new or changed hardware, software, documentation, processes, or any other service component to live environments"
+          ],
+          "answer": "Making new and changed services and features available for use",
+          "explanation": {
+            "Supporting the agreed quality of a service by handling all pre-defined, user-initiated service requests in an effective and user-friendly manner": "Incorrect: service request management.",
+            "Making new and changed services and features available for use": "Correct: release management purpose.",
+            "Ensuring that risks are properly assessed, authorizing changes to proceed and managing a change schedule in order to maximize the number of successful IT changes": "Incorrect: change enablement.",
+            "Moving new or changed hardware, software, documentation, processes, or any other service component to live environments": "Incorrect: deployment management."
+          }
+        },
+        {
+          "number": 33,
+          "question": "Which guiding principle is focused on using the minimum number of steps to accomplish an objective?",
+          "options": [
+            "Keep it simple and practical",
+            "Collaborate and promote visibility",
+            "Progress iteratively with feedback",
+            "Optimize and automate"
+          ],
+          "answer": "Keep it simple and practical",
+          "explanation": {
+            "Keep it simple and practical": "Correct: remove non-value steps and keep processes lean.",
+            "Collaborate and promote visibility": "Incorrect: about involvement and transparency.",
+            "Progress iteratively with feedback": "Incorrect: about incremental improvement.",
+            "Optimize and automate": "Incorrect: optimize/automate comes after simplifying."
+          }
+        },
+        {
+          "number": 34,
+          "question": "Which guiding principle requires coordination across the organization in order to best understand how a complicated service works?",
+          "options": [
+            "Focus on value",
+            "Keep it simple and practical",
+            "Optimize and automate",
+            "Think and work holistically"
+          ],
+          "answer": "Think and work holistically",
+          "explanation": {
+            "Focus on value": "Incorrect: value-oriented but not about cross-org integration.",
+            "Keep it simple and practical": "Incorrect: simplicity, not coordination.",
+            "Optimize and automate": "Incorrect: efficiency, not system thinking.",
+            "Think and work holistically": "Correct: requires end-to-end coordination and integration."
+          }
+        },
+        {
+          "number": 35,
+          "question": "What is an example of an action a service request management employee would undertake as part of the 'improve' activity?",
+          "options": [
+            "Fulfill the consumer's service requests through acquisition of service components",
+            "Initiate and fulfill standard changes",
+            "Communicate with consumers to understand their requirements",
+            "Provide trend, quality, and feedback information about requests"
+          ],
+          "answer": "Provide trend, quality, and feedback information about requests",
+          "explanation": {
+            "Fulfill the consumer's service requests through acquisition of service components": "Incorrect: obtain/build contribution.",
+            "Initiate and fulfill standard changes": "Incorrect: design and transition contribution.",
+            "Communicate with consumers to understand their requirements": "Incorrect: engage contribution.",
+            "Provide trend, quality, and feedback information about requests": "Correct: improve contribution."
+          }
+        },
+        {
+          "number": 36,
+          "question": "When working within the 'what is the vision' step of the continual improvement model, what must you ensure to occur?",
+          "options": [
+            "The high-level direction of the initiative has been understood",
+            "What metrics you will use to measure success",
+            "The current processes being used",
+            "The detailed steps of how to achieve your objectives"
+          ],
+          "answer": "The high-level direction of the initiative has been understood",
+          "explanation": {
+            "The high-level direction of the initiative has been understood": "Correct: vision step defines purpose and direction.",
+            "What metrics you will use to measure success": "Incorrect: decided later.",
+            "The current processes being used": "Incorrect: assessed in 'where are we now'.",
+            "The detailed steps of how to achieve your objectives": "Incorrect: planned in 'how do we get there'."
+          }
+        },
+        {
+          "number": 37,
+          "question": "What is defined as the practice of systematically observing services and service components, and recording and reporting selected changes of state identified as events?",
+          "options": [
+            "Service level management",
+            "Monitoring and event management",
+            "Incident management",
+            "Problem management"
+          ],
+          "answer": "Monitoring and event management",
+          "explanation": {
+            "Service level management": "Incorrect: sets and manages service performance targets.",
+            "Monitoring and event management": "Correct: observation and handling of events.",
+            "Incident management": "Incorrect: restores normal service as quickly as possible.",
+            "Problem management": "Incorrect: identifies and manages causes, workarounds, and known errors."
+          }
+        },
+        {
+          "number": 38,
+          "question": "What is a normal change?",
+          "options": [
+            "A change that is routine in nature, is fully documented, and the risks are well understood",
+            "A change that doesn't need risk assessment because the procedure has been pre-authorized",
+            "A change that needs to be assessed, authorized, and scheduled by a change authority",
+            "A change that doesn't need risk assessment because it is required to resolve an incident"
+          ],
+          "answer": "A change that needs to be assessed, authorized, and scheduled by a change authority",
+          "explanation": {
+            "A change that is routine in nature, is fully documented, and the risks are well understood": "Incorrect: that is a standard change.",
+            "A change that doesn't need risk assessment because the procedure has been pre-authorized": "Incorrect: also describes a standard change.",
+            "A change that needs to be assessed, authorized, and scheduled by a change authority": "Correct: normal change.",
+            "A change that doesn't need risk assessment because it is required to resolve an incident": "Incorrect: emergency changes still need expedited assessment."
+          }
+        },
+        {
+          "number": 39,
+          "question": "Which guiding principle is focused on involving the right people in the correct roles in order to get additional buy-in for the project and increase the likelihood of long-term success?",
+          "options": [
+            "Optimize and automate",
+            "Progress iteratively with feedback",
+            "Focus on value",
+            "Collaborate and promote visibility"
+          ],
+          "answer": "Collaborate and promote visibility",
+          "explanation": {
+            "Optimize and automate": "Incorrect: about efficiency.",
+            "Progress iteratively with feedback": "Incorrect: about incremental delivery.",
+            "Focus on value": "Incorrect: value focus, but not chiefly about collaboration.",
+            "Collaborate and promote visibility": "Correct: engage the right stakeholders and increase transparency."
+          }
+        },
+        {
+          "number": 40,
+          "question": "Fill in the blank. Service requests and their fulfillment should be [?] and automated to the greatest degree possible.",
+          "options": [
+            "Uniquely handled",
+            "Ignored",
+            "Standardized",
+            "Creatively solved"
+          ],
+          "answer": "Standardized",
+          "explanation": {
+            "Uniquely handled": "Incorrect: standardization enables consistency and speed.",
+            "Ignored": "Incorrect: requests must be handled, not ignored.",
+            "Standardized": "Correct: standardize first, then automate.",
+            "Creatively solved": "Incorrect: creativity is not a substitute for standardization."
+          }
+        }
+      ]
+    }
+  ]
+}
+

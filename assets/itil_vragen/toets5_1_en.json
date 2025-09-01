@@ -1,0 +1,694 @@
+{
+  "chapters": [
+    {
+      "chapter": "ITIL 4 test 5_1 (EN)",
+      "description": "ITIL 4 - Practice Test 5_1 (EN, questions 1-40)",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What is the reason for using a balanced bundle of service metrics?",
+          "options": [
+            "It facilitates the automatic collection of metrics",
+            "It reports each service element separately",
+            "It provides an outcome-based view of services",
+            "It reduces the number of metrics that need to be collected"
+          ],
+          "answer": "It provides an outcome-based view of services",
+          "explanation": {
+            "It facilitates the automatic collection of metrics": "Incorrect: bundling changes what you measure, not how it is collected.",
+            "It reports each service element separately": "Incorrect: bundles avoid narrow, siloed metrics.",
+            "It provides an outcome-based view of services": "Correct: bundles align measurement to customer outcomes, not just components.",
+            "It reduces the number of metrics that need to be collected": "Incorrect: quantity is not the goal; relevance is."
+          }
+        },
+        {
+          "number": 2,
+          "question": "Which guiding principle uses experience from one improvement activity to improve the next activity?",
+          "options": [
+            "Keep it simple and practical",
+            "Progress iteratively with feedback",
+            "Start where you are",
+            "Optimize and automate"
+          ],
+          "answer": "Progress iteratively with feedback",
+          "explanation": {
+            "Keep it simple and practical": "Incorrect: focuses on minimal, practical steps.",
+            "Progress iteratively with feedback": "Correct: learn from each iteration and adjust.",
+            "Start where you are": "Incorrect: begin with the current state and data.",
+            "Optimize and automate": "Incorrect: optimize first, then automate."
+          }
+        },
+        {
+          "number": 3,
+          "question": "Which guiding principle recommends coordinating all dimensions of service management?",
+          "options": [
+            "Start where you are",
+            "Think and work holistically",
+            "Progress iteratively with feedback",
+            "Keep it simple and practical"
+          ],
+          "answer": "Think and work holistically",
+          "explanation": {
+            "Start where you are": "Incorrect: reuse and measure the current state.",
+            "Think and work holistically": "Correct: coordinate across all four dimensions.",
+            "Progress iteratively with feedback": "Incorrect: iterate in small steps.",
+            "Keep it simple and practical": "Incorrect: reduce complexity."
+          }
+        },
+        {
+          "number": 4,
+          "question": "Which role takes responsibility for the outcomes of service consumption?",
+          "options": [
+            "Service provider",
+            "Customer",
+            "Organization",
+            "Sponsor"
+          ],
+          "answer": "Customer",
+          "explanation": {
+            "Service provider": "Incorrect: provides and supports services.",
+            "Customer": "Correct: defines requirements and owns outcomes.",
+            "Organization": "Incorrect: generic term, not the role.",
+            "Sponsor": "Incorrect: authorizes budget."
+          }
+        },
+        {
+          "number": 5,
+          "question": "Which practice recommends performing service reviews to ensure that services continue to meet organizational needs?",
+          "options": [
+            "Service request management",
+            "Service level management",
+            "Service desk",
+            "Service configuration management"
+          ],
+          "answer": "Service level management",
+          "explanation": {
+            "Service request management": "Incorrect: handles predefined user requests.",
+            "Service level management": "Correct: conducts service reviews and manages targets.",
+            "Service desk": "Incorrect: entry point and coordination.",
+            "Service configuration management": "Incorrect: maintains configuration information."
+          }
+        },
+        {
+          "number": 6,
+          "question": "Identify the missing word in the following sentence. A known error is a problem that has been [?] and has not been resolved.",
+          "options": [
+            "analyzed",
+            "closed",
+            "logged",
+            "escalated"
+          ],
+          "answer": "analyzed",
+          "explanation": {
+            "analyzed": "Correct: analyzed but unresolved = known error.",
+            "closed": "Incorrect: a closed problem is no longer a known error.",
+            "logged": "Incorrect: logging alone does not make it a known error.",
+            "escalated": "Incorrect: escalation is not required to be a known error."
+          }
+        },
+        {
+          "number": 7,
+          "question": "Which joint activity performed by a service provider and service consumer ensures continual value co-creation?",
+          "options": [
+            "Service relationship management",
+            "Service offering",
+            "Service consumption",
+            "Service provision"
+          ],
+          "answer": "Service relationship management",
+          "explanation": {
+            "Service relationship management": "Correct: joint activities to co-create value.",
+            "Service offering": "Incorrect: a packaged description of services.",
+            "Service consumption": "Incorrect: activities by the consumer.",
+            "Service provision": "Incorrect: activities by the provider."
+          }
+        },
+        {
+          "number": 8,
+          "question": "Which guiding principle emphasizes the need to understand the flow of work in progress, identify bottlenecks, and uncover waste?",
+          "options": [
+            "Keep it simple and practical",
+            "Focus on value",
+            "Think and work holistically",
+            "Collaborate and promote visibility"
+          ],
+          "answer": "Collaborate and promote visibility",
+          "explanation": {
+            "Keep it simple and practical": "Incorrect: remove unnecessary steps.",
+            "Focus on value": "Incorrect: keep value as the north star.",
+            "Think and work holistically": "Incorrect: end-to-end integration.",
+            "Collaborate and promote visibility": "Correct: visibility of flow and waste supports better decisions."
+          }
+        },
+        {
+          "number": 9,
+          "question": "What are guiding principles used for?",
+          "options": [
+            "To direct and control an organization",
+            "To help an organization make good decisions",
+            "To identify activities required to deliver a valuable service",
+            "To ensure performance continually meets stakeholder expectations"
+          ],
+          "answer": "To help an organization make good decisions",
+          "explanation": {
+            "To direct and control an organization": "Incorrect: that is governance.",
+            "To help an organization make good decisions": "Correct: principles guide actions and choices.",
+            "To identify activities required to deliver a valuable service": "Incorrect: service value chain covers activities.",
+            "To ensure performance continually meets stakeholder expectations": "Incorrect: continual improvement addresses this."
+          }
+        },
+        {
+          "number": 10,
+          "question": "Which statement about 'continual improvement' is CORRECT?",
+          "options": [
+            "A single team should carry out 'continual improvement' across the organization",
+            "'Continual improvement' should have minimal interaction with other practices",
+            "Everyone in the organization is responsible for some aspects of 'continual improvement'",
+            "All improvement ideas should be logged in a single 'continual improvement register'"
+          ],
+          "answer": "Everyone in the organization is responsible for some aspects of 'continual improvement'",
+          "explanation": {
+            "A single team should carry out 'continual improvement' across the organization": "Incorrect: everyone contributes.",
+            "'Continual improvement' should have minimal interaction with other practices": "Incorrect: it interacts broadly.",
+            "Everyone in the organization is responsible for some aspects of 'continual improvement'": "Correct: improvement is a shared responsibility.",
+            "All improvement ideas should be logged in a single 'continual improvement register'": "Incorrect: one or multiple registers may be used."
+          }
+        },
+        {
+          "number": 11,
+          "question": "Which is MOST likely to be managed as a service request?",
+          "options": [
+            "A standard change",
+            "An emergency change",
+            "A normal change",
+            "An organizational change"
+          ],
+          "answer": "A standard change",
+          "explanation": {
+            "A standard change": "Correct: low-risk, pre-authorized; often initiated via service requests.",
+            "An emergency change": "Incorrect: expedited via change enablement.",
+            "A normal change": "Incorrect: assessed and authorized through change enablement.",
+            "An organizational change": "Incorrect: people/organization change, not SRM."
+          }
+        },
+        {
+          "number": 12,
+          "question": "A customer is the role that defines the requirements for a service and takes responsibility for the [?] of service consumption.",
+          "options": [
+            "costs",
+            "outputs",
+            "risks",
+            "outcomes"
+          ],
+          "answer": "outcomes",
+          "explanation": {
+            "costs": "Incorrect: sponsor authorizes budget.",
+            "outputs": "Incorrect: deliverables, not responsibility.",
+            "risks": "Incorrect: provider manages many service risks.",
+            "outcomes": "Correct: customers own the results."
+          }
+        },
+        {
+          "number": 13,
+          "question": "Which activity is carried out as part of 'problem management'?",
+          "options": [
+            "Escalating incidents to a support team for resolution",
+            "Trend analysis of incident records",
+            "Creating incident records",
+            "Diagnosing and resolving incidents"
+          ],
+          "answer": "Trend analysis of incident records",
+          "explanation": {
+            "Escalating incidents to a support team for resolution": "Incorrect: incident management task.",
+            "Trend analysis of incident records": "Correct: problem identification includes trend analysis.",
+            "Creating incident records": "Incorrect: incident logging.",
+            "Diagnosing and resolving incidents": "Incorrect: incident management."
+          }
+        },
+        {
+          "number": 14,
+          "question": "Identify the missing word. The purpose of service configuration management is to ensure that accurate and reliable information about the configuration of services, and the [?] that support them, is available when and where it is needed.",
+          "options": [
+            "customers",
+            "suppliers",
+            "assets",
+            "CIs"
+          ],
+          "answer": "CIs",
+          "explanation": {
+            "customers": "Incorrect: customers are not configuration items.",
+            "suppliers": "Incorrect: suppliers are external parties.",
+            "assets": "Incorrect: not all assets are in scope as CIs.",
+            "CIs": "Correct: configuration items that support services."
+          }
+        },
+        {
+          "number": 15,
+          "question": "Which guiding principle is PRIMARILY concerned with consumers' revenue and growth?",
+          "options": [
+            "Optimize and automate",
+            "Keep it simple and practical",
+            "Progress iteratively with feedback",
+            "Focus on value"
+          ],
+          "answer": "Focus on value",
+          "explanation": {
+            "Optimize and automate": "Incorrect: efficiency and effectiveness.",
+            "Keep it simple and practical": "Incorrect: reduce complexity.",
+            "Progress iteratively with feedback": "Incorrect: iterate in small steps.",
+            "Focus on value": "Correct: value includes revenue, growth, loyalty."
+          }
+        },
+        {
+          "number": 16,
+          "question": "What should be used to set user expectations for request fulfilment times?",
+          "options": [
+            "The service levels of the supplier",
+            "The consumer demand for the service",
+            "The time needed to realistically deliver the service",
+            "The time that the customer indicates for service delivery"
+          ],
+          "answer": "The time needed to realistically deliver the service",
+          "explanation": {
+            "The service levels of the supplier": "Incorrect: supplier SLAs may inform but do not define user expectations.",
+            "The consumer demand for the service": "Incorrect: demand does not set realistic delivery time.",
+            "The time needed to realistically deliver the service": "Correct: expectations must be realistic and achievable.",
+            "The time that the customer indicates for service delivery": "Incorrect: not necessarily feasible."
+          }
+        },
+        {
+          "number": 17,
+          "question": "What is the service consumer's contribution to the reduction of risk?",
+          "options": [
+            "By paying for the service",
+            "By managing staff availability",
+            "By communicating constraints",
+            "By managing server hardware"
+          ],
+          "answer": "By communicating constraints",
+          "explanation": {
+            "By paying for the service": "Incorrect: funding alone does not reduce risk.",
+            "By managing staff availability": "Incorrect: provider capacity planning task.",
+            "By communicating constraints": "Correct: clear constraints reduce ambiguity and risk.",
+            "By managing server hardware": "Incorrect: provider responsibility in most cases."
+          }
+        },
+        {
+          "number": 18,
+          "question": "What is the starting point for optimization?",
+          "options": [
+            "Securing stakeholder engagement",
+            "Standardizing practices and services",
+            "Understanding the vision and objectives of the organization",
+            "Determining where the most positive impact would be"
+          ],
+          "answer": "Understanding the vision and objectives of the organization",
+          "explanation": {
+            "Securing stakeholder engagement": "Incorrect: important, but follows context setting.",
+            "Standardizing practices and services": "Incorrect: usually defined after target state.",
+            "Understanding the vision and objectives of the organization": "Correct: optimization starts with context and goals.",
+            "Determining where the most positive impact would be": "Incorrect: comes after assessing current state."
+          }
+        },
+        {
+          "number": 19,
+          "question": "Which usually requires a team of representatives from many stakeholder groups?",
+          "options": [
+            "Fulfilling a service request",
+            "Logging a new problem",
+            "Authorizing an emergency change",
+            "Investigating a major incident"
+          ],
+          "answer": "Investigating a major incident",
+          "explanation": {
+            "Fulfilling a service request": "Incorrect: handled via predefined workflows.",
+            "Logging a new problem": "Incorrect: can be done by a single role.",
+            "Authorizing an emergency change": "Incorrect: expedited authorization, not necessarily a large team.",
+            "Investigating a major incident": "Correct: cross-functional 'swarming' is typical."
+          }
+        },
+        {
+          "number": 20,
+          "question": "Which TWO statements about an organization's culture are CORRECT?",
+          "options": [
+            "1. It is created from shared values based on how it carries out its work",
+            "2. It is determined by the type of technology used to support services",
+            "3. It should be based on the culture of prospective suppliers",
+            "4. It should be based on the objectives of the organization"
+          ],
+          "answer": [
+            "1. It is created from shared values based on how it carries out its work",
+            "4. It should be based on the objectives of the organization"
+          ],
+          "explanation": {
+            "1. It is created from shared values based on how it carries out its work": "Correct: ways of working shape culture.",
+            "2. It is determined by the type of technology used to support services": "Incorrect: technology influences but does not determine culture.",
+            "3. It should be based on the culture of prospective suppliers": "Incorrect: supplier culture should not define yours.",
+            "4. It should be based on the objectives of the organization": "Correct: culture should support objectives."
+          }
+        },
+        {
+          "number": 21,
+          "question": "How should the seven guiding principles be combined when an organization is making a decision?",
+          "options": [
+            "By using the 'focus on value' principle and one or two others that are relevant",
+            "By using all the guiding principles equally for every decision",
+            "By reviewing each guiding principle to decide how relevant it is",
+            "By using the one or two guiding principles that are most relevant"
+          ],
+          "answer": "By reviewing each guiding principle to decide how relevant it is",
+          "explanation": {
+            "By using the 'focus on value' principle and one or two others that are relevant": "Incorrect: start by reviewing all, then select relevance.",
+            "By using all the guiding principles equally for every decision": "Incorrect: relevance varies by context.",
+            "By reviewing each guiding principle to decide how relevant it is": "Correct: assess applicability per decision.",
+            "By using the one or two guiding principles that are most relevant": "Incomplete: you should review all first."
+          }
+        },
+        {
+          "number": 22,
+          "question": "Which dimension is MOST concerned with skills, competencies, roles and responsibilities?",
+          "options": [
+            "Organizations and people",
+            "Partners and suppliers",
+            "Value streams and processes",
+            "Information and technology"
+          ],
+          "answer": "Organizations and people",
+          "explanation": {
+            "Organizations and people": "Correct: covers roles, culture, competencies.",
+            "Partners and suppliers": "Incorrect: external relationships.",
+            "Value streams and processes": "Incorrect: activities and workflows.",
+            "Information and technology": "Incorrect: information, knowledge, tools."
+          }
+        },
+        {
+          "number": 23,
+          "question": "Which practice has a purpose that includes reducing the likelihood of incidents?",
+          "options": [
+            "Change enablement",
+            "Service desk",
+            "Problem management",
+            "Continual improvement"
+          ],
+          "answer": "Problem management",
+          "explanation": {
+            "Change enablement": "Incorrect: maximize successful changes by assessing risk.",
+            "Service desk": "Incorrect: entry point for users.",
+            "Problem management": "Correct: addresses causes to reduce likelihood and impact.",
+            "Continual improvement": "Incorrect: aligns practices and services with changing needs."
+          }
+        },
+        {
+          "number": 24,
+          "question": "How should the seven guiding principles be combined when an organization is making a decision?",
+          "options": [
+            "By using the 'focus on value' principle and one or two others that are relevant",
+            "By using the one or two guiding principles that are most relevant",
+            "By using all the guiding principles equally when making any decision",
+            "By reviewing each guiding principle to decide how relevant it is"
+          ],
+          "answer": "By reviewing each guiding principle to decide how relevant it is",
+          "explanation": {
+            "By using the 'focus on value' principle and one or two others that are relevant": "Incorrect: review all first.",
+            "By using the one or two guiding principles that are most relevant": "Incomplete: selection follows review of all principles.",
+            "By using all the guiding principles equally when making any decision": "Incorrect: context dictates relevance.",
+            "By reviewing each guiding principle to decide how relevant it is": "Correct."
+          }
+        },
+        {
+          "number": 25,
+          "question": "Which should be logged and managed as a problem?",
+          "options": [
+            "Trend analysis shows a large number of similar incidents",
+            "A monitoring tool detects a change of state for a service",
+            "'Continual improvement' needs to prioritize an improvement opportunity",
+            "A user requests delivery of a laptop"
+          ],
+          "answer": "Trend analysis shows a large number of similar incidents",
+          "explanation": {
+            "Trend analysis shows a large number of similar incidents": "Correct: indicates an underlying cause to investigate.",
+            "A monitoring tool detects a change of state for a service": "Incorrect: that is an event.",
+            "'Continual improvement' needs to prioritize an improvement opportunity": "Incorrect: improvement governance.",
+            "A user requests delivery of a laptop": "Incorrect: a service request."
+          }
+        },
+        {
+          "number": 26,
+          "question": "Which practice is responsible for moving new or changed components to live or other environments?",
+          "options": [
+            "Supplier management",
+            "Change enablement",
+            "Release management",
+            "Deployment management"
+          ],
+          "answer": "Deployment management",
+          "explanation": {
+            "Supplier management": "Incorrect: manages suppliers and performance.",
+            "Change enablement": "Incorrect: assesses and authorizes changes.",
+            "Release management": "Incorrect: makes services/features available for use.",
+            "Deployment management": "Correct: moves components to target environments."
+          }
+        },
+        {
+          "number": 27,
+          "question": "Which will NOT be handled as a service request?",
+          "options": [
+            "A complaint about a support team",
+            "The degradation of a service",
+            "The provision of a laptop",
+            "The replacement of a toner cartridge"
+          ],
+          "answer": "The degradation of a service",
+          "explanation": {
+            "A complaint about a support team": "Incorrect: feedback can be a service request.",
+            "The degradation of a service": "Correct: this is an incident.",
+            "The provision of a laptop": "Incorrect: can be fulfilled as a request.",
+            "The replacement of a toner cartridge": "Incorrect: typical service request."
+          }
+        },
+        {
+          "number": 28,
+          "question": "Which practice improves customer and user satisfaction by reducing downtime?",
+          "options": [
+            "Change enablement",
+            "Incident management",
+            "Service request management",
+            "Service level management"
+          ],
+          "answer": "Incident management",
+          "explanation": {
+            "Change enablement": "Incorrect: change risk and authorization.",
+            "Incident management": "Correct: restores service quickly, reducing downtime.",
+            "Service request management": "Incorrect: fulfills user requests.",
+            "Service level management": "Incorrect: sets and monitors targets."
+          }
+        },
+        {
+          "number": 29,
+          "question": "What should be done for every problem?",
+          "options": [
+            "It should have a workaround to reduce the impact",
+            "It should be prioritized based on its potential impact and probability",
+            "It should be diagnosed to identify possible solutions",
+            "It should be resolved so that it can be closed"
+          ],
+          "answer": "It should be prioritized based on its potential impact and probability",
+          "explanation": {
+            "It should have a workaround to reduce the impact": "Incorrect: not every problem requires a workaround.",
+            "It should be prioritized based on its potential impact and probability": "Correct: manage problems as risks.",
+            "It should be diagnosed to identify possible solutions": "Incorrect: not every problem is analyzed immediately.",
+            "It should be resolved so that it can be closed": "Incorrect: some remain known errors with workarounds."
+          }
+        },
+        {
+          "number": 30,
+          "question": "Which service level metrics are BEST for measuring user experience?",
+          "options": [
+            "Operational metrics",
+            "Metrics linked to defined outcomes",
+            "Metrics for the percentage of uptime of a service",
+            "Single system-based metrics"
+          ],
+          "answer": "Metrics linked to defined outcomes",
+          "explanation": {
+            "Operational metrics": "Incorrect: component-level metrics can be misleading.",
+            "Metrics linked to defined outcomes": "Correct: reflect what users value and experience.",
+            "Metrics for the percentage of uptime of a service": "Incorrect: availability alone is insufficient.",
+            "Single system-based metrics": "Incorrect: too narrow and technical."
+          }
+        },
+        {
+          "number": 31,
+          "question": "What is typically needed to assign complex incidents to support groups?",
+          "options": [
+            "The incident category",
+            "A self-help tool",
+            "The incident priority",
+            "A change schedule"
+          ],
+          "answer": "The incident category",
+          "explanation": {
+            "The incident category": "Correct: category drives routing to the right team.",
+            "A self-help tool": "Incorrect: for user self-service, not assignment.",
+            "The incident priority": "Incorrect: sets urgency, not routing.",
+            "A change schedule": "Incorrect: plans changes, not incidents."
+          }
+        },
+        {
+          "number": 32,
+          "question": "Which practice includes aligning the organization's practices and services with changing business needs?",
+          "options": [
+            "Relationship management",
+            "Continual improvement",
+            "Service configuration management",
+            "Service level management"
+          ],
+          "answer": "Continual improvement",
+          "explanation": {
+            "Relationship management": "Incorrect: stakeholder relationships.",
+            "Continual improvement": "Correct: ongoing alignment and enhancement.",
+            "Service configuration management": "Incorrect: configuration info of services and CIs.",
+            "Service level management": "Incorrect: targets and performance."
+          }
+        },
+        {
+          "number": 33,
+          "question": "Which practice ensures that accurate and reliable information is available about configuration items and the relationships between them?",
+          "options": [
+            "Service configuration management",
+            "IT asset management",
+            "Service desk",
+            "Monitoring and event management"
+          ],
+          "answer": "Service configuration management",
+          "explanation": {
+            "Service configuration management": "Correct: maintains CI data and relationships.",
+            "IT asset management": "Incorrect: lifecycle of IT assets.",
+            "Service desk": "Incorrect: SPOC for users.",
+            "Monitoring and event management": "Incorrect: observe and report events."
+          }
+        },
+        {
+          "number": 34,
+          "question": "What is a means of enabling value co-creation by facilitating outcomes that customers want to achieve?",
+          "options": [
+            "An output",
+            "A practice",
+            "A service",
+            "Continual improvement"
+          ],
+          "answer": "A service",
+          "explanation": {
+            "An output": "Incorrect: a deliverable from an activity.",
+            "A practice": "Incorrect: organizational resources for work.",
+            "A service": "Correct: definition of a service.",
+            "Continual improvement": "Incorrect: a practice to improve value realization."
+          }
+        },
+        {
+          "number": 35,
+          "question": "The management of information security incidents usually requires [?].",
+          "options": [
+            "Third party support",
+            "A separate process",
+            "Specialist teams",
+            "Immediate escalation"
+          ],
+          "answer": "A separate process",
+          "explanation": {
+            "Third party support": "Incorrect: may be involved, but not required.",
+            "A separate process": "Correct: info security incidents are often handled via a dedicated process.",
+            "Specialist teams": "Incorrect: expertise helps, but the question asks about process.",
+            "Immediate escalation": "Incorrect: escalation depends on impact/severity."
+          }
+        },
+        {
+          "number": 36,
+          "question": "Which is an external input to the service value chain?",
+          "options": [
+            "Feedback loops",
+            "An overall plan",
+            "Customer requirements",
+            "The 'improve' value chain activity"
+          ],
+          "answer": "Customer requirements",
+          "explanation": {
+            "Feedback loops": "Incorrect: internal mechanism within the SVS.",
+            "An overall plan": "Incorrect: internal Plan activity output.",
+            "Customer requirements": "Correct: represent demand to the SVS/SVC.",
+            "The 'improve' value chain activity": "Incorrect: internal SVC activity."
+          }
+        },
+        {
+          "number": 37,
+          "question": "What are guiding principles?",
+          "options": [
+            "A set of specialized organizational capabilities for enabling value for customers",
+            "Recommendations that help an organization when adopting a service management approach",
+            "A description of one or more services that help address the needs of a target consumer group",
+            "A set of interconnected activities that help an organization deliver a valuable service"
+          ],
+          "answer": "Recommendations that help an organization when adopting a service management approach",
+          "explanation": {
+            "A set of specialized organizational capabilities for enabling value for customers": "Incorrect: service management.",
+            "Recommendations that help an organization when adopting a service management approach": "Correct: definition of guiding principles.",
+            "A description of one or more services that help address the needs of a target consumer group": "Incorrect: service offering.",
+            "A set of interconnected activities that help an organization deliver a valuable service": "Incorrect: service value chain."
+          }
+        },
+        {
+          "number": 38,
+          "question": "Define utility.",
+          "options": [
+            "Assurance that a service will meet agreed requirements",
+            "The perceived benefits, usefulness and importance of something",
+            "The functionality offered by a service to meet a particular need",
+            "The amount of money spent on a specific activity or resource"
+          ],
+          "answer": "The functionality offered by a service to meet a particular need",
+          "explanation": {
+            "Assurance that a service will meet agreed requirements": "Incorrect: warranty.",
+            "The perceived benefits, usefulness and importance of something": "Incorrect: value.",
+            "The functionality offered by a service to meet a particular need": "Correct: utility (fit for purpose).",
+            "The amount of money spent on a specific activity or resource": "Incorrect: cost."
+          }
+        },
+        {
+          "number": 39,
+          "question": "Which practice has a purpose that includes helping the organization to maximize value, control costs and manage risks?",
+          "options": [
+            "Release management",
+            "Relationship management",
+            "Service desk",
+            "IT asset management"
+          ],
+          "answer": "IT asset management",
+          "explanation": {
+            "Release management": "Incorrect: makes changes available for use.",
+            "Relationship management": "Incorrect: stakeholder relationships.",
+            "Service desk": "Incorrect: SPOC for users.",
+            "IT asset management": "Correct: lifecycle of assets to maximize value, control cost, manage risk."
+          }
+        },
+        {
+          "number": 40,
+          "question": "Which practice has the purpose of ensuring that the organization's partners and their performance are managed appropriately?",
+          "options": [
+            "Release management",
+            "Service management",
+            "Supplier management",
+            "Relationship management"
+          ],
+          "answer": "Supplier management",
+          "explanation": {
+            "Release management": "Incorrect: makes services/features available.",
+            "Service management": "Incorrect: overall capabilities.",
+            "Supplier management": "Correct: manages suppliers and their performance.",
+            "Relationship management": "Incorrect: stakeholder links (broader than suppliers)."
+          }
+        }
+      ]
+    }
+  ]
+}
+

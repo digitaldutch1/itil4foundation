@@ -1,0 +1,551 @@
+{
+  "chapters": [
+    {
+      "chapter": "ITIL 4 test 2_6 (EN)",
+      "description": "ITIL 4 - Practice Test 2_6 (EN, questions 201-245)",
+      "questions": [
+        {
+          "number": 201,
+          "question": "Identify the missing word in the following sentence. The [?] is the practice of capturing demand for incident resolution and service requests.",
+          "options": ["Service level management","Service desk","Service request management","Incident management"],
+          "answer": "Service desk",
+          "explanation": {
+            "Service level management": "Incorrect: SLM manages targets and performance, not the intake channel.",
+            "Service desk": "Correct: it captures demand for incidents and requests.",
+            "Service request management": "Incorrect: fulfills predefined requests but is not the intake point itself.",
+            "Incident management": "Incorrect: focused on restoring service."
+          }
+        },
+        {
+          "number": 202,
+          "question": "Identify the missing word in the following sentence. The [?] is the practice of capturing demand for incident resolution and service requests.",
+          "options": ["Service request management","Service level management","Service desk","Incident management"],
+          "answer": "Service desk",
+          "explanation": {
+            "Service request management": "Incorrect: execution of requests rather than the intake point.",
+            "Service level management": "Incorrect: sets and manages service performance targets.",
+            "Service desk": "Correct: the entry point and single point of contact.",
+            "Incident management": "Incorrect: restores normal service operation."
+          }
+        },
+        {
+          "number": 203,
+          "question": "Fill in the blank. [?] is/are defined as a recommendation that can guide an organization in all circumstances and will guide organizations when adopting service management.",
+          "options": ["Service value chain","Focus on value","Governance","Guiding principles"],
+          "answer": "Guiding principles",
+          "explanation": {
+            "Service value chain": "Incorrect: the operating model inside the SVS.",
+            "Focus on value": "Incorrect: one guiding principle, not the definition.",
+            "Governance": "Incorrect: directing and controlling the organization.",
+            "Guiding principles": "Correct: recommendations that guide in all circumstances."
+          }
+        },
+        {
+          "number": 204,
+          "question": "Which ITIL concept describes continual improvement?",
+          "options": ["Service value system","Four dimensions of service management","Practices","Service value chain"],
+          "answer": "Service value system",
+          "explanation": {
+            "Service value system": "Correct: continual improvement is a component of the SVS.",
+            "Four dimensions of service management": "Incorrect: holistic perspectives for services.",
+            "Practices": "Incorrect: reusable organizational resources.",
+            "Service value chain": "Incorrect: operating model within the SVS."
+          }
+        },
+        {
+          "number": 205,
+          "question": "Identify the missing word in the following sentence. [?] is the practice of ensuring that risks are properly assessed, authorizing changes to proceed, and managing a change schedule in order to maximize the number of successful IT changes.",
+          "options": ["Service level management","Change enablement","IT asset management","Service configuration management"],
+          "answer": "Change enablement",
+          "explanation": {
+            "Service level management": "Incorrect: sets and manages performance targets.",
+            "Change enablement": "Correct: assesses risk, authorizes changes, and manages the change schedule.",
+            "IT asset management": "Incorrect: manages the lifecycle of IT assets.",
+            "Service configuration management": "Incorrect: provides accurate configuration information."
+          }
+        },
+        {
+          "number": 206,
+          "question": "During which step of the continual improvement model would you check to verify whether or not you have reached the desired outcome in your improvement initiative?",
+          "options": ["What is the vision","Where do we want to be","Where are we now","Did we get there"],
+          "answer": "Did we get there",
+          "explanation": {
+            "What is the vision": "Incorrect: defines direction and intent.",
+            "Where do we want to be": "Incorrect: sets measurable targets.",
+            "Where are we now": "Incorrect: establishes the baseline.",
+            "Did we get there": "Correct: verify outcomes against the baseline and targets."
+          }
+        },
+        {
+          "number": 207,
+          "question": "Your laptop only has a 256GB of SSD storage installed. You have been traveling for work for the last 2 weeks and have downloaded a lot of video files to your internal storage device. Your computer is having issues because there is not enough free space. You called your service desk, but since you are out of the country, they cannot remotely back up all the files on your laptop. They recommend that you move the large files from your internal storage device (256GB SSD) to an external hard drive to free up some available space. Unfortunately, you don't have an external hard drive with you, so you will purchase one at the store later today. How would you classify this situation and the solution recommended?",
+          "options": ["Problem","Known error","Incident","Workaround"],
+          "answer": "Known error",
+          "explanation": {
+            "Problem": "Incorrect: once analyzed and confirmed, it becomes a known error.",
+            "Known error": "Correct: cause known, not yet resolved.",
+            "Incident": "Incorrect: individual interruptions triggered this, but the analyzed state is a known error.",
+            "Workaround": "Incorrect: no temporary mitigation is being applied yet."
+          }
+        },
+        {
+          "number": 208,
+          "question": "Management has set a goal to reduce the number of physical servers in the datacenter by 10% this year. Your team is responsible for creating a plan to migrate 50% of the physical servers into virtualized systems. Which step of the continual improvement model are you currently working on?",
+          "options": ["How do we get there","Where do we want to be","Take action","Where are we now"],
+          "answer": "How do we get there",
+          "explanation": {
+            "How do we get there": "Correct: planning the steps to reach the goal.",
+            "Where do we want to be": "Incorrect: defines the target state.",
+            "Take action": "Incorrect: executing the plan.",
+            "Where are we now": "Incorrect: assessing current state and baseline."
+          }
+        },
+        {
+          "number": 209,
+          "question": "What term best describes a service that is 'fit for use'?",
+          "options": ["Outcome","Value","Utility","Warranty"],
+          "answer": "Warranty",
+          "explanation": {
+            "Outcome": "Incorrect: result for a stakeholder.",
+            "Value": "Incorrect: perceived benefits and importance.",
+            "Utility": "Incorrect: fit for purpose.",
+            "Warranty": "Correct: assurance the service will meet agreed requirements (fit for use)."
+          }
+        },
+        {
+          "number": 210,
+          "question": "What is the definition of service management?",
+          "options": ["A set of specialized organizational capabilities for enabling value to customers","A method for visualizing work, identifying potential blockages and resource conflicts, and managing work in progress","The means by which an organization is directed and controlled","A means of enabling value co-creation by facilitating outcomes that customers want to achieve, without the customer having to manage specific costs and risks"],
+          "answer": "A set of specialized organizational capabilities for enabling value to customers",
+          "explanation": {
+            "A set of specialized organizational capabilities for enabling value to customers": "Correct: definition of service management.",
+            "A method for visualizing work, identifying potential blockages and resource conflicts, and managing work in progress": "Incorrect: describes a workflow method.",
+            "The means by which an organization is directed and controlled": "Incorrect: governance.",
+            "A means of enabling value co-creation by facilitating outcomes that customers want to achieve, without the customer having to manage specific costs and risks": "Incorrect: definition of a service."
+          }
+        },
+        {
+          "number": 211,
+          "question": "What is the step after 'how do we keep the momentum going' in the continual improvement model?",
+          "options": ["Did we get there","How do we get there","Where are we now","What is the vision"],
+          "answer": "What is the vision",
+          "explanation": {
+            "Did we get there": "Incorrect: verification occurs before momentum planning.",
+            "How do we get there": "Incorrect: planning step precedes execution.",
+            "Where are we now": "Incorrect: current state assessment is earlier.",
+            "What is the vision": "Correct: the cycle restarts with defining direction."
+          }
+        },
+        {
+          "number": 212,
+          "question": "What is the purpose of the 'deployment management' practice?",
+          "options": ["Making new and changed services and features available for use","Moving new or changed hardware, software, documentation, processes, or any other service component to live environments","Supporting the agreed quality of a service by handling all pre-defined, user-initiated service requests in an effective and user-friendly manner","Ensuring that risks are properly assessed, authorizing changes to proceed and managing a change schedule in order to maximize the number of successful IT changes"],
+          "answer": "Moving new or changed hardware, software, documentation, processes, or any other service component to live environments",
+          "explanation": {
+            "Making new and changed services and features available for use": "Incorrect: release management.",
+            "Moving new or changed hardware, software, documentation, processes, or any other service component to live environments": "Correct: purpose of deployment management.",
+            "Supporting the agreed quality of a service by handling all pre-defined, user-initiated service requests in an effective and user-friendly manner": "Incorrect: service request management.",
+            "Ensuring that risks are properly assessed, authorizing changes to proceed and managing a change schedule in order to maximize the number of successful IT changes": "Incorrect: change enablement."
+          }
+        },
+        {
+          "number": 213,
+          "question": "Fill in the blank. A(n) [?] is a result for a stakeholder enabled by one or more outputs.",
+          "options": ["Warranty","Value","Utility","Outcome"],
+          "answer": "Outcome",
+          "explanation": {
+            "Warranty": "Incorrect: assurance that agreed requirements will be met.",
+            "Value": "Incorrect: perceived benefits and importance.",
+            "Utility": "Incorrect: functionality to meet a need.",
+            "Outcome": "Correct: results enabled by outputs."
+          }
+        },
+        {
+          "number": 214,
+          "question": "Which of these are a key focus of the 'organization and people' dimension?",
+          "options": ["Activities that transform inputs into outputs","Contracts and agreements","Roles and responsibilities","Security and compliance"],
+          "answer": "Roles and responsibilities",
+          "explanation": {
+            "Activities that transform inputs into outputs": "Incorrect: value streams and processes.",
+            "Contracts and agreements": "Incorrect: partners and suppliers.",
+            "Roles and responsibilities": "Correct: organization and people focus.",
+            "Security and compliance": "Incorrect: information and technology dimension also covers these aspects."
+          }
+        },
+        {
+          "number": 215,
+          "question": "Your organization is currently running a web hosting service, but it is not providing sufficient utility and warranty. In order to fix this, a team has been assembled and asked to design a new web hosting service. The team manager suggests that the team first look at the existing service and its processes before they begin to design the new service. What guiding principle is being followed by the team manager?",
+          "options": ["Keep it simple and practical","Optimize and automate","Start where you are","Focus on value"],
+          "answer": "Start where you are",
+          "explanation": {
+            "Keep it simple and practical": "Incorrect: about reducing unnecessary steps.",
+            "Optimize and automate": "Incorrect: improve after understanding the current state.",
+            "Start where you are": "Correct: observe and learn from the current service first.",
+            "Focus on value": "Incorrect: value-centric, but here the emphasis is reuse of current state."
+          }
+        },
+        {
+          "number": 216,
+          "question": "You are working as a service desk analyst. Within the last hour, you have received 13 calls about users being unable to log on to the network. There appears to be something wrong with the domain controller. What would you classify this scenario as?",
+          "options": ["Problem","Event","Incident","Workaround"],
+          "answer": "Problem",
+          "explanation": {
+            "Problem": "Correct: potential common cause of multiple incidents.",
+            "Event": "Incorrect: a significant change of state detected by monitoring.",
+            "Incident": "Incorrect: individual interruptions to service.",
+            "Workaround": "Incorrect: a temporary reduction of impact."
+          }
+        },
+        {
+          "number": 217,
+          "question": "What is the best description of an emergency change?",
+          "options": ["A change that doesn't need risk assessment because the procedure has been pre-authorized","A change that needs to be assessed, authorized, and scheduled by a change authority","A change that is assessed, authorized, and scheduled as part of 'continual improvement'","A change that must be implemented as soon as possible because it is required to resolve an incident or security issue"],
+          "answer": "A change that must be implemented as soon as possible because it is required to resolve an incident or security issue",
+          "explanation": {
+            "A change that doesn't need risk assessment because the procedure has been pre-authorized": "Incorrect: describes a standard change.",
+            "A change that needs to be assessed, authorized, and scheduled by a change authority": "Incorrect: describes a normal change.",
+            "A change that is assessed, authorized, and scheduled as part of 'continual improvement'": "Incorrect: not a change type.",
+            "A change that must be implemented as soon as possible because it is required to resolve an incident or security issue": "Correct: definition of an emergency change."
+          }
+        },
+        {
+          "number": 218,
+          "question": "How does 'service request management' contribute to the 'deliver and support' value chain activity?",
+          "options": ["It collects user-specific requirements, sets expectations, and provides status updates","It acquires pre-approved service components to help fulfill service requests","It ensures that users continue to be productive when they need assistance from the service provider","By initiating standard changes to fulfill service requests"],
+          "answer": "It ensures that users continue to be productive when they need assistance from the service provider",
+          "explanation": {
+            "It collects user-specific requirements, sets expectations, and provides status updates": "Incorrect: engage contribution.",
+            "It acquires pre-approved service components to help fulfill service requests": "Incorrect: obtain/build contribution.",
+            "It ensures that users continue to be productive when they need assistance from the service provider": "Correct: deliver and support contribution.",
+            "By initiating standard changes to fulfill service requests": "Incorrect: design and transition contribution."
+          }
+        },
+        {
+          "number": 219,
+          "question": "How should an organization adopt 'continual improvement' methods?",
+          "options": ["Select a few key methods to suit the types of improvement that the organization handles","Use a new method for each improvement that the organization handles","Select a single method for all improvements that the organization handles","Build the capability to use as many improvement methods as possible"],
+          "answer": "Select a few key methods to suit the types of improvement that the organization handles",
+          "explanation": {
+            "Select a few key methods to suit the types of improvement that the organization handles": "Correct: avoid spreading effort across too many methods.",
+            "Use a new method for each improvement that the organization handles": "Incorrect: inconsistent and inefficient.",
+            "Select a single method for all improvements that the organization handles": "Incorrect: too rigid for different situations.",
+            "Build the capability to use as many improvement methods as possible": "Incorrect: dilutes focus and expertise."
+          }
+        },
+        {
+          "number": 220,
+          "question": "You have been assigned to a team that has been asked to identify how your consumers use a particular service, what the service helps them to do, and how the service helps them to identify their goals. Which of the guiding principles should best be applied in your situation?",
+          "options": ["Progress iteratively with feedback","Focus on value","Collaborate and promote visibility","Think and work holistically"],
+          "answer": "Focus on value",
+          "explanation": {
+            "Progress iteratively with feedback": "Incorrect: concerned with incremental delivery.",
+            "Focus on value": "Correct: understand consumer needs, goals, and outcomes.",
+            "Collaborate and promote visibility": "Incorrect: about involvement and transparency.",
+            "Think and work holistically": "Incorrect: about end-to-end integration."
+          }
+        },
+        {
+          "number": 221,
+          "question": "What is the purpose of the 'continual improvement' practice?",
+          "options": ["Minimizing the negative impact of incidents by restoring normal service operation as quickly as possible","Ensuring that risks are properly assessed, authorizing changes to proceed and managing a change schedule in order to maximize the number of successful IT changes","Supporting the agreed quality of a service by handling all pre-defined, user-initiated service requests in an effective and user-friendly manner","Aligning an organization's practices and services with changing business needs through the ongoing identification and improvement of all elements involved in the effective management of products and services"],
+          "answer": "Aligning an organization's practices and services with changing business needs through the ongoing identification and improvement of all elements involved in the effective management of products and services",
+          "explanation": {
+            "Minimizing the negative impact of incidents by restoring normal service operation as quickly as possible": "Incorrect: incident management.",
+            "Ensuring that risks are properly assessed, authorizing changes to proceed and managing a change schedule in order to maximize the number of successful IT changes": "Incorrect: change enablement.",
+            "Supporting the agreed quality of a service by handling all pre-defined, user-initiated service requests in an effective and user-friendly manner": "Incorrect: service request management.",
+            "Aligning an organization's practices and services with changing business needs through the ongoing identification and improvement of all elements involved in the effective management of products and services": "Correct: purpose of continual improvement."
+          }
+        },
+        {
+          "number": 222,
+          "question": "What is NOT a phase in problem management?",
+          "options": ["Problem control","Problem classification","Error control","Problem identification"],
+          "answer": "Problem classification",
+          "explanation": {
+            "Problem control": "Incorrect: a defined phase.",
+            "Problem classification": "Correct: not one of the three phases.",
+            "Error control": "Incorrect: a defined phase.",
+            "Problem identification": "Incorrect: a defined phase."
+          }
+        },
+        {
+          "number": 223,
+          "question": "Who is responsible for approving a change within the organization?",
+          "options": ["IT Director","CEO","Service desk analyst","Change authority"],
+          "answer": "Change authority",
+          "explanation": {
+            "IT Director": "Incorrect: may act as emergency authority but the role is 'change authority'.",
+            "CEO": "Incorrect: not typically the operational change approver.",
+            "Service desk analyst": "Incorrect: not a change approver.",
+            "Change authority": "Correct: role responsible for authorizing changes."
+          }
+        },
+        {
+          "number": 224,
+          "question": "Which type of change needs to be assessed, authorized, and scheduled by a change authority prior to implementing it?",
+          "options": ["Normal","All three of these","Standard","Emergency"],
+          "answer": "Normal",
+          "explanation": {
+            "Normal": "Correct: assessed and authorized case-by-case.",
+            "All three of these": "Incorrect: standard changes are pre-authorized; emergency changes are expedited.",
+            "Standard": "Incorrect: low-risk and pre-authorized.",
+            "Emergency": "Incorrect: expedited authorization and typically not scheduled in the same way."
+          }
+        },
+        {
+          "number": 225,
+          "question": "Which ITIL concept describes the service value chain?",
+          "options": ["Service value system","Four dimensions of service management","Seven guiding principles","Practices"],
+          "answer": "Service value system",
+          "explanation": {
+            "Service value system": "Correct: the SVC is a component of the SVS.",
+            "Four dimensions of service management": "Incorrect: holistic perspectives.",
+            "Seven guiding principles": "Incorrect: recommendations for decisions and actions.",
+            "Practices": "Incorrect: reusable resources of the organization."
+          }
+        },
+        {
+          "number": 226,
+          "question": "What is the step after 'where do we want to be' in the continual improvement model?",
+          "options": ["Did we get there","Where do we want to be","How do we get there","What is the vision"],
+          "answer": "How do we get there",
+          "explanation": {
+            "Did we get there": "Incorrect: verification step later in the cycle.",
+            "Where do we want to be": "Incorrect: this is the preceding step.",
+            "How do we get there": "Correct: plan the approach to reach the target.",
+            "What is the vision": "Incorrect: start of a new cycle."
+          }
+        },
+        {
+          "number": 227,
+          "question": "What is defined as the practice of aligning an organization's practices and services with changing business needs through the ongoing identification and improvement of all elements involved in the effective management of products and services?",
+          "options": ["Service request management","Capacity and performance management","Service level management","Continual improvement"],
+          "answer": "Continual improvement",
+          "explanation": {
+            "Service request management": "Incorrect: handles predefined user requests.",
+            "Capacity and performance management": "Incorrect: ensures performance meets demand.",
+            "Service level management": "Incorrect: sets and manages performance targets.",
+            "Continual improvement": "Correct: definition of the practice."
+          }
+        },
+        {
+          "number": 228,
+          "question": "Fill in the blank. According to the guiding principles, 'Everything that the organization does needs to map, directly or indirectly, to [?] for the stakeholders.'",
+          "options": ["Outputs","Outcomes","Value","Utility"],
+          "answer": "Value",
+          "explanation": {
+            "Outputs": "Incorrect: deliverables of activities.",
+            "Outcomes": "Incorrect: results for stakeholders enabled by outputs.",
+            "Value": "Correct: the focus must always be on value.",
+            "Utility": "Incorrect: functionality offered by a service."
+          }
+        },
+        {
+          "number": 229,
+          "question": "XYZ Training has decided to offer two membership levels to their training programs. The first membership level includes all of their video courses, practice exams, and study guides for a single monthly fee. This plan does not provide the students with the actual exam voucher to take the certification exams, though. What term best describes this membership level which provides several services for a single price?",
+          "options": ["A service offering","An outcome","Value","An output"],
+          "answer": "A service offering",
+          "explanation": {
+            "A service offering": "Correct: a designed package of services for a target consumer group.",
+            "An outcome": "Incorrect: stakeholder result enabled by outputs.",
+            "Value": "Incorrect: perceived benefits and importance.",
+            "An output": "Incorrect: a deliverable from an activity."
+          }
+        },
+        {
+          "number": 230,
+          "question": "How does 'service level management' contribute to the 'design and transition' value chain activity?",
+          "options": ["Provides feedback from interactions with customers into new or changed services","Collects feedback during interactions and communicates service performance objectives to the operations and support teams","Provides objectives for component and service performance for products and services","Provides information about the actual service performance and trends"],
+          "answer": "Provides feedback from interactions with customers into new or changed services",
+          "explanation": {
+            "Provides feedback from interactions with customers into new or changed services": "Correct: design and transition contribution.",
+            "Collects feedback during interactions and communicates service performance objectives to the operations and support teams": "Incorrect: deliver and support contribution.",
+            "Provides objectives for component and service performance for products and services": "Incorrect: obtain/build contribution.",
+            "Provides information about the actual service performance and trends": "Incorrect: plan contribution."
+          }
+        },
+        {
+          "number": 231,
+          "question": "What does a centralized service desk require?",
+          "options": ["24x7 support","Outsourced employees","Knowledge base","Walk-in service hours"],
+          "answer": "Knowledge base",
+          "explanation": {
+            "24x7 support": "Incorrect: not inherently required.",
+            "Outsourced employees": "Incorrect: outsourcing is optional.",
+            "Knowledge base": "Correct: a centralized desk needs shared knowledge and supporting tools.",
+            "Walk-in service hours": "Incorrect: not required for centralized operation."
+          }
+        },
+        {
+          "number": 232,
+          "question": "Your company has recently decided to install a Microsoft SharePoint server to serve as the organization's knowledge base. Which dimension of service management would this decision best be considered?",
+          "options": ["Information and technology","Organizations and people","Partners and suppliers","Value streams and processes"],
+          "answer": "Information and technology",
+          "explanation": {
+            "Information and technology": "Correct: concerns the information and technologies required.",
+            "Organizations and people": "Incorrect: roles, structure, and culture.",
+            "Partners and suppliers": "Incorrect: external relationships and contracts.",
+            "Value streams and processes": "Incorrect: activities and workflows."
+          }
+        },
+        {
+          "number": 233,
+          "question": "Your company has decided to install a service management tool that provides incident management as one of its functions. What is the benefit of using an incident management system?",
+          "options": ["It can ensure that incidents are resolved within the agreed upon timeframe in the service level agreement (SLA)","The system can provide specialized knowledge for solving complicated incidents","It can provide automated resolution and closure of complex incidents","It can provide automated matching of incidents to problems or known errors"],
+          "answer": "It can provide automated matching of incidents to problems or known errors",
+          "explanation": {
+            "It can ensure that incidents are resolved within the agreed upon timeframe in the service level agreement (SLA)": "Incorrect: tools support but cannot guarantee resolution times.",
+            "The system can provide specialized knowledge for solving complicated incidents": "Incorrect: knowledge is captured but not guaranteed specialized expertise.",
+            "It can provide automated resolution and closure of complex incidents": "Incorrect: complex incidents often require human expertise.",
+            "It can provide automated matching of incidents to problems or known errors": "Correct: a key capability of modern ITSM tools."
+          }
+        },
+        {
+          "number": 234,
+          "question": "You are attempting to print a document from your workstation to the network printer in your office. The print job failed when you attempted to print, so you called the service desk for assistance. What term best describes your issue?",
+          "options": ["Problem","Incident","Resolution","Event"],
+          "answer": "Incident",
+          "explanation": {
+            "Problem": "Incorrect: underlying cause of one or more incidents.",
+            "Incident": "Correct: unplanned interruption or reduction in quality of a service.",
+            "Resolution": "Incorrect: the act of solving an issue.",
+            "Event": "Incorrect: significant change of state detected."
+          }
+        },
+        {
+          "number": 235,
+          "question": "As a XYZ Training student, your desired outcome from taking the course is to pass your ITIL 4 Foundation exam. As the service provider, XYZ Training also measures its success based on the number of students who pass the exam after taking our training. What best describes the activities performed by the service provider (XYZ Training) and the service consumer (student) in order to co-create value and reach the desired outcome (the student passing their exam)?",
+          "options": ["Service provision","Service consumption","Service relationship management","Service offering"],
+          "answer": "Service relationship management",
+          "explanation": {
+            "Service provision": "Incorrect: provider-side activities only.",
+            "Service consumption": "Incorrect: consumer-side activities only.",
+            "Service relationship management": "Correct: joint activities to co-create value.",
+            "Service offering": "Incorrect: description of a package of services."
+          }
+        },
+        {
+          "number": 236,
+          "question": "Your company has spent the last 12 months working on a new improvement to the customer relationship management software in an effort to increase customer satisfaction by 4%. Janet analyzes the current metrics and compares them against the baseline metrics from 12 months ago. Which step of the continual improvement model is Janet working in?",
+          "options": ["Where are we now","How do we get there","Did we get there","Take action"],
+          "answer": "Did we get there",
+          "explanation": {
+            "Where are we now": "Incorrect: establishes the initial baseline.",
+            "How do we get there": "Incorrect: planning step.",
+            "Did we get there": "Correct: compare results to the baseline and targets.",
+            "Take action": "Incorrect: execution of improvement tasks."
+          }
+        },
+        {
+          "number": 237,
+          "question": "During which step of the continual improvement model is change management and release management usually performed?",
+          "options": ["Where are we now","Take action","Where do we want to be","What is the vision"],
+          "answer": "Take action",
+          "explanation": {
+            "Where are we now": "Incorrect: assess current state.",
+            "Take action": "Correct: perform the work, including changes and releases.",
+            "Where do we want to be": "Incorrect: define target state.",
+            "What is the vision": "Incorrect: define direction."
+          }
+        },
+        {
+          "number": 238,
+          "question": "What is defined as the practice of establishing and nurturing links between an organization and its stakeholders at strategic and tactical levels?",
+          "options": ["Service desk","Service request management","Relationship management","Service level management"],
+          "answer": "Relationship management",
+          "explanation": {
+            "Service desk": "Incorrect: entry point for users.",
+            "Service request management": "Incorrect: handles predefined requests.",
+            "Relationship management": "Correct: definition of the practice.",
+            "Service level management": "Incorrect: sets and manages service performance targets."
+          }
+        },
+        {
+          "number": 239,
+          "question": "Which is a recommendation of the 'service desk' practice?",
+          "options": ["Service desks should never use technologies such as SMS and chat functions","Service desks should always be a physical team in a single fixed location","Service desks should have a practical understanding of the wider business","Service desks should be highly technical functions"],
+          "answer": "Service desks should have a practical understanding of the wider business",
+          "explanation": {
+            "Service desks should never use technologies such as SMS and chat functions": "Incorrect: modern channels can improve service.",
+            "Service desks should always be a physical team in a single fixed location": "Incorrect: model depends on context.",
+            "Service desks should have a practical understanding of the wider business": "Correct: know the users, processes, and business context.",
+            "Service desks should be highly technical functions": "Incorrect: focus is on engagement and coordination."
+          }
+        },
+        {
+          "number": 240,
+          "question": "What is defined as the practice of protecting an organization by understanding and managing risks to the confidentiality, integrity, and availability of information?",
+          "options": ["Information security management","Service continuity management","Availability management","Change enablement"],
+          "answer": "Information security management",
+          "explanation": {
+            "Information security management": "Correct: manages risks to information (CIA).",
+            "Service continuity management": "Incorrect: ensures recovery and continuity.",
+            "Availability management": "Incorrect: ensures agreed availability levels.",
+            "Change enablement": "Incorrect: assesses and authorizes changes."
+          }
+        },
+        {
+          "number": 241,
+          "question": "XYZTraining Solutions wants to build a new service to automatically fulfill exam voucher orders for students. Currently, exam vouchers are fulfilled manually by a staff member once the order is received from the student by copying and pasting the voucher number from a spreadsheet into an email template and sending out the email to the students. Before attempting to automate this fulfillment process, the team lead takes an inventory of the current services, processes, and procedures that are being used by the voucher fulfillment team to see if they might be able to be reused. What guiding principle best describes this scenario?",
+          "options": ["Collaborate and promote visibility","Focus on value","Start where you are","Keep it simple and practical"],
+          "answer": "Start where you are",
+          "explanation": {
+            "Collaborate and promote visibility": "Incorrect: focuses on communication and buy-in.",
+            "Focus on value": "Incorrect: value-centric but not the main point here.",
+            "Start where you are": "Correct: investigate the current state before redesigning.",
+            "Keep it simple and practical": "Incorrect: simplification may follow, but the emphasis here is reuse."
+          }
+        },
+        {
+          "number": 242,
+          "question": "Your company has decided to use work-from-home employees to fulfill its service desk requirements. Users call a central toll-free number and are routed to the next available service desk analyst, regardless of where the analyst is physically located. Many of these employees may be working from remote offices or their own home offices. What service desk structure does this describe?",
+          "options": ["Follow-the-sun","Virtual","Centralized","Local"],
+          "answer": "Virtual",
+          "explanation": {
+            "Follow-the-sun": "Incorrect: multiple desks hand off by time zone.",
+            "Virtual": "Correct: geographically dispersed analysts connected by tools.",
+            "Centralized": "Incorrect: a single, central physical location.",
+            "Local": "Incorrect: co-located with users."
+          }
+        },
+        {
+          "number": 243,
+          "question": "You are in a quarterly service level management review with your supervisor. The manager asks your supervisor if the service desk has been meeting their SLA target metrics. Your supervisor proudly proclaims that everything is 'green' (meaning, we are meeting all of the targets). Just then, another executive asks, 'If everything is showing as green, why am I hearing other users complain that the service is always unavailable for use?' What might be the reason for this?",
+          "options": ["Your supervisor's data is based on availability metrics","Your supervisor's data is based on business metrics","Your supervisor's data is not based on business outcomes","Your supervisor's data is based on operational metrics"],
+          "answer": "Your supervisor's data is not based on business outcomes",
+          "explanation": {
+            "Your supervisor's data is based on availability metrics": "Incorrect: availability alone can be misleading, but the root issue is outcome focus.",
+            "Your supervisor's data is based on business metrics": "Incorrect: that would align with outcomes.",
+            "Your supervisor's data is not based on business outcomes": "Correct: measuring the wrong things can create a 'watermelon' effect.",
+            "Your supervisor's data is based on operational metrics": "Incorrect: true but incomplete; the key is lack of outcome-based measures."
+          }
+        },
+        {
+          "number": 244,
+          "question": "Which describes the nature of the guiding principles?",
+          "options": ["A guiding principle is mandatory and must be used when adopting a new service within the organization","An organization must implement the guiding principles exactly as defined by the ITIL 4 Foundation manual","A guiding principle is specific and only applies to one initiative within the organization","A guiding principle is a recommendation used as guidance in all circumstances"],
+          "answer": "A guiding principle is a recommendation used as guidance in all circumstances",
+          "explanation": {
+            "A guiding principle is mandatory and must be used when adopting a new service within the organization": "Incorrect: principles are recommendations, not mandates.",
+            "An organization must implement the guiding principles exactly as defined by the ITIL 4 Foundation manual": "Incorrect: adapt to context.",
+            "A guiding principle is specific and only applies to one initiative within the organization": "Incorrect: they are universal.",
+            "A guiding principle is a recommendation used as guidance in all circumstances": "Correct: definition."
+          }
+        },
+        {
+          "number": 245,
+          "question": "Which of the following is NOT a valid source of service level management data to use in analyzing your service level agreements?",
+          "options": ["Operational metrics","Competitor's metrics","Customer feedback","Business metrics"],
+          "answer": "Competitor's metrics",
+          "explanation": {
+            "Operational metrics": "Incorrect: valid, though should be balanced with outcomes.",
+            "Competitor's metrics": "Correct: competitor data should not drive your SLA metrics.",
+            "Customer feedback": "Incorrect: essential input for SLM.",
+            "Business metrics": "Incorrect: outcome-focused measures are important."
+          }
+        }
+      ]
+    }
+  ]
+}
+
