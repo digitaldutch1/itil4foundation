@@ -305,8 +305,11 @@ class QuizApp:
                 s = self.scores.get(basename)
                 if not s:
                     return None
-                pct = s.get("pct")
-                return None if pct is None else int(round(pct))
+                try:
+                    pct = float(s.get("pct"))
+                except (TypeError, ValueError):
+                    return None
+                return round(pct, 1)   # <-- 1 decimaal
 
             # NE items
             for i in range(1, count + 1):
@@ -387,7 +390,7 @@ class QuizApp:
             # rechter kant: score + stip (stip rechts!)
             dot = None
             if pct is not None:
-                lbl_score = tk.Label(row, text=f" score {pct}%", bg=MENU_BG, fg=TEXT_FG, font=F_MENU_ITEM, anchor="e")
+                lbl_score = tk.Label(row, text=f" score {pct:.1f}%", bg=MENU_BG, fg=TEXT_FG, font=F_MENU_ITEM, anchor="e")
                 lbl_score.pack(side="left")
 
                 color = "#1f9d3a" if pct >= PASS_THRESHOLD else "#d11d1d"
