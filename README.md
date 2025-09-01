@@ -5,19 +5,22 @@ De vraagbestanden (JSON) staan in `assets/itil_vragen/`.
 
 ## Snel starten (Windows)
 
-- Start de app met: **`ITIL 4 Foundation.exe`**  
-- Extra leermateriaal staat in **`assets/extra/`** (presentaties, samenvatting, exam objectives).
+1. **Download** de repo (via **Code → Download ZIP**) en pak uit.
+2. **Start de app** met: `ITIL 4 Foundation.exe`  
+   > Let op: Windows SmartScreen kan vragen om bevestiging. Klik **Meer info** → **Toch uitvoeren**.
+3. Extra leermateriaal staat in `assets/extra/` (presentaties, samenvatting, exam objectives).
 
 ## Zelf de broncode aanpassen?
-Als je zelf dingen hebt aangepast in de broncode dan moet je eerst dubbel klikken op build_itil.bat
-Deze bat file bouwt de app opnieuw op zodat de veranderingen mee opgenomen worden de volgende keer
-dat je op itil4_foundation.exe klikt.
-Opnieuw opbouwen van de app kan een paar minuten duren.
+
+Als je de broncode aanpast, bouw dan de app opnieuw met **`build_itil.bat`**.  
+Deze batch bouwt de .exe opnieuw met PyInstaller. Dit kan een paar minuten duren.
 
 ## Uit broncode draaien
 
-Vereist: Python 3.9+ en Pillow.
+Vereist: **Python 3.9+** en **Pillow**.
+
 ```bash
 python --version
 pip install pillow
 python itil.py
+
