@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# (optioneel) virtuele omgeving
+.venv/
+venv/
+
+# PyInstaller / build artefacts
+build/
+dist/
+*.spec
+*.log
+
+# Exe's niet pushen
+ITIL 4 Foundation.exe
+*.exe
+
+# Lokale runtime data (scores persoonlijk)
+assets/score/scores.json
+
+# OS/Editor rommel
+.DS_Store
+Thumbs.db
