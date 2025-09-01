@@ -10,7 +10,8 @@ import random
 import traceback
 import webbrowser
 import re
-import time  # <— voor ‘ignore next release’ timing
+import time  # voor 'ignore next release' timing
+
 
 # ------------------------------------------------------------
 # DPI awareness (Windows) + consistente Tk-scaling
@@ -21,9 +22,11 @@ try:
 except Exception:
     pass
 
+
 # ---------- UI constants ----------
 WRAP_W = 1000            # wrap-breedte in pixels voor vraag/opties
 CONTENT_MAX_W = 1100     # max breedte van de inhoud in de quiz
+OPTIONS_LEFT_PAD = 70    # vaste linkermarge voor alle opties (in px)
 
 F_BANNER     = ("Helvetica", 44, "bold")
 F_MENU       = ("Helvetica", 28, "bold")
@@ -39,7 +42,7 @@ PASS_THRESHOLD = 65.0
 
 # ---- Custom dropdown stip-tuning ----
 DOT_PADY = 0      # <0 = stip iets omhoog; >0 = omlaag
-DOT_SIZE = 14      # diameter stip in px
+DOT_SIZE = 14     # diameter stip in px
 
 # ---- Dropdown look-and-feel (lijken op Tk menu) ----
 MENU_BG   = "#f0f0f0"    # standaard menu-achtig lichtgrijs
@@ -47,6 +50,24 @@ SEP_BG    = "#d0d0d0"
 HOVER_BG  = "#3875d6"    # menu-blauw (hover)
 HOVER_FG  = "white"
 TEXT_FG   = "black"
+
+# ---- Timer settings ----
+TIMER_START_SECS = 60 * 60                  # 60 minuten
+TIMER_WARN_SECS  = 5 * 60                   # onder 5 minuten oranje
+TIMER_FONT       = ("Helvetica", 35, "bold")
+TIMER_COLOR_OK   = "black"
+TIMER_COLOR_WARN = "#ff8c00"
+TIMER_COLOR_END  = "#d11d1d"
+
+# Timer-positie (rechtsboven)
+TIMER_OFFSET_X = -100   # negatief = meer naar links
+TIMER_OFFSET_Y = 30     # positief = omlaag, negatief = omhoog
+TIMER_BTN_FONT  = ("Helvetica", 35, "bold")
+TIMER_BTN_WIDTH = 3
+
+# Scrollbar zichtbaar maken? (False = verbergen, muiswiel blijft werken)
+SHOW_SCROLLBAR = False
+
 
 # ------------------------------------------------------------
 # Helpers voor paden & data laden
@@ -75,6 +96,7 @@ def load_questions_from_json(filename: str):
                 messagebox.showerror("Error", f"Kon vragen niet laden uit {full_path}: {e}")
                 return {}
     return {}
+
 
 def _count_questions_in_loaded_data(data: dict) -> int:
     try:
@@ -109,6 +131,14 @@ class QuizApp:
         self.current_session_title = ""
         self.info_images = {}
         self.current_json_path = None
+
+        # Timer state (globaal voor de hele quiz-sessie)
+        self.timer_total_secs = TIMER_START_SECS
+        self.timer_remaining = TIMER_START_SECS
+        self.timer_running   = True
+        self.timer_job       = None
+        self.timer_label     = None
+        self.timer_btn       = None
 
         # Scores (laatste resultaten per toets)
         self.scores = self._load_scores()
@@ -149,7 +179,7 @@ class QuizApp:
         self.hoofdstukken_menu["menu"] = self.hoofdstukken_menu.menu
         self.hoofdstukken_menu.pack(side="left", padx=20)
 
-        # Hoofdstukken 2..5
+        # Hoofdstukken 1..5
         cnt_h1 = self.count_questions_in_file("hoofdstuk1.json")
         cnt_h2 = self.count_questions_in_file("hoofdstuk2.json")
         cnt_h3 = self.count_questions_in_file("hoofdstuk3.json")
@@ -174,39 +204,25 @@ class QuizApp:
         # Sluit dropdown bij muisklik buiten (op release)
         self.master.bind("<ButtonRelease-1>", self._close_dropdown_global, add="+")
 
+
     # ---------------- Scores opslag ----------------
     def _legacy_scores_paths(self):
-        """
-        Oude locaties uit eerdere versies (AppData of home).
-        Wordt gebruikt om 1x te migreren naar assets/score/.
-        """
         paths = []
         appdata = os.getenv("APPDATA")
         if appdata:
             paths.append(os.path.join(appdata, "ITIL4Trainer", "scores.json"))
-        # fallback/home lokatie
         paths.append(os.path.join(os.path.expanduser("~"), ".itil4_trainer", "scores.json"))
         return paths
 
     def _scores_path(self) -> str:
-        """
-        NIEUWE locatie: <project-root>/assets/score/scores.json
-        - Werkt dynamisch (waar je map ook staat), dankzij resource_dir().
-        - Map wordt aangemaakt als hij nog niet bestaat.
-        """
         base = resource_dir()
         score_dir = os.path.join(base, "assets", "score")
         os.makedirs(score_dir, exist_ok=True)
         return os.path.join(score_dir, "scores.json")
 
     def _load_scores(self) -> dict:
-        """
-        Scores laden. Als nog geen bestand bestaat in assets/score/,
-        proberen we 1x te migreren vanaf legacy locaties.
-        """
         path = self._scores_path()
 
-        # 1x migratie vanaf legacy paden
         if not os.path.exists(path):
             for oldp in self._legacy_scores_paths():
                 if os.path.exists(oldp):
@@ -215,11 +231,10 @@ class QuizApp:
                             data = json.load(f)
                         with open(path, "w", encoding="utf-8") as f:
                             json.dump(data, f, ensure_ascii=False, indent=2)
-                        break  # eerste gevonden legacy bestand is gemigreerd
+                        break
                     except Exception:
                         pass
 
-        # Normaal laden
         try:
             if os.path.exists(path):
                 with open(path, "r", encoding="utf-8") as f:
@@ -229,7 +244,6 @@ class QuizApp:
         return {}
 
     def _save_scores(self):
-        """Scores bewaren op de nieuwe projectlocatie."""
         try:
             with open(self._scores_path(), "w", encoding="utf-8") as f:
                 json.dump(self.scores, f, ensure_ascii=False, indent=2)
@@ -242,11 +256,11 @@ class QuizApp:
         key = os.path.basename(self.current_json_path)
         self.scores[key] = {"pct": round(pct, 2)}
         self._save_scores()
-        # herbouw juist menu (op basis van groep uit bestandsnaam)
         m = re.match(r"^toets(\d+)_", key, re.IGNORECASE)
         if m:
             g = int(m.group(1))
             self.build_bilingual_toetsen_tab(f"Toetsen {g}", groep=g, count=6)
+
 
     # ---------------- Count helpers ----------------
     def count_questions_in_file(self, filename: str) -> int:
@@ -269,6 +283,7 @@ class QuizApp:
         except Exception:
             return 0
 
+
     # ---------------- Menutab (custom dropdown) ----------------
     def _find_variant_file(self, dirp: str, groep: int, idx: int, lang: str):
         pat_lang = re.compile(rf"^toets{groep}_{idx}\s*([_.])\s*{lang}\.json\s*$", re.IGNORECASE)
@@ -286,7 +301,6 @@ class QuizApp:
         return fallback
 
     def build_bilingual_toetsen_tab(self, label: str, groep: int, count: int = 6):
-        # Menubutton als tab; we tonen een eigen dropdown bij click
         if groep in getattr(self, "toets_menu_by_group", {}):
             mb = self.toets_menu_by_group[groep]
         else:
@@ -309,7 +323,7 @@ class QuizApp:
                     pct = float(s.get("pct"))
                 except (TypeError, ValueError):
                     return None
-                return round(pct, 1)   # <-- 1 decimaal
+                return round(pct, 1)
 
             # NE items
             for i in range(1, count + 1):
@@ -321,7 +335,6 @@ class QuizApp:
                     left = f"toets {groep}_{i} (NE) ({cnt})"
                     items.append({"type": "item", "left": left, "pct": pct, "file": f_ne, "title": f"ITIL 4 {left}"})
 
-            # scheiding als er ook EN komt
             has_ne = any(it.get("type") == "item" and " (NE) " in it.get("left", "") for it in items)
 
             # EN items
@@ -339,21 +352,17 @@ class QuizApp:
                 items.append({"type": "sep"})
             items.extend(en_items)
 
-        # klik op tab -> open dropdown; negeer release
         mb.unbind("<Button-1>")
         mb.bind("<Button-1>", lambda e, it=items, btn=mb: self._on_tab_click(e, it, btn))
 
     def _on_tab_click(self, event, items, btn):
         self._open_dropdown(btn, items)
-        # release events even negeren zodat dropdown niet direct dicht gaat
         self._release_ignore_until = time.time() + 0.35
         return "break"
 
-    # ---------- Custom dropdown helpers ----------
     def _open_dropdown(self, widget: tk.Widget, items: list):
         self._close_active_dropdown()
 
-        # plaats dropdown onder de knop
         x = widget.winfo_rootx()
         y = widget.winfo_rooty() + widget.winfo_height()
 
@@ -369,7 +378,6 @@ class QuizApp:
         def color_row(row, bg, fg):
             row.configure(bg=bg)
             for c in row.winfo_children():
-                # Canvas (stip) heeft geen fg
                 try:
                     c.configure(bg=bg)
                 except Exception:
@@ -387,8 +395,6 @@ class QuizApp:
             lbl_left  = tk.Label(row, text=left_text, bg=MENU_BG, fg=TEXT_FG, font=F_MENU_ITEM, anchor="w")
             lbl_left.pack(side="left")
 
-            # rechter kant: score + stip (stip rechts!)
-            dot = None
             if pct is not None:
                 lbl_score = tk.Label(row, text=f" score {pct:.1f}%", bg=MENU_BG, fg=TEXT_FG, font=F_MENU_ITEM, anchor="e")
                 lbl_score.pack(side="left")
@@ -398,11 +404,8 @@ class QuizApp:
                 dot.create_oval(1, 1, DOT_SIZE, DOT_SIZE, fill=color, outline=color)
                 dot.pack(side="right", padx=(6, 0), pady=(DOT_PADY, 0))
 
-            # hover & click
-            def on_enter(e):
-                color_row(row, HOVER_BG, HOVER_FG)
-            def on_leave(e):
-                color_row(row, MENU_BG, TEXT_FG)
+            def on_enter(e): color_row(row, HOVER_BG, HOVER_FG)
+            def on_leave(e): color_row(row, MENU_BG, TEXT_FG)
             def on_click(e):
                 self._close_active_dropdown()
                 self._start_toets_file(file_path, title)
@@ -411,11 +414,9 @@ class QuizApp:
             row.bind("<Leave>", on_leave)
             row.bind("<Button-1>", on_click)
             lbl_left.bind("<Button-1>", on_click)
-            if pct is not None:
-                lbl_score.bind("<Button-1>", on_click)
-                dot.bind("<Button-1>", on_click)
+            for child in row.winfo_children():
+                child.bind("<Button-1>", on_click)
 
-        # regels
         for it in items:
             t = it.get("type")
             if t == "sep":
@@ -425,7 +426,6 @@ class QuizApp:
             else:
                 tk.Label(frame, text=it.get("text", ""), bg=MENU_BG, fg=TEXT_FG, font=F_MENU_ITEM).pack(padx=8, pady=4)
 
-        # sluit bij focusverlies (klik in ander venster)
         top.bind("<FocusOut>", lambda e: self._close_active_dropdown())
         top.focus_set()
 
@@ -435,7 +435,6 @@ class QuizApp:
         self.active_dropdown = None
 
     def _close_dropdown_global(self, event):
-        # release events negeren vlak na openen
         if time.time() < self._release_ignore_until:
             return
         if self.active_dropdown and self.active_dropdown.winfo_exists():
@@ -445,6 +444,7 @@ class QuizApp:
             y2 = y1 + self.active_dropdown.winfo_height()
             if not (x1 <= event.x_root <= x2 and y1 <= event.y_root <= y2):
                 self._close_active_dropdown()
+
 
     # ---------------- Boek openen ----------------
     def open_book_pdf(self):
@@ -462,6 +462,7 @@ class QuizApp:
                 webbrowser.open(f"file://{pdf_path}")
         except Exception as e:
             self.show_error_message(f"Kon PDF niet openen: {e}")
+
 
     # ---------------- Start functies ----------------
     def start_itil_hoofdstuk(self, hoofdstuk: int):
@@ -548,6 +549,7 @@ class QuizApp:
         self.assessment_mode = True
         self.question_window()
 
+
     # ---------------- UI helpers ----------------
     def add_image(self):
         try:
@@ -571,6 +573,7 @@ class QuizApp:
         self.center_toplevel(self.question_win, 1600, 900)
         self.question_win.protocol("WM_DELETE_WINDOW", self.close_question_window)
 
+        # Header
         self.header_frame = tk.Frame(self.question_win)
         self.header_frame.pack(side="top", fill="x")
 
@@ -580,15 +583,20 @@ class QuizApp:
         self.question_counter = tk.Label(self.header_frame, text="", font=F_COUNTER, justify="center")
         self.question_counter.pack(pady=(0, 10))
 
+        # Timer rechtsboven (statisch) – met place zodat je x/y kunt tweaken
+        self._ensure_timer_ui(self.header_frame)
+
+        # Body
         self.body_container = tk.Frame(self.question_win)
-        self.body_container.pack(fill="both", expand=True)
+        self.body_container.pack(fill="both", expand=True, padx=12, pady=(0,10))
 
         self.question_canvas = tk.Canvas(self.body_container, highlightthickness=0)
         self.question_canvas.pack(side="left", fill="both", expand=True)
 
-        self.question_scrollbar = tk.Scrollbar(self.body_container, orient="vertical", command=self.question_canvas.yview)
-        self.question_scrollbar.pack(side="right", fill="y")
-        self.question_canvas.configure(yscrollcommand=self.question_scrollbar.set)
+        if SHOW_SCROLLBAR:
+            self.question_scrollbar = tk.Scrollbar(self.body_container, orient="vertical", command=self.question_canvas.yview)
+            self.question_scrollbar.pack(side="right", fill="y")
+            self.question_canvas.configure(yscrollcommand=self.question_scrollbar.set)
 
         self.page_frame = tk.Frame(self.question_canvas)
         self.page_window = self.question_canvas.create_window((0, 0), window=self.page_frame, anchor="nw")
@@ -601,11 +609,15 @@ class QuizApp:
         self.question_label = tk.Label(self.content, text="", wraplength=WRAP_W, font=F_QUESTION, justify="center")
         self.question_label.pack(pady=(5, 15))
 
-        self.image_label = tk.Label(self.content)
-        self.image_label.pack(pady=(0, 15))
-
         self.options_frame = tk.Frame(self.content)
         self.options_frame.pack(pady=5, fill="x")
+
+        # lokale muiswiel-binding (geen bind_all!)
+        for w in (self.question_win, self.question_canvas, self.page_frame, self.content, self.options_frame):
+            w.bind("<MouseWheel>", self._on_mousewheel_question, add="+")
+
+        self.image_label = tk.Label(self.content)
+        self.image_label.pack(pady=(0, 15))
 
         bottom_frame = tk.Frame(self.question_win)
         bottom_frame.pack(side="bottom", pady=(14, 20))
@@ -626,15 +638,117 @@ class QuizApp:
 
         self.content.bind("<Configure>", self._configure_question_content)
         self.question_canvas.bind("<Configure>", lambda e: self.question_canvas.itemconfig(self.page_window, width=e.width))
-        self.question_canvas.bind_all("<MouseWheel>", self._on_mousewheel_question)
 
         self.load_question_canvas()
 
+    # -------- Timer-UI & logica --------
+    def _ensure_timer_ui(self, parent: tk.Widget):
+        """
+        Timer (play/pauze links, tijd rechts) in de header.
+        Label blijft statisch op dezelfde plek; x/y is instelbaar via
+        TIMER_OFFSET_X / TIMER_OFFSET_Y.
+        """
+        if not hasattr(self, "timer_right_frame") or not self.timer_right_frame.winfo_exists():
+            self.timer_right_frame = tk.Frame(parent)
+            self.timer_right_frame.place(relx=1.0, x=TIMER_OFFSET_X, y=TIMER_OFFSET_Y, anchor="ne")
+
+            self.timer_btn = tk.Button(
+                self.timer_right_frame,
+                text="⏸" if self.timer_running else "▶",
+                font=TIMER_BTN_FONT,
+                width=TIMER_BTN_WIDTH,
+                command=self._toggle_timer,
+                relief="flat",
+                cursor="hand2"
+            )
+            self.timer_btn.pack(side="left", padx=(0, 10), pady=2)
+
+            self.timer_label = tk.Label(
+                self.timer_right_frame,
+                text="",
+                font=TIMER_FONT,
+                fg=TIMER_COLOR_OK
+            )
+            self.timer_label.pack(side="left")
+
+            # Start de tick-loop slechts éénmaal
+            self._update_timer_label()
+            self._schedule_timer_tick()
+        else:
+            self._update_timer_label()
+            if self.timer_btn:
+                self.timer_btn.config(text="⏸" if self.timer_running else "▶")
+
+    def _seconds_to_mmss(self, secs: int) -> str:
+        secs = max(0, int(secs))
+        m, s = divmod(secs, 60)
+        return f"{m:02d}:{s:02d}"
+
+    def _update_timer_label(self):
+        txt = self._seconds_to_mmss(self.timer_remaining)
+        color = TIMER_COLOR_OK
+        suffix = ""
+
+        if self.timer_remaining <= 0:
+            color = TIMER_COLOR_END
+            suffix = " !"
+        elif self.timer_remaining < TIMER_WARN_SECS:
+            color = TIMER_COLOR_WARN
+
+        if self.timer_label:
+            self.timer_label.config(text=txt + suffix, fg=color)
+
+    def _schedule_timer_tick(self):
+        if self.timer_job:
+            try:
+                self.question_win.after_cancel(self.timer_job)
+            except Exception:
+                pass
+            self.timer_job = None
+        self.timer_job = self.question_win.after(1000, self._timer_tick)
+
+    def _timer_tick(self):
+        if self.timer_running and self.timer_remaining > 0:
+            self.timer_remaining -= 1
+            self._update_timer_label()
+
+        if self.timer_remaining <= 0:
+            self.timer_running = False
+            self._update_timer_label()
+            self.timer_job = None
+            return
+
+        self._schedule_timer_tick()
+
+    def _toggle_timer(self):
+        self.timer_running = not self.timer_running
+        if self.timer_btn:
+            self.timer_btn.config(text="⏸" if self.timer_running else "▶")
+        if self.timer_running and self.timer_job is None and self.timer_remaining > 0:
+            self._schedule_timer_tick()
+    # -------- einde timer --------
+
+    # -------- Scroll helpers ----------
     def _configure_question_content(self, event):
         self.question_canvas.configure(scrollregion=self.question_canvas.bbox("all"))
 
-    def _on_mousewheel_question(self, event):
-        self.question_canvas.yview_scroll(int(-1 * (event.delta / 120)), "units")
+    def _on_mousewheel_question(self, event: tk.Event):
+        canvas = getattr(self, "question_canvas", None)
+        if not canvas or not canvas.winfo_exists():
+            return
+
+        if sys.platform.startswith("win"):
+            steps = int(-1 * (event.delta / 120))
+        elif sys.platform == "darwin":
+            steps = int(-1 * event.delta)
+        else:
+            steps = int(-1 * (event.delta))
+
+        try:
+            canvas.yview_scroll(steps, "units")
+        except tk.TclError:
+            pass
+    # -------- einde scroll helpers ----
 
     def load_question_canvas(self):
         self.chapter_title_label.config(text=self.current_session_title)
@@ -653,15 +767,31 @@ class QuizApp:
 
         options = self.shuffled_options[self.current_question_index]
         saved = self.user_answers[self.current_question_index]
-        self.var_list = []
+
+        # checkbuttons met vaste linkermarge + wrap
         for idx, opt in enumerate(options):
             previously_selected = (idx in saved) if saved is not None else False
             var = tk.BooleanVar(value=previously_selected)
-            cb = tk.Checkbutton(self.options_frame, text=opt, variable=var,
-                                font=F_OPTION, anchor="w", justify="left",
-                                wraplength=WRAP_W, padx=6)
-            cb.pack(fill="x", anchor="w", pady=4)
-            self.var_list.append(var)
+
+            opt_row = tk.Frame(self.options_frame)
+            opt_row.pack(fill="x")
+
+            cb = tk.Checkbutton(
+                opt_row,
+                text=opt,
+                variable=var,
+                font=F_OPTION,
+                anchor="w",
+                justify="left",
+                wraplength=WRAP_W,
+                padx=0
+            )
+            # vaste linkermarge
+            cb.pack(side="left", anchor="w", padx=(OPTIONS_LEFT_PAD, 0), pady=6, fill="x")
+            # bewaar var zodat de status blijft bestaan
+            if not hasattr(self, "_opt_vars"):
+                self._opt_vars = []
+            self._opt_vars.append(var)
 
     def display_question_image_canvas(self):
         q = self.questions[self.current_question_index]
@@ -703,7 +833,22 @@ class QuizApp:
             self.show_stats()
 
     def submit_answer(self):
-        selected = [i for i, var in enumerate(self.var_list) if var.get()]
+        selected = []
+        # haal de huidige vars uit self._opt_vars voor deze vraag
+        # (deze variabelen zijn net aangemaakt in load_question_canvas)
+        for i, child in enumerate(self.options_frame.winfo_children()):
+            # ieder child is een opt_row-frame met 1 checkbutton
+            # we determineren de staat via de laatst toegevoegde var
+            if hasattr(self, "_opt_vars"):
+                try:
+                    var = self._opt_vars[-len(self.options_frame.winfo_children()) + i]
+                except Exception:
+                    var = None
+            else:
+                var = None
+            if var and var.get():
+                selected.append(i)
+
         self.user_answers[self.current_question_index] = selected
 
         correct = self.questions[self.current_question_index]["answer"]
@@ -734,11 +879,15 @@ class QuizApp:
 
     def exit_quiz(self):
         self.session_active = False
+        self._unbind_local_scroll()
         if hasattr(self, 'question_win') and self.question_win:
             self.question_win.destroy()
         messagebox.showinfo("Quiz", "Quiz is afgesloten.", parent=self.master)
 
     def show_stats(self):
+        # unbind lokale muiswiel-binding voor we het window sluiten
+        self._unbind_local_scroll()
+
         if hasattr(self, 'question_win') and self.question_win:
             self.question_win.destroy()
 
@@ -753,7 +902,6 @@ class QuizApp:
         total_score = sum(self.correct_answers)
         pct = (total_score / total * 100) if total > 0 else 0
 
-        # score opslaan (menu updaten)
         self._store_last_score(pct)
 
         tk.Label(self.stats_win, text=f"You scored {total_score:.2f} out of {total} correct!", font=("Helvetica", 24)).pack(pady=10)
@@ -773,6 +921,8 @@ class QuizApp:
         tk.Button(nav, text="Finish", font=F_BUTTON, command=self.stats_win.destroy).pack(side=tk.LEFT, padx=20)
 
     def review_answers(self):
+        # unbind lokale muiswiel-binding voor we het window sluiten
+        self._unbind_local_scroll()
         self.stats_win.destroy()
         self.current_question_index = 0
         self.review_window()
@@ -788,13 +938,18 @@ class QuizApp:
         self.review_canvas = tk.Canvas(container)
         self.review_canvas.pack(side="left", fill="both", expand=True)
 
-        review_scrollbar = tk.Scrollbar(container, orient="vertical", command=self.review_canvas.yview)
-        review_scrollbar.pack(side="right", fill="y")
-        self.review_canvas.configure(yscrollcommand=review_scrollbar.set)
+        if SHOW_SCROLLBAR:
+            review_scrollbar = tk.Scrollbar(container, orient="vertical", command=self.review_canvas.yview)
+            review_scrollbar.pack(side="right", fill="y")
+            self.review_canvas.configure(yscrollcommand=review_scrollbar.set)
 
         self.review_content_frame = tk.Frame(self.review_canvas)
         offset_x = 400
         self.review_canvas.create_window((offset_x, 0), window=self.review_content_frame, anchor="nw")
+
+        # lokale muiswiel-binding ook hier (geen bind_all)
+        for w in (self.review_win, self.review_canvas, self.review_content_frame):
+            w.bind("<MouseWheel>", self._on_mousewheel_question, add="+")
 
         self.review_content_frame.bind("<Configure>", self._configure_review_content)
 
@@ -872,6 +1027,7 @@ class QuizApp:
         exp = tk.Label(self.options_frame_review, text=f"{opt}: {explanation}", fg="black", font=("Helvetica", 16), wraplength=WRAP_W, justify="left")
         exp.pack(anchor="w", pady=(0, 10))
 
+
     # ---------------- Window helpers & errors ----------------
     def center_window_main(self, window, w, h):
         window.update_idletasks()
@@ -886,7 +1042,19 @@ class QuizApp:
         y = (window.winfo_screenheight() // 2) - (h // 2)
         window.geometry(f"{w}x{h}+{x}+{y}")
 
+    def _unbind_local_scroll(self):
+        """Maak lokale muiswiel-bindings los (veilig bij sluiten)."""
+        for attr in ("question_win", "question_canvas", "page_frame", "content", "options_frame",
+                     "review_win", "review_canvas", "review_content_frame"):
+            w = getattr(self, attr, None)
+            try:
+                if w and w.winfo_exists():
+                    w.unbind("<MouseWheel>")
+            except Exception:
+                pass
+
     def close_question_window(self):
+        self._unbind_local_scroll()
         if hasattr(self, 'question_win') and self.question_win:
             self.question_win.destroy()
 
@@ -923,6 +1091,11 @@ if __name__ == "__main__":
                     f.write(err)
             except Exception:
                 pass
+
+
+
+
+
 
 
 
