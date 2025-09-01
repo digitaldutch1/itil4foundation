@@ -12,10 +12,6 @@ dist/
 *.spec
 *.log
 
-# Exe's niet pushen
-ITIL 4 Foundation.exe
-*.exe
-
 # Lokale runtime data (scores persoonlijk)
 assets/score/scores.json
 
