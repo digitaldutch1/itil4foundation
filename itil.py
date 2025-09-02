@@ -12,7 +12,6 @@ import webbrowser
 import re
 import time  # voor 'ignore next release' timing
 
-
 # ------------------------------------------------------------
 # DPI awareness (Windows) + consistente Tk-scaling
 # ------------------------------------------------------------
@@ -21,7 +20,6 @@ try:
     ctypes.windll.shcore.SetProcessDpiAwareness(1)  # Per-monitor DPI (Win 8.1+)
 except Exception:
     pass
-
 
 # ---------- UI constants ----------
 WRAP_W = 1000            # wrap-breedte in pixels voor vraag/opties
@@ -68,14 +66,33 @@ TIMER_BTN_WIDTH = 3
 # Scrollbar zichtbaar maken? (False = verbergen, muiswiel blijft werken)
 SHOW_SCROLLBAR = False
 
+# ---- Icons lesmateriaal dropdown (uitlijning & padding) ----
+ICON_SIZE = 22
+ROW_PAD_X = 6
+ICON_PAD_LEFT = 2
+
+ICON_TEXT_GAP = 2        # gewenste ruimte tussen icoon en tekst (mag negatief worden ingevoerd)
+ICON_NUDGE = {
+    "slides.png": 30,
+    # "book.png": 0,
+    # "target.png": 0,
+    # "summary.png": 0,
+}
+
+# ✅ clamp: Tkinter staat geen negatieve padding toe
+_ICON_TEXT_GAP = max(0, ICON_TEXT_GAP)
+
+# Kolombreedte: groot genoeg voor icoon + maximale nudge + gap
+ICON_COL_W = ICON_SIZE + (max([0] + list(ICON_NUDGE.values()))) + _ICON_TEXT_GAP
 
 # ------------------------------------------------------------
 # Helpers voor paden & data laden
 # ------------------------------------------------------------
 def resource_dir() -> str:
-    """Map van waaruit resources geladen worden (PyInstaller of bronmap)."""
+    """Basismap voor resources (PyInstaller of bronmap)."""
     if getattr(sys, "frozen", False):
-        return os.path.dirname(sys.executable)
+        # Onefile: alles wordt naar _MEIPASS uitgepakt
+        return getattr(sys, "_MEIPASS", os.path.dirname(sys.executable))
     return os.path.dirname(os.path.abspath(__file__))
 
 
@@ -140,11 +157,14 @@ class QuizApp:
         self.timer_label     = None
         self.timer_btn       = None
 
-        # Scores (laatste resultaten per toets)
+        # Scores
         self.scores = self._load_scores()
         self.toets_menu_by_group = {}
         self.active_dropdown = None
         self._release_ignore_until = 0.0  # timestamp tot wanneer release events genegeerd worden
+
+        # Icon cache voor dropdowns
+        self._icon_cache = {}
 
         # UI
         self.center_window_main(self.master, 1400, 800)
@@ -154,21 +174,13 @@ class QuizApp:
         self.navbar_frame = tk.Frame(self.master)
         self.navbar_frame.pack()
 
-        self.book_button = tk.Button(
-            self.navbar_frame, text="📖", font=F_MENU,
-            relief="raised", borderwidth=1, command=self.open_book_pdf
+        # ======= Lesmateriaal dropdown-knop =======
+        self.materials_button = tk.Menubutton(
+            self.navbar_frame, text="Lesmateriaal", font=F_MENU,
+            relief="raised", borderwidth=1, cursor="hand2"
         )
-        try:
-            base = resource_dir()
-            book_icon_path = os.path.join(base, "assets", "afbeeldingen", "book.png")
-            if os.path.exists(book_icon_path):
-                img = Image.open(book_icon_path)
-                img.thumbnail((32, 32), Image.LANCZOS)
-                self.book_img = ImageTk.PhotoImage(img)
-                self.book_button.configure(image=self.book_img, text="")
-        except Exception:
-            pass
-        self.book_button.pack(side="left", padx=10)
+        self.materials_button.pack(side="left", padx=10)
+        self.materials_button.bind("<Button-1>", self._on_materials_click)
 
         # Hoofdstuk menu
         self.hoofdstukken_menu = tk.Menubutton(
@@ -203,7 +215,8 @@ class QuizApp:
 
         # Sluit dropdown bij muisklik buiten (op release)
         self.master.bind("<ButtonRelease-1>", self._close_dropdown_global, add="+")
-
+        # Sneltoets naar boek
+        self.master.bind("<Control-b>", lambda e: self.open_book_pdf())
 
     # ---------------- Scores opslag ----------------
     def _legacy_scores_paths(self):
@@ -261,7 +274,6 @@ class QuizApp:
             g = int(m.group(1))
             self.build_bilingual_toetsen_tab(f"Toetsen {g}", groep=g, count=6)
 
-
     # ---------------- Count helpers ----------------
     def count_questions_in_file(self, filename: str) -> int:
         base = resource_dir()
@@ -282,7 +294,6 @@ class QuizApp:
             return _count_questions_in_loaded_data(data)
         except Exception:
             return 0
-
 
     # ---------------- Menutab (custom dropdown) ----------------
     def _find_variant_file(self, dirp: str, groep: int, idx: int, lang: str):
@@ -361,6 +372,7 @@ class QuizApp:
         return "break"
 
     def _open_dropdown(self, widget: tk.Widget, items: list):
+        """Algemene dropdown (voor Toetsen)"""
         self._close_active_dropdown()
 
         x = widget.winfo_rootx()
@@ -445,24 +457,181 @@ class QuizApp:
             if not (x1 <= event.x_root <= x2 and y1 <= event.y_root <= y2):
                 self._close_active_dropdown()
 
+    # --------------- Lesmateriaal dropdown -------------------
+    def _on_materials_click(self, event=None):
+        """Open de lesmateriaal-dropdown onder de knop."""
+        items = self._build_materials_items()
+        self._open_materials_dropdown(self.materials_button, items)
+        self._release_ignore_until = time.time() + 0.35
+        return "break"
 
-    # ---------------- Boek openen ----------------
-    def open_book_pdf(self):
+    def _norm_name(self, s: str) -> str:
+        return re.sub(r'[\W_]+', '', (s or '').lower())
+
+    def _resolve_in_dir(self, folder: str, expected: str):
+        """Zoek expected in folder (tolerant)."""
+        try:
+            if not (folder and os.path.isdir(folder) and expected):
+                return None
+
+            exact = os.path.join(folder, expected)
+            if os.path.isfile(exact):
+                return exact
+
+            exp_norm = self._norm_name(expected)
+            tokens = [t for t in re.split(r'\s+', expected.lower()) if t]
+
+            best = None
+            for name in os.listdir(folder):
+                full = os.path.join(folder, name)
+                if not os.path.isfile(full):
+                    continue
+                if name.lower() == expected.lower():
+                    return full
+                if self._norm_name(name) == exp_norm:
+                    best = best or full
+                    continue
+                nl = name.lower()
+                if all(t in nl for t in tokens):
+                    best = best or full
+            return best
+        except Exception:
+            return None
+
+    def _build_materials_items(self):
         base = resource_dir()
-        pdf_path = os.path.join(base, "assets", "boek", "itil_4_boek.pdf")
-        if not os.path.exists(pdf_path):
-            self.show_error_message(f"Boek niet gevonden:\n{pdf_path}")
+        lm_dir = os.path.join(base, "assets", "lesmateriaal")
+
+        # label, bestandsnaam, icoon (png in assets/afbeeldingen), emoji fallback
+        defs = [
+            ("ITIL 4 foundation boek (NE)",      "itil_4_boek.pdf",                   "book.png",    "📘"),
+            ("Presentatie Deel 1",               "ITIL4_presentatie_deel1.pdf",       "slides.png",  "🖥️"),
+            ("Presentatie Deel 2",               "ITIL4_presentatie_deel2.pdf",       "slides.png",  "🖥️"),
+            ("Examen objectives",                "itil4_exam_objectives.pdf",         "target.png",  "🎯"),
+            ("Examen objectives samenvatting",   "itil4_samenvatting_objectives.pdf", "summary.png", "📝"),
+        ]
+
+        items = []
+        for label, filename, icon, emoji in defs:
+            resolved = self._resolve_in_dir(lm_dir, filename) or os.path.join(lm_dir, filename)
+            img = self._load_menu_icon(icon)
+            items.append({"label": label, "path": resolved, "img": img, "emoji": emoji, "icon_key": icon})
+        return items
+
+    def _load_menu_icon(self, filename: str, size: int = ICON_SIZE):
+        """Laad icoon en snij transparante randen weg (optisch strakker)."""
+        key = (filename.lower(), size)
+        if key in self._icon_cache:
+            return self._icon_cache[key]
+
+        base = resource_dir()
+        p = os.path.join(base, "assets", "afbeeldingen", filename)
+        try:
+            if os.path.exists(p):
+                img = Image.open(p).convert("RGBA")
+                alpha = img.getchannel("A")
+                bbox = alpha.getbbox()
+                if bbox:
+                    img = img.crop(bbox)
+                img.thumbnail((size, size), Image.LANCZOS)
+                ph = ImageTk.PhotoImage(img)
+                self._icon_cache[key] = ph
+                return ph
+        except Exception:
+            pass
+
+        self._icon_cache[key] = None
+        return None
+
+    def _open_materials_dropdown(self, widget: tk.Widget, items: list):
+        """Custom dropdown met vaste icon-kolom; gap tussen icoon en tekst = _ICON_TEXT_GAP."""
+        self._close_active_dropdown()
+
+        x = widget.winfo_rootx()
+        y = widget.winfo_rooty() + widget.winfo_height()
+
+        top = tk.Toplevel(self.master)
+        top.overrideredirect(True)
+        top.geometry(f"+{x}+{y}")
+        top.configure(bg=MENU_BG)
+        self.active_dropdown = top
+
+        frame = tk.Frame(top, bg=MENU_BG, bd=1, relief="solid")
+        frame.pack(fill="both", expand=True)
+
+        def _set_bg_recursive(w, bg, fg):
+            try: w.configure(bg=bg)
+            except Exception: pass
+            try: w.configure(fg=fg)
+            except Exception: pass
+            for ch in w.winfo_children():
+                _set_bg_recursive(ch, bg, fg)
+
+        def color_row(row, bg, fg):
+            _set_bg_recursive(row, bg, fg)
+
+        for it in items:
+            row = tk.Frame(frame, bg=MENU_BG)
+            row.pack(fill="x", padx=(ROW_PAD_X, ROW_PAD_X), pady=4)
+
+            # --- vaste icon-kolom ---
+            icon_cell = tk.Frame(row, width=ICON_COL_W, height=ICON_SIZE, bg=MENU_BG)
+            icon_cell.pack(side="left", padx=(ICON_PAD_LEFT, 0))
+            icon_cell.pack_propagate(False)
+
+            if it["img"] is not None:
+                extra_left = ICON_NUDGE.get(it.get("icon_key", ""), 0)
+                icon_lbl = tk.Label(icon_cell, image=it["img"], bg=MENU_BG)
+                icon_lbl.image = it["img"]
+                icon_lbl.pack(anchor="w", padx=(extra_left, _ICON_TEXT_GAP))
+            else:
+                tk.Label(icon_cell, text=it.get("emoji", "📄"), bg=MENU_BG, fg=TEXT_FG,
+                         font=("Helvetica", 18)).pack(anchor="w", padx=(0, _ICON_TEXT_GAP))
+
+            # tekst start direct na icon-kolom; geen extra padx nodig
+            lbl = tk.Label(row, text=it["label"], bg=MENU_BG, fg=TEXT_FG, font=F_MENU_ITEM, anchor="w")
+            lbl.pack(side="left")
+
+            def on_enter(e, r=row): color_row(r, HOVER_BG, HOVER_FG)
+            def on_leave(e, r=row): color_row(r, MENU_BG, TEXT_FG)
+            def on_click(e, p=it["path"]):
+                self._close_active_dropdown()
+                self._open_pdf_path(p)
+
+            for w in (row, icon_cell, lbl):
+                w.bind("<Enter>", on_enter)
+                w.bind("<Leave>", on_leave)
+                w.bind("<Button-1>", on_click)
+
+        top.bind("<FocusOut>", lambda e: self._close_active_dropdown())
+        top.focus_set()
+
+    # ---------------- Bestanden openen ----------------
+    def _open_pdf_path(self, path: str):
+        try_path = path
+        if not try_path or not os.path.exists(try_path):
+            base = resource_dir()
+            lm_dir = os.path.join(base, "assets", "lesmateriaal")
+            try_path = self._resolve_in_dir(lm_dir, os.path.basename(path)) if path else None
+
+        if not try_path or not os.path.exists(try_path):
+            self.show_error_message(f"Bestand niet gevonden:\n{path}")
             return
         try:
             if sys.platform.startswith("win"):
-                os.startfile(pdf_path)
+                os.startfile(try_path)
             elif sys.platform == "darwin":
-                os.system(f"open \"{pdf_path}\"")
+                os.system(f'open "{try_path}"')
             else:
-                webbrowser.open(f"file://{pdf_path}")
+                webbrowser.open(f"file://{try_path}")
         except Exception as e:
             self.show_error_message(f"Kon PDF niet openen: {e}")
 
+    # (compat) oude snelkoppeling naar het boek
+    def open_book_pdf(self):
+        base = resource_dir()
+        pdf_path = os.path.join(base, "assets", "lesmateriaal", "itil_4_boek.pdf")
+        self._open_pdf_path(pdf_path)
 
     # ---------------- Start functies ----------------
     def start_itil_hoofdstuk(self, hoofdstuk: int):
@@ -549,7 +718,6 @@ class QuizApp:
         self.assessment_mode = True
         self.question_window()
 
-
     # ---------------- UI helpers ----------------
     def add_image(self):
         try:
@@ -583,7 +751,7 @@ class QuizApp:
         self.question_counter = tk.Label(self.header_frame, text="", font=F_COUNTER, justify="center")
         self.question_counter.pack(pady=(0, 10))
 
-        # Timer rechtsboven (statisch) – met place zodat je x/y kunt tweaken
+        # Timer rechtsboven
         self._ensure_timer_ui(self.header_frame)
 
         # Body
@@ -622,7 +790,7 @@ class QuizApp:
         bottom_frame = tk.Frame(self.question_win)
         bottom_frame.pack(side="bottom", pady=(14, 20))
         self.submit_button = tk.Button(bottom_frame, text="Submit", font=F_BUTTON, command=self.submit_answer)
-        self.submit_button.pack(side="top", pady=(0, 18))
+        self.submit_button.pack(pady=(0, 18))
 
         nav_btns_frame = tk.Frame(bottom_frame)
         nav_btns_frame.pack()
@@ -643,11 +811,6 @@ class QuizApp:
 
     # -------- Timer-UI & logica --------
     def _ensure_timer_ui(self, parent: tk.Widget):
-        """
-        Timer (play/pauze links, tijd rechts) in de header.
-        Label blijft statisch op dezelfde plek; x/y is instelbaar via
-        TIMER_OFFSET_X / TIMER_OFFSET_Y.
-        """
         if not hasattr(self, "timer_right_frame") or not self.timer_right_frame.winfo_exists():
             self.timer_right_frame = tk.Frame(parent)
             self.timer_right_frame.place(relx=1.0, x=TIMER_OFFSET_X, y=TIMER_OFFSET_Y, anchor="ne")
@@ -786,9 +949,7 @@ class QuizApp:
                 wraplength=WRAP_W,
                 padx=0
             )
-            # vaste linkermarge
             cb.pack(side="left", anchor="w", padx=(OPTIONS_LEFT_PAD, 0), pady=6, fill="x")
-            # bewaar var zodat de status blijft bestaan
             if not hasattr(self, "_opt_vars"):
                 self._opt_vars = []
             self._opt_vars.append(var)
@@ -834,11 +995,7 @@ class QuizApp:
 
     def submit_answer(self):
         selected = []
-        # haal de huidige vars uit self._opt_vars voor deze vraag
-        # (deze variabelen zijn net aangemaakt in load_question_canvas)
         for i, child in enumerate(self.options_frame.winfo_children()):
-            # ieder child is een opt_row-frame met 1 checkbutton
-            # we determineren de staat via de laatst toegevoegde var
             if hasattr(self, "_opt_vars"):
                 try:
                     var = self._opt_vars[-len(self.options_frame.winfo_children()) + i]
@@ -885,7 +1042,6 @@ class QuizApp:
         messagebox.showinfo("Quiz", "Quiz is afgesloten.", parent=self.master)
 
     def show_stats(self):
-        # unbind lokale muiswiel-binding voor we het window sluiten
         self._unbind_local_scroll()
 
         if hasattr(self, 'question_win') and self.question_win:
@@ -921,7 +1077,6 @@ class QuizApp:
         tk.Button(nav, text="Finish", font=F_BUTTON, command=self.stats_win.destroy).pack(side=tk.LEFT, padx=20)
 
     def review_answers(self):
-        # unbind lokale muiswiel-binding voor we het window sluiten
         self._unbind_local_scroll()
         self.stats_win.destroy()
         self.current_question_index = 0
@@ -947,7 +1102,6 @@ class QuizApp:
         offset_x = 400
         self.review_canvas.create_window((offset_x, 0), window=self.review_content_frame, anchor="nw")
 
-        # lokale muiswiel-binding ook hier (geen bind_all)
         for w in (self.review_win, self.review_canvas, self.review_content_frame):
             w.bind("<MouseWheel>", self._on_mousewheel_question, add="+")
 
@@ -1009,6 +1163,8 @@ class QuizApp:
         self.review_question_label.config(text=current_q["question"])
         self.question_counter_review.config(text=f"Question {self.current_question_index + 1} / {len(self.questions)}")
 
+        last_opt_text = ""
+        last_expl = ""
         for idx, opt in enumerate(options):
             explanation = explanations.get(opt, "")
             user_sel = (idx in user_selected)
@@ -1024,9 +1180,11 @@ class QuizApp:
                 lbl = tk.Label(self.options_frame_review, text=f"{opt}", fg="red", font=("Helvetica", 18))
             lbl.pack(anchor="w", pady=(10, 0))
 
-        exp = tk.Label(self.options_frame_review, text=f"{opt}: {explanation}", fg="black", font=("Helvetica", 16), wraplength=WRAP_W, justify="left")
-        exp.pack(anchor="w", pady=(0, 10))
+            last_opt_text = opt
+            last_expl = explanation
 
+        exp = tk.Label(self.options_frame_review, text=f"{last_opt_text}: {last_expl}", fg="black", font=("Helvetica", 16), wraplength=WRAP_W, justify="left")
+        exp.pack(anchor="w", pady=(0, 10))
 
     # ---------------- Window helpers & errors ----------------
     def center_window_main(self, window, w, h):
@@ -1091,6 +1249,12 @@ if __name__ == "__main__":
                     f.write(err)
             except Exception:
                 pass
+
+
+
+
+
+
 
 
 
