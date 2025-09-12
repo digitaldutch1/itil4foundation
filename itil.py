@@ -172,7 +172,7 @@ class QuizApp:
     def __init__(self, master: tk.Tk):
         self.master = master
         self.master.title("Itil 4 Foundation")
-        self.master.geometry("1400x800")
+        self.master.geometry("1500x900")
         try:
             self.master.tk.call("tk", "scaling", 1.0)
         except Exception:
@@ -211,7 +211,7 @@ class QuizApp:
         self._icon_cache = {}
 
         # UI
-        self.center_window_main(self.master, 1400, 800)
+        self.center_window_main(self.master, 1500, 900)
         self.banner = tk.Label(self.master, text="Itil 4 Foundation", font=F_BANNER)
         self.banner.pack(pady=20)
 
@@ -229,12 +229,18 @@ class QuizApp:
         self.hoofdstukken_menu.pack(side="left", padx=20)
         self.build_hoofdstukken_tab()
 
-        # Toetsen tabs met scores
+        # Bestaande "Toetsen 1..5"
         self.build_bilingual_toetsen_tab("Toetsen 1", groep=1, count=6)
         self.build_bilingual_toetsen_tab("Toetsen 2", groep=2, count=6)
         self.build_bilingual_toetsen_tab("Toetsen 3", groep=3, count=6)
         self.build_bilingual_toetsen_tab("Toetsen 4", groep=4, count=6)
         self.build_bilingual_toetsen_tab("Toetsen 5", groep=5, count=6)
+
+        # >>> NIEUW: Mock-tab met NE (1..6), separator, EN (1..4)
+        self.mock_menu = tk.Menubutton(self.navbar_frame, text="Mock", font=F_MENU,
+                                       relief="raised", borderwidth=1, cursor="hand2")
+        self.mock_menu.pack(side="left", padx=10)
+        self.build_mock_tab(ne_count=6, en_count=6)
 
         self.add_image()
 
@@ -264,13 +270,17 @@ class QuizApp:
         self.scores[key] = {"pct": round(pct, 2)}
         self._save_scores()
 
-        # Refresh Toetsen tab wanneer relevant
-        m = re.match(r"^toets(\d+)_", key, re.IGNORECASE)
-        if m:
-            g = int(m.group(1))
+        # Ververs de juiste dropdown op basis van bestandsnaam
+        m_toets = re.match(r"^toets(\d+)_", key, re.IGNORECASE)
+        if m_toets:
+            g = int(m_toets.group(1))
             self.build_bilingual_toetsen_tab(f"Toetsen {g}", groep=g, count=6)
 
-        # Altijd Hoofdstukken tab verversen
+        # NIEUW: ververs Mock-tab als het een mock-bestand is
+        if re.match(r"^mock\d+_(ne|en)\.json$", key, re.IGNORECASE):
+            self.build_mock_tab(ne_count=6, en_count=6)
+
+        # Altijd hoofdstukken verversen (veilig)
         self.build_hoofdstukken_tab()
 
     # ---------------- Count helpers ----------------
@@ -294,7 +304,7 @@ class QuizApp:
         except Exception:
             return 0
 
-    # ---------------- Menutab (custom dropdown) ----------------
+    # ---------------- Reuse: bestand zoeken op patroon ----------------
     def _find_variant_file(self, dirp: str, groep: int, idx: int, lang: str):
         pat_lang = re.compile(rf"^toets{groep}_{idx}\s*([_.])\s*{lang}\.json\s*$", re.IGNORECASE)
         pat_fallback = re.compile(rf"^toets{groep}_{idx}\s*\.json\s*$", re.IGNORECASE)
@@ -310,6 +320,21 @@ class QuizApp:
             pass
         return fallback
 
+    # ----------- NIEUW: mock-bestanden zoeken --------------
+    def _find_mock_file(self, dirp: str, idx: int, lang: str):
+        """
+        Zoekt 'mock{idx}_{lang}.json' (spaties/underscore/dot varianten toegestaan).
+        """
+        pat_lang = re.compile(rf"^mock\s*{idx}\s*([_.])\s*{lang}\.json\s*$", re.IGNORECASE)
+        try:
+            for name in os.listdir(dirp):
+                if pat_lang.match(name.rstrip()):
+                    return os.path.join(dirp, name)
+        except Exception:
+            pass
+        return None
+
+    # ---------------- Menutab Toetsen ----------------
     def build_bilingual_toetsen_tab(self, label: str, groep: int, count: int = 6):
         if groep in getattr(self, "toets_menu_by_group", {}):
             mb = self.toets_menu_by_group[groep]
@@ -335,6 +360,7 @@ class QuizApp:
                     return None
                 return round(pct, 1)
 
+            # NE
             for i in range(1, count + 1):
                 f_ne = self._find_variant_file(dirp, groep, i, "ne")
                 if f_ne and os.path.exists(f_ne):
@@ -346,6 +372,7 @@ class QuizApp:
 
             has_ne = any(it.get("type") == "item" and " (NE) " in it.get("left", "") for it in items)
 
+            # EN
             en_items = []
             for i in range(1, count + 1):
                 f_en = self._find_variant_file(dirp, groep, i, "en")
@@ -362,6 +389,63 @@ class QuizApp:
 
         mb.unbind("<Button-1>")
         mb.bind("<Button-1>", lambda e, it=items, btn=mb: self._on_tab_click(e, it, btn))
+
+    # ---------------- NIEUW: Mock dropdown ----------------
+    def build_mock_tab(self, ne_count: int = 6, en_count: int = 6):
+        """
+        Bouwt het Mock-menu met:
+          - mock 1..NE_COUNT (NE)
+          - separator
+          - mock 1..EN_COUNT (EN)
+        Bestanden verwacht in assets/itil_vragen als 'mock{n}_ne.json' en 'mock{n}_en.json'
+        """
+        base = resource_dir()
+        dirp = os.path.join(base, "assets", "itil_vragen")
+        items = []
+
+        def score_percent(basename: str):
+            s = self.scores.get(basename)
+            if not s:
+                return None
+            try:
+                pct = float(s.get("pct"))
+            except (TypeError, ValueError):
+                return None
+            return round(pct, 1)
+
+        if not os.path.isdir(dirp):
+            items.append({"type": "text", "text": "(map assets/itil_vragen niet gevonden)"})
+        else:
+            # NE mocks 1..ne_count
+            any_ne = False
+            for i in range(1, ne_count + 1):
+                f_ne = self._find_mock_file(dirp, i, "ne")
+                if f_ne and os.path.exists(f_ne):
+                    cnt = self.count_questions_in_path(f_ne)
+                    base_ne = os.path.basename(f_ne)
+                    pct = score_percent(base_ne)
+                    left = f"mock {i} (NE) ({cnt})"
+                    items.append({"type": "item", "left": left, "pct": pct, "file": f_ne, "title": f"ITIL 4 {left}"})
+                    any_ne = True
+
+            # Separator alleen als er NE én EN zijn
+            any_en_preview = any(self._find_mock_file(dirp, i, "en") for i in range(1, en_count + 1))
+            if any_ne and any_en_preview:
+                items.append({"type": "sep"})
+
+            # EN mocks 1..en_count
+            for i in range(1, en_count + 1):
+                f_en = self._find_mock_file(dirp, i, "en")
+                if f_en and os.path.exists(f_en):
+                    cnt = self.count_questions_in_path(f_en)
+                    base_en = os.path.basename(f_en)
+                    pct = score_percent(base_en)
+                    left = f"mock {i} (EN) ({cnt})"
+                    items.append({"type": "item", "left": left, "pct": pct, "file": f_en, "title": f"ITIL 4 {left}"})
+
+        # Bind dropdown
+        self.mock_menu.unbind("<Button-1>")
+        self.mock_menu.bind("<Button-1>", lambda e, it=items, btn=self.mock_menu: self._on_tab_click(e, it, btn))
 
     # ---------------- Hoofdstukken custom dropdown met score ----------------
     def build_hoofdstukken_tab(self):
@@ -493,7 +577,7 @@ class QuizApp:
     def _on_materials_click(self, event=None):
         items = self._build_materials_items()
         self._open_materials_dropdown(self.materials_button, items)
-        self._release_ignore_until = time.time() + 0.35
+        self._release_ignore_until = 0.35 + time.time()
         return "break"
 
     def _norm_name(self, s: str) -> str:
@@ -529,17 +613,30 @@ class QuizApp:
         base = resource_dir()
         lm_dir = os.path.join(base, "assets", "lesmateriaal")
 
+        # Titel, pad/URL, (optioneel) icoonbestand in assets/afbeeldingen, emoji fallback
         defs = [
             ("ITIL 4 foundation boek (NE)",      "itil_4_boek.pdf",                   "book.png",    "📘"),
             ("Presentatie Deel 1",               "ITIL4_presentatie_deel1.pdf",       "slides.png",  "🖥️"),
             ("Presentatie Deel 2",               "ITIL4_presentatie_deel2.pdf",       "slides.png",  "🖥️"),
             ("Examen objectives",                "itil4_exam_objectives.pdf",         "target.png",  "🎯"),
             ("Examen objectives samenvatting",   "itil4_samenvatting_objectives.pdf", "summary.png", "📝"),
+
+            # --- NIEUW: TIA YouTube links ---
+            ("TIA: ITIL 4 Foundation Full Cram Course",
+                "https://www.youtube.com/watch?v=uI0n0kmoYy0&t=3367s", "video.png", "▶️"),
+            ("TIA: ITIL 4 Mock Exam Review",
+                "https://www.youtube.com/watch?v=SuSC7qHbaqE", "video.png", "▶️"),
         ]
 
         items = []
-        for label, filename, icon, emoji in defs:
-            resolved = self._resolve_in_dir(lm_dir, filename) or os.path.join(lm_dir, filename)
+        for label, filename_or_url, icon, emoji in defs:
+            # Als het met http begint => directe URL. Anders is het een lokaal bestand.
+            if isinstance(filename_or_url, str) and filename_or_url.startswith(("http://", "https://")):
+                resolved = filename_or_url
+            else:
+                # Lokaal bestand uit lesmateriaal-map proberen te resolven
+                resolved = self._resolve_in_dir(lm_dir, filename_or_url) or os.path.join(lm_dir, filename_or_url)
+
             img = self._load_menu_icon(icon)
             items.append({"label": label, "path": resolved, "img": img, "emoji": emoji, "icon_key": icon})
         return items
@@ -746,6 +843,12 @@ class QuizApp:
 
     # ---------------- Bestanden openen ----------------
     def _open_pdf_path(self, path: str):
+        # Open directe web-links meteen in de browser
+        if isinstance(path, str) and path.startswith(("http://", "https://")):
+            webbrowser.open(path)
+            return
+
+        # Lokaal pad naar lesmateriaal (PDF e.d.)
         try_path = path
         if not try_path or not os.path.exists(try_path):
             base = resource_dir()
@@ -757,13 +860,13 @@ class QuizApp:
             return
         try:
             if sys.platform.startswith("win"):
-                os.startfile(try_path)
+                os.startfile(try_path)  # Windows
             elif sys.platform == "darwin":
-                os.system(f'open "{try_path}"')
+                os.system(f'open "{try_path}"')  # macOS
             else:
-                webbrowser.open(f"file://{try_path}")
+                webbrowser.open(f"file://{try_path}")  # Linux/overig
         except Exception as e:
-            self.show_error_message(f"Kon PDF niet openen: {e}")
+            self.show_error_message(f"Kon bestand niet openen: {e}")
 
     def open_book_pdf(self):
         base = resource_dir()
@@ -1271,6 +1374,7 @@ if __name__ == "__main__":
                 (Path(resource_dir()) / "startup_error.log").write_text(err, encoding="utf-8")
             except Exception:
                 pass
+
 
 
 

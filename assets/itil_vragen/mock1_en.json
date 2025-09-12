@@ -1,0 +1,431 @@
+{
+  "chapters": [
+    {
+      "chapter": "Mock 1",
+      "description": "ITIL 4 - Practice Test Mock 1 (EN, questions 1-40)",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Almost all services today are considered to be:",
+          "options": ["IT-enabled", "Cloud enabled", "Security enabled", "Service desk enabled"],
+          "answer": "IT-enabled",
+          "explanation": {
+            "IT-enabled": "All services today are IT-enabled which offers companies many benefits to expand their opportunities."
+          }
+        },
+        {
+          "number": 2,
+          "question": "What are two key components of the ITIL framework?",
+          "options": [
+            "Service value system and service desk",
+            "Service value system and four dimensions model",
+            "Four dimensions model and service desk",
+            "Four dimensions model and practices"
+          ],
+          "answer": "Service value system and four dimensions model",
+          "explanation": {
+            "Service value system and four dimensions model": "The main components of the ITIL framework are the service value system and the four dimensions model."
+          }
+        },
+        {
+          "number": 3,
+          "question": "How many core components does the service value system (SVS) contain?",
+          "options": ["2", "3", "4", "5"],
+          "answer": "5",
+          "explanation": {
+            "5": "There are 5 components in the SVS, the ITIL service value chain, ITIL practices, ITIL guiding principles, governance, and continual improvement."
+          }
+        },
+        {
+          "number": 4,
+          "question": "What part of the SVS helps to create the foundation for an organization culture?",
+          "options": ["Service value chain", "Practices", "Guiding principles", "Continual improvement"],
+          "answer": "Guiding principles",
+          "explanation": {
+            "Guiding principles": "The guiding principles of the SVS helps to create the foundation for the organization culture and decision making."
+          }
+        },
+        {
+          "number": 5,
+          "question": "Customers will get value through the use of?",
+          "options": ["Services", "Technology", "Email", "Financial resources"],
+          "answer": "Services",
+          "explanation": {
+            "Services": "Customers will get value through the use of services. Services are a means of delivering value to customers."
+          }
+        },
+        {
+          "number": 6,
+          "question": "What is the term for a set of specialized organizational capabilities for enabling value for customers in the form of services?",
+          "options": ["IT management", "Service desk management", "Service delivery management", "Service management"],
+          "answer": "Service management",
+          "explanation": {
+            "Service management": "Service management is defined as a set of specialized organizational capabilities for enabling value for customers in the form of services."
+          }
+        },
+        {
+          "number": 7,
+          "question": "Value is subject to the?",
+          "options": ["Cost of the service", "Perception of the stakeholder", "Method of delivery", "Technology used"],
+          "answer": "Perception of the stakeholder",
+          "explanation": {
+            "Perception of the stakeholder": "Value is defined as the perceived benefits, usefulness, and importance of something. Cost, delivery method, and technology can all contribute to a stakeholder's perception, but do not fully define value."
+          }
+        },
+        {
+          "number": 8,
+          "question": "What does value co-creation means?",
+          "options": [
+            "Value is co-created between providers and technology",
+            "Value is co-created between providers and suppliers",
+            "Value is co-created between providers and consumers",
+            "Value is co-created between providers and management"
+          ],
+          "answer": "Value is co-created between providers and consumers",
+          "explanation": {
+            "Value is co-created between providers and consumers": "Value is co-created through an active collaboration between the providers and consumers."
+          }
+        },
+        {
+          "number": 9,
+          "question": "What is considered a person or a group of people that has its own functions with responsibilities, authorities, and relationships to achieve its goals?",
+          "options": ["Service desk", "Service support", "Service value", "Organization"],
+          "answer": "Organization",
+          "explanation": {
+            "Organization": "An organization is a person or a group of people that has its own functions with responsibilities, authorities, and relationships to achieve its objectives."
+          }
+        },
+        {
+          "number": 10,
+          "question": "When provisioning services, an organization takes on the role of a?",
+          "options": ["Service consumer", "Service provider", "Consumer", "Provider"],
+          "answer": "Service provider",
+          "explanation": {
+            "Service provider": "When provisioning services, an organization takes on the role of the service provider."
+          }
+        },
+        {
+          "number": 11,
+          "question": "Who authorizes the budget for service consumption?",
+          "options": ["Customer", "Service provider", "Senior management", "Sponsor"],
+          "answer": "Sponsor",
+          "explanation": {
+            "Sponsor": "The sponsor is the person that authorizes the budget for service consumption."
+          }
+        },
+        {
+          "number": 12,
+          "question": "Which of the following is not part of the four dimensions model?",
+          "options": [
+            "Organizations and people",
+            "Information and technology",
+            "Partners and suppliers",
+            "Process streams and procedures"
+          ],
+          "answer": "Process streams and procedures",
+          "explanation": {
+            "Process streams and procedures": "Process streams and procedures are not part of the four dimensions model. The four dimensions are organizations and people, information and technology, partners and suppliers, and value streams and processes."
+          }
+        },
+        {
+          "number": 13,
+          "question": "What is the purpose of an organization?",
+          "options": [
+            "To setup technology for customers",
+            "To meet customers needs",
+            "To create value for stakeholders",
+            "To manage IT Services for customers"
+          ],
+          "answer": "To create value for stakeholders",
+          "explanation": {
+            "To create value for stakeholders": "The purpose of an organization is to create value for stakeholders."
+          }
+        },
+        {
+          "number": 14,
+          "question": "Value is co-created through active collaboration between?",
+          "options": [
+            "Providers and consumers",
+            "Providers only",
+            "Providers and technology",
+            "Providers and software"
+          ],
+          "answer": "Providers and consumers",
+          "explanation": {
+            "Providers and consumers": "Value is co-created through an active collaboration between providers and consumers, as well as other organizations that are part of the relevant service relationships."
+          }
+        },
+        {
+          "number": 15,
+          "question": "When receiving services, an organization takes on the role of the?",
+          "options": ["Service consumer", "Service installer", "supplier", "Stakeholder"],
+          "answer": "Service consumer",
+          "explanation": {
+            "Service consumer": "When receiving services, an organization takes on the role of the service consumer."
+          }
+        },
+        {
+          "number": 16,
+          "question": "All activities conducted by the organization should link back, directly or indirectly to?",
+          "options": ["Services", "Processes", "Value", "Customers"],
+          "answer": "Value",
+          "explanation": {
+            "Value": "All activities conducted by the organization should link back, directly or indirectly, to value for itself, its customers, and other stakeholders."
+          }
+        },
+        {
+          "number": 17,
+          "question": "After the provider knows who the service is for, what should be done to focus on value?",
+          "options": [
+            "Find out the consumer perspectives of value",
+            "Find out the customer experience",
+            "Find out the way to measure value",
+            "Find out how to provide the service"
+          ],
+          "answer": "Find out the consumer perspectives of value",
+          "explanation": {
+            "Find out the consumer perspectives of value": "Once the provider knows who is the service for, then next step would be to understand the consumer’s perspectives of value."
+          }
+        },
+        {
+          "number": 18,
+          "question": "Before starting over and creating new services a provider should?",
+          "options": [
+            "Remove all unneeded services",
+            "Understand all resources needed for the new service",
+            "Consider what is already available to be leveraged.",
+            "Speak to the service consumer"
+          ],
+          "answer": "Consider what is already available to be leveraged.",
+          "explanation": {
+            "Consider what is already available to be leveraged.": "Do not start over without first considering what is already available to be leveraged."
+          }
+        },
+        {
+          "number": 19,
+          "question": "Progress should be done?",
+          "options": ["Quick and cost effective", "Iteratively with feedback", "Iteratively and Quick", "Quick with feedback"],
+          "answer": "Iteratively with feedback",
+          "explanation": {
+            "Iteratively with feedback": "One of the SVS guiding principle is to Progress iteratively with feedback."
+          }
+        },
+        {
+          "number": 20,
+          "question": "What is a feedback loop?",
+          "options": [
+            "Customers giving the same feedback",
+            "Never ending feedback",
+            "Part of the output of an activity is used for new input",
+            "Part of an output is assessing"
+          ],
+          "answer": "Part of the output of an activity is used for new input",
+          "explanation": {
+            "Part of the output of an activity is used for new input": "A feedback loop is a term commonly used to refer to a situation where part of the output of an activity is used for new input."
+          }
+        },
+        {
+          "number": 21,
+          "question": "What is a version of the final product which allows the maximum amount of validated learning with the least effort?",
+          "options": ["Complete product", "Cost saving product", "Least useable product", "Minimum viable product"],
+          "answer": "Minimum viable product",
+          "explanation": {
+            "Minimum viable product": "Minimum viable product is a version of the final product which allows the maximum amount of validated learning with the least effort."
+          }
+        },
+        {
+          "number": 22,
+          "question": "What is considered a 'silo activity'?",
+          "options": ["Isolated work", "Collaborate work", "Group work", "Pool work"],
+          "answer": "Isolated work",
+          "explanation": {
+            "Isolated work": "Cooperation and collaboration are better than isolated work, which is frequently referred to as 'silo activity'."
+          }
+        },
+        {
+          "number": 23,
+          "question": "Working together in a way that leads to real accomplishment requires information, understanding, and ____________.",
+          "options": ["Technology", "Co-location", "Trust", "Dedication"],
+          "answer": "Trust",
+          "explanation": {
+            "Trust": "The ITIL framework emphasizes collaboration and the integration of various teams and stakeholders to achieve meaningful and sustainable outcomes. Trust fosters open communication, reduces conflicts, and enhances cooperation, enabling teams to work towards shared goals with confidence."
+          }
+        },
+        {
+          "number": 24,
+          "question": "What leads to poor decision-making, which in turn impacts the organization's ability to improve internal capabilities?",
+          "options": ["Insufficient team", "Insufficient time", "Insufficient visibility of work", "Insufficient practices"],
+          "answer": "Insufficient visibility of work",
+          "explanation": {
+            "Insufficient visibility of work": "Insufficient visibility of work leads to poor decision-making, which in turn impacts the organization's ability to improve internal capabilities."
+          }
+        },
+        {
+          "number": 25,
+          "question": "Which of the following describes understanding how all the parts of an organization work together in an integrated way?",
+          "options": [
+            "Think and work together",
+            "Think and work holistically",
+            "Integration of services",
+            "Integration of technology"
+          ],
+          "answer": "Think and work holistically",
+          "explanation": {
+            "Think and work holistically": "Taking a holistic approach to service management includes establishing an understanding of how all the parts of an organization work together in an integrated way."
+          }
+        },
+        {
+          "number": 26,
+          "question": "When trying to accomplish an objective you should?",
+          "options": [
+            "Use the maximum number of steps",
+            "Use the minimum number of steps",
+            "Use complex steps",
+            "Use steps you understand"
+          ],
+          "answer": "Use the minimum number of steps",
+          "explanation": {
+            "Use the minimum number of steps": "Always use the minimum number of steps to accomplish an objective."
+          }
+        },
+        {
+          "number": 27,
+          "question": "What is the best route to achieving quick wins?",
+          "options": ["Quick Steps", "Complex steps", "Simplicity", "None of the above"],
+          "answer": "Simplicity",
+          "explanation": {
+            "Simplicity": "Simplicity is the best route to achieving quick wins."
+          }
+        },
+        {
+          "number": 28,
+          "question": "What refers to the use of technology to perform a step or series of steps correctly and consistently with limited or no human intervention?",
+          "options": ["Optimization", "Automation", "Computerization", "Deployments"],
+          "answer": "Automation",
+          "explanation": {
+            "Automation": "Automation typically refers to the use of technology to perform a step or series of steps correctly and consistently with limited or no human intervention."
+          }
+        },
+        {
+          "number": 29,
+          "question": "The governing body of an organization is?",
+          "options": [
+            "Accountable only to government compliance",
+            "Accountable to shareholders",
+            "Accountable for policies",
+            "Accountable for the organization's compliance with policies and any external regulations."
+          ],
+          "answer": "Accountable for the organization's compliance with policies and any external regulations.",
+          "explanation": {
+            "Accountable for the organization's compliance with policies and any external regulations.": "The governing body is accountable for the organization’s compliance with policies and any external regulations."
+          }
+        },
+        {
+          "number": 30,
+          "question": "The service value chain includes how many activities?",
+          "options": ["3", "4", "5", "6"],
+          "answer": "6",
+          "explanation": {
+            "6": "The ITIL service value chain includes six value chain activities which lead to the creation of products and services and, in turn, value. They are plan, improve, engage, design and transition, obtain/build, deliver and support."
+          }
+        },
+        {
+          "number": 31,
+          "question": "What in the service value chain ensures a shared understanding of the vision, current status, and improvement direction for all four dimensions and all products and services across the organization?",
+          "options": ["Plan", "Improve", "Engage", "Design"],
+          "answer": "Plan",
+          "explanation": {
+            "Plan": "The purpose of the plan value chain activity is to ensure a shared understanding of the vision, current status, and improvement direction for all four dimensions and all products and services across the organization."
+          }
+        },
+        {
+          "number": 32,
+          "question": "Software assets must be protected from unlawful...?",
+          "options": ["Purchases", "Networking", "Copying", "Installation"],
+          "answer": "Copying",
+          "explanation": {
+            "Copying": "Software assets must be protected from unlawful copying, which could result in unlicensed use."
+          }
+        },
+        {
+          "number": 33,
+          "question": "Hardware assets must be labelled for clear...?",
+          "options": ["Location", "Identification", "Damages", "Usage"],
+          "answer": "Identification",
+          "explanation": {
+            "Identification": "Hardware assets must be labelled for clear identification."
+          }
+        },
+        {
+          "number": 34,
+          "question": "IT asset management maintains information about the assets, their costs, and...?",
+          "options": ["Related contracts", "Usage", "Disposal", "Re-use"],
+          "answer": "Related contracts",
+          "explanation": {
+            "Related contracts": "IT asset management maintains information about the assets, their costs, and related contracts."
+          }
+        },
+        {
+          "number": 35,
+          "question": "The IT asset register is often combined (or federated) with the information stored in a... ?",
+          "options": [
+            "Configuration management system (CMS)",
+            "System management system (SMS)",
+            "Central management system (CMS)",
+            "Asset management system (AMS)"
+          ],
+          "answer": "Configuration management system (CMS)",
+          "explanation": {
+            "Configuration management system (CMS)": "Asset management system (AMS)."
+          }
+        },
+        {
+          "number": 36,
+          "question": "What is it called when the CI itself generates the operational alerts?",
+          "options": ["Active monitoring", "Passive monitoring", "Self-monitoring", "System monitoring"],
+          "answer": "Passive monitoring",
+          "explanation": {
+            "Passive monitoring": "In passive monitoring, the CI itself generates the operational alerts."
+          }
+        },
+        {
+          "number": 37,
+          "question": "What is it called when tools will poll key CIs, looking at their status to generate alerts when an exception condition is identified?",
+          "options": ["Active monitoring", "Passive monitoring", "Self-monitoring", "System monitoring"],
+          "answer": "Active monitoring",
+          "explanation": {
+            "Active monitoring": "In active monitoring, tools will poll key CIs, looking at their status to generate alerts when an exception condition is identified."
+          }
+        },
+        {
+          "number": 38,
+          "question": "Problem control activities include problem analysis, documenting workarounds and... ?",
+          "options": ["Error control", "Incident control", "Known errors", "Problem prioritization"],
+          "answer": "Known errors",
+          "explanation": {
+            "Known errors": "Problem control activities include problem analysis, and documenting workarounds and known errors."
+          }
+        },
+        {
+          "number": 39,
+          "question": "Problems are prioritized for analysis based on the... ?",
+          "options": ["Cost of fixing", "Time needed to fix", "Number of users affected", "Risk they pose"],
+          "answer": "Risk they pose",
+          "explanation": {
+            "Risk they pose": "Problems are prioritized for analysis based on the risk that they pose, and are managed as risks based on their potential impact and probability."
+          }
+        },
+        {
+          "number": 40,
+          "question": "Workarounds are documented in... ?",
+          "options": ["Risk register", "IT asset register", "Problem register", "Problem records"],
+          "answer": "Problem records",
+          "explanation": {
+            "Problem records": "Workarounds are documented in problem records."
+          }
+        }
+      ]
+    }
+  ]
+}
+

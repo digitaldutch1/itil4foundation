@@ -1,0 +1,431 @@
+{
+  "chapters": [
+    {
+      "chapter": "Mock 1 (NL)",
+      "description": "ITIL 4 - Oefentoets Mock 1 (NL, vragen 1-40)",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Bijna alle services worden tegenwoordig beschouwd als:",
+          "options": ["IT-enabled", "Cloud enabled", "Security enabled", "Service desk enabled"],
+          "answer": "IT-enabled",
+          "explanation": {
+            "IT-enabled": "Alle services zijn tegenwoordig IT-enabled, wat organisaties veel voordelen biedt om hun kansen te vergroten."
+          }
+        },
+        {
+          "number": 2,
+          "question": "Wat zijn twee kernonderdelen van het ITIL-raamwerk?",
+          "options": [
+            "Servicewaardesysteem en servicedesk",
+            "Servicewaardesysteem en vier-dimensiesmodel",
+            "Vier-dimensiesmodel en servicedesk",
+            "Vier-dimensiesmodel en practices"
+          ],
+          "answer": "Servicewaardesysteem en vier-dimensiesmodel",
+          "explanation": {
+            "Servicewaardesysteem en vier-dimensiesmodel": "De hoofdcomponenten van ITIL zijn het servicewaardesysteem en het vier-dimensiesmodel."
+          }
+        },
+        {
+          "number": 3,
+          "question": "Uit hoeveel kerncomponenten bestaat het servicewaardesysteem (SWS)?",
+          "options": ["2", "3", "4", "5"],
+          "answer": "5",
+          "explanation": {
+            "5": "Het SWS heeft 5 componenten: de ITIL-servicewaardeketen, ITIL-practices, ITIL-richtinggevende principes, governance en voortdurend verbeteren."
+          }
+        },
+        {
+          "number": 4,
+          "question": "Welk onderdeel van het SWS helpt het fundament te leggen voor de organisatiecultuur?",
+          "options": ["Servicewaardeketen", "Practices", "Richtinggevende principes", "Voortdurend verbeteren"],
+          "answer": "Richtinggevende principes",
+          "explanation": {
+            "Richtinggevende principes": "De richtinggevende principes helpen het fundament te creëren voor organisatiecultuur en besluitvorming."
+          }
+        },
+        {
+          "number": 5,
+          "question": "Klanten krijgen waarde door het gebruik van?",
+          "options": ["Services", "Technologie", "E-mail", "Financiële middelen"],
+          "answer": "Services",
+          "explanation": {
+            "Services": "Klanten krijgen waarde door het gebruik van services. Services zijn een middel om waarde te leveren aan klanten."
+          }
+        },
+        {
+          "number": 6,
+          "question": "Hoe heet een set gespecialiseerde organisatorische vermogens om waarde voor klanten mogelijk te maken in de vorm van services?",
+          "options": ["IT-management", "Servicedeskmanagement", "Service delivery management", "Servicemanagement"],
+          "answer": "Servicemanagement",
+          "explanation": {
+            "Servicemanagement": "Servicemanagement is gedefinieerd als een reeks gespecialiseerde organisatorische vermogens om waarde voor klanten mogelijk te maken in de vorm van services."
+          }
+        },
+        {
+          "number": 7,
+          "question": "Waarde is afhankelijk van de?",
+          "options": ["Kosten van de service", "Perceptie van de stakeholder", "Wijze van levering", "Ingezette technologie"],
+          "answer": "Perceptie van de stakeholder",
+          "explanation": {
+            "Perceptie van de stakeholder": "Waarde is het ervaren voordeel, nut en belang van iets. Kosten, leverwijze en technologie beïnvloeden de perceptie, maar definiëren waarde niet volledig."
+          }
+        },
+        {
+          "number": 8,
+          "question": "Wat betekent het cocreëren van waarde?",
+          "options": [
+            "Waarde wordt gecocreëerd tussen leveranciers en technologie",
+            "Waarde wordt gecocreëerd tussen leveranciers en leveranciers",
+            "Waarde wordt gecocreëerd tussen leveranciers en consumenten",
+            "Waarde wordt gecocreëerd tussen leveranciers en management"
+          ],
+          "answer": "Waarde wordt gecocreëerd tussen leveranciers en consumenten",
+          "explanation": {
+            "Waarde wordt gecocreëerd tussen leveranciers en consumenten": "Waarde wordt gecocreëerd door actieve samenwerking tussen de service-provider en de serviceconsument."
+          }
+        },
+        {
+          "number": 9,
+          "question": "Wat wordt beschouwd als een persoon of groep mensen met eigen functies, verantwoordelijkheden, bevoegdheden en relaties om doelstellingen te bereiken?",
+          "options": ["Servicedesk", "Service support", "Service value", "Organisatie"],
+          "answer": "Organisatie",
+          "explanation": {
+            "Organisatie": "Een organisatie is een persoon of een groep mensen met eigen functies, verantwoordelijkheden, bevoegdheden en relaties om doelstellingen te bereiken."
+          }
+        },
+        {
+          "number": 10,
+          "question": "Bij het leveren van services neemt een organisatie de rol aan van een?",
+          "options": ["Serviceconsument", "Serviceprovider", "Consument", "Provider"],
+          "answer": "Serviceprovider",
+          "explanation": {
+            "Serviceprovider": "Bij het leveren van services neemt een organisatie de rol van serviceprovider op zich."
+          }
+        },
+        {
+          "number": 11,
+          "question": "Wie autoriseert het budget voor serviceconsumptie?",
+          "options": ["Klant", "Serviceprovider", "Senior management", "Sponsor"],
+          "answer": "Sponsor",
+          "explanation": {
+            "Sponsor": "De sponsor is de rol die de kosten van serviceconsumptie autoriseert."
+          }
+        },
+        {
+          "number": 12,
+          "question": "Welke van de volgende hoort niet bij het vier-dimensiesmodel?",
+          "options": [
+            "Organisaties en mensen",
+            "Informatie en technologie",
+            "Partners en leveranciers",
+            "Processtromen en procedures"
+          ],
+          "answer": "Processtromen en procedures",
+          "explanation": {
+            "Processtromen en procedures": "Dit hoort niet bij de vier dimensies. De vier dimensies zijn: organisaties en mensen, informatie en technologie, partners en leveranciers, en waardestromen en processen."
+          }
+        },
+        {
+          "number": 13,
+          "question": "Wat is het doel van een organisatie?",
+          "options": [
+            "Technologie voor klanten inrichten",
+            "Voldoen aan behoeften van klanten",
+            "Waarde creëren voor stakeholders",
+            "IT-services voor klanten managen"
+          ],
+          "answer": "Waarde creëren voor stakeholders",
+          "explanation": {
+            "Waarde creëren voor stakeholders": "Het doel van een organisatie is waarde te creëren voor haar stakeholders."
+          }
+        },
+        {
+          "number": 14,
+          "question": "Waarde wordt gecocreëerd door actieve samenwerking tussen?",
+          "options": [
+            "Leveranciers en consumenten",
+            "Alleen leveranciers",
+            "Leveranciers en technologie",
+            "Leveranciers en software"
+          ],
+          "answer": "Leveranciers en consumenten",
+          "explanation": {
+            "Leveranciers en consumenten": "Waarde wordt gecocreëerd door actieve samenwerking tussen providers en consumenten, en eventueel andere betrokken organisaties."
+          }
+        },
+        {
+          "number": 15,
+          "question": "Bij het ontvangen van services neemt een organisatie de rol aan van de?",
+          "options": ["Serviceconsument", "Service-installateur", "Leverancier", "Stakeholder"],
+          "answer": "Serviceconsument",
+          "explanation": {
+            "Serviceconsument": "Bij het ontvangen van services neemt een organisatie de rol van serviceconsument op zich."
+          }
+        },
+        {
+          "number": 16,
+          "question": "Alle activiteiten van de organisatie moeten direct of indirect terug te voeren zijn op?",
+          "options": ["Services", "Processen", "Waarde", "Klanten"],
+          "answer": "Waarde",
+          "explanation": {
+            "Waarde": "Alle activiteiten moeten direct of indirect gekoppeld zijn aan waarde voor de organisatie, haar klanten en andere stakeholders."
+          }
+        },
+        {
+          "number": 17,
+          "question": "Nadat de provider weet voor wie de service is, wat moet worden gedaan om te focussen op waarde?",
+          "options": [
+            "De consumentperspectieven op waarde achterhalen",
+            "De klantervaring onderzoeken",
+            "De manier om waarde te meten bepalen",
+            "Bekijken hoe de service te leveren"
+          ],
+          "answer": "De consumentperspectieven op waarde achterhalen",
+          "explanation": {
+            "De consumentperspectieven op waarde achterhalen": "Als duidelijk is voor wie de service is, is de volgende stap het begrijpen van de perspectieven van de consument op waarde."
+          }
+        },
+        {
+          "number": 18,
+          "question": "Voordat je opnieuw begint en nieuwe services creëert, moet een provider eerst?",
+          "options": [
+            "Alle onnodige services verwijderen",
+            "Alle benodigde resources voor de nieuwe service bepalen",
+            "Bekijken wat al beschikbaar is en benut kan worden",
+            "Met de serviceconsument spreken"
+          ],
+          "answer": "Bekijken wat al beschikbaar is en benut kan worden",
+          "explanation": {
+            "Bekijken wat al beschikbaar is en benut kan worden": "Begin niet overnieuw zonder eerst te bekijken wat al beschikbaar is om te benutten."
+          }
+        },
+        {
+          "number": 19,
+          "question": "Vooruitgang moet worden geboekt?",
+          "options": ["Snel en kosteneffectief", "Iteratief met feedback", "Iteratief en snel", "Snel met feedback"],
+          "answer": "Iteratief met feedback",
+          "explanation": {
+            "Iteratief met feedback": "Een richtinggevend principe luidt: verbeter iteratief met feedback."
+          }
+        },
+        {
+          "number": 20,
+          "question": "Wat is een feedbacklus?",
+          "options": [
+            "Klanten geven dezelfde feedback",
+            "Eindeloze feedback",
+            "Een deel van de output van een activiteit wordt gebruikt als nieuwe input",
+            "Een deel van een output is beoordeling"
+          ],
+          "answer": "Een deel van de output van een activiteit wordt gebruikt als nieuwe input",
+          "explanation": {
+            "Een deel van de output van een activiteit wordt gebruikt als nieuwe input": "Een feedbacklus betekent dat een deel van de output opnieuw wordt gebruikt als input."
+          }
+        },
+        {
+          "number": 21,
+          "question": "Wat is een versie van het eindproduct die maximale gevalideerde leeropbrengst met minimale inspanning mogelijk maakt?",
+          "options": ["Volledig product", "Kostenbesparend product", "Minst bruikbaar product", "Minimum levensvatbaar product"],
+          "answer": "Minimum levensvatbaar product",
+          "explanation": {
+            "Minimum levensvatbaar product": "Een minimum levensvatbaar product (MVP) levert maximale gevalideerde leeropbrengst met de minste inspanning."
+          }
+        },
+        {
+          "number": 22,
+          "question": "Wat wordt beschouwd als een 'silo-activiteit'?",
+          "options": ["Geïsoleerd werk", "Samenwerkend werk", "Groepswerk", "Poolwerk"],
+          "answer": "Geïsoleerd werk",
+          "explanation": {
+            "Geïsoleerd werk": "Samenwerking is beter dan geïsoleerd werk, dat vaak 'silo-activiteit' wordt genoemd."
+          }
+        },
+        {
+          "number": 23,
+          "question": "Samenwerken op een manier die tot echte resultaten leidt, vereist informatie, begrip en ____________.",
+          "options": ["Technologie", "Co-locatie", "Vertrouwen", "Toewijding"],
+          "answer": "Vertrouwen",
+          "explanation": {
+            "Vertrouwen": "Vertrouwen bevordert open communicatie, vermindert conflicten en versterkt samenwerking, waardoor teams met vertrouwen aan gedeelde doelen werken."
+          }
+        },
+        {
+          "number": 24,
+          "question": "Wat leidt tot slechte besluitvorming en schaadt daarmee het vermogen van de organisatie om interne capaciteiten te verbeteren?",
+          "options": ["Onvoldoende team", "Onvoldoende tijd", "Onvoldoende zicht op werk", "Onvoldoende practices"],
+          "answer": "Onvoldoende zicht op werk",
+          "explanation": {
+            "Onvoldoende zicht op werk": "Onvoldoende zicht op werk leidt tot slechte besluitvorming en belemmert het verbeteren van interne capaciteiten."
+          }
+        },
+        {
+          "number": 25,
+          "question": "Welke omschrijving past bij het begrip hoe alle delen van een organisatie op geïntegreerde wijze samenwerken?",
+          "options": [
+            "Samen denken en werken",
+            "Holistisch denken en werken",
+            "Integratie van services",
+            "Integratie van technologie"
+          ],
+          "answer": "Holistisch denken en werken",
+          "explanation": {
+            "Holistisch denken en werken": "Een holistische benadering vereist inzicht in hoe alle delen van de organisatie geïntegreerd samenwerken."
+          }
+        },
+        {
+          "number": 26,
+          "question": "Als je een doel wilt bereiken, moet je?",
+          "options": [
+            "Het maximale aantal stappen gebruiken",
+            "Het minimale aantal stappen gebruiken",
+            "Complexe stappen gebruiken",
+            "Stappen gebruiken die je begrijpt"
+          ],
+          "answer": "Het minimale aantal stappen gebruiken",
+          "explanation": {
+            "Het minimale aantal stappen gebruiken": "Gebruik altijd het minimale aantal stappen om een doel te bereiken."
+          }
+        },
+        {
+          "number": 27,
+          "question": "Wat is de beste route om 'quick wins' te behalen?",
+          "options": ["Snelle stappen", "Complexe stappen", "Eenvoud", "Geen van bovenstaande"],
+          "answer": "Eenvoud",
+          "explanation": {
+            "Eenvoud": "Eenvoud is de beste route om quick wins te behalen."
+          }
+        },
+        {
+          "number": 28,
+          "question": "Waar verwijst het gebruik van technologie naar om een stap of reeks stappen correct en consistent uit te voeren met weinig of geen menselijke tussenkomst?",
+          "options": ["Optimalisatie", "Automatisering", "Computerisering", "Uitrol"],
+          "answer": "Automatisering",
+          "explanation": {
+            "Automatisering": "Automatisering is het met technologie correct en consistent uitvoeren van stappen met beperkte of geen menselijke tussenkomst."
+          }
+        },
+        {
+          "number": 29,
+          "question": "Het bestuurlijk orgaan (governing body) van een organisatie is?",
+          "options": [
+            "Alleen verantwoordelijk voor overheidscompliance",
+            "Verantwoording verschuldigd aan aandeelhouders",
+            "Verantwoordelijk voor beleid",
+            "Verantwoordelijk voor naleving van beleid en externe regelgeving"
+          ],
+          "answer": "Verantwoordelijk voor naleving van beleid en externe regelgeving",
+          "explanation": {
+            "Verantwoordelijk voor naleving van beleid en externe regelgeving": "Het governing body is verantwoordelijk voor naleving van beleid en eventuele externe regelgeving."
+          }
+        },
+        {
+          "number": 30,
+          "question": "Uit hoeveel activiteiten bestaat de servicewaardeketen?",
+          "options": ["3", "4", "5", "6"],
+          "answer": "6",
+          "explanation": {
+            "6": "De servicewaardeketen heeft zes activiteiten: plannen, verbeteren, betrekken, ontwerp en transitie, verkrijgen/bouwen, en opleveren en ondersteunen."
+          }
+        },
+        {
+          "number": 31,
+          "question": "Welke activiteit in de servicewaardeketen zorgt voor een gedeeld begrip van de visie, huidige status en verbeterrichting voor alle vier dimensies en alle producten en services?",
+          "options": ["Plannen", "Verbeteren", "Betrekken", "Ontwerp"],
+          "answer": "Plannen",
+          "explanation": {
+            "Plannen": "Het doel van Plannen is te zorgen voor een breed gedeeld begrip van visie, status en verbeterrichting over alle dimensies, producten en services."
+          }
+        },
+        {
+          "number": 32,
+          "question": "Software-assets moeten worden beschermd tegen onrechtmatig...?",
+          "options": ["Aankopen", "Netwerkgebruik", "Kopiëren", "Installeren"],
+          "answer": "Kopiëren",
+          "explanation": {
+            "Kopiëren": "Software-assets moeten worden beschermd tegen onrechtmatig kopiëren, wat kan leiden tot ongeoorloofd gebruik."
+          }
+        },
+        {
+          "number": 33,
+          "question": "Hardware-assets moeten worden gelabeld voor duidelijke...?",
+          "options": ["Locatie", "Identificatie", "Schade", "Gebruik"],
+          "answer": "Identificatie",
+          "explanation": {
+            "Identificatie": "Hardware-assets moeten worden gelabeld voor duidelijke identificatie."
+          }
+        },
+        {
+          "number": 34,
+          "question": "IT-assetmanagement onderhoudt informatie over de assets, hun kosten en...?",
+          "options": ["Gerelateerde contracten", "Gebruik", "Afvoer", "Hergebruik"],
+          "answer": "Gerelateerde contracten",
+          "explanation": {
+            "Gerelateerde contracten": "IT-assetmanagement onderhoudt informatie over assets, kosten en gerelateerde contracten."
+          }
+        },
+        {
+          "number": 35,
+          "question": "Het IT-assetregister wordt vaak gecombineerd (of gefedereerd) met informatie die is opgeslagen in een...?",
+          "options": [
+            "Configuration management system (CMS)",
+            "System management system (SMS)",
+            "Central management system (CMS)",
+            "Asset management system (AMS)"
+          ],
+          "answer": "Configuration management system (CMS)",
+          "explanation": {
+            "Configuration management system (CMS)": "Asset management system (AMS)."
+          }
+        },
+        {
+          "number": 36,
+          "question": "Hoe heet het wanneer het CI zelf de operationele alerts genereert?",
+          "options": ["Actieve monitoring", "Passieve monitoring", "Zelfmonitoring", "Systeemmonitoring"],
+          "answer": "Passieve monitoring",
+          "explanation": {
+            "Passieve monitoring": "Bij passieve monitoring genereert het CI zelf de operationele alerts."
+          }
+        },
+        {
+          "number": 37,
+          "question": "Hoe heet het wanneer tools sleutel-CI's poll'en en hun status controleren om alerts te genereren zodra een uitzonderingsconditie wordt vastgesteld?",
+          "options": ["Actieve monitoring", "Passieve monitoring", "Zelfmonitoring", "Systeemmonitoring"],
+          "answer": "Actieve monitoring",
+          "explanation": {
+            "Actieve monitoring": "Bij actieve monitoring poll'en tools de status van CI's om alerts te genereren bij uitzonderingscondities."
+          }
+        },
+        {
+          "number": 38,
+          "question": "Problem control-activiteiten omvatten probleemanalyse, het documenteren van workarounds en...?",
+          "options": ["Error control", "Incidentbeheersing", "Known errors", "Prioritering van problems"],
+          "answer": "Known errors",
+          "explanation": {
+            "Known errors": "Problem control omvat probleemanalyse en het documenteren van workarounds en known errors."
+          }
+        },
+        {
+          "number": 39,
+          "question": "Problems worden geprioriteerd voor analyse op basis van de...?",
+          "options": ["Kosten van herstel", "Tijd die nodig is voor herstel", "Aantal getroffen gebruikers", "Risico's die ze vormen"],
+          "answer": "Risico's die ze vormen",
+          "explanation": {
+            "Risico's die ze vormen": "Problems worden geprioriteerd op basis van risico (potentiële impact en waarschijnlijkheid) en als risico's gemanaged."
+          }
+        },
+        {
+          "number": 40,
+          "question": "Workarounds worden gedocumenteerd in...?",
+          "options": ["Risicoregister", "IT-assetregister", "Problemregister", "Problemrecords"],
+          "answer": "Problemrecords",
+          "explanation": {
+            "Problemrecords": "Workarounds worden vastgelegd in problemrecords."
+          }
+        }
+      ]
+    }
+  ]
+}
+

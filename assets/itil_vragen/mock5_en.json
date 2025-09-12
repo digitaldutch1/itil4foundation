@@ -1,0 +1,372 @@
+{
+  "chapters": [
+    {
+      "chapter": "Mock 5",
+      "description": "ITIL 4 - Practice Test Mock 5 (EN, questions 1-40)",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What is an arrangement of configuration items (CIs) or other resources that work together to deliver a product or service?",
+          "options": ["Configuration", "Formation", "CMS", "CMDB"],
+          "answer": "Configuration",
+          "explanation": {
+            "Configuration": "Configuration is an arrangement of configuration items (CIs) or other resources that work together to deliver a product or service."
+          }
+        },
+        {
+          "number": 2,
+          "question": "What is a measure of whether the objectives of a practice, service or activity have been achieved?",
+          "options": ["Effectiveness", "Efficiency", "Cost Saving", "Objectives definition"],
+          "answer": "Effectiveness",
+          "explanation": {
+            "Effectiveness": "Effectiveness is a measure of whether the objectives of a practice, service or activity have been achieved."
+          }
+        },
+        {
+          "number": 3,
+          "question": "What is a set of tools, data, and information that is used to support service configuration management?",
+          "options": ["Configuration management system", "IT System management", "Server management system", "CI management system"],
+          "answer": "Configuration management system",
+          "explanation": {
+            "Configuration management system": "A configuration management system is a set of tools, data, and information that is used to support service configuration management."
+          }
+        },
+        {
+          "number": 4,
+          "question": "What is the maximum acceptable period of time following a service disruption that can elapse before the lack of business functionality severely impacts the organization?",
+          "options": ["RPO", "RTO", "BIA", "Disaster recovery plan"],
+          "answer": "RTO",
+          "explanation": {
+            "RTO": "The Recovery time objective (RTO) is the maximum acceptable period of time following a service disruption that can elapse before the lack of business functionality severely impacts the organization."
+          }
+        },
+        {
+          "number": 5,
+          "question": "Which practice is done to ensure that the availability and performance of a service are maintained at sufficient levels in case of a disaster?",
+          "options": ["Disaster recovery service", "Business continuity management", "Service continuity management", "Continuity management"],
+          "answer": "Service continuity management",
+          "explanation": {
+            "Service continuity management": "The purpose of the service continuity management practice is to ensure that the availability and performance of a service are maintained at sufficient levels in case of a disaster."
+          }
+        },
+        {
+          "number": 6,
+          "question": "What practice is done to capture demand for incident resolution and service requests",
+          "options": ["Help Desk management", "Service Desk", "IT Management", "Incident management"],
+          "answer": "Service Desk",
+          "explanation": {
+            "Service Desk": "The purpose of the service desk practice is to capture demand for incident resolution and service requests. It should also be the entry point and single point of contact for the service provider with all of its users."
+          }
+        },
+        {
+          "number": 7,
+          "question": "What is a measure of whether the right amount of resources have been used by a practice, service, or activity?",
+          "options": ["Effectiveness", "Efficiency", "Cost Saving", "Objectives definition"],
+          "answer": "Efficiency",
+          "explanation": {
+            "Efficiency": "Efficiency is a measure of whether the right amount of resources have been used by a practice, service, or activity."
+          }
+        },
+        {
+          "number": 8,
+          "question": "What is a flaw or vulnerability that may cause incidents?",
+          "options": ["Hole", "Incorrect application usage", "Break", "Error"],
+          "answer": "Error",
+          "explanation": {
+            "Error": "An error is a flaw or vulnerability that may cause incidents"
+          }
+        },
+        {
+          "number": 9,
+          "question": "What is the policy that governs an organization's approach to information security management?",
+          "options": ["Security Policy", "Information security policy", "Organization security policy", "Security management policy"],
+          "answer": "Information security policy",
+          "explanation": {
+            "Information security policy": "The information security policy governs an organization's approach to information security management."
+          }
+        },
+        {
+          "number": 10,
+          "question": "All of the hardware, software, networks, and facilities that are required to develop, test, deliver, monitor, manage, and support IT services are called?",
+          "options": ["IT Components", "IT Equipment", "IT Assets", "IT infrastructure"],
+          "answer": "IT infrastructure",
+          "explanation": {
+            "IT infrastructure": "IT infrastructure is all of the hardware, software, networks, and facilities that are required to develop, test, deliver, monitor, manage, and support IT services."
+          }
+        },
+        {
+          "number": 11,
+          "question": "What is an important metric used to evaluate the success in meeting an objective?",
+          "options": ["Key metric indicator", "Performance indicator", "Key performance indicator", "Key achievement indicator"],
+          "answer": "Key performance indicator",
+          "explanation": {
+            "Key performance indicator": "A key performance indicator (KPI) is an important metric used to evaluate the success in meeting an objective."
+          }
+        },
+        {
+          "number": 12,
+          "question": "What is an approach that focuses on improving workflows by maximizing value through the elimination of waste?",
+          "options": ["Waterfall", "Project Management", "Lean", "Spiral"],
+          "answer": "Lean",
+          "explanation": {
+            "Lean": "Lean is an approach that focuses on improving workflows by maximizing value through the elimination of waste."
+          }
+        },
+        {
+          "number": 13,
+          "question": "What is known as the full set of stages, transitions, and associated statuses in the life of a service, product, practice, or other entity?",
+          "options": ["Service cycle", "Lifecycle", "Service circle", "Circle"],
+          "answer": "Lifecycle",
+          "explanation": {
+            "Lifecycle": "A lifecycle is the full set of stages, transitions, and associated statuses in the life of a service, product, practice, or other entity."
+          }
+        },
+        {
+          "number": 14,
+          "question": "What is known as the ease with which a service or other entity can be repaired or modified?",
+          "options": ["Maintainability", "Changeability", "Configuration", "Setting"],
+          "answer": "Maintainability",
+          "explanation": {
+            "Maintainability": "Maintainability is as the ease with which a service or other entity can be repaired or modified."
+          }
+        },
+        {
+          "number": 15,
+          "question": "What is a product with just enough features to satisfy early customers, and to provide feedback for future product development?",
+          "options": ["Minimum usable product", "Minimum viable product", "Lease viable product", "Lease usable product"],
+          "answer": "Minimum viable product",
+          "explanation": {
+            "Minimum viable product": "A minimum viable product (MVP) is a product with just enough features to satisfy early customers, and to provide feedback for future product development."
+          }
+        },
+        {
+          "number": 16,
+          "question": "What is known as the routine running and management of an activity, product, service, or other configuration item?",
+          "options": ["Organization task", "Organization calendar", "Continuous activities", "Operation"],
+          "answer": "Operation",
+          "explanation": {
+            "Operation": "Operation is the routine running and management of an activity, product, service, or other configuration item."
+          }
+        },
+        {
+          "number": 17,
+          "question": "What is known as the ability of an organization to anticipate, prepare for, respond to, and adapt to unplanned external influences?",
+          "options": ["Organizational plans", "Organizational resilience", "Organizational wiliness", "Organizational plans"],
+          "answer": "Organizational resilience",
+          "explanation": {
+            "Organizational resilience": "Organizational resilience is the ability of an organization to anticipate, prepare for, respond to, and adapt to unplanned external influences."
+          }
+        },
+        {
+          "number": 18,
+          "question": "What is known as a test implementation of a service with a limited scope in a live environment?",
+          "options": ["Test run", "Demo", "Prototype", "Pilot"],
+          "answer": "Pilot",
+          "explanation": {
+            "Pilot": "A pilot is a test implementation of a service with a limited scope in a live environment."
+          }
+        },
+        {
+          "number": 19,
+          "question": "What is a cooperation between a service provider and service consumer?",
+          "options": ["Service provision", "Service usage", "Service relationship", "Service management"],
+          "answer": "Service relationship",
+          "explanation": {
+            "Service relationship": "Service relationship is a cooperation between a service provider and service consumer."
+          }
+        },
+        {
+          "number": 20,
+          "question": "Which practice is done to ensure that the organization's suppliers and their performances are managed appropriately to support the seamless provision of quality products and services?",
+          "options": ["Vendor management", "Supplier management", "Outsource management", "Relationship management"],
+          "answer": "Supplier management",
+          "explanation": {
+            "Supplier management": "The purpose of the supplier management practice is to ensure that the organization's suppliers and their performances are managed appropriately to support the seamless provision of quality products and services."
+          }
+        },
+        {
+          "number": 21,
+          "question": "What is the name of the type of relationship between an organization and its supplier where external suppliers provide products and services that were previously provided internally?",
+          "options": ["Insourcing", "Outsourcing", "Farsourcing", "Multi-Sourcing"],
+          "answer": "Outsourcing",
+          "explanation": {
+            "Outsourcing": "Outsourcing is the process of having external suppliers provide products and services that were previously provided internally."
+          }
+        },
+        {
+          "number": 22,
+          "question": "Which practice is done to maximize the number of successful service and product changes by ensuring that risks have been properly assessed, authorizing changes to proceed, and managing the change schedule.",
+          "options": ["Adjustment Contro", "Service change management", "Service control", "Change enablement"],
+          "answer": "Change enablement",
+          "explanation": {
+            "Change enablement": "The purpose of the Change enablement practice is to maximize the number of successful service and product changes by ensuring that risks have been properly assessed, authorizing changes to proceed, and managing the change schedule."
+          }
+        },
+        {
+          "number": 23,
+          "question": "What is defined as the addition, modification, or removal of anything that could have a direct or indirect effect on services?",
+          "options": ["Service modification", "Service request", "Service adjustment", "Service Change"],
+          "answer": "Service Change",
+          "explanation": {
+            "Service Change": "Service change is the addition, modification, or removal of anything that could have a direct or indirect effect on services."
+          }
+        },
+        {
+          "number": 24,
+          "question": "____________________ practice may also be involved in positioning components to other environments for testing or stage in.",
+          "options": ["Change enablement", "Incident management", "Service desks", "Deployment management"],
+          "answer": "Deployment management",
+          "explanation": {
+            "Deployment management": "Deployment management may also be involved in deploying components to other environments for testing or staging."
+          }
+        },
+        {
+          "number": 25,
+          "question": "What is a change that must be implemented as soon as possible?",
+          "options": ["Non-standard change", "Emergency change", "Quick change", "Fast change"],
+          "answer": "Emergency change",
+          "explanation": {
+            "Emergency change": "Emergency changes are changes that must be implemented as soon as possible."
+          }
+        },
+        {
+          "number": 26,
+          "question": "What is an unplanned interruption to a service or reduction in the quality of a service?",
+          "options": ["Change", "Problem", "Incident", "Error"],
+          "answer": "Incident",
+          "explanation": {
+            "Incident": "An Incident is an unplanned interruption to a service or reduction in the quality of a service."
+          }
+        },
+        {
+          "number": 27,
+          "question": "Every incident should be?",
+          "options": ["Reported to management", "Escalated to higher support", "Analyze for problems", "Be logged and managed to ensure that it is resolved in a time that meets the expectations of the customer and user."],
+          "answer": "Be logged and managed to ensure that it is resolved in a time that meets the expectations of the customer and user.",
+          "explanation": {
+            "Be logged and managed to ensure that it is resolved in a time that meets the expectations of the customer and user.": "Every incident should be logged and managed to ensure that it is resolved in a time that meets the expectations of the customer and user."
+          }
+        },
+        {
+          "number": 28,
+          "question": "What practice is done to plan and manage the full lifecycle of all IT assets?",
+          "options": ["IT Asset control", "IT Asset System", "IT Asset management", "Asset management"],
+          "answer": "IT Asset management",
+          "explanation": {
+            "IT Asset management": "The purpose of the IT asset management practice is to plan and manage the full lifecycle of all IT assets, to help the organization maximize value, control costs, manage risks, support decision-making about purchase, re-use, retirement, and disposal of assets, meet regulatory and contractual requirements."
+          }
+        },
+        {
+          "number": 29,
+          "question": "What is any financially valuable component that can contribute to the delivery of an IT product or service?",
+          "options": ["IT Asset", "Technology", "Service", "Software"],
+          "answer": "IT Asset",
+          "explanation": {
+            "IT Asset": "An IT Asset is any financially valuable component that can contribute to the delivery of an IT product or service."
+          }
+        },
+        {
+          "number": 30,
+          "question": "What step in the ITIL continual improvement model provides context for all subsequent decisions and links individual actions to the organization's vision for the future?",
+          "options": ["What is the vision?", "Where do we want to be?", "How to measure the progress?", "Take action?"],
+          "answer": "What is the vision?",
+          "explanation": {
+            "What is the vision?": "The first step of the continual improvement model is to define the vision of the initiative. This provides context for all subsequent decisions and links individual actions to the organization's vision for the future."
+          }
+        },
+        {
+          "number": 31,
+          "question": "After you have determined where are we now, what should you do next?",
+          "options": ["Determined where do we want to be", "Determined how to get there", "Determined how to keep it going", "Determined how to take action."],
+          "answer": "Determined where do we want to be",
+          "explanation": {
+            "Determined where do we want to be": "The step after where are we now is where do we want to be."
+          }
+        },
+        {
+          "number": 32,
+          "question": "In what step would you setup KPI's",
+          "options": ["What is the vision?", "Where do we want to be?", "How to measure the progress?", "Take action?"],
+          "answer": "Where do we want to be?",
+          "explanation": {
+            "Where do we want to be?": "In the step of where do we want to be is where improvement objectives can be set, along with critical success factors (CSFs) and key performance indicators (KPIs)."
+          }
+        },
+        {
+          "number": 33,
+          "question": "What management practice is done for planning and implementing improvements?",
+          "options": ["Continual improvement", "Information security management", "Relationship management", "Supplier management"],
+          "answer": "Continual improvement",
+          "explanation": {
+            "Continual improvement": "Continual improvement key actives includes making business cases for improvement action, Planning and implementing improvements, and measuring and evaluating improvement results."
+          }
+        },
+        {
+          "number": 34,
+          "question": "To track and manage improvement ideas from identification through to final action, organizations use a database or structured document called a?",
+          "options": ["Continual improvement list", "Continual improvement document", "Continual improvement spreadsheet", "Continual improvement register"],
+          "answer": "Continual improvement register",
+          "explanation": {
+            "Continual improvement register": "To track and manage improvement ideas from identification through to final action, organizations use a database or structured document called a continual improvement register (CIR)."
+          }
+        },
+        {
+          "number": 35,
+          "question": "Which practice is done to protect the information needed by the organization to conduct its business?",
+          "options": ["Security management", "Information security management", "Asset protection management", "Information management"],
+          "answer": "Information security management",
+          "explanation": {
+            "Information security management": "The information security management practice is to protect the information needed by the organization to conduct its business."
+          }
+        },
+        {
+          "number": 36,
+          "question": "Which practice is done to establish and nurture the links between the organization and its stakeholders at strategic and tactical levels?",
+          "options": ["Vendor management", "Supplier management", "Relationship management", "Customer management"],
+          "answer": "Relationship management",
+          "explanation": {
+            "Relationship management": "The purpose of the relationship management practice is to establish and nurture the links between the organization and its stakeholders at strategic and tactical levels."
+          }
+        },
+        {
+          "number": 37,
+          "question": "Where should information about the assets, their costs, and related contracts be stored?",
+          "options": ["IT asset list", "IT asset database", "IT asset register", "IT asset catalog"],
+          "answer": "IT asset register",
+          "explanation": {
+            "IT asset register": "IT asset management maintains information about the assets, their costs, and related contracts in the IT asset register."
+          }
+        },
+        {
+          "number": 38,
+          "question": "What is any change of state that has significance for the management of a service or other configuration item (CI) called?",
+          "options": ["Problem", "Incident", "Action", "Event"],
+          "answer": "Event",
+          "explanation": {
+            "Event": "An event is any change of state that has significance for the management of a service or other configuration item (CI)."
+          }
+        },
+        {
+          "number": 39,
+          "question": "What is it called when New or changed software is made available in a controlled repository, and users download the software to client devices when they choose?",
+          "options": ["Phased deployment", "Continuous delivery", "Big bang deployment", "Pull deployment"],
+          "answer": "Pull deployment",
+          "explanation": {
+            "Pull deployment": "Pull deployment is when new or changed software is made available in a controlled repository, and users download the software to client devices when they choose."
+          }
+        },
+        {
+          "number": 40,
+          "question": "What practice allows an organization to meet regulatory and contractual requirements concerning IT assets?",
+          "options": ["IT asset management", "Deployment management", "Incident management", "Relationship management"],
+          "answer": "IT asset management",
+          "explanation": {
+            "IT asset management": "The IT asset management practice is used to manage the full lifecycle of all IT assets and to help the organization meet regulatory and contractual requirements."
+          }
+        }
+      ]
+    }
+  ]
+}
+
+

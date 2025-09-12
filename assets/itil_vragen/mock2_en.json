@@ -1,0 +1,376 @@
+{
+  "chapters": [
+    {
+      "chapter": "Mock 2",
+      "description": "ITIL 4 - Practice Test Mock 2 (EN, questions 1-40)",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What release uses two mirrored production environments?",
+          "options": ["First, Second releases", "Blue/green releases", "Function/Non-function releases", "None of the above"],
+          "answer": "Blue/green releases",
+          "explanation": {
+            "Blue/green releases": "Blue/green releases use two mirrored production environments."
+          }
+        },
+        {
+          "number": 2,
+          "question": "Complete the following statement: Incident management can have an enormous impact on customer and user ________?",
+          "options": ["Satisfaction", "Value", "View", "Needs"],
+          "answer": "Satisfaction",
+          "explanation": {
+            "Satisfaction": "Incident management can have an enormous impact on customer and user satisfaction, and on how customers and users perceive the service provider."
+          }
+        },
+        {
+          "number": 3,
+          "question": "What usually requires a separate process?",
+          "options": ["Managing major incidents", "Working on creating value", "Collecting customer's requirements", "None of the above"],
+          "answer": "Managing major incidents",
+          "explanation": {
+            "Managing major incidents": "There are usually separate processes for managing major incidents, and for managing information security incidents."
+          }
+        },
+        {
+          "number": 4,
+          "question": "What changes are not typically included in a change schedule?",
+          "options": ["Standard changes", "Normal changes", "Emergency changes", "None of the above"],
+          "answer": "Emergency changes",
+          "explanation": {
+            "Emergency changes": "Emergency changes are not typically included in a change schedule, and the process for assessment and authorization is expedited to ensure they can be implemented quickly."
+          }
+        },
+        {
+          "number": 5,
+          "question": "Change refers to the addition, modification, or removal of anything that could have a direct or indirect effect on _______?",
+          "options": ["Value", "Satisfaction", "Performance", "Services"],
+          "answer": "Services",
+          "explanation": {
+            "Services": "Change is defined as 'The addition, modification, or removal of anything that could have a direct or indirect effect on services.'"
+          }
+        },
+        {
+          "number": 6,
+          "question": "________ is a configuration of an organization's resources designed to offer value for a consumer.",
+          "options": ["A service", "A practice", "SVS", "A product"],
+          "answer": "A product",
+          "explanation": {
+            "A product": "A product is a configuration of an organization's resources designed to offer value for a consumer."
+          }
+        },
+        {
+          "number": 7,
+          "question": "Which information security management practice is done to ensure that security incidents don't occur?",
+          "options": ["Prevention", "Detection", "Correction", "Controls"],
+          "answer": "Prevention",
+          "explanation": {
+            "Prevention": "Prevention is ensuring that security incidents don't occur."
+          }
+        },
+        {
+          "number": 8,
+          "question": "What practice will ensure the availability of information?",
+          "options": ["Relationship management", "Information security management", "Incident management", "Service desk management"],
+          "answer": "Information security management",
+          "explanation": {
+            "Information security management": "The purpose of the information security management practice is to protect the information needed by the organization to conduct its business. This includes understanding and managing risks to the confidentiality, integrity, and availability of information."
+          }
+        },
+        {
+          "number": 9,
+          "question": "What practice will establish and nurture the links between the company and its stakeholders?",
+          "options": ["Relationship management", "Stakeholder management", "Change management", "Service desk management"],
+          "answer": "Relationship management",
+          "explanation": {
+            "Relationship management": "The purpose of the relationship management practice is to establish and nurture the links between the organization and its stakeholders at strategic and tactical levels."
+          }
+        },
+        {
+          "number": 10,
+          "question": "In what practice will you negotiate and agree on contracts and arrangements?",
+          "options": ["Vendor management", "Staff Management", "Supplier management", "Change management"],
+          "answer": "Supplier management",
+          "explanation": {
+            "Supplier management": "Activities that are done in the supplier's management practice includes negotiating and agreeing contracts and arrangements."
+          }
+        },
+        {
+          "number": 11,
+          "question": "What is it called when products or services are developed and/or delivered internally by the business?",
+          "options": ["Outsourcing", "Multi-sourcing", "Insourcing", "Single source"],
+          "answer": "Insourcing",
+          "explanation": {
+            "Insourcing": "Insourcing is when the products or services are developed and/or delivered internally by the business."
+          }
+        },
+        {
+          "number": 12,
+          "question": "What is the term for the procurement of a product or service from more than one independent supplier?",
+          "options": ["Outsourcing", "Multi-sourcing", "Insourcing", "Single source"],
+          "answer": "Multi-sourcing",
+          "explanation": {
+            "Multi-sourcing": "Multi-sourcing is the procurement of a product or service from more than one independent supplier."
+          }
+        },
+        {
+          "number": 13,
+          "question": "What practice is to observe services and service components, and record and report selected changes of their states?",
+          "options": ["Monitoring and event management", "Problem Management", "Incident Management", "Service level management"],
+          "answer": "Monitoring and event management",
+          "explanation": {
+            "Monitoring and event management": "The purpose of the monitoring and event management practice is to systematically observe services and service components, and record and report selected changes of state identified as events."
+          }
+        },
+        {
+          "number": 14,
+          "question": "What type of events allow actions to be taken before any negative impact is actually experienced by the business?",
+          "options": ["Informational events", "Warning events", "Exception events", "Error events"],
+          "answer": "Warning events",
+          "explanation": {
+            "Warning events": "Warning events allow action to be taken before any negative impact is actually experienced by the business."
+          }
+        },
+        {
+          "number": 15,
+          "question": "What events require action, even though business impact may not yet have been experienced?",
+          "options": ["Informational events", "Warning events", "Exception events", "Error events"],
+          "answer": "Exception events",
+          "explanation": {
+            "Exception events": "Exception events require action, even though business impact may not yet have been experienced."
+          }
+        },
+        {
+          "number": 16,
+          "question": "What events do not require action at the time they are identified?",
+          "options": ["Informational events", "Warning events", "Exception events", "Error events"],
+          "answer": "Informational events",
+          "explanation": {
+            "Informational events": "Informational events do not require action at the time they are identified."
+          }
+        },
+        {
+          "number": 17,
+          "question": "What should be done to ensure successful monitoring and event management?",
+          "options": ["Automation", "Problem identification", "Systems updates", "Baselines"],
+          "answer": "Automation",
+          "explanation": {
+            "Automation": "Automation is key to successful monitoring and event management. Some service components come with built-in tools for automation, while some may need it to be configured using other monitoring tools."
+          }
+        },
+        {
+          "number": 18,
+          "question": "What is used to document the timing for releases?",
+          "options": ["Release register", "Release calendar", "Release timer", "Release schedule"],
+          "answer": "Release schedule",
+          "explanation": {
+            "Release schedule": "A release schedule is used to document the timing for releases. This schedule should be negotiated and agreed with customers and other stakeholders."
+          }
+        },
+        {
+          "number": 19,
+          "question": "What in release management enables learning and improvement, and helps to ensure that customers are satisfied?",
+          "options": ["Release review", "Release customer review", "Release post-implementation review", "Release implementation review"],
+          "answer": "Release post-implementation review",
+          "explanation": {
+            "Release post-implementation review": "A release post-implementation review enables learning and improvement, and helps to ensure that customers are satisfied."
+          }
+        },
+        {
+          "number": 20,
+          "question": "What is it called when Components are integrated, tested, and deployed when they are needed, providing frequent opportunities for customer feedback loops?",
+          "options": ["Phased deployment", "Continuous delivery", "Big bang deployment", "Pull deployment"],
+          "answer": "Continuous delivery",
+          "explanation": {
+            "Continuous delivery": "Continuous delivery is when components are integrated, tested, and deployed when they are needed, providing frequent opportunities for customer feedback loops."
+          }
+        },
+        {
+          "number": 21,
+          "question": "What does the W stand for in a SWOT analysis?",
+          "options": ["Waste", "Weakness", "Withhold", "Doesn't stand for anything"],
+          "answer": "Weakness",
+          "explanation": {
+            "Weakness": "The SWOT stands for Strength, Weakness, Opportunity, and Threat."
+          }
+        },
+        {
+          "number": 22,
+          "question": "Who is responsible for continual improvement?",
+          "options": ["Senior management", "Users", "Administrators", "Everyone"],
+          "answer": "Everyone",
+          "explanation": {
+            "Everyone": "Continual improvement is everyone's responsibility."
+          }
+        },
+        {
+          "number": 23,
+          "question": "What type of changes are low-risk, pre-authorized changes that are well understood and fully documented, and can be implemented without needing additional authorization?",
+          "options": ["Standard changes", "Normal changes", "Emergency changes", "Non-standard changes"],
+          "answer": "Standard changes",
+          "explanation": {
+            "Standard changes": "Standard changes are low-risk, pre-authorized changes that are well understood and fully documented, and can be implemented without needing additional authorization."
+          }
+        },
+        {
+          "number": 24,
+          "question": "What type of changes need to be scheduled, assessed, and authorized following a process?",
+          "options": ["Standard changes", "Normal changes", "Emergency changes", "Non-standard changes"],
+          "answer": "Normal changes",
+          "explanation": {
+            "Normal changes": "Normal changes are changes that need to be scheduled, assessed, and authorized following a process."
+          }
+        },
+        {
+          "number": 25,
+          "question": "What is used to help plan changes, assist in communication, avoid conflicts, and assign resources?",
+          "options": ["Change calendar", "Change authority", "Change log", "Change schedule"],
+          "answer": "Change schedule",
+          "explanation": {
+            "Change schedule": "The change schedule is used to help plan changes, assist in communication, avoid conflicts, and assign resources."
+          }
+        },
+        {
+          "number": 26,
+          "question": "Change enablement is usually focused on changes in... ?",
+          "options": ["People", "Processes", "Services", "Products and Services"],
+          "answer": "Products and Services",
+          "explanation": {
+            "Products and Services": "Change enablement is usually focused on changes in products and services."
+          }
+        },
+        {
+          "number": 27,
+          "question": "The change authority should be assigned to?",
+          "options": ["Each type of change", "Standard changes only", "Normal changes only", "Deny changes"],
+          "answer": "Each type of change",
+          "explanation": {
+            "Each type of change": "It is essential that the correct change authority is assigned to each type of change to ensure that change enablement is both efficient and effective."
+          }
+        },
+        {
+          "number": 28,
+          "question": "Service actions are performed by the service provider according to the?",
+          "options": ["Needs of the consumer", "Usage of the consumer", "Cost to the consumer", "Agreement with the consumer"],
+          "answer": "Agreement with the consumer",
+          "explanation": {
+            "Agreement with the consumer": "Service actions are performed by the service provider according to the agreement with the consumer."
+          }
+        },
+        {
+          "number": 29,
+          "question": "The supplier strategy is sometimes called the... ?",
+          "options": ["The supplier strategy, sometimes called the?", "Sourcing strategy", "Seller strategy", "Wholesaler strategy"],
+          "answer": "Sourcing strategy",
+          "explanation": {
+            "Sourcing strategy": "No feedback provided."
+          }
+        },
+        {
+          "number": 30,
+          "question": "Which of the following is specifically aimed at managing the acquisition, development, release, deployment, maintenance, and eventual retirement of software assets?",
+          "options": ["Software contract management", "Software management", "Software asset management", "Software vendor management"],
+          "answer": "Software asset management",
+          "explanation": {
+            "Software asset management": "Software asset management (SAM) is an aspect of IT asset management that is specifically aimed at managing the acquisition, development, release, deployment, maintenance, and eventual retirement of software assets."
+          }
+        },
+        {
+          "number": 31,
+          "question": "What practice requires accurate inventory information, which it keeps in an asset register?",
+          "options": ["IT Asset management", "IT Register Management", "IT Software management", "IT Hardware management"],
+          "answer": "IT Asset management",
+          "explanation": {
+            "IT Asset management": "IT asset management requires accurate inventory information, which it keeps in an asset register."
+          }
+        },
+        {
+          "number": 32,
+          "question": "Cloud-based assets must be assigned to specific products or groups so that _______ can be managed.",
+          "options": ["Cost", "Integrity", "The cloud provider", "Usage"],
+          "answer": "Cost",
+          "explanation": {
+            "Cost": "Cloud-based assets must be assigned to specific products or groups so that costs can be managed."
+          }
+        },
+        {
+          "number": 33,
+          "question": "A _____ is a controlled environment established to test products, services, and other configuration items.",
+          "options": ["Demo environment", "Test environment", "User environment", "Software environment"],
+          "answer": "Test environment",
+          "explanation": {
+            "Test environment": "Test environments are controlled environments established to test products, services, and other configuration items."
+          }
+        },
+        {
+          "number": 34,
+          "question": "What is a list of minimum requirements that a service or service component must meet for it to be acceptable to key stakeholders?",
+          "options": ["Acceptance requirements", "Acceptance criteria", "Minimum requirements", "Acceptance requirements"],
+          "answer": "Acceptance criteria",
+          "explanation": {
+            "Acceptance criteria": "The acceptance criteria is a list of minimum requirements that a service or service component must meet for it to be acceptable to key stakeholders."
+          }
+        },
+        {
+          "number": 35,
+          "question": "Agile is an umbrella term for frameworks such as?",
+          "options": ["Scrum", "Lean", "Kanban", "All of the above"],
+          "answer": "All of the above",
+          "explanation": {
+            "All of the above": "There are several specific methods (or frameworks) that are classed as Agile, such as Scrum, Lean, and Kanban."
+          }
+        },
+        {
+          "number": 36,
+          "question": "What is a way of working that has been proven to be successful by multiple organizations?",
+          "options": ["Organizational practices", "Best practices", "Industry practices", "User practices"],
+          "answer": "Best practices",
+          "explanation": {
+            "Best practices": "A best practice describes a way of working that has been proven to be successful by multiple organizations."
+          }
+        },
+        {
+          "number": 37,
+          "question": "The asset register is used in what practice?",
+          "options": ["Incident management", "Service level management", "Deployment management", "IT asset management"],
+          "answer": "IT asset management",
+          "explanation": {
+            "IT asset management": "IT asset management requires accurate inventory information, which it keeps in an asset register."
+          }
+        },
+        {
+          "number": 38,
+          "question": "Which practice means to observe services and service components, and record and report selected changes?",
+          "options": ["Event management", "Problem management", "Service management", "Monitoring and event management"],
+          "answer": "Monitoring and event management",
+          "explanation": {
+            "Monitoring and event management": "The purpose of the monitoring and event management practice is to systematically observe services and service components, and record and report selected changes of state identified as events."
+          }
+        },
+        {
+          "number": 39,
+          "question": "Which of the following statements about authentication is correct?",
+          "options": [
+            "It's about ensuring someone is who they claim to be",
+            "It's about ensuring someone is not who they claim to be",
+            "It's about ensuring the actions took by an individual can be verified",
+            "It's about having users enter their username when logging in to a computer"
+          ],
+          "answer": "It's about ensuring someone is who they claim to be",
+          "explanation": {
+            "It's about ensuring someone is who they claim to be": "Authentication is ensuring someone is who they claim to be. This can be done when a user enters a password before logging into a computer."
+          }
+        },
+        {
+          "number": 40,
+          "question": "The use of scripts can help which of the following?",
+          "options": ["User satisfaction", "Problem management", "Diagnose and resolve a simple incident", "Managing large problems"],
+          "answer": "Diagnose and resolve a simple incident",
+          "explanation": {
+            "Diagnose and resolve a simple incident": "The use of scripts can help diagnose and resolve a simple incident."
+          }
+        }
+      ]
+    }
+  ]
+}
+

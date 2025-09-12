@@ -1,0 +1,370 @@
+{
+  "chapters": [
+    {
+      "chapter": "Mock 2",
+      "description": "ITIL 4 - Oefentoets Mock 2 (NL, vragen 1-40)",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Welke release gebruikt twee gespiegeld productieomgevingen?",
+          "options": ["Eerste, Tweede releases", "Blue/green releases", "Functionele/Niet-functionele releases", "Geen van bovenstaande"],
+          "answer": "Blue/green releases",
+          "explanation": {
+            "Blue/green releases": "Blue/green releases gebruiken twee gespiegeld productieomgevingen."
+          }
+        },
+        {
+          "number": 2,
+          "question": "Vul de volgende zin aan: Incidentmanagement kan een enorme impact hebben op de klant- en gebruikerstevredenheid ________?",
+          "options": ["Tevredenheid", "Waarde", "Visie", "Behoeften"],
+          "answer": "Tevredenheid",
+          "explanation": {
+            "Tevredenheid": "Incidentmanagement kan een enorme impact hebben op klant- en gebruikerstevredenheid, en op hoe klanten en gebruikers de dienstverlener ervaren."
+          }
+        },
+        {
+          "number": 3,
+          "question": "Wat vereist meestal een apart proces?",
+          "options": ["Beheer van majeure incidenten", "Werken aan waardecreatie", "Verzamelen van klantvereisten", "Geen van bovenstaande"],
+          "answer": "Beheer van majeure incidenten",
+          "explanation": {
+            "Beheer van majeure incidenten": "Er zijn meestal aparte processen voor het beheren van majeure incidenten, en voor het beheren van informatiebeveiligingsincidenten."
+          }
+        },
+        {
+          "number": 4,
+          "question": "Welke wijzigingen zijn meestal niet opgenomen in een wijzigingsschema?",
+          "options": ["Standaardwijzigingen", "Normale wijzigingen", "Spoedwijzigingen", "Geen van bovenstaande"],
+          "answer": "Spoedwijzigingen",
+          "explanation": {
+            "Spoedwijzigingen": "Spoedwijzigingen zijn meestal niet opgenomen in een wijzigingsschema, en het proces voor beoordeling en autorisatie wordt versneld om ervoor te zorgen dat ze snel kunnen worden doorgevoerd."
+          }
+        },
+        {
+          "number": 5,
+          "question": "Wijziging verwijst naar de toevoeging, wijziging of verwijdering van iets dat een direct of indirect effect kan hebben op _______?",
+          "options": ["Waarde", "Tevredenheid", "Prestatie", "Diensten"],
+          "answer": "Diensten",
+          "explanation": {
+            "Diensten": "Een wijziging wordt gedefinieerd als 'De toevoeging, wijziging of verwijdering van iets dat een direct of indirect effect kan hebben op diensten.'"
+          }
+        },
+        {
+          "number": 6,
+          "question": "________ is een configuratie van de middelen van een organisatie die is ontworpen om waarde te leveren voor een consument.",
+          "options": ["Een dienst", "Een praktijk", "DVS", "Een product"],
+          "answer": "Een product",
+          "explanation": {
+            "Een product": "Een product is een configuratie van de middelen van een organisatie die is ontworpen om waarde te leveren voor een consument."
+          }
+        },
+        {
+          "number": 7,
+          "question": "Welke informatiebeveiligingspraktijk wordt uitgevoerd om ervoor te zorgen dat beveiligingsincidenten niet plaatsvinden?",
+          "options": ["Preventie", "Detectie", "Correctie", "Beheersmaatregelen"],
+          "answer": "Preventie",
+          "explanation": {
+            "Preventie": "Preventie zorgt ervoor dat beveiligingsincidenten niet plaatsvinden."
+          }
+        },
+        {
+          "number": 8,
+          "question": "Welke praktijk zorgt voor de beschikbaarheid van informatie?",
+          "options": ["Relatiebeheer", "Informatiebeveiligingsbeheer", "Incidentmanagement", "Servicedeskbeheer"],
+          "answer": "Informatiebeveiligingsbeheer",
+          "explanation": {
+            "Informatiebeveiligingsbeheer": "Het doel van de informatiebeveiligingsbeheerpraktijk is het beschermen van de informatie die de organisatie nodig heeft om haar bedrijfsvoering uit te voeren. Dit omvat het begrijpen en beheren van risico’s voor de vertrouwelijkheid, integriteit en beschikbaarheid van informatie."
+          }
+        },
+        {
+          "number": 9,
+          "question": "Welke praktijk legt en onderhoudt de verbindingen tussen de organisatie en haar belanghebbenden?",
+          "options": ["Relatiebeheer", "Stakeholderbeheer", "Wijzigingsbeheer", "Servicedeskbeheer"],
+          "answer": "Relatiebeheer",
+          "explanation": {
+            "Relatiebeheer": "Het doel van de relatiebeheerpraktijk is om de verbindingen tussen de organisatie en haar belanghebbenden op strategisch en tactisch niveau te leggen en te onderhouden."
+          }
+        },
+        {
+          "number": 10,
+          "question": "In welke praktijk worden contracten en afspraken onderhandeld en overeengekomen?",
+          "options": ["Leveranciersbeheer", "Personeelsbeheer", "Supplier management", "Wijzigingsbeheer"],
+          "answer": "Leveranciersbeheer",
+          "explanation": {
+            "Leveranciersbeheer": "Activiteiten die in de leveranciersbeheerpraktijk worden uitgevoerd omvatten het onderhandelen en overeenkomen van contracten en afspraken."
+          }
+        },
+        {
+          "number": 11,
+          "question": "Hoe heet het wanneer producten of diensten intern door de organisatie worden ontwikkeld en/of geleverd?",
+          "options": ["Uitbesteding", "Multi-sourcing", "Insourcing", "Enkele bron"],
+          "answer": "Insourcing",
+          "explanation": {
+            "Insourcing": "Insourcing betekent dat de producten of diensten intern door de organisatie worden ontwikkeld en/of geleverd."
+          }
+        },
+        {
+          "number": 12,
+          "question": "Wat is de term voor de inkoop van een product of dienst bij meer dan één onafhankelijke leverancier?",
+          "options": ["Uitbesteding", "Multi-sourcing", "Insourcing", "Enkele bron"],
+          "answer": "Multi-sourcing",
+          "explanation": {
+            "Multi-sourcing": "Multi-sourcing is de inkoop van een product of dienst bij meer dan één onafhankelijke leverancier."
+          }
+        },
+        {
+          "number": 13,
+          "question": "Welke praktijk observeert diensten en dienstcomponenten, en legt geselecteerde statuswijzigingen vast en rapporteert deze?",
+          "options": ["Monitoring en eventbeheer", "Probleembeheer", "Incidentmanagement", "Service level management"],
+          "answer": "Monitoring en eventbeheer",
+          "explanation": {
+            "Monitoring en eventbeheer": "Het doel van de monitoring en eventbeheerpraktijk is systematisch diensten en dienstcomponenten observeren, en geselecteerde statuswijzigingen vastleggen en rapporteren die als events zijn geïdentificeerd."
+          }
+        },
+        {
+          "number": 14,
+          "question": "Welk type events maakt actie mogelijk voordat er daadwerkelijk een negatieve impact wordt ervaren door de organisatie?",
+          "options": ["Informatieve events", "Waarschuwingsevents", "Uitzonderingsevents", "Foutevents"],
+          "answer": "Waarschuwingsevents",
+          "explanation": {
+            "Waarschuwings­events": "Waarschuwingsevents maken actie mogelijk voordat er daadwerkelijk negatieve impact wordt ervaren door de organisatie."
+          }
+        },
+        {
+          "number": 15,
+          "question": "Welke events vereisen actie, ook al is er mogelijk nog geen zakelijke impact ervaren?",
+          "options": ["Informatieve events", "Waarschuwingsevents", "Uitzonderingsevents", "Foutevents"],
+          "answer": "Uitzonderingsevents",
+          "explanation": {
+            "Uitzonderingsevents": "Uitzonderingsevents vereisen actie, ook al is er mogelijk nog geen zakelijke impact ervaren."
+          }
+        },
+        {
+          "number": 16,
+          "question": "Welke events vereisen geen actie op het moment dat ze worden geïdentificeerd?",
+          "options": ["Informatieve events", "Waarschuwingsevents", "Uitzonderingsevents", "Foutevents"],
+          "answer": "Informatieve events",
+          "explanation": {
+            "Informatieve events": "Informatieve events vereisen geen actie op het moment dat ze worden geïdentificeerd."
+          }
+        },
+        {
+          "number": 17,
+          "question": "Wat moet worden gedaan om succesvol monitoring en eventbeheer te waarborgen?",
+          "options": ["Automatisering", "Probleemidentificatie", "Systeemupdates", "Baselines"],
+          "answer": "Automatisering",
+          "explanation": {
+            "Automatisering": "Automatisering is de sleutel tot succesvol monitoring en eventbeheer. Sommige dienstcomponenten hebben ingebouwde tools voor automatisering, terwijl andere moeten worden geconfigureerd met behulp van andere monitoringtools."
+          }
+        },
+        {
+          "number": 18,
+          "question": "Wat wordt gebruikt om de timing van releases vast te leggen?",
+          "options": ["Releaseregister", "Releasekalender", "Releasetimer", "Releaseschema"],
+          "answer": "Releaseschema",
+          "explanation": {
+            "Releaseschema": "Een releaseschema wordt gebruikt om de timing van releases vast te leggen. Dit schema moet worden onderhandeld en overeengekomen met klanten en andere belanghebbenden."
+          }
+        },
+        {
+          "number": 19,
+          "question": "Wat binnen releasemanagement ondersteunt leren en verbeteren, en helpt te verzekeren dat klanten tevreden zijn?",
+          "options": ["Releasereview", "Releaseklantreview", "Release post-implementatiereview", "Release implementatiereview"],
+          "answer": "Release post-implementatiereview",
+          "explanation": {
+            "Release post-implementatiereview": "Een release post-implementatiereview ondersteunt leren en verbeteren, en helpt te verzekeren dat klanten tevreden zijn."
+          }
+        },
+        {
+          "number": 20,
+          "question": "Hoe wordt het genoemd wanneer componenten worden geïntegreerd, getest en geïmplementeerd zodra ze nodig zijn, waardoor frequente klantfeedback mogelijk is?",
+          "options": ["Gefaseerde implementatie", "Continue levering", "Big bang implementatie", "Pull implementatie"],
+          "answer": "Continue levering",
+          "explanation": {
+            "Continue levering": "Continue levering betekent dat componenten worden geïntegreerd, getest en geïmplementeerd zodra ze nodig zijn, waardoor frequente klantfeedback mogelijk is."
+          }
+        },
+        {
+          "number": 21,
+          "question": "Waar staat de W in een SWOT-analyse voor?",
+          "options": ["Waste", "Zwaktes", "Withhold", "Staat nergens voor"],
+          "answer": "Zwaktes",
+          "explanation": {
+            "Zwaktes": "SWOT staat voor Strength, Weakness, Opportunity en Threat (Sterkte, Zwakte, Kansen en Bedreigingen)."
+          }
+        },
+        {
+          "number": 22,
+          "question": "Wie is verantwoordelijk voor continue verbetering?",
+          "options": ["Senior management", "Gebruikers", "Beheerders", "Iedereen"],
+          "answer": "Iedereen",
+          "explanation": {
+            "Iedereen": "Continue verbetering is ieders verantwoordelijkheid."
+          }
+        },
+        {
+          "number": 23,
+          "question": "Welke wijzigingen zijn laag risico, vooraf goedgekeurd, goed begrepen en volledig gedocumenteerd, en kunnen worden geïmplementeerd zonder extra autorisatie?",
+          "options": ["Standaardwijzigingen", "Normale wijzigingen", "Spoedwijzigingen", "Niet-standaard wijzigingen"],
+          "answer": "Standaardwijzigingen",
+          "explanation": {
+            "Standaardwijzigingen": "Standaardwijzigingen zijn laag risico, vooraf goedgekeurd, goed begrepen en volledig gedocumenteerd, en kunnen worden geïmplementeerd zonder extra autorisatie."
+          }
+        },
+        {
+          "number": 24,
+          "question": "Welke wijzigingen moeten worden gepland, beoordeeld en goedgekeurd volgens een proces?",
+          "options": ["Standaardwijzigingen", "Normale wijzigingen", "Spoedwijzigingen", "Niet-standaard wijzigingen"],
+          "answer": "Normale wijzigingen",
+          "explanation": {
+            "Normale wijzigingen": "Normale wijzigingen zijn wijzigingen die moeten worden gepland, beoordeeld en goedgekeurd volgens een proces."
+          }
+        },
+        {
+          "number": 25,
+          "question": "Wat wordt gebruikt om wijzigingen te plannen, communicatie te ondersteunen, conflicten te voorkomen en middelen toe te wijzen?",
+          "options": ["Wijzigingskalender", "Wijzigingsautorisatie", "Wijzigingslogboek", "Wijzigingsschema"],
+          "answer": "Wijzigingsschema",
+          "explanation": {
+            "Wijzigingsschema": "Het wijzigingsschema wordt gebruikt om wijzigingen te plannen, communicatie te ondersteunen, conflicten te voorkomen en middelen toe te wijzen."
+          }
+        },
+        {
+          "number": 26,
+          "question": "Change enablement is meestal gericht op wijzigingen in... ?",
+          "options": ["Mensen", "Processen", "Diensten", "Producten en diensten"],
+          "answer": "Producten en diensten",
+          "explanation": {
+            "Producten en diensten": "Change enablement is meestal gericht op wijzigingen in producten en diensten."
+          }
+        },
+        {
+          "number": 27,
+          "question": "De wijzigingsautorisatie moet worden toegewezen aan?",
+          "options": ["Elk type wijziging", "Alleen standaardwijzigingen", "Alleen normale wijzigingen", "Wijzigingen weigeren"],
+          "answer": "Elk type wijziging",
+          "explanation": {
+            "Elk type wijziging": "Het is essentieel dat de juiste wijzigingsautorisatie wordt toegewezen aan elk type wijziging om ervoor te zorgen dat change enablement efficiënt en effectief is."
+          }
+        },
+        {
+          "number": 28,
+          "question": "Service-acties worden door de dienstverlener uitgevoerd volgens de?",
+          "options": ["Behoeften van de consument", "Gebruik door de consument", "Kosten voor de consument", "Overeenkomst met de consument"],
+          "answer": "Overeenkomst met de consument",
+          "explanation": {
+            "Overeenkomst met de consument": "Service-acties worden uitgevoerd door de dienstverlener volgens de overeenkomst met de consument."
+          }
+        },
+        {
+          "number": 29,
+          "question": "De leveranciersstrategie wordt soms ook wel de... genoemd?",
+          "options": ["Leveranciersstrategie?", "Sourcingstrategie", "Verkoopstrategie", "Groothandelstrategie"],
+          "answer": "Sourcingstrategie",
+          "explanation": {
+            "Sourcingstrategie": "Geen feedback beschikbaar."
+          }
+        },
+        {
+          "number": 30,
+          "question": "Welke van de volgende is specifiek gericht op het beheren van de aanschaf, ontwikkeling, release, implementatie, onderhoud en uiteindelijke buitengebruikstelling van software-assets?",
+          "options": ["Softwarecontractbeheer", "Softwarebeheer", "Software asset management", "Softwareleveranciersbeheer"],
+          "answer": "Software asset management",
+          "explanation": {
+            "Software asset management": "Software asset management (SAM) is een aspect van IT asset management dat specifiek is gericht op het beheren van de aanschaf, ontwikkeling, release, implementatie, onderhoud en uiteindelijke buitengebruikstelling van software-assets."
+          }
+        },
+        {
+          "number": 31,
+          "question": "Welke praktijk vereist nauwkeurige inventarisinformatie, die wordt vastgelegd in een assetregister?",
+          "options": ["IT asset management", "IT registerbeheer", "IT softwarebeheer", "IT hardwarebeheer"],
+          "answer": "IT asset management",
+          "explanation": {
+            "IT asset management": "IT asset management vereist nauwkeurige inventarisinformatie, die wordt vastgelegd in een assetregister."
+          }
+        },
+        {
+          "number": 32,
+          "question": "Cloud-assets moeten worden toegewezen aan specifieke producten of groepen zodat _______ beheerd kan worden.",
+          "options": ["Kosten", "Integriteit", "De cloudprovider", "Gebruik"],
+          "answer": "Kosten",
+          "explanation": {
+            "Kosten": "Cloud-assets moeten worden toegewezen aan specifieke producten of groepen zodat kosten beheerd kunnen worden."
+          }
+        },
+        {
+          "number": 33,
+          "question": "Een _____ is een gecontroleerde omgeving die is opgezet om producten, diensten en andere configuratie-items te testen.",
+          "options": ["Demo-omgeving", "Testomgeving", "Gebruikersomgeving", "Software-omgeving"],
+          "answer": "Testomgeving",
+          "explanation": {
+            "Testomgeving": "Testomgevingen zijn gecontroleerde omgevingen die zijn opgezet om producten, diensten en andere configuratie-items te testen."
+          }
+        },
+        {
+          "number": 34,
+          "question": "Wat is een lijst met minimale vereisten waaraan een dienst of dienstcomponent moet voldoen om acceptabel te zijn voor belangrijke belanghebbenden?",
+          "options": ["Acceptatievereisten", "Acceptatiecriteria", "Minimale vereisten", "Acceptatie-eisen"],
+          "answer": "Acceptatiecriteria",
+          "explanation": {
+            "Acceptatiecriteria": "De acceptatiecriteria is een lijst met minimale vereisten waaraan een dienst of dienstcomponent moet voldoen om acceptabel te zijn voor belangrijke belanghebbenden."
+          }
+        },
+        {
+          "number": 35,
+          "question": "Agile is een overkoepelende term voor raamwerken zoals?",
+          "options": ["Scrum", "Lean", "Kanban", "Alle bovenstaande"],
+          "answer": "Alle bovenstaande",
+          "explanation": {
+            "Alle bovenstaande": "Er zijn verschillende specifieke methoden (of raamwerken) die worden geclassificeerd als Agile, zoals Scrum, Lean en Kanban."
+          }
+        },
+        {
+          "number": 36,
+          "question": "Wat is een manier van werken die zich bij meerdere organisaties heeft bewezen succesvol te zijn?",
+          "options": ["Organisatiepraktijken", "Best practices", "Industriepraktijken", "Gebruikerspraktijken"],
+          "answer": "Best practices",
+          "explanation": {
+            "Best practices": "Een best practice beschrijft een manier van werken die zich bij meerdere organisaties heeft bewezen succesvol te zijn."
+          }
+        },
+        {
+          "number": 37,
+          "question": "Het assetregister wordt gebruikt in welke praktijk?",
+          "options": ["Incidentmanagement", "Service level management", "Deploymentmanagement", "IT asset management"],
+          "answer": "IT asset management",
+          "explanation": {
+            "IT asset management": "IT asset management vereist nauwkeurige inventarisinformatie, die wordt vastgelegd in een assetregister."
+          }
+        },
+        {
+          "number": 38,
+          "question": "Welke praktijk houdt in dat diensten en dienstcomponenten worden geobserveerd en geselecteerde wijzigingen worden vastgelegd en gerapporteerd?",
+          "options": ["Eventmanagement", "Probleembeheer", "Servicemanagement", "Monitoring en eventbeheer"],
+          "answer": "Monitoring en eventbeheer",
+          "explanation": {
+            "Monitoring en eventbeheer": "Het doel van de monitoring en eventbeheerpraktijk is systematisch diensten en dienstcomponenten observeren, en geselecteerde statuswijzigingen vastleggen en rapporteren die als events zijn geïdentificeerd."
+          }
+        },
+        {
+          "number": 39,
+          "question": "Problems worden geprioriteerd voor analyse op basis van de... ?",
+          "options": ["Herstelkosten", "Tijd die nodig is voor herstel", "Aantal getroffen gebruikers", "Risico's die ze vormen"],
+          "answer": "Risico's die ze vormen",
+          "explanation": {
+            "Risico's die ze vormen": "Problems worden geprioriteerd op basis van het risico dat ze vormen, en worden als risico's gemanaged op basis van potentiële impact en waarschijnlijkheid."
+          }
+        },
+        {
+          "number": 40,
+          "question": "Workarounds worden vastgelegd in... ?",
+          "options": ["Risicoregister", "IT-assetregister", "Problemregister", "Problemrecords"],
+          "answer": "Problemrecords",
+          "explanation": {
+            "Problemrecords": "Workarounds worden vastgelegd in problemrecords."
+          }
+        }
+      ]
+    }
+  ]
+}

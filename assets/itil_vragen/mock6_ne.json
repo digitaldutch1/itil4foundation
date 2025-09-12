@@ -1,0 +1,372 @@
+{
+  "chapters": [
+    {
+      "chapter": "Mock 6",
+      "description": "ITIL 4 - Oefentoets Mock 6 (NL, vragen 1-40)",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Wat vallen kennisbanken, voorraadsystemen en communicatiesystemen onder in het vier-dimensiemodel?",
+          "options": ["Informatie en technologie", "Waardestromen en processen", "Partners en leveranciers", "Organisaties en mensen"],
+          "answer": "Informatie en technologie",
+          "explanation": {
+            "Informatie en technologie": "De informatie en technologie die servicemanagement ondersteunen omvatten (maar zijn niet beperkt tot) workflowmanagementsystemen, kennisbanken, voorraadsystemen, communicatiesystemen en analysetools."
+          }
+        },
+        {
+          "number": 2,
+          "question": "Wat zijn enkele van de grootste uitdagingen van informatiemanagement?",
+          "options": ["Blockchain en kunstmatige intelligentie", "Cognitieve computing", "Beveiliging en compliance", "Databases"],
+          "answer": "Beveiliging en compliance",
+          "explanation": {
+            "Beveiliging en compliance": "Uitdagingen van informatiemanagement, zoals eisen vanuit beveiliging en wettelijke compliance, staan centraal binnen de dimensie ‘informatie en technologie’."
+          }
+        },
+        {
+          "number": 3,
+          "question": "Wat is de belangrijkste vraag die een organisatie moet stellen bij ‘informatie en technologie’?",
+          "options": ["Wat kost de technologie?", "Leidt de technologie tot nieuwe risico’s of beperkingen voor de organisatie?", "Hoe gaat de informatie en technologie verkopen?", "Wat zijn de technologische behoeften van de klant?"],
+          "answer": "Leidt de technologie tot nieuwe risico’s of beperkingen voor de organisatie?",
+          "explanation": {
+            "Leidt de technologie tot nieuwe risico’s of beperkingen voor de organisatie?": "Leidt deze technologie tot nieuwe risico’s of beperkingen voor de organisatie (bijvoorbeeld vendor lock-in)?"
+          }
+        },
+        {
+          "number": 4,
+          "question": "Wat kan een grote invloed hebben op de technologiekeuze van een organisatie?",
+          "options": ["Benodigde tijd", "Cultuur", "Risico", "Scope"],
+          "answer": "Cultuur",
+          "explanation": {
+            "Cultuur": "De organisatiecultuur kan een grote invloed hebben op de technologieën die men kiest."
+          }
+        },
+        {
+          "number": 5,
+          "question": "Wat is te definiëren als een model om on-demand netwerktoegang mogelijk te maken tot een gedeelde pool van configureerbare compute-resources die snel geleverd kunnen worden met minimale beheerinspanning of providerinteractie?",
+          "options": ["Cloud computing", "On-demand computing", "Externe computing", "Outsource computing"],
+          "answer": "Cloud computing",
+          "explanation": {
+            "Cloud computing": "Cloud computing is een model dat on-demand netwerktoegang biedt tot een gedeelde pool van configureerbare compute-resources die snel geleverd kunnen worden met minimale beheerinspanning."
+          }
+        },
+        {
+          "number": 6,
+          "question": "Welke dimensie omvat de relaties van een organisatie met andere organisaties om services te leveren?",
+          "options": ["Informatie en technologie", "Partners en leveranciers (vendors)", "Partners en leveranciers", "Leveranciers en vendors"],
+          "answer": "Partners en leveranciers",
+          "explanation": {
+            "Partners en leveranciers": "De dimensie ‘partners en leveranciers’ omvat de relaties met andere organisaties die betrokken zijn bij ontwerp, ontwikkeling, uitrol, levering, support en/of continue verbetering van services."
+          }
+        },
+        {
+          "number": 7,
+          "question": "Welke factoren beïnvloeden de strategie van een organisatie bij het inzetten van leveranciers? 1. Strategische focus 2. Bedrijfscultuur 3. Kostenoverwegingen 4. Intern technologiegebruik",
+          "options": ["1 en 2", "1 en 3", "1, 2 en 3", "Alle bovenstaande"],
+          "answer": "1, 2 en 3",
+          "explanation": {
+            "1, 2 en 3": "Voorbeelden van factoren: strategische focus, bedrijfscultuur, schaarste aan resources, kostenoverwegingen, expertise, externe beperkingen en vraagpatronen."
+          }
+        },
+        {
+          "number": 8,
+          "question": "Welke dimensie gaat erover hoe onderdelen van de organisatie geïntegreerd en gecoördineerd samenwerken om waardecreatie via producten en services mogelijk te maken?",
+          "options": ["Informatie en technologie", "Waardestromen en processen", "Partners en leveranciers", "Organisaties en mensen"],
+          "answer": "Waardestromen en processen",
+          "explanation": {
+            "Waardestromen en processen": "Deze dimensie gaat over hoe de onderdelen van de organisatie geïntegreerd en gecoördineerd samenwerken om waarde te creëren via producten en services."
+          }
+        },
+        {
+          "number": 9,
+          "question": "Waarop focust de dimensie ‘waardestromen en processen’?",
+          "options": ["Welke activiteiten de organisatie uitvoert en hoe die georganiseerd zijn", "Welke processen de organisatie gebruikt voor technologie", "Welke activiteiten gebruikt worden om leveranciers te managen", "Welke activiteiten gebruikt worden om services te creëren"],
+          "answer": "Welke activiteiten de organisatie uitvoert en hoe die georganiseerd zijn",
+          "explanation": {
+            "Welke activiteiten de organisatie uitvoert en hoe die georganiseerd zijn": "Daarnaast hoe de organisatie borgt dat zij voor alle stakeholders efficiënt en effectief waardecreatie mogelijk maakt."
+          }
+        },
+        {
+          "number": 10,
+          "question": "Wat is te definiëren als een reeks stappen die een organisatie onderneemt om producten en services aan consumenten te creëren en te leveren?",
+          "options": ["Waardekaarten", "Proceskaarten", "Processtroom", "Waardestroom"],
+          "answer": "Waardestroom",
+          "explanation": {
+            "Waardestroom": "Een waardestroom is een reeks stappen waarmee een organisatie producten en services creëert en levert."
+          }
+        },
+        {
+          "number": 11,
+          "question": "Wat wordt gedefinieerd als een set activiteiten die inputs transformeert naar outputs?",
+          "options": ["Service", "Proces", "Procedure", "Activiteit"],
+          "answer": "Proces",
+          "explanation": {
+            "Proces": "Een proces is een set activiteiten die inputs transformeert naar outputs."
+          }
+        },
+        {
+          "number": 12,
+          "question": "Wat wordt in een proces doorgaans uitgewerkt?",
+          "options": ["Services", "Events", "Procedures", "Acties"],
+          "answer": "Procedures",
+          "explanation": {
+            "Procedures": "Procedures werken uit wie betrokken is in het proces en bevatten werk­instructies."
+          }
+        },
+        {
+          "number": 13,
+          "question": "Waar staat de S in het PESTLE-raamwerk voor?",
+          "options": ["Service", "Sector", "Set", "Sociaal"],
+          "answer": "Sociaal",
+          "explanation": {
+            "Sociaal": "PESTLE staat voor Political, Economic, Social, Technological, Legal en Environmental."
+          }
+        },
+        {
+          "number": 14,
+          "question": "Wat beschrijft hoe alle componenten en activiteiten van de organisatie samenwerken als één systeem om waardecreatie mogelijk te maken?",
+          "options": ["Service value system (SVS)", "Service variations system (SVS)", "Service verification system (SVS)", "Service system (SS)"],
+          "answer": "Service value system (SVS)",
+          "explanation": {
+            "Service value system (SVS)": "Het ITIL SVS beschrijft hoe alle componenten en activiteiten samenwerken als één systeem om waardecreatie mogelijk te maken."
+          }
+        },
+        {
+          "number": 15,
+          "question": "Welke horen bij de componenten van het SVS? 1. Guiding principles 2. Governance 3. Service value chain 4. Practices",
+          "options": ["1 en 2 alleen", "2 alleen", "1, 2 en 3", "Alle bovenstaande"],
+          "answer": "Alle bovenstaande",
+          "explanation": {
+            "Alle bovenstaande": "Het SVS omvat guiding principles, governance, de service value chain, practices en continue verbetering."
+          }
+        },
+        {
+          "number": 16,
+          "question": "Wat is het doel van het SVS?",
+          "options": ["Zorgen dat de organisatie haar middelen correct beheert", "Zorgen dat de organisatie continu samen met alle stakeholders waarde co-creëert via het gebruik en beheer van producten en services.", "Zorgen dat aan klantbehoeften wordt voldaan", "Voor zichzelf waarde creëren."],
+          "answer": "Zorgen dat de organisatie continu samen met alle stakeholders waarde co-creëert via het gebruik en beheer van producten en services.",
+          "explanation": {
+            "Zorgen dat de organisatie continu samen met alle stakeholders waarde co-creëert via het gebruik en beheer van producten en services.": "Dit is het doel van het SVS."
+          }
+        },
+        {
+          "number": 17,
+          "question": "Wat is een van de grootste uitdagingen bij effectief en efficiënt samenwerken met een gedeelde visie?",
+          "options": ["Organisatorische silo’s.", "Organisatorisch risico", "Organisatiecultuur", "Organisatiekosten"],
+          "answer": "Organisatorische silo’s.",
+          "explanation": {
+            "Organisatorische silo’s.": "Silo’s bemoeilijken effectief samenwerken en het wendbaar en veerkrachtig worden."
+          }
+        },
+        {
+          "number": 18,
+          "question": "Wat staat voor opties of mogelijkheden om waarde toe te voegen voor stakeholders of de organisatie te verbeteren?",
+          "options": ["Kans", "Vraag", "Klant", "Service"],
+          "answer": "Kans",
+          "explanation": {
+            "Kans": "Een kans vertegenwoordigt opties of mogelijkheden voor waardecreatie of verbetering."
+          }
+        },
+        {
+          "number": 19,
+          "question": "Wat vertegenwoordigt de behoefte of wens naar producten en services van interne en externe klanten?",
+          "options": ["Kans", "Vraag", "Klant", "Service"],
+          "answer": "Vraag",
+          "explanation": {
+            "Vraag": "Vraag (demand) staat voor de behoefte of wens naar producten en services."
+          }
+        },
+        {
+          "number": 20,
+          "question": "Wat is een aanbeveling die een organisatie in alle omstandigheden richting geeft, ongeacht veranderingen in doelen, strategie, werksoort of managementstructuur?",
+          "options": ["Guiding service", "Guiding principle", "Service principle", "Manage principle"],
+          "answer": "Guiding principle",
+          "explanation": {
+            "Guiding principle": "Een guiding principle geeft richting in alle omstandigheden, ongeacht veranderingen."
+          }
+        },
+        {
+          "number": 21,
+          "question": "Welke van de volgende is een ITIL guiding principle?",
+          "options": ["Focus op klantbehoeften", "Focus op kosten", "Focus on Value", "Focus op risico"],
+          "answer": "Focus on Value",
+          "explanation": {
+            "Focus on Value": "Alles wat de organisatie doet moet direct of indirect herleidbaar zijn naar waarde voor stakeholders."
+          }
+        },
+        {
+          "number": 22,
+          "question": "Wat moet je doen als een proces, service, actie of metric geen waarde levert of geen nuttig resultaat oplevert?",
+          "options": ["Repareren", "Elimineren", "Opnieuw doen", "Verbeteren"],
+          "answer": "Elimineren",
+          "explanation": {
+            "Elimineren": "Als iets geen waarde levert of nuttig resultaat oplevert, moet het worden verwijderd."
+          }
+        },
+        {
+          "number": 23,
+          "question": "Welke methode, toegepast op softwareontwikkeling, richt zich op het leveren van incrementele wijzigingen terwijl wordt ingespeeld op veranderende (evoluerende) gebruikersbehoeften?",
+          "options": ["Watervalmethode", "Changemethode", "Incrementele methode", "Agile-methode"],
+          "answer": "Agile-methode",
+          "explanation": {
+            "Agile-methode": "Agile levert incrementele wijzigingen en speelt in op veranderende behoeften van gebruikers."
+          }
+        },
+        {
+          "number": 24,
+          "question": "Welke methode legt de nadruk op nauwe samenwerking tussen softwareontwikkeling en technische operatie?",
+          "options": ["Agile-methode", "Changemethode", "DevOps-methode", "Watervalmethode"],
+          "answer": "DevOps-methode",
+          "explanation": {
+            "DevOps-methode": "DevOps bouwt voort op Agile en servicemanagement en benadrukt nauwe samenwerking tussen development en operations."
+          }
+        },
+        {
+          "number": 25,
+          "question": "Welke activiteit in de service value chain zorgt ervoor dat producten en services continu aan verwachtingen m.b.t. kwaliteit, kosten en time-to-market voldoen?",
+          "options": ["Engage", "Design", "Plan", "Design and transition"],
+          "answer": "Design and transition",
+          "explanation": {
+            "Design and transition": "Doel: ervoor zorgen dat producten en services blijven voldoen aan verwachtingen over kwaliteit, kosten en time-to-market."
+          }
+        },
+        {
+          "number": 26,
+          "question": "Uit hoeveel stappen bestaat het ITIL-model voor continue verbetering?",
+          "options": ["4", "5", "6", "7"],
+          "answer": "7",
+          "explanation": {
+            "7": "Het ITIL-model voor continue verbetering bestaat uit 7 stappen."
+          }
+        },
+        {
+          "number": 27,
+          "question": "Welke van de volgende zijn stappen in het ITIL-model voor continue verbetering? 1. Wat is de visie? 2. Waar willen we zijn? 3. Hoe meten we de voortgang? 4. Actie ondernemen.",
+          "options": ["1 en 2 alleen", "1 en 3 alleen", "1, 2 en 4 alleen", "Alle bovenstaande"],
+          "answer": "1, 2 en 4 alleen",
+          "explanation": {
+            "1, 2 en 4 alleen": "Stappen: Wat is de visie? Waar staan we nu? Waar willen we zijn? Hoe komen we daar? Actie ondernemen. Zijn we daar aangekomen? Hoe houden we het momentum vast?"
+          }
+        },
+        {
+          "number": 28,
+          "question": "Welke type events vereisen geen actie op het moment dat ze worden geïdentificeerd?",
+          "options": ["Informationeel", "Logging", "Status", "Fout"],
+          "answer": "Informationeel",
+          "explanation": {
+            "Informationeel": "Informationele events vragen geen directe actie; analyse later kan wel nuttige proactieve stappen opleveren."
+          }
+        },
+        {
+          "number": 29,
+          "question": "Wat is een oorzaak, of potentiële oorzaak, van één of meer incidenten?",
+          "options": ["Event", "Probleem", "Known error", "Fout"],
+          "answer": "Probleem",
+          "explanation": {
+            "Probleem": "Een probleem is de (potentiële) oorzaak van één of meer incidenten."
+          }
+        },
+        {
+          "number": 30,
+          "question": "Wat is een probleem dat is geanalyseerd maar niet is opgelost?",
+          "options": ["Onopgelost issue", "Known error", "Gebruikersfout", "Onopgeloste incidenten"],
+          "answer": "Known error",
+          "explanation": {
+            "Known error": "Een known error is een probleem dat geanalyseerd is maar nog niet is opgelost."
+          }
+        },
+        {
+          "number": 31,
+          "question": "Welke practice is bedoeld om de kans en impact van incidenten te verkleinen door werkelijke en potentiële oorzaken te identificeren en workarounds en known errors te beheren?",
+          "options": ["Eventmanagement", "Incidentmanagement", "Problemmanagement", "Event- en problemmanagement"],
+          "answer": "Problemmanagement",
+          "explanation": {
+            "Problemmanagement": "Doel: kans en impact van incidenten verkleinen door oorzaken te vinden en workarounds en known errors te beheren."
+          }
+        },
+        {
+          "number": 32,
+          "question": "Wat is een oplossing die de impact van een incident of probleem vermindert of elimineert wanneer nog geen definitieve oplossing beschikbaar is?",
+          "options": ["Risicoreductie", "Workaround", "Tijdelijke oplossing", "Voorlopige oplossing"],
+          "answer": "Workaround",
+          "explanation": {
+            "Workaround": "Een workaround vermindert of elimineert de impact zolang een definitieve oplossing nog niet beschikbaar is."
+          }
+        },
+        {
+          "number": 33,
+          "question": "Wat moet door de organisatie voor elk product en elke service gedefinieerd worden?",
+          "options": ["Waardekaarten", "Proceskaarten", "Processtroom", "Waardestroom"],
+          "answer": "Waardestroom",
+          "explanation": {
+            "Waardestroom": "Voor elk product en elke service moeten waardestromen worden gedefinieerd."
+          }
+        },
+        {
+          "number": 34,
+          "question": "Wat is een versie van een service of ander configuratie-item, of een verzameling configuratie-items, die beschikbaar wordt gesteld voor gebruik?",
+          "options": ["Event", "Event", "Fix", "Release"],
+          "answer": "Release",
+          "explanation": {
+            "Release": "Een release is een versie van een service of ander configuratie-item (of een verzameling daarvan) die beschikbaar wordt gesteld voor gebruik."
+          }
+        },
+        {
+          "number": 35,
+          "question": "Welke practice wordt uitgevoerd om nieuwe en gewijzigde services en features beschikbaar te maken voor gebruik?",
+          "options": ["Problemmanagement", "Releasebeheer", "Updatemanagement", "Service-updatemanagement"],
+          "answer": "Releasebeheer",
+          "explanation": {
+            "Releasebeheer": "Doel van releasebeheer: nieuwe en gewijzigde services en features beschikbaar maken voor gebruik."
+          }
+        },
+        {
+          "number": 36,
+          "question": "Welke activiteit in de service value chain zorgt voor goed begrip van stakeholderbehoeften, transparantie en voortdurende betrokkenheid en goede relaties met alle stakeholders?",
+          "options": ["Improve", "Engage", "Design", "Deliver and support"],
+          "answer": "Engage",
+          "explanation": {
+            "Engage": "Doel van 'engage': goed begrip van stakeholderbehoeften, transparantie en voortdurende betrokkenheid en relaties met alle stakeholders."
+          }
+        },
+        {
+          "number": 37,
+          "question": "Wat is elk component dat beheerd moet worden om een IT-service te kunnen leveren?",
+          "options": ["Configuratie-component", "Configuratie-item", "Configuratiesysteem", "Technologieconfiguratie"],
+          "answer": "Configuratie-item",
+          "explanation": {
+            "Configuratie-item": "Een configuratie-item is elk component dat beheerd moet worden om een IT-service te leveren."
+          }
+        },
+        {
+          "number": 38,
+          "question": "Welk ITIL-guiding principle beveelt aan om bestaande services, processen en tools te gebruiken tijdens het verbeteren van services?",
+          "options": ["Progress iteratively with feedback", "Keep it simple and practical", "Start where you are", "Optimize and automate"],
+          "answer": "Start where you are",
+          "explanation": {
+            "Start where you are": "Begrijp wat je nu hebt en hergebruik dat voor verbetering; je hoeft niet per se opnieuw te beginnen."
+          }
+        },
+        {
+          "number": 39,
+          "question": "Welke practice zorgt dat risico's correct zijn beoordeeld?",
+          "options": ["Serviceconfiguratiebeheer", "Continue verbetering", "Incidentmanagement", "Change enablement"],
+          "answer": "Change enablement",
+          "explanation": {
+            "Change enablement": "Bij change enablement beoordeel je risico's voordat je wijzigingen in een systeem of proces implementeert."
+          }
+        },
+        {
+          "number": 40,
+          "question": "Wat omvat het identificeren van potentiële permanente oplossingen die kunnen leiden tot een changerequest voor implementatie, maar alleen als dit te rechtvaardigen is qua kosten, risico’s en baten?",
+          "options": ["Error control", "User control", "Problem control", "Fix management"],
+          "answer": "Error control",
+          "explanation": {
+            "Error control": "Error control omvat het identificeren van potentiële permanente oplossingen die mogelijk leiden tot een changerequest, mits te rechtvaardigen qua kosten, risico’s en baten."
+          }
+        }
+      ]
+    }
+  ]
+}
+
+

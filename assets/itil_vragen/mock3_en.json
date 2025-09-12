@@ -1,0 +1,437 @@
+{
+  "chapters": [
+    {
+      "chapter": "Mock 3",
+      "description": "ITIL 4 - Practice Test Mock 3 (EN, questions 1-40)",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What is a justification for expenditure of organizational resources, providing information about costs, benefits, options, risks, and issues?",
+          "options": ["Business spending", "Business assessment", "Business impact assessment", "Business case"],
+          "answer": "Business case",
+          "explanation": {
+            "Business case": "A business case is a justification for expenditure of organizational resources, providing information about costs, benefits, options, risks, and issues."
+          }
+        },
+        {
+          "number": 2,
+          "question": "Who is responsible for continual improvement?",
+          "options": ["Management only", "Everyone", "Service desk", "Users only"],
+          "answer": "Everyone",
+          "explanation": {
+            "Everyone": "Continual improvement is everyone's responsibility."
+          }
+        },
+        {
+          "number": 3,
+          "question": "Which of the following statements is correct about the continual improvement register (CIR)?",
+          "options": [
+            "There can be more than one CIR in an organization",
+            "There must only be a single CIR for the entire organization",
+            "The CIR should only be updated by a single group",
+            "CIR's are not needed in an organization"
+          ],
+          "answer": "There can be more than one CIR in an organization",
+          "explanation": {
+            "There can be more than one CIR in an organization": "There can be more than one CIR in an organization, as multiple CIR's can be maintained on individual, team, department, business unit, and organization levels."
+          }
+        },
+        {
+          "number": 4,
+          "question": "Where would an organization capture improvement ideas?",
+          "options": [
+            "In the change requests register",
+            "In the continual improvement register",
+            "In the IT asset register",
+            "In the problem register"
+          ],
+          "answer": "In the continual improvement register",
+          "explanation": {
+            "In the continual improvement register": "Improvement ideas are captured, documented, assessed, and prioritized in the continual improvement register (CIR)."
+          }
+        },
+        {
+          "number": 5,
+          "question": "Information security is critically dependent upon the... ?",
+          "options": [
+            "Technology available to secured IT assets",
+            "Skill level of the IT service manager",
+            "Behavior of people throughout the organization",
+            "Type of security software used in the organization"
+          ],
+          "answer": "Behavior of people throughout the organization",
+          "explanation": {
+            "Behavior of people throughout the organization": "Information security is critically dependent on the behavior of people throughout the organization."
+          }
+        },
+        {
+          "number": 6,
+          "question": "Information security management is primary driven by... ?",
+          "options": [
+            "Users",
+            "IT security manager",
+            "The most senior level in the organization",
+            "The type of security software available in the marketplace"
+          ],
+          "answer": "The most senior level in the organization",
+          "explanation": {
+            "The most senior level in the organization": "Information security management must be driven from the most senior level in the organization, based on clearly understood governance requirements and organizational policies."
+          }
+        },
+        {
+          "number": 7,
+          "question": "When managing information security, an organization must strive to achieve a balance between protecting the organization and... ?",
+          "options": ["Allowing it to innovate", "Conserving resources", "Expending resources", "Training users"],
+          "answer": "Allowing it to innovate",
+          "explanation": {
+            "Allowing it to innovate": "It is important to balance protection with enabling innovation; overly restrictive controls can harm an organization and prevent easy innovation."
+          }
+        },
+        {
+          "number": 8,
+          "question": "Which of the following statements is true about non-repudiation?",
+          "options": [
+            "It's about ensuring that someone can deny that they took an action",
+            "It's about ensuring that someone can't deny that they took an action",
+            "It's about what actions an individual took",
+            "It has nothing to do with the actions of an individual"
+          ],
+          "answer": "It's about ensuring that someone can't deny that they took an action",
+          "explanation": {
+            "It's about ensuring that someone can't deny that they took an action": "Non-repudiation is about ensuring that someone can't deny that they took an action."
+          }
+        },
+        {
+          "number": 9,
+          "question": "Change enablement balances the need to make beneficial changes and... ?",
+          "options": [
+            "The method to implement the change",
+            "The adverse effect of changes",
+            "The evolving needs of the business",
+            "The cost of the change"
+          ],
+          "answer": "The adverse effect of changes",
+          "explanation": {
+            "The adverse effect of changes": "Change enablement balances the need to deliver additional value with the need to protect customers and users from adverse effects."
+          }
+        },
+        {
+          "number": 10,
+          "question": "Organizational change management manages the __________ aspects of changes to ensure that improvements and organizational transformations are implemented successfully.",
+          "options": ["Cost", "People", "Service", "Implementation"],
+          "answer": "People",
+          "explanation": {
+            "People": "Organizational change management focuses on the people aspects of change to ensure successful implementation of improvements and transformations."
+          }
+        },
+        {
+          "number": 11,
+          "question": "In high velocity organizations, it is common for change management practice to... ?",
+          "options": [
+            "Be done by a single group",
+            "Be done by only senior management",
+            "Decentralize change approval",
+            "Centralize change approval"
+          ],
+          "answer": "Decentralize change approval",
+          "explanation": {
+            "Decentralize change approval": "In high velocity organizations, decentralizing change approval is common, with peer review as a predictor of high performance."
+          }
+        },
+        {
+          "number": 12,
+          "question": "Which of the following is not an external factor in the four dimensions model?",
+          "options": ["Changes", "Political", "Economic", "Legal"],
+          "answer": "Changes",
+          "explanation": {
+            "Changes": "The four dimensions model uses PESTEL external factors (political, economic, social, technological, legal, environmental); 'Changes' is not one of them."
+          }
+        },
+        {
+          "number": 13,
+          "question": "Which of the following supports the holistic approach to service management?",
+          "options": ["Four dimensions model", "Two dimensions model", "External factors model", "Service model"],
+          "answer": "Four dimensions model",
+          "explanation": {
+            "Four dimensions model": "ITIL defines four dimensions that collectively support a holistic approach to the facilitation of value."
+          }
+        },
+        {
+          "number": 14,
+          "question": "Which of the following can lead to poor decision-making and in turn impact the organization's ability to improve internal capabilities?",
+          "options": [
+            "Insufficient changes",
+            "Insufficient user training",
+            "Insufficient visibility of work",
+            "Insufficient understanding of costs"
+          ],
+          "answer": "Insufficient visibility of work",
+          "explanation": {
+            "Insufficient visibility of work": "Insufficient visibility of work leads to poor decision-making and impacts the organization's ability to improve internal capabilities."
+          }
+        },
+        {
+          "number": 15,
+          "question": "Which guiding principle is about ensuring that service management includes understanding of how all parts of an organization work together?",
+          "options": [
+            "Focus on value",
+            "Collaborate and promote visibility",
+            "Start where you are",
+            "Think and work holistically"
+          ],
+          "answer": "Think and work holistically",
+          "explanation": {
+            "Think and work holistically": "This principle is about taking a holistic approach, including understanding how all parts of an organization work together in an integrated way."
+          }
+        },
+        {
+          "number": 16,
+          "question": "Which of the following refers to the steps an organization takes in the creation of value?",
+          "options": ["Four dimensions model", "The service value chain", "The guiding principles", "The itil practices"],
+          "answer": "The service value chain",
+          "explanation": {
+            "The service value chain": "The ITIL service value chain includes six activities that represent the steps an organization takes in the creation of value."
+          }
+        },
+        {
+          "number": 17,
+          "question": "Which service value chain activity is done to provide a good understanding of stakeholder needs?",
+          "options": ["Plan", "Improve", "Engage", "obtain/build"],
+          "answer": "Engage",
+          "explanation": {
+            "Engage": "The engage activity provides a good understanding of stakeholders' needs, transparency, and ongoing engagement."
+          }
+        },
+        {
+          "number": 18,
+          "question": "What is the point of communication between the service provider and all its users?",
+          "options": ["Call center", "IT Director", "Service Desk", "Service Center"],
+          "answer": "Service Desk",
+          "explanation": {
+            "Service Desk": "The service desk is the point of communication between the service provider and all its users."
+          }
+        },
+        {
+          "number": 19,
+          "question": "What role is held accountable for the delivery of a specific service?",
+          "options": ["Service Owner", "Service manager", "Service User", "Service Director"],
+          "answer": "Service Owner",
+          "explanation": {
+            "Service Owner": "A service owner is a role that is held accountable for the delivery of a specific service."
+          }
+        },
+        {
+          "number": 20,
+          "question": "A risk assessment does not need to be repeated for which of the following changes?",
+          "options": ["Standard changes", "Normal Changes", "Emergency changes", "User changes"],
+          "answer": "Standard changes",
+          "explanation": {
+            "Standard changes": "A standard change does not need a risk assessment to be repeated each time the change is implemented."
+          }
+        },
+        {
+          "number": 21,
+          "question": "Which of the following coordinates the classification and ownership of incidents?",
+          "options": ["Change enablement", "Incident management", "Problem management", "Service desk"],
+          "answer": "Service desk",
+          "explanation": {
+            "Service desk": "Service desks provide a clear path for users to report issues, queries, and requests, and have them acknowledged, classified, owned, and actioned."
+          }
+        },
+        {
+          "number": 22,
+          "question": "Engage, plan, and improve are examples of?",
+          "options": ["Service value chain", "Service value", "Dimensions model", "Service management"],
+          "answer": "Service value chain",
+          "explanation": {
+            "Service value chain": "The six value chain activities are: plan, improve, engage, design and transition, obtain/build, and deliver and support."
+          }
+        },
+        {
+          "number": 23,
+          "question": "Which is NOT a component of the service value system?",
+          "options": ["Governance", "Four Dimensions", "Service value chain", "Continual Improvement"],
+          "answer": "Four Dimensions",
+          "explanation": {
+            "Four Dimensions": "The service value system includes: service value chain, practices, guiding principles, governance, continual improvement."
+          }
+        },
+        {
+          "number": 24,
+          "question": "Which of the following statements is correct about effective incident management?",
+          "options": [
+            "Often requires a high level of collaboration within and between teams",
+            "Often requires no collaboration between teams",
+            "Often requires collaboration only between certain teams",
+            "Only requires collaboration between the service desk and change management"
+          ],
+          "answer": "Often requires a high level of collaboration within and between teams",
+          "explanation": {
+            "Often requires a high level of collaboration within and between teams": "Effective incident management often requires a high level of collaboration within and between teams."
+          }
+        },
+        {
+          "number": 25,
+          "question": "Which of the following practices has a major influence on how users perceive services?",
+          "options": ["Supplier management", "Relationship management", "Service desk", "Deployment management"],
+          "answer": "Service desk",
+          "explanation": {
+            "Service desk": "The service desk has a major influence on user experience and how the service provider is perceived by the users."
+          }
+        },
+        {
+          "number": 26,
+          "question": "Which of the following is not an example of an operational metric?",
+          "options": ["Availability", "Incident response times", "Change and request processing times", "Service deployment times"],
+          "answer": "Service deployment times",
+          "explanation": {
+            "Service deployment times": "Operational metrics are low-level indicators such as availability, incident response and fix times, and request processing times."
+          }
+        },
+        {
+          "number": 27,
+          "question": "Service request fulfillment generally includes which of the following types of changes?",
+          "options": ["Emergency change", "Standard change", "Normal change", "Expedited change"],
+          "answer": "Standard change",
+          "explanation": {
+            "Standard change": "Fulfillment of service requests may include changes to services or their components; usually these are standard changes."
+          }
+        },
+        {
+          "number": 28,
+          "question": "Which of the following statements is correct about service request fulfillment?",
+          "options": [
+            "Should be standardized and automated to the greatest degree possible",
+            "Should not be automated and allow users to implement the changes themselves",
+            "Should only be automated if users agree",
+            "Automation should not be an option when requesting a change"
+          ],
+          "answer": "Should be standardized and automated to the greatest degree possible",
+          "explanation": {
+            "Should be standardized and automated to the greatest degree possible": "Service requests and their fulfillment should be standardized and automated to the greatest degree possible."
+          }
+        },
+        {
+          "number": 29,
+          "question": "Which of the following best describes a service request?",
+          "options": [
+            "Deploy a new change",
+            "Deploy the new software",
+            "Delaying the deployment of a new service",
+            "Giving feedback compliments and complaints about services"
+          ],
+          "answer": "Giving feedback compliments and complaints about services",
+          "explanation": {
+            "Giving feedback compliments and complaints about services": "Each service request may include feedback, compliments, and complaints."
+          }
+        },
+        {
+          "number": 30,
+          "question": "Which deployment approach allows for frequent customer feedback?",
+          "options": ["Phased deployment", "Big Bang deployment", "Pull deployment", "Continuous delivery"],
+          "answer": "Continuous delivery",
+          "explanation": {
+            "Continuous delivery": "Continuous delivery is when components are integrated, tested, and deployed when they are needed, providing frequent opportunities for customer feedback loops."
+          }
+        },
+        {
+          "number": 31,
+          "question": "A router was recently upgraded with new memory. Which of the following involves moving the router back to a live environment?",
+          "options": ["Service desk", "Deployment management", "Service level management", "IT asset management"],
+          "answer": "Deployment management",
+          "explanation": {
+            "Deployment management": "Deployment management is to move new or changed hardware, software, documentation, processes, or any other component to live environments."
+          }
+        },
+        {
+          "number": 32,
+          "question": "What practice helps to optimize the use of valuable resources?",
+          "options": ["IT asset management", "Service desks", "Incident management", "Problem management"],
+          "answer": "IT asset management",
+          "explanation": {
+            "IT asset management": "IT asset management helps optimize the use of valuable resources."
+          }
+        },
+        {
+          "number": 33,
+          "question": "An IT asset is any __________ valuable component that can contribute to the delivery of an IT product or service.",
+          "options": ["Commercially", "Financially", "User", "Service"],
+          "answer": "Financially",
+          "explanation": {
+            "Financially": "An IT asset is any financially valuable component that can contribute to the delivery of an IT product or service."
+          }
+        },
+        {
+          "number": 34,
+          "question": "What is it called when new or changed components are deployed to just part of the production environment at a time?",
+          "options": ["Phased deployment", "Continuous delivery", "Big bang deployment", "Pull deployment"],
+          "answer": "Phased deployment",
+          "explanation": {
+            "Phased deployment": "Phased deployment is when the new or changed components are deployed to just part of the production environment at a time."
+          }
+        },
+        {
+          "number": 35,
+          "question": "New software has been made available on the network and users are able to install it at a time that is convenient for them. What deployment approach is this?",
+          "options": ["Phased deployment", "Big Bang deployment", "Pull deployment", "Users deployment"],
+          "answer": "Pull deployment",
+          "explanation": {
+            "Pull deployment": "Pull deployment is when new or changed software is made available in a controlled repository, and users download the software to client devices when they choose."
+          }
+        },
+        {
+          "number": 36,
+          "question": "Change enablement must balance the need to make beneficial changes along with the... ?",
+          "options": [
+            "People aspect of changes",
+            "Adverse effect of changes",
+            "Products and services needed for the changes",
+            "Services needed for the change"
+          ],
+          "answer": "Adverse effect of changes",
+          "explanation": {
+            "Adverse effect of changes": "Change enablement must balance delivering additional value with the need to protect customers and users from the adverse effect of changes."
+          }
+        },
+        {
+          "number": 37,
+          "question": "It is common practice to use a decentralized change approval process in what type of organization?",
+          "options": ["Low-velocity organization", "Small organization", "High-velocity organization", "Large organization"],
+          "answer": "High-velocity organization",
+          "explanation": {
+            "High-velocity organization": "In high-velocity organizations, it is a common practice to decentralize change approval, making the peer review a top predictor of high performance."
+          }
+        },
+        {
+          "number": 38,
+          "question": "The IT department will be installing a new application to all users over the weekend. What deployment approach is this?",
+          "options": ["Phased deployment", "Continuous delivery", "Big Bang deployment", "all in one deployment"],
+          "answer": "Big Bang deployment",
+          "explanation": {
+            "Big Bang deployment": "A Big Bang deployment is when new or changed components are deployed to all targets at the same time."
+          }
+        },
+        {
+          "number": 39,
+          "question": "Events are often classified as which of the following? 1. Informational 2. Warning 3. Exceptions",
+          "options": ["1 and 2 only", "1 and 3 only", "2 and 3 only", "All of the above"],
+          "answer": "All of the above",
+          "explanation": {
+            "All of the above": "Events are often classified as informational, warning, and exceptions."
+          }
+        },
+        {
+          "number": 40,
+          "question": "The ITIL SVS includes how many general management practices?",
+          "options": ["10", "12", "14", "26"],
+          "answer": "14",
+          "explanation": {
+            "14": "The ITIL SVS includes 14 general management practices, 17 service management practices, and 3 technical management practices."
+          }
+        }
+      ]
+    }
+  ]
+}
+
+

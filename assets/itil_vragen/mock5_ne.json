@@ -1,0 +1,372 @@
+{
+  "chapters": [
+    {
+      "chapter": "Mock 5",
+      "description": "ITIL 4 - Oefentoets Mock 5 (NL, vragen 1-40)",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Wat is een ordening van configuratie-items (CI's) of andere middelen die samenwerken om een product of service te leveren?",
+          "options": ["Configuratie", "Formatie", "CMS", "CMDB"],
+          "answer": "Configuratie",
+          "explanation": {
+            "Configuratie": "Configuratie is een ordening van configuratie-items (CI's) of andere middelen die samenwerken om een product of service te leveren."
+          }
+        },
+        {
+          "number": 2,
+          "question": "Wat is een maatstaf voor de vraag of de doelstellingen van een practice, service of activiteit zijn bereikt?",
+          "options": ["Effectiviteit", "Efficiëntie", "Kostenbesparing", "Doelstellingdefinitie"],
+          "answer": "Effectiviteit",
+          "explanation": {
+            "Effectiviteit": "Effectiviteit is een maatstaf voor de vraag of de doelstellingen van een practice, service of activiteit zijn bereikt."
+          }
+        },
+        {
+          "number": 3,
+          "question": "Wat is een set van hulpmiddelen, data en informatie die wordt gebruikt ter ondersteuning van serviceconfiguratiebeheer?",
+          "options": ["Configuratiebeheersysteem", "IT-systeembeheer", "Serverbeheersysteem", "CI-beheersysteem"],
+          "answer": "Configuratiebeheersysteem",
+          "explanation": {
+            "Configuratiebeheersysteem": "Een configuratiebeheersysteem is een set hulpmiddelen, data en informatie die wordt gebruikt ter ondersteuning van serviceconfiguratiebeheer."
+          }
+        },
+        {
+          "number": 4,
+          "question": "Wat is de maximaal acceptabele tijdsduur na een serviceverstoring die mag verstrijken voordat het gebrek aan bedrijfsfunctionaliteit de organisatie ernstig beïnvloedt?",
+          "options": ["RPO", "RTO", "BIA", "Disaster recovery plan"],
+          "answer": "RTO",
+          "explanation": {
+            "RTO": "Het Recovery Time Objective (RTO) is de maximaal acceptabele tijdsduur na een serviceverstoring die mag verstrijken voordat het gebrek aan bedrijfsfunctionaliteit de organisatie ernstig beïnvloedt."
+          }
+        },
+        {
+          "number": 5,
+          "question": "Welke practice wordt uitgevoerd om te waarborgen dat de beschikbaarheid en prestaties van een service op voldoende niveau worden gehandhaafd in geval van een ramp?",
+          "options": ["Disaster recovery service", "Business continuity management", "Servicecontinuïteitsmanagement", "Continuïteitsmanagement"],
+          "answer": "Servicecontinuïteitsmanagement",
+          "explanation": {
+            "Servicecontinuïteitsmanagement": "Het doel van de practice servicecontinuïteitsmanagement is om te waarborgen dat de beschikbaarheid en prestaties van een service op voldoende niveau worden gehandhaafd in geval van een ramp."
+          }
+        },
+        {
+          "number": 6,
+          "question": "Welke practice wordt uitgevoerd om de vraag naar incidentoplossing en servicerequests vast te leggen?",
+          "options": ["Helpdeskbeheer", "Servicedesk", "IT-management", "Incidentmanagement"],
+          "answer": "Servicedesk",
+          "explanation": {
+            "Servicedesk": "Het doel van de servicedeskpractice is om de vraag naar incidentoplossing en servicerequests vast te leggen. De servicedesk is tevens het aanspreekpunt en single point of contact voor alle gebruikers."
+          }
+        },
+        {
+          "number": 7,
+          "question": "Wat is een maatstaf voor de vraag of de juiste hoeveelheid middelen is gebruikt door een practice, service of activiteit?",
+          "options": ["Effectiviteit", "Efficiëntie", "Kostenbesparing", "Doelstellingdefinitie"],
+          "answer": "Efficiëntie",
+          "explanation": {
+            "Efficiëntie": "Efficiëntie is een maatstaf voor de vraag of de juiste hoeveelheid middelen is gebruikt door een practice, service of activiteit."
+          }
+        },
+        {
+          "number": 8,
+          "question": "Wat is een fout of kwetsbaarheid die incidenten kan veroorzaken?",
+          "options": ["Lek", "Onjuist gebruik van applicatie", "Breuk", "Fout"],
+          "answer": "Fout",
+          "explanation": {
+            "Fout": "Een fout is een zwakte of kwetsbaarheid die incidenten kan veroorzaken."
+          }
+        },
+        {
+          "number": 9,
+          "question": "Wat is het beleid dat de aanpak van een organisatie voor informatiebeveiligingsmanagement bepaalt?",
+          "options": ["Beveiligingsbeleid", "Informatiebeveiligingsbeleid", "Organisatiebeveiligingsbeleid", "Beheerbeleid voor beveiliging"],
+          "answer": "Informatiebeveiligingsbeleid",
+          "explanation": {
+            "Informatiebeveiligingsbeleid": "Het informatiebeveiligingsbeleid bepaalt de aanpak van een organisatie voor informatiebeveiligingsmanagement."
+          }
+        },
+        {
+          "number": 10,
+          "question": "Hoe worden alle hardware, software, netwerken en faciliteiten genoemd die nodig zijn om IT-services te ontwikkelen, testen, leveren, monitoren, beheren en ondersteunen?",
+          "options": ["IT-componenten", "IT-apparatuur", "IT-assets", "IT-infrastructuur"],
+          "answer": "IT-infrastructuur",
+          "explanation": {
+            "IT-infrastructuur": "IT-infrastructuur omvat alle hardware, software, netwerken en faciliteiten die nodig zijn om IT-services te ontwikkelen, testen, leveren, monitoren, beheren en ondersteunen."
+          }
+        },
+        {
+          "number": 11,
+          "question": "Wat is een belangrijke metric die wordt gebruikt om succes bij het behalen van een doelstelling te evalueren?",
+          "options": ["Key metric indicator", "Prestatie-indicator", "Key performance indicator", "Key achievement indicator"],
+          "answer": "Key performance indicator",
+          "explanation": {
+            "Key performance indicator": "Een key performance indicator (KPI) is een belangrijke metric die wordt gebruikt om succes bij het behalen van een doelstelling te evalueren."
+          }
+        },
+        {
+          "number": 12,
+          "question": "Welke benadering richt zich op het verbeteren van werkstromen door waarde te maximaliseren via het elimineren van verspilling?",
+          "options": ["Waterval", "Projectmanagement", "Lean", "Spiraal"],
+          "answer": "Lean",
+          "explanation": {
+            "Lean": "Lean is een benadering die zich richt op het verbeteren van werkstromen door waarde te maximaliseren via het elimineren van verspilling."
+          }
+        },
+        {
+          "number": 13,
+          "question": "Hoe wordt de volledige set van fasen, transities en bijbehorende statussen in de levenscyclus van een service, product, practice of ander object genoemd?",
+          "options": ["Servicecyclus", "Levenscyclus", "Servicecirkel", "Cirkel"],
+          "answer": "Levenscyclus",
+          "explanation": {
+            "Levenscyclus": "Een levenscyclus is de volledige set van fasen, transities en bijbehorende statussen in de levensduur van een service, product, practice of ander object."
+          }
+        },
+        {
+          "number": 14,
+          "question": "Hoe wordt de mate van gemak genoemd waarmee een service of ander object kan worden gerepareerd of aangepast?",
+          "options": ["Onderhoudbaarheid", "Veranderbaarheid", "Configuratie", "Instelling"],
+          "answer": "Onderhoudbaarheid",
+          "explanation": {
+            "Onderhoudbaarheid": "Onderhoudbaarheid is de mate van gemak waarmee een service of ander object kan worden gerepareerd of aangepast."
+          }
+        },
+        {
+          "number": 15,
+          "question": "Hoe wordt een product genoemd dat net genoeg functies heeft om vroege klanten tevreden te stellen en feedback te geven voor toekomstige productontwikkeling?",
+          "options": ["Minimum bruikbaar product", "Minimum levensvatbaar product", "Leasbaar levensvatbaar product", "Leasbaar bruikbaar product"],
+          "answer": "Minimum levensvatbaar product",
+          "explanation": {
+            "Minimum levensvatbaar product": "Een minimum levensvatbaar product (MVP) is een product met net genoeg functies om vroege klanten tevreden te stellen en feedback te geven voor toekomstige productontwikkeling."
+          }
+        },
+        {
+          "number": 16,
+          "question": "Hoe wordt het routinematig uitvoeren en beheren van een activiteit, product, service of ander configuratie-item genoemd?",
+          "options": ["Organisatietaak", "Organisatiekalender", "Continue activiteiten", "Exploitatie"],
+          "answer": "Exploitatie",
+          "explanation": {
+            "Exploitatie": "Exploitatie is het routinematig uitvoeren en beheren van een activiteit, product, service of ander configuratie-item."
+          }
+        },
+        {
+          "number": 17,
+          "question": "Hoe wordt het vermogen van een organisatie genoemd om zich voor te bereiden op, te reageren op en zich aan te passen aan ongeplande externe invloeden?",
+          "options": ["Organisatieplannen", "Organisatorische veerkracht", "Organisatorische sluwheid", "Organisatieplannen"],
+          "answer": "Organisatorische veerkracht",
+          "explanation": {
+            "Organisatorische veerkracht": "Organisatorische veerkracht is het vermogen van een organisatie om zich voor te bereiden op, te reageren op en zich aan te passen aan ongeplande externe invloeden."
+          }
+        },
+        {
+          "number": 18,
+          "question": "Hoe wordt een testimplementatie van een service met beperkte scope in een live-omgeving genoemd?",
+          "options": ["Testrun", "Demo", "Prototype", "Pilot"],
+          "answer": "Pilot",
+          "explanation": {
+            "Pilot": "Een pilot is een testimplementatie van een service met beperkte scope in een live-omgeving."
+          }
+        },
+        {
+          "number": 19,
+          "question": "Hoe wordt de samenwerking tussen een serviceprovider en een serviceconsument genoemd?",
+          "options": ["Servicelevering", "Servicegebruik", "Servicerelatie", "Servicemanagement"],
+          "answer": "Servicerelatie",
+          "explanation": {
+            "Servicerelatie": "Een servicerelatie is een samenwerking tussen een serviceprovider en een serviceconsument."
+          }
+        },
+        {
+          "number": 20,
+          "question": "Welke practice wordt uitgevoerd om ervoor te zorgen dat leveranciers en hun prestaties op de juiste manier worden beheerd ter ondersteuning van een naadloze levering van kwalitatieve producten en services?",
+          "options": ["Leveranciersbeheer", "Supplier management", "Uitbestedingsbeheer", "Relatiebeheer"],
+          "answer": "Leveranciersbeheer",
+          "explanation": {
+            "Leveranciersbeheer": "Het doel van de leveranciersbeheerpractice is ervoor te zorgen dat leveranciers en hun prestaties op de juiste manier worden beheerd ter ondersteuning van een naadloze levering van kwalitatieve producten en services."
+          }
+        },
+        {
+          "number": 21,
+          "question": "Hoe wordt de relatie genoemd waarbij externe leveranciers producten en services leveren die voorheen intern werden geleverd?",
+          "options": ["Insourcing", "Outsourcing", "Farsourcing", "Multi-sourcing"],
+          "answer": "Outsourcing",
+          "explanation": {
+            "Outsourcing": "Outsourcing is het proces waarbij externe leveranciers producten en services leveren die voorheen intern werden geleverd."
+          }
+        },
+        {
+          "number": 22,
+          "question": "Welke practice wordt uitgevoerd om het aantal succesvolle service- en productwijzigingen te maximaliseren door risico's correct te beoordelen, wijzigingen goed te keuren en het wijzigingsschema te beheren?",
+          "options": ["Aanpassingsbeheer", "Servicewijzigingsbeheer", "Servicecontrole", "Change enablement"],
+          "answer": "Change enablement",
+          "explanation": {
+            "Change enablement": "Het doel van change enablement is om het aantal succesvolle service- en productwijzigingen te maximaliseren door risico's correct te beoordelen, wijzigingen goed te keuren en het wijzigingsschema te beheren."
+          }
+        },
+        {
+          "number": 23,
+          "question": "Wat wordt gedefinieerd als de toevoeging, wijziging of verwijdering van iets dat een direct of indirect effect kan hebben op services?",
+          "options": ["Servicewijziging", "Servicerequest", "Serviceaanpassing", "Service change"],
+          "answer": "Service change",
+          "explanation": {
+            "Service change": "Een service change is de toevoeging, wijziging of verwijdering van iets dat een direct of indirect effect kan hebben op services."
+          }
+        },
+        {
+          "number": 24,
+          "question": "____________________ practice kan ook betrokken zijn bij het positioneren van componenten naar andere omgevingen voor test of staging.",
+          "options": ["Change enablement", "Incidentmanagement", "Servicedesks", "Deploymentmanagement"],
+          "answer": "Deploymentmanagement",
+          "explanation": {
+            "Deploymentmanagement": "Deploymentmanagement kan ook betrokken zijn bij het positioneren van componenten naar andere omgevingen voor test of staging."
+          }
+        },
+        {
+          "number": 25,
+          "question": "Welke wijziging moet zo snel mogelijk worden geïmplementeerd?",
+          "options": ["Niet-standaardwijziging", "Spoedwijziging", "Snelle wijziging", "Fast change"],
+          "answer": "Spoedwijziging",
+          "explanation": {
+            "Spoedwijziging": "Spoedwijzigingen zijn wijzigingen die zo snel mogelijk moeten worden geïmplementeerd."
+          }
+        },
+        {
+          "number": 26,
+          "question": "Wat is een ongeplande onderbreking van een service of vermindering van de kwaliteit van een service?",
+          "options": ["Wijziging", "Probleem", "Incident", "Fout"],
+          "answer": "Incident",
+          "explanation": {
+            "Incident": "Een incident is een ongeplande onderbreking van een service of vermindering van de kwaliteit van een service."
+          }
+        },
+        {
+          "number": 27,
+          "question": "Met betrekking tot incidenten, wat moet altijd worden gedaan?",
+          "options": ["Gerapporteerd aan management", "Doorgestuurd naar hogere ondersteuning", "Geanalyseerd voor problemen", "Gelogd en beheerd worden om binnen de verwachtingen van klant en gebruiker op te lossen"],
+          "answer": "Gelogd en beheerd worden om binnen de verwachtingen van klant en gebruiker op te lossen",
+          "explanation": {
+            "Gelogd en beheerd worden om binnen de verwachtingen van klant en gebruiker op te lossen": "Elk incident moet gelogd en beheerd worden om ervoor te zorgen dat het wordt opgelost binnen de tijd die voldoet aan de verwachtingen van klant en gebruiker."
+          }
+        },
+        {
+          "number": 28,
+          "question": "Welke practice wordt uitgevoerd om de volledige levenscyclus van alle IT-assets te plannen en te beheren?",
+          "options": ["IT-assetcontrole", "IT-assetsysteem", "IT-assetmanagement", "Assetmanagement"],
+          "answer": "IT-assetmanagement",
+          "explanation": {
+            "IT-assetmanagement": "Het doel van de practice IT-assetmanagement is om de volledige levenscyclus van alle IT-assets te plannen en te beheren, zodat de organisatie waarde maximaliseert, kosten beheerst, risico's managet, besluitvorming ondersteunt en voldoet aan regelgeving en contractuele eisen."
+          }
+        },
+        {
+          "number": 29,
+          "question": "Wat is elke financieel waardevolle component die kan bijdragen aan de levering van een IT-product of -service?",
+          "options": ["IT-asset", "Technologie", "Service", "Software"],
+          "answer": "IT-asset",
+          "explanation": {
+            "IT-asset": "Een IT-asset is elke financieel waardevolle component die kan bijdragen aan de levering van een IT-product of -service."
+          }
+        },
+        {
+          "number": 30,
+          "question": "Welke stap in het ITIL-continue-verbeteringsmodel biedt context voor alle volgende beslissingen en koppelt individuele acties aan de visie van de organisatie voor de toekomst?",
+          "options": ["Wat is de visie?", "Waar willen we zijn?", "Hoe meten we de voortgang?", "Actie ondernemen?"],
+          "answer": "Wat is de visie?",
+          "explanation": {
+            "Wat is de visie?": "De eerste stap van het continue-verbeteringsmodel is het definiëren van de visie van de organisatie. Dit biedt context voor alle volgende beslissingen en koppelt individuele acties aan de visie van de organisatie voor de toekomst."
+          }
+        },
+        {
+          "number": 31,
+          "question": "Nadat je hebt bepaald 'waar staan we nu', wat moet je vervolgens doen?",
+          "options": ["Bepalen waar we willen zijn", "Bepalen hoe we daar komen", "Bepalen hoe we het gaande houden", "Bepalen hoe we actie ondernemen"],
+          "answer": "Bepalen waar we willen zijn",
+          "explanation": {
+            "Bepalen waar we willen zijn": "De stap na 'waar staan we nu' is 'waar willen we zijn'."
+          }
+        },
+        {
+          "number": 32,
+          "question": "In welke stap stel je KPI's vast?",
+          "options": ["Wat is de visie?", "Waar willen we zijn?", "Hoe meten we de voortgang?", "Actie ondernemen?"],
+          "answer": "Waar willen we zijn?",
+          "explanation": {
+            "Waar willen we zijn?": "In de stap 'waar willen we zijn' kunnen verbeterdoelstellingen, kritieke succesfactoren (CSF's) en key performance indicators (KPI's) worden vastgesteld."
+          }
+        },
+        {
+          "number": 33,
+          "question": "Welke managementpractice wordt uitgevoerd voor het plannen en implementeren van verbeteringen?",
+          "options": ["Continue verbetering", "Informatiebeveiligingsmanagement", "Relatiemanagement", "Leveranciersbeheer"],
+          "answer": "Continue verbetering",
+          "explanation": {
+            "Continue verbetering": "Belangrijke activiteiten van continue verbetering omvatten het opstellen van businesscases voor verbeteracties, het plannen en implementeren van verbeteringen en het meten en evalueren van verbeterresultaten."
+          }
+        },
+        {
+          "number": 34,
+          "question": "Welke database of gestructureerd document gebruiken organisaties om verbeterideeën van identificatie tot en met uitvoering te volgen en te beheren?",
+          "options": ["Register continue verbetering lijst", "Document continue verbetering", "Spreadsheet continue verbetering", "Register continue verbetering"],
+          "answer": "Register continue verbetering",
+          "explanation": {
+            "Register continue verbetering": "Om verbeterideeën van identificatie tot en met uitvoering te volgen en te beheren, gebruiken organisaties een database of gestructureerd document: het register continue verbetering (CIR)."
+          }
+        },
+        {
+          "number": 35,
+          "question": "Welke practice wordt uitgevoerd om de informatie te beschermen die de organisatie nodig heeft om haar bedrijfsvoering uit te voeren?",
+          "options": ["Beveiligingsmanagement", "Informatiebeveiligingsmanagement", "Assetbeschermingsmanagement", "Informatiemanagement"],
+          "answer": "Informatiebeveiligingsmanagement",
+          "explanation": {
+            "Informatiebeveiligingsmanagement": "De practice informatiebeveiligingsmanagement beschermt de informatie die de organisatie nodig heeft om haar bedrijfsvoering uit te voeren."
+          }
+        },
+        {
+          "number": 36,
+          "question": "Welke practice wordt uitgevoerd om de verbindingen tussen de organisatie en haar stakeholders op strategisch en tactisch niveau te leggen en te onderhouden?",
+          "options": ["Leveranciersmanagement", "Leveranciersbeheer", "Relatiemanagement", "Klantmanagement"],
+          "answer": "Relatiemanagement",
+          "explanation": {
+            "Relatiemanagement": "Het doel van de relatiemanagementpractice is het leggen en onderhouden van verbindingen tussen de organisatie en haar stakeholders op strategisch en tactisch niveau."
+          }
+        },
+        {
+          "number": 37,
+          "question": "Waar moet informatie over assets, hun kosten en gerelateerde contracten worden opgeslagen?",
+          "options": ["IT-assetlijst", "IT-assetdatabase", "IT-assetregister", "IT-assetcatalogus"],
+          "answer": "IT-assetregister",
+          "explanation": {
+            "IT-assetregister": "IT-assetmanagement onderhoudt informatie over assets, de kosten en gerelateerde contracten in het IT-assetregister."
+          }
+        },
+        {
+          "number": 38,
+          "question": "Hoe wordt elke toestandsverandering genoemd die relevant is voor het beheer van een service of ander configuratie-item (CI)?",
+          "options": ["Probleem", "Incident", "Actie", "Event"],
+          "answer": "Event",
+          "explanation": {
+            "Event": "Een event is elke toestandsverandering die relevant is voor het beheer van een service of ander configuratie-item (CI)."
+          }
+        },
+        {
+          "number": 39,
+          "question": "Hoe heet het wanneer nieuwe of gewijzigde software beschikbaar wordt gesteld in een gecontroleerde repository en gebruikers de software naar hun apparaten downloaden op het moment dat zij kiezen?",
+          "options": ["Gefaseerde uitrol", "Continue levering", "Big-bang-uitrol", "Pull-uitrol"],
+          "answer": "Pull-uitrol",
+          "explanation": {
+            "Pull-uitrol": "Bij een pull-uitrol wordt nieuwe of gewijzigde software beschikbaar gesteld in een gecontroleerde repository en downloaden gebruikers de software wanneer zij dat kiezen."
+          }
+        },
+        {
+          "number": 40,
+          "question": "Welke practice stelt een organisatie in staat te voldoen aan wettelijke en contractuele vereisten met betrekking tot IT-assets?",
+          "options": ["IT-assetmanagement", "Deploymentmanagement", "Incidentmanagement", "Relatiemanagement"],
+          "answer": "IT-assetmanagement",
+          "explanation": {
+            "IT-assetmanagement": "De practice IT-assetmanagement wordt gebruikt om de volledige levenscyclus van alle IT-assets te beheren en de organisatie te helpen voldoen aan wettelijke en contractuele vereisten."
+          }
+        }
+      ]
+    }
+  ]
+}
+
+

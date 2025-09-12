@@ -1,0 +1,372 @@
+{
+  "chapters": [
+    {
+      "chapter": "Mock 4",
+      "description": "ITIL 4 - Oefentoets Mock 4 (NL, vragen 1-40)",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Wie is verantwoordelijk voor het embedden van voortdurende verbetering in de manier waarop mensen denken en werken op de werkplek?",
+          "options": ["Hoogste niveaus van de organisatie", "De samenleving", "Servicemanager", "Alle leden van de samenleving"],
+          "answer": "Hoogste niveaus van de organisatie",
+          "explanation": {
+            "Hoogste niveaus van de organisatie": "De hoogste niveaus van de organisatie moeten verantwoordelijkheid nemen voor het embedden van voortdurende verbetering in de manier waarop mensen denken en werken."
+          }
+        },
+        {
+          "number": 2,
+          "question": "Wie definieert de vereisten voor een service en neemt de verantwoordelijkheid voor de resultaten van serviceconsumptie?",
+          "options": ["Gebruiker", "Sponsor", "Klant", "Service-provider"],
+          "answer": "Klant",
+          "explanation": {
+            "Klant": "Een klant definieert de vereisten voor een service en neemt verantwoordelijkheid voor de resultaten van serviceconsumptie."
+          }
+        },
+        {
+          "number": 3,
+          "question": "Wat is belangrijk voor het succes van ITSM?",
+          "options": ["Relaties met alle sleutelstakeholders worden begrepen en gemanaged.", "Leveranciers en investeerders zijn vanaf de start van de service bekend", "Overheidsregelgeving wordt toegevoegd als eisen", "Gebruikers definiëren de vereisten"],
+          "answer": "Relaties met alle sleutelstakeholders worden begrepen en gemanaged.",
+          "explanation": {
+            "Relaties met alle sleutelstakeholders worden begrepen en gemanaged.": "Het is belangrijk dat relaties met alle sleutelstakeholders worden begrepen en gemanaged."
+          }
+        },
+        {
+          "number": 4,
+          "question": "Waarop zijn de services die een organisatie levert gebaseerd?",
+          "options": ["Een of meer van haar services", "Een of meer van haar producten", "Een of meer van haar leveranciers", "Een of meer van haar klanten"],
+          "answer": "Een of meer van haar producten",
+          "explanation": {
+            "Een of meer van haar producten": "De services die een organisatie levert zijn gebaseerd op een of meer van haar producten."
+          }
+        },
+        {
+          "number": 5,
+          "question": "Welke van de volgende worden door een organisatie als haar middelen beschouwd? 1. Mensen 2. Informatie en technologie 3. Waardestromen en processen 4. Partners en leveranciers",
+          "options": ["1 en 2 alleen", "1 en 3 alleen", "1 en 4 alleen", "Alle bovenstaande"],
+          "answer": "Alle bovenstaande",
+          "explanation": {
+            "Alle bovenstaande": "Organisaties beschikken over of hebben toegang tot mensen, informatie en technologie, waardestromen en processen, en partners en leveranciers."
+          }
+        },
+        {
+          "number": 6,
+          "question": "Producten zijn configuraties van?",
+          "options": ["Informatie en technologie", "Mensen", "Processen", "Middelen"],
+          "answer": "Middelen",
+          "explanation": {
+            "Middelen": "Producten zijn configuraties van deze middelen, gecreëerd door de organisatie."
+          }
+        },
+        {
+          "number": 7,
+          "question": "Een klant haalt waarde uit services zonder het volgende te hoeven managen?",
+          "options": ["Kosten en risico", "Kosten en tijd", "Kosten en technologie", "Kosten en producten"],
+          "answer": "Kosten en risico",
+          "explanation": {
+            "Kosten en risico": "Een service faciliteert beoogde uitkomsten zonder dat de klant specifieke kosten en risico’s hoeft te managen."
+          }
+        },
+        {
+          "number": 8,
+          "question": "In welke vorm presenteren service-providers hun services aan consumenten?",
+          "options": ["Servicegeschenken", "Serviceaanbiedingen", "Producten", "Middelen"],
+          "answer": "Serviceaanbiedingen",
+          "explanation": {
+            "Serviceaanbiedingen": "Service-providers presenteren hun services aan consumenten in de vorm van serviceaanbiedingen."
+          }
+        },
+        {
+          "number": 9,
+          "question": "Een serviceaanbieding beschrijft?",
+          "options": ["Middelen", "Informatie en technologie", "Een of meer services gebaseerd op een of meer producten.", "Een of meer configuraties gebaseerd op een of meer technologieën"],
+          "answer": "Een of meer services gebaseerd op een of meer producten.",
+          "explanation": {
+            "Een of meer services gebaseerd op een of meer producten.": "Een serviceaanbieding beschrijft een of meer services gebaseerd op een of meer producten."
+          }
+        },
+        {
+          "number": 10,
+          "question": "Een serviceaanbieding omvat doorgaans? 1. Goederen 2. Toegang tot middelen 3. Serviceacties 4. Technologie",
+          "options": ["1, 2 en 3", "1 en 4 alleen", "3 en 4 alleen", "Alle bovenstaande"],
+          "answer": "1, 2 en 3",
+          "explanation": {
+            "1, 2 en 3": "Een serviceaanbieding kan goederen, toegang tot middelen en serviceacties omvatten."
+          }
+        },
+        {
+          "number": 11,
+          "question": "Wanneer goederen worden overgedragen van provider naar consument, wie neemt dan de verantwoordelijkheid voor het toekomstig gebruik?",
+          "options": ["Leverancier", "Service-provider", "Stakeholder", "Consument"],
+          "answer": "Consument",
+          "explanation": {
+            "Consument": "Goederen worden overgedragen van provider naar consument; de consument neemt verantwoordelijkheid voor toekomstig gebruik."
+          }
+        },
+        {
+          "number": 12,
+          "question": "Serviceacties moeten door de service-provider worden uitgevoerd volgens de?",
+          "options": ["Overheidsregels", "Overeenkomst", "Eisen van de service-provider", "Leveringsmethode"],
+          "answer": "Overeenkomst",
+          "explanation": {
+            "Overeenkomst": "Serviceacties worden door de service-provider uitgevoerd overeenkomstig de afspraak met de consument."
+          }
+        },
+        {
+          "number": 13,
+          "question": "Welke eigendom wordt niet aan de klant overgedragen?",
+          "options": ["Goederen", "Toegang tot middelen", "Serviceacties", "Technologie"],
+          "answer": "Toegang tot middelen",
+          "explanation": {
+            "Toegang tot middelen": "Eigendom van toegang tot middelen wordt niet aan de consument overgedragen."
+          }
+        },
+        {
+          "number": 14,
+          "question": "Wat wordt ingericht tussen twee of meer organisaties om waarde te cocreëren?",
+          "options": ["Serviceaanbieding", "Servicetechnologie", "Servicerelatie", "Servicemeeting"],
+          "answer": "Servicerelatie",
+          "explanation": {
+            "Servicerelatie": "Servicerelaties worden ingericht tussen twee of meer organisaties om waarde te cocreëren."
+          }
+        },
+        {
+          "number": 15,
+          "question": "Wat is een materieel of immaterieel voortbrengsel van een activiteit?",
+          "options": ["Eindresultaat", "Output", "Oplevering", "Scope"],
+          "answer": "Output",
+          "explanation": {
+            "Output": "Een output is een materieel of immaterieel voortbrengsel van een activiteit."
+          }
+        },
+        {
+          "number": 16,
+          "question": "Een eindresultaat (outcome) kan worden beschreven als?",
+          "options": ["Behoefte voor een stakeholder", "Set gerelateerde services", "Resultaat voor een stakeholder mogelijk gemaakt door één of meer outputs", "Resultaat voor een service-provider mogelijk gemaakt door één of meer producten"],
+          "answer": "Resultaat voor een stakeholder mogelijk gemaakt door één of meer outputs",
+          "explanation": {
+            "Resultaat voor een stakeholder mogelijk gemaakt door één of meer outputs": "Een eindresultaat is een resultaat voor een stakeholder dat mogelijk wordt gemaakt door één of meer outputs."
+          }
+        },
+        {
+          "number": 17,
+          "question": "Wat zijn vanuit het perspectief van de serviceconsument de twee typen kosten?",
+          "options": ["Kosten weggenomen en kosten opgelegd door de service", "Risicokosten en productkosten", "Risicokosten en weggenomen kosten", "Opgelegde kosten en risicokosten"],
+          "answer": "Kosten weggenomen en kosten opgelegd door de service",
+          "explanation": {
+            "Kosten weggenomen en kosten opgelegd door de service": "Voor de serviceconsument zijn er kosten die worden weggenomen en kosten die door de service worden opgelegd."
+          }
+        },
+        {
+          "number": 18,
+          "question": "Wat is een mogelijke gebeurtenis die schade of verlies kan veroorzaken?",
+          "options": ["Servicefout", "Risico", "Servicverlies", "Servicerisico"],
+          "answer": "Risico",
+          "explanation": {
+            "Risico": "Risico is een mogelijke gebeurtenis die schade of verlies kan veroorzaken of het moeilijker kan maken doelen te bereiken."
+          }
+        },
+        {
+          "number": 19,
+          "question": "Wat kan worden samengevat als 'wat de service kan doen'?",
+          "options": ["Warranty", "Servicefunctie", "Serviceprestatie", "Utility"],
+          "answer": "Utility",
+          "explanation": {
+            "Utility": "Utility kan worden samengevat als 'wat de service kan doen'."
+          }
+        },
+        {
+          "number": 20,
+          "question": "Welke practice zorgt ervoor dat conflicterende eisen van stakeholders op de juiste manier worden gemedieerd?",
+          "options": ["Relatiemanagement-practice", "Stakeholdermanagement", "Conflictmanagement", "Problemmanagement"],
+          "answer": "Relatiemanagement-practice",
+          "explanation": {
+            "Relatiemanagement-practice": "De relatiemanagement-practice zorgt ervoor dat conflicterende stakeholdereisen op de juiste manier worden gemedieerd."
+          }
+        },
+        {
+          "number": 21,
+          "question": "Wat wordt beschouwd als 'fit for use'?",
+          "options": ["Service", "Utility", "Warranty", "Gebruik"],
+          "answer": "Warranty",
+          "explanation": {
+            "Warranty": "Warranty kan worden gebruikt om te bepalen of een service 'fit for use' is."
+          }
+        },
+        {
+          "number": 22,
+          "question": "Waardoor kunnen services onleverbaar worden of niet aan verwachtingen voldoen?",
+          "options": ["Kosten van de service zijn te hoog", "Risico wordt niet weggenomen", "Het niet goed adresseren van alle vier de dimensies", "Introductie van nieuwe risico’s door de service"],
+          "answer": "Het niet goed adresseren van alle vier de dimensies",
+          "explanation": {
+            "Het niet goed adresseren van alle vier de dimensies": "Als niet alle vier de dimensies goed worden geadresseerd, kunnen services onleverbaar worden of niet aan kwaliteits- of efficiencyverwachtingen voldoen."
+          }
+        },
+        {
+          "number": 23,
+          "question": "Waarvan moet iedere persoon in de organisatie een duidelijk begrip hebben?",
+          "options": ["Hun bijdrage aan waardecreatie", "Hun bevoegdheidsniveau", "Hun vaardigheden en capaciteiten", "Hun werkschema's"],
+          "answer": "Hun bijdrage aan waardecreatie",
+          "explanation": {
+            "Hun bijdrage aan waardecreatie": "Iedereen moet duidelijk begrijpen hoe hij of zij bijdraagt aan waardecreatie voor de organisatie."
+          }
+        },
+        {
+          "number": 24,
+          "question": "De dimensie 'organisaties en mensen' dekt: 1. Rollen 2. Formele organisatiestructuren 3. Processen",
+          "options": ["1, 2 en 3", "1 en 2 alleen", "1 en 3 alleen", "Geen van bovenstaande"],
+          "answer": "1 en 2 alleen",
+          "explanation": {
+            "1 en 2 alleen": "Deze dimensie dekt o.a. rollen en verantwoordelijkheden en formele organisatiestructuren (processen horen onder 'waardestromen en processen')."
+          }
+        },
+        {
+          "number": 25,
+          "question": "Wat is één of meer metrics die de verwachte of gerealiseerde servicekwaliteit bepalen?",
+          "options": ["Service-eis", "Service-doel", "Serviceprestatie", "Servicelevel"],
+          "answer": "Servicelevel",
+          "explanation": {
+            "Servicelevel": "Een servicelevel bestaat uit één of meer metrics die de verwachte of gerealiseerde servicekwaliteit bepalen."
+          }
+        },
+        {
+          "number": 26,
+          "question": "Welke uitrolbenadering wordt gebruikt wanneer nieuwe of gewijzigde componenten tegelijk naar alle doelen worden uitgerold?",
+          "options": ["Gefaseerde uitrol", "Continue levering", "Big-bang-uitrol", "Pull-uitrol"],
+          "answer": "Big-bang-uitrol",
+          "explanation": {
+            "Big-bang-uitrol": "Bij een big-bang-uitrol worden nieuwe of gewijzigde componenten tegelijk naar alle doelen uitgerold; soms nodig door afhankelijkheden."
+          }
+        },
+        {
+          "number": 27,
+          "question": "Een IT-asset is elke __________ waardevolle component die kan bijdragen aan de levering van een IT-product of -service.",
+          "options": ["Commercieel", "Financieel", "Gebruikers-", "Service-"],
+          "answer": "Financieel",
+          "explanation": {
+            "Financieel": "Een IT-asset is elke financieel waardevolle component die kan bijdragen aan de levering van een IT-product of -service."
+          }
+        },
+        {
+          "number": 28,
+          "question": "Van welk niveau moet informatiebeveiligingsmanagement worden aangestuurd?",
+          "options": ["Gebruikers", "Senior management", "IT-medewerkers", "Toezichthouders"],
+          "answer": "Senior management",
+          "explanation": {
+            "Senior management": "Informatiebeveiligingsmanagement moet worden aangestuurd vanaf het hoogste niveau in de organisatie, gebaseerd op governance-eisen en beleid."
+          }
+        },
+        {
+          "number": 29,
+          "question": "Wat wordt beschouwd als 'fit for purpose'?",
+          "options": ["Service", "Utility", "Warranty", "Gebruik"],
+          "answer": "Utility",
+          "explanation": {
+            "Utility": "Utility kan worden gebruikt om te bepalen of een service 'fit for purpose' is."
+          }
+        },
+        {
+          "number": 30,
+          "question": "Wat zorgt ervoor dat beveiligingsincidenten niet plaatsvinden?",
+          "options": ["Preventie", "Detectie", "Correctie", "Gebruikers"],
+          "answer": "Preventie",
+          "explanation": {
+            "Preventie": "Preventie zorgt ervoor dat beveiligingsincidenten niet plaatsvinden."
+          }
+        },
+        {
+          "number": 31,
+          "question": "Wat herstelt van incidenten nadat deze zijn gedetecteerd?",
+          "options": ["Preventie", "Detectie", "Correctie", "Gebruikers"],
+          "answer": "Correctie",
+          "explanation": {
+            "Correctie": "Correctie is het herstel na incidenten zodra deze zijn gedetecteerd."
+          }
+        },
+        {
+          "number": 32,
+          "question": "Het doel van de __________-practice is het beschermen van de informatie die de organisatie nodig heeft om haar bedrijfsvoering uit te voeren.",
+          "options": ["Informatiebeveiligingsmanagement", "Assetbeveiligingsmanagement", "Gebruikersbeveiligingsmanagement", "Problemmanagement"],
+          "answer": "Informatiebeveiligingsmanagement",
+          "explanation": {
+            "Informatiebeveiligingsmanagement": "Het doel van informatiebeveiligingsmanagement is de informatie te beschermen die de organisatie nodig heeft om haar bedrijfsvoering uit te voeren."
+          }
+        },
+        {
+          "number": 33,
+          "question": "Wat zorgt ervoor dat iemand niet kan ontkennen dat hij/zij een actie heeft uitgevoerd?",
+          "options": ["Vertrouwelijkheid", "Integriteit", "Non-repudiation", "Beschikbaarheid"],
+          "answer": "Non-repudiation",
+          "explanation": {
+            "Non-repudiation": "Non-repudiation zorgt ervoor dat iemand niet kan ontkennen dat hij/zij een actie heeft uitgevoerd."
+          }
+        },
+        {
+          "number": 34,
+          "question": "Wat zorgt ervoor dat iemand is wie hij/zij beweert te zijn?",
+          "options": ["Vertrouwelijkheid", "Integriteit", "Non-repudiation", "Authenticatie"],
+          "answer": "Authenticatie",
+          "explanation": {
+            "Authenticatie": "Authenticatie zorgt ervoor dat iemand is wie hij/zij beweert te zijn, bijvoorbeeld met een wachtwoord."
+          }
+        },
+        {
+          "number": 35,
+          "question": "Wat kan worden samengevat als 'hoe de service presteert'?",
+          "options": ["Warranty", "Servicefunctie", "Serviceprestatie", "Utility"],
+          "answer": "Warranty",
+          "explanation": {
+            "Warranty": "Warranty kan worden samengevat als 'hoe de service presteert'."
+          }
+        },
+        {
+          "number": 36,
+          "question": "Informatiebeveiliging is kritisch afhankelijk van de?",
+          "options": ["IT-assets", "Het gedrag van mensen", "In de hele organisatie gebruikte software", "Vaardigheden van IT-medewerkers"],
+          "answer": "Het gedrag van mensen",
+          "explanation": {
+            "Het gedrag van mensen": "Informatiebeveiliging is kritisch afhankelijk van het gedrag van mensen in de hele organisatie."
+          }
+        },
+        {
+          "number": 37,
+          "question": "De organisatie moet leveranciers evalueren en selecteren op basis van 1. Belang en impact 2. Risico 3. Kosten",
+          "options": ["1, 2 en 3", "1 en 2 alleen", "2 en 3 alleen", "1 en 3 alleen"],
+          "answer": "1, 2 en 3",
+          "explanation": {
+            "1, 2 en 3": "Selectie op basis van waarde (belang en impact), risico’s en kosten van de service en de levering ervan."
+          }
+        },
+        {
+          "number": 38,
+          "question": "Hoe heet het vermogen van een organisatie, persoon, proces, applicatie, configuratie-item of IT-service om een activiteit uit te voeren?",
+          "options": ["Aanbod", "Capaciteit", "Vaardigheden", "Competentie"],
+          "answer": "Capaciteit",
+          "explanation": {
+            "Capaciteit": "Capaciteit is het vermogen van een organisatie, persoon, proces, applicatie, CI of IT-service om een activiteit uit te voeren."
+          }
+        },
+        {
+          "number": 39,
+          "question": "Wat is een herhaalbare aanpak voor het managen van een bepaald type change?",
+          "options": ["Changestrategie", "Changemethode", "Changemodel", "Changetypen"],
+          "answer": "Changemodel",
+          "explanation": {
+            "Changemodel": "Een changemodel is een herhaalbare aanpak voor het managen van een bepaald type change."
+          }
+        },
+        {
+          "number": 40,
+          "question": "Welke beveiligingsdoelstelling zorgt ervoor dat informatie niet beschikbaar wordt gesteld of bekendgemaakt aan niet-geautoriseerde entiteiten?",
+          "options": ["Vertrouwelijkheid", "Entiteit", "Beschikbaarheid", "Authenticatie"],
+          "answer": "Vertrouwelijkheid",
+          "explanation": {
+            "Vertrouwelijkheid": "Vertrouwelijkheid zorgt ervoor dat informatie niet beschikbaar wordt gesteld of bekendgemaakt aan niet-geautoriseerde entiteiten."
+          }
+        }
+      ]
+    }
+  ]
+}
+
+

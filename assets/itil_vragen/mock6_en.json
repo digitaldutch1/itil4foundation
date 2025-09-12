@@ -1,0 +1,371 @@
+{
+  "chapters": [
+    {
+      "chapter": "Mock 6",
+      "description": "ITIL 4 - Practice Test Mock 6 (EN, questions 1-40)",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What would knowledge bases, inventory systems, and communication systems be considered on the four dimensions model?",
+          "options": ["Information and technology", "Value streams and processes", "Partners and suppliers", "People and organization"],
+          "answer": "Information and technology",
+          "explanation": {
+            "Information and technology": "The information and technology that support service management include, but are not limited to, workflow management systems, knowledge bases, inventory systems, communication systems, and analytical tools."
+          }
+        },
+        {
+          "number": 2,
+          "question": "What are some of the biggest challenges of information management?",
+          "options": ["Blockchain and artificial intelligence", "Cognitive computing", "Security and compliance", "Databases"],
+          "answer": "Security and compliance",
+          "explanation": {
+            "Security and compliance": "The challenges of information management, such as those presented by security and regulatory compliance requirements are a focus of information and technology."
+          }
+        },
+        {
+          "number": 3,
+          "question": "What is the most important question an organization should ask when working in information and technology?",
+          "options": ["How much does the technology cost?", "Does the technology introduce new risks or constraints to the organization?", "How will the information and technology sell?", "What are the customer's technological needs?"],
+          "answer": "Does the technology introduce new risks or constraints to the organization?",
+          "explanation": {
+            "Does the technology introduce new risks or constraints to the organization?": "Does this technology introduce new risks or constraints to the organization (for example, locking it into a specific vendor)?"
+          }
+        },
+        {
+          "number": 4,
+          "question": "What can have a significant impact on the technology a company chooses?",
+          "options": ["Time needed", "Culture", "Risk", "Scope"],
+          "answer": "Culture",
+          "explanation": {
+            "Culture": "The culture of an organization may have a significant impact on the technologies it chooses to use."
+          }
+        },
+        {
+          "number": 5,
+          "question": "What can be defined as a model for enabling on-demand network access to a shared pool of configurable computing resources that can be rapidly provided with minimal management effort or provider interactions?",
+          "options": ["Cloud computing", "On-demand computing", "External computing", "Outsource computing"],
+          "answer": "Cloud computing",
+          "explanation": {
+            "Cloud computing": "Cloud computing is a model for enabling on-demand network access to a shared pool of configurable computing resources that can be rapidly provided with minimal management."
+          }
+        },
+        {
+          "number": 6,
+          "question": "What dimension encompasses an organization relationships with other organizations to provide services?",
+          "options": ["Information and technology", "Partners and Vendors", "Partners and suppliers", "Suppliers and Vendors"],
+          "answer": "Partners and suppliers",
+          "explanation": {
+            "Partners and suppliers": "The partners and suppliers dimension encompasses an organization’s relationships with other organizations that are involved in the design, development, deployment, delivery, support, and/or continual improvement of services."
+          }
+        },
+        {
+          "number": 7,
+          "question": "What are some factors that influences an organization strategy when using suppliers? 1. Strategic Focus 2. Corporate Culture 3. Cost concerns 4. Internal technology usage",
+          "options": ["1 and 2", "1 and 3", "1, 2, and 3", "All of the above"],
+          "answer": "1, 2, and 3",
+          "explanation": {
+            "1, 2, and 3": "Some factors that influences an organization strategy when using suppliers includes strategic focus, corporate culture, resource scarcity, cost concerns, subject matter expertise, external constraints, and demand patterns."
+          }
+        },
+        {
+          "number": 8,
+          "question": "Which dimension is concerned with how the various parts of the organization work in an integrated and coordinated way to enable value creation through products and services?",
+          "options": ["Information and technology", "Value streams and processes", "Partners and suppliers", "People and organization"],
+          "answer": "Value streams and processes",
+          "explanation": {
+            "Value streams and processes": "The value streams and processes dimension is concerned with how the various parts of the organization work in an integrated and coordinated way to enable value creation through products and services."
+          }
+        },
+        {
+          "number": 9,
+          "question": "What does the value streams and processes dimension focus on?",
+          "options": ["What activities the organization undertakes and how they are organized", "What processes the organization uses to manage technology", "What activities are used to manage suppliers", "What activities are used to create services"],
+          "answer": "What activities the organization undertakes and how they are organized",
+          "explanation": {
+            "What activities the organization undertakes and how they are organized": "The dimension focuses on what activities the organization undertakes and how they are organized, as well as how the organization ensures that it is enabling value creation for all stakeholders efficiently and effectively."
+          }
+        },
+        {
+          "number": 10,
+          "question": "What can be defined as a series of steps an organization undertakes to create and deliver products and services to consumers?",
+          "options": ["Value maps", "Process maps", "Process stream", "Value stream"],
+          "answer": "Value stream",
+          "explanation": {
+            "Value stream": "A value stream is a series of steps an organization undertakes to create and deliver products and services to consumers."
+          }
+        },
+        {
+          "number": 11,
+          "question": "What is defined as a set of activities that transform inputs to outputs?",
+          "options": ["Service", "Process", "Procedure", "Activity"],
+          "answer": "Process",
+          "explanation": {
+            "Process": "A process is a set of activities that transform inputs to outputs."
+          }
+        },
+        {
+          "number": 12,
+          "question": "What is usually detailed in a process?",
+          "options": ["Services", "Events", "Procedures", "Actions"],
+          "answer": "Procedures",
+          "explanation": {
+            "Procedures": "The option that is usually detailed in a process is procedures. Procedures outline who is involved in the process, and work instructions."
+          }
+        },
+        {
+          "number": 13,
+          "question": "What does the S in the PESTLE framework mean?",
+          "options": ["Service", "Sector", "Set", "Social"],
+          "answer": "Social",
+          "explanation": {
+            "Social": "PESTLE is an acronym for the political, economic, social, technological, legal, and environmental."
+          }
+        },
+        {
+          "number": 14,
+          "question": "What describes how all the components and activities of the organization work together as a system to enable value creation?",
+          "options": ["Service value system (SVS)", "Service variations system (SVS)", "Service verification system (SVS)", "Service system (SS)"],
+          "answer": "Service value system (SVS)",
+          "explanation": {
+            "Service value system (SVS)": "The ITIL SVS describes how all the components and activities of the organization work together as a system to enable value creation."
+          }
+        },
+        {
+          "number": 15,
+          "question": "Which of the following are components of the SVS? 1. Guiding principles 2. Governance 3. Service value Chain 4. Practices",
+          "options": ["1 and 2 only", "2 only", "1, 2, and 3", "All of the above"],
+          "answer": "All of the above",
+          "explanation": {
+            "All of the above": "The SVS includes guiding principles, governance, service value chain, practices and continual improvement."
+          }
+        },
+        {
+          "number": 16,
+          "question": "What is the purpose of the SVS?",
+          "options": ["To ensure the organization manages it resources correctly", "To ensure that the organization continually co-creates value with all stakeholders through the use and management of products and services.", "To ensure it meets customer's needs", "To create value for itself."],
+          "answer": "To ensure that the organization continually co-creates value with all stakeholders through the use and management of products and services.",
+          "explanation": {
+            "To ensure that the organization continually co-creates value with all stakeholders through the use and management of products and services.": "The purpose of the SVS is to ensure that the organization continually co-creates value with all stakeholders through the use and management of products and services."
+          }
+        },
+        {
+          "number": 17,
+          "question": "What is one of the biggest challenges an organization can face when trying to work effectively and efficiently with a shared vision?",
+          "options": ["Organizational silos.", "Organizational risk", "Organizational culture", "Organizational Cost"],
+          "answer": "Organizational silos.",
+          "explanation": {
+            "Organizational silos.": "One of the biggest challenges an organization can face when trying to work effectively and efficiently with a shared vision, or to become more Agile and resilient, is the presence of organizational silos."
+          }
+        },
+        {
+          "number": 18,
+          "question": "What represents options or possibilities to add value for stakeholders or otherwise improve the organization?",
+          "options": ["Opportunity", "Demand", "Customer", "Service"],
+          "answer": "Opportunity",
+          "explanation": {
+            "Opportunity": "Opportunity represents options or possibilities to add value for stakeholders or otherwise improve the organization."
+          }
+        },
+        {
+          "number": 19,
+          "question": "What represents the need or desire for products and services from internal and external customers?",
+          "options": ["Opportunity", "Demand", "Customer", "Service"],
+          "answer": "Demand",
+          "explanation": {
+            "Demand": "Demand represents the need or desire for products and services from internal and external customers."
+          }
+        },
+        {
+          "number": 20,
+          "question": "What is a recommendation that guides an organization in all circumstances, regardless of changes in its goals, strategies, type of work, or management structure?",
+          "options": ["Guiding Service", "Guiding principle", "Service principle", "Manage principle"],
+          "answer": "Guiding principle",
+          "explanation": {
+            "Guiding principle": "A guiding principle is a recommendation that guides an organization in all circumstances, regardless of changes in its goals, strategies, type of work, or management structure."
+          }
+        },
+        {
+          "number": 21,
+          "question": "Which of the following is a ITIL guiding principle?",
+          "options": ["Focus on customer needs", "Focus on cost", "Focus on Value", "Focus on risk"],
+          "answer": "Focus on Value",
+          "explanation": {
+            "Focus on Value": "Everything that the organization does needs to map, directly or indirectly, to value for the stakeholders."
+          }
+        },
+        {
+          "number": 22,
+          "question": "What should you do if a process, service, action or metric fails to provide value or produce a useful outcome?",
+          "options": ["Fix it", "Eliminate it", "Redo it", "Improve it"],
+          "answer": "Eliminate it",
+          "explanation": {
+            "Eliminate it": "If a process, service, action or metric fails to provide value or produce a useful outcome, it should be eliminated."
+          }
+        },
+        {
+          "number": 23,
+          "question": "What method when applied to software development, focus on the delivery of incremental changes to software products while responding to the changing (or evolving) needs of users?",
+          "options": ["Waterfall method", "Change method", "Incremental method", "Agile method"],
+          "answer": "Agile method",
+          "explanation": {
+            "Agile method": "Agile methods, when applied to software development, focus on the delivery of incremental changes to software products while responding to the changing (or evolving) needs of users."
+          }
+        },
+        {
+          "number": 24,
+          "question": "What method emphasizes close collaboration between the roles of software development and technical operations?",
+          "options": ["Agile Method", "Change Method", "DevOps Method", "Waterfall method"],
+          "answer": "DevOps Method",
+          "explanation": {
+            "DevOps Method": "DevOps methods build on Agile software development and service management techniques by emphasizing close collaboration between the roles of software development and technical operations."
+          }
+        },
+        {
+          "number": 25,
+          "question": "Which service value chain activity is done to ensure that products and services continually meet stakeholder expectations for quality, costs, and time to market?",
+          "options": ["Engage", "Design", "Plan", "Design and transition"],
+          "answer": "Design and transition",
+          "explanation": {
+            "Design and transition": "The purpose of the design and transition value chain activity is to ensure that products and services continually meet stakeholder expectations for quality, costs, and time to market."
+          }
+        },
+        {
+          "number": 26,
+          "question": "The ITIL continual improvement model has _______ steps?",
+          "options": ["4", "5", "6", "7"],
+          "answer": "7",
+          "explanation": {
+            "7": "The ITIL continual improvement model contains 7 steps."
+          }
+        },
+        {
+          "number": 27,
+          "question": "Which of the following are steps in the ITIL continual improvement model?",
+          "options": ["1 and 2 only", "1 and 3 only", "1, 2 and 4 only", "All of the above"],
+          "answer": "1, 2 and 4 only",
+          "explanation": {
+            "1, 2 and 4 only": "The steps in the ITIL continual improvement model include: What is the vision? Where are we now? Where do we want to be? How do get there? Take action. Did we get there? How do we keep the momentum going?"
+          }
+        },
+        {
+          "number": 28,
+          "question": "What type of events do not require action at the time they are identified?",
+          "options": ["Informational", "Logging", "Status", "Error"],
+          "answer": "Informational",
+          "explanation": {
+            "Informational": "Informational events do not require action at the time they are identified, but analyzing the data gathered from them at a later date may uncover desirable, proactive steps that can be beneficial to the service."
+          }
+        },
+        {
+          "number": 29,
+          "question": "What is a cause, or potential cause, of one or more incidents?",
+          "options": ["Event", "Problem", "Know Error", "Error"],
+          "answer": "Problem",
+          "explanation": {
+            "Problem": "A problem is a cause, or potential cause, of one or more incidents."
+          }
+        },
+        {
+          "number": 30,
+          "question": "What is a problem that has been analyzed but has not been resolved?",
+          "options": ["Unresolved issue", "Known error", "User error", "Unresolved incidents"],
+          "answer": "Known error",
+          "explanation": {
+            "Known error": "A known error is a problem that has been analyzed but has not been resolved."
+          }
+        },
+        {
+          "number": 31,
+          "question": "Which practice is to reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents, and managing workarounds and known errors?",
+          "options": ["Event management", "Incident management", "Problem management", "Event and problem management"],
+          "answer": "Problem management",
+          "explanation": {
+            "Problem management": "The purpose of the problem management practice is to reduce the likelihood and impact of incidents by identifying actual and potential causes of incidents, and managing workarounds and known errors."
+          }
+        },
+        {
+          "number": 32,
+          "question": "What is a solution that reduces or eliminates the impact of an incident or problem for which a full resolution is not yet available?",
+          "options": ["Risk reduction", "Workaround", "Temporary solution", "Provisional solution"],
+          "answer": "Workaround",
+          "explanation": {
+            "Workaround": "A workaround is a solution that reduces or eliminates the impact of an incident or problem for which a full resolution is not yet available."
+          }
+        },
+        {
+          "number": 33,
+          "question": "What should be defined by the organization for each of their products and services?",
+          "options": ["Value maps", "Process maps", "Process stream", "Value stream"],
+          "answer": "Value stream",
+          "explanation": {
+            "Value stream": "Value streams should be defined by organizations for each of their products and services."
+          }
+        },
+        {
+          "number": 34,
+          "question": "What is a version of a service or other configuration item, or a collection of configuration items, that is made available for use?",
+          "options": ["Event", "Event", "Fix", "Release"],
+          "answer": "Release",
+          "explanation": {
+            "Release": "A release is a version of a service or other configuration item, or a collection of configuration items, that is made available for use."
+          }
+        },
+        {
+          "number": 35,
+          "question": "Which practice is done to make new and changed services and features available for use?",
+          "options": ["Problem management", "Release management", "Update management", "Service update management"],
+          "answer": "Release management",
+          "explanation": {
+            "Release management": "The purpose of the release management practice is to make new and changed services and features available for use."
+          }
+        },
+        {
+          "number": 36,
+          "question": "What in the service value chain is done to provide a good understanding of stakeholder needs, transparency, and continual engagement and good relationships with all stakeholders?",
+          "options": ["Improve", "Engage", "Design", "Deliver and support"],
+          "answer": "Engage",
+          "explanation": {
+            "Engage": "The purpose of the engage value chain activity is to provide a good understanding of stakeholder needs, transparency, and continual engagement and good relationships with all stakeholders."
+          }
+        },
+        {
+          "number": 37,
+          "question": "What is any component that needs to be managed in order to deliver an IT service?",
+          "options": ["Configuration component", "Configuration item", "Configuration system", "Technology Configuration"],
+          "answer": "Configuration item",
+          "explanation": {
+            "Configuration item": "A configuration item is any component that needs to be managed in order to deliver an IT service."
+          }
+        },
+        {
+          "number": 38,
+          "question": "Which ITIL guiding principle recommends using existing services and processes and tools while improving services?",
+          "options": ["Progress iteratively with feedback", "Keep it simple and practical", "Start where you are", "Optimize and automate"],
+          "answer": "Start where you are",
+          "explanation": {
+            "Start where you are": "Start where you are is the guiding principle of understanding what you currently have and how to reuse them for improvement. You don't necessarily need to start all over again."
+          }
+        },
+        {
+          "number": 39,
+          "question": "Which practice ensures that risks have been properly assessed?",
+          "options": ["Service configuration management", "Continual Improvement", "Incident management", "Change enablement"],
+          "answer": "Change enablement",
+          "explanation": {
+            "Change enablement": "Change enablement is where you should assess risk before implementing changes in a system or organization process."
+          }
+        },
+        {
+          "number": 40,
+          "question": "What includes identification of potential permanent solutions which may result in a change request for implementation of a solution, but only if this can be justified in terms of cost, risks, and benefits?",
+          "options": ["Error control", "User control", "Problem control", "Fix management"],
+          "answer": "Error control",
+          "explanation": {
+            "Error control": "Error control includes identification of potential permanent solutions which may result in a change request for implementation of a solution, but only if this can be justified in terms of cost, risks, and benefits."
+          }
+        }
+      ]
+    }
+  ]
+}        
+

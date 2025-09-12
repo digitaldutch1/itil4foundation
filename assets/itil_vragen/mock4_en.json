@@ -1,0 +1,372 @@
+{
+  "chapters": [
+    {
+      "chapter": "Mock 4",
+      "description": "ITIL 4 - Practice Test Mock 4 (EN, questions 1-40)",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Who is responsible for embedding continuing improvement into the way people think and work at a workplace?",
+          "options": ["Highest levels of the organization", "Society", "Service manager", "All members of society"],
+          "answer": "Highest levels of the organization",
+          "explanation": {
+            "Highest levels of the organization": "The highest levels of the organization need to take responsibility for embedding continuing improvement into the way that people think and work."
+          }
+        },
+        {
+          "number": 2,
+          "question": "Who defines the requirements for a service and takes responsibility for the outcomes of service consumption?",
+          "options": ["User", "Sponsor", "Customer", "Service provider"],
+          "answer": "Customer",
+          "explanation": {
+            "Customer": "A customer is someone who defines the requirements for a service and takes responsibility for the outcomes of service consumption."
+          }
+        },
+        {
+          "number": 3,
+          "question": "What is important for the success of ITSM?",
+          "options": ["Relationships with all key stakeholders are understood and managed.", "Suppliers and investors are known form the start of the service", "Government regulation are added as requirements", "Users define requirements"],
+          "answer": "Relationships with all key stakeholders are understood and managed.",
+          "explanation": {
+            "Relationships with all key stakeholders are understood and managed.": "It is important that relationships with all key stakeholders are understood and managed."
+          }
+        },
+        {
+          "number": 4,
+          "question": "Services that an organization provides are based on",
+          "options": ["One or more of its services", "One or more of its products", "One or more of its suppliers", "One or more of its customers"],
+          "answer": "One or more of its products",
+          "explanation": {
+            "One or more of its products": "The services that an organization provides are based on one or more of its products."
+          }
+        },
+        {
+          "number": 5,
+          "question": "Which of the following would an organization consider its resources? 1. People 2. Information and technology 3. Value streams and processes 4. Partners and suppliers",
+          "options": ["1 and 2 only", "1 and 3 only", "1 and 4 only", "All of the above"],
+          "answer": "All of the above",
+          "explanation": {
+            "All of the above": "Organizations own or have access to a variety of resources, including people, information and technology, value streams and processes, and partners and suppliers."
+          }
+        },
+        {
+          "number": 6,
+          "question": "Products are configurations of?",
+          "options": ["Information and technology", "People", "Processes", "Resources"],
+          "answer": "Resources",
+          "explanation": {
+            "Resources": "Products are configurations of these resources, created by the organization."
+          }
+        },
+        {
+          "number": 7,
+          "question": "A customer achieves value from a services without having to manage?",
+          "options": ["Cost and risk", "Cost and time", "Cost and technology", "Cost and products"],
+          "answer": "Cost and risk",
+          "explanation": {
+            "Cost and risk": "A service is a means of enabling value co-creation by facilitating outcomes that customers want to achieve, without the customer having to manage specific costs and risks."
+          }
+        },
+        {
+          "number": 8,
+          "question": "Service providers present their services to consumers in the form of?",
+          "options": ["Service gifts", "Service offerings", "Products", "Resources"],
+          "answer": "Service offerings",
+          "explanation": {
+            "Service offerings": "Service providers present their services to consumers in the form of service offerings."
+          }
+        },
+        {
+          "number": 9,
+          "question": "Service offerings describes?",
+          "options": ["Resources", "Information and technology", "One or more services based on one or more products.", "One or more configuration based on one or more technology"],
+          "answer": "One or more services based on one or more products.",
+          "explanation": {
+            "One or more services based on one or more products.": "Service offerings describes one or more services based on one or more products."
+          }
+        },
+        {
+          "number": 10,
+          "question": "Service offering generally includes? 1. Goods 2. Access to resources 3. Service actions 4. Technology",
+          "options": ["1, 2 and 3", "1 and 4 only", "3 and 4 only", "All of the above"],
+          "answer": "1, 2 and 3",
+          "explanation": {
+            "1, 2 and 3": "A service offering may include goods, access to resources, and service actions."
+          }
+        },
+        {
+          "number": 11,
+          "question": "When goods are transferred from the provider to the consumer, who takes responsibility for their future use?",
+          "options": ["Supplier", "Service provider", "Stakeholder", "Consumer"],
+          "answer": "Consumer",
+          "explanation": {
+            "Consumer": "Goods are supposed to be transferred from the provider to the consumer, with the consumer taking the responsibility for their future use."
+          }
+        },
+        {
+          "number": 12,
+          "question": "Service actions must be performed by the service provider according to?",
+          "options": ["Government regulations", "Agreement", "Service provider requirements", "Method of delivery"],
+          "answer": "Agreement",
+          "explanation": {
+            "Agreement": "Service actions are performed by the service provider according to the agreement with the consumer."
+          }
+        },
+        {
+          "number": 13,
+          "question": "Which of the following ownership is not transferred to the customer?",
+          "options": ["Goods", "Access to resources", "Service actions", "Technology"],
+          "answer": "Access to resources",
+          "explanation": {
+            "Access to resources": "Access to resources ownership is not transferred to the consumer."
+          }
+        },
+        {
+          "number": 14,
+          "question": "What is establish between two or more organizations to co-create value?",
+          "options": ["Service offering", "Service technology", "Service relationship", "Service meeting"],
+          "answer": "Service relationship",
+          "explanation": {
+            "Service relationship": "Service relationship are established between two or more organizations to co-create value."
+          }
+        },
+        {
+          "number": 15,
+          "question": "What is a tangible or intangible deliverable of an activity?",
+          "options": ["Outcome", "Output", "Deliverable", "Scope"],
+          "answer": "Output",
+          "explanation": {
+            "Output": "An output is a tangible or intangible deliverable of an activity."
+          }
+        },
+        {
+          "number": 16,
+          "question": "An outcome can be described as a?",
+          "options": ["Need for a stakeholder", "Set of related services", "Result for a stakeholder enabled by one or more outputs", "Result for a service provider enabled by one or more products"],
+          "answer": "Result for a stakeholder enabled by one or more outputs",
+          "explanation": {
+            "Result for a stakeholder enabled by one or more outputs": "An outcome is a result for a stakeholder enabled by one or more outputs."
+          }
+        },
+        {
+          "number": 17,
+          "question": "What are the two types of cost from a service consumer's perspective?",
+          "options": ["Costs removed and cost imposed by the service", "Risk cost and product cost", "Risk cost and cost removed", "Cost imposed and risk cost"],
+          "answer": "Costs removed and cost imposed by the service",
+          "explanation": {
+            "Costs removed and cost imposed by the service": "From the service consumer's perspective, there are two types of cost involved in service relationships, cost removed and cost imposed by the service."
+          }
+        },
+        {
+          "number": 18,
+          "question": "What is a possible event that could cause harm to loss?",
+          "options": ["Service failure", "Risk", "Service loss", "Service risk"],
+          "answer": "Risk",
+          "explanation": {
+            "Risk": "Risk is a possible event that could cause harm or loss, or make it more difficult to achieve objectives."
+          }
+        },
+        {
+          "number": 19,
+          "question": "What can be summarized as 'what the service can do'?",
+          "options": ["Warranty", "Service function", "Service performance", "Utility"],
+          "answer": "Utility",
+          "explanation": {
+            "Utility": "Utility can be summarized as 'what the service can do'."
+          }
+        },
+        {
+          "number": 20,
+          "question": "What practice ensures that conflicting stakeholder requirements are mediated appropriately?",
+          "options": ["Relationship management practice", "Stakeholder Management", "Conflict management", "Problem management"],
+          "answer": "Relationship management practice",
+          "explanation": {
+            "Relationship management practice": "The relationship management practice ensures that conflicting stakeholder requirements are mediated appropriately."
+          }
+        },
+        {
+          "number": 21,
+          "question": "What would be considered 'fit for use'",
+          "options": ["Service", "Utility", "Warrant", "Usage"],
+          "answer": "Warrant",
+          "explanation": {
+            "Warrant": "Warranty can be used to determine whether a service is 'fit for use'."
+          }
+        },
+        {
+          "number": 22,
+          "question": "What can cause services to become undeliverable or not meeting expectations?",
+          "options": ["Cost of service being too high", "Risk not being removed", "Failing to address all four dimensions properly", "Service introduction new risk"],
+          "answer": "Failing to address all four dimensions properly",
+          "explanation": {
+            "Failing to address all four dimensions properly": "Failing to address all four dimensions properly may result in services becoming undeliverable, or not meeting expectations of quality or efficiency."
+          }
+        },
+        {
+          "number": 23,
+          "question": "What should every person in the organization have a clear understanding of?",
+          "options": ["Their contribution towards creating value", "Their authority levels", "Their skillset and abilities", "Their work schedules"],
+          "answer": "Their contribution towards creating value",
+          "explanation": {
+            "Their contribution towards creating value": "Every person in the organization should have a clear understanding of their contribution towards creating value for the organization."
+          }
+        },
+        {
+          "number": 24,
+          "question": "The organizations and people dimension of a service covers: 1. Roles 2. Formal organization structures 3. Processes",
+          "options": ["1, 2 and 3", "1 and 2 only", "1 and 3 only", "None of the above"],
+          "answer": "1 and 2 only",
+          "explanation": {
+            "1 and 2 only": "The organizations and people dimension of a service covers roles and responsibilities, formal organizational structures, culture, and required staffing and competencies, all of which are related to the creation, delivery, and improvement of a service."
+          }
+        },
+        {
+          "number": 25,
+          "question": "What is one or more metrics that define expected or achieved service quality?",
+          "options": ["Service requirement", "Service goal", "Service achievement", "Service level"],
+          "answer": "Service level",
+          "explanation": {
+            "Service level": "Service level is one or more metrics that define expected or achieved service quality."
+          }
+        },
+        {
+          "number": 26,
+          "question": "Which approach to deployment is done to when new or changed components are deployed to all targets at the same time?",
+          "options": ["Phased deployment", "Continuous delivery", "Big bang deployment", "Pull deployment"],
+          "answer": "Big bang deployment",
+          "explanation": {
+            "Big bang deployment": "Big bang deployment is when new or changed components are deployed to all targets at the same time. This approach is sometimes needed when dependencies prevent the simultaneous use of both the old and new components."
+          }
+        },
+        {
+          "number": 27,
+          "question": "________________ is any financially valuable component that can contribute to the delivery of an IT product or service.",
+          "options": ["Service Asset", "Product Asset", "User Asset", "IT Asset"],
+          "answer": "IT Asset",
+          "explanation": {
+            "IT Asset": "IT asset is any financially valuable component that can contribute to the delivery of an IT product or service."
+          }
+        },
+        {
+          "number": 28,
+          "question": "Information security management must be driven from?",
+          "options": ["Users", "Senior level management", "IT Workers", "Regulators"],
+          "answer": "Senior level management",
+          "explanation": {
+            "Senior level management": "Information security management must be driven from the most senior level in the organization, based on clearly understood governance requirements and organizational policies."
+          }
+        },
+        {
+          "number": 29,
+          "question": "What would be considered 'fit for purpose'?",
+          "options": ["Service", "Utility", "Warranty", "Usage"],
+          "answer": "Utility",
+          "explanation": {
+            "Utility": "Utility can be used to determine whether a service is 'fit for purpose'."
+          }
+        },
+        {
+          "number": 30,
+          "question": "What ensures that security incidents don't occur?",
+          "options": ["Prevention", "Detection", "Correction", "Users"],
+          "answer": "Prevention",
+          "explanation": {
+            "Prevention": "Prevention is ensuring that security incident don't occur."
+          }
+        },
+        {
+          "number": 31,
+          "question": "What recovers from incidents after they have been detected?",
+          "options": ["Prevention", "Detection", "Correction", "Users"],
+          "answer": "Correction",
+          "explanation": {
+            "Correction": "Correction is recovering from incidents after they are detected."
+          }
+        },
+        {
+          "number": 32,
+          "question": "The purpose of the __________ practice is to protect the information needed by the organization to conduct its business.",
+          "options": ["Information security management", "Asset security management", "User security management", "Problem management"],
+          "answer": "Information security management",
+          "explanation": {
+            "Information security management": "The purpose of the information security management practice is to protect the information needed by the organization to conduct its business."
+          }
+        },
+        {
+          "number": 33,
+          "question": "What ensures that someone can't deny that they took an action?",
+          "options": ["Confidentiality", "Integrity", "Non-repudiation", "Availability"],
+          "answer": "Non-repudiation",
+          "explanation": {
+            "Non-repudiation": "Non-repudiation is ensuring that someone can't deny that they took an action."
+          }
+        },
+        {
+          "number": 34,
+          "question": "What ensures that someone is who they claim to be?",
+          "options": ["Confidentiality", "Integrity", "Non-repudiation", "Authentication"],
+          "answer": "Authentication",
+          "explanation": {
+            "Authentication": "Authentication is ensuring that someone is who they claim to be such as providing a password to a system."
+          }
+        },
+        {
+          "number": 35,
+          "question": "What can be summarized as 'how the service performs'?",
+          "options": ["Warranty", "Service function", "Service performance", "Utility"],
+          "answer": "Warranty",
+          "explanation": {
+            "Warranty": "Warranty can be summarized as 'how the service performs'."
+          }
+        },
+        {
+          "number": 36,
+          "question": "Information security is critically dependent on the?",
+          "options": ["IT Assets", "Behavior of people", "Software used throughout the organization", "Skills of IT worker"],
+          "answer": "Behavior of people",
+          "explanation": {
+            "Behavior of people": "Information security is critically dependent on the behavior of people throughout the organization."
+          }
+        },
+        {
+          "number": 37,
+          "question": "The organization should evaluate and select suppliers based on 1. Importance and impact 2. Risk 3. Cost",
+          "options": ["1, 2, and 3", "1 and 2 only", "2 and 3 only", "1 and 3 only"],
+          "answer": "1, 2, and 3",
+          "explanation": {
+            "1, 2, and 3": "The organization should evaluate and select suppliers based on Importance and impact which is the value of the service to the business, provided by the supplier. Risk which is associated with using the service. The cost of the service and its provision."
+          }
+        },
+        {
+          "number": 38,
+          "question": "What is the ability of an organization, person, process, application, configuration item, or IT service to carry out an activity called?",
+          "options": ["Offering", "Capability", "Skills", "Competence"],
+          "answer": "Capability",
+          "explanation": {
+            "Capability": "A capability is the ability of an organization, person, process, application, configuration item, or IT service to carry out an activity."
+          }
+        },
+        {
+          "number": 39,
+          "question": "What is a repeatable approach to the management of a particular type of change?",
+          "options": ["Change strategy", "Change method", "Change model", "Change types"],
+          "answer": "Change model",
+          "explanation": {
+            "Change model": "A change model is a repeatable approach to the management of a particular type of change."
+          }
+        },
+        {
+          "number": 40,
+          "question": "What is A security objective that ensures information is not made available or disclosed to unauthorized entities?",
+          "options": ["Confidentiality", "Entity", "Availability", "Authentication"],
+          "answer": "Confidentiality",
+          "explanation": {
+            "Confidentiality": "Confidentiality is a security objective that ensures information is not made available or disclosed to unauthorized entities."
+          }
+        }
+      ]
+    }
+  ]
+}
+
+

@@ -1,0 +1,437 @@
+{
+  "chapters": [
+    {
+      "chapter": "Mock 3 (NL)",
+      "description": "ITIL 4 - Oefentoets Mock 3 (NL, vragen 1-40)",
+      "questions": [
+        {
+          "number": 1,
+          "question": "Wat is een rechtvaardiging voor de besteding van organisatorische middelen, met informatie over kosten, baten, opties, risico's en issues?",
+          "options": ["Zakelijke uitgaven", "Zakelijke beoordeling", "Zakelijke impactbeoordeling", "Business case"],
+          "answer": "Business case",
+          "explanation": {
+            "Business case": "Een business case is een rechtvaardiging voor de besteding van middelen, met informatie over kosten, baten, opties, risico's en issues."
+          }
+        },
+        {
+          "number": 2,
+          "question": "Wie is verantwoordelijk voor voortdurende verbetering?",
+          "options": ["Alleen management", "Iedereen", "Servicedesk", "Alleen gebruikers"],
+          "answer": "Iedereen",
+          "explanation": {
+            "Iedereen": "Voortdurende verbetering is de verantwoordelijkheid van iedereen."
+          }
+        },
+        {
+          "number": 3,
+          "question": "Welke uitspraak over het register voor voortdurende verbetering (CIR) is correct?",
+          "options": [
+            "Er kan meer dan één CIR in een organisatie bestaan",
+            "Er mag slechts één CIR voor de hele organisatie zijn",
+            "Het CIR mag alleen door één groep worden bijgewerkt",
+            "Een CIR is niet nodig in een organisatie"
+          ],
+          "answer": "Er kan meer dan één CIR in een organisatie bestaan",
+          "explanation": {
+            "Er kan meer dan één CIR in een organisatie bestaan": "Er kan meer dan één CIR bestaan, bijvoorbeeld op team-, afdelings-, businessunit- en organisatieniveau."
+          }
+        },
+        {
+          "number": 4,
+          "question": "Waar legt een organisatie verbeterideeën vast?",
+          "options": [
+            "In het register met wijzigingsverzoeken",
+            "In het register voor voortdurende verbetering",
+            "In het IT-assetregister",
+            "In het problemregister"
+          ],
+          "answer": "In het register voor voortdurende verbetering",
+          "explanation": {
+            "In het register voor voortdurende verbetering": "Verbeterideeën worden vastgelegd, beoordeeld en geprioriteerd in het register voor voortdurende verbetering (CIR)."
+          }
+        },
+        {
+          "number": 5,
+          "question": "Informatiebeveiliging is in hoge mate afhankelijk van... ?",
+          "options": [
+            "De beschikbare technologie voor beveiligde IT-assets",
+            "Het vaardigheidsniveau van de IT-servicemanager",
+            "Het gedrag van mensen in de hele organisatie",
+            "Het type beveiligingssoftware dat wordt gebruikt"
+          ],
+          "answer": "Het gedrag van mensen in de hele organisatie",
+          "explanation": {
+            "Het gedrag van mensen in de hele organisatie": "Informatiebeveiliging is sterk afhankelijk van het gedrag van mensen in de organisatie."
+          }
+        },
+        {
+          "number": 6,
+          "question": "Door welk niveau wordt informatiebeveiligingsmanagement primair gedreven?",
+          "options": [
+            "Gebruikers",
+            "De IT-beveiligingsmanager",
+            "Het hoogste niveau van de organisatie",
+            "Het type beschikbare beveiligingssoftware"
+          ],
+          "answer": "Het hoogste niveau van de organisatie",
+          "explanation": {
+            "Het hoogste niveau van de organisatie": "Informatiebeveiligingsmanagement moet worden gedreven vanaf het hoogste niveau in de organisatie, gebaseerd op governance en beleid."
+          }
+        },
+        {
+          "number": 7,
+          "question": "Bij informatiebeveiligingsmanagement moet een balans worden gevonden tussen bescherming en... ?",
+          "options": ["Innovatie mogelijk maken", "Middelen besparen", "Middelen verbruiken", "Gebruikers trainen"],
+          "answer": "Innovatie mogelijk maken",
+          "explanation": {
+            "Innovatie mogelijk maken": "Het is belangrijk om bescherming te balanceren met innovatie; te strenge controles kunnen innovatie belemmeren."
+          }
+        },
+        {
+          "number": 8,
+          "question": "Welke uitspraak over non-repudiation is juist?",
+          "options": [
+            "Het gaat erom dat iemand kan ontkennen dat hij een actie heeft uitgevoerd",
+            "Het gaat erom dat iemand niet kan ontkennen dat hij een actie heeft uitgevoerd",
+            "Het gaat om welke acties iemand heeft uitgevoerd",
+            "Het heeft niets te maken met de acties van een individu"
+          ],
+          "answer": "Het gaat erom dat iemand niet kan ontkennen dat hij een actie heeft uitgevoerd",
+          "explanation": {
+            "Het gaat erom dat iemand niet kan ontkennen dat hij een actie heeft uitgevoerd": "Non-repudiation betekent dat iemand niet kan ontkennen dat hij een actie heeft uitgevoerd."
+          }
+        },
+        {
+          "number": 9,
+          "question": "Change enablement balanceert de noodzaak om waardevolle wijzigingen door te voeren met... ?",
+          "options": [
+            "De wijze van implementatie",
+            "De negatieve effecten van wijzigingen",
+            "De veranderende behoeften van de business",
+            "De kosten van de wijziging"
+          ],
+          "answer": "De negatieve effecten van wijzigingen",
+          "explanation": {
+            "De negatieve effecten van wijzigingen": "Change enablement balanceert het leveren van waarde met het beschermen tegen negatieve effecten."
+          }
+        },
+        {
+          "number": 10,
+          "question": "Organizational change management beheert de ______ aspecten van veranderingen om ervoor te zorgen dat verbeteringen en transformaties succesvol worden geïmplementeerd.",
+          "options": ["Kosten", "Mensen", "Service", "Implementatie"],
+          "answer": "Mensen",
+          "explanation": {
+            "Mensen": "Organizational change management richt zich op de mensenkant van veranderingen om succesvolle implementatie te garanderen."
+          }
+        },
+        {
+          "number": 11,
+          "question": "In high velocity organisaties is het gebruikelijk dat change management... ?",
+          "options": [
+            "Wordt gedaan door één enkele groep",
+            "Alleen door senior management wordt gedaan",
+            "Change approval decentraliseert",
+            "Change approval centraliseert"
+          ],
+          "answer": "Change approval decentraliseert",
+          "explanation": {
+            "Change approval decentraliseert": "In high velocity organisaties is het gebruikelijk om change approval te decentraliseren, vaak met peer review."
+          }
+        },
+        {
+          "number": 12,
+          "question": "Welke van de volgende is geen externe factor in het vier-dimensiesmodel?",
+          "options": ["Veranderingen", "Politiek", "Economisch", "Juridisch"],
+          "answer": "Veranderingen",
+          "explanation": {
+            "Veranderingen": "Het vier-dimensiesmodel gebruikt PESTEL (politiek, economisch, sociaal, technologisch, juridisch, ecologisch); veranderingen horen hier niet bij."
+          }
+        },
+        {
+          "number": 13,
+          "question": "Welke van de volgende ondersteunt de holistische benadering van servicemanagement?",
+          "options": ["Vier-dimensiesmodel", "Twee-dimensiesmodel", "Externe factorenmodel", "Servicemodel"],
+          "answer": "Vier-dimensiesmodel",
+          "explanation": {
+            "Vier-dimensiesmodel": "Het vier-dimensiesmodel ondersteunt de holistische benadering door evenwichtige overweging van alle dimensies."
+          }
+        },
+        {
+          "number": 14,
+          "question": "Welke van de volgende kan leiden tot slechte besluitvorming en het vermogen van de organisatie om interne capaciteiten te verbeteren aantasten?",
+          "options": [
+            "Onvoldoende veranderingen",
+            "Onvoldoende training van gebruikers",
+            "Onvoldoende zicht op werk",
+            "Onvoldoende inzicht in kosten"
+          ],
+          "answer": "Onvoldoende zicht op werk",
+          "explanation": {
+            "Onvoldoende zicht op werk": "Onvoldoende zicht op werk leidt tot slechte besluitvorming en belemmert verbetering."
+          }
+        },
+        {
+          "number": 15,
+          "question": "Welk richtinggevend principe gaat over het waarborgen dat servicemanagement het begrijpen van hoe alle onderdelen van een organisatie samenwerken omvat?",
+          "options": [
+            "Focus op waarde",
+            "Samenwerken en zichtbaarheid bevorderen",
+            "Start waar je bent",
+            "Holistisch denken en werken"
+          ],
+          "answer": "Holistisch denken en werken",
+          "explanation": {
+            "Holistisch denken en werken": "Dit principe benadrukt de noodzaak om te begrijpen hoe alle onderdelen geïntegreerd samenwerken."
+          }
+        },
+        {
+          "number": 16,
+          "question": "Welke van de volgende verwijst naar de stappen die een organisatie neemt bij het creëren van waarde?",
+          "options": ["Vier-dimensiesmodel", "De servicewaardeketen", "De richtinggevende principes", "De ITIL-practices"],
+          "answer": "De servicewaardeketen",
+          "explanation": {
+            "De servicewaardeketen": "De servicewaardeketen omvat zes activiteiten die de stappen van een organisatie bij het creëren van waarde vertegenwoordigen."
+          }
+        },
+        {
+          "number": 17,
+          "question": "Welke activiteit van de servicewaardeketen wordt uitgevoerd om een goed begrip te krijgen van de behoeften van stakeholders?",
+          "options": ["Plannen", "Verbeteren", "Betrekken", "Verkrijgen/bouwen"],
+          "answer": "Betrekken",
+          "explanation": {
+            "Betrekken": "De activiteit Betrekken zorgt voor inzicht in stakeholderbehoeften, transparantie en voortdurende betrokkenheid."
+          }
+        },
+        {
+          "number": 18,
+          "question": "Wat is het communicatiepunt tussen de serviceprovider en alle gebruikers?",
+          "options": ["Callcenter", "IT-directeur", "Servicedesk", "Servicecenter"],
+          "answer": "Servicedesk",
+          "explanation": {
+            "Servicedesk": "De servicedesk is het communicatiepunt tussen de serviceprovider en de gebruikers."
+          }
+        },
+        {
+          "number": 19,
+          "question": "Welke rol is verantwoordelijk voor de levering van een specifieke service?",
+          "options": ["Service-eigenaar", "Servicemanager", "Servicegebruiker", "Servicedirecteur"],
+          "answer": "Service-eigenaar",
+          "explanation": {
+            "Service-eigenaar": "De service-eigenaar is verantwoordelijk voor de levering van een specifieke service."
+          }
+        },
+        {
+          "number": 20,
+          "question": "Voor welk type wijzigingen hoeft een risicoanalyse niet telkens opnieuw te worden uitgevoerd?",
+          "options": ["Standaardwijzigingen", "Normale wijzigingen", "Noodwijzigingen", "Gebruikerswijzigingen"],
+          "answer": "Standaardwijzigingen",
+          "explanation": {
+            "Standaardwijzigingen": "Standaardwijzigingen zijn vooraf goedgekeurd en herhaalbaar, waardoor een risicoanalyse niet telkens nodig is."
+          }
+        },
+        {
+          "number": 21,
+          "question": "Welke practice coördineert de classificatie en eigenaarschap van incidenten?",
+          "options": ["Change enablement", "Incidentmanagement", "Problemmanagement", "Servicedesk"],
+          "answer": "Servicedesk",
+          "explanation": {
+            "Servicedesk": "De servicedesk coördineert classificatie en eigenaarschap van incidenten, en zorgt voor correcte opvolging."
+          }
+        },
+        {
+          "number": 22,
+          "question": "Betrekken, plannen en verbeteren zijn voorbeelden van?",
+          "options": ["Servicewaardeketen", "Servicewaarde", "Vier-dimensiesmodel", "Servicemanagement"],
+          "answer": "Servicewaardeketen",
+          "explanation": {
+            "Servicewaardeketen": "Betrekken, plannen en verbeteren zijn activiteiten van de servicewaardeketen."
+          }
+        },
+        {
+          "number": 23,
+          "question": "Welke is GEEN component van het servicewaardesysteem?",
+          "options": ["Governance", "Vier dimensies", "Servicewaardeketen", "Voortdurende verbetering"],
+          "answer": "Vier dimensies",
+          "explanation": {
+            "Vier dimensies": "De vier dimensies zijn een ondersteunend model, geen component van het servicewaardesysteem."
+          }
+        },
+        {
+          "number": 24,
+          "question": "Welke uitspraak is correct over effectief incidentmanagement?",
+          "options": [
+            "Vereist vaak een hoog niveau van samenwerking binnen en tussen teams",
+            "Vereist geen samenwerking tussen teams",
+            "Vereist alleen samenwerking tussen bepaalde teams",
+            "Vereist alleen samenwerking tussen servicedesk en change management"
+          ],
+          "answer": "Vereist vaak een hoog niveau van samenwerking binnen en tussen teams",
+          "explanation": {
+            "Vereist vaak een hoog niveau van samenwerking binnen en tussen teams": "Effectief incidentmanagement vereist sterke samenwerking binnen en tussen teams."
+          }
+        },
+        {
+          "number": 25,
+          "question": "Welke practice heeft grote invloed op hoe gebruikers services ervaren?",
+          "options": ["Leveranciersmanagement", "Relatiemanagement", "Servicedesk", "Deploymentmanagement"],
+          "answer": "Servicedesk",
+          "explanation": {
+            "Servicedesk": "De servicedesk beïnvloedt sterk de perceptie van gebruikers en de reputatie van de provider."
+          }
+        },
+        {
+          "number": 26,
+          "question": "Welke van de volgende is GEEN voorbeeld van een operationele metriek?",
+          "options": ["Beschikbaarheid", "Incidentresponstijden", "Doorlooptijden van wijzigingen en verzoeken", "Servicedeployments"],
+          "answer": "Servicedeployments",
+          "explanation": {
+            "Servicedeployments": "Operationele metriek zijn o.a. beschikbaarheid, responstijden en doorlooptijden; servicedeployments vallen daar niet onder."
+          }
+        },
+        {
+          "number": 27,
+          "question": "De afhandeling van serviceverzoeken omvat doorgaans welk type wijziging?",
+          "options": ["Noodwijziging", "Standaardwijziging", "Normale wijziging", "Versnelde wijziging"],
+          "answer": "Standaardwijziging",
+          "explanation": {
+            "Standaardwijziging": "De afhandeling van serviceverzoeken omvat meestal vooraf gedefinieerde, laag-risico standaardwijzigingen."
+          }
+        },
+        {
+          "number": 28,
+          "question": "Welke uitspraak is correct over de afhandeling van serviceverzoeken?",
+          "options": [
+            "Moet zo veel mogelijk gestandaardiseerd en geautomatiseerd zijn",
+            "Mag niet geautomatiseerd zijn en moet door gebruikers zelf worden uitgevoerd",
+            "Mag alleen geautomatiseerd worden als gebruikers akkoord zijn",
+            "Automatisering mag geen optie zijn bij wijzigingsverzoeken"
+          ],
+          "answer": "Moet zo veel mogelijk gestandaardiseerd en geautomatiseerd zijn",
+          "explanation": {
+            "Moet zo veel mogelijk gestandaardiseerd en geautomatiseerd zijn": "Serviceverzoeken moeten zo veel mogelijk gestandaardiseerd en geautomatiseerd worden."
+          }
+        },
+        {
+          "number": 29,
+          "question": "Welke van de volgende beschrijft het beste een serviceverzoek?",
+          "options": [
+            "Uitrollen van een nieuwe wijziging",
+            "Uitrollen van nieuwe software",
+            "Het uitstellen van een nieuwe service",
+            "Feedback, complimenten of klachten over services"
+          ],
+          "answer": "Feedback, complimenten of klachten over services",
+          "explanation": {
+            "Feedback, complimenten of klachten over services": "Serviceverzoeken omvatten o.a. feedback, complimenten en klachten."
+          }
+        },
+        {
+          "number": 30,
+          "question": "Welke deployment-aanpak maakt frequente feedback van klanten mogelijk?",
+          "options": ["Gefaseerde deployment", "Big Bang-deployment", "Pull-deployment", "Continue levering"],
+          "answer": "Continue levering",
+          "explanation": {
+            "Continue levering": "Continue levering integreert, test en levert frequent om feedbackloops met klanten mogelijk te maken."
+          }
+        },
+        {
+          "number": 31,
+          "question": "Een router kreeg onlangs een geheugenupgrade. Welke practice betreft het terugplaatsen naar de live-omgeving?",
+          "options": ["Servicedesk", "Deploymentmanagement", "Service level management", "IT-assetmanagement"],
+          "answer": "Deploymentmanagement",
+          "explanation": {
+            "Deploymentmanagement": "Deploymentmanagement verplaatst nieuwe of gewijzigde componenten naar de live-omgeving."
+          }
+        },
+        {
+          "number": 32,
+          "question": "Welke practice helpt het gebruik van waardevolle middelen te optimaliseren?",
+          "options": ["IT-assetmanagement", "Servicedesk", "Incidentmanagement", "Problemmanagement"],
+          "answer": "IT-assetmanagement",
+          "explanation": {
+            "IT-assetmanagement": "IT-assetmanagement helpt waardevolle middelen optimaal te benutten."
+          }
+        },
+        {
+          "number": 33,
+          "question": "Een IT-asset is elk __________ waardevol component dat kan bijdragen aan de levering van een IT-product of service.",
+          "options": ["Commercieel", "Financieel", "Gebruiker", "Service"],
+          "answer": "Financieel",
+          "explanation": {
+            "Financieel": "Een IT-asset is elk financieel waardevol component dat bijdraagt aan de levering van een IT-product of service."
+          }
+        },
+        {
+          "number": 34,
+          "question": "Hoe heet het wanneer nieuwe of gewijzigde componenten gefaseerd naar de productieomgeving worden gebracht?",
+          "options": ["Gefaseerde deployment", "Continue levering", "Big Bang-deployment", "Pull-deployment"],
+          "answer": "Gefaseerde deployment",
+          "explanation": {
+            "Gefaseerde deployment": "Gefaseerde deployment voert nieuwe of gewijzigde componenten stap voor stap uit naar delen van de productieomgeving."
+          }
+        },
+        {
+          "number": 35,
+          "question": "Nieuwe software is beschikbaar gesteld op het netwerk en gebruikers kunnen het installeren op een voor hen geschikt moment. Welke deployment-aanpak is dit?",
+          "options": ["Gefaseerde deployment", "Big Bang-deployment", "Pull-deployment", "Gebruikersdeployment"],
+          "answer": "Pull-deployment",
+          "explanation": {
+            "Pull-deployment": "Pull-deployment betekent dat gebruikers zelf nieuwe software uit een repository kunnen ophalen en installeren wanneer zij dat willen."
+          }
+        },
+        {
+          "number": 36,
+          "question": "Change enablement moet de balans vinden tussen het doorvoeren van waardevolle wijzigingen en... ?",
+          "options": [
+            "De menselijke aspecten van veranderingen",
+            "De negatieve effecten van veranderingen",
+            "De benodigde producten en services",
+            "De benodigde services voor de wijziging"
+          ],
+          "answer": "De negatieve effecten van veranderingen",
+          "explanation": {
+            "De negatieve effecten van veranderingen": "Change enablement balanceert het leveren van waarde met het beschermen van klanten en gebruikers tegen negatieve effecten."
+          }
+        },
+        {
+          "number": 37,
+          "question": "In welk type organisatie is het gebruikelijk om een gedecentraliseerd goedkeuringsproces voor changes te gebruiken?",
+          "options": ["Low-velocity organisatie", "Kleine organisatie", "High-velocity organisatie", "Grote organisatie"],
+          "answer": "High-velocity organisatie",
+          "explanation": {
+            "High-velocity organisatie": "In high-velocity organisaties is het gebruikelijk om change approval te decentraliseren, vaak met peer review."
+          }
+        },
+        {
+          "number": 38,
+          "question": "De IT-afdeling gaat in het weekend een nieuwe applicatie bij alle gebruikers installeren. Welke deployment-aanpak is dit?",
+          "options": ["Gefaseerde deployment", "Continue levering", "Big Bang-deployment", "Alles-in-één deployment"],
+          "answer": "Big Bang-deployment",
+          "explanation": {
+            "Big Bang-deployment": "Big Bang-deployment betekent dat nieuwe of gewijzigde componenten in één keer naar alle doelomgevingen worden uitgerold."
+          }
+        },
+        {
+          "number": 39,
+          "question": "Events worden vaak geclassificeerd als welke van de volgende?\n1. Informatief\n2. Waarschuwing\n3. Uitzondering",
+          "options": ["1 en 2", "1 en 3", "2 en 3", "Alle bovenstaande"],
+          "answer": "Alle bovenstaande",
+          "explanation": {
+            "Alle bovenstaande": "Events worden vaak geclassificeerd als informatief, waarschuwing en uitzondering."
+          }
+        },
+        {
+          "number": 40,
+          "question": "Het ITIL-servicewaardesysteem (SVS) bevat hoeveel algemene management practices?",
+          "options": ["10", "12", "14", "26"],
+          "answer": "14",
+          "explanation": {
+            "14": "Het ITIL-SVS bevat 14 algemene management practices, 17 servicemanagement practices en 3 technische management practices."
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
